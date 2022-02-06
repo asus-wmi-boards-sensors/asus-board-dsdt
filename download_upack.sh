@@ -24,7 +24,7 @@ do
 done
 
 # unpack
-ls -1 *.ZIP | awk '{print "unzip -u " $1 }' || exit
+ls -1 | grep -i "\.zip" |  awk '{print "unzip -o " $1 }' | sh -
 # remove old capsules and unrequired files
 rm -rf *.exe *CAP_output *.dsl *.aml || exit
 # unpack capsules
