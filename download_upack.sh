@@ -3,6 +3,12 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X570-P-ASUS-4021.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X570-PRO-ASUS-4021.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B550M-C-SI-2423.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X470-F-GAMING-ASUS-5861.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X470-I-GAMING-ASUS-4603.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-E-GAMING-ASUS-4602.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-F-GAMING-ASUS-4602.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-F-GAMING-II-ASUS-4602.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-I-GAMING-ASUS-4602.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B550-A-GAMING-ASUS-2423.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B550-E-GAMING-ASUS-2423.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B550-F-GAMING-ASUS-2423.ZIP \
