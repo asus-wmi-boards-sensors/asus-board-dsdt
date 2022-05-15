@@ -4,6 +4,18 @@ Collection of DSDT files required for support of https://bugzilla.kernel.org/sho
 
 All files are provided by motherboard users or downloaded and extracted from support section of ASUS website.
 
+# Port definition
+```
+	Name (IOHW, 0x0290)
+
+	OperationRegion (SHWM, SystemIO, IOHW, 0x0A)
+	Field (SHWM, ByteAcc, NoLock, Preserve)
+	{
+		Offset (0x05),
+		HIDX,   8,
+		HDAT,   8
+	}
+```
 # Required code samples for nct6775 support (`ROG STRIX B550-E GAMING` based)
 
 ## Hex to Function name
