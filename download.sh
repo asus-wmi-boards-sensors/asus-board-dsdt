@@ -30,6 +30,7 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X570-E-GAMING-WIFI-II-ASUS-4204.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X570-F-GAMING-ASUS-4021.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X570-I-GAMING-ASUS-4021.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X670E-I-GAMING-WIFI-ASUS-0804.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z370-G-GAMING-ASUS-3004.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z370-H-GAMING-ASUS-2701.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z390-E-GAMING-ASUS-2004.ZIP \
