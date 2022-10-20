@@ -398,3 +398,25 @@ For monitoring GUID: "466747A0-70EC-11DE-8A39-0800200C9A66"
 		Return (Ones)
 	}
 ```
+
+# Additional info
+
+## _WDG Format
+
+From [WMI](https://wiki.ubuntu.com/FirmwareTestSuite/Reference/wmi)
+and [fwts](https://git.launchpad.net/fwts).
+
+```
+typedef struct {
+	uint8_t	guid[16];			/* GUID */
+	union {
+		uint8_t 	obj_id[2];	/* Object Identifier */
+		struct {
+			uint8_t	notify_id;	/* Notify Identifier */
+			uint8_t	reserved;	/* Reserved */
+		} notify;
+	} id;
+	uint8_t	instance;			/* Instance */
+	uint8_t	flags;				/* fwts_wmi_flags */
+} __attribute__ ((packed)) fwts_wdg_info;
+```
