@@ -3,7 +3,7 @@
 # unpack
 ls -1 | grep -i "\.zip" |  awk '{print "unzip -o " $1 }' | sh -
 # remove old capsules and unrequired files
-rm -rf *.exe *CAP_output *.dsl || exit
+rm -rf *.exe *.EXE *CAP_output *.dsl || exit
 # unpack capsules
 ls -1 *.CAP | awk '{print  "../bin/uefi-firmware-parser --brute -e -O " $1 }' | sh -  || exit
 # move all DSDL to root directory
