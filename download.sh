@@ -53,6 +53,12 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z490-G-GAMING-WIFI-ASUS-2403.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z490-H-GAMING-ASUS-2403.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z490-I-GAMING-ASUS-2403.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550M-E-ASUS-2803.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550M-E-WIFI-ASUS-2803.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550M-PLUS-ASUS-2803.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550M-PLUS-WIFI-II-ASUS-2803.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550-PLUS-ASUS-2803.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550-PLUS-WIFI-II-ASUS-2803.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-X570-PLUS-ASUS-4021.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/MAXIMUS-VII-HERO/MAXIMUS-VII-HERO-ASUS-3201.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170-DELUXE/Z170-DELUXE-ASUS-3801.zip \
