@@ -445,7 +445,7 @@ For monitoring GUID: "466747A0-70EC-11DE-8A39-0800200C9A66"
 	}
 ```
 
-# Required code samples for asus_wmi_ec_sensors boards support (`ROG STRIX X570-E GAMING` based)
+# Required code samples for asus_ec_sensors boards support (`ROG STRIX X570-E GAMING` based)
 
 ## Hex to Function name
 

@@ -55,12 +55,59 @@ def check_port(content):
         return False
     return True
 
+def cleanup_lines(content):
+    while "\r" in content:
+        content = content.replace("\r", " ")
+    while "  " in content:
+        content = content.replace("  ", " ")
+    return content
 
 def check_custom_port(content):
     for line in content.split("\n"):
         if ", 0x0290)" in line and "Name (" in line:
             return True
     return False
+
+
+def check_method(content, method):
+    if f"Method ({method}, 1, Serialized)" not in content:
+        return False
+    content = cleanup_lines(content)
+    if f"Method ({method}, 1, Serialized)\n {{\n Return (Ones)\n }}\n" in content:
+        return False
+    return True
+
+
+def check_wmi(content):
+    if "Case (0x52574543)" not in content:
+        return False
+    if "Case (0x51574543)" not in content:
+        return False
+    if "Case (0x50574543)" not in content:
+        return False
+    if "Case (0x50574572)" not in content:
+        return False
+    if "Case (0x50574574)" not in content:
+        return False
+    if not check_method(content, "RSEN"):
+        return False
+    if not check_method(content, "GNAM"):
+        return False
+    if not check_method(content, "GNUM"):
+        return False
+    if not check_method(content, "UPSB"):
+        return False
+    if not check_method(content, "GVER"):
+        return False
+    return True
+
+
+def check_ec(content):
+    if "Case (0x42524543)" not in content:
+        return False
+    if not check_method(content, "BREC"):
+        return False
+    return True
 
 
 def check_nct6775(content):
@@ -72,13 +119,13 @@ def check_nct6775(content):
         return False
     if "Case (0x5748574D)" not in content:
         return False
-    if "Method (RSIO, 1, Serialized)" not in content:
+    if not check_method(content, "RSIO"):
         return False
-    if "Method (WSIO, 1, Serialized)" not in content:
+    if not check_method(content, "WSIO"):
         return False
-    if "Method (RHWM, 1, Serialized)" not in content:
+    if not check_method(content, "RHWM"):
         return False
-    if "Method (WHWM, 1, Serialized)" not in content:
+    if not check_method(content, "WHWM"):
         return False
     return True
 
@@ -112,6 +159,7 @@ if __name__ == "__main__":
                 board_name = gen_board_name(board_group)
                 with open(filename, "br") as f:
                     content = f.read().decode("utf8")
+
                     asus_wmi = "N"
                     asus_ec = "N"
                     asus_nct6775 = "N"
@@ -119,9 +167,12 @@ if __name__ == "__main__":
                         if check_port(content):
                             if check_nct6775(content):
                                 asus_nct6775 = "Y"
-                            asus_wmi = "Y"
-                            asus_ec = "Y"
-                        elif check_custom_port(content):
+                            if check_ec(content):
+                                asus_ec = "Y"
+                            if check_wmi(content):
+                                asus_wmi = "Y"
+                    # Workarount needed
+                    if asus_nct6775 == "N" and check_custom_port(content):
                             asus_nct6775 = "P"
                 print (f"Board: {board_name}, Version: {board_version} Revision: {board_hash}")
                 table.append(
