@@ -22,7 +22,7 @@ def gen_board_name(board_group):
         # fix WIFI name
         if board_group[-1].upper() == "WIFI":
             board_group[-1] = "(WI-FI)"
-        if len(board_group[3]) == 1:
+        if len(board_group[3]) == 1 or board_group[3].upper() == "PLUS":
             board_group = [
                 board_group[0], board_group[1],
                 f"{board_group[2]}-{board_group[3]}"
@@ -55,12 +55,14 @@ def check_port(content):
         return False
     return True
 
+
 def cleanup_lines(content):
     while "\r" in content:
         content = content.replace("\r", " ")
     while "  " in content:
         content = content.replace("  ", " ")
     return content
+
 
 def check_custom_port(content):
     for line in content.split("\n"):
@@ -176,7 +178,7 @@ if __name__ == "__main__":
                             asus_nct6775 = "P"
                 print (f"Board: {board_name}, Version: {board_version} Revision: {board_hash}")
                 table.append(
-                    f"| {board_name} {' ' * (32 - len(board_name))} "
+                    f"| {board_name}{' ' * (32 - len(board_name))} "
                     f"| {asus_wmi}{' ' * 3} "
                     f"| {asus_nct6775}{' ' * 3} "
                     f"| {asus_ec}{' ' * 3} "
@@ -184,4 +186,5 @@ if __name__ == "__main__":
                     f"| {board_producer}{' ' * (4 - len(board_producer))} |"
                 )
 
+    print ("| board                            | asus_wmi_sensors | nct6777 | asus_ec_sensors |")
     print ("\n".join(sorted(table)))
