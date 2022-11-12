@@ -1,58 +1,83 @@
 import sys
 import os
 
-# Upstreamed nct6775
-NCT6775_BOARDS = [
-	"PRO H410T",
-	"ProArt X570-CREATOR WIFI",
-	"Pro B550M-C",
-	"Pro WS X570-ACE",
-	"PRIME B360-PLUS",
-	"PRIME B460-PLUS",
-	"PRIME B550-PLUS",
-	"PRIME B550M-A",
-	"PRIME B550M-A (WI-FI)",
-	"PRIME H410M-R",
-	"PRIME X570-P",
-	"PRIME X570-PRO",
-	"ROG CROSSHAIR VIII DARK HERO",
-	"ROG CROSSHAIR VIII FORMULA",
-	"ROG CROSSHAIR VIII HERO",
-	"ROG CROSSHAIR VIII IMPACT",
-	"ROG STRIX B550-A GAMING",
-	"ROG STRIX B550-E GAMING",
-	"ROG STRIX B550-F GAMING",
-	"ROG STRIX B550-F GAMING (WI-FI)",
-	"ROG STRIX B550-F GAMING WIFI II",
-	"ROG STRIX B550-I GAMING",
-	"ROG STRIX B550-XE GAMING (WI-FI)",
-	"ROG STRIX X570-E GAMING",
-	"ROG STRIX X570-E GAMING WIFI II",
-	"ROG STRIX X570-F GAMING",
-	"ROG STRIX X570-I GAMING",
-	"ROG STRIX Z390-E GAMING",
-	"ROG STRIX Z390-F GAMING",
-	"ROG STRIX Z390-H GAMING",
-	"ROG STRIX Z390-I GAMING",
-	"ROG STRIX Z490-A GAMING",
-	"ROG STRIX Z490-E GAMING",
-	"ROG STRIX Z490-F GAMING",
-	"ROG STRIX Z490-G GAMING",
-	"ROG STRIX Z490-G GAMING (WI-FI)",
-	"ROG STRIX Z490-H GAMING",
-	"ROG STRIX Z490-I GAMING",
-	"TUF GAMING B550M-PLUS",
-	"TUF GAMING B550M-PLUS (WI-FI)",
-	"TUF GAMING B550-PLUS",
-	"TUF GAMING B550-PLUS WIFI II",
-	"TUF GAMING B550-PRO",
-	"TUF GAMING X570-PLUS",
-	"TUF GAMING X570-PLUS (WI-FI)",
-	"TUF GAMING X570-PRO (WI-FI)",
-	"TUF GAMING Z490-PLUS",
-	"TUF GAMING Z490-PLUS (WI-FI)",
+# Upstreamed wmi
+WMI_BOARDS = [
+    "PRIME X399-A",
+    "PRIME X470-PRO",
+    "ROG CROSSHAIR VI EXTREME",
+    "CROSSHAIR VI HERO",
+    "ROG CROSSHAIR VI HERO (WI-FI AC)",
+    "ROG CROSSHAIR VII HERO",
+    "ROG CROSSHAIR VII HERO (WI-FI)",
+    "ROG STRIX B450-E GAMING",
+    "ROG STRIX B450-F GAMING",
+    "ROG STRIX B450-F GAMING II",
+    "ROG STRIX B450-I GAMING",
+    "ROG STRIX X399-E GAMING",
+    "ROG STRIX X470-F GAMING",
+    "ROG STRIX X470-I GAMING",
+    "ROG ZENITH EXTREME",
+    "ROG ZENITH EXTREME ALPHA",
 ]
 
+# Upstreamed nct6775
+NCT6775_BOARDS = [
+    "PRO H410T",
+    "ProArt X570-CREATOR WIFI",
+    "Pro B550M-C",
+    "Pro WS X570-ACE",
+    "PRIME B360-PLUS",
+    "PRIME B460-PLUS",
+    "PRIME B550-PLUS",
+    "PRIME B550M-A",
+    "PRIME B550M-A (WI-FI)",
+    "PRIME H410M-R",
+    "PRIME X570-P",
+    "PRIME X570-PRO",
+    "ROG CROSSHAIR VIII DARK HERO",
+    "ROG CROSSHAIR VIII FORMULA",
+    "ROG CROSSHAIR VIII HERO",
+    "ROG CROSSHAIR VIII IMPACT",
+    "ROG STRIX B550-A GAMING",
+    "ROG STRIX B550-E GAMING",
+    "ROG STRIX B550-F GAMING",
+    "ROG STRIX B550-F GAMING (WI-FI)",
+    "ROG STRIX B550-F GAMING WIFI II",
+    "ROG STRIX B550-I GAMING",
+    "ROG STRIX B550-XE GAMING (WI-FI)",
+    "ROG STRIX X570-E GAMING",
+    "ROG STRIX X570-E GAMING WIFI II",
+    "ROG STRIX X570-F GAMING",
+    "ROG STRIX X570-I GAMING",
+    "ROG STRIX Z390-E GAMING",
+    "ROG STRIX Z390-F GAMING",
+    "ROG STRIX Z390-H GAMING",
+    "ROG STRIX Z390-I GAMING",
+    "ROG STRIX Z490-A GAMING",
+    "ROG STRIX Z490-E GAMING",
+    "ROG STRIX Z490-F GAMING",
+    "ROG STRIX Z490-G GAMING",
+    "ROG STRIX Z490-G GAMING (WI-FI)",
+    "ROG STRIX Z490-H GAMING",
+    "ROG STRIX Z490-I GAMING",
+    "TUF GAMING B550M-PLUS",
+    "TUF GAMING B550M-PLUS (WI-FI)",
+    "TUF GAMING B550-PLUS",
+    "TUF GAMING B550-PLUS WIFI II",
+    "TUF GAMING B550-PRO",
+    "TUF GAMING X570-PLUS",
+    "TUF GAMING X570-PLUS (WI-FI)",
+    "TUF GAMING X570-PRO (WI-FI)",
+    "TUF GAMING Z490-PLUS",
+    "TUF GAMING Z490-PLUS (WI-FI)",
+]
+
+# Bios dump has diffrent name to board name
+BOARDNAME_CONVERT = {
+    "Pro B550M-C-SI": "Pro B550M-C",
+    "PRO H410T-SI": "PRO H410T",
+}
 
 def gen_board_name(board_group):
     if board_group[0] == "ROG" and board_group[1] == "STRIX":
@@ -89,6 +114,10 @@ def gen_board_name(board_group):
     else:
         board_name = "-".join(board_group)
     board_name = board_name.replace("_", " ")
+
+    # conver board names
+    if board_name in BOARDNAME_CONVERT:
+        return BOARDNAME_CONVERT[board_name]
     return board_name
 
 
@@ -228,7 +257,10 @@ if __name__ == "__main__":
                             if check_ec(content):
                                 asus_ec = "U"
                             if check_wmi(content):
-                                asus_wmi = "U"
+                                if board_name in WMI_BOARDS:
+                                    asus_wmi = "Y"
+                                else:
+                                    asus_wmi = "U"
                     # Workarount needed
                     if asus_nct6775 == "N" and check_custom_port(content):
                             asus_nct6775 = "P"
