@@ -134,7 +134,7 @@ def check_nct6775(content):
 
 if __name__ == "__main__":
     current_dir = "."
-    table = []
+    table = {}
 
     if len(sys.argv) > 1:
         current_dir = sys.argv[1]
@@ -159,7 +159,7 @@ if __name__ == "__main__":
                     board_producer = board_group[-1].upper()
                     board_group = board_group[:-1]
                 board_name = gen_board_name(board_group)
-                with open(filename, "br") as f:
+                with open(f"{dirname}/{filename}", "br") as f:
                     content = f.read().decode("utf8")
 
                     asus_wmi = "N"
@@ -176,15 +176,22 @@ if __name__ == "__main__":
                     # Workarount needed
                     if asus_nct6775 == "N" and check_custom_port(content):
                             asus_nct6775 = "P"
-                print (f"Board: {board_name}, Version: {board_version} Revision: {board_hash}")
-                table.append(
-                    f"| {board_name}{' ' * (32 - len(board_name))} "
-                    f"| {asus_wmi}{' ' * 3} "
-                    f"| {asus_nct6775}{' ' * 3} "
-                    f"| {asus_ec}{' ' * 3} "
-                    f"| {board_hash} "
-                    f"| {board_producer}{' ' * (4 - len(board_producer))} |"
+                print (f"Board: {board_name}")
+                print (f"\tVersion: {board_version}")
+                print (f"\tRevision: {board_hash}")
+                print (f"\tProducer: {board_producer}")
+                if board_name not in table:
+                    table[board_name] = []
+                board_desc = (
+                    f"| {board_name}{' ' * (33 - len(board_name))}"
+                    f"| {asus_wmi}{' ' * 16}"
+                    f"| {asus_nct6775}{' ' * 7}"
+                    f"| {asus_ec}{' ' * 14} "
+                    f"|"
                 )
+                if board_desc not in table[board_name]:
+                    table[board_name].append(board_desc)
 
     print ("| board                            | asus_wmi_sensors | nct6777 | asus_ec_sensors |")
-    print ("\n".join(sorted(table)))
+    for key in sorted(table.keys()):
+        print ("\n".join(sorted(table[key])))
