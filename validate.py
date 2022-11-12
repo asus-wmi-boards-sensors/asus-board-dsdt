@@ -63,6 +63,26 @@ def check_custom_port(content):
     return False
 
 
+def check_nct6775(content):
+    if "Case (0x5253494F)" not in content:
+        return False
+    if "Case (0x5753494F)" not in content:
+        return False
+    if "Case (0x5248574D)" not in content:
+        return False
+    if "Case (0x5748574D)" not in content:
+        return False
+    if "Method (RSIO, 1, Serialized)" not in content:
+        return False
+    if "Method (WSIO, 1, Serialized)" not in content:
+        return False
+    if "Method (RHWM, 1, Serialized)" not in content:
+        return False
+    if "Method (WHWM, 1, Serialized)" not in content:
+        return False
+    return True
+
+
 if __name__ == "__main__":
     current_dir = "."
     table = []
@@ -97,9 +117,10 @@ if __name__ == "__main__":
                     asus_nct6775 = "N"
                     if check_entrypoint(content):
                         if check_port(content):
+                            if check_nct6775(content):
+                                asus_nct6775 = "Y"
                             asus_wmi = "Y"
                             asus_ec = "Y"
-                            asus_nct6775 = "Y"
                         elif check_custom_port(content):
                             asus_nct6775 = "P"
                 print (f"Board: {board_name}, Version: {board_version} Revision: {board_hash}")
