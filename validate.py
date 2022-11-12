@@ -1,6 +1,58 @@
 import sys
 import os
 
+# Upstreamed nct6775
+NCT6775_BOARDS = [
+	"PRO H410T",
+	"ProArt X570-CREATOR WIFI",
+	"Pro B550M-C",
+	"Pro WS X570-ACE",
+	"PRIME B360-PLUS",
+	"PRIME B460-PLUS",
+	"PRIME B550-PLUS",
+	"PRIME B550M-A",
+	"PRIME B550M-A (WI-FI)",
+	"PRIME H410M-R",
+	"PRIME X570-P",
+	"PRIME X570-PRO",
+	"ROG CROSSHAIR VIII DARK HERO",
+	"ROG CROSSHAIR VIII FORMULA",
+	"ROG CROSSHAIR VIII HERO",
+	"ROG CROSSHAIR VIII IMPACT",
+	"ROG STRIX B550-A GAMING",
+	"ROG STRIX B550-E GAMING",
+	"ROG STRIX B550-F GAMING",
+	"ROG STRIX B550-F GAMING (WI-FI)",
+	"ROG STRIX B550-F GAMING WIFI II",
+	"ROG STRIX B550-I GAMING",
+	"ROG STRIX B550-XE GAMING (WI-FI)",
+	"ROG STRIX X570-E GAMING",
+	"ROG STRIX X570-E GAMING WIFI II",
+	"ROG STRIX X570-F GAMING",
+	"ROG STRIX X570-I GAMING",
+	"ROG STRIX Z390-E GAMING",
+	"ROG STRIX Z390-F GAMING",
+	"ROG STRIX Z390-H GAMING",
+	"ROG STRIX Z390-I GAMING",
+	"ROG STRIX Z490-A GAMING",
+	"ROG STRIX Z490-E GAMING",
+	"ROG STRIX Z490-F GAMING",
+	"ROG STRIX Z490-G GAMING",
+	"ROG STRIX Z490-G GAMING (WI-FI)",
+	"ROG STRIX Z490-H GAMING",
+	"ROG STRIX Z490-I GAMING",
+	"TUF GAMING B550M-PLUS",
+	"TUF GAMING B550M-PLUS (WI-FI)",
+	"TUF GAMING B550-PLUS",
+	"TUF GAMING B550-PLUS WIFI II",
+	"TUF GAMING B550-PRO",
+	"TUF GAMING X570-PLUS",
+	"TUF GAMING X570-PLUS (WI-FI)",
+	"TUF GAMING X570-PRO (WI-FI)",
+	"TUF GAMING Z490-PLUS",
+	"TUF GAMING Z490-PLUS (WI-FI)",
+]
+
 
 def gen_board_name(board_group):
     if board_group[0] == "ROG" and board_group[1] == "STRIX":
@@ -168,11 +220,15 @@ if __name__ == "__main__":
                     if check_entrypoint(content):
                         if check_port(content):
                             if check_nct6775(content):
-                                asus_nct6775 = "Y"
+                                # already upstreamed
+                                if board_name in NCT6775_BOARDS:
+                                    asus_nct6775 = "Y"
+                                else:
+                                    asus_nct6775 = "U"
                             if check_ec(content):
-                                asus_ec = "Y"
+                                asus_ec = "U"
                             if check_wmi(content):
-                                asus_wmi = "Y"
+                                asus_wmi = "U"
                     # Workarount needed
                     if asus_nct6775 == "N" and check_custom_port(content):
                             asus_nct6775 = "P"
@@ -184,9 +240,9 @@ if __name__ == "__main__":
                     table[board_name] = []
                 board_desc = (
                     f"| {board_name}{' ' * (33 - len(board_name))}"
-                    f"| {asus_wmi}{' ' * 16}"
-                    f"| {asus_nct6775}{' ' * 7}"
-                    f"| {asus_ec}{' ' * 14} "
+                    f"| {asus_wmi}{' ' * (17 - len(asus_wmi)) }"
+                    f"| {asus_nct6775}{' ' * (8 - len(asus_nct6775))}"
+                    f"| {asus_ec}{' ' * (15 - len(asus_ec))} "
                     f"|"
                 )
                 if board_desc not in table[board_name]:

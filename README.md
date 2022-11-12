@@ -99,7 +99,8 @@ All files are provided by motherboard users or downloaded and extracted from sup
 | Z170M-PLUS                       | N                | P       | N               |
 
 * N - unsupported,
-* Y - supported,
+* Y - supported and upstreamed,
+* U - to upstream,
 * P - return zero, no valid sensors results or requires custom lock.
 
 # Entry point definition
