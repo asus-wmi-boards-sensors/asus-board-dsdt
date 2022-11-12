@@ -48,6 +48,21 @@ def check_entrypoint(content):
     return True
 
 
+def check_port(content):
+    if "Name (IOHW, 0x0290)" not in content:
+        return False
+    if ", SystemIO, IOHW, 0x0A)" not in content:
+        return False
+    return True
+
+
+def check_custom_port(content):
+    for line in content.split("\n"):
+        if ", 0x0290)" in line and "Name (" in line:
+            return True
+    return False
+
+
 if __name__ == "__main__":
     current_dir = "."
     table = []
@@ -77,15 +92,22 @@ if __name__ == "__main__":
                 board_name = gen_board_name(board_group)
                 with open(filename, "br") as f:
                     content = f.read().decode("utf8")
-                    asus_wmi = check_entrypoint(content)
-                    asus_ec = check_entrypoint(content)
-                    asus_nct6775 = check_entrypoint(content)
+                    asus_wmi = "N"
+                    asus_ec = "N"
+                    asus_nct6775 = "N"
+                    if check_entrypoint(content):
+                        if check_port(content):
+                            asus_wmi = "Y"
+                            asus_ec = "Y"
+                            asus_nct6775 = "Y"
+                        elif check_custom_port(content):
+                            asus_nct6775 = "P"
                 print (f"Board: {board_name}, Version: {board_version} Revision: {board_hash}")
                 table.append(
                     f"| {board_name} {' ' * (32 - len(board_name))} "
-                    f"| {'Y' if asus_wmi else 'N'}{' ' * 3} "
-                    f"| {'Y' if asus_nct6775 else 'N'}{' ' * 3} "
-                    f"| {'Y' if asus_ec else 'N'}{' ' * 3} "
+                    f"| {asus_wmi}{' ' * 3} "
+                    f"| {asus_nct6775}{' ' * 3} "
+                    f"| {asus_ec}{' ' * 3} "
                     f"| {board_hash} "
                     f"| {board_producer}{' ' * (4 - len(board_producer))} |"
                 )
