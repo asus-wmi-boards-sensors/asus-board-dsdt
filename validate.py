@@ -1,6 +1,29 @@
 import sys
 import os
 
+# Upstreamed ec
+EC_BOARDS = [
+    "PRIME X470-PRO",
+    "PRIME X570-PRO",
+    "ProArt X570-CREATOR WIFI",
+    "Pro WS X570-ACE",
+    "ROG CROSSHAIR VIII DARK HERO",
+    "ROG CROSSHAIR VIII FORMULA",
+    "ROG CROSSHAIR VIII HERO",
+    "ROG CROSSHAIR VIII HERO (WI-FI)",
+    "ROG MAXIMUS XI HERO",
+    "ROG MAXIMUS XI HERO (WI-FI)",
+    "ROG CROSSHAIR VIII IMPACT",
+    "ROG STRIX B550-E GAMING",
+    "ROG STRIX B550-I GAMING",
+    "ROG STRIX X570-E GAMING",
+    "ROG STRIX X570-E GAMING WIFI II",
+    "ROG STRIX X570-F GAMING",
+    "ROG STRIX X570-I GAMING",
+    "ROG STRIX Z690-A GAMING WIFI D4",
+    "ROG ZENITH II EXTREME",
+]
+
 # Upstreamed wmi
 WMI_BOARDS = [
     "PRIME X399-A",
@@ -75,6 +98,7 @@ NCT6775_BOARDS = [
 
 # Bios dump has diffrent name to board name
 BOARDNAME_CONVERT = {
+    "ROG STRIX X670E-I GAMING (WI-FI)": "ROG STRIX X670E-I GAMING WIFI",
     "Pro B550M-C-SI": "Pro B550M-C",
     "PRO H410T-SI": "PRO H410T",
 }
@@ -213,12 +237,34 @@ def check_nct6775(content):
     return True
 
 
+def add_board(board_name, asus_wmi, asus_nct6775, asus_ec):
+    if board_name not in table:
+        table[board_name] = []
+    board_desc = (
+        f"| {board_name}{' ' * (33 - len(board_name))}"
+        f"| {asus_wmi}{' ' * (17 - len(asus_wmi)) }"
+        f"| {asus_nct6775}{' ' * (8 - len(asus_nct6775))}"
+        f"| {asus_ec}{' ' * (15 - len(asus_ec))} "
+        f"|"
+    )
+    if board_desc not in table[board_name]:
+        table[board_name].append(board_desc)
+
+
 if __name__ == "__main__":
     current_dir = "."
     table = {}
 
     if len(sys.argv) > 1:
         current_dir = sys.argv[1]
+
+    for board_name in sorted(NCT6775_BOARDS + WMI_BOARDS + EC_BOARDS):
+        add_board(
+            board_name=board_name,
+            asus_wmi="Y" if board_name in WMI_BOARDS else "N",
+            asus_nct6775="Y" if board_name in NCT6775_BOARDS else "N",
+            asus_ec="Y" if board_name in EC_BOARDS else "N"
+        )
 
     for dirname, _, filenames in os.walk(current_dir):
         # print path to all filenames.
@@ -255,7 +301,10 @@ if __name__ == "__main__":
                                 else:
                                     asus_nct6775 = "U"
                             if check_ec(content):
-                                asus_ec = "U"
+                                if board_name in EC_BOARDS:
+                                    asus_ec = "Y"
+                                else:
+                                    asus_ec = "U"
                             if check_wmi(content):
                                 if board_name in WMI_BOARDS:
                                     asus_wmi = "Y"
@@ -268,17 +317,7 @@ if __name__ == "__main__":
                 print (f"\tVersion: {board_version}")
                 print (f"\tRevision: {board_hash}")
                 print (f"\tProducer: {board_producer}")
-                if board_name not in table:
-                    table[board_name] = []
-                board_desc = (
-                    f"| {board_name}{' ' * (33 - len(board_name))}"
-                    f"| {asus_wmi}{' ' * (17 - len(asus_wmi)) }"
-                    f"| {asus_nct6775}{' ' * (8 - len(asus_nct6775))}"
-                    f"| {asus_ec}{' ' * (15 - len(asus_ec))} "
-                    f"|"
-                )
-                if board_desc not in table[board_name]:
-                    table[board_name].append(board_desc)
+                add_board(board_name, asus_wmi, asus_nct6775, asus_ec)
 
     print ("| board                            | asus_wmi_sensors | nct6777 | asus_ec_sensors |")
     for key in sorted(table.keys()):
