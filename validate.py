@@ -328,7 +328,11 @@ if __name__ == "__main__":
                             elif board_name in NCT6775_BOARDS:
                                 asus_nct6775 = "?"
                     # Workaround needed
-                    if asus_nct6775 == "N" and check_custom_port(content):
+                    if (asus_nct6775 == "N" and
+                        asus_wmi == "N" and
+                        asus_ec == "N" and
+                        check_custom_port(content)
+                    ):
                             asus_nct6775 = "P"
                 print (f"Board: {board_name}")
                 print (f"\tVersion: {board_version}")
