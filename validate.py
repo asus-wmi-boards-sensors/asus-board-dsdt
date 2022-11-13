@@ -267,6 +267,7 @@ def add_board(board_name, asus_wmi, asus_nct6775, asus_ec):
 if __name__ == "__main__":
     current_dir = "."
     table = {}
+    boards2update_nct6775 = []
 
     if len(sys.argv) > 1:
         current_dir = sys.argv[1]
@@ -299,14 +300,6 @@ if __name__ == "__main__":
                     asus_nct6775 = "N"
                     if check_entrypoint(content):
                         if check_port(content):
-                            if check_nct6775(content):
-                                # already upstreamed
-                                if board_name in NCT6775_BOARDS:
-                                    asus_nct6775 = "Y"
-                                else:
-                                    asus_nct6775 = "U"
-                            elif board_name in NCT6775_BOARDS:
-                                asus_nct6775 = "?"
                             # Check ec
                             if check_ec(content):
                                 if board_name in EC_BOARDS:
@@ -323,6 +316,17 @@ if __name__ == "__main__":
                                     asus_wmi = "U"
                             elif board_name in WMI_BOARDS:
                                 asus_wmi = "?"
+                            # check nct6775
+                            if check_nct6775(content):
+                                # already upstreamed
+                                if board_name in NCT6775_BOARDS:
+                                    asus_nct6775 = "Y"
+                                else:
+                                    asus_nct6775 = "U"
+                                    if board_name not in boards2update_nct6775 and asus_wmi == "N":
+                                        boards2update_nct6775.append(board_name)
+                            elif board_name in NCT6775_BOARDS:
+                                asus_nct6775 = "?"
                     # Workaround needed
                     if asus_nct6775 == "N" and check_custom_port(content):
                             asus_nct6775 = "P"
@@ -346,3 +350,7 @@ if __name__ == "__main__":
     print ("| board                            | asus_wmi_sensors | nct6777 | asus_ec_sensors |")
     for key in sorted(table.keys()):
         print ("\n".join(sorted(table[key])))
+
+    print ("Boards with nct6775 to add:")
+    for board_name in sorted(boards2update_nct6775):
+        print (f"\t{board_name}")
