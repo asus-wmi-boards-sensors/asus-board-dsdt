@@ -18,8 +18,15 @@ rm -rf *CAP_output || exit
 rm -rf *.CAP || exit
 # create subdirs
 for dirname in \
-	"TUF-GAMING-B550" \
-	"TUF-GAMING-X570" \
+	"CROSSHAIR" \
+	"MAXIMUS" \
+	"PRIME-B450" \
+	"PRIME-H410" \
+	"PRIME-X370" \
+	"PRIME-X570" \
+	"ProArt" \
+	"ROG-CROSSHAIR-VIII" \
+	"ROG-CROSSHAIR-X670" \
 	"ROG-STRIX-B350" \
 	"ROG-STRIX-B450" \
 	"ROG-STRIX-B550" \
@@ -28,14 +35,14 @@ for dirname in \
 	"ROG-STRIX-X470" \
 	"ROG-STRIX-X570" \
 	"ROG-STRIX-X670" \
-	"STRIX-Z270" \
 	"ROG-STRIX-Z370" \
 	"ROG-STRIX-Z390" \
 	"ROG-STRIX-Z490" \
-	"ROG-CROSSHAIR-VIII" \
-	"ROG-CROSSHAIR-X670" \
-	"PRIME-H410" \
-	"PRIME-X570"
+	"STRIX-Z270" \
+	"TUF-B450" \
+	"TUF-GAMING-B450" \
+	"TUF-GAMING-B550" \
+	"TUF-GAMING-X570"
 do
 	mkdir -p ${dirname}
 	mv ${dirname}*.aml ${dirname}

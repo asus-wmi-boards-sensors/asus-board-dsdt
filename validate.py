@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 import sys
 import os
 
@@ -99,8 +100,16 @@ NCT6775_BOARDS = [
 # Bios dump has diffrent name to board name
 BOARDNAME_CONVERT = {
     "ROG STRIX X670E-I GAMING (WI-FI)": "ROG STRIX X670E-I GAMING WIFI",
-    "Pro B550M-C-SI": "Pro B550M-C",
+    "PRO B550M-C-SI": "Pro B550M-C",
     "PRO H410T-SI": "PRO H410T",
+    "PROART Z790-CREATOR-WIFI": "ProArt Z790-CREATOR WIFI",
+    "PROART Z690-CREATOR-WIFI": "ProArt Z690-CREATOR WIFI",
+    "PROART B660-CREATOR-D4": "ProArt B660-CREATOR D4",
+    "PROART X670E-CREATOR-WIFI": "ProArt X670E-CREATOR WIFI",
+    "PROART B550-CREATOR": "ProArt B550-CREATOR",
+    "PROART X570-CREATOR-WIFI": "ProArt X570-CREATOR WIFI",
+    "PROART Z490-CREATOR-10G": "ProArt Z490-CREATOR 10G",
+    "ROG CROSSHAIR VI HERO WIFI AC": "ROG CROSSHAIR VI HERO (WI-FI AC)",
 }
 
 def gen_board_name(board_group):
@@ -131,17 +140,21 @@ def gen_board_name(board_group):
         # create name
         board_name = f"{board_group[0]} {board_group[1]} "
         board_name += " ".join(board_group[2:])
-    elif board_group[0].upper() in ("PRO", "PRIME"):
+    elif board_group[0].upper() in ("PRO", "PRIME", "PROART"):
         # create name
         board_name = f"{board_group[0]} "
         board_name += "-".join(board_group[1:])
+    elif board_group[0].upper() in ("MAXIMUS", "TUF", "CROSSHAIR"):
+        # create name
+        board_name = f"{board_group[0]} "
+        board_name += " ".join(board_group[1:])
     else:
         board_name = "-".join(board_group)
     board_name = board_name.replace("_", " ")
 
     # conver board names
-    if board_name in BOARDNAME_CONVERT:
-        return BOARDNAME_CONVERT[board_name]
+    if board_name.upper() in BOARDNAME_CONVERT:
+        return BOARDNAME_CONVERT[board_name.upper()]
     return board_name
 
 
@@ -258,14 +271,6 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         current_dir = sys.argv[1]
 
-    for board_name in sorted(NCT6775_BOARDS + WMI_BOARDS + EC_BOARDS):
-        add_board(
-            board_name=board_name,
-            asus_wmi="Y" if board_name in WMI_BOARDS else "N",
-            asus_nct6775="Y" if board_name in NCT6775_BOARDS else "N",
-            asus_ec="Y" if board_name in EC_BOARDS else "N"
-        )
-
     for dirname, _, filenames in os.walk(current_dir):
         # print path to all filenames.
         for filename in filenames:
@@ -300,17 +305,25 @@ if __name__ == "__main__":
                                     asus_nct6775 = "Y"
                                 else:
                                     asus_nct6775 = "U"
+                            elif board_name in NCT6775_BOARDS:
+                                asus_nct6775 = "?"
+                            # Check ec
                             if check_ec(content):
                                 if board_name in EC_BOARDS:
                                     asus_ec = "Y"
                                 else:
                                     asus_ec = "U"
+                            elif board_name in EC_BOARDS:
+                                asus_ec = "?"
+                            # Check wmi
                             if check_wmi(content):
                                 if board_name in WMI_BOARDS:
                                     asus_wmi = "Y"
                                 else:
                                     asus_wmi = "U"
-                    # Workarount needed
+                            elif board_name in WMI_BOARDS:
+                                asus_wmi = "?"
+                    # Workaround needed
                     if asus_nct6775 == "N" and check_custom_port(content):
                             asus_nct6775 = "P"
                 print (f"Board: {board_name}")
@@ -318,6 +331,17 @@ if __name__ == "__main__":
                 print (f"\tRevision: {board_hash}")
                 print (f"\tProducer: {board_producer}")
                 add_board(board_name, asus_wmi, asus_nct6775, asus_ec)
+
+    for board_name in sorted(NCT6775_BOARDS + WMI_BOARDS + EC_BOARDS):
+        # Just skip existed boards
+        if board_name in table:
+            continue
+        add_board(
+            board_name=board_name,
+            asus_wmi="Y" if board_name in WMI_BOARDS else "N",
+            asus_nct6775="Y" if board_name in NCT6775_BOARDS else "N",
+            asus_ec="Y" if board_name in EC_BOARDS else "N"
+        )
 
     print ("| board                            | asus_wmi_sensors | nct6777 | asus_ec_sensors |")
     for key in sorted(table.keys()):
