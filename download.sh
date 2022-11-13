@@ -2,17 +2,19 @@
 
 # download capsules
 for bios_file in \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/MAXIMUS-IX-EXTREME-ASUS-1501.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-R-ASUS-1620.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X570-P-ASUS-4021.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X570-PRO-ASUS-4021.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z270M-PLUS-ASUS-2001.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z270-P-ASUS-2001.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B550M-C-SI-2423.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-H410T-SI-1623.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VIII-EXTREME-ASUS-0801.zip \
-    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VIII-IMPACT-ASUS-4201.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VIII-FORMULA-ASUS-4201.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VIII-HERO-ASUS-4201.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VIII-HERO-WIFI-ASUS-4201.zip \
-    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-X670E-EXTREME-ASUS-0705.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VIII-IMPACT-ASUS-4201.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-X670E-EXTREME-ASUS-0705.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-X670E-GENE-ASUS-0705.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-X670E-HERO-ASUS-0705.zip \
@@ -45,6 +47,7 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X670E-E-GAMING-WIFI-ASUS-0705.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X670E-F-GAMING-WIFI-ASUS-0705.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X670E-I-GAMING-WIFI-ASUS-0804.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z370-E-GAMING-ASUS-3005.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z370-G-GAMING-ASUS-3004.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z370-H-GAMING-ASUS-2701.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z390-E-GAMING-ASUS-2004.ZIP \
@@ -58,6 +61,10 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z490-G-GAMING-WIFI-ASUS-2403.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z490-H-GAMING-ASUS-2403.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z490-I-GAMING-ASUS-2403.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-Z270F-GAMING-ASUS-1501.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-Z270G-GAMING-ASUS-1501.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-Z270H-GAMING-ASUS-1501.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-Z270I-GAMING-ASUS-2001.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550M-E-ASUS-2803.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550M-E-WIFI-ASUS-2803.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550M-PLUS-ASUS-2803.zip \
@@ -65,8 +72,13 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550-PLUS-ASUS-2803.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550-PLUS-WIFI-II-ASUS-2803.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-X570-PLUS-ASUS-4021.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z270-MARK-1-ASUS-1501.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/MAXIMUS-VII-HERO/MAXIMUS-VII-HERO-ASUS-3201.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/MAXIMUS_IX_APEX/MAXIMUS-IX-APEX-ASUS-1301.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/PRIME_Z270-A/PRIME-Z270-A-ASUS-1302.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/PRIME_Z270-K/PRIME-Z270-K-ASUS-1207.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170-DELUXE/Z170-DELUXE-ASUS-3801.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/socket1151/Z270-WS/BIOS/Z270-WS-ASUS-0801.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/Socket2011-R3/X99-E-10G_WS/BIOS/X99-E-10G-WS-ASUS-1201.zip
 do
     wget -cv $bios_file || exit
