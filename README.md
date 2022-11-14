@@ -6,6 +6,8 @@ All files are provided by motherboard users or downloaded and extracted from sup
 
 [How it works](https://bugzilla.kernel.org/show_bug.cgi?id=204807#c37)
 
+[ASUS UEFI](https://www.asus.com/motherboards-components/motherboards/all-series/)
+
 # Supported boards
 
 | board                            | asus_wmi_sensors | nct6777 | asus_ec_sensors |
@@ -81,9 +83,9 @@ All files are provided by motherboard users or downloaded and extracted from sup
 | ROG STRIX X570-E GAMING WIFI II  | N                | Y       | Y               |
 | ROG STRIX X570-F GAMING          | N                | Y       | Y               |
 | ROG STRIX X570-I GAMING          | N                | Y       | Y               |
-| ROG STRIX X670E-A GAMING (WI-FI) | N                | U       | U               |
-| ROG STRIX X670E-E GAMING (WI-FI) | N                | U       | U               |
-| ROG STRIX X670E-F GAMING (WI-FI) | N                | U       | U               |
+| ROG STRIX X670E-A GAMING WIFI    | N                | U       | U               |
+| ROG STRIX X670E-E GAMING WIFI    | N                | U       | U               |
+| ROG STRIX X670E-F GAMING WIFI    | N                | U       | U               |
 | ROG STRIX X670E-I GAMING WIFI    | N                | U       | U               |
 | ROG STRIX Z370-H GAMING          | N                | P       | N               |
 | ROG STRIX Z390-E GAMING          | N                | Y       | N               |

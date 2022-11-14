@@ -97,9 +97,30 @@ NCT6775_BOARDS = [
     "TUF GAMING Z490-PLUS (WI-FI)",
 ]
 
+# Upstreamed nct6775 series
+NCT6775_SERIES = [
+    "ProArt B550",
+    "ProArt X570",
+    "ProArt Z490",
+    "Pro B550",
+    "Pro WS X570",
+    "PRIME B360",
+    "PRIME B460",
+    "PRIME B550",
+    "PRIME H410",
+    "PRIME X570",
+    "ROG CROSSHAIR VIII",
+    "ROG STRIX B550",
+    "ROG STRIX X570",
+    "ROG STRIX Z390",
+    "ROG STRIX Z490",
+    "TUF GAMING B550",
+    "TUF GAMING X570",
+    "TUF GAMING Z490",
+]
+
 # Bios dump has diffrent name to board name
 BOARDNAME_CONVERT = {
-    "ROG STRIX X670E-I GAMING (WI-FI)": "ROG STRIX X670E-I GAMING WIFI",
     "PRO B550M-C-SI": "Pro B550M-C",
     "PRO H410T-SI": "PRO H410T",
     "PROART Z790-CREATOR-WIFI": "ProArt Z790-CREATOR WIFI",
@@ -112,11 +133,16 @@ BOARDNAME_CONVERT = {
     "ROG CROSSHAIR VI HERO WIFI AC": "ROG CROSSHAIR VI HERO (WI-FI AC)",
 }
 
+
 def gen_board_name(board_group):
     if board_group[0] == "ROG" and board_group[1] == "STRIX":
         # fix WIFI name
         if board_group[-1].upper() == "WIFI":
-            board_group[-1] = "(WI-FI)"
+            for chipset in ["X670"]:
+                if board_group[2].startswith(chipset):
+                    break
+            else:
+                board_group[-1] = "(WI-FI)"
         # create name
         board_name = f"{board_group[0]} {board_group[1]} "
         board_name += f"{board_group[2]}-{board_group[3]} "
@@ -159,9 +185,11 @@ def gen_board_name(board_group):
 
 
 def check_entrypoint(content):
-    if "/* 0000 */  0xD0, 0x5E, 0x84, 0x97, 0x6D, 0x4E, 0xDE, 0x11," not in content:
-        return False
-    if "/* 0008 */  0x8A, 0x39, 0x08, 0x00, 0x20, 0x0C, 0x9A, 0x66," not in content:
+    entrypoints = (
+        " /* 0000 */ 0xD0, 0x5E, 0x84, 0x97, 0x6D, 0x4E, 0xDE, 0x11, // .^..mN..\n"
+        " /* 0008 */ 0x8A, 0x39, 0x08, 0x00, 0x20, 0x0C, 0x9A, 0x66, // .9.. ..f\n"
+    )
+    if entrypoints not in content:
         return False
     return True
 
@@ -189,63 +217,60 @@ def check_custom_port(content):
     return False
 
 
-def check_method(content, method):
-    if f"Method ({method}, 1, Serialized)" not in content:
-        return False
-    content = cleanup_lines(content)
-    if f"Method ({method}, 1, Serialized)\n {{\n Return (Ones)\n }}\n" in content:
-        return False
+def check_case(content, methods):
+    for method in methods:
+        method_hex = "".join([hex(ord(c))[2:] for c in method]).upper()
+        method_imp = f" Case (0x{method_hex})\n {{\n Return ({method} (Arg2))\n }}"
+        if method_imp not in content:
+            return False
+    return True
+
+
+def check_method(content, methods):
+    for method in methods:
+        if f"Method ({method}, 1, Serialized)" not in content:
+            return False
+        if f"Method ({method}, 1, Serialized)\n {{\n Return (Ones)\n }}\n" in content:
+            return False
     return True
 
 
 def check_wmi(content):
+    methods = ["RSEN", "GNAM", "GNUM", "UPSB", "GVER"]
+    # RSEN 5253454E
     if "Case (0x52574543)" not in content:
         return False
+    # GNAM 474E414D
     if "Case (0x51574543)" not in content:
         return False
+    # GNUM 474E554D
     if "Case (0x50574543)" not in content:
         return False
+    # UPSB 55505342
     if "Case (0x50574572)" not in content:
         return False
+    # GVER 47564552
     if "Case (0x50574574)" not in content:
         return False
-    if not check_method(content, "RSEN"):
-        return False
-    if not check_method(content, "GNAM"):
-        return False
-    if not check_method(content, "GNUM"):
-        return False
-    if not check_method(content, "UPSB"):
-        return False
-    if not check_method(content, "GVER"):
+    if not check_method(content, methods):
         return False
     return True
 
 
 def check_ec(content):
-    if "Case (0x42524543)" not in content:
+    methods = ["BREC"]
+    if not check_case(content, methods):
         return False
-    if not check_method(content, "BREC"):
+    if not check_method(content, methods):
         return False
     return True
 
 
 def check_nct6775(content):
-    if "Case (0x5253494F)" not in content:
+    methods = ["RSIO", "WSIO", "RHWM", "WHWM"]
+    if not check_case(content, methods):
         return False
-    if "Case (0x5753494F)" not in content:
-        return False
-    if "Case (0x5248574D)" not in content:
-        return False
-    if "Case (0x5748574D)" not in content:
-        return False
-    if not check_method(content, "RSIO"):
-        return False
-    if not check_method(content, "WSIO"):
-        return False
-    if not check_method(content, "RHWM"):
-        return False
-    if not check_method(content, "WHWM"):
+    if not check_method(content, methods):
         return False
     return True
 
@@ -294,6 +319,7 @@ if __name__ == "__main__":
                 board_name = gen_board_name(board_group)
                 with open(f"{dirname}/{filename}", "br") as f:
                     content = f.read().decode("utf8")
+                    content = cleanup_lines(content)
 
                     asus_wmi = "N"
                     asus_ec = "N"
@@ -324,7 +350,10 @@ if __name__ == "__main__":
                                 else:
                                     asus_nct6775 = "U"
                                     if board_name not in boards2update_nct6775 and asus_wmi == "N":
-                                        boards2update_nct6775.append(board_name)
+                                        for serie in NCT6775_SERIES:
+                                            if board_name.upper().startswith(serie.upper()):
+                                                boards2update_nct6775.append(board_name)
+                                                break
                             elif board_name in NCT6775_BOARDS:
                                 asus_nct6775 = "?"
                     # Workaround needed
