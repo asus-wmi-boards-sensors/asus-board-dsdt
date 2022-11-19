@@ -1,12 +1,18 @@
 #!/bin/bash
 
+PWDDIR=`pwd`
+PATH=$PATH:${PWDDIR}/../bin/
+echo ${PATH}
+mkdir -p /tmp/unpack
+ls -1 | grep -i "\.zip" |  awk '{print "cp -v " $1 " /tmp/unpack" }' | sh - || exit
+cd /tmp/unpack
 # unpack
 ls -1 | grep -i "\.zip" |  awk '{print "unzip -o " $1 }' | sh - || exit
-ls -1 | grep -i "\.zip" |  awk '{print "rm -v " $1 }' | sh - || exit
 # remove old capsules and unrequired files
 rm -rf *.exe *.EXE *CAP_output *.dsl */*.dsl || exit
+ls -1 | grep -i "\.zip" |  awk '{print "rm -v " $1 }' | sh - || exit
 # unpack capsules
-ls -1 *.CAP | awk '{print  "../bin/uefi-firmware-parser --brute -e -O " $1 }' | sh -  || exit
+ls -1 *.CAP | awk '{print  "uefi-firmware-parser --brute -e -O " $1 }' | sh -  || exit
 # move all DSDL to root directory
 grep ALASKA *CAP_output/* -R 2>&1 | sed 's|grep: ||g' | sed 's|: |\t|g' | awk '{print "file " $1}' | sh - \
 	| grep DSDT | sed 's|:|\t|g' | awk '{print "md5sum " $1}' | sh - \
@@ -16,17 +22,32 @@ ls -1 *CAP_output*.aml  | sed 's|\.|\t|g' | awk '{print "mv " $1 "." $2 "." $3 "
 # remove capsules unpacks
 rm -rf *CAP_output || exit
 rm -rf *.CAP || exit
+# Go back and copy results
+cd ${PWDDIR} || exit
+cp -v /tmp/unpack/*.aml .
+rm -vrf /tmp/unpack/ || exit
+ls -1 | grep -i "\.zip" |  awk '{print "rm -v " $1 }' | sh - || exit
 # create subdirs
 for dirname in \
 	"CROSSHAIR" \
 	"MAXIMUS" \
 	"PRIME-B450" \
+	"PRIME-B550" \
+	"PRIME-B650" \
 	"PRIME-H410" \
 	"PRIME-X370" \
+	"PRIME-X470" \
 	"PRIME-X570" \
+	"PRIME-Z270" \
 	"ProArt" \
+	"Pro-WS-X570" \
+	"ROG-CROSSHAIR-VI" \
 	"ROG-CROSSHAIR-VIII" \
 	"ROG-CROSSHAIR-X670" \
+	"ROG-MAXIMUS-X" \
+	"ROG-MAXIMUS-XIII" \
+	"ROG-MAXIMUS-Z690" \
+	"ROG-MAXIMUS-Z790" \
 	"ROG-STRIX-B350" \
 	"ROG-STRIX-B450" \
 	"ROG-STRIX-B550" \
@@ -38,6 +59,8 @@ for dirname in \
 	"ROG-STRIX-Z370" \
 	"ROG-STRIX-Z390" \
 	"ROG-STRIX-Z490" \
+	"ROG-STRIX-Z590" \
+	"ROG-STRIX-Z690" \
 	"STRIX-Z270" \
 	"TUF-B450" \
 	"TUF-GAMING-B450" \

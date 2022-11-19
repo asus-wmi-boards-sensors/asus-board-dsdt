@@ -131,6 +131,9 @@ BOARDNAME_CONVERT = {
     "PROART X570-CREATOR-WIFI": "ProArt X570-CREATOR WIFI",
     "PROART Z490-CREATOR-10G": "ProArt Z490-CREATOR 10G",
     "ROG CROSSHAIR VI HERO WIFI AC": "ROG CROSSHAIR VI HERO (WI-FI AC)",
+    "Z490-GUNDAM-WIFI": "Z490-GUNDAM (WI-FI)",
+    "TUF GAMING Z590-PLUS (WI-FI)": "TUF GAMING Z590-PLUS WIFI",
+    "TUF GAMING X570-PRO WIFI SI": "TUF GAMING X570-PRO (WI-FI)",
 }
 
 
@@ -158,7 +161,10 @@ def gen_board_name(board_group):
         # fix WIFI name
         if board_group[-1].upper() == "WIFI":
             board_group[-1] = "(WI-FI)"
-        if len(board_group[3]) == 1 or board_group[3].upper() == "PLUS":
+        if (
+            len(board_group[3]) == 1 or
+            board_group[3].upper() in ("PLUS", "PRO")
+        ):
             board_group = [
                 board_group[0], board_group[1],
                 f"{board_group[2]}-{board_group[3]}"
@@ -166,7 +172,19 @@ def gen_board_name(board_group):
         # create name
         board_name = f"{board_group[0]} {board_group[1]} "
         board_name += " ".join(board_group[2:])
-    elif board_group[0].upper() in ("PRO", "PRIME", "PROART"):
+    elif board_group[0].upper() in ("PRIME"):
+        # fix WIFI name
+        if board_group[-1].upper() == "WIFI":
+            board_group[-1] = "(WI-FI)"
+        # create name
+        board_name = f"{board_group[0]} "
+        board_name += "-".join(board_group[1:3]) + " "
+        board_name += " ".join(board_group[3:])
+    elif board_group[0] == "Pro" and board_group[1] == "WS":
+        # create name
+        board_name = f"{board_group[0]} {board_group[1]} "
+        board_name += "-".join(board_group[2:])
+    elif board_group[0].upper() in ("PRO", "PROART"):
         # create name
         board_name = f"{board_group[0]} "
         board_name += "-".join(board_group[1:])
@@ -176,7 +194,7 @@ def gen_board_name(board_group):
         board_name += " ".join(board_group[1:])
     else:
         board_name = "-".join(board_group)
-    board_name = board_name.replace("_", " ")
+    board_name = board_name.replace("_", " ").strip()
 
     # conver board names
     if board_name.upper() in BOARDNAME_CONVERT:
@@ -375,9 +393,9 @@ if __name__ == "__main__":
             continue
         add_board(
             board_name=board_name,
-            asus_wmi="Y" if board_name in WMI_BOARDS else "N",
-            asus_nct6775="Y" if board_name in NCT6775_BOARDS else "N",
-            asus_ec="Y" if board_name in EC_BOARDS else "N"
+            asus_wmi="L" if board_name in WMI_BOARDS else "N",
+            asus_nct6775="L" if board_name in NCT6775_BOARDS else "N",
+            asus_ec="L" if board_name in EC_BOARDS else "N"
         )
 
     print ("| board                            | asus_wmi_sensors | nct6777 | asus_ec_sensors |")

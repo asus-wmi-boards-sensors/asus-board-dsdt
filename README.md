@@ -23,14 +23,20 @@ All files are provided by motherboard users or downloaded and extracted from sup
 | P8Z68-V LX                       | N                | P       | N               |
 | PRIME B360-PLUS                  | N                | Y       | N               |
 | PRIME B450-PLUS                  | N                | P       | N               |
-| PRIME B460-PLUS                  | N                | Y       | N               |
+| PRIME B460-PLUS                  | N                | Y       | U               |
 | PRIME B550-PLUS                  | N                | Y       | N               |
 | PRIME B550M-A                    | N                | Y       | N               |
 | PRIME B550M-A (WI-FI)            | N                | Y       | N               |
+| PRIME B550M-A AC                 | N                | U       | N               |
+| PRIME B550M-A WIFI II            | N                | U       | N               |
+| PRIME B550M-K                    | N                | U       | N               |
+| PRIME B650-PLUS                  | N                | U       | U               |
+| PRIME B650M-A                    | N                | U       | U               |
+| PRIME B650M-A (WI-FI)            | N                | U       | U               |
 | PRIME H410M-R                    | N                | Y       | U               |
 | PRIME X370-PRO                   | N                | P       | N               |
-| PRIME X399-A                     | Y                | N       | N               |
-| PRIME X470-PRO                   | Y                | N       | Y               |
+| PRIME X399-A                     | L                | N       | N               |
+| PRIME X470-PRO                   | Y                | U       | Y               |
 | PRIME X570-P                     | N                | Y       | N               |
 | PRIME X570-PRO                   | N                | Y       | Y               |
 | PRIME Z270-A                     | N                | P       | N               |
@@ -43,10 +49,10 @@ All files are provided by motherboard users or downloaded and extracted from sup
 | ProArt X670E-CREATOR WIFI        | N                | U       | U               |
 | ProArt Z490-CREATOR 10G          | N                | U       | U               |
 | ProArt Z790-CREATOR WIFI         | N                | U       | U               |
-| ROG CROSSHAIR VI EXTREME         | Y                | N       | N               |
+| ROG CROSSHAIR VI EXTREME         | Y                | U       | U               |
 | ROG CROSSHAIR VI HERO (WI-FI AC) | Y                | U       | U               |
-| ROG CROSSHAIR VII HERO           | Y                | N       | N               |
-| ROG CROSSHAIR VII HERO (WI-FI)   | Y                | N       | N               |
+| ROG CROSSHAIR VII HERO           | Y                | U       | U               |
+| ROG CROSSHAIR VII HERO (WI-FI)   | Y                | U       | U               |
 | ROG CROSSHAIR VIII DARK HERO     | N                | Y       | Y               |
 | ROG CROSSHAIR VIII EXTREME       | N                | U       | U               |
 | ROG CROSSHAIR VIII FORMULA       | N                | Y       | Y               |
@@ -57,8 +63,12 @@ All files are provided by motherboard users or downloaded and extracted from sup
 | ROG CROSSHAIR X670E GENE         | N                | U       | U               |
 | ROG CROSSHAIR X670E HERO         | N                | U       | U               |
 | ROG MAXIMUS X HERO               | N                | P       | N               |
-| ROG MAXIMUS XI HERO              | N                | N       | Y               |
-| ROG MAXIMUS XI HERO (WI-FI)      | N                | N       | Y               |
+| ROG MAXIMUS XI HERO              | N                | U       | ?               |
+| ROG MAXIMUS XI HERO (WI-FI)      | N                | U       | ?               |
+| ROG MAXIMUS XIII EXTREME GLACIAL | N                | U       | U               |
+| ROG MAXIMUS Z690 EXTREME         | N                | U       | U               |
+| ROG MAXIMUS Z690 EXTREME GLACIAL | N                | U       | U               |
+| ROG MAXIMUS Z790 EXTREME         | N                | U       | U               |
 | ROG STRIX B350-F GAMING          | N                | P       | N               |
 | ROG STRIX B350-I GAMING          | N                | P       | N               |
 | ROG STRIX B450-E GAMING          | Y                | U       | U               |
@@ -76,7 +86,7 @@ All files are provided by motherboard users or downloaded and extracted from sup
 | ROG STRIX B650E-F GAMING (WI-FI) | N                | U       | U               |
 | ROG STRIX X370-F GAMING          | N                | P       | N               |
 | ROG STRIX X370-I GAMING          | N                | P       | N               |
-| ROG STRIX X399-E GAMING          | Y                | N       | N               |
+| ROG STRIX X399-E GAMING          | L                | N       | N               |
 | ROG STRIX X470-F GAMING          | Y                | U       | U               |
 | ROG STRIX X470-I GAMING          | Y                | U       | U               |
 | ROG STRIX X570-E GAMING          | N                | Y       | Y               |
@@ -99,10 +109,11 @@ All files are provided by motherboard users or downloaded and extracted from sup
 | ROG STRIX Z490-G GAMING (WI-FI)  | N                | Y       | U               |
 | ROG STRIX Z490-H GAMING          | N                | Y       | U               |
 | ROG STRIX Z490-I GAMING          | N                | Y       | U               |
-| ROG STRIX Z690-A GAMING WIFI D4  | N                | N       | Y               |
-| ROG ZENITH EXTREME               | Y                | N       | N               |
-| ROG ZENITH EXTREME ALPHA         | Y                | N       | N               |
-| ROG ZENITH II EXTREME            | N                | N       | Y               |
+| ROG STRIX Z590-A GAMING WIFI II  | N                | U       | U               |
+| ROG STRIX Z690-A GAMING WIFI D4  | N                | U       | Y               |
+| ROG ZENITH EXTREME               | L                | N       | N               |
+| ROG ZENITH EXTREME ALPHA         | L                | N       | N               |
+| ROG ZENITH II EXTREME            | N                | N       | L               |
 | STRIX-Z270E-GAMING               | N                | P       | N               |
 | STRIX-Z270F-GAMING               | N                | P       | N               |
 | STRIX-Z270G-GAMING               | N                | P       | N               |
@@ -120,16 +131,20 @@ All files are provided by motherboard users or downloaded and extracted from sup
 | TUF GAMING X570-PLUS             | N                | Y       | N               |
 | TUF GAMING X570-PLUS (WI-FI)     | N                | Y       | N               |
 | TUF GAMING X570-PRO (WI-FI)      | N                | Y       | N               |
-| TUF GAMING Z490-PLUS             | N                | Y       | N               |
-| TUF GAMING Z490-PLUS (WI-FI)     | N                | Y       | N               |
+| TUF GAMING Z490-PLUS             | N                | Y       | U               |
+| TUF GAMING Z490-PLUS (WI-FI)     | N                | Y       | U               |
+| TUF GAMING Z590-PLUS WIFI        | N                | U       | U               |
 | TUF Z270 MARK 1                  | N                | P       | N               |
 | Z170-DELUXE                      | N                | P       | N               |
 | Z170M-PLUS                       | N                | P       | N               |
 | Z270-WS                          | N                | P       | N               |
+| Z490-GUNDAM (WI-FI)              | N                | U       | U               |
 
+* L - no DSDL dumps,
 * N - unsupported,
 * Y - supported and upstreamed,
 * U - to upstream,
+* ? - upstreamed but not detected by script,
 * P - return zero, no valid sensors results or requires custom lock.
 
 # Entry point definition
