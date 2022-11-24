@@ -149,6 +149,7 @@ done
 
 cd ..
 mkdir -p GIGABYTE
+cd GIGABYTE
 # download uefi firmwares
 for bios_file in \
     https://download.gigabyte.com/FileList/BIOS/mb_bios_x570-i-aorus-pro-wifi_f36d.zip

@@ -97,6 +97,29 @@ NCT6775_BOARDS = [
     "TUF GAMING Z490-PLUS (WI-FI)",
 ]
 
+# Upstreamed gigabyte
+GIGABYTE_BOARDS = [
+    "B450M DS3H-CF",
+    "B450M S2H V2",
+    "B550 AORUS ELITE AX V2",
+    "B550 AORUS ELITE",
+    "B550 AORUS ELITE V2",
+    "B550 GAMING X V2",
+    "B550I AORUS PRO AX",
+    "B550M AORUS PRO-P",
+    "B550M DS3H",
+    "B660 GAMING X DDR4",
+    "B660I AORUS PRO DDR4",
+    "Z390 I AORUS PRO WIFI-CF",
+    "Z490 AORUS ELITE AC",
+    "X570 AORUS ELITE",
+    "X570 AORUS ELITE WIFI",
+    "X570 GAMING X",
+    "X570 I AORUS PRO WIFI",
+    "X570 UD",
+    "Z690M AORUS ELITE AX DDR4",
+]
+
 # Upstreamed nct6775 series
 NCT6775_SERIES = [
     "ProArt B550",
@@ -137,7 +160,7 @@ BOARDNAME_CONVERT = {
 }
 
 
-def gen_board_name(board_group):
+def gen_asus_board_name(board_group):
     if board_group[0] == "ROG" and board_group[1] == "STRIX":
         # fix WIFI name
         if board_group[-1].upper() == "WIFI":
@@ -199,6 +222,17 @@ def gen_board_name(board_group):
     # conver board names
     if board_name.upper() in BOARDNAME_CONVERT:
         return BOARDNAME_CONVERT[board_name.upper()]
+    return board_name
+
+
+def gen_gigabyte_board_name(board_group):
+    board_name = " ".join(board_group).upper()
+    board_name = board_name.replace("_", " ").strip()
+
+    # conver board names
+    if board_name.upper() in BOARDNAME_CONVERT:
+        return BOARDNAME_CONVERT[board_name.upper()]
+
     return board_name
 
 
@@ -293,12 +327,14 @@ def check_nct6775(content):
     return True
 
 
-def add_board(board_name, asus_wmi, asus_nct6775, asus_ec):
+def add_board(board_name, board_producer, asus_wmi="N", gigabyte_wmi="N", asus_nct6775="N", asus_ec="N"):
     if board_name not in table:
         table[board_name] = []
     board_desc = (
+        f"| {board_producer}{' ' * (9 - len(board_producer))}"
         f"| {board_name}{' ' * (33 - len(board_name))}"
         f"| {asus_wmi}{' ' * (17 - len(asus_wmi)) }"
+        f"| {gigabyte_wmi}{' ' * (13 - len(asus_wmi)) }"
         f"| {asus_nct6775}{' ' * (8 - len(asus_nct6775))}"
         f"| {asus_ec}{' ' * (15 - len(asus_ec))} "
         f"|"
@@ -330,11 +366,18 @@ if __name__ == "__main__":
                     board_version = int(board_group[-1])
                     board_group = board_group[:-1]
                 # check board producer
-                board_producer = ""
-                if board_group[-1].upper() in ("ASUS"):
+                board_producer = "ASUS"
+                if board_group[-1].upper() in ("ASUS", "GIGABYTE"):
                     board_producer = board_group[-1].upper()
                     board_group = board_group[:-1]
-                board_name = gen_board_name(board_group)
+                if board_producer == "GIGABYTE":
+                    board_suffix = board_group[-1].split("_")
+                    if len(board_suffix) >= 2:
+                        board_version = board_suffix[-1]
+                        board_group[-1] = "_".join(board_suffix[:-1])
+                    board_name = gen_gigabyte_board_name(board_group)
+                else:
+                    board_name = gen_asus_board_name(board_group)
                 with open(f"{dirname}/{filename}", "br") as f:
                     content = f.read().decode("utf8")
                     content = cleanup_lines(content)
@@ -385,20 +428,26 @@ if __name__ == "__main__":
                 print (f"\tVersion: {board_version}")
                 print (f"\tRevision: {board_hash}")
                 print (f"\tProducer: {board_producer}")
-                add_board(board_name, asus_wmi, asus_nct6775, asus_ec)
+                add_board(board_name, board_producer, asus_wmi=asus_wmi,
+                          asus_nct6775=asus_nct6775, asus_ec=asus_ec,
+                          gigabyte_wmi="?" if board_name in GIGABYTE_BOARDS else "N")
 
-    for board_name in sorted(NCT6775_BOARDS + WMI_BOARDS + EC_BOARDS):
+    for board_name in sorted(
+        NCT6775_BOARDS + WMI_BOARDS + EC_BOARDS + GIGABYTE_BOARDS
+    ):
         # Just skip existed boards
         if board_name in table:
             continue
         add_board(
             board_name=board_name,
+            board_producer = "GIGABYTE" if board_name in GIGABYTE_BOARDS else "ASUS",
             asus_wmi="L" if board_name in WMI_BOARDS else "N",
+            gigabyte_wmi="L" if board_name in GIGABYTE_BOARDS else "N",
             asus_nct6775="L" if board_name in NCT6775_BOARDS else "N",
             asus_ec="L" if board_name in EC_BOARDS else "N"
         )
 
-    print ("| board                            | asus_wmi_sensors | nct6777 | asus_ec_sensors |")
+    print ("| made by  | board                            | asus_wmi_sensors | gigabyte-wmi | nct6777 | asus_ec_sensors |")
     for key in sorted(table.keys()):
         print ("\n".join(sorted(table[key])))
 
