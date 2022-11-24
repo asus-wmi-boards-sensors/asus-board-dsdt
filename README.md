@@ -4,9 +4,13 @@ Collection of DSDT files required for support of https://bugzilla.kernel.org/sho
 
 All files are provided by motherboard users or downloaded and extracted from support section of ASUS website.
 
-[How it works](https://bugzilla.kernel.org/show_bug.cgi?id=204807#c37)
+[How it works for ASUS](https://bugzilla.kernel.org/show_bug.cgi?id=204807#c37)
+[How it works for Gigabyte](https://github.com/t-8ch/linux-gigabyte-wmi-driver)
+
+[ACPI Specification](https://uefi.org/specifications)
 
 [ASUS UEFI](https://www.asus.com/motherboards-components/motherboards/all-series/)
+[Gigabyte UEFI](https://www.gigabyte.com/Motherboard/All-Series)
 
 # Supported boards
 

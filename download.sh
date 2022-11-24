@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# asus bioses
+mkdir -p ASUS
+cd ASUS
 # download capsules
 for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/CROSSHAIR-VI-HERO-ASUS-8601.zip \
@@ -140,6 +143,15 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170-DELUXE/Z170-DELUXE-ASUS-3801.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/socket1151/Z270-WS/BIOS/Z270-WS-ASUS-0801.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/Socket2011-R3/X99-E-10G_WS/BIOS/X99-E-10G-WS-ASUS-1201.zip
+do
+    wget -cv $bios_file || exit
+done
+
+cd ..
+mkdir -p GIGABYTE
+# download uefi firmwares
+for bios_file in \
+    https://download.gigabyte.com/FileList/BIOS/mb_bios_x570-i-aorus-pro-wifi_f36d.zip
 do
     wget -cv $bios_file || exit
 done

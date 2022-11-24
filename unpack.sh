@@ -4,7 +4,8 @@ PWDDIR=`pwd`
 PATH=$PATH:${PWDDIR}/../bin/
 echo ${PATH}
 mkdir -p /tmp/unpack
-ls -1 | grep -i "\.zip" |  awk '{print "cp -v " $1 " /tmp/unpack" }' | sh - || exit
+#ASUS
+ls -1 ASUS | grep -i "\.zip" |  awk '{print "cp -v ASUS/" $1 " /tmp/unpack" }' | sh - || exit
 cd /tmp/unpack
 # unpack
 ls -1 | grep -i "\.zip" |  awk '{print "unzip -o " $1 }' | sh - || exit
@@ -15,7 +16,7 @@ ls -1 | grep -i "\.zip" |  awk '{print "rm -v " $1 }' | sh - || exit
 ls -1 *.CAP | awk '{print  "uefi-firmware-parser --brute -e -O " $1 }' | sh -  || exit
 # move all DSDL to root directory
 grep ALASKA *CAP_output/* -R 2>&1 | sed 's|grep: ||g' | sed 's|: |\t|g' | awk '{print "file " $1}' | sh - \
-	| grep DSDT | sed 's|:|\t|g' | awk '{print "md5sum " $1}' | sh - \
+	| grep "ACPI Machine Language file" | sed 's|:|\t|g' | awk '{print "md5sum " $1}' | sh - \
 	| awk '{print "cp " $2 " `echo " $2 "| sed \"s|/|\\t|g\" | cut -f1 `." $1 ".aml"}' | sh - || exit
 # remove CAP_output from names
 ls -1 *CAP_output*.aml  | sed 's|\.|\t|g' | awk '{print "mv " $1 "." $2 "." $3 "." $4 " " $1 "." $3 "." $4}' | sh - || exit
@@ -41,13 +42,8 @@ for dirname in \
 	"PRIME-Z270" \
 	"ProArt" \
 	"Pro-WS-X570" \
-	"ROG-CROSSHAIR-VI" \
-	"ROG-CROSSHAIR-VIII" \
-	"ROG-CROSSHAIR-X670" \
-	"ROG-MAXIMUS-X" \
-	"ROG-MAXIMUS-XIII" \
-	"ROG-MAXIMUS-Z690" \
-	"ROG-MAXIMUS-Z790" \
+	"ROG-CROSSHAIR" \
+	"ROG-MAXIMUS" \
 	"ROG-STRIX-B350" \
 	"ROG-STRIX-B450" \
 	"ROG-STRIX-B550" \

@@ -141,7 +141,7 @@ def gen_board_name(board_group):
     if board_group[0] == "ROG" and board_group[1] == "STRIX":
         # fix WIFI name
         if board_group[-1].upper() == "WIFI":
-            for chipset in ["X670"]:
+            for chipset in ["B660", "X670"]:
                 if board_group[2].startswith(chipset):
                     break
             else:
