@@ -14,135 +14,157 @@ All files are provided by motherboard users or downloaded and extracted from sup
 
 # Supported boards
 
-| board                            | asus_wmi_sensors | nct6777 | asus_ec_sensors |
-| -------------------------------- | ---------------- | ------- | --------------- |
-| CROSSHAIR VI HERO                | Y                | U       | U               |
-| MAXIMUS IX APEX                  | N                | P       | N               |
-| MAXIMUS IX CODE                  | N                | P       | N               |
-| MAXIMUS IX EXTREME               | N                | P       | N               |
-| MAXIMUS IX FORMULA               | N                | P       | N               |
-| MAXIMUS IX HERO                  | N                | P       | N               |
-| MAXIMUS VII HERO                 | N                | P       | N               |
-| P8H67                            | N                | P       | N               |
-| P8Z68-V LX                       | N                | P       | N               |
-| PRIME B360-PLUS                  | N                | Y       | N               |
-| PRIME B450-PLUS                  | N                | P       | N               |
-| PRIME B460-PLUS                  | N                | Y       | U               |
-| PRIME B550-PLUS                  | N                | Y       | N               |
-| PRIME B550M-A                    | N                | Y       | N               |
-| PRIME B550M-A (WI-FI)            | N                | Y       | N               |
-| PRIME B550M-A AC                 | N                | U       | N               |
-| PRIME B550M-A WIFI II            | N                | U       | N               |
-| PRIME B550M-K                    | N                | U       | N               |
-| PRIME B650-PLUS                  | N                | U       | U               |
-| PRIME B650M-A                    | N                | U       | U               |
-| PRIME B650M-A (WI-FI)            | N                | U       | U               |
-| PRIME H410M-R                    | N                | Y       | U               |
-| PRIME X370-PRO                   | N                | P       | N               |
-| PRIME X399-A                     | L                | N       | N               |
-| PRIME X470-PRO                   | Y                | U       | Y               |
-| PRIME X570-P                     | N                | Y       | N               |
-| PRIME X570-PRO                   | N                | Y       | Y               |
-| PRIME Z270-A                     | N                | P       | N               |
-| PRO H410T                        | N                | Y       | U               |
-| Pro B550M-C                      | N                | Y       | N               |
-| Pro WS X570-ACE                  | N                | Y       | Y               |
-| ProArt B550-CREATOR              | N                | U       | U               |
-| ProArt B660-CREATOR D4           | N                | U       | U               |
-| ProArt X570-CREATOR WIFI         | N                | Y       | Y               |
-| ProArt X670E-CREATOR WIFI        | N                | U       | U               |
-| ProArt Z490-CREATOR 10G          | N                | U       | U               |
-| ProArt Z790-CREATOR WIFI         | N                | U       | U               |
-| ROG CROSSHAIR VI EXTREME         | Y                | U       | U               |
-| ROG CROSSHAIR VI HERO (WI-FI AC) | Y                | U       | U               |
-| ROG CROSSHAIR VII HERO           | Y                | U       | U               |
-| ROG CROSSHAIR VII HERO (WI-FI)   | Y                | U       | U               |
-| ROG CROSSHAIR VIII DARK HERO     | N                | Y       | Y               |
-| ROG CROSSHAIR VIII EXTREME       | N                | U       | U               |
-| ROG CROSSHAIR VIII FORMULA       | N                | Y       | Y               |
-| ROG CROSSHAIR VIII HERO          | N                | Y       | Y               |
-| ROG CROSSHAIR VIII HERO (WI-FI)  | N                | U       | Y               |
-| ROG CROSSHAIR VIII IMPACT        | N                | Y       | Y               |
-| ROG CROSSHAIR X670E EXTREME      | N                | U       | U               |
-| ROG CROSSHAIR X670E GENE         | N                | U       | U               |
-| ROG CROSSHAIR X670E HERO         | N                | U       | U               |
-| ROG MAXIMUS X HERO               | N                | P       | N               |
-| ROG MAXIMUS XI HERO              | N                | U       | ?               |
-| ROG MAXIMUS XI HERO (WI-FI)      | N                | U       | ?               |
-| ROG MAXIMUS XIII EXTREME GLACIAL | N                | U       | U               |
-| ROG MAXIMUS Z690 EXTREME         | N                | U       | U               |
-| ROG MAXIMUS Z690 EXTREME GLACIAL | N                | U       | U               |
-| ROG MAXIMUS Z790 EXTREME         | N                | U       | U               |
-| ROG STRIX B350-F GAMING          | N                | P       | N               |
-| ROG STRIX B350-I GAMING          | N                | P       | N               |
-| ROG STRIX B450-E GAMING          | Y                | U       | U               |
-| ROG STRIX B450-F GAMING          | Y                | U       | U               |
-| ROG STRIX B450-F GAMING II       | Y                | U       | U               |
-| ROG STRIX B450-I GAMING          | Y                | U       | U               |
-| ROG STRIX B550-A GAMING          | N                | Y       | N               |
-| ROG STRIX B550-E GAMING          | N                | Y       | Y               |
-| ROG STRIX B550-F GAMING          | N                | Y       | N               |
-| ROG STRIX B550-F GAMING (WI-FI)  | N                | Y       | N               |
-| ROG STRIX B550-F GAMING WIFI II  | N                | Y       | N               |
-| ROG STRIX B550-I GAMING          | N                | Y       | Y               |
-| ROG STRIX B550-XE GAMING (WI-FI) | N                | Y       | U               |
-| ROG STRIX B650E-E GAMING (WI-FI) | N                | U       | U               |
-| ROG STRIX B650E-F GAMING (WI-FI) | N                | U       | U               |
-| ROG STRIX X370-F GAMING          | N                | P       | N               |
-| ROG STRIX X370-I GAMING          | N                | P       | N               |
-| ROG STRIX X399-E GAMING          | L                | N       | N               |
-| ROG STRIX X470-F GAMING          | Y                | U       | U               |
-| ROG STRIX X470-I GAMING          | Y                | U       | U               |
-| ROG STRIX X570-E GAMING          | N                | Y       | Y               |
-| ROG STRIX X570-E GAMING WIFI II  | N                | Y       | Y               |
-| ROG STRIX X570-F GAMING          | N                | Y       | Y               |
-| ROG STRIX X570-I GAMING          | N                | Y       | Y               |
-| ROG STRIX X670E-A GAMING WIFI    | N                | U       | U               |
-| ROG STRIX X670E-E GAMING WIFI    | N                | U       | U               |
-| ROG STRIX X670E-F GAMING WIFI    | N                | U       | U               |
-| ROG STRIX X670E-I GAMING WIFI    | N                | U       | U               |
-| ROG STRIX Z370-H GAMING          | N                | P       | N               |
-| ROG STRIX Z390-E GAMING          | N                | Y       | N               |
-| ROG STRIX Z390-F GAMING          | N                | Y       | N               |
-| ROG STRIX Z390-H GAMING          | N                | Y       | N               |
-| ROG STRIX Z390-I GAMING          | N                | Y       | N               |
-| ROG STRIX Z490-A GAMING          | N                | Y       | U               |
-| ROG STRIX Z490-E GAMING          | N                | Y       | U               |
-| ROG STRIX Z490-F GAMING          | N                | Y       | U               |
-| ROG STRIX Z490-G GAMING          | N                | Y       | U               |
-| ROG STRIX Z490-G GAMING (WI-FI)  | N                | Y       | U               |
-| ROG STRIX Z490-H GAMING          | N                | Y       | U               |
-| ROG STRIX Z490-I GAMING          | N                | Y       | U               |
-| ROG STRIX Z590-A GAMING WIFI II  | N                | U       | U               |
-| ROG STRIX Z690-A GAMING WIFI D4  | N                | U       | Y               |
-| ROG ZENITH EXTREME               | L                | N       | N               |
-| ROG ZENITH EXTREME ALPHA         | L                | N       | N               |
-| ROG ZENITH II EXTREME            | N                | N       | L               |
-| STRIX-Z270E-GAMING               | N                | P       | N               |
-| STRIX-Z270F-GAMING               | N                | P       | N               |
-| STRIX-Z270G-GAMING               | N                | P       | N               |
-| STRIX-Z270H-GAMING               | N                | P       | N               |
-| TUF B450 PLUS GAMING             | N                | P       | N               |
-| TUF GAMING B450-PLUS II          | N                | P       | N               |
-| TUF GAMING B550-PLUS             | N                | Y       | N               |
-| TUF GAMING B550-PLUS WIFI II     | N                | Y       | N               |
-| TUF GAMING B550-PRO              | N                | Y       | N               |
-| TUF GAMING B550M-E               | N                | U       | N               |
-| TUF GAMING B550M-E (WI-FI)       | N                | U       | N               |
-| TUF GAMING B550M-PLUS            | N                | Y       | N               |
-| TUF GAMING B550M-PLUS (WI-FI)    | N                | Y       | N               |
-| TUF GAMING B550M-PLUS WIFI II    | N                | U       | N               |
-| TUF GAMING X570-PLUS             | N                | Y       | N               |
-| TUF GAMING X570-PLUS (WI-FI)     | N                | Y       | N               |
-| TUF GAMING X570-PRO (WI-FI)      | N                | Y       | N               |
-| TUF GAMING Z490-PLUS             | N                | Y       | U               |
-| TUF GAMING Z490-PLUS (WI-FI)     | N                | Y       | U               |
-| TUF GAMING Z590-PLUS WIFI        | N                | U       | U               |
-| TUF Z270 MARK 1                  | N                | P       | N               |
-| Z170-DELUXE                      | N                | P       | N               |
-| Z170M-PLUS                       | N                | P       | N               |
-| Z270-WS                          | N                | P       | N               |
-| Z490-GUNDAM (WI-FI)              | N                | U       | U               |
+| made by  | board                            | asus_wmi_sensors | gigabyte-wmi | nct6777 | asus_ec_sensors |
+| -------- | -------------------------------- | ---------------- | ------------ | ------- | --------------- |
+| GIGABYTE | B450M DS3H-CF                    | N                | L            | N       | N               |
+| GIGABYTE | B450M S2H V2                     | N                | L            | N       | N               |
+| GIGABYTE | B550 AORUS ELITE                 | N                | L            | N       | N               |
+| GIGABYTE | B550 AORUS ELITE AX V2           | N                | L            | N       | N               |
+| GIGABYTE | B550 AORUS ELITE V2              | N                | L            | N       | N               |
+| GIGABYTE | B550 GAMING X V2                 | N                | L            | N       | N               |
+| GIGABYTE | B550I AORUS PRO AX               | N                | L            | N       | N               |
+| GIGABYTE | B550M AORUS PRO-P                | N                | L            | N       | N               |
+| GIGABYTE | B550M DS3H                       | N                | L            | N       | N               |
+| GIGABYTE | B660 GAMING X DDR4               | N                | L            | N       | N               |
+| GIGABYTE | B660I AORUS PRO DDR4             | N                | L            | N       | N               |
+| ASUS     | CROSSHAIR VI HERO                | N                | N            | N       | N               |
+| ASUS     | CROSSHAIR VI HERO                | Y                | N            | U       | U               |
+| ASUS     | MAXIMUS IX APEX                  | N                | N            | P       | N               |
+| ASUS     | MAXIMUS IX CODE                  | N                | N            | P       | N               |
+| ASUS     | MAXIMUS IX EXTREME               | N                | N            | P       | N               |
+| ASUS     | MAXIMUS IX FORMULA               | N                | N            | P       | N               |
+| ASUS     | MAXIMUS IX HERO                  | N                | N            | P       | N               |
+| ASUS     | MAXIMUS VII HERO                 | N                | N            | P       | N               |
+| ASUS     | P8H67                            | N                | N            | P       | N               |
+| ASUS     | P8Z68-V LX                       | N                | N            | P       | N               |
+| ASUS     | PRIME B360-PLUS                  | N                | N            | Y       | N               |
+| ASUS     | PRIME B450-PLUS                  | N                | N            | P       | N               |
+| ASUS     | PRIME B460-PLUS                  | N                | N            | Y       | U               |
+| ASUS     | PRIME B550-PLUS                  | N                | N            | Y       | N               |
+| ASUS     | PRIME B550M-A                    | N                | N            | Y       | N               |
+| ASUS     | PRIME B550M-A (WI-FI)            | N                | N            | Y       | N               |
+| ASUS     | PRIME B550M-A AC                 | N                | N            | U       | N               |
+| ASUS     | PRIME B550M-A WIFI II            | N                | N            | U       | N               |
+| ASUS     | PRIME B550M-K                    | N                | N            | U       | N               |
+| ASUS     | PRIME B650-PLUS                  | N                | N            | U       | U               |
+| ASUS     | PRIME B650M-A                    | N                | N            | U       | U               |
+| ASUS     | PRIME B650M-A (WI-FI)            | N                | N            | U       | U               |
+| ASUS     | PRIME H410M-R                    | N                | N            | Y       | U               |
+| ASUS     | PRIME X370-PRO                   | N                | N            | P       | N               |
+| ASUS     | PRIME X399-A                     | L                | N            | N       | N               |
+| ASUS     | PRIME X470-PRO                   | Y                | N            | U       | Y               |
+| ASUS     | PRIME X570-P                     | N                | N            | Y       | N               |
+| ASUS     | PRIME X570-PRO                   | N                | N            | Y       | Y               |
+| ASUS     | PRIME Z270-A                     | N                | N            | P       | N               |
+| ASUS     | PRO H410T                        | N                | N            | Y       | U               |
+| ASUS     | Pro B550M-C                      | N                | N            | Y       | N               |
+| ASUS     | Pro WS X570-ACE                  | N                | N            | Y       | Y               |
+| ASUS     | ProArt B550-CREATOR              | N                | N            | U       | U               |
+| ASUS     | ProArt B660-CREATOR D4           | N                | N            | U       | U               |
+| ASUS     | ProArt X570-CREATOR WIFI         | N                | N            | Y       | Y               |
+| ASUS     | ProArt X670E-CREATOR WIFI        | N                | N            | U       | U               |
+| ASUS     | ProArt Z490-CREATOR 10G          | N                | N            | U       | U               |
+| ASUS     | ProArt Z790-CREATOR WIFI         | N                | N            | U       | U               |
+| ASUS     | ROG CROSSHAIR VI EXTREME         | Y                | N            | U       | U               |
+| ASUS     | ROG CROSSHAIR VI HERO (WI-FI AC) | Y                | N            | U       | U               |
+| ASUS     | ROG CROSSHAIR VII HERO           | Y                | N            | U       | U               |
+| ASUS     | ROG CROSSHAIR VII HERO (WI-FI)   | Y                | N            | U       | U               |
+| ASUS     | ROG CROSSHAIR VIII DARK HERO     | N                | N            | Y       | Y               |
+| ASUS     | ROG CROSSHAIR VIII EXTREME       | N                | N            | U       | U               |
+| ASUS     | ROG CROSSHAIR VIII FORMULA       | N                | N            | Y       | Y               |
+| ASUS     | ROG CROSSHAIR VIII HERO          | N                | N            | Y       | Y               |
+| ASUS     | ROG CROSSHAIR VIII HERO (WI-FI)  | N                | N            | U       | Y               |
+| ASUS     | ROG CROSSHAIR VIII IMPACT        | N                | N            | Y       | Y               |
+| ASUS     | ROG CROSSHAIR X670E EXTREME      | N                | N            | U       | U               |
+| ASUS     | ROG CROSSHAIR X670E GENE         | N                | N            | U       | U               |
+| ASUS     | ROG CROSSHAIR X670E HERO         | N                | N            | U       | U               |
+| ASUS     | ROG MAXIMUS X HERO               | N                | N            | P       | N               |
+| ASUS     | ROG MAXIMUS XI HERO              | N                | N            | U       | ?               |
+| ASUS     | ROG MAXIMUS XI HERO (WI-FI)      | N                | N            | U       | ?               |
+| ASUS     | ROG MAXIMUS XIII EXTREME GLACIAL | N                | N            | U       | U               |
+| ASUS     | ROG MAXIMUS Z690 EXTREME         | N                | N            | U       | U               |
+| ASUS     | ROG MAXIMUS Z690 EXTREME GLACIAL | N                | N            | U       | U               |
+| ASUS     | ROG MAXIMUS Z790 EXTREME         | N                | N            | U       | U               |
+| ASUS     | ROG STRIX B350-F GAMING          | N                | N            | P       | N               |
+| ASUS     | ROG STRIX B350-I GAMING          | N                | N            | P       | N               |
+| ASUS     | ROG STRIX B450-E GAMING          | Y                | N            | U       | U               |
+| ASUS     | ROG STRIX B450-F GAMING          | Y                | N            | U       | U               |
+| ASUS     | ROG STRIX B450-F GAMING II       | Y                | N            | U       | U               |
+| ASUS     | ROG STRIX B450-I GAMING          | Y                | N            | U       | U               |
+| ASUS     | ROG STRIX B550-A GAMING          | N                | N            | Y       | N               |
+| ASUS     | ROG STRIX B550-E GAMING          | N                | N            | N       | N               |
+| ASUS     | ROG STRIX B550-E GAMING          | N                | N            | Y       | Y               |
+| ASUS     | ROG STRIX B550-F GAMING          | N                | N            | Y       | N               |
+| ASUS     | ROG STRIX B550-F GAMING (WI-FI)  | N                | N            | Y       | N               |
+| ASUS     | ROG STRIX B550-F GAMING WIFI II  | N                | N            | Y       | N               |
+| ASUS     | ROG STRIX B550-I GAMING          | N                | N            | Y       | Y               |
+| ASUS     | ROG STRIX B550-XE GAMING (WI-FI) | N                | N            | Y       | U               |
+| ASUS     | ROG STRIX B650E-E GAMING (WI-FI) | N                | N            | U       | U               |
+| ASUS     | ROG STRIX B650E-F GAMING (WI-FI) | N                | N            | U       | U               |
+| ASUS     | ROG STRIX B660-I GAMING WIFI     | N                | N            | U       | U               |
+| ASUS     | ROG STRIX X370-F GAMING          | N                | N            | P       | N               |
+| ASUS     | ROG STRIX X370-I GAMING          | N                | N            | P       | N               |
+| ASUS     | ROG STRIX X399-E GAMING          | L                | N            | N       | N               |
+| ASUS     | ROG STRIX X470-F GAMING          | Y                | N            | U       | U               |
+| ASUS     | ROG STRIX X470-I GAMING          | Y                | N            | U       | U               |
+| ASUS     | ROG STRIX X570-E GAMING          | N                | N            | Y       | Y               |
+| ASUS     | ROG STRIX X570-E GAMING WIFI II  | N                | N            | Y       | Y               |
+| ASUS     | ROG STRIX X570-F GAMING          | N                | N            | Y       | Y               |
+| ASUS     | ROG STRIX X570-I GAMING          | N                | N            | Y       | Y               |
+| ASUS     | ROG STRIX X670E-A GAMING WIFI    | N                | N            | U       | U               |
+| ASUS     | ROG STRIX X670E-E GAMING WIFI    | N                | N            | U       | U               |
+| ASUS     | ROG STRIX X670E-F GAMING WIFI    | N                | N            | U       | U               |
+| ASUS     | ROG STRIX X670E-I GAMING WIFI    | N                | N            | U       | U               |
+| ASUS     | ROG STRIX Z370-H GAMING          | N                | N            | P       | N               |
+| ASUS     | ROG STRIX Z390-E GAMING          | N                | N            | Y       | N               |
+| ASUS     | ROG STRIX Z390-F GAMING          | N                | N            | Y       | N               |
+| ASUS     | ROG STRIX Z390-H GAMING          | N                | N            | Y       | N               |
+| ASUS     | ROG STRIX Z390-I GAMING          | N                | N            | Y       | N               |
+| ASUS     | ROG STRIX Z490-A GAMING          | N                | N            | Y       | U               |
+| ASUS     | ROG STRIX Z490-E GAMING          | N                | N            | Y       | U               |
+| ASUS     | ROG STRIX Z490-F GAMING          | N                | N            | Y       | U               |
+| ASUS     | ROG STRIX Z490-G GAMING          | N                | N            | Y       | U               |
+| ASUS     | ROG STRIX Z490-G GAMING (WI-FI)  | N                | N            | Y       | U               |
+| ASUS     | ROG STRIX Z490-H GAMING          | N                | N            | Y       | U               |
+| ASUS     | ROG STRIX Z490-I GAMING          | N                | N            | Y       | U               |
+| ASUS     | ROG STRIX Z590-A GAMING WIFI II  | N                | N            | U       | U               |
+| ASUS     | ROG STRIX Z690-A GAMING WIFI D4  | N                | N            | U       | Y               |
+| ASUS     | ROG ZENITH EXTREME               | L                | N            | N       | N               |
+| ASUS     | ROG ZENITH EXTREME ALPHA         | L                | N            | N       | N               |
+| ASUS     | ROG ZENITH II EXTREME            | N                | N            | N       | L               |
+| ASUS     | STRIX-Z270E-GAMING               | N                | N            | P       | N               |
+| ASUS     | STRIX-Z270F-GAMING               | N                | N            | P       | N               |
+| ASUS     | STRIX-Z270G-GAMING               | N                | N            | P       | N               |
+| ASUS     | STRIX-Z270H-GAMING               | N                | N            | P       | N               |
+| ASUS     | TUF B450 PLUS GAMING             | N                | N            | P       | N               |
+| ASUS     | TUF GAMING B450-PLUS II          | N                | N            | P       | N               |
+| ASUS     | TUF GAMING B550-PLUS             | N                | N            | Y       | N               |
+| ASUS     | TUF GAMING B550-PLUS WIFI II     | N                | N            | Y       | N               |
+| ASUS     | TUF GAMING B550-PRO              | N                | N            | Y       | N               |
+| ASUS     | TUF GAMING B550M-E               | N                | N            | U       | N               |
+| ASUS     | TUF GAMING B550M-E (WI-FI)       | N                | N            | U       | N               |
+| ASUS     | TUF GAMING B550M-PLUS            | N                | N            | Y       | N               |
+| ASUS     | TUF GAMING B550M-PLUS (WI-FI)    | N                | N            | Y       | N               |
+| ASUS     | TUF GAMING B550M-PLUS WIFI II    | N                | N            | U       | N               |
+| ASUS     | TUF GAMING X570-PLUS             | N                | N            | Y       | N               |
+| ASUS     | TUF GAMING X570-PLUS (WI-FI)     | N                | N            | Y       | N               |
+| ASUS     | TUF GAMING X570-PRO (WI-FI)      | N                | N            | Y       | N               |
+| ASUS     | TUF GAMING Z490-PLUS             | N                | N            | Y       | U               |
+| ASUS     | TUF GAMING Z490-PLUS (WI-FI)     | N                | N            | Y       | U               |
+| ASUS     | TUF GAMING Z590-PLUS WIFI        | N                | N            | U       | U               |
+| ASUS     | TUF Z270 MARK 1                  | N                | N            | P       | N               |
+| GIGABYTE | X570 AORUS ELITE                 | N                | L            | N       | N               |
+| GIGABYTE | X570 AORUS ELITE WIFI            | N                | L            | N       | N               |
+| GIGABYTE | X570 GAMING X                    | N                | L            | N       | N               |
+| GIGABYTE | X570 I AORUS PRO WIFI            | N                | Y            | N       | N               |
+| GIGABYTE | X570 UD                          | N                | L            | N       | N               |
+| ASUS     | Z170-DELUXE                      | N                | N            | P       | N               |
+| ASUS     | Z170M-PLUS                       | N                | N            | P       | N               |
+| ASUS     | Z270-WS                          | N                | N            | P       | N               |
+| GIGABYTE | Z390 I AORUS PRO WIFI-CF         | N                | L            | N       | N               |
+| GIGABYTE | Z490 AORUS ELITE AC              | N                | L            | N       | N               |
+| ASUS     | Z490-GUNDAM (WI-FI)              | N                | N            | U       | U               |
+| GIGABYTE | Z690M AORUS ELITE AX DDR4        | N                | L            | N       | N               |
 
 * L - no DSDL dumps,
 * N - unsupported,

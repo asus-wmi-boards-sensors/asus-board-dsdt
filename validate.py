@@ -236,10 +236,22 @@ def gen_gigabyte_board_name(board_group):
     return board_name
 
 
-def check_entrypoint(content):
+def check_entrypoint_asus(content):
+    # search "466747A0-70EC-11DE-8A39-0800200C9A66"
     entrypoints = (
         " /* 0000 */ 0xD0, 0x5E, 0x84, 0x97, 0x6D, 0x4E, 0xDE, 0x11, // .^..mN..\n"
         " /* 0008 */ 0x8A, 0x39, 0x08, 0x00, 0x20, 0x0C, 0x9A, 0x66, // .9.. ..f\n"
+    )
+    if entrypoints not in content:
+        return False
+    return True
+
+
+def check_entrypoint_gigabyte(content):
+    # search "DEADBEEF-2001-0000-00A0-C90629100000"
+    entrypoints = (
+        " /* 0028 */ 0xEF, 0xBE, 0xAD, 0xDE, 0x01, 0x20, 0x00, 0x00, // ..... ..\n"
+        " /* 0030 */ 0x00, 0xA0, 0xC9, 0x06, 0x29, 0x10, 0x00, 0x00, // ....)...\n"
     )
     if entrypoints not in content:
         return False
@@ -385,7 +397,18 @@ if __name__ == "__main__":
                     asus_wmi = "N"
                     asus_ec = "N"
                     asus_nct6775 = "N"
-                    if check_entrypoint(content):
+                    gigabyte_wmi = "N"
+                    # gigabyte
+                    if check_entrypoint_gigabyte(content):
+                        # already upstreamed
+                        if board_name in GIGABYTE_BOARDS:
+                            gigabyte_wmi = "Y"
+                        else:
+                            gigabyte_wmi = "U"
+                    elif board_name in GIGABYTE_BOARDS:
+                        gigabyte_wmi = "?"
+                    # asus
+                    if check_entrypoint_asus(content):
                         if check_port(content):
                             # Check ec
                             if check_ec(content):
@@ -430,7 +453,7 @@ if __name__ == "__main__":
                 print (f"\tProducer: {board_producer}")
                 add_board(board_name, board_producer, asus_wmi=asus_wmi,
                           asus_nct6775=asus_nct6775, asus_ec=asus_ec,
-                          gigabyte_wmi="?" if board_name in GIGABYTE_BOARDS else "N")
+                          gigabyte_wmi=gigabyte_wmi)
 
     for board_name in sorted(
         NCT6775_BOARDS + WMI_BOARDS + EC_BOARDS + GIGABYTE_BOARDS

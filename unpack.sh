@@ -15,7 +15,7 @@ ls -1 | grep -i "\.zip" |  awk '{print "rm -v " $1 }' | sh - || exit
 # unpack capsules
 ls -1 *.CAP | awk '{print  "uefi-firmware-parser --brute -e -O " $1 }' | sh -  || exit
 # move all DSDL to root directory
-find *CAP_output/* | awk '{print "file " $1}' | sh - \
+grep -E "DSDT|SSDT" *CAP_output/* -R 2>&1 | sed 's|grep: ||g' | sed 's|: |\t|g' | awk '{print "file " $1}' | sh - \
 	| grep "ACPI Machine Language file" | sed 's|:|\t|g' | awk '{print "md5sum " $1}' | sh - \
 	| awk '{print "cp " $2 " `echo " $2 "| sed \"s|/|\\t|g\" | cut -f1 `." $1 ".aml"}' | sh - || exit
 # remove CAP_output from names
@@ -44,7 +44,7 @@ do
 	echo ${file} | sed "s|.zip||g" \
 		| awk '{print  "uefi-firmware-parser --brute -e -O " $1 "CAP_output/*" }' | sh -  || exit
 	# move all DSDL to root directory
-	find *CAP_output/* | awk '{print "file " $1}' | sh - \
+	grep -E "DSDT|SSDT" *CAP_output/* -R 2>&1 | sed 's|grep: ||g' | sed 's|: |\t|g' | awk '{print "file " $1}' | sh - \
 		| grep "ACPI Machine Language file" | sed 's|:|\t|g' | awk '{print "md5sum " $1}' | sh - \
 		| awk '{print "cp " $2 " `echo " $2 "| sed \"s|/|\\t|g\" | cut -f1 `." $1 ".aml"}' | sh - || exit
 	# rename without output
