@@ -335,9 +335,10 @@ def check_port(content):
 
 def comments_remove(content):
     result = ""
-    while "/*" in content or "//" in content:
-        oneline_comment = content.find("//")
-        multiline_comment = content.find("/*")
+    # search comment start
+    oneline_comment = content.find("//")
+    multiline_comment = content.find("/*")
+    while oneline_comment != -1 or multiline_comment != -1:
         if oneline_comment == -1:
             oneline_comment = len(content)
         if multiline_comment == -1:
@@ -360,15 +361,23 @@ def comments_remove(content):
             oneline_comment = content.find("\n")
             if oneline_comment == -1:
                  oneline_comment = len(content)
-            # skip */
+            # skip comment
             content = content[oneline_comment:]
+        # search next comment start
+        oneline_comment = content.find("//")
+        multiline_comment = content.find("/*")
     result += content
     return result
 
 
 def cleanup_lines(content):
+    # remove caret back
     while "\r" in content:
         content = content.replace("\r", " ")
+    # remove tab
+    while "\t" in content:
+        content = content.replace("\t", " ")
+    # remove multiple spaces
     while "  " in content:
         content = content.replace("  ", " ")
     return content
@@ -708,6 +717,7 @@ if __name__ == "__main__":
 
                 with open(f"{dirname}/{filename}", "br") as f:
                     content = f.read().decode("utf8")
+                    content = cleanup_lines(content)
                     content = comments_remove(content)
                     content = cleanup_lines(content)
 
