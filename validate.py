@@ -157,6 +157,7 @@ BOARDNAME_CONVERT = {
     "Z490-GUNDAM-WIFI": "Z490-GUNDAM (WI-FI)",
     "TUF GAMING Z590-PLUS (WI-FI)": "TUF GAMING Z590-PLUS WIFI",
     "TUF GAMING X570-PRO WIFI SI": "TUF GAMING X570-PRO (WI-FI)",
+    "PRIME B450M-GAMING BR SI": "PRIME B450M-GAMING/BR",
 }
 
 
@@ -305,8 +306,8 @@ def gen_gigabyte_board_name(board_group):
 def check_entrypoint_asus(content):
     # search "466747A0-70EC-11DE-8A39-0800200C9A66"
     entrypoints = (
-        " /* 0000 */ 0xD0, 0x5E, 0x84, 0x97, 0x6D, 0x4E, 0xDE, 0x11, // .^..mN..\n"
-        " /* 0008 */ 0x8A, 0x39, 0x08, 0x00, 0x20, 0x0C, 0x9A, 0x66, // .9.. ..f\n"
+        " 0xD0, 0x5E, 0x84, 0x97, 0x6D, 0x4E, 0xDE, 0x11, \n"
+        " 0x8A, 0x39, 0x08, 0x00, 0x20, 0x0C, 0x9A, 0x66, \n"
     )
     if entrypoints not in content:
         return False
@@ -316,8 +317,8 @@ def check_entrypoint_asus(content):
 def check_entrypoint_gigabyte(content):
     # search "DEADBEEF-2001-0000-00A0-C90629100000"
     entrypoints = (
-        " /* 0028 */ 0xEF, 0xBE, 0xAD, 0xDE, 0x01, 0x20, 0x00, 0x00, // ..... ..\n"
-        " /* 0030 */ 0x00, 0xA0, 0xC9, 0x06, 0x29, 0x10, 0x00, 0x00, // ....)...\n"
+        " 0xEF, 0xBE, 0xAD, 0xDE, 0x01, 0x20, 0x00, 0x00, \n"
+        " 0x00, 0xA0, 0xC9, 0x06, 0x29, 0x10, 0x00, 0x00, \n"
     )
     if entrypoints not in content:
         return False
@@ -330,6 +331,39 @@ def check_port(content):
     if ", SystemIO, IOHW, 0x0A)" not in content:
         return False
     return True
+
+
+def comments_remove(content):
+    result = ""
+    while "/*" in content or "//" in content:
+        oneline_comment = content.find("//")
+        multiline_comment = content.find("/*")
+        if oneline_comment == -1:
+            oneline_comment = len(content)
+        if multiline_comment == -1:
+            multiline_comment = len(content)
+        if multiline_comment < oneline_comment:
+            # skip uncommented
+            result += content[:multiline_comment]
+            content = content[multiline_comment + 2:]
+            # search comment end
+            multiline_comment = content.find("*/")
+            if multiline_comment == -1:
+                 multiline_comment = len(content)
+            # skip */
+            content = content[multiline_comment + 2:]
+        else:
+            # skip uncommented
+            result += content[:oneline_comment]
+            content = content[oneline_comment + 2:]
+            # search comment end
+            oneline_comment = content.find("\n")
+            if oneline_comment == -1:
+                 oneline_comment = len(content)
+            # skip */
+            content = content[oneline_comment:]
+    result += content
+    return result
 
 
 def cleanup_lines(content):
@@ -469,21 +503,28 @@ def update_board_flags(board_flags, content):
             else:
                 board_flags["asus_wmi"] = "U"
 
-        if check_port(content):
-
+        # check nct6775
+        if check_nct6775(content):
+            # board can use unknown method of define port
             board_io_mutex = check_nct6775_mutex(content)
             if board_io_mutex:
                 board_flags["asus_io_mutex"] = board_io_mutex
 
-            # check nct6775
-            if check_nct6775(content):
+            if check_port(content):
                 # already upstreamed
                 if board_name in NCT6775_BOARDS:
                     board_flags["asus_nct6775"] = "Y"
                 else:
                     board_flags["asus_nct6775"] = "U"
+            elif check_custom_port(content):
+                board_flags["asus_nct6775"] = "M"
 
         if check_custom_port(content):
+            # recheck mossible mutex
+            board_io_mutex = check_nct6775_mutex(content)
+            if board_io_mutex:
+                board_flags["asus_io_mutex"] = board_io_mutex
+
             board_flags["asus_port290"] = "Y"
 
 
@@ -493,28 +534,28 @@ def fix_flags(boards_flags):
 
         # check for errors in detect
         if (
-            board_flags["gigabyte_wmi"] == "N" and
+            board_flags["gigabyte_wmi"] != "Y" and
             board_name in GIGABYTE_BOARDS
         ):
-            board_flags["gigabyte_wmi"] = "?"
+            board_flags["gigabyte_wmi"] += "?"
 
         if (
-            board_flags["asus_wmi"] == "N" and
+            board_flags["asus_wmi"] != "Y" and
             board_name in WMI_BOARDS
         ):
-            board_flags["asus_wmi"] = "?"
+            board_flags["asus_wmi"] += "?"
 
         if (
-            board_flags["asus_nct6775"] == "N" and
+            board_flags["asus_nct6775"] != "Y" and
             board_name in NCT6775_BOARDS
         ):
-            board_flags["asus_nct6775"] = "?"
+            board_flags["asus_nct6775"] += "?"
 
         if (
-            board_flags["asus_ec"] == "N" and
+            board_flags["asus_ec"] != "Y" and
             board_name in EC_BOARDS
         ):
-            board_flags["asus_ec"] = "?"
+            board_flags["asus_ec"] += "?"
 
         # Workaround needed
         if (board_flags["asus_nct6775"] == "N" and
@@ -667,6 +708,7 @@ if __name__ == "__main__":
 
                 with open(f"{dirname}/{filename}", "br") as f:
                     content = f.read().decode("utf8")
+                    content = comments_remove(content)
                     content = cleanup_lines(content)
 
                     if board_name not in boards_flags:

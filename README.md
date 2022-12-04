@@ -4,13 +4,15 @@ Collection of DSDT files required for support of https://bugzilla.kernel.org/sho
 
 All files are provided by motherboard users or downloaded and extracted from support section of ASUS website.
 
-[How it works for ASUS](https://bugzilla.kernel.org/show_bug.cgi?id=204807#c37)
-[How it works for Gigabyte](https://github.com/t-8ch/linux-gigabyte-wmi-driver)
+How it works for:
+* [ASUS](https://bugzilla.kernel.org/show_bug.cgi?id=204807#c37)
+* [Gigabyte](https://github.com/t-8ch/linux-gigabyte-wmi-driver)
 
 [ACPI Specification](https://uefi.org/specifications)
 
-[ASUS UEFI](https://www.asus.com/motherboards-components/motherboards/all-series/)
-[Gigabyte UEFI](https://www.gigabyte.com/Motherboard/All-Series)
+Suport sites:
+* [ASUS UEFI](https://www.asus.com/motherboards-components/motherboards/all-series/)
+* [Gigabyte UEFI](https://www.gigabyte.com/Motherboard/All-Series)
 
 # Supported boards
 
@@ -37,8 +39,10 @@ All files are provided by motherboard users or downloaded and extracted from sup
 | ASUS     | P8H67                            | N                | N            | P (\_SB_.PCI0.LPCB.SIO1.MUT0) | N                             |
 | ASUS     | P8Z68-V LX                       | N                | N            | P (\_SB_.PCI0.LPCB.SIO1.MUT0) | N                             |
 | ASUS     | PRIME B360-PLUS                  | N                | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
-| ASUS     | PRIME B450-PLUS                  | N                | N            | P (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME B450-PLUS                  | N                | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B450M-GAMING               | N                | N            | L (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME B450M-GAMING II            | N                | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME B450M-GAMING/BR            | N                | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B460-PLUS                  | N                | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | U                             |
 | ASUS     | PRIME B550-PLUS                  | N                | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B550M-A                    | N                | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
@@ -51,7 +55,7 @@ All files are provided by motherboard users or downloaded and extracted from sup
 | ASUS     | PRIME B650M-A (WI-FI)            | N                | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U                             |
 | ASUS     | PRIME H410M                      | N                | N            | L (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME H410M-R                    | N                | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | U                             |
-| ASUS     | PRIME X370-PRO                   | N                | N            | P (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME X370-PRO                   | N                | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME X399-A                     | L                | N            | L (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME X470-PRO                   | Y                | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y                             |
 | ASUS     | PRIME X570-P                     | N                | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
@@ -82,14 +86,14 @@ All files are provided by motherboard users or downloaded and extracted from sup
 | ASUS     | ROG CROSSHAIR X670E GENE         | N                | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U                             |
 | ASUS     | ROG CROSSHAIR X670E HERO         | N                | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U                             |
 | ASUS     | ROG MAXIMUS X HERO               | N                | N            | P (\_SB_.PCI0.LPCB.SIO1.MUT0) | N                             |
-| ASUS     | ROG MAXIMUS XI HERO              | N                | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | ? (\AMW0.ASMX)                |
-| ASUS     | ROG MAXIMUS XI HERO (WI-FI)      | N                | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | ? (\AMW0.ASMX)                |
+| ASUS     | ROG MAXIMUS XI HERO              | N                | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N? (\AMW0.ASMX)               |
+| ASUS     | ROG MAXIMUS XI HERO (WI-FI)      | N                | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N? (\AMW0.ASMX)               |
 | ASUS     | ROG MAXIMUS XIII EXTREME GLACIAL | N                | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | U                             |
 | ASUS     | ROG MAXIMUS Z690 EXTREME         | N                | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | U                             |
 | ASUS     | ROG MAXIMUS Z690 EXTREME GLACIAL | N                | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | U                             |
 | ASUS     | ROG MAXIMUS Z790 EXTREME         | N                | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | U                             |
-| ASUS     | ROG STRIX B350-F GAMING          | N                | N            | P (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
-| ASUS     | ROG STRIX B350-I GAMING          | N                | N            | P                             | N                             |
+| ASUS     | ROG STRIX B350-F GAMING          | N                | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
+| ASUS     | ROG STRIX B350-I GAMING          | N                | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B450-E GAMING          | Y                | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U                             |
 | ASUS     | ROG STRIX B450-F GAMING          | Y                | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U                             |
 | ASUS     | ROG STRIX B450-F GAMING II       | Y                | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U                             |
@@ -104,8 +108,8 @@ All files are provided by motherboard users or downloaded and extracted from sup
 | ASUS     | ROG STRIX B650E-E GAMING (WI-FI) | N                | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U                             |
 | ASUS     | ROG STRIX B650E-F GAMING (WI-FI) | N                | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U                             |
 | ASUS     | ROG STRIX B660-I GAMING WIFI     | N                | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | U                             |
-| ASUS     | ROG STRIX X370-F GAMING          | N                | N            | P                             | N                             |
-| ASUS     | ROG STRIX X370-I GAMING          | N                | N            | P                             | N                             |
+| ASUS     | ROG STRIX X370-F GAMING          | N                | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
+| ASUS     | ROG STRIX X370-I GAMING          | N                | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX X399-E GAMING          | L                | N            | L (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX X470-F GAMING          | Y                | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U                             |
 | ASUS     | ROG STRIX X470-I GAMING          | Y                | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U                             |
@@ -138,8 +142,8 @@ All files are provided by motherboard users or downloaded and extracted from sup
 | ASUS     | STRIX-Z270F-GAMING               | N                | N            | P                             | N                             |
 | ASUS     | STRIX-Z270G-GAMING               | N                | N            | P                             | N                             |
 | ASUS     | STRIX-Z270H-GAMING               | N                | N            | P                             | N                             |
-| ASUS     | TUF B450 PLUS GAMING             | N                | N            | P (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
-| ASUS     | TUF GAMING B450-PLUS II          | N                | N            | P                             | N                             |
+| ASUS     | TUF B450 PLUS GAMING             | N                | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
+| ASUS     | TUF GAMING B450-PLUS II          | N                | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING B550-PLUS             | N                | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING B550-PLUS WIFI II     | N                | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING B550-PRO              | N                | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
@@ -174,6 +178,7 @@ All files are provided by motherboard users or downloaded and extracted from sup
 * Y - supported and upstreamed,
 * U - to upstream,
 * ? - upstreamed but not detected by script,
+* M - required method exists, port defined in different way,
 * P - return zero, no valid sensors results or requires custom lock.
 
 # Entry point definition

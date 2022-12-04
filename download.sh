@@ -14,6 +14,8 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B550M-A-ASUS-2803.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B550M-A-WIFI-ASUS-2803.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B550M-A-WIFI-II-ASUS-2803.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450M-GAMING-BR-SI-3804.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450M-GAMING-II-ASUS-3802.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B550M-K-ASUS-2803.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B550-PLUS-ASUS-2803.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B650M-A-ASUS-0812.zip \
@@ -152,6 +154,7 @@ mkdir -p GIGABYTE
 cd GIGABYTE
 # download uefi firmwares
 for bios_file in \
+    https://download.gigabyte.com/FileList/BIOS/mb_bios_z690m-aorus-elite-ax-ddr4_f21.zip \
     https://download.gigabyte.com/FileList/BIOS/mb_bios_x570-i-aorus-pro-wifi_f36d.zip
 do
     wget -cv $bios_file || exit
