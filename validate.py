@@ -316,13 +316,9 @@ def check_entrypoint(content, wmi_methods, uuid, method):
     return False
 
 
-def check_entrypoint_gigabyte(content):
-    # search "DEADBEEF-2001-0000-00A0-C90629100000"
-    entrypoints = (
-        "0xEF, 0xBE, 0xAD, 0xDE, 0x01, 0x20, 0x00, 0x00,\n"
-        "0x00, 0xA0, 0xC9, 0x06, 0x29, 0x10, 0x00, 0x00,\n"
-    )
-    if entrypoints not in content:
+def check_gigabyte_entrypoint_method(content):
+    method_template = "Method (_WDG, 0, Serialized)\n{\nReturn (QWDG)\n}"
+    if method_template not in content:
         return False
     return True
 
@@ -394,11 +390,11 @@ def cleanup_lines(content):
     return content.strip()
 
 
-def get_wdg(content):
+def get_buffer_uuid_by_name(content, name):
     result = []
-    while "Name (_WDG, Buffer (" in content:
-        # search _WDG buffer
-        wdg_pos = content.find("Name (_WDG, Buffer (")
+    while f"Name ({name}, Buffer (" in content:
+        # search name buffer
+        wdg_pos = content.find(f"Name ({name}, Buffer (")
         if wdg_pos == -1:
             wdg_pos = len(content) + 1
         # search buffer values start
@@ -439,7 +435,9 @@ def get_wdg(content):
             uuid_str.append(begin_uuid[0:4])
             uuid_str.append(end_uuid[0:4])
             uuid_str.append(end_uuid[4:16])
-            result.append(f"{'-'.join(uuid_str)}:{end_uuid[16:20]}:{end_uuid[20:]}")
+            result.append(
+                f"{name}:{'-'.join(uuid_str)}:{end_uuid[16:20]}:{end_uuid[20:]}"
+            )
             values_combined = values_combined[40:]
 
     return result
@@ -548,7 +546,13 @@ def set_default_flags(board_name, board_flags):
 def update_board_flags(board_flags, content):
 
     # gigabyte
-    if check_entrypoint_gigabyte(content):
+    if (
+        check_gigabyte_entrypoint_method(content) and
+        check_entrypoint(
+            content, board_flags["wmi_methods"],
+            "QWDG:DEADBEEF-2001-0000-00A0-C90629100000", "BB"
+        )
+    ):
         # already upstreamed
         if board_name in GIGABYTE_BOARDS:
             board_flags["gigabyte_wmi"] = "Y"
@@ -558,7 +562,7 @@ def update_board_flags(board_flags, content):
     # asus
     if check_entrypoint(
         content, board_flags["wmi_methods"],
-        "466747A0-70EC-11DE-8A39-0800200C9A66", "BD"
+        "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66", "BD"
     ):
 
         # Check ec / can be without ntc6775 sensor
@@ -798,8 +802,12 @@ if __name__ == "__main__":
                         }
                         set_default_flags(board_name, boards_flags[board_name])
                     board_flags = boards_flags[board_name]
-                    # get WMI methods
-                    wmi_methods = get_wdg(content)
+                    # get WMI methods:
+                    # Gigabyte: QWDG
+                    # ASUS: _WDG
+                    wmi_methods = []
+                    for buffer_name in ("_WDG", "QWDG"):
+                        wmi_methods += get_buffer_uuid_by_name(content, buffer_name)
                     str_methods = '\n\t\t'.join(wmi_methods)
                     print (f"\tWMI methods: \n\t\t{str_methods}")
                     # add methods to flags
