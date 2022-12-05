@@ -303,15 +303,17 @@ def gen_gigabyte_board_name(board_group):
     return board_name
 
 
-def check_entrypoint_asus(content):
-    # search "466747A0-70EC-11DE-8A39-0800200C9A66"
-    entrypoints = (
-        "0xD0, 0x5E, 0x84, 0x97, 0x6D, 0x4E, 0xDE, 0x11,\n"
-        "0x8A, 0x39, 0x08, 0x00, 0x20, 0x0C, 0x9A, 0x66,\n"
-    )
-    if entrypoints not in content:
+def check_entrypoint(content, wmi_methods, uuid, method):
+    if not check_method(content, ["WM" + method], count=3):
         return False
-    return True
+    method_for_search = uuid
+    method_for_search += ":"
+    for char in method:
+        method_for_search += hex(ord(char)).upper()[2:]
+    for wmi_method in wmi_methods:
+        if wmi_method.startswith(method_for_search):
+            return True
+    return False
 
 
 def check_entrypoint_gigabyte(content):
@@ -459,11 +461,11 @@ def check_case(content, methods):
     return True
 
 
-def check_method(content, methods):
+def check_method(content, methods, count=1):
     for method in methods:
-        if f"Method ({method}, 1, Serialized)" not in content:
+        if f"Method ({method}, {count}, Serialized)" not in content:
             return False
-        if f"Method ({method}, 1, Serialized)\n{{\nReturn (Ones)\n}}\n" in content:
+        if f"Method ({method}, {count}, Serialized)\n{{\nReturn (Ones)\n}}\n" in content:
             return False
     return True
 
@@ -554,7 +556,10 @@ def update_board_flags(board_flags, content):
             board_flags["gigabyte_wmi"] = "U"
 
     # asus
-    if check_entrypoint_asus(content):
+    if check_entrypoint(
+        content, board_flags["wmi_methods"],
+        "466747A0-70EC-11DE-8A39-0800200C9A66", "BD"
+    ):
 
         # Check ec / can be without ntc6775 sensor
         if check_ec(content):
@@ -793,16 +798,16 @@ if __name__ == "__main__":
                         }
                         set_default_flags(board_name, boards_flags[board_name])
                     board_flags = boards_flags[board_name]
-                    update_board_flags(board_flags, content)
-
+                    # get WMI methods
                     wmi_methods = get_wdg(content)
                     str_methods = '\n\t\t'.join(wmi_methods)
                     print (f"\tWMI methods: \n\t\t{str_methods}")
-
                     # add methods to flags
                     for wmi_method in wmi_methods:
                         if wmi_method not in board_flags["wmi_methods"]:
                             board_flags["wmi_methods"].append(wmi_method)
+                    # set other flags
+                    update_board_flags(board_flags, content)
 
     fix_flags(boards_flags)
     add_load_flags(boards_flags)
