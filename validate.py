@@ -306,8 +306,8 @@ def gen_gigabyte_board_name(board_group):
 def check_entrypoint_asus(content):
     # search "466747A0-70EC-11DE-8A39-0800200C9A66"
     entrypoints = (
-        " 0xD0, 0x5E, 0x84, 0x97, 0x6D, 0x4E, 0xDE, 0x11, \n"
-        " 0x8A, 0x39, 0x08, 0x00, 0x20, 0x0C, 0x9A, 0x66, \n"
+        "0xD0, 0x5E, 0x84, 0x97, 0x6D, 0x4E, 0xDE, 0x11,\n"
+        "0x8A, 0x39, 0x08, 0x00, 0x20, 0x0C, 0x9A, 0x66,\n"
     )
     if entrypoints not in content:
         return False
@@ -317,8 +317,8 @@ def check_entrypoint_asus(content):
 def check_entrypoint_gigabyte(content):
     # search "DEADBEEF-2001-0000-00A0-C90629100000"
     entrypoints = (
-        " 0xEF, 0xBE, 0xAD, 0xDE, 0x01, 0x20, 0x00, 0x00, \n"
-        " 0x00, 0xA0, 0xC9, 0x06, 0x29, 0x10, 0x00, 0x00, \n"
+        "0xEF, 0xBE, 0xAD, 0xDE, 0x01, 0x20, 0x00, 0x00,\n"
+        "0x00, 0xA0, 0xC9, 0x06, 0x29, 0x10, 0x00, 0x00,\n"
     )
     if entrypoints not in content:
         return False
@@ -335,14 +335,21 @@ def check_port(content):
 
 def comments_remove(content):
     result = ""
-    # search comment start
-    oneline_comment = content.find("//")
-    multiline_comment = content.find("/*")
-    while oneline_comment != -1 or multiline_comment != -1:
+    while True:
+        # search comment start
+        oneline_comment = content.find("//")
         if oneline_comment == -1:
             oneline_comment = len(content)
+        multiline_comment = content.find("/*", 0, oneline_comment)
         if multiline_comment == -1:
             multiline_comment = len(content)
+        # no comments in content
+        if (
+            multiline_comment == len(content) and
+            oneline_comment == len(content)
+        ):
+            break
+        # what is nearest
         if multiline_comment < oneline_comment:
             # skip uncommented
             result += content[:multiline_comment]
@@ -363,24 +370,77 @@ def comments_remove(content):
                  oneline_comment = len(content)
             # skip comment
             content = content[oneline_comment:]
-        # search next comment start
-        oneline_comment = content.find("//")
-        multiline_comment = content.find("/*")
     result += content
     return result
 
 
 def cleanup_lines(content):
+    content = content.strip()
     # remove caret back
-    while "\r" in content:
-        content = content.replace("\r", " ")
+    content = content.replace("\r", " ")
     # remove tab
-    while "\t" in content:
-        content = content.replace("\t", " ")
-    # remove multiple spaces
-    while "  " in content:
-        content = content.replace("  ", " ")
-    return content
+    content = content.replace("\t", " ")
+    # cleanup white space before others
+    for char in (" ", "\n"):
+        # remove multiple spaces
+        while f" {char}" in content:
+            content = content.replace(f" {char}", char)
+    # empty after new line
+    for char in (" ", "\n"):
+        while f"\n{char}" in content:
+            content = content.replace(f"\n{char}", "\n")
+    return content.strip()
+
+
+def get_wdg(content):
+    result = []
+    while "Name (_WDG, Buffer (" in content:
+        # search _WDG buffer
+        wdg_pos = content.find("Name (_WDG, Buffer (")
+        if wdg_pos == -1:
+            wdg_pos = len(content) + 1
+        # search buffer values start
+        start_wdg = content.find("{", wdg_pos + 1)
+        if start_wdg == -1:
+            start_wdg = len(content) + 1
+        # search buffer values end
+        end_wdg = content.find("}", start_wdg + 1)
+        if end_wdg == -1:
+           end_wdg = len(content) + 1
+        # get buffer
+        wdg_content = content[start_wdg + 1:end_wdg - 1]
+        # get left values
+        content = content[end_wdg:]
+        # remove whitespaces
+        wdg_content = wdg_content.replace("\n", " ")
+        while "  " in wdg_content:
+            wdg_content = wdg_content.replace("  ", " ")
+        wdg_content = wdg_content.strip()
+        while ", " in wdg_content:
+            wdg_content = wdg_content.replace(", ", ",")
+        # combine values to single string
+        values = []
+        for hex_value in wdg_content.split(","):
+            values.append(hex_value[2:4])
+        values_combined = "".join(values)
+        # convert string to uuid:method:flags
+        while values_combined:
+            uuid_str = []
+            begin_uuid = ""
+            tmp_uuid = values_combined[:16]
+            while tmp_uuid:
+                begin_uuid += tmp_uuid[-2:]
+                tmp_uuid = tmp_uuid[:-2]
+            end_uuid = values_combined[16:40]
+            uuid_str.append(begin_uuid[8:16])
+            uuid_str.append(begin_uuid[4:8])
+            uuid_str.append(begin_uuid[0:4])
+            uuid_str.append(end_uuid[0:4])
+            uuid_str.append(end_uuid[4:16])
+            result.append(f"{'-'.join(uuid_str)}:{end_uuid[16:20]}:{end_uuid[20:]}")
+            values_combined = values_combined[40:]
+
+    return result
 
 
 def check_custom_port(content):
@@ -393,7 +453,7 @@ def check_custom_port(content):
 def check_case(content, methods):
     for method in methods:
         method_hex = "".join([hex(ord(c))[2:] for c in method]).upper()
-        method_imp = f" Case (0x{method_hex})\n {{\n Return ({method} (Arg2))\n }}"
+        method_imp = f"Case (0x{method_hex})\n{{\nReturn ({method} (Arg2))\n}}"
         if method_imp not in content:
             return False
     return True
@@ -403,7 +463,7 @@ def check_method(content, methods):
     for method in methods:
         if f"Method ({method}, 1, Serialized)" not in content:
             return False
-        if f"Method ({method}, 1, Serialized)\n {{\n Return (Ones)\n }}\n" in content:
+        if f"Method ({method}, 1, Serialized)\n{{\nReturn (Ones)\n}}\n" in content:
             return False
     return True
 
@@ -471,6 +531,7 @@ def set_default_flags(board_name, board_flags):
         "gigabyte_wmi": "N",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
+        "wmi_methods": [],
     })
     # set known io mutex name
     for mutex_name in ASUS_NCT6775_MUTEX:
@@ -483,6 +544,7 @@ def set_default_flags(board_name, board_flags):
 
 
 def update_board_flags(board_flags, content):
+
     # gigabyte
     if check_entrypoint_gigabyte(content):
         # already upstreamed
@@ -717,9 +779,13 @@ if __name__ == "__main__":
 
                 with open(f"{dirname}/{filename}", "br") as f:
                     content = f.read().decode("utf8")
+                    print (f"\tInitial size: {len(content)}")
                     content = cleanup_lines(content)
+                    print (f"\tWhitespase clean: {len(content)}")
                     content = comments_remove(content)
+                    print (f"\tComments clean: {len(content)}")
                     content = cleanup_lines(content)
+                    print (f"\tRecleanup whitespace: {len(content)}")
 
                     if board_name not in boards_flags:
                         boards_flags[board_name] = {
@@ -728,6 +794,15 @@ if __name__ == "__main__":
                         set_default_flags(board_name, boards_flags[board_name])
                     board_flags = boards_flags[board_name]
                     update_board_flags(board_flags, content)
+
+                    wmi_methods = get_wdg(content)
+                    str_methods = '\n\t\t'.join(wmi_methods)
+                    print (f"\tWMI methods: \n\t\t{str_methods}")
+
+                    # add methods to flags
+                    for wmi_method in wmi_methods:
+                        if wmi_method not in board_flags["wmi_methods"]:
+                            board_flags["wmi_methods"].append(wmi_method)
 
     fix_flags(boards_flags)
     add_load_flags(boards_flags)
