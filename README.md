@@ -36,8 +36,8 @@ Support sites:
 | ASUS     | MAXIMUS IX FORMULA               | N                | N            | P                             | N                             |
 | ASUS     | MAXIMUS IX HERO                  | N                | N            | P                             | N                             |
 | ASUS     | MAXIMUS VII HERO                 | N                | N            | P (\_SB_.PCI0.LPCB.SIO1.MUT0) | N                             |
-| ASUS     | P8H67                            | N                | N            | N (\_SB_.PCI0.LPCB.SIO1.MUT0) | N                             |
-| ASUS     | P8Z68-V LX                       | N                | N            | N (\_SB_.PCI0.LPCB.SIO1.MUT0) | N                             |
+| ASUS     | P8H67                            | N                | N            | P (\_SB_.PCI0.LPCB.SIO1.MUT0) | N                             |
+| ASUS     | P8Z68-V LX                       | N                | N            | P (\_SB_.PCI0.LPCB.SIO1.MUT0) | N                             |
 | ASUS     | PRIME B360-PLUS                  | N                | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B450-PLUS                  | N                | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B450M-GAMING               | N                | N            | L (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
@@ -50,9 +50,9 @@ Support sites:
 | ASUS     | PRIME B550M-A AC                 | N                | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B550M-A WIFI II            | N                | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B550M-K                    | N                | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
-| ASUS     | PRIME B650-PLUS                  | N                | N            | N                             | N                             |
-| ASUS     | PRIME B650M-A                    | N                | N            | N                             | N                             |
-| ASUS     | PRIME B650M-A (WI-FI)            | N                | N            | N                             | N                             |
+| ASUS     | PRIME B650-PLUS                  | N                | N            | W (\_SB.PCI0.SBRG.SIO1.MUT0)  | W                             |
+| ASUS     | PRIME B650M-A                    | N                | N            | W (\_SB.PCI0.SBRG.SIO1.MUT0)  | W                             |
+| ASUS     | PRIME B650M-A (WI-FI)            | N                | N            | W (\_SB.PCI0.SBRG.SIO1.MUT0)  | W                             |
 | ASUS     | PRIME H410M                      | N                | N            | L (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME H410M-R                    | N                | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | U                             |
 | ASUS     | PRIME X370-PRO                   | N                | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
@@ -66,11 +66,11 @@ Support sites:
 | ASUS     | Pro B550M-C                      | N                | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | Pro WS X570-ACE                  | N                | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
 | ASUS     | ProArt B550-CREATOR              | N                | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U                             |
-| ASUS     | ProArt B660-CREATOR D4           | N                | N            | N (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | ProArt B660-CREATOR D4           | N                | N            | W (\_SB.PC00.LPCB.SIO1.MUT0)  | W                             |
 | ASUS     | ProArt X570-CREATOR WIFI         | N                | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
-| ASUS     | ProArt X670E-CREATOR WIFI        | N                | N            | N                             | N                             |
+| ASUS     | ProArt X670E-CREATOR WIFI        | N                | N            | W (\_SB.PCI0.SBRG.SIO1.MUT0)  | W                             |
 | ASUS     | ProArt Z490-CREATOR 10G          | N                | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | U (\AMW0.ASMX)                |
-| ASUS     | ProArt Z790-CREATOR WIFI         | N                | N            | N (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | ProArt Z790-CREATOR WIFI         | N                | N            | W (\_SB.PC00.LPCB.SIO1.MUT0)  | W                             |
 | ASUS     | ROG CROSSHAIR VI EXTREME         | Y                | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U                             |
 | ASUS     | ROG CROSSHAIR VI HERO (WI-FI AC) | Y                | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U                             |
 | ASUS     | ROG CROSSHAIR VI Hero            | N                | N            | L (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
@@ -82,16 +82,16 @@ Support sites:
 | ASUS     | ROG CROSSHAIR VIII HERO          | N                | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
 | ASUS     | ROG CROSSHAIR VIII HERO (WI-FI)  | N                | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
 | ASUS     | ROG CROSSHAIR VIII IMPACT        | N                | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
-| ASUS     | ROG CROSSHAIR X670E EXTREME      | N                | N            | N                             | N                             |
-| ASUS     | ROG CROSSHAIR X670E GENE         | N                | N            | N                             | N                             |
-| ASUS     | ROG CROSSHAIR X670E HERO         | N                | N            | N                             | N                             |
+| ASUS     | ROG CROSSHAIR X670E EXTREME      | N                | N            | W (\_SB.PCI0.SBRG.SIO1.MUT0)  | W                             |
+| ASUS     | ROG CROSSHAIR X670E GENE         | N                | N            | W (\_SB.PCI0.SBRG.SIO1.MUT0)  | W                             |
+| ASUS     | ROG CROSSHAIR X670E HERO         | N                | N            | W (\_SB.PCI0.SBRG.SIO1.MUT0)  | W                             |
 | ASUS     | ROG MAXIMUS X HERO               | N                | N            | P (\_SB_.PCI0.LPCB.SIO1.MUT0) | N                             |
 | ASUS     | ROG MAXIMUS XI HERO              | N                | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N? (\AMW0.ASMX)               |
 | ASUS     | ROG MAXIMUS XI HERO (WI-FI)      | N                | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N? (\AMW0.ASMX)               |
-| ASUS     | ROG MAXIMUS XIII EXTREME GLACIAL | N                | N            | N                             | N                             |
-| ASUS     | ROG MAXIMUS Z690 EXTREME         | N                | N            | N                             | N                             |
-| ASUS     | ROG MAXIMUS Z690 EXTREME GLACIAL | N                | N            | N                             | N                             |
-| ASUS     | ROG MAXIMUS Z790 EXTREME         | N                | N            | N                             | N                             |
+| ASUS     | ROG MAXIMUS XIII EXTREME GLACIAL | N                | N            | W (\_SB.PC00.LPCB.SIO1.MUT0)  | W                             |
+| ASUS     | ROG MAXIMUS Z690 EXTREME         | N                | N            | W (\_SB.PC00.LPCB.SIO1.MUT0)  | W                             |
+| ASUS     | ROG MAXIMUS Z690 EXTREME GLACIAL | N                | N            | W (\_SB.PC00.LPCB.SIO1.MUT0)  | W                             |
+| ASUS     | ROG MAXIMUS Z790 EXTREME         | N                | N            | W (\_SB.PC00.LPCB.SIO1.MUT0)  | W                             |
 | ASUS     | ROG STRIX B350-F GAMING          | N                | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B350-I GAMING          | N                | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B450-E GAMING          | Y                | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U                             |
@@ -105,9 +105,9 @@ Support sites:
 | ASUS     | ROG STRIX B550-F GAMING WIFI II  | N                | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B550-I GAMING          | N                | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
 | ASUS     | ROG STRIX B550-XE GAMING (WI-FI) | N                | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | U                             |
-| ASUS     | ROG STRIX B650E-E GAMING (WI-FI) | N                | N            | N                             | N                             |
-| ASUS     | ROG STRIX B650E-F GAMING (WI-FI) | N                | N            | N                             | N                             |
-| ASUS     | ROG STRIX B660-I GAMING WIFI     | N                | N            | N                             | N                             |
+| ASUS     | ROG STRIX B650E-E GAMING (WI-FI) | N                | N            | W (\_SB.PCI0.SBRG.SIO1.MUT0)  | W                             |
+| ASUS     | ROG STRIX B650E-F GAMING (WI-FI) | N                | N            | W (\_SB.PCI0.SBRG.SIO1.MUT0)  | W                             |
+| ASUS     | ROG STRIX B660-I GAMING WIFI     | N                | N            | W (\_SB.PC00.LPCB.SIO1.MUT0)  | W                             |
 | ASUS     | ROG STRIX X370-F GAMING          | N                | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX X370-I GAMING          | N                | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX X399-E GAMING          | L                | N            | L (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
@@ -117,10 +117,10 @@ Support sites:
 | ASUS     | ROG STRIX X570-E GAMING WIFI II  | N                | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
 | ASUS     | ROG STRIX X570-F GAMING          | N                | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
 | ASUS     | ROG STRIX X570-I GAMING          | N                | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
-| ASUS     | ROG STRIX X670E-A GAMING WIFI    | N                | N            | N                             | N                             |
-| ASUS     | ROG STRIX X670E-E GAMING WIFI    | N                | N            | N                             | N                             |
-| ASUS     | ROG STRIX X670E-F GAMING WIFI    | N                | N            | N                             | N                             |
-| ASUS     | ROG STRIX X670E-I GAMING WIFI    | N                | N            | N                             | N                             |
+| ASUS     | ROG STRIX X670E-A GAMING WIFI    | N                | N            | W (\_SB.PCI0.SBRG.SIO1.MUT0)  | W                             |
+| ASUS     | ROG STRIX X670E-E GAMING WIFI    | N                | N            | W (\_SB.PCI0.SBRG.SIO1.MUT0)  | W                             |
+| ASUS     | ROG STRIX X670E-F GAMING WIFI    | N                | N            | W (\_SB.PCI0.SBRG.SIO1.MUT0)  | W                             |
+| ASUS     | ROG STRIX X670E-I GAMING WIFI    | N                | N            | W (\_SB.PCI0.SBRG.SIO1.MUT0)  | W                             |
 | ASUS     | ROG STRIX Z370-H GAMING          | N                | N            | P (\_SB_.PCI0.LPCB.SIO1.MUT0) | N                             |
 | ASUS     | ROG STRIX Z390-E GAMING          | N                | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX Z390-F GAMING          | N                | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
@@ -133,8 +133,8 @@ Support sites:
 | ASUS     | ROG STRIX Z490-G GAMING (WI-FI)  | N                | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | U (\AMW0.ASMX)                |
 | ASUS     | ROG STRIX Z490-H GAMING          | N                | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | U (\AMW0.ASMX)                |
 | ASUS     | ROG STRIX Z490-I GAMING          | N                | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | U (\AMW0.ASMX)                |
-| ASUS     | ROG STRIX Z590-A GAMING WIFI II  | N                | N            | N                             | N                             |
-| ASUS     | ROG STRIX Z690-A GAMING WIFI D4  | N                | N            | N                             | N? (\RMTW.ASMX)               |
+| ASUS     | ROG STRIX Z590-A GAMING WIFI II  | N                | N            | W (\_SB.PC00.LPCB.SIO1.MUT0)  | W                             |
+| ASUS     | ROG STRIX Z690-A GAMING WIFI D4  | N                | N            | W (\_SB.PC00.LPCB.SIO1.MUT0)  | W (\RMTW.ASMX)                |
 | ASUS     | ROG ZENITH EXTREME               | L                | N            | N                             | N                             |
 | ASUS     | ROG ZENITH EXTREME ALPHA         | L                | N            | N                             | N                             |
 | ASUS     | ROG ZENITH II EXTREME            | N                | N            | L                             | L (\_SB_.PCI0.SBRG.SIO1.MUT0) |
@@ -157,7 +157,7 @@ Support sites:
 | ASUS     | TUF GAMING X570-PRO (WI-FI)      | N                | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING Z490-PLUS             | N                | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | U                             |
 | ASUS     | TUF GAMING Z490-PLUS (WI-FI)     | N                | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | U                             |
-| ASUS     | TUF GAMING Z590-PLUS WIFI        | N                | N            | N                             | N                             |
+| ASUS     | TUF GAMING Z590-PLUS WIFI        | N                | N            | W (\_SB.PC00.LPCB.SIO1.MUT0)  | W                             |
 | ASUS     | TUF Z270 MARK 1                  | N                | N            | P                             | N                             |
 | GIGABYTE | X570 AORUS ELITE                 | N                | L            | N                             | N                             |
 | GIGABYTE | X570 AORUS ELITE WIFI            | N                | L            | N                             | N                             |
@@ -179,6 +179,7 @@ Support sites:
 * U - to upstream,
 * ? - upstreamed but not detected by script,
 * M - required method exists, port defined in different way,
+* W - required method exists, no wmi method defined,
 * P - return zero, no valid sensors results or requires custom lock.
 
 # Entry point definition
@@ -628,7 +629,7 @@ sudo dpk -i *.deb
 ```
 
 Or look to official documentation:
-[Debian](https://wiki.debian.org/BuildADebianKernelPackage)
-[Ubuntu](https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel)
-[Fedora](https://fedoraproject.org/wiki/Building_a_custom_kernel)
-[Archlinux](https://wiki.archlinux.org/title/Kernel/Traditional_compilation)
+ * [Debian](https://wiki.debian.org/BuildADebianKernelPackage)
+ * [Ubuntu](https://wiki.ubuntu.com/Kernel/BuildYourOwnKernel)
+ * [Fedora](https://fedoraproject.org/wiki/Building_a_custom_kernel)
+ * [Archlinux](https://wiki.archlinux.org/title/Kernel/Traditional_compilation)

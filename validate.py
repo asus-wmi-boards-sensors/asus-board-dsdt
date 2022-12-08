@@ -526,6 +526,7 @@ def set_default_flags(board_name, board_flags):
     board_flags.update({
         "asus_wmi": "N",
         "asus_ec": "N",
+        "asus_wmi_port": "N",
         "asus_nct6775": "N",
         "asus_port290": "N",
         "gigabyte_wmi": "N",
@@ -564,48 +565,49 @@ def update_board_flags(board_flags, content):
         content, board_flags["wmi_methods"],
         "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66", "BD"
     ):
+        board_flags["asus_wmi_port"] = "Y"
 
-        # Check ec / can be without ntc6775 sensor
-        if check_ec(content):
-            board_ec_mutex = check_ec_mutex(content)
-            if board_ec_mutex:
-                board_flags["asus_ec_mutex"] = board_ec_mutex
+    # Check ec / can be without ntc6775 sensor
+    if check_ec(content):
+        board_ec_mutex = check_ec_mutex(content)
+        if board_ec_mutex:
+            board_flags["asus_ec_mutex"] = board_ec_mutex
 
-            if board_name in EC_BOARDS:
-                board_flags["asus_ec"] = "Y"
+        if board_name in EC_BOARDS:
+            board_flags["asus_ec"] = "Y"
+        else:
+            board_flags["asus_ec"] = "U"
+
+    # Check wmi / can be without ntc6775 sensor
+    if check_wmi(content):
+        if board_name in WMI_BOARDS:
+            board_flags["asus_wmi"] = "Y"
+        else:
+            board_flags["asus_wmi"] = "U"
+
+    # check nct6775
+    if check_nct6775(content):
+        # board can use unknown method of define port
+        board_io_mutex = check_nct6775_mutex(content)
+        if board_io_mutex:
+            board_flags["asus_io_mutex"] = board_io_mutex
+
+        if check_port(content):
+            # already upstreamed
+            if board_name in NCT6775_BOARDS:
+                board_flags["asus_nct6775"] = "Y"
             else:
-                board_flags["asus_ec"] = "U"
+                board_flags["asus_nct6775"] = "U"
+        elif check_custom_port(content):
+            board_flags["asus_nct6775"] = "M"
 
-        # Check wmi / can be without ntc6775 sensor
-        if check_wmi(content):
-            if board_name in WMI_BOARDS:
-                board_flags["asus_wmi"] = "Y"
-            else:
-                board_flags["asus_wmi"] = "U"
+    if check_custom_port(content):
+        # recheck mossible mutex
+        board_io_mutex = check_nct6775_mutex(content)
+        if board_io_mutex:
+            board_flags["asus_io_mutex"] = board_io_mutex
 
-        # check nct6775
-        if check_nct6775(content):
-            # board can use unknown method of define port
-            board_io_mutex = check_nct6775_mutex(content)
-            if board_io_mutex:
-                board_flags["asus_io_mutex"] = board_io_mutex
-
-            if check_port(content):
-                # already upstreamed
-                if board_name in NCT6775_BOARDS:
-                    board_flags["asus_nct6775"] = "Y"
-                else:
-                    board_flags["asus_nct6775"] = "U"
-            elif check_custom_port(content):
-                board_flags["asus_nct6775"] = "M"
-
-        if check_custom_port(content):
-            # recheck mossible mutex
-            board_io_mutex = check_nct6775_mutex(content)
-            if board_io_mutex:
-                board_flags["asus_io_mutex"] = board_io_mutex
-
-            board_flags["asus_port290"] = "Y"
+        board_flags["asus_port290"] = "Y"
 
 
 def fix_flags(boards_flags):
@@ -632,10 +634,22 @@ def fix_flags(boards_flags):
             board_flags["asus_nct6775"] += "?"
 
         if (
+            board_flags["asus_nct6775"] in ("U", "Y") and
+            board_flags["asus_wmi_port"] == "N"
+        ):
+            board_flags["asus_nct6775"] = "W"
+
+        if (
             board_flags["asus_ec"] != "Y" and
             board_name in EC_BOARDS
         ):
             board_flags["asus_ec"] += "?"
+
+        if (
+            board_flags["asus_ec"] in ("U", "Y") and
+            board_flags["asus_wmi_port"] == "N"
+        ):
+            board_flags["asus_ec"] = "W"
 
         # Workaround needed
         if (board_flags["asus_nct6775"] == "N" and
