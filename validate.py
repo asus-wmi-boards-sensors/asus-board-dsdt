@@ -1,6 +1,8 @@
 #!/usr/bin/python3
 import sys
 import os
+import json
+
 
 # Upstreamed ec
 EC_BOARDS = [
@@ -834,3 +836,5 @@ if __name__ == "__main__":
     fix_flags(boards_flags)
     add_load_flags(boards_flags)
     print_boards(boards_flags)
+    with open("boards.json", "wb") as f:
+        f.write(json.dumps(boards_flags, indent=4).encode("utf8"))
