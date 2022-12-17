@@ -4,15 +4,24 @@ Collection of DSDT files required for support of https://bugzilla.kernel.org/sho
 
 All files are provided by motherboard users or downloaded and extracted from support section of ASUS website.
 
-How it works for:
-* [ASUS](https://bugzilla.kernel.org/show_bug.cgi?id=204807#c37)
-* [Gigabyte](https://github.com/t-8ch/linux-gigabyte-wmi-driver)
-
-[ACPI Specification](https://uefi.org/specifications)
-
 Support sites:
 * [ASUS UEFI](https://www.asus.com/motherboards-components/motherboards/all-series/)
 * [Gigabyte UEFI](https://www.gigabyte.com/Motherboard/All-Series)
+* [NCT* sensors](https://www.nuvoton.com/)
+
+# Docs
+
+How it works for:
+* [ASUS](https://bugzilla.kernel.org/show_bug.cgi?id=204807#c37)
+* [Gigabyte](https://github.com/t-8ch/linux-gigabyte-wmi-driver)
+* [ACPI Specification](https://uefi.org/specifications)
+* [HWMON repository](https://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git/log/?h=hwmon-next)
+* [NetBSD](https://github.com/NetBSD/src/tree/trunk/sys/dev/isa/wbsio.c)
+
+Datasheets for sensors are placed to [docs directory](docs).
+
+* [NCT6776F/D](https://media.digikey.com/pdf/Data%20Sheets/Nuvoton%20PDFs/NCT6776F,D.pdf)
+* [NCT6796D](https://www.nuvoton.com/export/resource-files/NCT6796D_Datasheet_V0_6.pdf)
 
 # Supported boards
 
