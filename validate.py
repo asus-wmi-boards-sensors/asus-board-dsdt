@@ -228,6 +228,47 @@ ASUS_EC_MUTEX = {
     ]
 }
 
+KNOWN_GOOD_IMPLEMENTATION = {
+    "B550": """
+        Device (AMW0)
+        {
+            Name (_HID, EisaId ("PNP0C14") )
+            Name (_UID, "ASUSWMI")
+            Name (_WDG, Buffer (0x50)
+            {
+                0xD0, 0x5E, 0x84, 0x97, 0x6D, 0x4E, 0xDE, 0x11,
+                0x8A, 0x39, 0x08, 0x00, 0x20, 0x0C, 0x9A, 0x66,
+                0x42, 0x43, 0x01, 0x02, 0xA0, 0x47, 0x67, 0x46,
+                0xEC, 0x70, 0xDE, 0x11, 0x8A, 0x39, 0x08, 0x00,
+                0x20, 0x0C, 0x9A, 0x66, 0x42, 0x44, 0x01, 0x02,
+                0x72, 0x0F, 0xBC, 0xAB, 0xA1, 0x8E, 0xD1, 0x11,
+                0x00, 0xA0, 0xC9, 0x06, 0x29, 0x10, 0x00, 0x00,
+                0xD2, 0x00, 0x01, 0x08, 0x21, 0x12, 0x90, 0x05,
+                0x66, 0xD5, 0xD1, 0x11, 0xB2, 0xF0, 0x00, 0xA0,
+                0xC9, 0x06, 0x29, 0x10, 0x4D, 0x4F, 0x01, 0x00
+            })
+    """,
+    "B650": """
+        Device (RMTW)
+        {
+            Name (_HID, EisaId ("PNP0C14") )
+            Name (_UID, "AsusMbSwInterface")
+            Name (_WDG, Buffer (0x50)
+            {
+                0xD0, 0x5E, 0x84, 0x97, 0x6D, 0x4E, 0xDE, 0x11,
+                0x8A, 0x39, 0x08, 0x00, 0x20, 0x0C, 0x9A, 0x66,
+                0x42, 0x43, 0x01, 0x02, 0x15, 0xB1, 0x2B, 0xB8,
+                0xAE, 0x43, 0x35, 0x4B, 0xB7, 0x9D, 0xBD, 0x64,
+                0x16, 0xAB, 0xC3, 0x81, 0x42, 0x43, 0x01, 0x02,
+                0x72, 0x0F, 0xBC, 0xAB, 0xA1, 0x8E, 0xD1, 0x11,
+                0x00, 0xA0, 0xC9, 0x06, 0x29, 0x10, 0x00, 0x00,
+                0xD2, 0x00, 0x01, 0x08, 0x21, 0x12, 0x90, 0x05,
+                0x66, 0xD5, 0xD1, 0x11, 0xB2, 0xF0, 0x00, 0xA0,
+                0xC9, 0x06, 0x29, 0x10, 0x4D, 0x4F, 0x01, 0x00
+            })
+    """
+}
+
 
 def gen_asus_board_name(board_group):
     if board_group[0] == "ROG" and board_group[1] == "STRIX":
@@ -392,6 +433,17 @@ def cleanup_lines(content):
     return content.strip()
 
 
+def code_clenaup(content):
+    print (f"\tInitial size: {len(content)}")
+    content = cleanup_lines(content)
+    print (f"\tWhitespase clean: {len(content)}")
+    content = comments_remove(content)
+    print (f"\tComments clean: {len(content)}")
+    content = cleanup_lines(content)
+    print (f"\tRecleanup whitespace: {len(content)}")
+    return content
+
+
 def get_buffer_uuid_by_name(content, name):
     result = []
     while f"Name ({name}, Buffer (" in content:
@@ -535,6 +587,7 @@ def set_default_flags(board_name, board_flags):
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
         "wmi_methods": [],
+        "known_good": []
     })
     # set known io mutex name
     for mutex_name in ASUS_NCT6775_MUTEX:
@@ -611,6 +664,11 @@ def update_board_flags(board_flags, content):
 
         board_flags["asus_port290"] = "Y"
 
+    for name in KNOWN_GOOD_IMPLEMENTATION:
+        if KNOWN_GOOD_IMPLEMENTATION[name] in content:
+            if name not in board_flags["known_good"]:
+                board_flags["known_good"].append(name)
+
 
 def fix_flags(boards_flags):
     for board_name in boards_flags:
@@ -660,6 +718,9 @@ def fix_flags(boards_flags):
             board_flags["asus_port290"] == "Y"
         ):
                 board_flags["asus_nct6775"] = "P"
+
+        if board_flags["known_good"]:
+            board_flags["asus_nct6775"] += "K"
 
 
 def add_load_flags(boards_flags):
@@ -713,7 +774,7 @@ def print_boards(boards_flags):
         board_flags = boards_flags[board_name]
 
         if (
-            board_flags["asus_nct6775"] == "U" and
+            "U" in board_flags["asus_nct6775"] and
             board_flags["asus_wmi"] == "N"
         ):
             for serie in NCT6775_SERIES:
@@ -763,6 +824,11 @@ def print_boards(boards_flags):
 
 if __name__ == "__main__":
 
+    for name in KNOWN_GOOD_IMPLEMENTATION:
+        KNOWN_GOOD_IMPLEMENTATION[name] = code_clenaup(
+            KNOWN_GOOD_IMPLEMENTATION[name]
+        )
+
     current_dir = "."
     if len(sys.argv) > 1:
         current_dir = sys.argv[1]
@@ -802,36 +868,39 @@ if __name__ == "__main__":
                 print (f"\tRevision: {board_hash}")
                 print (f"\tProducer: {board_producer}")
 
+                content = None
                 with open(f"{dirname}/{filename}", "br") as f:
                     content = f.read().decode("utf8")
-                    print (f"\tInitial size: {len(content)}")
-                    content = cleanup_lines(content)
-                    print (f"\tWhitespase clean: {len(content)}")
-                    content = comments_remove(content)
-                    print (f"\tComments clean: {len(content)}")
-                    content = cleanup_lines(content)
-                    print (f"\tRecleanup whitespace: {len(content)}")
 
-                    if board_name not in boards_flags:
-                        boards_flags[board_name] = {
-                            "board_producer": board_producer,
-                        }
-                        set_default_flags(board_name, boards_flags[board_name])
-                    board_flags = boards_flags[board_name]
-                    # get WMI methods:
-                    # Gigabyte: QWDG
-                    # ASUS: _WDG
-                    wmi_methods = []
-                    for buffer_name in ("_WDG", "QWDG"):
-                        wmi_methods += get_buffer_uuid_by_name(content, buffer_name)
-                    str_methods = '\n\t\t'.join(wmi_methods)
-                    print (f"\tWMI methods: \n\t\t{str_methods}")
-                    # add methods to flags
-                    for wmi_method in wmi_methods:
-                        if wmi_method not in board_flags["wmi_methods"]:
-                            board_flags["wmi_methods"].append(wmi_method)
-                    # set other flags
-                    update_board_flags(board_flags, content)
+                if not content:
+                    continue
+
+                content = code_clenaup(content)
+
+                # check dumps clenaup
+                # with open(f"{dirname}/{filename}.tmp", "bw") as f:
+                #    f.write(content.encode("utf8"))
+
+                if board_name not in boards_flags:
+                    boards_flags[board_name] = {
+                        "board_producer": board_producer,
+                    }
+                    set_default_flags(board_name, boards_flags[board_name])
+                board_flags = boards_flags[board_name]
+                # get WMI methods:
+                # Gigabyte: QWDG
+                # ASUS: _WDG
+                wmi_methods = []
+                for buffer_name in ("_WDG", "QWDG"):
+                    wmi_methods += get_buffer_uuid_by_name(content, buffer_name)
+                str_methods = '\n\t\t'.join(wmi_methods)
+                print (f"\tWMI methods: \n\t\t{str_methods}")
+                # add methods to flags
+                for wmi_method in wmi_methods:
+                    if wmi_method not in board_flags["wmi_methods"]:
+                        board_flags["wmi_methods"].append(wmi_method)
+                # set other flags
+                update_board_flags(board_flags, content)
 
     fix_flags(boards_flags)
     add_load_flags(boards_flags)

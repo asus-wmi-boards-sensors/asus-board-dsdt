@@ -4,7 +4,7 @@
         "asus_wmi": "N",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -18,6 +18,9 @@
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX B450-E GAMING": {
@@ -25,7 +28,7 @@
         "asus_wmi": "Y",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -37,6 +40,9 @@
             "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX Z490-G GAMING": {
@@ -44,7 +50,7 @@
         "asus_wmi": "N",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -60,6 +66,9 @@
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100",
             "_WDG:1F13AB7F-6220-4210-8F8E-8BB5E71EE969:4445:0102",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ProArt X670E-CREATOR WIFI": {
@@ -67,7 +76,7 @@
         "asus_wmi": "N",
         "asus_ec": "W",
         "asus_wmi_port": "N",
-        "asus_nct6775": "W",
+        "asus_nct6775": "WK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -81,6 +90,9 @@
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108"
+        ],
+        "known_good": [
+            "B650"
         ]
     },
     "MAXIMUS IX EXTREME": {
@@ -88,7 +100,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "P",
+        "asus_nct6775": "PK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "",
@@ -100,6 +112,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX B550-E GAMING": {
@@ -107,7 +122,7 @@
         "asus_wmi": "N",
         "asus_ec": "Y",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -124,6 +139,9 @@
             "_WDG:ABBC0F6A-8EA1-11D1-00A0-C90629100000:4141:0102",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4241:0100",
             "_WDG:86CCFD48-205E-4A77-9C48-2021CBEDE341:5446:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG MAXIMUS XIII EXTREME GLACIAL": {
@@ -150,14 +168,15 @@
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4E42:0102",
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
-        ]
+        ],
+        "known_good": []
     },
     "PRIME B360-PLUS": {
         "board_producer": "ASUS",
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -172,6 +191,9 @@
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100",
             "_WDG:1F13AB7F-6220-4210-8F8E-8BB5E71EE969:4445:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "PRIME X570-P": {
@@ -179,7 +201,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -192,6 +214,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "TUF GAMING B550M-PLUS WIFI II": {
@@ -199,7 +224,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -214,6 +239,9 @@
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX B650E-E GAMING (WI-FI)": {
@@ -221,7 +249,7 @@
         "asus_wmi": "N",
         "asus_ec": "W",
         "asus_wmi_port": "N",
-        "asus_nct6775": "W",
+        "asus_nct6775": "WK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -235,6 +263,9 @@
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108"
+        ],
+        "known_good": [
+            "B650"
         ]
     },
     "STRIX-Z270H-GAMING": {
@@ -242,7 +273,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "P",
+        "asus_nct6775": "PK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "",
@@ -253,6 +284,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX Z390-E GAMING": {
@@ -260,7 +294,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -277,6 +311,9 @@
             "_WDG:1F13AB7F-6220-4210-8F8E-8BB5E71EE969:4445:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "PRO H410T": {
@@ -284,7 +321,7 @@
         "asus_wmi": "N",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -301,6 +338,9 @@
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX B450-F GAMING": {
@@ -308,7 +348,7 @@
         "asus_wmi": "Y",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -320,6 +360,9 @@
             "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "X570 I AORUS PRO WIFI": {
@@ -339,14 +382,15 @@
             "QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101",
             "QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102",
             "QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108"
-        ]
+        ],
+        "known_good": []
     },
     "PRIME B450M-GAMING/BR": {
         "board_producer": "ASUS",
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "M",
+        "asus_nct6775": "MK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -359,6 +403,9 @@
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:ABBC0F6A-8EA1-11D1-00A0-C90629100000:4141:0102",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4241:0100"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "PRIME B550M-K": {
@@ -366,7 +413,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -379,6 +426,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG CROSSHAIR VIII HERO (WI-FI)": {
@@ -386,7 +436,7 @@
         "asus_wmi": "N",
         "asus_ec": "Y",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -400,6 +450,9 @@
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX B550-F GAMING (WI-FI)": {
@@ -407,7 +460,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -420,6 +473,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX B550-F GAMING": {
@@ -427,7 +483,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -440,6 +496,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ProArt Z790-CREATOR WIFI": {
@@ -447,7 +506,7 @@
         "asus_wmi": "N",
         "asus_ec": "W",
         "asus_wmi_port": "N",
-        "asus_nct6775": "W",
+        "asus_nct6775": "WK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PC00.LPCB.SIO1.MUT0",
@@ -466,6 +525,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4E42:0102",
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108"
+        ],
+        "known_good": [
+            "B650"
         ]
     },
     "ROG STRIX B550-I GAMING": {
@@ -473,7 +535,7 @@
         "asus_wmi": "N",
         "asus_ec": "Y",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -486,6 +548,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "STRIX-Z270F-GAMING": {
@@ -493,7 +558,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "P",
+        "asus_nct6775": "PK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "",
@@ -504,6 +569,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX X670E-F GAMING WIFI": {
@@ -524,14 +592,15 @@
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108",
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108"
-        ]
+        ],
+        "known_good": []
     },
     "ProArt X570-CREATOR WIFI": {
         "board_producer": "ASUS",
         "asus_wmi": "N",
         "asus_ec": "Y",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -546,6 +615,9 @@
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "PRIME B650-PLUS": {
@@ -553,7 +625,7 @@
         "asus_wmi": "N",
         "asus_ec": "W",
         "asus_wmi_port": "N",
-        "asus_nct6775": "W",
+        "asus_nct6775": "WK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -565,6 +637,9 @@
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108"
+        ],
+        "known_good": [
+            "B650"
         ]
     },
     "ROG STRIX B350-I GAMING": {
@@ -572,7 +647,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "M",
+        "asus_nct6775": "MK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -582,6 +657,9 @@
             "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "PRIME X470-PRO": {
@@ -589,7 +667,7 @@
         "asus_wmi": "Y",
         "asus_ec": "Y",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -601,6 +679,9 @@
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX Z690-A GAMING WIFI D4": {
@@ -626,14 +707,15 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4E42:0102",
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108"
-        ]
+        ],
+        "known_good": []
     },
     "PRIME X570-PRO": {
         "board_producer": "ASUS",
         "asus_wmi": "N",
         "asus_ec": "Y",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -647,6 +729,9 @@
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX X570-I GAMING": {
@@ -654,7 +739,7 @@
         "asus_wmi": "N",
         "asus_ec": "Y",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -667,6 +752,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ProArt B660-CREATOR D4": {
@@ -674,7 +762,7 @@
         "asus_wmi": "N",
         "asus_ec": "W",
         "asus_wmi_port": "N",
-        "asus_nct6775": "W",
+        "asus_nct6775": "WK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PC00.LPCB.SIO1.MUT0",
@@ -693,6 +781,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4E42:0102",
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108"
+        ],
+        "known_good": [
+            "B650"
         ]
     },
     "ROG STRIX B550-F GAMING WIFI II": {
@@ -700,7 +791,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -715,6 +806,9 @@
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4E42:0102",
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX X570-E GAMING WIFI II": {
@@ -722,7 +816,7 @@
         "asus_wmi": "N",
         "asus_ec": "Y",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -735,6 +829,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "MAXIMUS IX FORMULA": {
@@ -742,7 +839,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "P",
+        "asus_nct6775": "PK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "",
@@ -753,6 +850,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "PRIME B550M-A (WI-FI)": {
@@ -760,7 +860,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -773,6 +873,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX B550-A GAMING": {
@@ -780,7 +883,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -793,6 +896,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "PRIME Z270-A": {
@@ -800,7 +906,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "P",
+        "asus_nct6775": "PK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -812,6 +918,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG CROSSHAIR VIII FORMULA": {
@@ -819,7 +928,7 @@
         "asus_wmi": "N",
         "asus_ec": "Y",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -833,6 +942,9 @@
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX Z490-H GAMING": {
@@ -840,7 +952,7 @@
         "asus_wmi": "N",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -858,6 +970,9 @@
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100",
             "_WDG:1F13AB7F-6220-4210-8F8E-8BB5E71EE969:4445:0102",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "TUF GAMING X570-PLUS (WI-FI)": {
@@ -865,7 +980,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -878,6 +993,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "Z270-WS": {
@@ -885,7 +1003,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "P",
+        "asus_nct6775": "PK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "",
@@ -897,6 +1015,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "PRIME B550-PLUS": {
@@ -904,7 +1025,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -917,6 +1038,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "MAXIMUS VII HERO": {
@@ -924,7 +1048,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "P",
+        "asus_nct6775": "PK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB_.PCI0.LPCB.SIO1.MUT0",
@@ -935,6 +1059,9 @@
             "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG CROSSHAIR VII HERO": {
@@ -942,7 +1069,7 @@
         "asus_wmi": "Y",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -954,6 +1081,9 @@
             "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "TUF GAMING X570-PLUS": {
@@ -961,7 +1091,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -974,6 +1104,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "Pro B550M-C": {
@@ -981,7 +1114,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -993,6 +1126,9 @@
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX B650E-F GAMING (WI-FI)": {
@@ -1000,7 +1136,7 @@
         "asus_wmi": "N",
         "asus_ec": "W",
         "asus_wmi_port": "N",
-        "asus_nct6775": "W",
+        "asus_nct6775": "WK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1014,6 +1150,9 @@
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108"
+        ],
+        "known_good": [
+            "B650"
         ]
     },
     "TUF GAMING B550M-PLUS (WI-FI)": {
@@ -1021,7 +1160,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1034,6 +1173,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "Z490-GUNDAM (WI-FI)": {
@@ -1041,7 +1183,7 @@
         "asus_wmi": "N",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -1060,6 +1202,9 @@
             "_WDG:1F13AB7F-6220-4210-8F8E-8BB5E71EE969:4445:0102",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG CROSSHAIR X670E HERO": {
@@ -1080,14 +1225,15 @@
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108",
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108"
-        ]
+        ],
+        "known_good": []
     },
     "TUF GAMING Z490-PLUS (WI-FI)": {
         "board_producer": "ASUS",
         "asus_wmi": "N",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -1106,6 +1252,9 @@
             "_WDG:1F13AB7F-6220-4210-8F8E-8BB5E71EE969:4445:0102",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "PRIME B550M-A AC": {
@@ -1113,7 +1262,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1126,6 +1275,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "MAXIMUS IX APEX": {
@@ -1133,7 +1285,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "P",
+        "asus_nct6775": "PK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "",
@@ -1144,6 +1296,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG CROSSHAIR VIII EXTREME": {
@@ -1151,7 +1306,7 @@
         "asus_wmi": "N",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1167,6 +1322,9 @@
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "PRIME H410M-R": {
@@ -1174,7 +1332,7 @@
         "asus_wmi": "N",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -1191,6 +1349,9 @@
             "_WDG:1F13AB7F-6220-4210-8F8E-8BB5E71EE969:4445:0102",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "PRIME B550M-A": {
@@ -1198,7 +1359,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1211,6 +1372,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "TUF GAMING Z590-PLUS WIFI": {
@@ -1236,14 +1400,15 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4E42:0102",
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108"
-        ]
+        ],
+        "known_good": []
     },
     "TUF B450 PLUS GAMING": {
         "board_producer": "ASUS",
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "M",
+        "asus_nct6775": "MK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1254,6 +1419,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "MAXIMUS IX HERO": {
@@ -1261,7 +1429,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "P",
+        "asus_nct6775": "PK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "",
@@ -1273,6 +1441,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "CROSSHAIR VI HERO": {
@@ -1280,7 +1451,7 @@
         "asus_wmi": "Y",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1293,6 +1464,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "Pro WS X570-ACE": {
@@ -1300,7 +1474,7 @@
         "asus_wmi": "N",
         "asus_ec": "Y",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1314,6 +1488,9 @@
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "TUF GAMING Z490-PLUS": {
@@ -1321,7 +1498,7 @@
         "asus_wmi": "N",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -1340,6 +1517,9 @@
             "_WDG:1F13AB7F-6220-4210-8F8E-8BB5E71EE969:4445:0102",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX B660-I GAMING WIFI": {
@@ -1364,14 +1544,15 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4E42:0102",
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108"
-        ]
+        ],
+        "known_good": []
     },
     "PRIME B650M-A (WI-FI)": {
         "board_producer": "ASUS",
         "asus_wmi": "N",
         "asus_ec": "W",
         "asus_wmi_port": "N",
-        "asus_nct6775": "W",
+        "asus_nct6775": "WK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1385,6 +1566,9 @@
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108"
+        ],
+        "known_good": [
+            "B650"
         ]
     },
     "ROG CROSSHAIR X670E EXTREME": {
@@ -1405,14 +1589,15 @@
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108",
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108"
-        ]
+        ],
+        "known_good": []
     },
     "PRIME B550M-A WIFI II": {
         "board_producer": "ASUS",
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1427,6 +1612,9 @@
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG CROSSHAIR VIII DARK HERO": {
@@ -1434,7 +1622,7 @@
         "asus_wmi": "N",
         "asus_ec": "Y",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1448,6 +1636,9 @@
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX Z390-H GAMING": {
@@ -1455,7 +1646,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -1471,6 +1662,9 @@
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100",
             "_WDG:1F13AB7F-6220-4210-8F8E-8BB5E71EE969:4445:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG MAXIMUS XI HERO": {
@@ -1478,7 +1672,7 @@
         "asus_wmi": "N",
         "asus_ec": "N?",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -1495,6 +1689,9 @@
             "_WDG:1F13AB7F-6220-4210-8F8E-8BB5E71EE969:4445:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG CROSSHAIR VI HERO (WI-FI AC)": {
@@ -1502,7 +1699,7 @@
         "asus_wmi": "Y",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1513,6 +1710,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG MAXIMUS Z790 EXTREME": {
@@ -1538,14 +1738,15 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4E42:0102",
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108"
-        ]
+        ],
+        "known_good": []
     },
     "ROG CROSSHAIR VI EXTREME": {
         "board_producer": "ASUS",
         "asus_wmi": "Y",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1556,6 +1757,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX B450-F GAMING II": {
@@ -1563,7 +1767,7 @@
         "asus_wmi": "Y",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1575,6 +1779,9 @@
             "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "TUF GAMING B550M-E (WI-FI)": {
@@ -1582,7 +1789,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1597,6 +1804,9 @@
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ProArt B550-CREATOR": {
@@ -1604,7 +1814,7 @@
         "asus_wmi": "N",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1619,6 +1829,9 @@
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX X570-E GAMING": {
@@ -1626,7 +1839,7 @@
         "asus_wmi": "N",
         "asus_ec": "Y",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1640,6 +1853,9 @@
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG MAXIMUS X HERO": {
@@ -1647,7 +1863,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "P",
+        "asus_nct6775": "PK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB_.PCI0.LPCB.SIO1.MUT0",
@@ -1658,6 +1874,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "PRIME B650M-A": {
@@ -1665,7 +1884,7 @@
         "asus_wmi": "N",
         "asus_ec": "W",
         "asus_wmi_port": "N",
-        "asus_nct6775": "W",
+        "asus_nct6775": "WK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1677,6 +1896,9 @@
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108"
+        ],
+        "known_good": [
+            "B650"
         ]
     },
     "ROG STRIX X670E-E GAMING WIFI": {
@@ -1697,14 +1919,15 @@
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108",
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108"
-        ]
+        ],
+        "known_good": []
     },
     "PRIME B450-PLUS": {
         "board_producer": "ASUS",
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "M",
+        "asus_nct6775": "MK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1715,6 +1938,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX X570-F GAMING": {
@@ -1722,7 +1948,7 @@
         "asus_wmi": "N",
         "asus_ec": "Y",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1736,6 +1962,9 @@
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG CROSSHAIR VII HERO (WI-FI)": {
@@ -1743,7 +1972,7 @@
         "asus_wmi": "Y",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1755,6 +1984,9 @@
             "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX X670E-A GAMING WIFI": {
@@ -1775,14 +2007,15 @@
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108",
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108"
-        ]
+        ],
+        "known_good": []
     },
     "TUF GAMING X570-PRO (WI-FI)": {
         "board_producer": "ASUS",
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1795,6 +2028,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX Z390-I GAMING": {
@@ -1802,7 +2038,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -1817,6 +2053,9 @@
             "_WDG:A6FEA33E-DABF-46F5-BFC8-460D961BEC9F:D000:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100",
             "_WDG:1F13AB7F-6220-4210-8F8E-8BB5E71EE969:4445:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX Z490-F GAMING": {
@@ -1824,7 +2063,7 @@
         "asus_wmi": "N",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -1843,6 +2082,9 @@
             "_WDG:1F13AB7F-6220-4210-8F8E-8BB5E71EE969:4445:0102",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX X470-F GAMING": {
@@ -1850,7 +2092,7 @@
         "asus_wmi": "Y",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1862,6 +2104,9 @@
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "TUF GAMING B450-PLUS II": {
@@ -1869,7 +2114,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "M",
+        "asus_nct6775": "MK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1881,6 +2126,9 @@
             "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "MAXIMUS IX CODE": {
@@ -1888,7 +2136,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "P",
+        "asus_nct6775": "PK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "",
@@ -1899,6 +2147,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX Z490-G GAMING (WI-FI)": {
@@ -1906,7 +2157,7 @@
         "asus_wmi": "N",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -1922,6 +2173,9 @@
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100",
             "_WDG:1F13AB7F-6220-4210-8F8E-8BB5E71EE969:4445:0102",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX X370-I GAMING": {
@@ -1929,7 +2183,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "M",
+        "asus_nct6775": "MK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1939,6 +2193,9 @@
             "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG CROSSHAIR X670E GENE": {
@@ -1959,14 +2216,15 @@
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108",
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108"
-        ]
+        ],
+        "known_good": []
     },
     "ROG STRIX X470-I GAMING": {
         "board_producer": "ASUS",
         "asus_wmi": "Y",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -1976,6 +2234,9 @@
             "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "STRIX-Z270E-GAMING": {
@@ -1983,7 +2244,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "P",
+        "asus_nct6775": "PK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "",
@@ -1994,6 +2255,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG MAXIMUS Z690 EXTREME": {
@@ -2020,14 +2284,15 @@
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4E42:0102",
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
-        ]
+        ],
+        "known_good": []
     },
     "TUF GAMING B550-PLUS": {
         "board_producer": "ASUS",
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -2040,6 +2305,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX Z370-H GAMING": {
@@ -2047,7 +2315,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "P",
+        "asus_nct6775": "PK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB_.PCI0.LPCB.SIO1.MUT0",
@@ -2058,6 +2326,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "P8Z68-V LX": {
@@ -2065,7 +2336,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "N",
-        "asus_nct6775": "P",
+        "asus_nct6775": "PK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB_.PCI0.LPCB.SIO1.MUT0",
@@ -2075,6 +2346,9 @@
             "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX X670E-I GAMING WIFI": {
@@ -2095,14 +2369,15 @@
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108",
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108"
-        ]
+        ],
+        "known_good": []
     },
     "ROG CROSSHAIR VIII IMPACT": {
         "board_producer": "ASUS",
         "asus_wmi": "N",
         "asus_ec": "Y",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -2115,6 +2390,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "STRIX-Z270G-GAMING": {
@@ -2122,7 +2400,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "P",
+        "asus_nct6775": "PK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "",
@@ -2133,6 +2411,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX Z390-F GAMING": {
@@ -2140,7 +2421,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -2157,6 +2438,9 @@
             "_WDG:1F13AB7F-6220-4210-8F8E-8BB5E71EE969:4445:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "Z170M-PLUS": {
@@ -2164,7 +2448,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "P",
+        "asus_nct6775": "PK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB_.PCI0.LPCB.SIO1.MUT0",
@@ -2175,6 +2459,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX Z490-A GAMING": {
@@ -2182,7 +2469,7 @@
         "asus_wmi": "N",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -2200,6 +2487,9 @@
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100",
             "_WDG:1F13AB7F-6220-4210-8F8E-8BB5E71EE969:4445:0102",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "TUF GAMING B550-PLUS WIFI II": {
@@ -2207,7 +2497,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -2222,6 +2512,9 @@
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG CROSSHAIR VIII HERO": {
@@ -2229,7 +2522,7 @@
         "asus_wmi": "N",
         "asus_ec": "Y",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -2243,6 +2536,9 @@
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "PRIME B450M-GAMING II": {
@@ -2250,7 +2546,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "M",
+        "asus_nct6775": "MK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -2265,6 +2561,9 @@
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:ABBC0F6A-8EA1-11D1-00A0-C90629100000:4141:0102",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4241:0100"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG MAXIMUS Z690 EXTREME GLACIAL": {
@@ -2291,14 +2590,15 @@
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4E42:0102",
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
-        ]
+        ],
+        "known_good": []
     },
     "ROG STRIX X370-F GAMING": {
         "board_producer": "ASUS",
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "M",
+        "asus_nct6775": "MK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -2309,6 +2609,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX Z490-E GAMING": {
@@ -2316,7 +2619,7 @@
         "asus_wmi": "N",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -2335,6 +2638,9 @@
             "_WDG:1F13AB7F-6220-4210-8F8E-8BB5E71EE969:4445:0102",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "TUF GAMING B550M-E": {
@@ -2342,7 +2648,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -2357,6 +2663,9 @@
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX B450-I GAMING": {
@@ -2364,7 +2673,7 @@
         "asus_wmi": "Y",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -2375,6 +2684,9 @@
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102",
             "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "TUF GAMING B550M-PLUS": {
@@ -2382,7 +2694,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -2395,6 +2707,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "P8H67": {
@@ -2402,7 +2717,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "N",
-        "asus_nct6775": "P",
+        "asus_nct6775": "PK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB_.PCI0.LPCB.SIO1.MUT0",
@@ -2412,6 +2727,9 @@
             "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "Z170-DELUXE": {
@@ -2419,7 +2737,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "P",
+        "asus_nct6775": "PK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB_.PCI0.LPCB.SIO1.MUT0",
@@ -2431,6 +2749,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "PRIME B460-PLUS": {
@@ -2438,7 +2759,7 @@
         "asus_wmi": "N",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -2455,6 +2776,9 @@
             "_WDG:1F13AB7F-6220-4210-8F8E-8BB5E71EE969:4445:0102",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX B350-F GAMING": {
@@ -2462,7 +2786,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "M",
+        "asus_nct6775": "MK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -2472,6 +2796,9 @@
             "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102",
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX Z490-I GAMING": {
@@ -2479,7 +2806,7 @@
         "asus_wmi": "N",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -2495,6 +2822,9 @@
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100",
             "_WDG:1F13AB7F-6220-4210-8F8E-8BB5E71EE969:4445:0102",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "TUF Z270 MARK 1": {
@@ -2502,7 +2832,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "P",
+        "asus_nct6775": "PK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "",
@@ -2514,6 +2844,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ROG STRIX Z590-A GAMING WIFI II": {
@@ -2539,14 +2872,15 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4E42:0102",
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108"
-        ]
+        ],
+        "known_good": []
     },
     "ROG MAXIMUS XI HERO (WI-FI)": {
         "board_producer": "ASUS",
         "asus_wmi": "N",
         "asus_ec": "N?",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -2563,6 +2897,9 @@
             "_WDG:1F13AB7F-6220-4210-8F8E-8BB5E71EE969:4445:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "PRIME X370-PRO": {
@@ -2570,7 +2907,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "M",
+        "asus_nct6775": "MK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -2582,6 +2919,9 @@
             "_WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:F6CB5C3C-9CAE-4EBD-B577-931EA32A2CC0:4D58:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "TUF GAMING B550-PRO": {
@@ -2589,7 +2929,7 @@
         "asus_wmi": "N",
         "asus_ec": "N",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "Y",
+        "asus_nct6775": "YK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
@@ -2602,6 +2942,9 @@
             "_WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108",
             "_WDG:A0485619-3E07-4ABE-BE6B-0AB67E2A92E6:4243:0102",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "ProArt Z490-CREATOR 10G": {
@@ -2609,7 +2952,7 @@
         "asus_wmi": "N",
         "asus_ec": "U",
         "asus_wmi_port": "Y",
-        "asus_nct6775": "U",
+        "asus_nct6775": "UK",
         "asus_port290": "Y",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
@@ -2630,6 +2973,9 @@
             "_WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4E42:0102",
             "_WDG:0B3CBB35-E3C2-45ED-91C2-4C5A6D195D1C:FF00:0108",
             "_WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102"
+        ],
+        "known_good": [
+            "B550"
         ]
     },
     "B450M DS3H-CF": {
@@ -2642,7 +2988,8 @@
         "gigabyte_wmi": "L",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "B450M S2H V2": {
         "board_producer": "GIGABYTE",
@@ -2654,7 +3001,8 @@
         "gigabyte_wmi": "L",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "B550 AORUS ELITE": {
         "board_producer": "GIGABYTE",
@@ -2666,7 +3014,8 @@
         "gigabyte_wmi": "L",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "B550 AORUS ELITE AX V2": {
         "board_producer": "GIGABYTE",
@@ -2678,7 +3027,8 @@
         "gigabyte_wmi": "L",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "B550 AORUS ELITE V2": {
         "board_producer": "GIGABYTE",
@@ -2690,7 +3040,8 @@
         "gigabyte_wmi": "L",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "B550 GAMING X V2": {
         "board_producer": "GIGABYTE",
@@ -2702,7 +3053,8 @@
         "gigabyte_wmi": "L",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "B550I AORUS PRO AX": {
         "board_producer": "GIGABYTE",
@@ -2714,7 +3066,8 @@
         "gigabyte_wmi": "L",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "B550M AORUS PRO-P": {
         "board_producer": "GIGABYTE",
@@ -2726,7 +3079,8 @@
         "gigabyte_wmi": "L",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "B550M DS3H": {
         "board_producer": "GIGABYTE",
@@ -2738,7 +3092,8 @@
         "gigabyte_wmi": "L",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "B660 GAMING X DDR4": {
         "board_producer": "GIGABYTE",
@@ -2750,7 +3105,8 @@
         "gigabyte_wmi": "L",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "B660I AORUS PRO DDR4": {
         "board_producer": "GIGABYTE",
@@ -2762,7 +3118,8 @@
         "gigabyte_wmi": "L",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "PRIME B450M-GAMING": {
         "board_producer": "ASUS",
@@ -2774,7 +3131,8 @@
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "PRIME H410M": {
         "board_producer": "ASUS",
@@ -2786,7 +3144,8 @@
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.LPCB.SIO1.MUT0",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "PRIME X399-A": {
         "board_producer": "ASUS",
@@ -2798,7 +3157,8 @@
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "PRIME Z370-A": {
         "board_producer": "ASUS",
@@ -2810,7 +3170,8 @@
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "ROG CROSSHAIR VI Hero": {
         "board_producer": "ASUS",
@@ -2822,7 +3183,8 @@
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "ROG STRIX X399-E GAMING": {
         "board_producer": "ASUS",
@@ -2834,7 +3196,8 @@
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB.PCI0.SBRG.SIO1.MUT0",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "ROG ZENITH EXTREME": {
         "board_producer": "ASUS",
@@ -2846,7 +3209,8 @@
         "gigabyte_wmi": "N",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "ROG ZENITH EXTREME ALPHA": {
         "board_producer": "ASUS",
@@ -2858,7 +3222,8 @@
         "gigabyte_wmi": "N",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "ROG ZENITH II EXTREME": {
         "board_producer": "ASUS",
@@ -2870,7 +3235,8 @@
         "gigabyte_wmi": "N",
         "asus_io_mutex": "",
         "asus_ec_mutex": "\\_SB_.PCI0.SBRG.SIO1.MUT0",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "X570 AORUS ELITE": {
         "board_producer": "GIGABYTE",
@@ -2882,7 +3248,8 @@
         "gigabyte_wmi": "L",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "X570 AORUS ELITE WIFI": {
         "board_producer": "GIGABYTE",
@@ -2894,7 +3261,8 @@
         "gigabyte_wmi": "L",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "X570 GAMING X": {
         "board_producer": "GIGABYTE",
@@ -2906,7 +3274,8 @@
         "gigabyte_wmi": "L",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "X570 UD": {
         "board_producer": "GIGABYTE",
@@ -2918,7 +3287,8 @@
         "gigabyte_wmi": "L",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "X99-E WS/USB 3.1": {
         "board_producer": "ASUS",
@@ -2930,7 +3300,8 @@
         "gigabyte_wmi": "N",
         "asus_io_mutex": "\\_SB_.PCI0.LPC0.SIO1.MUT0",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "Z390 I AORUS PRO WIFI-CF": {
         "board_producer": "GIGABYTE",
@@ -2942,7 +3313,8 @@
         "gigabyte_wmi": "L",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "Z490 AORUS ELITE AC": {
         "board_producer": "GIGABYTE",
@@ -2954,7 +3326,8 @@
         "gigabyte_wmi": "L",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     },
     "Z690M AORUS ELITE AX DDR4": {
         "board_producer": "GIGABYTE",
@@ -2966,6 +3339,7 @@
         "gigabyte_wmi": "L",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
-        "wmi_methods": []
+        "wmi_methods": [],
+        "known_good": []
     }
 }
