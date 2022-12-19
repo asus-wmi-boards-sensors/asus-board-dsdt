@@ -2,6 +2,7 @@
 import sys
 import os
 import json
+from asl_parser import parse_asl, cleanup_lines
 
 
 # Upstreamed ec
@@ -415,27 +416,7 @@ def comments_remove(content):
     return result
 
 
-def cleanup_lines(content):
-    content = content.strip()
-    # remove caret back
-    content = content.replace("\r", " ")
-    # remove tab
-    content = content.replace("\t", " ")
-    # cleanup white space before others
-    for char in (" ", "\n"):
-        # remove multiple spaces
-        while f" {char}" in content:
-            content = content.replace(f" {char}", char)
-    # empty after new line
-    for char in (" ", "\n"):
-        while f"\n{char}" in content:
-            content = content.replace(f"\n{char}", "\n")
-    return content.strip()
-
-
 def code_clenaup(content):
-    print (f"\tInitial size: {len(content)}")
-    content = cleanup_lines(content)
     print (f"\tWhitespase clean: {len(content)}")
     content = comments_remove(content)
     print (f"\tComments clean: {len(content)}")
@@ -825,6 +806,7 @@ def print_boards(boards_flags):
 if __name__ == "__main__":
 
     for name in KNOWN_GOOD_IMPLEMENTATION:
+        print (f"Cleanup example: {name}")
         KNOWN_GOOD_IMPLEMENTATION[name] = code_clenaup(
             KNOWN_GOOD_IMPLEMENTATION[name]
         )
@@ -875,11 +857,17 @@ if __name__ == "__main__":
                 if not content:
                     continue
 
-                content = code_clenaup(content)
+                print (f"\tInitial size: {len(content)}")
+                content = cleanup_lines(content)
 
+                asl_struct = parse_asl(content)
                 # check dumps clenaup
-                # with open(f"{dirname}/{filename}.tmp", "bw") as f:
-                #    f.write(content.encode("utf8"))
+                with open(f"{dirname}/{filename}.json", "bw") as f:
+                    f.write(json.dumps(
+                            asl_struct, indent=4
+                        ).encode("utf8")
+                    )
+                content = code_clenaup(content)
 
                 if board_name not in boards_flags:
                     boards_flags[board_name] = {

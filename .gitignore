@@ -2,3 +2,4 @@
 *.ZIP
 *.CAP
 *.dsl
+__pycache__
