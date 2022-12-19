@@ -1,6 +1,10 @@
 import string
 
 
+# Valid variable or function name
+ASL_VALID_NAME = string.ascii_letters + string.digits + "_"
+
+
 def skip_empty_text(buf):
     buf = buf.strip()
     pos = 0
@@ -26,7 +30,7 @@ def skip_empty_text(buf):
 
 def get_operator_name(buf):
     pos = 0
-    while buf[pos].lower() in string.ascii_lowercase:
+    while buf[pos] in ASL_VALID_NAME:
         pos += 1
     return buf[:pos], buf[pos:]
 
@@ -97,7 +101,7 @@ def parse_block(buf):
     buf = skip_empty_text(buf)
     if operator in [
         "DefinitionBlock", "Scope", "Device", "PowerResource", "Processor",
-        "If", "Else"
+        "If", "Else", "ElseIf", "ThermalZone"
     ]:
         if operator not in ["Else"]:
             result["parameters"], buf = select_open_close(buf)
@@ -120,9 +124,20 @@ def parse_block(buf):
     elif operator in [
         "Name", "OperationRegion", "External", "Alias",
         "Mutex", "CreateWordField", "CreateByteField",
-        "CreateDWordField"
+        "CreateDWordField", "Event"
     ]:
         result["parameters"], buf = select_open_close(buf)
+    elif operator in ["Zero"]:
+        # noop
+        pass
+    # TODO: hack and fix
+    elif buf[0] == "=":
+        result["operator"] = "_SET_"
+        line_size = buf.index("\n", 1)
+        if line_size == -1:
+            line_size = len(line_size)
+        result["parameters"] = (operator, buf[:line_size + 1].strip())
+        buf = buf[line_size + 1:].strip()
     else:
         raise Exception(operator + "<===>" + buf[:100] + "...")
     return result, buf
