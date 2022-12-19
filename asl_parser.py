@@ -3,13 +3,29 @@ import string
 
 # Valid variable or function name
 ASL_VALID_NAME = string.ascii_letters + string.digits + "_"
+# operation with parameter
+OPERATION_WITH_PARAMETERS = [
+    "Name",
+    "OperationRegion",
+    "External",
+    "Alias",
+    "Mutex",
+    "Event",
+    # Create*Field
+    "CreateBitField",
+    "CreateByteField",
+    "CreateWordField",
+    "CreateDWordField",
+    "CreateQWordField",
+    "CreateField",
+]
 
 
 def skip_empty_text(buf):
-    buf = buf.strip()
+    buf = buf.lstrip()
     pos = 0
-    while buf and buf[pos] in "\n /":
-        if buf[pos] in "\n ":
+    while buf and buf[pos] in (string.whitespace + "/"):
+        if buf[pos] in string.whitespace:
             pos += 1
         elif buf[pos:pos + 2] == "//":
             end_pos = buf.index("\n", pos + 2)
@@ -121,11 +137,7 @@ def parse_block(buf):
         buf = skip_empty_text(buf)
         result["content"], buf = select_open_close(buf)
         buf = skip_empty_text(buf)
-    elif operator in [
-        "Name", "OperationRegion", "External", "Alias",
-        "Mutex", "CreateWordField", "CreateByteField",
-        "CreateDWordField", "Event"
-    ]:
+    elif operator in OPERATION_WITH_PARAMETERS:
         result["parameters"], buf = select_open_close(buf)
     elif operator in ["Zero"]:
         # noop

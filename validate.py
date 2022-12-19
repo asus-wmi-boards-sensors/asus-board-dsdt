@@ -862,7 +862,7 @@ if __name__ == "__main__":
 
                 asl_struct = parse_asl(content)
                 # check dumps clenaup
-                with open(f"{dirname}/{filename}.json", "bw") as f:
+                with open(f"{dirname}/{file_parts[0]}.{file_parts[1]}.json", "bw") as f:
                     f.write(json.dumps(
                             asl_struct, indent=4
                         ).encode("utf8")
