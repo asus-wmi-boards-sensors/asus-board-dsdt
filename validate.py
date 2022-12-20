@@ -2,6 +2,7 @@
 import sys
 import os
 import json
+import time
 from asl_parser import parse_asl, cleanup_lines
 
 
@@ -378,17 +379,18 @@ def check_port(content):
 def comments_remove(content):
     result = ""
     while True:
+        content_len = len(content)
         # search comment start
         oneline_comment = content.find("//")
         if oneline_comment == -1:
-            oneline_comment = len(content)
+            oneline_comment = content_len
         multiline_comment = content.find("/*", 0, oneline_comment)
         if multiline_comment == -1:
-            multiline_comment = len(content)
+            multiline_comment = content_len
         # no comments in content
         if (
-            multiline_comment == len(content) and
-            oneline_comment == len(content)
+            multiline_comment == content_len and
+            oneline_comment == content_len
         ):
             break
         # what is nearest
@@ -399,9 +401,10 @@ def comments_remove(content):
             # search comment end
             multiline_comment = content.find("*/")
             if multiline_comment == -1:
-                 multiline_comment = len(content)
-            # skip */
-            content = content[multiline_comment + 2:]
+                content = ""
+            else:
+                # skip */
+                content = content[multiline_comment + 2:]
         else:
             # skip uncommented
             result += content[:oneline_comment]
@@ -409,9 +412,10 @@ def comments_remove(content):
             # search comment end
             oneline_comment = content.find("\n")
             if oneline_comment == -1:
-                 oneline_comment = len(content)
-            # skip comment
-            content = content[oneline_comment:]
+                content = ""
+            else:
+                # skip comment
+                content = content[oneline_comment:]
     result += content
     return result
 
@@ -431,11 +435,11 @@ def get_buffer_uuid_by_name(content, name):
         # search name buffer
         wdg_pos = content.find(f"Name ({name}, Buffer (")
         if wdg_pos == -1:
-            wdg_pos = len(content) + 1
+            return result
         # search buffer values start
         start_wdg = content.find("{", wdg_pos + 1)
         if start_wdg == -1:
-            start_wdg = len(content) + 1
+            return result
         # search buffer values end
         end_wdg = content.find("}", start_wdg + 1)
         if end_wdg == -1:
@@ -857,6 +861,7 @@ if __name__ == "__main__":
                 if not content:
                     continue
 
+                start_time = time.time()
                 print (f"\tInitial size: {len(content)}")
                 content = cleanup_lines(content)
 
@@ -889,6 +894,7 @@ if __name__ == "__main__":
                         board_flags["wmi_methods"].append(wmi_method)
                 # set other flags
                 update_board_flags(board_flags, content)
+                print (f"\tProcess time: {round(time.time() - start_time, 3)}")
 
     fix_flags(boards_flags)
     add_load_flags(boards_flags)
