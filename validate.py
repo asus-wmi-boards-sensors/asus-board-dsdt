@@ -365,6 +365,19 @@ def check_entrypoint(content, wmi_methods, uuid, method):
     return False
 
 
+def check_asl_entrypoint(asl_struct, wmi_methods, uuid, method):
+    if not check_asl_method(asl_struct, ["WM" + method], count=3):
+        return False
+    method_for_search = uuid
+    method_for_search += ":"
+    for char in method:
+        method_for_search += hex(ord(char)).upper()[2:]
+    for wmi_method in wmi_methods:
+        if wmi_method.startswith(method_for_search):
+            return True
+    return False
+
+
 def check_gigabyte_entrypoint_method(content):
     method_template = "Method (_WDG, 0, Serialized)\n{\nReturn (QWDG)\n}"
     if method_template not in content:
@@ -445,6 +458,26 @@ def check_case(content, methods):
         method_hex = "".join([hex(ord(c))[2:] for c in method]).upper()
         method_imp = f"Case (0x{method_hex})\n{{\nReturn ({method} (Arg2))\n}}"
         if method_imp not in content:
+            return False
+    return True
+
+
+def check_asl_method(asl_struct, methods, count=1):
+    for method in methods:
+        if not asl_has_operator_with_params(
+            asl_struct, {
+                "operator": "Method",
+                "parameters": f"({method}, {count}, Serialized)",
+            }
+        ):
+            return False
+        if asl_has_operator_with_params(
+            asl_struct, {
+                "operator": "Method",
+                "parameters": f"({method}, {count}, Serialized)",
+                "content": "{\nReturn (Ones)\n}"
+            }
+        ):
             return False
     return True
 
@@ -535,21 +568,90 @@ def set_default_flags(board_name, board_flags):
             board_flags["asus_ec_mutex"] = mutex_name
 
 
-def update_board_flags(board_flags, content):
-
-    # gigabyte
-    if (
-        check_gigabyte_entrypoint_method(content) and
-        check_entrypoint(
-            content, board_flags["wmi_methods"],
-            "QWDG:DEADBEEF-2001-0000-00A0-C90629100000", "BB"
+def update_board_asl_flags(board_flags, asl_struct):
+    # search name region Gigabyte style
+    blocks = search_block_with_name_parameter(asl_struct, {
+        "operator": "Name",
+        "parameters": "(_UID, \"GSADEV0\")"
+    })
+    for block in blocks:
+        block_content = block['content']
+        if not asl_has_operator_with_params(
+            block_content, {
+                "operator": "Name",
+                "parameters": "(_HID, EisaId (\"PNP0C14\") )"
+            }
+        ):
+            continue
+        # has convert _WDG -> QWDG
+        if not asl_has_operator_with_params(
+            block_content, {
+                "operator": "Method",
+                "parameters": "(_WDG, 0, Serialized)",
+                "content": "{\nReturn (QWDG) \n}"
+            }
+        ):
+            continue
+        wdg_content = asl_get_operator_with_params(
+            block_content,
+            "Name", "(QWDG, Buffer ("
         )
-    ):
-        # already upstreamed
-        if board_name in GIGABYTE_BOARDS:
-            board_flags["gigabyte_wmi"] = "Y"
-        else:
-            board_flags["gigabyte_wmi"] = "U"
+        if wdg_content:
+            wmi_methods = decode_buffer_uuid_by_name(
+                wdg_content["parameters"], "QWDG"
+            )
+            str_methods = '\n\t\t'.join(wmi_methods)
+            print (f"\tWMI methods: \n\t\t{str_methods}")
+            # add methods to flags
+            for wmi_method in wmi_methods:
+                if wmi_method not in board_flags["wmi_methods"]:
+                    board_flags["wmi_methods"].append(wmi_method)
+
+        # check implementation
+        if (
+            check_asl_entrypoint(
+                block_content, board_flags["wmi_methods"],
+                "QWDG:DEADBEEF-2001-0000-00A0-C90629100000", "BB"
+            )
+        ):
+            # already upstreamed
+            if board_name in GIGABYTE_BOARDS:
+                board_flags["gigabyte_wmi"] = "Y"
+            else:
+                board_flags["gigabyte_wmi"] = "U"
+
+    # search name region B550 style
+    blocks = search_block_with_name_parameter(asl_struct, {
+        "operator": "Name",
+        "parameters": "(_UID, \"ASUSWMI\")"
+    })
+    for block in blocks:
+        block_content = block['content']
+        if not asl_has_operator_with_params(
+            block_content, {
+                "operator": "Name",
+                "parameters": "(_HID, EisaId (\"PNP0C14\") )"
+            }
+        ):
+            continue
+
+        wdg_content = asl_get_operator_with_params(
+            block_content,
+            "Name", "(_WDG, Buffer ("
+        )
+        if wdg_content:
+            wmi_methods = decode_buffer_uuid_by_name(
+                wdg_content["parameters"], "_WDG"
+            )
+            str_methods = '\n\t\t'.join(wmi_methods)
+            print (f"\tWMI methods: \n\t\t{str_methods}")
+            # add methods to flags
+            for wmi_method in wmi_methods:
+                if wmi_method not in board_flags["wmi_methods"]:
+                    board_flags["wmi_methods"].append(wmi_method)
+
+
+def update_board_flags(board_flags, content):
 
     # asus
     if check_entrypoint(
@@ -830,73 +932,8 @@ if __name__ == "__main__":
                     }
                     set_default_flags(board_name, boards_flags[board_name])
                 board_flags = boards_flags[board_name]
-                # search name region Gigabyte style
-                blocks = search_block_with_name_parameter(asl_struct, {
-                    "operator": "Name",
-                    "parameters": "(_UID, \"GSADEV0\")"
-                })
-                for block in blocks:
-                    block_content = block['content']
-                    if not asl_has_operator_with_params(
-                        block_content, {
-                            "operator": "Name",
-                            "parameters": "(_HID, EisaId (\"PNP0C14\") )"
-                        }
-                    ):
-                        continue
-                    # has convert _WDG -> QWDG
-                    if not asl_has_operator_with_params(
-                        block_content, {
-                            "operator": "Method",
-                            "parameters": "(_WDG, 0, Serialized)",
-                            "content": "{\nReturn (QWDG) \n}"
-                        }
-                    ):
-                        continue
-                    wdg_content = asl_get_operator_with_params(
-                        block_content,
-                        "Name", "(QWDG, Buffer ("
-                    )
-                    if wdg_content:
-                        wmi_methods = decode_buffer_uuid_by_name(
-                            wdg_content["parameters"], "QWDG"
-                        )
-                        str_methods = '\n\t\t'.join(wmi_methods)
-                        print (f"\tWMI methods: \n\t\t{str_methods}")
-                        # add methods to flags
-                        for wmi_method in wmi_methods:
-                            if wmi_method not in board_flags["wmi_methods"]:
-                                board_flags["wmi_methods"].append(wmi_method)
 
-                # search name region B550 style
-                blocks = search_block_with_name_parameter(asl_struct, {
-                    "operator": "Name",
-                    "parameters": "(_UID, \"ASUSWMI\")"
-                })
-                for block in blocks:
-                    block_content = block['content']
-                    if not asl_has_operator_with_params(
-                        block_content, {
-                            "operator": "Name",
-                            "parameters": "(_HID, EisaId (\"PNP0C14\") )"
-                        }
-                    ):
-                        continue
-
-                    wdg_content = asl_get_operator_with_params(
-                        block_content,
-                        "Name", "(_WDG, Buffer ("
-                    )
-                    if wdg_content:
-                        wmi_methods = decode_buffer_uuid_by_name(
-                            wdg_content["parameters"], "_WDG"
-                        )
-                        str_methods = '\n\t\t'.join(wmi_methods)
-                        print (f"\tWMI methods: \n\t\t{str_methods}")
-                        # add methods to flags
-                        for wmi_method in wmi_methods:
-                            if wmi_method not in board_flags["wmi_methods"]:
-                                board_flags["wmi_methods"].append(wmi_method)
+                update_board_asl_flags(board_flags, asl_struct)
 
                 content = code_clenaup(content)
                 # set other flags
