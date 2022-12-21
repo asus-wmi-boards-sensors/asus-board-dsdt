@@ -433,59 +433,6 @@ def code_clenaup(content):
     return content
 
 
-def get_buffer_uuid_by_name(content, name):
-    result = []
-    while f"Name ({name}, Buffer (" in content:
-        # search name buffer
-        wdg_pos = content.find(f"Name ({name}, Buffer (")
-        if wdg_pos == -1:
-            return result
-        # search buffer values start
-        start_wdg = content.find("{", wdg_pos + 1)
-        if start_wdg == -1:
-            return result
-        # search buffer values end
-        end_wdg = content.find("}", start_wdg + 1)
-        if end_wdg == -1:
-           end_wdg = len(content) + 1
-        # get buffer
-        wdg_content = content[start_wdg + 1:end_wdg - 1]
-        # get left values
-        content = content[end_wdg:]
-        # remove whitespaces
-        wdg_content = wdg_content.replace("\n", " ")
-        while "  " in wdg_content:
-            wdg_content = wdg_content.replace("  ", " ")
-        wdg_content = wdg_content.strip()
-        while ", " in wdg_content:
-            wdg_content = wdg_content.replace(", ", ",")
-        # combine values to single string
-        values = []
-        for hex_value in wdg_content.split(","):
-            values.append(hex_value[2:4])
-        values_combined = "".join(values)
-        # convert string to uuid:method:flags
-        while values_combined:
-            uuid_str = []
-            begin_uuid = ""
-            tmp_uuid = values_combined[:16]
-            while tmp_uuid:
-                begin_uuid += tmp_uuid[-2:]
-                tmp_uuid = tmp_uuid[:-2]
-            end_uuid = values_combined[16:40]
-            uuid_str.append(begin_uuid[8:16])
-            uuid_str.append(begin_uuid[4:8])
-            uuid_str.append(begin_uuid[0:4])
-            uuid_str.append(end_uuid[0:4])
-            uuid_str.append(end_uuid[4:16])
-            result.append(
-                f"{name}:{'-'.join(uuid_str)}:{end_uuid[16:20]}:{end_uuid[20:]}"
-            )
-            values_combined = values_combined[40:]
-
-    return result
-
-
 def check_custom_port(content):
     for line in content.split("\n"):
         if ", 0x0290)" in line and "Name (" in line:
@@ -883,6 +830,36 @@ if __name__ == "__main__":
                     }
                     set_default_flags(board_name, boards_flags[board_name])
                 board_flags = boards_flags[board_name]
+                # search name region Gigabyte style
+                blocks = search_block_with_name_parameter(asl_struct, "Name", "(_UID, \"GSADEV0\")")
+                for block in blocks:
+                    block_content = block['content']
+                    if not asl_has_operator_with_params(
+                        block_content,
+                        "Name", "(_HID, EisaId (\"PNP0C14\") )"
+                    ):
+                        continue
+                    # has convert _WDG -> QWDG
+                    if not asl_has_operator_with_params(
+                        block_content,
+                        "Method", "(_WDG, 0, Serialized)"
+                    ):
+                        continue
+                    wdg_content = asl_get_operator_with_params(
+                        block_content,
+                        "Name", "(QWDG, Buffer ("
+                    )
+                    if wdg_content:
+                        wmi_methods = decode_buffer_uuid_by_name(
+                            wdg_content["parameters"], "QWDG"
+                        )
+                        str_methods = '\n\t\t'.join(wmi_methods)
+                        print (f"\tWMI methods: \n\t\t{str_methods}")
+                        # add methods to flags
+                        for wmi_method in wmi_methods:
+                            if wmi_method not in board_flags["wmi_methods"]:
+                                board_flags["wmi_methods"].append(wmi_method)
+
                 # search name region B550 style
                 blocks = search_block_with_name_parameter(asl_struct, "Name", "(_UID, \"ASUSWMI\")")
                 for block in blocks:
@@ -901,25 +878,14 @@ if __name__ == "__main__":
                         wmi_methods = decode_buffer_uuid_by_name(
                             wdg_content["parameters"], "_WDG"
                         )
+                        str_methods = '\n\t\t'.join(wmi_methods)
+                        print (f"\tWMI methods: \n\t\t{str_methods}")
                         # add methods to flags
                         for wmi_method in wmi_methods:
                             if wmi_method not in board_flags["wmi_methods"]:
                                 board_flags["wmi_methods"].append(wmi_method)
 
                 content = code_clenaup(content)
-
-                # get WMI methods:
-                # Gigabyte: QWDG
-                # ASUS: _WDG
-                wmi_methods = []
-                for buffer_name in ("_WDG", "QWDG"):
-                    wmi_methods += get_buffer_uuid_by_name(content, buffer_name)
-                str_methods = '\n\t\t'.join(wmi_methods)
-                print (f"\tWMI methods: \n\t\t{str_methods}")
-                # add methods to flags
-                for wmi_method in wmi_methods:
-                    if wmi_method not in board_flags["wmi_methods"]:
-                        board_flags["wmi_methods"].append(wmi_method)
                 # set other flags
                 update_board_flags(board_flags, content)
                 print (f"\tProcess time: {round(time.time() - start_time, 3)}")
