@@ -425,6 +425,24 @@ def check_case(content, methods):
     return True
 
 
+def check_asl_case(asl_struct, dispatcher, methods):
+    method_content = asl_get_operator_with_params(
+        asl_struct,
+        "Method", f"({dispatcher}, 3, Serialized)"
+    )
+    if not method_content:
+        return False
+    func_impl = method_content.get("content")
+    if not func_impl:
+        return False
+    for method in methods:
+        method_hex = "".join([hex(ord(c))[2:] for c in method]).upper()
+        method_imp = f"Case (0x{method_hex})\n{{\nReturn ({method} (Arg2))\n}}"
+        if method_imp not in func_impl:
+            return False
+    return True
+
+
 def check_asl_method(asl_struct, methods, count=1):
     for method in methods:
         if not asl_has_operator_with_params(
@@ -442,6 +460,14 @@ def check_asl_method(asl_struct, methods, count=1):
             }
         ):
             return False
+    return True
+
+
+def check_asl_methods_dispatcher(asl_struct, dispatcher, methods):
+    if not check_asl_case(asl_struct, dispatcher, methods):
+        return False
+    if not check_asl_method(asl_struct, methods):
+        return False
     return True
 
 
@@ -476,15 +502,6 @@ def check_wmi(content):
     return True
 
 
-def check_ec(content):
-    methods = EC_METHODS
-    if not check_case(content, methods):
-        return False
-    if not check_method(content, methods):
-        return False
-    return True
-
-
 def check_nct6775(content):
     methods = NCT6775_METHODS
     if not check_case(content, methods):
@@ -496,7 +513,7 @@ def check_nct6775(content):
 
 def get_asl_method_mutexes(asl_struct):
     mutexes = []
-    func_impl = asl_struct["content"]
+    func_impl = asl_struct.get("content")
     while func_impl:
         start_acquire = func_impl.find("Acquire (")
         if start_acquire == -1:
@@ -648,15 +665,18 @@ def update_board_asl_flags(board_flags, asl_struct):
                 print (f"\tNCT6775 mutex: {mutex_name}")
                 board_flags["asus_io_mutex"] = mutex_name
 
+            # Check ec / can be without ntc6775 sensor
+            if check_asl_methods_dispatcher(
+                block_content, dispatcher="WMBD", methods=EC_METHODS
+            ):
+                print (f"\tEC methods by WMI UUID: {EC_METHODS}")
+                if board_name in EC_BOARDS:
+                    board_flags["asus_ec"] = "Y"
+                else:
+                    board_flags["asus_ec"] = "U"
+
 
 def update_board_flags(board_flags, content):
-
-    # Check ec / can be without ntc6775 sensor
-    if check_ec(content):
-        if board_name in EC_BOARDS:
-            board_flags["asus_ec"] = "Y"
-        else:
-            board_flags["asus_ec"] = "U"
 
     # Check wmi / can be without ntc6775 sensor
     if check_wmi(content):
