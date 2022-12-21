@@ -239,45 +239,9 @@ ASUS_EC_MUTEX = {
     ]
 }
 
-KNOWN_GOOD_IMPLEMENTATION = {
-    "B550": """
-        Device (AMW0)
-        {
-            Name (_HID, EisaId ("PNP0C14") )
-            Name (_UID, "ASUSWMI")
-            Name (_WDG, Buffer (0x50)
-            {
-                0xD0, 0x5E, 0x84, 0x97, 0x6D, 0x4E, 0xDE, 0x11,
-                0x8A, 0x39, 0x08, 0x00, 0x20, 0x0C, 0x9A, 0x66,
-                0x42, 0x43, 0x01, 0x02, 0xA0, 0x47, 0x67, 0x46,
-                0xEC, 0x70, 0xDE, 0x11, 0x8A, 0x39, 0x08, 0x00,
-                0x20, 0x0C, 0x9A, 0x66, 0x42, 0x44, 0x01, 0x02,
-                0x72, 0x0F, 0xBC, 0xAB, 0xA1, 0x8E, 0xD1, 0x11,
-                0x00, 0xA0, 0xC9, 0x06, 0x29, 0x10, 0x00, 0x00,
-                0xD2, 0x00, 0x01, 0x08, 0x21, 0x12, 0x90, 0x05,
-                0x66, 0xD5, 0xD1, 0x11, 0xB2, 0xF0, 0x00, 0xA0,
-                0xC9, 0x06, 0x29, 0x10, 0x4D, 0x4F, 0x01, 0x00
-            })
-    """,
-    "B650": """
-        Device (RMTW)
-        {
-            Name (_HID, EisaId ("PNP0C14") )
-            Name (_UID, "AsusMbSwInterface")
-            Name (_WDG, Buffer (0x50)
-            {
-                0xD0, 0x5E, 0x84, 0x97, 0x6D, 0x4E, 0xDE, 0x11,
-                0x8A, 0x39, 0x08, 0x00, 0x20, 0x0C, 0x9A, 0x66,
-                0x42, 0x43, 0x01, 0x02, 0x15, 0xB1, 0x2B, 0xB8,
-                0xAE, 0x43, 0x35, 0x4B, 0xB7, 0x9D, 0xBD, 0x64,
-                0x16, 0xAB, 0xC3, 0x81, 0x42, 0x43, 0x01, 0x02,
-                0x72, 0x0F, 0xBC, 0xAB, 0xA1, 0x8E, 0xD1, 0x11,
-                0x00, 0xA0, 0xC9, 0x06, 0x29, 0x10, 0x00, 0x00,
-                0xD2, 0x00, 0x01, 0x08, 0x21, 0x12, 0x90, 0x05,
-                0x66, 0xD5, 0xD1, 0x11, 0xB2, 0xF0, 0x00, 0xA0,
-                0xC9, 0x06, 0x29, 0x10, 0x4D, 0x4F, 0x01, 0x00
-            })
-    """
+ASUS_KNOWN_UIDS = {
+    "ASUSWMI": "B550 style board",
+    "AsusMbSwInterface": "B650 style board",
 }
 
 
@@ -626,57 +590,63 @@ def update_board_asl_flags(board_flags, asl_struct):
                 board_flags["gigabyte_wmi"] = "U"
 
     # search name region B550 style
-    blocks = search_block_with_name_parameter(asl_struct, {
-        "operator": "Name",
-        "parameters": "(_UID, \"ASUSWMI\")"
-    })
-    for block in blocks:
-        block_content = block['content']
-        if not asl_has_operator_with_params(
-            block_content, {
-                "operator": "Name",
-                "parameters": "(_HID, EisaId (\"PNP0C14\") )"
-            }
-        ):
-            continue
+    for uid_name in ASUS_KNOWN_UIDS:
+        blocks = search_block_with_name_parameter(asl_struct, {
+            "operator": "Name",
+            "parameters": f"(_UID, \"{uid_name}\")"
+        })
+        for block in blocks:
+            block_content = block['content']
+            if not asl_has_operator_with_params(
+                block_content, {
+                    "operator": "Name",
+                    "parameters": "(_HID, EisaId (\"PNP0C14\") )"
+                }
+            ):
+                continue
 
-        wdg_content = asl_get_operator_with_params(
-            block_content,
-            "Name", "(_WDG, Buffer ("
-        )
-        if wdg_content:
-            wmi_methods = decode_buffer_uuid_by_name(
-                wdg_content["parameters"], "_WDG"
+            if uid_name not in board_flags["known_good"]:
+                board_flags["known_good"].append(uid_name)
+
+            print (f"\tCan be: {ASUS_KNOWN_UIDS[uid_name]}")
+
+            wdg_content = asl_get_operator_with_params(
+                block_content,
+                "Name", "(_WDG, Buffer ("
             )
-            str_methods = '\n\t\t'.join(wmi_methods)
-            print (f"\tWMI methods: \n\t\t{str_methods}")
-            # add methods to flags
-            for wmi_method in wmi_methods:
-                if wmi_method not in board_flags["wmi_methods"]:
-                    board_flags["wmi_methods"].append(wmi_method)
+            if wdg_content:
+                wmi_methods = decode_buffer_uuid_by_name(
+                    wdg_content["parameters"], "_WDG"
+                )
+                str_methods = '\n\t\t'.join(wmi_methods)
+                print (f"\tWMI methods: \n\t\t{str_methods}")
+                # add methods to flags
+                for wmi_method in wmi_methods:
+                    if wmi_method not in board_flags["wmi_methods"]:
+                        board_flags["wmi_methods"].append(wmi_method)
 
-        # asus
-        if check_asl_entrypoint(
-            block_content, board_flags["wmi_methods"],
-            "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66", "BD"
-        ):
-            board_flags["asus_wmi_entrypoint"] = "Y"
+            # asus
+            if check_asl_entrypoint(
+                block_content, board_flags["wmi_methods"],
+                "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66", "BD"
+            ):
+                board_flags["asus_wmi_entrypoint"] = "Y"
 
-        # get ec method
-        mutex_name = find_asl_methods_mutex(block_content,
-                                            methods=EC_METHODS,
-                                            known_mutexes=ASUS_EC_MUTEX)
-        if mutex_name:
-            print (f"\tEC mutex: {mutex_name}")
-            board_flags["asus_ec_mutex"] = mutex_name
+            # get ec method
+            mutex_name = find_asl_methods_mutex(block_content,
+                                                methods=EC_METHODS,
+                                                known_mutexes=ASUS_EC_MUTEX)
+            if mutex_name:
+                print (f"\tEC mutex: {mutex_name}")
+                board_flags["asus_ec_mutex"] = mutex_name
 
-        # board can use unknown method of define port
-        mutex_name = find_asl_methods_mutex(block_content,
-                                            methods=NCT6775_METHODS,
-                                            known_mutexes=ASUS_NCT6775_MUTEX)
-        if mutex_name:
-            print (f"\tNCT6775 mutex: {mutex_name}")
-            board_flags["asus_io_mutex"] = mutex_name
+            # board can use unknown method of define port
+            mutex_name = find_asl_methods_mutex(block_content,
+                                                methods=NCT6775_METHODS,
+                                                known_mutexes=ASUS_NCT6775_MUTEX)
+            if mutex_name:
+                print (f"\tNCT6775 mutex: {mutex_name}")
+                board_flags["asus_io_mutex"] = mutex_name
 
 
 def update_board_flags(board_flags, content):
@@ -708,11 +678,6 @@ def update_board_flags(board_flags, content):
 
     if check_custom_port(content):
         board_flags["asus_port290"] = "Y"
-
-    for name in KNOWN_GOOD_IMPLEMENTATION:
-        if KNOWN_GOOD_IMPLEMENTATION[name] in content:
-            if name not in board_flags["known_good"]:
-                board_flags["known_good"].append(name)
 
 
 def fix_flags(boards_flags):
@@ -868,12 +833,6 @@ def print_boards(boards_flags):
 
 
 if __name__ == "__main__":
-
-    for name in KNOWN_GOOD_IMPLEMENTATION:
-        print (f"Cleanup example: {name}")
-        KNOWN_GOOD_IMPLEMENTATION[name] = code_clenaup(
-            KNOWN_GOOD_IMPLEMENTATION[name]
-        )
 
     current_dir = "."
     if len(sys.argv) > 1:
