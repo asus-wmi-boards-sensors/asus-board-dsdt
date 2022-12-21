@@ -352,19 +352,6 @@ def gen_gigabyte_board_name(board_group):
     return board_name
 
 
-def check_entrypoint(content, wmi_methods, uuid, method):
-    if not check_method(content, ["WM" + method], count=3):
-        return False
-    method_for_search = uuid
-    method_for_search += ":"
-    for char in method:
-        method_for_search += hex(ord(char)).upper()[2:]
-    for wmi_method in wmi_methods:
-        if wmi_method.startswith(method_for_search):
-            return True
-    return False
-
-
 def check_asl_entrypoint(asl_struct, wmi_methods, uuid, method):
     if not check_asl_method(asl_struct, ["WM" + method], count=3):
         return False
@@ -376,13 +363,6 @@ def check_asl_entrypoint(asl_struct, wmi_methods, uuid, method):
         if wmi_method.startswith(method_for_search):
             return True
     return False
-
-
-def check_gigabyte_entrypoint_method(content):
-    method_template = "Method (_WDG, 0, Serialized)\n{\nReturn (QWDG)\n}"
-    if method_template not in content:
-        return False
-    return True
 
 
 def check_port(content):
@@ -549,7 +529,7 @@ def set_default_flags(board_name, board_flags):
     board_flags.update({
         "asus_wmi": "N",
         "asus_ec": "N",
-        "asus_wmi_port": "N",
+        "asus_wmi_entrypoint": "N",
         "asus_nct6775": "N",
         "asus_port290": "N",
         "gigabyte_wmi": "N",
@@ -650,15 +630,15 @@ def update_board_asl_flags(board_flags, asl_struct):
                 if wmi_method not in board_flags["wmi_methods"]:
                     board_flags["wmi_methods"].append(wmi_method)
 
+        # asus
+        if check_asl_entrypoint(
+            block_content, board_flags["wmi_methods"],
+            "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66", "BD"
+        ):
+            board_flags["asus_wmi_entrypoint"] = "Y"
+
 
 def update_board_flags(board_flags, content):
-
-    # asus
-    if check_entrypoint(
-        content, board_flags["wmi_methods"],
-        "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66", "BD"
-    ):
-        board_flags["asus_wmi_port"] = "Y"
 
     # Check ec / can be without ntc6775 sensor
     if check_ec(content):
@@ -733,7 +713,7 @@ def fix_flags(boards_flags):
 
         if (
             board_flags["asus_nct6775"] in ("U", "Y") and
-            board_flags["asus_wmi_port"] == "N"
+            board_flags["asus_wmi_entrypoint"] == "N"
         ):
             board_flags["asus_nct6775"] = "W"
 
@@ -745,7 +725,7 @@ def fix_flags(boards_flags):
 
         if (
             board_flags["asus_ec"] in ("U", "Y") and
-            board_flags["asus_wmi_port"] == "N"
+            board_flags["asus_wmi_entrypoint"] == "N"
         ):
             board_flags["asus_ec"] = "W"
 
