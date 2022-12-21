@@ -831,18 +831,26 @@ if __name__ == "__main__":
                     set_default_flags(board_name, boards_flags[board_name])
                 board_flags = boards_flags[board_name]
                 # search name region Gigabyte style
-                blocks = search_block_with_name_parameter(asl_struct, "Name", "(_UID, \"GSADEV0\")")
+                blocks = search_block_with_name_parameter(asl_struct, {
+                    "operator": "Name",
+                    "parameters": "(_UID, \"GSADEV0\")"
+                })
                 for block in blocks:
                     block_content = block['content']
                     if not asl_has_operator_with_params(
-                        block_content,
-                        "Name", "(_HID, EisaId (\"PNP0C14\") )"
+                        block_content, {
+                            "operator": "Name",
+                            "parameters": "(_HID, EisaId (\"PNP0C14\") )"
+                        }
                     ):
                         continue
                     # has convert _WDG -> QWDG
                     if not asl_has_operator_with_params(
-                        block_content,
-                        "Method", "(_WDG, 0, Serialized)"
+                        block_content, {
+                            "operator": "Method",
+                            "parameters": "(_WDG, 0, Serialized)",
+                            "content": "{\nReturn (QWDG) \n}"
+                        }
                     ):
                         continue
                     wdg_content = asl_get_operator_with_params(
@@ -861,12 +869,17 @@ if __name__ == "__main__":
                                 board_flags["wmi_methods"].append(wmi_method)
 
                 # search name region B550 style
-                blocks = search_block_with_name_parameter(asl_struct, "Name", "(_UID, \"ASUSWMI\")")
+                blocks = search_block_with_name_parameter(asl_struct, {
+                    "operator": "Name",
+                    "parameters": "(_UID, \"ASUSWMI\")"
+                })
                 for block in blocks:
                     block_content = block['content']
                     if not asl_has_operator_with_params(
-                        block_content,
-                        "Name", "(_HID, EisaId (\"PNP0C14\") )"
+                        block_content, {
+                            "operator": "Name",
+                            "parameters": "(_HID, EisaId (\"PNP0C14\") )"
+                        }
                     ):
                         continue
 

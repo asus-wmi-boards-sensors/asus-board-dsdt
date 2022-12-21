@@ -184,12 +184,12 @@ def parse_asl(buf):
     return result
 
 
-def asl_has_operator_with_params(asl_struct, operator, params):
+def asl_has_operator_with_params(asl_struct, asl_dict):
     for el in asl_struct:
-        if (
-            el.get("operator") == operator and
-            el.get("parameters") == params
-        ):
+        for name in asl_dict:
+            if el.get(name) != asl_dict[name]:
+                break
+        else:
             return True
     else:
         return False
@@ -211,19 +211,19 @@ def asl_get_operator_with_params(asl_struct, operator, params):
         return None
 
 
-def search_block_with_name_parameter(asl_struct, operator, params):
+def search_block_with_name_parameter(asl_struct, asl_dict):
     results = []
     if isinstance(asl_struct, list):
         for el in asl_struct:
-            res = search_block_with_name_parameter(el, operator, params)
+            res = search_block_with_name_parameter(el, asl_dict)
             if res:
                 results += res
     elif isinstance(asl_struct, dict):
         if "content" in asl_struct and isinstance(asl_struct["content"], list):
-            if asl_has_operator_with_params(asl_struct["content"], operator, params):
+            if asl_has_operator_with_params(asl_struct["content"], asl_dict):
                 results.append(asl_struct)
             # go deeper
-            res = search_block_with_name_parameter(asl_struct["content"], operator, params)
+            res = search_block_with_name_parameter(asl_struct["content"], asl_dict)
             if res:
                 results += res
     return results
