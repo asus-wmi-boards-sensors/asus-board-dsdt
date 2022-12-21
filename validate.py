@@ -518,11 +518,24 @@ def check_nct6775_mutex(content):
     return ""
 
 
-def check_ec_mutex(content):
-    for mutex_name in ASUS_EC_MUTEX:
-        if f"If ((Acquire ({mutex_name}, 0x03E8) == Zero))" in content:
-            return mutex_name
-    return ""
+def get_asl_method_mutexes(asl_struct):
+    mutexes = []
+    func_impl = asl_struct["content"]
+    while func_impl:
+        start_acquire = func_impl.find("Acquire (")
+        if start_acquire == -1:
+            break
+        end_acquire = func_impl.find(",", start_acquire)
+        if end_acquire == -1:
+            break
+        mutex_name = func_impl[start_acquire + len("Acquire ("):end_acquire]
+        func_impl = func_impl[end_acquire:]
+        mutex_name = mutex_name.strip()
+        if mutex_name[0] != "\\":
+            mutex_name = "\\" + ".".join(asl_struct["path"] + [mutex_name])
+        if mutex_name not in mutexes:
+            mutexes.append(mutex_name)
+    return mutexes
 
 
 def set_default_flags(board_name, board_flags):
@@ -637,15 +650,22 @@ def update_board_asl_flags(board_flags, asl_struct):
         ):
             board_flags["asus_wmi_entrypoint"] = "Y"
 
+        # get ec method
+        brec_content = asl_get_operator_with_params(
+            block_content,
+            "Method", "(BREC, 1, Serialized)"
+        )
+        if brec_content:
+            mutexes = get_asl_method_mutexes(brec_content)
+            for mutex_name in mutexes:
+                if mutex_name in ASUS_EC_MUTEX:
+                    board_flags["asus_ec_mutex"] = mutex_name
+
 
 def update_board_flags(board_flags, content):
 
     # Check ec / can be without ntc6775 sensor
     if check_ec(content):
-        board_ec_mutex = check_ec_mutex(content)
-        if board_ec_mutex:
-            board_flags["asus_ec_mutex"] = board_ec_mutex
-
         if board_name in EC_BOARDS:
             board_flags["asus_ec"] = "Y"
         else:

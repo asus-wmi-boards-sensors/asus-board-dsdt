@@ -110,27 +110,43 @@ def select_open_close(buf):
 
     return buf[:pos].strip(), buf[pos:]
 
-
-def parse_block(buf):
+def parse_block(buf, path=None):
     result = {}
 
     buf = skip_empty_text(buf)
     operator, buf = get_operator_name(buf)
     result["operator"] = operator
+    result["path"] = path
     buf = skip_empty_text(buf)
     if operator in [
         "DefinitionBlock", "Scope", "Device", "PowerResource", "Processor",
         "If", "Else", "ElseIf", "ThermalZone"
     ]:
+        # Else does not have parameters
         if operator not in ["Else"]:
             result["parameters"], buf = select_open_close(buf)
+        # gen path
+        if operator in ("Scope", "Device"):
+            args = result["parameters"]
+            if args[0] != "(" and args[-1] != ")":
+                raise Exception(args)
+            args = args[1:-1].strip()
+            if args == "\\":
+                sub_path = None
+            elif args[0] == "\\" or not path:
+                sub_path = [args.replace("\\", "")]
+            else:
+                sub_path = path + [args]
+        else:
+            sub_path = path
+        # get content
         buf = skip_empty_text(buf)
         result["content"] = []
         if "{" == buf[0]:
             buf = buf[1:]
             buf = skip_empty_text(buf)
             while buf and buf[0] != "}":
-                el, buf = parse_block(buf)
+                el, buf = parse_block(buf, path=sub_path)
                 result["content"].append(el)
                 buf = skip_empty_text(buf)
         if buf and "}" == buf[0]:

@@ -1,0 +1,6 @@
+*.zip
+*.ZIP
+*.CAP
+*.dsl
+# dsl -> json dumps
+*.json
