@@ -213,16 +213,12 @@ def asl_has_operator_with_params(asl_struct, asl_dict):
 
 def asl_get_operator_with_params(asl_struct, operator, params):
     for el in asl_struct:
-        try:
-            if (
-                el.get("operator") == operator and
-                isinstance(el.get("parameters"), str) and
-                el.get("parameters", "").startswith(params)
-            ):
-                return el
-        except:
-            print(el)
-            raise
+        if (
+            el.get("operator") == operator and
+            isinstance(el.get("parameters"), str) and
+            el.get("parameters", "").startswith(params)
+        ):
+            return el
     else:
         return None
 

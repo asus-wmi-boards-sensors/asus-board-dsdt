@@ -153,7 +153,14 @@ NCT6775_SERIES = [
 # methods
 EC_METHODS = ["BREC"]
 NCT6775_METHODS = ["RSIO", "WSIO", "RHWM", "WHWM"]
-
+WMI_METHODS = ["RSEN", "GNAM", "GNUM", "UPSB", "GVER"]
+WMI_METHODS_CONVERT = {
+    "RSEN": "52574543", # should be 5253454E
+    "GNAM": "50574543", # should be 474E414D
+    "GNUM": "50574572", # should be 474E554D
+    "UPSB": "51574543", # should be 55505342
+    "GVER": "50574574", # should be 47564552
+}
 
 # Bios dump has diffrent name to board name
 BOARDNAME_CONVERT = {
@@ -425,7 +432,7 @@ def check_case(content, methods):
     return True
 
 
-def check_asl_case(asl_struct, dispatcher, methods):
+def check_asl_case(asl_struct, dispatcher, methods, convert=None):
     method_content = asl_get_operator_with_params(
         asl_struct,
         "Method", f"({dispatcher}, 3, Serialized)"
@@ -436,7 +443,10 @@ def check_asl_case(asl_struct, dispatcher, methods):
     if not func_impl:
         return False
     for method in methods:
-        method_hex = "".join([hex(ord(c))[2:] for c in method]).upper()
+        if convert and convert.get(method):
+            method_hex = convert.get(method)
+        else:
+            method_hex = "".join([hex(ord(c))[2:] for c in method]).upper()
         method_imp = f"Case (0x{method_hex})\n{{\nReturn ({method} (Arg2))\n}}"
         if method_imp not in func_impl:
             return False
@@ -463,8 +473,8 @@ def check_asl_method(asl_struct, methods, count=1):
     return True
 
 
-def check_asl_methods_dispatcher(asl_struct, dispatcher, methods):
-    if not check_asl_case(asl_struct, dispatcher, methods):
+def check_asl_methods_dispatcher(asl_struct, dispatcher, methods, convert=None):
+    if not check_asl_case(asl_struct, dispatcher, methods, convert):
         return False
     if not check_asl_method(asl_struct, methods):
         return False
@@ -477,28 +487,6 @@ def check_method(content, methods, count=1):
             return False
         if f"Method ({method}, {count}, Serialized)\n{{\nReturn (Ones)\n}}\n" in content:
             return False
-    return True
-
-
-def check_wmi(content):
-    methods = ["RSEN", "GNAM", "GNUM", "UPSB", "GVER"]
-    # RSEN 5253454E
-    if "Case (0x52574543)" not in content:
-        return False
-    # GNAM 474E414D
-    if "Case (0x51574543)" not in content:
-        return False
-    # GNUM 474E554D
-    if "Case (0x50574543)" not in content:
-        return False
-    # UPSB 55505342
-    if "Case (0x50574572)" not in content:
-        return False
-    # GVER 47564552
-    if "Case (0x50574574)" not in content:
-        return False
-    if not check_method(content, methods):
-        return False
     return True
 
 
@@ -675,16 +663,20 @@ def update_board_asl_flags(board_flags, asl_struct):
                 else:
                     board_flags["asus_ec"] = "U"
 
+            # Check wmi / can be without ntc6775 sensor
+            if check_asl_methods_dispatcher(
+                block_content, dispatcher="WMBD",
+                methods=WMI_METHODS,
+                convert=WMI_METHODS_CONVERT
+            ):
+                print (f"\tWMI methods by WMI UUID: {WMI_METHODS}")
+                if board_name in WMI_BOARDS:
+                    board_flags["asus_wmi"] = "Y"
+                else:
+                    board_flags["asus_wmi"] = "U"
+
 
 def update_board_flags(board_flags, content):
-
-    # Check wmi / can be without ntc6775 sensor
-    if check_wmi(content):
-        if board_name in WMI_BOARDS:
-            board_flags["asus_wmi"] = "Y"
-        else:
-            board_flags["asus_wmi"] = "U"
-
     # check nct6775
     if check_nct6775(content):
         if check_port(content):
