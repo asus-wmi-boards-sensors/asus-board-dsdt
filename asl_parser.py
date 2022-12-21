@@ -182,3 +182,99 @@ def parse_asl(buf):
         parsed_block, buf = parse_block(buf)
         result.append(parsed_block)
     return result
+
+
+def asl_has_operator_with_params(asl_struct, operator, params):
+    for el in asl_struct:
+        if (
+            el.get("operator") == operator and
+            el.get("parameters") == params
+        ):
+            return True
+    else:
+        return False
+
+
+def asl_get_operator_with_params(asl_struct, operator, params):
+    for el in asl_struct:
+        try:
+            if (
+                el.get("operator") == operator and
+                isinstance(el.get("parameters"), str) and
+                el.get("parameters", "").startswith(params)
+            ):
+                return el
+        except:
+            print(el)
+            raise
+    else:
+        return None
+
+
+def search_block_with_name_parameter(asl_struct, operator, params):
+    results = []
+    if isinstance(asl_struct, list):
+        for el in asl_struct:
+            res = search_block_with_name_parameter(el, operator, params)
+            if res:
+                results += res
+    elif isinstance(asl_struct, dict):
+        if "content" in asl_struct and isinstance(asl_struct["content"], list):
+            if asl_has_operator_with_params(asl_struct["content"], operator, params):
+                results.append(asl_struct)
+            # go deeper
+            res = search_block_with_name_parameter(asl_struct["content"], operator, params)
+            if res:
+                results += res
+    return results
+
+
+def decode_buffer_uuid_by_name(content, name):
+    result = []
+    start_buffer = f"({name}, Buffer ("
+    if not content.startswith(start_buffer):
+        return result
+    # search buffer values start
+    start_wdg = content.find("{", len(start_buffer) + 1)
+    if start_wdg == -1:
+        return result
+    # search buffer values end
+    end_wdg = content.find("}", start_wdg + 1)
+    if end_wdg == -1:
+       end_wdg = len(content) + 1
+    # get buffer
+    wdg_content = content[start_wdg + 1:end_wdg - 1]
+    # get left values
+    content = content[end_wdg:]
+    # remove whitespaces
+    wdg_content = wdg_content.replace("\n", " ")
+    while "  " in wdg_content:
+        wdg_content = wdg_content.replace("  ", " ")
+    wdg_content = wdg_content.strip()
+    while ", " in wdg_content:
+        wdg_content = wdg_content.replace(", ", ",")
+    # combine values to single string
+    values = []
+    for hex_value in wdg_content.split(","):
+        values.append(hex_value[2:4])
+    values_combined = "".join(values)
+    # convert string to uuid:method:flags
+    while values_combined:
+        uuid_str = []
+        begin_uuid = ""
+        tmp_uuid = values_combined[:16]
+        while tmp_uuid:
+            begin_uuid += tmp_uuid[-2:]
+            tmp_uuid = tmp_uuid[:-2]
+        end_uuid = values_combined[16:40]
+        uuid_str.append(begin_uuid[8:16])
+        uuid_str.append(begin_uuid[4:8])
+        uuid_str.append(begin_uuid[0:4])
+        uuid_str.append(end_uuid[0:4])
+        uuid_str.append(end_uuid[4:16])
+        result.append(
+            f"{name}:{'-'.join(uuid_str)}:{end_uuid[16:20]}:{end_uuid[20:]}"
+        )
+        values_combined = values_combined[40:]
+
+    return result

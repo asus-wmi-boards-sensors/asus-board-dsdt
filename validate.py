@@ -3,7 +3,11 @@ import sys
 import os
 import json
 import time
-from asl_parser import parse_asl, cleanup_lines
+from asl_parser import (
+    parse_asl, cleanup_lines, asl_has_operator_with_params,
+    search_block_with_name_parameter, asl_get_operator_with_params,
+    decode_buffer_uuid_by_name
+)
 
 
 # Upstreamed ec
@@ -872,14 +876,38 @@ if __name__ == "__main__":
                             asl_struct, indent=4
                         ).encode("utf8")
                     )
-                content = code_clenaup(content)
-
+                # create flags struct
                 if board_name not in boards_flags:
                     boards_flags[board_name] = {
                         "board_producer": board_producer,
                     }
                     set_default_flags(board_name, boards_flags[board_name])
                 board_flags = boards_flags[board_name]
+                # search name region B550 style
+                blocks = search_block_with_name_parameter(asl_struct, "Name", "(_UID, \"ASUSWMI\")")
+                for block in blocks:
+                    block_content = block['content']
+                    if not asl_has_operator_with_params(
+                        block_content,
+                        "Name", "(_HID, EisaId (\"PNP0C14\") )"
+                    ):
+                        continue
+
+                    wdg_content = asl_get_operator_with_params(
+                        block_content,
+                        "Name", "(_WDG, Buffer ("
+                    )
+                    if wdg_content:
+                        wmi_methods = decode_buffer_uuid_by_name(
+                            wdg_content["parameters"], "_WDG"
+                        )
+                        # add methods to flags
+                        for wmi_method in wmi_methods:
+                            if wmi_method not in board_flags["wmi_methods"]:
+                                board_flags["wmi_methods"].append(wmi_method)
+
+                content = code_clenaup(content)
+
                 # get WMI methods:
                 # Gigabyte: QWDG
                 # ASUS: _WDG
