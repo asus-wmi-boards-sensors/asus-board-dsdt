@@ -150,6 +150,11 @@ NCT6775_SERIES = [
     "TUF GAMING Z490",
 ]
 
+# methods
+EC_METHODS = ["BREC"]
+NCT6775_METHODS = ["RSIO", "WSIO", "RHWM", "WHWM"]
+
+
 # Bios dump has diffrent name to board name
 BOARDNAME_CONVERT = {
     "PRO B550M-C-SI": "Pro B550M-C",
@@ -365,6 +370,20 @@ def check_asl_entrypoint(asl_struct, wmi_methods, uuid, method):
     return False
 
 
+def find_asl_methods_mutex(asl_struct, methods, known_mutexes):
+    for method in methods:
+        method_content = asl_get_operator_with_params(
+            asl_struct,
+            "Method", f"({method}, 1, Serialized)"
+        )
+        if method_content:
+            mutexes = get_asl_method_mutexes(method_content)
+            for mutex_name in mutexes:
+                if mutex_name in known_mutexes:
+                    return mutex_name
+    return False
+
+
 def check_port(content):
     if "Name (IOHW, 0x0290)" not in content:
         return False
@@ -494,7 +513,7 @@ def check_wmi(content):
 
 
 def check_ec(content):
-    methods = ["BREC"]
+    methods = EC_METHODS
     if not check_case(content, methods):
         return False
     if not check_method(content, methods):
@@ -503,19 +522,12 @@ def check_ec(content):
 
 
 def check_nct6775(content):
-    methods = ["RSIO", "WSIO", "RHWM", "WHWM"]
+    methods = NCT6775_METHODS
     if not check_case(content, methods):
         return False
     if not check_method(content, methods):
         return False
     return True
-
-
-def check_nct6775_mutex(content):
-    for mutex_name in ASUS_NCT6775_MUTEX:
-        if f"If ((Acquire ({mutex_name}, 0xFFFF) == Zero))" in content:
-            return mutex_name
-    return ""
 
 
 def get_asl_method_mutexes(asl_struct):
@@ -651,15 +663,20 @@ def update_board_asl_flags(board_flags, asl_struct):
             board_flags["asus_wmi_entrypoint"] = "Y"
 
         # get ec method
-        brec_content = asl_get_operator_with_params(
-            block_content,
-            "Method", "(BREC, 1, Serialized)"
-        )
-        if brec_content:
-            mutexes = get_asl_method_mutexes(brec_content)
-            for mutex_name in mutexes:
-                if mutex_name in ASUS_EC_MUTEX:
-                    board_flags["asus_ec_mutex"] = mutex_name
+        mutex_name = find_asl_methods_mutex(block_content,
+                                            methods=EC_METHODS,
+                                            known_mutexes=ASUS_EC_MUTEX)
+        if mutex_name:
+            print (f"\tEC mutex: {mutex_name}")
+            board_flags["asus_ec_mutex"] = mutex_name
+
+        # board can use unknown method of define port
+        mutex_name = find_asl_methods_mutex(block_content,
+                                            methods=NCT6775_METHODS,
+                                            known_mutexes=ASUS_NCT6775_MUTEX)
+        if mutex_name:
+            print (f"\tNCT6775 mutex: {mutex_name}")
+            board_flags["asus_io_mutex"] = mutex_name
 
 
 def update_board_flags(board_flags, content):
@@ -680,11 +697,6 @@ def update_board_flags(board_flags, content):
 
     # check nct6775
     if check_nct6775(content):
-        # board can use unknown method of define port
-        board_io_mutex = check_nct6775_mutex(content)
-        if board_io_mutex:
-            board_flags["asus_io_mutex"] = board_io_mutex
-
         if check_port(content):
             # already upstreamed
             if board_name in NCT6775_BOARDS:
@@ -695,11 +707,6 @@ def update_board_flags(board_flags, content):
             board_flags["asus_nct6775"] = "M"
 
     if check_custom_port(content):
-        # recheck mossible mutex
-        board_io_mutex = check_nct6775_mutex(content)
-        if board_io_mutex:
-            board_flags["asus_io_mutex"] = board_io_mutex
-
         board_flags["asus_port290"] = "Y"
 
     for name in KNOWN_GOOD_IMPLEMENTATION:
