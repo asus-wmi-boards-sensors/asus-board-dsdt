@@ -180,6 +180,7 @@ BOARDNAME_CONVERT = {
     "PRIME B450M-GAMING BR SI": "PRIME B450M-GAMING/BR",
 }
 
+ASUS_DISPATCHER = "WMBD"
 
 # mutex names from kernel source
 ASUS_NCT6775_MUTEX = {
@@ -355,12 +356,15 @@ def find_asl_methods_mutex(asl_struct, methods, known_mutexes):
     return False
 
 
-def check_port(content):
-    if "Name (IOHW, 0x0290)" not in content:
-        return False
-    if ", SystemIO, IOHW, 0x0A)" not in content:
-        return False
-    return True
+def check_asl_290_custom_port(asl_struct):
+    ports = []
+    for port_name in ["IO2B", "IO3B", "IOHB", "IOHW"]:
+        if search_block_with_name_parameter(asl_struct, {
+            "operator": "Name",
+            "parameters": f"({port_name}, 0x0290)"
+        }):
+            ports.append(port_name)
+    return ports
 
 
 def check_asl_290_port(asl_struct):
@@ -382,75 +386,6 @@ def check_asl_290_port(asl_struct):
             continue
         return region_name
     return None
-
-
-def comments_remove(content):
-    result = ""
-    while True:
-        content_len = len(content)
-        # search comment start
-        oneline_comment = content.find("//")
-        if oneline_comment == -1:
-            oneline_comment = content_len
-        multiline_comment = content.find("/*", 0, oneline_comment)
-        if multiline_comment == -1:
-            multiline_comment = content_len
-        # no comments in content
-        if (
-            multiline_comment == content_len and
-            oneline_comment == content_len
-        ):
-            break
-        # what is nearest
-        if multiline_comment < oneline_comment:
-            # skip uncommented
-            result += content[:multiline_comment]
-            content = content[multiline_comment + 2:]
-            # search comment end
-            multiline_comment = content.find("*/")
-            if multiline_comment == -1:
-                content = ""
-            else:
-                # skip */
-                content = content[multiline_comment + 2:]
-        else:
-            # skip uncommented
-            result += content[:oneline_comment]
-            content = content[oneline_comment + 2:]
-            # search comment end
-            oneline_comment = content.find("\n")
-            if oneline_comment == -1:
-                content = ""
-            else:
-                # skip comment
-                content = content[oneline_comment:]
-    result += content
-    return result
-
-
-def code_clenaup(content):
-    print (f"\tWhitespase clean: {len(content)}")
-    content = comments_remove(content)
-    print (f"\tComments clean: {len(content)}")
-    content = cleanup_lines(content)
-    print (f"\tRecleanup whitespace: {len(content)}")
-    return content
-
-
-def check_custom_port(content):
-    for line in content.split("\n"):
-        if ", 0x0290)" in line and "Name (" in line:
-            return True
-    return False
-
-
-def check_case(content, methods):
-    for method in methods:
-        method_hex = "".join([hex(ord(c))[2:] for c in method]).upper()
-        method_imp = f"Case (0x{method_hex})\n{{\nReturn ({method} (Arg2))\n}}"
-        if method_imp not in content:
-            return False
-    return True
 
 
 def check_asl_case(asl_struct, dispatcher, methods, convert=None):
@@ -502,24 +437,6 @@ def check_asl_methods_dispatcher(asl_struct, dispatcher, methods, convert=None):
     return True
 
 
-def check_method(content, methods, count=1):
-    for method in methods:
-        if f"Method ({method}, {count}, Serialized)" not in content:
-            return False
-        if f"Method ({method}, {count}, Serialized)\n{{\nReturn (Ones)\n}}\n" in content:
-            return False
-    return True
-
-
-def check_nct6775(content):
-    methods = NCT6775_METHODS
-    if not check_case(content, methods):
-        return False
-    if not check_method(content, methods):
-        return False
-    return True
-
-
 def get_asl_method_mutexes(asl_struct):
     mutexes = []
     func_impl = asl_struct.get("content")
@@ -547,7 +464,8 @@ def set_default_flags(board_name, board_flags):
         "asus_wmi_entrypoint": "N",
         "asus_nct6775": "N",
         "asus_nct6775_region": "",
-        "asus_port290": "N",
+        "asus_port290": [],
+        "asus_dispatcher": [],
         "gigabyte_wmi": "N",
         "asus_io_mutex": "",
         "asus_ec_mutex": "",
@@ -616,7 +534,38 @@ def update_board_asl_flags(board_flags, asl_struct):
             else:
                 board_flags["gigabyte_wmi"] = "U"
 
-    # search name region B550 style
+    # port definition can be anywhere
+    region_name = check_asl_290_port(asl_struct)
+    if region_name:
+        print (f"\tWMI port region name: {region_name}")
+        board_flags["asus_nct6775_region"] = region_name
+
+    port_names = check_asl_290_custom_port(asl_struct)
+    if port_names:
+        print (f"\tWMI ports names: {port_names}")
+        board_flags["asus_port290"] = port_names
+        if board_flags["asus_nct6775"] == "N":
+            # port is defined in some custom way
+            board_flags["asus_nct6775"] = "P"
+
+    known_methods = sorted(EC_METHODS + WMI_METHODS + NCT6775_METHODS)
+    for dispatcher in [ASUS_DISPATCHER]:
+        blocks = search_block_with_name_parameter(asl_struct, {
+            "operator": "Method",
+            "parameters": f"({dispatcher}, 3, Serialized)"
+        })
+        for block in blocks:
+            block_content = block['content']
+            for method in known_methods:
+                if check_asl_methods_dispatcher(
+                    block_content, dispatcher=ASUS_DISPATCHER, methods=[method],
+                    convert=WMI_METHODS_CONVERT
+                ):
+                    if method not in board_flags["asus_dispatcher"]:
+                        board_flags["asus_dispatcher"].append(method)
+        print (f'\t{dispatcher} dispatched methods: {board_flags["asus_dispatcher"]}')
+
+    # search name in B550/B650 style
     for uid_name in ASUS_KNOWN_UIDS:
         blocks = search_block_with_name_parameter(asl_struct, {
             "operator": "Name",
@@ -652,7 +601,7 @@ def update_board_asl_flags(board_flags, asl_struct):
                     if wmi_method not in board_flags["wmi_methods"]:
                         board_flags["wmi_methods"].append(wmi_method)
 
-            # asus
+            # asus entrypoint
             if check_asl_entrypoint(
                 block_content, board_flags["wmi_methods"],
                 "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66", "BD"
@@ -677,7 +626,7 @@ def update_board_asl_flags(board_flags, asl_struct):
 
             # Check ec / can be without ntc6775 sensor
             if check_asl_methods_dispatcher(
-                block_content, dispatcher="WMBD", methods=EC_METHODS
+                block_content, dispatcher=ASUS_DISPATCHER, methods=EC_METHODS
             ):
                 print (f"\tEC methods by WMI Dispathcer: {EC_METHODS}")
                 if board_name in EC_BOARDS:
@@ -687,7 +636,7 @@ def update_board_asl_flags(board_flags, asl_struct):
 
             # Check wmi / can be without ntc6775 sensor
             if check_asl_methods_dispatcher(
-                block_content, dispatcher="WMBD",
+                block_content, dispatcher=ASUS_DISPATCHER,
                 methods=WMI_METHODS,
                 convert=WMI_METHODS_CONVERT
             ):
@@ -697,43 +646,24 @@ def update_board_asl_flags(board_flags, asl_struct):
                 else:
                     board_flags["asus_wmi"] = "U"
 
-            # port definition can be anywhere
-            region_name = check_asl_290_port(asl_struct)
-            if region_name:
-                print (f"\tWMI port region name: {region_name}")
-                board_flags["asus_nct6775_region"] = region_name
-
             # check nct6775
             if check_asl_methods_dispatcher(
-                block_content, dispatcher="WMBD",
+                block_content, dispatcher=ASUS_DISPATCHER,
                 methods=NCT6775_METHODS,
             ):
-                print (f"\tWMI methods by WMI Dispathcer: {NCT6775_METHODS}")
+                print (f"\tNCT6775 methods by WMI Dispathcer: {NCT6775_METHODS}")
                 if region_name:
                     # already upstreamed
                     if board_name in NCT6775_BOARDS:
                         board_flags["asus_nct6775"] = "Y"
                     else:
                         board_flags["asus_nct6775"] = "U"
-            elif region_name:
+                else:
+                    board_flags["asus_nct6775"] = "M"
+            # no other methods found
+            elif region_name and board_flags["asus_nct6775"] == "N":
                 # port is defined but no dispatch
-                board_flags["asus_nct6775"] = "M"
-
-
-def update_board_flags(board_flags, content):
-    # check nct6775
-    if check_nct6775(content):
-        if check_port(content):
-            # already upstreamed
-            if board_name in NCT6775_BOARDS:
-                board_flags["asus_nct6775"] = "Y"
-            else:
-                board_flags["asus_nct6775"] = "U"
-        elif check_custom_port(content):
-            board_flags["asus_nct6775"] = "M"
-
-    if check_custom_port(content):
-        board_flags["asus_port290"] = "Y"
+                board_flags["asus_nct6775"] = "P"
 
 
 def fix_flags(boards_flags):
@@ -776,14 +706,6 @@ def fix_flags(boards_flags):
             board_flags["asus_wmi_entrypoint"] == "N"
         ):
             board_flags["asus_ec"] = "W"
-
-        # Workaround needed
-        if (board_flags["asus_nct6775"] == "N" and
-            board_flags["asus_wmi"] == "N" and
-            board_flags["asus_ec"] == "N" and
-            board_flags["asus_port290"] == "Y"
-        ):
-                board_flags["asus_nct6775"] = "P"
 
         if board_flags["known_good"]:
             board_flags["asus_nct6775"] += "K"
@@ -957,9 +879,6 @@ if __name__ == "__main__":
 
                 update_board_asl_flags(board_flags, asl_struct)
 
-                content = code_clenaup(content)
-                # set other flags
-                update_board_flags(board_flags, content)
                 print (f"\tProcess time: {round(time.time() - start_time, 3)}")
 
     fix_flags(boards_flags)
