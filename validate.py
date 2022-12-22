@@ -369,7 +369,7 @@ def check_asl_290_port(asl_struct):
         "parameters": "(IOHW, 0x0290)"
     }):
         return False
-    for region_name in ["HWM", "SHWM"]:
+    for region_name in ["HWM", "SHWM", "HWRE"]:
         if not search_block_with_name_parameter(asl_struct, {
             "operator": "OperationRegion",
             "parameters": f"({region_name}, SystemIO, IOHW, 0x0A)"
@@ -697,22 +697,27 @@ def update_board_asl_flags(board_flags, asl_struct):
                 else:
                     board_flags["asus_wmi"] = "U"
 
+            # port definition can be anywhere
+            region_name = check_asl_290_port(asl_struct)
+            if region_name:
+                print (f"\tWMI port region name: {region_name}")
+                board_flags["asus_nct6775_region"] = region_name
+
             # check nct6775
             if check_asl_methods_dispatcher(
                 block_content, dispatcher="WMBD",
                 methods=NCT6775_METHODS,
             ):
                 print (f"\tWMI methods by WMI Dispathcer: {NCT6775_METHODS}")
-                # port definition can be anywhere
-                region_name = check_asl_290_port(asl_struct)
                 if region_name:
-                    print (f"\tWMI port region name: {region_name}")
-                    board_flags["asus_nct6775_region"] = region_name
                     # already upstreamed
                     if board_name in NCT6775_BOARDS:
                         board_flags["asus_nct6775"] = "Y"
                     else:
                         board_flags["asus_nct6775"] = "U"
+            elif region_name:
+                # port is defined but no dispatch
+                board_flags["asus_nct6775"] = "M"
 
 
 def update_board_flags(board_flags, content):
