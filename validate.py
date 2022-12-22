@@ -2,6 +2,7 @@
 import sys
 import os
 import json
+import yaml
 import time
 from asl_parser import (
     parse_asl, cleanup_lines, asl_has_operator_with_params,
@@ -416,6 +417,9 @@ def check_asl_case(asl_struct, dispatcher, methods, convert=None):
     return True
 
 
+method_dumps = {}
+
+
 def check_asl_method(asl_struct, methods, count=1):
     for method in methods:
         if not asl_has_operator_with_params(
@@ -433,6 +437,24 @@ def check_asl_method(asl_struct, methods, count=1):
             }
         ):
             return False
+        if method not in method_dumps:
+            method_dumps[method] = []
+        method_content = asl_get_operator_with_params(
+            asl_struct,
+            "Method", f"({method}, {count}, Serialized)"
+        )
+        # no such method?
+        if not method_content:
+            return False
+        func_impl = method_content.get("content")
+        # no method implementation
+        if not func_impl:
+            return False
+        # started with return zero?
+        if func_impl.startswith("{\nReturn (Ones)"):
+            return False
+        if func_impl not in method_dumps[method]:
+            method_dumps[method].append(func_impl)
     return True
 
 
@@ -779,7 +801,7 @@ def print_boards(boards_flags):
 
         if (
             board_flags["known_good"] and
-            board_flags["asus_nct6775"] in ("U", "Y", "UK", "YK")
+            board_flags["asus_nct6775"] in ("M", "U", "Y", "UK", "YK")
         ):
             # nextgen patch required
             for name in board_flags["known_good"]:
@@ -831,7 +853,19 @@ def print_boards(boards_flags):
     for name in nextgen_required:
         print (f"\tDevice name: '{name}'")
         for board_name in sorted(nextgen_required[name]):
-            print (f'\t\t"{board_name}",')
+            board_flags = boards_flags[board_name]
+
+            if board_flags["asus_nct6775"] == "M":
+                print (f'\t\t"{board_name}", // use custom port definition')
+            else:
+                print (f'\t\t"{board_name}",')
+
+    print ("Boards with nct6775 with mutex:")
+    for board_name in boards_flags:
+        board_flags = boards_flags[board_name]
+
+        if board_flags["asus_nct6775"] == "P":
+            print (f'\t("{board_name}", "{board_flags["asus_io_mutex"]}"),')
 
 
 if __name__ == "__main__":
@@ -908,5 +942,7 @@ if __name__ == "__main__":
     fix_flags(boards_flags)
     add_load_flags(boards_flags)
     print_boards(boards_flags)
-    with open("boards.json", "wb") as f:
-        f.write(json.dumps(boards_flags, indent=4).encode("utf8"))
+    with open("boards.yaml", "wb") as f:
+        f.write(yaml.dump(boards_flags).encode("utf8"))
+    with open("methods.json", "wb") as f:
+        f.write(json.dumps(method_dumps, indent=4).encode("utf8"))
