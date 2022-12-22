@@ -363,6 +363,27 @@ def check_port(content):
     return True
 
 
+def check_asl_290_port(asl_struct):
+    if not search_block_with_name_parameter(asl_struct, {
+        "operator": "Name",
+        "parameters": "(IOHW, 0x0290)"
+    }):
+        return False
+    for region_name in ["HWM", "SHWM"]:
+        if not search_block_with_name_parameter(asl_struct, {
+            "operator": "OperationRegion",
+            "parameters": f"({region_name}, SystemIO, IOHW, 0x0A)"
+        }):
+            continue
+        if not search_block_with_name_parameter(asl_struct, {
+            "operator": "Field",
+            "parameters": f"({region_name}, ByteAcc, NoLock, Preserve)"
+        }):
+            continue
+        return region_name
+    return None
+
+
 def comments_remove(content):
     result = ""
     while True:
@@ -525,6 +546,7 @@ def set_default_flags(board_name, board_flags):
         "asus_ec": "N",
         "asus_wmi_entrypoint": "N",
         "asus_nct6775": "N",
+        "asus_nct6775_region": "",
         "asus_port290": "N",
         "gigabyte_wmi": "N",
         "asus_io_mutex": "",
@@ -657,7 +679,7 @@ def update_board_asl_flags(board_flags, asl_struct):
             if check_asl_methods_dispatcher(
                 block_content, dispatcher="WMBD", methods=EC_METHODS
             ):
-                print (f"\tEC methods by WMI UUID: {EC_METHODS}")
+                print (f"\tEC methods by WMI Dispathcer: {EC_METHODS}")
                 if board_name in EC_BOARDS:
                     board_flags["asus_ec"] = "Y"
                 else:
@@ -669,11 +691,28 @@ def update_board_asl_flags(board_flags, asl_struct):
                 methods=WMI_METHODS,
                 convert=WMI_METHODS_CONVERT
             ):
-                print (f"\tWMI methods by WMI UUID: {WMI_METHODS}")
+                print (f"\tWMI methods by WMI Dispathcer: {WMI_METHODS}")
                 if board_name in WMI_BOARDS:
                     board_flags["asus_wmi"] = "Y"
                 else:
                     board_flags["asus_wmi"] = "U"
+
+            # check nct6775
+            if check_asl_methods_dispatcher(
+                block_content, dispatcher="WMBD",
+                methods=NCT6775_METHODS,
+            ):
+                print (f"\tWMI methods by WMI Dispathcer: {NCT6775_METHODS}")
+                # port definition can be anywhere
+                region_name = check_asl_290_port(asl_struct)
+                if region_name:
+                    print (f"\tWMI port region name: {region_name}")
+                    board_flags["asus_nct6775_region"] = region_name
+                    # already upstreamed
+                    if board_name in NCT6775_BOARDS:
+                        board_flags["asus_nct6775"] = "Y"
+                    else:
+                        board_flags["asus_nct6775"] = "U"
 
 
 def update_board_flags(board_flags, content):
