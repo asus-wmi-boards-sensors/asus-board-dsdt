@@ -56,7 +56,9 @@ WMI_BOARDS = [
 # Upstreamed nct6775
 NCT6775_BOARDS = [
     "PRO H410T",
+    "ProArt B550-CREATOR",
     "ProArt X570-CREATOR WIFI",
+    "ProArt Z490-CREATOR 10G",
     "Pro B550M-C",
     "Pro WS X570-ACE",
     "PRIME B360-PLUS",
@@ -68,8 +70,10 @@ NCT6775_BOARDS = [
     "PRIME X570-P",
     "PRIME X570-PRO",
     "ROG CROSSHAIR VIII DARK HERO",
+    "ROG CROSSHAIR VIII EXTREME",
     "ROG CROSSHAIR VIII FORMULA",
     "ROG CROSSHAIR VIII HERO",
+    "ROG CROSSHAIR VIII HERO (WI-FI)",
     "ROG CROSSHAIR VIII IMPACT",
     "ROG STRIX B550-A GAMING",
     "ROG STRIX B550-E GAMING",
@@ -93,8 +97,11 @@ NCT6775_BOARDS = [
     "ROG STRIX Z490-G GAMING (WI-FI)",
     "ROG STRIX Z490-H GAMING",
     "ROG STRIX Z490-I GAMING",
+    "TUF GAMING B550M-E",
+    "TUF GAMING B550M-E (WI-FI)",
     "TUF GAMING B550M-PLUS",
     "TUF GAMING B550M-PLUS (WI-FI)",
+    "TUF GAMING B550M-PLUS WIFI II",
     "TUF GAMING B550-PLUS",
     "TUF GAMING B550-PLUS WIFI II",
     "TUF GAMING B550-PRO",
@@ -690,12 +697,6 @@ def fix_flags(boards_flags):
             board_flags["asus_nct6775"] += "?"
 
         if (
-            board_flags["asus_nct6775"] in ("U", "Y") and
-            board_flags["asus_wmi_entrypoint"] == "N"
-        ):
-            board_flags["asus_nct6775"] = "W"
-
-        if (
             board_flags["asus_ec"] != "Y" and
             board_name in EC_BOARDS
         ):
@@ -707,7 +708,12 @@ def fix_flags(boards_flags):
         ):
             board_flags["asus_ec"] = "W"
 
-        if board_flags["known_good"]:
+        # we need nextgen for support
+        if (
+            board_flags["known_good"] and
+            board_flags["asus_nct6775"] in ("U", "Y") and
+            board_flags["asus_wmi_entrypoint"] == "N"
+        ):
             board_flags["asus_nct6775"] += "K"
 
 
@@ -757,6 +763,7 @@ def show_board(board_name, board_producer, asus_wmi="N", gigabyte_wmi="N",
 def print_boards(boards_flags):
     table = {}
     boards2update_nct6775 = []
+    nextgen_required = {}
 
     for board_name in boards_flags:
         board_flags = boards_flags[board_name]
@@ -769,6 +776,17 @@ def print_boards(boards_flags):
                 if board_name.upper().startswith(serie.upper()):
                     boards2update_nct6775.append(board_name)
                     break
+
+        if (
+            board_flags["known_good"] and
+            board_flags["asus_nct6775"] in ("U", "Y", "UK", "YK")
+        ):
+            # nextgen patch required
+            for name in board_flags["known_good"]:
+                if name not in nextgen_required:
+                    nextgen_required[name] = []
+                if board_name not in nextgen_required[name]:
+                    nextgen_required[name].append(board_name)
 
     desc = show_board(
             board_name="board name",
@@ -808,6 +826,12 @@ def print_boards(boards_flags):
     print ("Boards with nct6775 to add:")
     for board_name in sorted(boards2update_nct6775):
         print (f"\t{board_name}")
+
+    print ("Boards with nct6775 for nextgen:")
+    for name in nextgen_required:
+        print (f"\tDevice name: '{name}'")
+        for board_name in sorted(nextgen_required[name]):
+            print (f'\t\t"{board_name}",')
 
 
 if __name__ == "__main__":
