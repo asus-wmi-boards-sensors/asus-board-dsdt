@@ -162,6 +162,7 @@ NCT6775_SERIES = [
 EC_METHODS = ["BREC"]
 NCT6775_METHODS = ["RSIO", "WSIO", "RHWM", "WHWM"]
 WMI_METHODS = ["RSEN", "GNAM", "GNUM", "UPSB", "GVER"]
+WMI_INT_METHODS = ["UPEC", "UPHM"]
 WMI_METHODS_CONVERT = {
     "RSEN": "52574543", # should be 5253454E
     "GNAM": "50574543", # should be 474E414D
@@ -191,12 +192,19 @@ BOARDNAME_CONVERT = {
 ASUS_DISPATCHER = "WMBD"
 
 # mutex names from kernel source
+ASUS_ITE87_MUTEX = {
+    "\\AMW0._GL": [
+        "CROSSHAIR VI HERO", # "ASUSTeK Computer INC."
+    ]
+}
+
+# mutex names from kernel source
 ASUS_NCT6775_MUTEX = {
-    "\_SB.PC00.LPCB.SIO1.MUT0": [
+    "\\_SB.PC00.LPCB.SIO1.MUT0": [
         "ProArt B660-CREATOR D4", # "ASUSTeK Computer INC."
         "ProArt Z790-CREATOR WIFI", # "ASUSTeK Computer INC."
     ],
-    "\_SB.PCI0.LPCB.SIO1.MUT0": [
+    "\\_SB.PCI0.LPCB.SIO1.MUT0": [
         "PRIME H410M-R", # "ASUSTeK Computer INC."
     ],
     "\\_SB_.PCI0.LPCB.SIO1.MUT0": [
@@ -225,7 +233,9 @@ ASUS_NCT6775_MUTEX = {
         "ROG STRIX B450-F GAMING", # "ASUSTeK COMPUTER INC."
         "TUF B450 PLUS GAMING", # "ASUSTeK COMPUTER INC."
     ],
-    "\\_GPE.MUT0": [], # Could be "MAXIMUS IX APEX"
+    "\\_GPE.MUT0": [
+        "MAXIMUS IX APEX", # "ASUSTeK COMPUTER INC." Need to recheck
+    ],
 }
 
 # mutex names from kernel source
@@ -514,7 +524,8 @@ def set_default_flags(board_name, board_flags):
         "asus_port290": [],
         "asus_dispatcher": [],
         "gigabyte_wmi": "N",
-        "asus_io_mutex": "",
+        "asus_ite87_mutex": "",
+        "asus_nct6775_mutex": "",
         "asus_ec_mutex": "",
         "wmi_methods": [],
         "known_good": []
@@ -582,8 +593,8 @@ def update_board_asl_flags(board_flags, asl_struct):
             asl_struct, region_name, ASUS_NCT6775_MUTEX)
         if mutex_name:
             print (f"\tnct6775 io mutex in region: {mutex_name}")
-            if not board_flags["asus_io_mutex"]:
-                board_flags["asus_io_mutex"] = mutex_name
+            if not board_flags["asus_nct6775_mutex"]:
+                board_flags["asus_nct6775_mutex"] = mutex_name
 
     port_names = check_asl_290_custom_port(asl_struct)
     if port_names:
@@ -667,7 +678,16 @@ def update_board_asl_flags(board_flags, asl_struct):
                                                 known_mutexes=ASUS_NCT6775_MUTEX)
             if mutex_name:
                 print (f"\tNCT6775 mutex: {mutex_name}")
-                board_flags["asus_io_mutex"] = mutex_name
+                board_flags["asus_nct6775_mutex"] = mutex_name
+
+            # board can use unknown method of define port
+            mutex_name = find_asl_methods_mutex(block_content,
+                                                methods=WMI_INT_METHODS,
+                                                known_mutexes=ASUS_ITE87_MUTEX,
+                                                count=0)
+            if mutex_name:
+                print (f"\tITE87 mutex: {mutex_name}")
+                board_flags["asus_ite87_mutex"] = mutex_name
 
             # Check ec / can be without ntc6775 sensor
             if check_asl_methods_dispatcher(
@@ -755,10 +775,10 @@ def fix_flags(boards_flags):
             board_flags["asus_nct6775"] += "K"
 
         # set known io mutex name
-        if not board_flags["asus_io_mutex"]:
+        if not board_flags["asus_nct6775_mutex"]:
             for mutex_name in ASUS_NCT6775_MUTEX:
                 if board_name in ASUS_NCT6775_MUTEX[mutex_name]:
-                    board_flags["asus_io_mutex"] = mutex_name
+                    board_flags["asus_nct6775_mutex"] = mutex_name
 
         # set known io mutex name
         if not board_flags["asus_ec_mutex"]:
@@ -794,15 +814,18 @@ def add_load_flags(boards_flags):
 
 
 def show_board(board_name, board_producer, asus_wmi="N", gigabyte_wmi="N",
-               asus_nct6775="N", asus_ec="N", asus_io_mutex="", asus_ec_mutex=""):
-    if asus_io_mutex:
-        asus_nct6775 += " (" + asus_io_mutex + ")"
+               asus_nct6775="N", asus_ec="N", asus_ite87_mutex="",
+               asus_nct6775_mutex="", asus_ec_mutex=""):
+    if asus_ite87_mutex:
+        asus_wmi += " (" + asus_ite87_mutex + ")"
+    if asus_nct6775_mutex:
+        asus_nct6775 += " (" + asus_nct6775_mutex + ")"
     if asus_ec_mutex:
         asus_ec += " (" + asus_ec_mutex + ")"
     return (
         f"| {board_producer}{' ' * (9 - len(board_producer))}"
         f"| {board_name}{' ' * (33 - len(board_name))}"
-        f"| {asus_wmi}{' ' * (17 - len(asus_wmi)) }"
+        f"| {asus_wmi}{' ' * (30 - len(asus_wmi)) }"
         f"| {gigabyte_wmi}{' ' * (13 - len(gigabyte_wmi)) }"
         f"| {asus_nct6775}{' ' * (30 - len(asus_nct6775))}"
         f"| {asus_ec}{' ' * (30 - len(asus_ec))}"
@@ -845,14 +868,15 @@ def print_boards(boards_flags):
             asus_nct6775="nct6775",
             asus_ec="asus_ec_sensors",
             gigabyte_wmi="gigabyte-wmi",
-            asus_io_mutex="io mutex",
+            asus_ite87_mutex="io mutex",
+            asus_nct6775_mutex="io mutex",
             asus_ec_mutex="ec mutex"
     )
     print(desc)
     desc = show_board(
-            board_name="-" * 33,
+            board_name="-" * 32,
             board_producer="-" * 9,
-            asus_wmi="-" * 16,
+            asus_wmi="-" * 29,
             asus_nct6775="-"  * 29,
             asus_ec="-" * 29,
             gigabyte_wmi="-" * 12
@@ -868,7 +892,8 @@ def print_boards(boards_flags):
             asus_nct6775=board_flags["asus_nct6775"],
             asus_ec=board_flags["asus_ec"],
             gigabyte_wmi=board_flags["gigabyte_wmi"],
-            asus_io_mutex=board_flags["asus_io_mutex"],
+            asus_ite87_mutex=board_flags["asus_ite87_mutex"],
+            asus_nct6775_mutex=board_flags["asus_nct6775_mutex"],
             asus_ec_mutex=board_flags["asus_ec_mutex"],
         )
         print (desc)
@@ -894,9 +919,9 @@ def print_boards(boards_flags):
 
         if (
             board_flags["asus_nct6775"] in ("P", "M") and
-            board_flags["asus_io_mutex"]
+            board_flags["asus_nct6775_mutex"]
         ):
-            print (f'\t("{board_name}", "{board_flags["asus_io_mutex"]}"),')
+            print (f'\t("{board_name}", "{board_flags["asus_nct6775_mutex"]}"),')
 
 
 if __name__ == "__main__":

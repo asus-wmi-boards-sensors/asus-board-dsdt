@@ -2,8 +2,9 @@ B450M DS3H-CF:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -16,8 +17,9 @@ B450M S2H V2:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -30,8 +32,9 @@ B550 AORUS ELITE:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -44,8 +47,9 @@ B550 AORUS ELITE AX V2:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -58,8 +62,9 @@ B550 AORUS ELITE V2:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -72,8 +77,9 @@ B550 GAMING X V2:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -86,8 +92,9 @@ B550I AORUS PRO AX:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -100,8 +107,9 @@ B550M AORUS PRO-P:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -114,8 +122,9 @@ B550M DS3H:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -128,8 +137,9 @@ B660 GAMING X DDR4:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -142,8 +152,9 @@ B660I AORUS PRO DDR4:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -166,8 +177,9 @@ CROSSHAIR VI HERO:
   - WSIO
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: \AMW0._GL
   asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -187,8 +199,9 @@ MAXIMUS IX APEX:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_GPE.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: P
+  asus_nct6775_mutex: \_GPE.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -209,8 +222,9 @@ MAXIMUS IX CODE:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_GPE.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: P
+  asus_nct6775_mutex: \_GPE.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -231,8 +245,9 @@ MAXIMUS IX EXTREME:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_GPE.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: P
+  asus_nct6775_mutex: \_GPE.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -253,8 +268,9 @@ MAXIMUS IX FORMULA:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_GPE.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: P
+  asus_nct6775_mutex: \_GPE.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -275,8 +291,9 @@ MAXIMUS IX HERO:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_GPE.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: P
+  asus_nct6775_mutex: \_GPE.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -297,8 +314,9 @@ MAXIMUS VII HERO:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_GPE.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: P
+  asus_nct6775_mutex: \_GPE.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -319,8 +337,9 @@ P8H67:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB_.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: P
+  asus_nct6775_mutex: \_SB_.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: HWRE
   asus_port290:
   - IO3B
@@ -341,8 +360,9 @@ P8Z68-V LX:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB_.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: P
+  asus_nct6775_mutex: \_SB_.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: HWRE
   asus_port290:
   - IO3B
@@ -367,8 +387,9 @@ PRIME B360-PLUS:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO3B
@@ -392,8 +413,9 @@ PRIME B450-PLUS:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
   asus_port290:
   - IO3B
@@ -412,8 +434,9 @@ PRIME B450M-GAMING:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: L
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -430,8 +453,9 @@ PRIME B450M-GAMING II:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
   asus_port290:
   - IO3B
@@ -454,8 +478,9 @@ PRIME B450M-GAMING/BR:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
   asus_port290:
   - IO3B
@@ -478,8 +503,9 @@ PRIME B460-PLUS:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -504,8 +530,9 @@ PRIME B550-PLUS:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -530,8 +557,9 @@ PRIME B550M-A:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -556,8 +584,9 @@ PRIME B550M-A (WI-FI):
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -582,8 +611,9 @@ PRIME B550M-A AC:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -608,8 +638,9 @@ PRIME B550M-A WIFI II:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -634,8 +665,9 @@ PRIME B550M-K:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -660,8 +692,9 @@ PRIME B650-PLUS:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -685,8 +718,9 @@ PRIME B650M-A:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -710,8 +744,9 @@ PRIME B650M-A (WI-FI):
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -735,8 +770,9 @@ PRIME H410M-R:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -761,8 +797,9 @@ PRIME X370-PRO:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
   asus_port290:
   - IO3B
@@ -781,8 +818,9 @@ PRIME X399-A:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: L
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: L
@@ -805,8 +843,9 @@ PRIME X470-PRO:
   - WSIO
   asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: \AMW0._GL
   asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -830,8 +869,9 @@ PRIME X570-P:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -857,8 +897,9 @@ PRIME X570-PRO:
   - WSIO
   asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -879,8 +920,9 @@ PRIME Z270-A:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_GPE.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: P
+  asus_nct6775_mutex: \_GPE.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -901,8 +943,9 @@ PRIME Z370-A:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: L
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -919,8 +962,9 @@ PRO H410T:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -945,8 +989,9 @@ Pro B550M-C:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -972,8 +1017,9 @@ Pro WS X570-ACE:
   - WSIO
   asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -999,8 +1045,9 @@ ProArt B550-CREATOR:
   - WSIO
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1025,8 +1072,9 @@ ProArt B660-CREATOR D4:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1052,8 +1100,9 @@ ProArt X570-CREATOR WIFI:
   - WSIO
   asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1078,8 +1127,9 @@ ProArt X670E-CREATOR WIFI:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1103,8 +1153,9 @@ ProArt Z490-CREATOR 10G:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1129,8 +1180,9 @@ ProArt Z790-CREATOR WIFI:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: ''
   asus_port290:
   - IO2B
@@ -1160,8 +1212,9 @@ ROG CROSSHAIR VI EXTREME:
   - WSIO
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: \AMW0._GL
   asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -1191,8 +1244,9 @@ ROG CROSSHAIR VI HERO (WI-FI AC):
   - WSIO
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: \AMW0._GL
   asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -1212,8 +1266,9 @@ ROG CROSSHAIR VI Hero:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: L
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -1236,8 +1291,9 @@ ROG CROSSHAIR VII HERO:
   - WSIO
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: \AMW0._GL
   asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -1267,8 +1323,9 @@ ROG CROSSHAIR VII HERO (WI-FI):
   - WSIO
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: \AMW0._GL
   asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -1293,8 +1350,9 @@ ROG CROSSHAIR VIII DARK HERO:
   - WSIO
   asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1320,8 +1378,9 @@ ROG CROSSHAIR VIII EXTREME:
   - WSIO
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1347,8 +1406,9 @@ ROG CROSSHAIR VIII FORMULA:
   - WSIO
   asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1374,8 +1434,9 @@ ROG CROSSHAIR VIII HERO:
   - WSIO
   asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1401,8 +1462,9 @@ ROG CROSSHAIR VIII HERO (WI-FI):
   - WSIO
   asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1428,8 +1490,9 @@ ROG CROSSHAIR VIII IMPACT:
   - WSIO
   asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1454,8 +1517,9 @@ ROG CROSSHAIR X670E EXTREME:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1478,8 +1542,9 @@ ROG CROSSHAIR X670E GENE:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1502,8 +1567,9 @@ ROG CROSSHAIR X670E HERO:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1522,8 +1588,9 @@ ROG MAXIMUS X HERO:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_GPE.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: P
+  asus_nct6775_mutex: \_GPE.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -1548,8 +1615,9 @@ ROG MAXIMUS XI HERO:
   - WSIO
   asus_ec: N?
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO3B
@@ -1574,8 +1642,9 @@ ROG MAXIMUS XI HERO (WI-FI):
   - WSIO
   asus_ec: N?
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO3B
@@ -1600,8 +1669,9 @@ ROG MAXIMUS XIII EXTREME GLACIAL:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1625,8 +1695,9 @@ ROG MAXIMUS Z690 EXTREME:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1650,8 +1721,9 @@ ROG MAXIMUS Z690 EXTREME GLACIAL:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1675,8 +1747,9 @@ ROG MAXIMUS Z790 EXTREME:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: ''
   asus_port290:
   - IO2B
@@ -1699,8 +1772,9 @@ ROG STRIX B350-F GAMING:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
   asus_port290:
   - IO3B
@@ -1723,8 +1797,9 @@ ROG STRIX B350-I GAMING:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
   asus_port290:
   - IO3B
@@ -1753,8 +1828,9 @@ ROG STRIX B450-E GAMING:
   - WSIO
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: \AMW0._GL
   asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -1784,8 +1860,9 @@ ROG STRIX B450-F GAMING:
   - WSIO
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: \AMW0._GL
   asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -1815,8 +1892,9 @@ ROG STRIX B450-F GAMING II:
   - WSIO
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: \AMW0._GL
   asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -1846,8 +1924,9 @@ ROG STRIX B450-I GAMING:
   - WSIO
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: \AMW0._GL
   asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -1871,8 +1950,9 @@ ROG STRIX B550-A GAMING:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1898,8 +1978,9 @@ ROG STRIX B550-E GAMING:
   - WSIO
   asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1924,8 +2005,9 @@ ROG STRIX B550-F GAMING:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1950,8 +2032,9 @@ ROG STRIX B550-F GAMING (WI-FI):
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -1976,8 +2059,9 @@ ROG STRIX B550-F GAMING WIFI II:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2003,8 +2087,9 @@ ROG STRIX B550-I GAMING:
   - WSIO
   asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2030,8 +2115,9 @@ ROG STRIX B550-XE GAMING (WI-FI):
   - WSIO
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2056,8 +2142,9 @@ ROG STRIX B650E-E GAMING (WI-FI):
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2081,8 +2168,9 @@ ROG STRIX B650E-F GAMING (WI-FI):
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2106,8 +2194,9 @@ ROG STRIX B660-I GAMING WIFI:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2131,8 +2220,9 @@ ROG STRIX X370-F GAMING:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
   asus_port290:
   - IO3B
@@ -2155,8 +2245,9 @@ ROG STRIX X370-I GAMING:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
   asus_port290:
   - IO3B
@@ -2175,8 +2266,9 @@ ROG STRIX X399-E GAMING:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: L
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: L
@@ -2199,8 +2291,9 @@ ROG STRIX X470-F GAMING:
   - WSIO
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: \AMW0._GL
   asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -2230,8 +2323,9 @@ ROG STRIX X470-I GAMING:
   - WSIO
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: \AMW0._GL
   asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -2256,8 +2350,9 @@ ROG STRIX X570-E GAMING:
   - WSIO
   asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2283,8 +2378,9 @@ ROG STRIX X570-E GAMING WIFI II:
   - WSIO
   asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2310,8 +2406,9 @@ ROG STRIX X570-F GAMING:
   - WSIO
   asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2337,8 +2434,9 @@ ROG STRIX X570-I GAMING:
   - WSIO
   asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2363,8 +2461,9 @@ ROG STRIX X670E-A GAMING WIFI:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2387,8 +2486,9 @@ ROG STRIX X670E-E GAMING WIFI:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2411,8 +2511,9 @@ ROG STRIX X670E-F GAMING WIFI:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2435,8 +2536,9 @@ ROG STRIX X670E-I GAMING WIFI:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2455,8 +2557,9 @@ ROG STRIX Z370-H GAMING:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_GPE.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: P
+  asus_nct6775_mutex: \_GPE.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -2481,8 +2584,9 @@ ROG STRIX Z390-E GAMING:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO3B
@@ -2507,8 +2611,9 @@ ROG STRIX Z390-F GAMING:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO3B
@@ -2533,8 +2638,9 @@ ROG STRIX Z390-H GAMING:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO3B
@@ -2559,8 +2665,9 @@ ROG STRIX Z390-I GAMING:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO3B
@@ -2585,8 +2692,9 @@ ROG STRIX Z490-A GAMING:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2611,8 +2719,9 @@ ROG STRIX Z490-E GAMING:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2637,8 +2746,9 @@ ROG STRIX Z490-F GAMING:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2663,8 +2773,9 @@ ROG STRIX Z490-G GAMING:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2689,8 +2800,9 @@ ROG STRIX Z490-G GAMING (WI-FI):
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2715,8 +2827,9 @@ ROG STRIX Z490-H GAMING:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2741,8 +2854,9 @@ ROG STRIX Z490-I GAMING:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2767,8 +2881,9 @@ ROG STRIX Z590-A GAMING WIFI II:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2792,8 +2907,9 @@ ROG STRIX Z690-A GAMING WIFI D4:
   - WSIO
   asus_ec: N?
   asus_ec_mutex: \RMTW.ASMX
-  asus_io_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -2813,8 +2929,9 @@ ROG ZENITH EXTREME:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: L
@@ -2827,8 +2944,9 @@ ROG ZENITH EXTREME ALPHA:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: L
@@ -2841,8 +2959,9 @@ ROG ZENITH II EXTREME:
   asus_dispatcher: []
   asus_ec: L
   asus_ec_mutex: \_SB_.PCI0.SBRG.SIO1.MUT0
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: L
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -2855,8 +2974,9 @@ STRIX-Z270E-GAMING:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_GPE.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: P
+  asus_nct6775_mutex: \_GPE.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -2877,8 +2997,9 @@ STRIX-Z270F-GAMING:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_GPE.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: P
+  asus_nct6775_mutex: \_GPE.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -2899,8 +3020,9 @@ STRIX-Z270G-GAMING:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_GPE.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: P
+  asus_nct6775_mutex: \_GPE.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -2921,8 +3043,9 @@ STRIX-Z270H-GAMING:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_GPE.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: P
+  asus_nct6775_mutex: \_GPE.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -2947,8 +3070,9 @@ TUF B450 PLUS GAMING:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
   asus_port290:
   - IO3B
@@ -2971,8 +3095,9 @@ TUF GAMING B450-PLUS II:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
   asus_port290:
   - IO3B
@@ -2995,8 +3120,9 @@ TUF GAMING B550-PLUS:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -3021,8 +3147,9 @@ TUF GAMING B550-PLUS WIFI II:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -3047,8 +3174,9 @@ TUF GAMING B550-PRO:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -3073,8 +3201,9 @@ TUF GAMING B550M-E:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -3099,8 +3228,9 @@ TUF GAMING B550M-E (WI-FI):
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -3125,8 +3255,9 @@ TUF GAMING B550M-PLUS:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -3151,8 +3282,9 @@ TUF GAMING B550M-PLUS (WI-FI):
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -3177,8 +3309,9 @@ TUF GAMING B550M-PLUS WIFI II:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -3203,8 +3336,9 @@ TUF GAMING X570-PLUS:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -3229,8 +3363,9 @@ TUF GAMING X570-PLUS (WI-FI):
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -3255,8 +3390,9 @@ TUF GAMING X570-PRO (WI-FI):
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -3281,8 +3417,9 @@ TUF GAMING Z490-PLUS:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -3307,8 +3444,9 @@ TUF GAMING Z490-PLUS (WI-FI):
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -3333,8 +3471,9 @@ TUF GAMING Z590-PLUS WIFI:
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -3354,8 +3493,9 @@ TUF Z270 MARK 1:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_GPE.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: P
+  asus_nct6775_mutex: \_GPE.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -3376,8 +3516,9 @@ X570 AORUS ELITE:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -3390,8 +3531,9 @@ X570 AORUS ELITE WIFI:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -3404,8 +3546,9 @@ X570 GAMING X:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -3418,8 +3561,9 @@ X570 I AORUS PRO WIFI:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -3436,8 +3580,9 @@ X570 UD:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -3450,8 +3595,9 @@ X99-E WS/USB 3.1:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB_.PCI0.LPC0.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: L
+  asus_nct6775_mutex: \_SB_.PCI0.LPC0.SIO1.MUT0
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -3464,8 +3610,9 @@ Z170-DELUXE:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_GPE.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: P
+  asus_nct6775_mutex: \_GPE.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -3486,8 +3633,9 @@ Z170M-PLUS:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_GPE.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: P
+  asus_nct6775_mutex: \_GPE.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -3508,8 +3656,9 @@ Z270-WS:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_GPE.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: P
+  asus_nct6775_mutex: \_GPE.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -3530,8 +3679,9 @@ Z390 I AORUS PRO WIFI-CF:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -3544,8 +3694,9 @@ Z490 AORUS ELITE AC:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
@@ -3562,8 +3713,9 @@ Z490-GUNDAM (WI-FI):
   - WSIO
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_ite87_mutex: ''
   asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
   - IO2B
@@ -3584,8 +3736,9 @@ Z690M AORUS ELITE AX DDR4:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_ite87_mutex: ''
   asus_nct6775: N
+  asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
   asus_wmi: N
