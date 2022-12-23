@@ -187,7 +187,7 @@ MAXIMUS IX APEX:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_io_mutex: \_GPE.MUT0
   asus_nct6775: P
   asus_nct6775_region: HWM
   asus_port290:
@@ -209,7 +209,7 @@ MAXIMUS IX CODE:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_io_mutex: \_GPE.MUT0
   asus_nct6775: P
   asus_nct6775_region: HWM
   asus_port290:
@@ -231,7 +231,7 @@ MAXIMUS IX EXTREME:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_io_mutex: \_GPE.MUT0
   asus_nct6775: P
   asus_nct6775_region: HWM
   asus_port290:
@@ -253,7 +253,7 @@ MAXIMUS IX FORMULA:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_io_mutex: \_GPE.MUT0
   asus_nct6775: P
   asus_nct6775_region: HWM
   asus_port290:
@@ -275,7 +275,7 @@ MAXIMUS IX HERO:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_io_mutex: \_GPE.MUT0
   asus_nct6775: P
   asus_nct6775_region: HWM
   asus_port290:
@@ -297,7 +297,7 @@ MAXIMUS VII HERO:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB_.PCI0.LPCB.SIO1.MUT0
+  asus_io_mutex: \_GPE.MUT0
   asus_nct6775: P
   asus_nct6775_region: HWM
   asus_port290:
@@ -727,20 +727,6 @@ PRIME B650M-A (WI-FI):
   - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
-PRIME H410M:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
-  asus_nct6775: L
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
 PRIME H410M-R:
   asus_dispatcher:
   - RHWM
@@ -893,7 +879,7 @@ PRIME Z270-A:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_io_mutex: \_GPE.MUT0
   asus_nct6775: P
   asus_nct6775_region: HWM
   asus_port290:
@@ -1536,7 +1522,7 @@ ROG MAXIMUS X HERO:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB_.PCI0.LPCB.SIO1.MUT0
+  asus_io_mutex: \_GPE.MUT0
   asus_nct6775: P
   asus_nct6775_region: HWM
   asus_port290:
@@ -2469,7 +2455,7 @@ ROG STRIX Z370-H GAMING:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB_.PCI0.LPCB.SIO1.MUT0
+  asus_io_mutex: \_GPE.MUT0
   asus_nct6775: P
   asus_nct6775_region: HWM
   asus_port290:
@@ -2869,7 +2855,7 @@ STRIX-Z270E-GAMING:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_io_mutex: \_GPE.MUT0
   asus_nct6775: P
   asus_nct6775_region: HWM
   asus_port290:
@@ -2891,7 +2877,7 @@ STRIX-Z270F-GAMING:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_io_mutex: \_GPE.MUT0
   asus_nct6775: P
   asus_nct6775_region: HWM
   asus_port290:
@@ -2913,7 +2899,7 @@ STRIX-Z270G-GAMING:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_io_mutex: \_GPE.MUT0
   asus_nct6775: P
   asus_nct6775_region: HWM
   asus_port290:
@@ -2935,7 +2921,7 @@ STRIX-Z270H-GAMING:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_io_mutex: \_GPE.MUT0
   asus_nct6775: P
   asus_nct6775_region: HWM
   asus_port290:
@@ -3368,7 +3354,7 @@ TUF Z270 MARK 1:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_io_mutex: \_GPE.MUT0
   asus_nct6775: P
   asus_nct6775_region: HWM
   asus_port290:
@@ -3478,7 +3464,7 @@ Z170-DELUXE:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB_.PCI0.LPCB.SIO1.MUT0
+  asus_io_mutex: \_GPE.MUT0
   asus_nct6775: P
   asus_nct6775_region: HWM
   asus_port290:
@@ -3500,7 +3486,7 @@ Z170M-PLUS:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: \_SB_.PCI0.LPCB.SIO1.MUT0
+  asus_io_mutex: \_GPE.MUT0
   asus_nct6775: P
   asus_nct6775_region: HWM
   asus_port290:
@@ -3522,7 +3508,7 @@ Z270-WS:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
-  asus_io_mutex: ''
+  asus_io_mutex: \_GPE.MUT0
   asus_nct6775: P
   asus_nct6775_region: HWM
   asus_port290:

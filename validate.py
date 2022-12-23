@@ -197,7 +197,7 @@ ASUS_NCT6775_MUTEX = {
         "ProArt Z790-CREATOR WIFI", # "ASUSTeK Computer INC."
     ],
     "\_SB.PCI0.LPCB.SIO1.MUT0": [
-        "PRIME H410M", # "ASUSTeK Computer INC."
+        "PRIME H410M-R", # "ASUSTeK Computer INC."
     ],
     "\\_SB_.PCI0.LPCB.SIO1.MUT0": [
         "P8Z68-V LX", # "ASUSTeK Computer INC."
@@ -224,7 +224,8 @@ ASUS_NCT6775_MUTEX = {
         "ROG STRIX B350-F GAMING", # "ASUSTeK COMPUTER INC."
         "ROG STRIX B450-F GAMING", # "ASUSTeK COMPUTER INC."
         "TUF B450 PLUS GAMING", # "ASUSTeK COMPUTER INC."
-    ]
+    ],
+    "\\_GPE.MUT0": [], # Could be "MAXIMUS IX APEX"
 }
 
 # mutex names from kernel source
@@ -350,11 +351,11 @@ def check_asl_entrypoint(asl_struct, wmi_methods, uuid, method):
     return False
 
 
-def find_asl_methods_mutex(asl_struct, methods, known_mutexes):
+def find_asl_methods_mutex(asl_struct, methods, known_mutexes, count=1):
     for method in methods:
         method_content = asl_get_operator_with_params(
             asl_struct,
-            "Method", f"({method}, 1, Serialized)"
+            "Method", f"({method}, {count}, Serialized)"
         )
         if method_content:
             mutexes = get_asl_method_mutexes(method_content)
@@ -362,6 +363,23 @@ def find_asl_methods_mutex(asl_struct, methods, known_mutexes):
                 if mutex_name in known_mutexes:
                     return mutex_name
     return False
+
+
+def get_asl_nct6775_mutexes_in_block(asl_struct, region_name, known_mutexes):
+    regions = search_block_with_name_parameter(asl_struct, {
+        "operator": "OperationRegion",
+        "parameters": f"({region_name}, SystemIO, IOHW, 0x0A)"
+    })
+    for region in regions:
+        methods = search_block_with_name_parameter(region, {
+            "operator": "Method"
+        }, parent=False)
+        for method in methods:
+            mutexes = get_asl_method_mutexes(method)
+            for mutex_name in mutexes:
+                if mutex_name in known_mutexes:
+                    return mutex_name
+    return None
 
 
 def check_asl_290_custom_port(asl_struct):
@@ -501,14 +519,6 @@ def set_default_flags(board_name, board_flags):
         "wmi_methods": [],
         "known_good": []
     })
-    # set known io mutex name
-    for mutex_name in ASUS_NCT6775_MUTEX:
-        if board_name in ASUS_NCT6775_MUTEX[mutex_name]:
-            board_flags["asus_io_mutex"] = mutex_name
-    # set known io mutex name
-    for mutex_name in ASUS_EC_MUTEX:
-        if board_name in ASUS_EC_MUTEX[mutex_name]:
-            board_flags["asus_ec_mutex"] = mutex_name
 
 
 def update_board_asl_flags(board_flags, asl_struct):
@@ -568,6 +578,12 @@ def update_board_asl_flags(board_flags, asl_struct):
     if region_name:
         print (f"\tWMI port region name: {region_name}")
         board_flags["asus_nct6775_region"] = region_name
+        mutex_name = get_asl_nct6775_mutexes_in_block(
+            asl_struct, region_name, ASUS_NCT6775_MUTEX)
+        if mutex_name:
+            print (f"\tnct6775 io mutex in region: {mutex_name}")
+            if not board_flags["asus_io_mutex"]:
+                board_flags["asus_io_mutex"] = mutex_name
 
     port_names = check_asl_290_custom_port(asl_struct)
     if port_names:
@@ -701,25 +717,25 @@ def fix_flags(boards_flags):
 
         # check for errors in detect
         if (
-            board_flags["gigabyte_wmi"] != "Y" and
+            board_flags["gigabyte_wmi"] not in ("Y", "L") and
             board_name in GIGABYTE_BOARDS
         ):
             board_flags["gigabyte_wmi"] += "?"
 
         if (
-            board_flags["asus_wmi"] != "Y" and
+            board_flags["asus_wmi"] not in ("Y", "L") and
             board_name in WMI_BOARDS
         ):
             board_flags["asus_wmi"] += "?"
 
         if (
-            board_flags["asus_nct6775"] != "Y" and
+            board_flags["asus_nct6775"] not in ("Y", "L") and
             board_name in NCT6775_BOARDS
         ):
             board_flags["asus_nct6775"] += "?"
 
         if (
-            board_flags["asus_ec"] != "Y" and
+            board_flags["asus_ec"] not in ("Y", "L") and
             board_name in EC_BOARDS
         ):
             board_flags["asus_ec"] += "?"
@@ -737,6 +753,18 @@ def fix_flags(boards_flags):
             board_flags["asus_wmi_entrypoint"] == "N"
         ):
             board_flags["asus_nct6775"] += "K"
+
+        # set known io mutex name
+        if not board_flags["asus_io_mutex"]:
+            for mutex_name in ASUS_NCT6775_MUTEX:
+                if board_name in ASUS_NCT6775_MUTEX[mutex_name]:
+                    board_flags["asus_io_mutex"] = mutex_name
+
+        # set known io mutex name
+        if not board_flags["asus_ec_mutex"]:
+            for mutex_name in ASUS_EC_MUTEX:
+                if board_name in ASUS_EC_MUTEX[mutex_name]:
+                    board_flags["asus_ec_mutex"] = mutex_name
 
 
 def add_load_flags(boards_flags):
@@ -864,7 +892,10 @@ def print_boards(boards_flags):
     for board_name in boards_flags:
         board_flags = boards_flags[board_name]
 
-        if board_flags["asus_nct6775"] == "P":
+        if (
+            board_flags["asus_nct6775"] in ("P", "M") and
+            board_flags["asus_io_mutex"]
+        ):
             print (f'\t("{board_name}", "{board_flags["asus_io_mutex"]}"),')
 
 
@@ -939,8 +970,8 @@ if __name__ == "__main__":
 
                 print (f"\tProcess time: {round(time.time() - start_time, 3)}")
 
-    fix_flags(boards_flags)
     add_load_flags(boards_flags)
+    fix_flags(boards_flags)
     print_boards(boards_flags)
     with open("boards.yaml", "wb") as f:
         f.write(yaml.dump(boards_flags).encode("utf8"))
