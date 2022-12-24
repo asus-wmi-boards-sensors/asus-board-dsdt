@@ -178,7 +178,7 @@ CROSSHAIR VI HERO:
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: \AMW0._GL
-  asus_nct6775: U
+  asus_nct6775: M
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
@@ -844,7 +844,7 @@ PRIME X470-PRO:
   asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: \AMW0._GL
-  asus_nct6775: U
+  asus_nct6775: M
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
@@ -1213,7 +1213,7 @@ ROG CROSSHAIR VI EXTREME:
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: \AMW0._GL
-  asus_nct6775: U
+  asus_nct6775: M
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
@@ -1245,7 +1245,7 @@ ROG CROSSHAIR VI HERO (WI-FI AC):
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: \AMW0._GL
-  asus_nct6775: U
+  asus_nct6775: M
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
@@ -1292,7 +1292,7 @@ ROG CROSSHAIR VII HERO:
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: \AMW0._GL
-  asus_nct6775: U
+  asus_nct6775: M
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
@@ -1324,7 +1324,7 @@ ROG CROSSHAIR VII HERO (WI-FI):
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: \AMW0._GL
-  asus_nct6775: U
+  asus_nct6775: M
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
@@ -1829,7 +1829,7 @@ ROG STRIX B450-E GAMING:
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: \AMW0._GL
-  asus_nct6775: U
+  asus_nct6775: M
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
@@ -1861,7 +1861,7 @@ ROG STRIX B450-F GAMING:
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: \AMW0._GL
-  asus_nct6775: U
+  asus_nct6775: M
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
@@ -1893,7 +1893,7 @@ ROG STRIX B450-F GAMING II:
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: \AMW0._GL
-  asus_nct6775: U
+  asus_nct6775: M
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
@@ -1925,7 +1925,7 @@ ROG STRIX B450-I GAMING:
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: \AMW0._GL
-  asus_nct6775: U
+  asus_nct6775: M
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
@@ -2292,7 +2292,7 @@ ROG STRIX X470-F GAMING:
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: \AMW0._GL
-  asus_nct6775: U
+  asus_nct6775: M
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
@@ -2324,7 +2324,7 @@ ROG STRIX X470-I GAMING:
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: \AMW0._GL
-  asus_nct6775: U
+  asus_nct6775: M
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:

@@ -766,6 +766,12 @@ def fix_flags(boards_flags):
         ):
             board_flags["asus_ec"] = "W"
 
+        if (
+            board_flags["asus_nct6775"] in ("U") and
+            board_flags["asus_wmi"] in ("Y", "L")
+        ):
+            board_flags["asus_nct6775"] = "M"
+
         # we need nextgen for support
         if (
             board_flags["known_good"] and

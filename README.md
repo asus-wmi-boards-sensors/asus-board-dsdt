@@ -40,7 +40,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | GIGABYTE | B550M DS3H                       | N                             | L            | N                             | N                             |
 | GIGABYTE | B660 GAMING X DDR4               | N                             | L            | N                             | N                             |
 | GIGABYTE | B660I AORUS PRO DDR4             | N                             | L            | N                             | N                             |
-| ASUS     | CROSSHAIR VI HERO                | Y (\AMW0._GL)                 | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
+| ASUS     | CROSSHAIR VI HERO                | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
 | ASUS     | MAXIMUS IX APEX                  | N                             | N            | P (\_GPE.MUT0)                | N                             |
 | ASUS     | MAXIMUS IX CODE                  | N                             | N            | P (\_GPE.MUT0)                | N                             |
 | ASUS     | MAXIMUS IX EXTREME               | N                             | N            | P (\_GPE.MUT0)                | N                             |
@@ -67,7 +67,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | PRIME H410M-R                    | N                             | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME X370-PRO                   | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME X399-A                     | L                             | N            | L (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
-| ASUS     | PRIME X470-PRO                   | Y (\AMW0._GL)                 | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
+| ASUS     | PRIME X470-PRO                   | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
 | ASUS     | PRIME X570-P                     | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME X570-PRO                   | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
 | ASUS     | PRIME Z270-A                     | N                             | N            | P (\_GPE.MUT0)                | N                             |
@@ -81,11 +81,11 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ProArt X670E-CREATOR WIFI        | N                             | N            | UK (\_SB.PCI0.SBRG.SIO1.MUT0) | N                             |
 | ASUS     | ProArt Z490-CREATOR 10G          | N                             | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | ProArt Z790-CREATOR WIFI         | N                             | N            | M (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
-| ASUS     | ROG CROSSHAIR VI EXTREME         | Y (\AMW0._GL)                 | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
-| ASUS     | ROG CROSSHAIR VI HERO (WI-FI AC) | Y (\AMW0._GL)                 | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
+| ASUS     | ROG CROSSHAIR VI EXTREME         | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
+| ASUS     | ROG CROSSHAIR VI HERO (WI-FI AC) | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
 | ASUS     | ROG CROSSHAIR VI Hero            | N                             | N            | L (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
-| ASUS     | ROG CROSSHAIR VII HERO           | Y (\AMW0._GL)                 | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
-| ASUS     | ROG CROSSHAIR VII HERO (WI-FI)   | Y (\AMW0._GL)                 | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
+| ASUS     | ROG CROSSHAIR VII HERO           | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
+| ASUS     | ROG CROSSHAIR VII HERO (WI-FI)   | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
 | ASUS     | ROG CROSSHAIR VIII DARK HERO     | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
 | ASUS     | ROG CROSSHAIR VIII EXTREME       | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
 | ASUS     | ROG CROSSHAIR VIII FORMULA       | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
@@ -104,10 +104,10 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ROG MAXIMUS Z790 EXTREME         | N                             | N            | M (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B350-F GAMING          | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B350-I GAMING          | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
-| ASUS     | ROG STRIX B450-E GAMING          | Y (\AMW0._GL)                 | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
-| ASUS     | ROG STRIX B450-F GAMING          | Y (\AMW0._GL)                 | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
-| ASUS     | ROG STRIX B450-F GAMING II       | Y (\AMW0._GL)                 | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
-| ASUS     | ROG STRIX B450-I GAMING          | Y (\AMW0._GL)                 | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
+| ASUS     | ROG STRIX B450-E GAMING          | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
+| ASUS     | ROG STRIX B450-F GAMING          | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
+| ASUS     | ROG STRIX B450-F GAMING II       | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
+| ASUS     | ROG STRIX B450-I GAMING          | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
 | ASUS     | ROG STRIX B550-A GAMING          | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B550-E GAMING          | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
 | ASUS     | ROG STRIX B550-F GAMING          | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
@@ -121,8 +121,8 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ROG STRIX X370-F GAMING          | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX X370-I GAMING          | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX X399-E GAMING          | L                             | N            | L (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
-| ASUS     | ROG STRIX X470-F GAMING          | Y (\AMW0._GL)                 | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
-| ASUS     | ROG STRIX X470-I GAMING          | Y (\AMW0._GL)                 | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
+| ASUS     | ROG STRIX X470-F GAMING          | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
+| ASUS     | ROG STRIX X470-I GAMING          | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
 | ASUS     | ROG STRIX X570-E GAMING          | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
 | ASUS     | ROG STRIX X570-E GAMING WIFI II  | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
 | ASUS     | ROG STRIX X570-F GAMING          | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
