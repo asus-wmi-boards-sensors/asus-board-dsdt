@@ -596,7 +596,8 @@ def update_board_asl_flags(board_flags, asl_struct):
             check_asl_entrypoint(
                 block_content, board_flags["wmi_methods"],
                 "QWDG:DEADBEEF-2001-0000-00A0-C90629100000", "BB"
-            )
+            ) and
+            check_asl_method(block_content, [GIGABYTE_DISPATCHER], count=3)
         ):
             # already upstreamed
             if board_name in GIGABYTE_BOARDS:
