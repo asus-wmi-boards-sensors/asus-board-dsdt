@@ -190,6 +190,7 @@ BOARDNAME_CONVERT = {
 }
 
 ASUS_DISPATCHER = "WMBD"
+GIGABYTE_DISPATCHER = "WMBB"
 
 # mutex names from kernel source
 ASUS_ITE87_MUTEX = {
@@ -420,6 +421,25 @@ def check_asl_290_port(asl_struct):
             "parameters": f"({region_name}, ByteAcc, NoLock, Preserve)"
         }):
             continue
+        # for fields structure investigation
+        for locked_state in ["Lock", "NoLock"]:
+            index_blocks = search_block_with_name_parameter(asl_struct, {
+                "operator": "IndexField",
+                "parameters": f"(HIDX, HDAT, ByteAcc, {locked_state}, Preserve)"
+            }, parent=False)
+            index_blocks += search_block_with_name_parameter(asl_struct, {
+                "operator": "Field",
+                "parameters": f"({region_name}, ByteAcc, {locked_state}, Preserve)"
+            }, parent=False)
+            for block in index_blocks:
+                index_content = block.get("content")
+                # no index implementation
+                if not index_content:
+                    continue
+                if region_name not in method_dumps:
+                    method_dumps[region_name] = []
+                if index_content not in method_dumps[region_name]:
+                    method_dumps[region_name].append(index_content)
         return region_name
     return None
 
@@ -465,8 +485,6 @@ def check_asl_method(asl_struct, methods, count=1):
             }
         ):
             return False
-        if method not in method_dumps:
-            method_dumps[method] = []
         method_content = asl_get_operator_with_params(
             asl_struct,
             "Method", f"({method}, {count}, Serialized)"
@@ -481,6 +499,8 @@ def check_asl_method(asl_struct, methods, count=1):
         # started with return zero?
         if func_impl.startswith("{\nReturn (Ones)"):
             return False
+        if method not in method_dumps:
+            method_dumps[method] = []
         if func_impl not in method_dumps[method]:
             method_dumps[method].append(func_impl)
     return True
