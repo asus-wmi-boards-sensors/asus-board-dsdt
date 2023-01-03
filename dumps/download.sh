@@ -27,6 +27,8 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X470-PRO-ASUS-6042.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X570-P-ASUS-4021.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X570-PRO-ASUS-4021.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X670-P-ASUS-0823.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X670-P-WIFI-ASUS-0823.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z270M-PLUS-ASUS-2001.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z270-P-ASUS-2001.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z370-A-ASUS-3004.ZIP \

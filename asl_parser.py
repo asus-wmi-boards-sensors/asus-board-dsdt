@@ -46,7 +46,8 @@ def skip_empty_text(buf):
 
 def get_operator_name(buf):
     pos = 0
-    while buf[pos] in ASL_VALID_NAME:
+    buf_len = len(buf)
+    while pos < buf_len and buf[pos] in ASL_VALID_NAME:
         pos += 1
     return buf[:pos], buf[pos:]
 
