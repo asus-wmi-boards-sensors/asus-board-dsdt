@@ -188,6 +188,7 @@ BOARDNAME_CONVERT = {
     "TUF GAMING X570-PRO WIFI SI": "TUF GAMING X570-PRO (WI-FI)",
     "PRIME B450M-GAMING BR SI": "PRIME B450M-GAMING/BR",
     "PRIME X670-P (WI-FI)": "PRIME X670-P WIFI",
+    "EX-B660M-V5-PRO-D4-SI": "EX-B660M-V5 PRO D4",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -278,7 +279,7 @@ def gen_asus_board_name(board_group):
     if board_group[0] == "ROG" and board_group[1] == "STRIX":
         # fix WIFI name
         if board_group[-1].upper() == "WIFI":
-            for chipset in ["B660", "X670"]:
+            for chipset in ["B650", "B660", "X670"]:
                 if board_group[2].startswith(chipset):
                     break
             else:
@@ -297,7 +298,11 @@ def gen_asus_board_name(board_group):
     elif board_group[0] == "TUF" and board_group[1] == "GAMING":
         # fix WIFI name
         if board_group[-1].upper() == "WIFI":
-            board_group[-1] = "(WI-FI)"
+            for chipset in ["B650", "B660", "X670"]:
+                if board_group[2].startswith(chipset):
+                    break
+            else:
+                board_group[-1] = "(WI-FI)"
         if (
             len(board_group[3]) == 1 or
             board_group[3].upper() in ("PLUS", "PRO")
@@ -312,7 +317,11 @@ def gen_asus_board_name(board_group):
     elif board_group[0].upper() in ("PRIME"):
         # fix WIFI name
         if board_group[-1].upper() == "WIFI":
-            board_group[-1] = "(WI-FI)"
+            for chipset in ["B650", "B660", "X670"]:
+                if board_group[1].startswith(chipset):
+                    break
+            else:
+                board_group[-1] = "(WI-FI)"
         # create name
         board_name = f"{board_group[0]} "
         board_name += "-".join(board_group[1:3]) + " "

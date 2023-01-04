@@ -11,6 +11,7 @@ OPERATION_WITH_PARAMETERS = [
     "Alias",
     "Mutex",
     "Event",
+    "Store",
     # Create*Field
     "CreateBitField",
     "CreateByteField",
@@ -162,14 +163,6 @@ def parse_block(buf, path=None):
     elif operator in ["Zero"]:
         # noop
         pass
-    # TODO: hack and fix
-    elif buf[0] == "=":
-        result["operator"] = "_SET_"
-        line_size = buf.find("\n", 1)
-        if line_size == -1:
-            line_size = len(line_size)
-        result["parameters"] = (operator, buf[:line_size + 1].strip())
-        buf = buf[line_size + 1:].strip()
     else:
         raise Exception(operator + "<===>" + buf[:100] + "...")
     return result, buf

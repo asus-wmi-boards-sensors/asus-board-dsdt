@@ -6,4 +6,4 @@ do
 	mv ${dirname}*.aml "${dirname}" | exit
 done
 # convert to dsl
-find * | grep "\.aml" | awk '{print "iasl -d " $1}' | sh - || exit
+find * | grep "\.aml" | awk '{print "iasl -dl " $1}' | sh - || exit
