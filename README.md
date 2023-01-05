@@ -191,8 +191,8 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | TUF GAMING Z490-PLUS (WI-FI)     | N                             | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING Z590-PLUS WIFI        | N                             | N            | UK (\_SB.PC00.LPCB.SIO1.MUT0) | N                             |
 | ASUS     | TUF Z270 MARK 1                  | N                             | N            | P (\_GPE.MUT0)                | N                             |
-| GIGABYTE | X570 AORUS ELITE                 | N                             | L            | N                             | N                             |
-| GIGABYTE | X570 AORUS ELITE WIFI            | N                             | L            | N                             | N                             |
+| GIGABYTE | X570 AORUS ELITE                 | N                             | Y            | N                             | N                             |
+| GIGABYTE | X570 AORUS ELITE WIFI            | N                             | Y            | N                             | N                             |
 | GIGABYTE | X570 GAMING X                    | N                             | L            | N                             | N                             |
 | GIGABYTE | X570 I AORUS PRO WIFI            | N                             | Y            | N                             | N                             |
 | GIGABYTE | X570 UD                          | N                             | L            | N                             | N                             |
@@ -203,7 +203,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | GIGABYTE | Z390 I AORUS PRO WIFI-CF         | N                             | L            | N                             | N                             |
 | GIGABYTE | Z490 AORUS ELITE AC              | N                             | L            | N                             | N                             |
 | ASUS     | Z490-GUNDAM (WI-FI)              | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
-| GIGABYTE | Z690M AORUS ELITE AX DDR4        | N                             | L            | N                             | N                             |
+| GIGABYTE | Z690M AORUS ELITE AX DDR4        | N                             | Y            | N                             | N                             |
 
 * K - has some known code for support,
 * L - no DSDL/SSDL dumps,

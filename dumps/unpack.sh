@@ -44,9 +44,14 @@ do
 	echo ${file} | sed "s|.zip||g" | awk '{print "rm -rvf " $1 "CAP_output/*.bat" }' | sh -
 	echo ${file} | sed "s|.zip||g" | awk '{print "rm -rvf " $1 "CAP_output/*.exe" }' | sh -
 	echo ${file} | sed "s|.zip||g" | awk '{print "rm -rvf " $1 "CAP_output/*.txt" }' | sh -
+	echo ${file} | sed "s|.zip||g" | awk '{print "rm -rvf " $1 "CAP_output/EFI/" }' | sh -
+	echo ${file} | sed "s|.zip||g" | awk '{print "rm -rvf " $1 "CAP_output/*.pdf" }' | sh -
+	echo ${file} | sed "s|.zip||g" | awk '{print "rm -rvf " $1 "CAP_output/*.efi" }' | sh -
+	echo ${file} | sed "s|.zip||g" | awk '{print "rm -rvf " $1 "CAP_output/*.nsh" }' | sh -
 	# unpack
 	echo ${file} | sed "s|.zip||g" \
 		| awk '{print  "uefi-firmware-parser --brute -e -O " $1 "CAP_output/*" }' | sh -  || exit
+	echo Proccesed ${file}
 	# move all DSDL to root directory
 	grep -E "DSDT|SSDT" *CAP_output/* -R 2>&1 | sed 's|grep: ||g' | sed 's|: |\t|g' | awk '{print "file " $1}' | sh - \
 		| grep "ACPI Machine Language file" | sed 's|:|\t|g' | awk '{print "md5sum " $1}' | sh - \
@@ -56,7 +61,7 @@ do
 		| sed 's|mb_bios_||g' \
 		| awk '{print "mv -v mb_bios_"$1 "CAP_output." $2 ".aml " $1 "-GIGABYTE." $2 ".aml" }' | sh -
 	# cleanup
-	echo ${file} | sed "s|.zip||g" | awk '{print "rn -rvf " $1 "CAP_output" }' | sh -
+	echo ${file} | sed "s|.zip||g" | awk '{print "rm -rf " $1 "CAP_output" }' | sh -
 	echo ${file} | sed "s|.zip||g" | awk '{print "rm " $1 ".zip" }' | sh -
 done
 

@@ -187,8 +187,10 @@ mkdir -p GIGABYTE
 cd GIGABYTE
 # download uefi firmwares
 for bios_file in \
-    https://download.gigabyte.com/FileList/BIOS/mb_bios_z690m-aorus-elite-ax-ddr4_f21.zip \
-    https://download.gigabyte.com/FileList/BIOS/mb_bios_x570-i-aorus-pro-wifi_f36d.zip
+    https://download.gigabyte.com/FileList/BIOS/mb_bios_x570-aorus-elite_f37.zip \
+    https://download.gigabyte.com/FileList/BIOS/mb_bios_x570-aorus-elite-wifi_f37.zip \
+    https://download.gigabyte.com/FileList/BIOS/mb_bios_x570-i-aorus-pro-wifi_f36d.zip \
+    https://download.gigabyte.com/FileList/BIOS/mb_bios_z690m-aorus-elite-ax-ddr4_f21.zip
 do
     wget -cv $bios_file || exit
 done
