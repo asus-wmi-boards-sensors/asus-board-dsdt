@@ -985,7 +985,7 @@ if __name__ == "__main__":
                     board_group = board_group[:-1]
                 # check board producer
                 board_producer = "ASUS"
-                if board_group[-1].upper() in ("ASUS", "GIGABYTE"):
+                if board_group[-1].upper() in ("ASUS", "GIGABYTE", "LENOVO"):
                     board_producer = board_group[-1].upper()
                     board_group = board_group[:-1]
                 if board_producer == "GIGABYTE":

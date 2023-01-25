@@ -84,6 +84,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | PRO H410T                        | N                             | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | Pro B550M-C                      | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | Pro B660M-C-D4                   | N                             | N            | UK (\_SB.PC00.LPCB.SIO1.MUT0) | N                             |
+| ASUS     | Pro WS W680-ACE                  | N                             | N            | UK (\_SB.PC00.LPCB.SIO1.MUT0) | N                             |
 | ASUS     | Pro WS X570-ACE                  | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
 | ASUS     | ProArt B550-CREATOR              | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
 | ASUS     | ProArt B660-CREATOR D4           | N                             | N            | UK (\_SB.PC00.LPCB.SIO1.MUT0) | N                             |
@@ -163,6 +164,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ROG ZENITH EXTREME               | L                             | N            | N                             | N                             |
 | ASUS     | ROG ZENITH EXTREME ALPHA         | L                             | N            | N                             | N                             |
 | ASUS     | ROG ZENITH II EXTREME            | N                             | N            | L                             | L (\_SB_.PCI0.SBRG.SIO1.MUT0) |
+| LENOVO   | S206                             | N                             | N            | N                             | N                             |
 | ASUS     | STRIX-Z270E-GAMING               | N                             | N            | P (\_GPE.MUT0)                | N                             |
 | ASUS     | STRIX-Z270F-GAMING               | N                             | N            | P (\_GPE.MUT0)                | N                             |
 | ASUS     | STRIX-Z270G-GAMING               | N                             | N            | P (\_GPE.MUT0)                | N                             |

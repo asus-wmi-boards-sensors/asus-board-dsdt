@@ -1271,6 +1271,33 @@ Pro B660M-C-D4:
   - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+Pro WS W680-ACE:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 Pro WS X570-ACE:
   asus_dispatcher:
   - BREC
@@ -3359,6 +3386,21 @@ ROG ZENITH II EXTREME:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  gigabyte_wmi: N
+  known_good: []
+  wmi_methods: []
+S206:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: LENOVO
   gigabyte_wmi: N
   known_good: []
   wmi_methods: []
