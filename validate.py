@@ -317,6 +317,15 @@ ASUS_NCT6775_MUTEX = {
     ],
 }
 
+
+ASUS_NCT6775_MUTEX_CODENAME = {
+    "\\_GPE.MUT0": "acpi_board_GPEM_MUTEX",
+    "\\_SB_.PCI0.LPCB.SIO1.MUT0": "acpi_board_LPCB_MUTEX",
+    "\\_SB.PC00.LPCB.SIO1.MUT0": "acpi_board_0LPC_MUTEX",
+    "\\_SB.PCI0.SBRG.SIO1.MUT0": "acpi_board_SBRG_MUTEX",
+}
+
+
 # mutex names from kernel source
 ASUS_EC_MUTEX = {
     "\\AMW0.ASMX": [
@@ -1034,7 +1043,9 @@ def print_boards(boards_flags):
             board_flags["asus_nct6775"] in ("P", "M") and
             board_flags["asus_nct6775_mutex"]
         ):
-            print (f'\t("{board_name}", "{board_flags["asus_nct6775_mutex"]}"),')
+            print (f'\tDMI_MATCH_ASUS_WMI_BOARD("{board_name}", '
+                   f'&{ASUS_NCT6775_MUTEX_CODENAME.get(board_flags["asus_nct6775_mutex"], "")}),'
+                   f'  // {board_flags["asus_nct6775_mutex"]}')
 
 
 if __name__ == "__main__":
