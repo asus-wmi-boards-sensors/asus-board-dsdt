@@ -32,6 +32,7 @@ EC_BOARDS = [
     "ROG STRIX X570-I GAMING",
     "ROG STRIX Z690-A GAMING WIFI D4",
     "ROG ZENITH II EXTREME",
+    "ROG ZENITH II EXTREME ALPHA",
 ]
 
 # Upstreamed wmi
@@ -111,6 +112,49 @@ NCT6775_BOARDS = [
     "TUF GAMING X570-PRO (WI-FI)",
     "TUF GAMING Z490-PLUS",
     "TUF GAMING Z490-PLUS (WI-FI)",
+    "EX-B660M-V5 PRO D4",
+    "PRIME B650-PLUS",
+    "PRIME B650M-A",
+    "PRIME B650M-A AX",
+    "PRIME B650M-A II",
+    "PRIME B650M-A WIFI",
+    "PRIME B650M-A WIFI II",
+    "PRIME B660M-A D4",
+    "PRIME B660M-A WIFI D4",
+    "PRIME X670-P",
+    "PRIME X670-P WIFI",
+    "PRIME X670E-PRO WIFI",
+    "Pro B660M-C-D4",
+    "ProArt B660-CREATOR D4",
+    "ProArt X670E-CREATOR WIFI",
+    "ROG CROSSHAIR X670E EXTREME",
+    "ROG CROSSHAIR X670E GENE",
+    "ROG CROSSHAIR X670E HERO",
+    "ROG MAXIMUS XIII EXTREME GLACIAL",
+    "ROG MAXIMUS Z690 EXTREME",
+    "ROG MAXIMUS Z690 EXTREME GLACIAL",
+    "ROG STRIX B650-A GAMING WIFI",
+    "ROG STRIX B650E-E GAMING WIFI",
+    "ROG STRIX B650E-F GAMING WIFI",
+    "ROG STRIX B650E-I GAMING WIFI",
+    "ROG STRIX B660-A GAMING WIFI D4",
+    "ROG STRIX B660-F GAMING WIFI",
+    "ROG STRIX B660-G GAMING WIFI",
+    "ROG STRIX B660-I GAMING WIFI",
+    "ROG STRIX X670E-A GAMING WIFI",
+    "ROG STRIX X670E-E GAMING WIFI",
+    "ROG STRIX X670E-F GAMING WIFI",
+    "ROG STRIX X670E-I GAMING WIFI",
+    "ROG STRIX Z590-A GAMING WIFI II",
+    "ROG STRIX Z690-A GAMING WIFI D4",
+    "TUF GAMING B650-PLUS",
+    "TUF GAMING B650-PLUS WIFI",
+    "TUF GAMING B650M-PLUS",
+    "TUF GAMING B650M-PLUS WIFI",
+    "TUF GAMING B660M-PLUS WIFI",
+    "TUF GAMING X670E-PLUS",
+    "TUF GAMING X670E-PLUS WIFI",
+    "TUF GAMING Z590-PLUS WIFI",
 ]
 
 # Upstreamed gigabyte
@@ -138,6 +182,7 @@ GIGABYTE_BOARDS = [
 
 # Upstreamed nct6775 series
 NCT6775_SERIES = [
+    "PRO H410",
     "ProArt B550",
     "ProArt X570",
     "ProArt Z490",
@@ -156,6 +201,25 @@ NCT6775_SERIES = [
     "TUF GAMING B550",
     "TUF GAMING X570",
     "TUF GAMING Z490",
+    "EX-B660",
+    "PRIME B650",
+    "PRIME B660",
+    "PRIME X670",
+    "Pro B660",
+    "ProArt B660",
+    "ProArt X670",
+    "ROG CROSSHAIR X670",
+    "ROG MAXIMUS XIII EXTREME",
+    "ROG MAXIMUS Z690",
+    "ROG STRIX B650",
+    "ROG STRIX B660",
+    "ROG STRIX X670",
+    "ROG STRIX Z590",
+    "ROG STRIX Z690",
+    "TUF GAMING B650",
+    "TUF GAMING B660",
+    "TUF GAMING X670",
+    "TUF GAMING Z590",
 ]
 
 # methods
@@ -189,6 +253,18 @@ BOARDNAME_CONVERT = {
     "PRIME B450M-GAMING BR SI": "PRIME B450M-GAMING/BR",
     "PRIME X670-P (WI-FI)": "PRIME X670-P WIFI",
     "EX-B660M-V5-PRO-D4-SI": "EX-B660M-V5 PRO D4",
+    "PRO WS W680-ACE-IPMI": "Pro WS W680-ACE IPMI",
+    "Z97-PRO-GAMER": "Z97-PRO GAMER",
+    "Z170I-PRO-GAMING": "Z170I PRO GAMING",
+    "Z170-PRO-GAMING-AURA": "Z170 PRO GAMING/AURA",
+    "Z170-PRO-GAMING": "Z170 PRO GAMING",
+    "H97-PRO-GAMER": "H97-PRO GAMER",
+    "B85-PRO-GAMER": "B85-PRO GAMER",
+    "B150-PRO-GAMING": "B150 PRO GAMING",
+    "B150-PRO-GAMING-D3": "B150 PRO GAMING D3",
+    "B150I-PRO-GAMING-AURA": "B150I PRO GAMING/AURA",
+    "B150I-PRO-GAMING-WIFI-AURA": "B150I PRO GAMING/WIFI/AURA",
+    "B150M-PRO-GAMING": "B150M PRO GAMING",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -417,7 +493,7 @@ def check_asl_290_custom_port(asl_struct):
 def check_asl_290_port(asl_struct):
     if not search_block_with_name_parameter(asl_struct, {
         "operator": "Name",
-        "parameters": "(IOHW, 0x0290)"
+        "parameters": "(IOHW, 0x0290)" # probes 0x2e and 0x4e
     }):
         return False
     for region_name in ["HWM", "SHWM", "HWRE"]:
@@ -951,7 +1027,7 @@ def print_boards(boards_flags):
                 print (f'\t\t"{board_name}",')
 
     print ("Boards with nct6775 with mutex:")
-    for board_name in boards_flags:
+    for board_name in sorted(boards_flags.keys()):
         board_flags = boards_flags[board_name]
 
         if (

@@ -53,8 +53,9 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B550M-C-SI-2804.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B660M-C-D4-ASUS-2014.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-H410T-SI-1623.ZIP \
-    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-X570-ACE-ASUS-4201.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-W680-ACE-ASUS-0203.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-W680-ACE-IPMI-ASUS-0203.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-X570-ACE-ASUS-4201.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VI-EXTREME-ASUS-8601.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VI-HERO-WIFI-AC-ASUS-8601.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VII-HERO-ASUS-4901.zip \
@@ -172,13 +173,30 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z590-PLUS-WIFI-ASUS-1601.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z270-MARK-1-ASUS-1501.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Z490-GUNDAM-WIFI-ASUS-2601.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/B85M-GAMER/B85M-GAMER-ASUS-0605.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/B85-PRO_GAMER/B85-PRO-GAMER-ASUS-2203.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/H81-GAMER/H81-GAMER-ASUS-0505.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/H97-PRO_GAMER/H97-PRO-GAMER-ASUS-2503.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/MAXIMUS-VII-HERO/MAXIMUS-VII-HERO-ASUS-3201.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/Z97-PRO_GAMER/Z97-PRO-GAMER-ASUS-2203.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B150I_PRO_GAMING_WIFI_AURA/B150I-PRO-GAMING-WIFI-AURA-ASUS-2606.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B150I_PRO_GAMING_AURA/B150I-PRO-GAMING-AURA-ASUS-2606.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B150M_PRO_GAMING/B150M-PRO-GAMING-ASUS-1006.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B150_PRO_GAMING_AURA/B150-PRO-GAMING-AURA-ASUS-3805.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B150_PRO_GAMING/B150-PRO-GAMING-ASUS-3805.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B150_PRO_GAMING_D3/B150-PRO-GAMING-D3-ASUS-2604.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/H170_PRO_GAMING/H170-PRO-GAMING-ASUS-3805.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/MAXIMUS_IX_APEX/MAXIMUS-IX-APEX-ASUS-1301.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/PRIME_Z270-A/PRIME-Z270-A-ASUS-1302.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/PRIME_Z270-K/PRIME-Z270-K-ASUS-1207.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170-DELUXE/Z170-DELUXE-ASUS-3801.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170I_PRO_GAMING/Z170I-PRO-GAMING-ASUS-3805.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170_PRO_GAMING_AURA/Z170-PRO-GAMING-AURA-ASUS-3805.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170-PRO-GAMING/Z170-PRO-GAMING-ASUS-3805.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/socket1151/Z270-WS/BIOS/Z270-WS-ASUS-0801.zip \
-    https://dlcdnets.asus.com/pub/ASUS/mb/Socket2011-R3/X99-E-10G_WS/BIOS/X99-E-10G-WS-ASUS-1201.zip
+    https://dlcdnets.asus.com/pub/ASUS/mb/Socket2011-R3/X99-E-10G_WS/BIOS/X99-E-10G-WS-ASUS-1201.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM3+/970_PRO_GAMING_AURA/970-PRO-GAMING-AURA-ASUS-1001.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/SocketFM2/A88X-GAMER/A88X-GAMER-ASUS-1603.zip
 do
     wget -cv $bios_file || exit
 done
