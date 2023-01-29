@@ -464,8 +464,11 @@ def find_asl_methods_mutex(asl_struct, methods, known_mutexes, count=1):
             "Method", f"({method}, {count}, Serialized)"
         )
         if method_content:
+            inline_mutex = get_asl_method_inline_mutexes(method_content)
             mutexes = get_asl_method_mutexes(method_content)
             for mutex_name in mutexes:
+                if mutex_name in inline_mutex:
+                    continue
                 if mutex_name in known_mutexes:
                     return mutex_name
     return False
@@ -481,8 +484,11 @@ def get_asl_nct6775_mutexes_in_block(asl_struct, region_name, known_mutexes):
             "operator": "Method"
         }, parent=False)
         for method in methods:
+            inline_mutex = get_asl_method_inline_mutexes(method)
             mutexes = get_asl_method_mutexes(method)
             for mutex_name in mutexes:
+                if mutex_name in inline_mutex:
+                    continue
                 if mutex_name in known_mutexes:
                     return mutex_name
     return None
@@ -607,6 +613,26 @@ def check_asl_methods_dispatcher(asl_struct, dispatcher, methods, convert=None):
     if not check_asl_method(asl_struct, methods):
         return False
     return True
+
+
+def get_asl_method_inline_mutexes(asl_struct):
+    mutexes = []
+    func_impl = asl_struct.get("content")
+    while func_impl:
+        start_mutex = func_impl.find("Mutex (")
+        if start_mutex == -1:
+            break
+        end_mutex = func_impl.find(",", start_mutex)
+        if end_mutex == -1:
+            break
+        mutex_name = func_impl[start_mutex + len("Mutex ("):end_mutex]
+        func_impl = func_impl[end_mutex:]
+        mutex_name = mutex_name.strip()
+        if mutex_name[0] != "\\":
+            mutex_name = "\\" + ".".join(asl_struct["path"] + [mutex_name])
+        if mutex_name not in mutexes:
+            mutexes.append(mutex_name)
+    return mutexes
 
 
 def get_asl_method_mutexes(asl_struct):
