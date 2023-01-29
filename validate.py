@@ -320,9 +320,10 @@ ASUS_NCT6775_MUTEX = {
 
 ASUS_NCT6775_MUTEX_CODENAME = {
     "\\_GPE.MUT0": "acpi_board_GPEM_MUTEX",
-    "\\_SB_.PCI0.LPCB.SIO1.MUT0": "acpi_board_LPCB_MUTEX",
-    "\\_SB.PC00.LPCB.SIO1.MUT0": "acpi_board_0LPC_MUTEX",
-    "\\_SB.PCI0.SBRG.SIO1.MUT0": "acpi_board_SBRG_MUTEX",
+    "\\_SB_.PCI0.LPCB.SIO1.MUT0": "acpi_board_PCI0_LPCB_MUTEX",
+    "\\_SB.PC00.LPCB.SIO1.MUT0": "acpi_board_PC00_LPCB_MUTEX",
+    "\\_SB.PCI0.SBRG.SIO1.MUT0": "acpi_board_PCI0_SBRG_MUTEX",
+    "\\_SB.PCI0.LPCB.SIO1.MUT0": "acpi_board_PCI0_LPCB_MUTEX",
 }
 
 
