@@ -1,3 +1,118 @@
+B150 PRO GAMING:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+B150 PRO GAMING D3:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+B150I PRO GAMING/AURA:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+B150I PRO GAMING/WIFI/AURA:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+B150M PRO GAMING:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 B450M DS3H-CF:
   asus_dispatcher: []
   asus_ec: N
@@ -163,7 +278,7 @@ B660I AORUS PRO DDR4:
   gigabyte_wmi: L
   known_good: []
   wmi_methods: []
-CROSSHAIR VI HERO:
+B85-PRO GAMER:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
@@ -172,18 +287,106 @@ CROSSHAIR VI HERO:
   asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
-  asus_wmi: L
+  asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
   known_good: []
   wmi_methods: []
-EX-B660M-V5 PRO D4:
+B85M-GAMER:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good: []
+  wmi_methods: []
+CROSSHAIR VI HERO:
+  asus_dispatcher:
+  - BREC
+  - GNAM
+  - GNUM
+  - GVER
+  - RHWM
+  - RSEN
+  - RSIO
+  - UPSB
+  - WHWM
+  - WSIO
+  asus_ec: U
+  asus_ec_mutex: \AMW0.ASMX
+  asus_ite87_mutex: \AMW0._GL
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHW
+  asus_wmi: Y
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+EX-B660M-V5 PRO D4:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+H81-GAMER:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good: []
+  wmi_methods: []
+H97-PRO GAMER:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
   asus_nct6775_mutex: ''
   asus_nct6775_region: ''
   asus_port290: []
@@ -198,91 +401,344 @@ MAXIMUS IX APEX:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: \_GPE.MUT0
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+MAXIMUS IX CODE:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+MAXIMUS IX EXTREME:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+MAXIMUS IX FORMULA:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+MAXIMUS IX HERO:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 MAXIMUS VII HERO:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: \_SB_.PCI0.LPCB.SIO1.MUT0
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 P8H67:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: \_SB_.PCI0.LPCB.SIO1.MUT0
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWRE
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 P8Z68-V LX:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: \_SB_.PCI0.LPCB.SIO1.MUT0
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWRE
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME A520M-A:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME A520M-A II:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME A520M-E:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME A520M-K:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME B360-PLUS:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME B450-PLUS:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
+  asus_nct6775: M
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME B450M-GAMING:
   asus_dispatcher: []
   asus_ec: N
@@ -298,216 +754,507 @@ PRIME B450M-GAMING:
   gigabyte_wmi: N
   known_good: []
   wmi_methods: []
-PRIME B460-PLUS:
-  asus_dispatcher: []
+PRIME B450M-GAMING II:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-PRIME B550-PLUS:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-PRIME B550M-A:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-PRIME B550M-A (WI-FI):
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-PRIME B650-PLUS:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-PRIME B650M-A:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-PRIME B650M-A AX:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-PRIME B650M-A II:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-PRIME B650M-A WIFI:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-PRIME B650M-A WIFI II:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-PRIME B660M-A D4:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-PRIME B660M-A WIFI D4:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-PRIME H410M-R:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-PRIME X370-PRO:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
+  asus_nct6775: M
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME B450M-GAMING/BR:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO3B
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME B460-PLUS:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME B550-PLUS:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME B550M-A:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME B550M-A (WI-FI):
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME B550M-A AC:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME B550M-A WIFI II:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME B550M-K:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME B650-PLUS:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME B650M-A:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME B650M-A AX:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME B650M-A II:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME B650M-A WIFI:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME B650M-A WIFI II:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME B660M-A D4:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME B660M-A WIFI D4:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME H410M-R:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME X370-PRO:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO3B
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME X399-A:
   asus_dispatcher: []
   asus_ec: N
@@ -524,110 +1271,193 @@ PRIME X399-A:
   known_good: []
   wmi_methods: []
 PRIME X470-PRO:
-  asus_dispatcher: []
-  asus_ec: L
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
+  asus_dispatcher:
+  - BREC
+  - GNAM
+  - GNUM
+  - GVER
+  - RHWM
+  - RSEN
+  - RSIO
+  - UPSB
+  - WHWM
+  - WSIO
+  asus_ec: Y
+  asus_ec_mutex: \AMW0.ASMX
+  asus_ite87_mutex: \AMW0._GL
+  asus_nct6775: M
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: L
-  asus_wmi_entrypoint: N
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHW
+  asus_wmi: Y
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME X570-P:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME X570-PRO:
-  asus_dispatcher: []
-  asus_ec: L
+  asus_dispatcher:
+  - BREC
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME X670-P:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME X670-P WIFI:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME X670E-PRO WIFI:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME Z270-A:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME Z370-A:
   asus_dispatcher: []
   asus_ec: N
@@ -644,185 +1474,448 @@ PRIME Z370-A:
   known_good: []
   wmi_methods: []
 PRO H410T:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+Pro A520M-C:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+Pro A520M-C II:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 Pro B550M-C:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 Pro B660M-C-D4:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+Pro WS W680-ACE:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+Pro WS W680-ACE IPMI:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: UK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 Pro WS X570-ACE:
-  asus_dispatcher: []
-  asus_ec: L
+  asus_dispatcher:
+  - BREC
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ProArt B550-CREATOR:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ProArt B660-CREATOR D4:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ProArt X570-CREATOR WIFI:
-  asus_dispatcher: []
-  asus_ec: L
+  asus_dispatcher:
+  - BREC
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ProArt B660-CREATOR D4:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ProArt X570-CREATOR WIFI:
+  asus_dispatcher:
+  - BREC
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: Y
+  asus_ec_mutex: \AMW0.ASMX
+  asus_ite87_mutex: ''
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ProArt X670E-CREATOR WIFI:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ProArt Z490-CREATOR 10G:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ProArt Z790-CREATOR WIFI:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
+  asus_nct6775: M
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO2B
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG CROSSHAIR VI EXTREME:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: L
-  asus_wmi_entrypoint: N
+  asus_dispatcher:
+  - BREC
+  - GNAM
+  - GNUM
+  - GVER
+  - RHWM
+  - RSEN
+  - RSIO
+  - UPSB
+  - WHWM
+  - WSIO
+  asus_ec: U
+  asus_ec_mutex: \AMW0.ASMX
+  asus_ite87_mutex: \AMW0._GL
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHW
+  asus_wmi: Y
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG CROSSHAIR VI HERO (WI-FI AC):
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: L
-  asus_wmi_entrypoint: N
+  asus_dispatcher:
+  - BREC
+  - GNAM
+  - GNUM
+  - GVER
+  - RHWM
+  - RSEN
+  - RSIO
+  - UPSB
+  - WHWM
+  - WSIO
+  asus_ec: U
+  asus_ec_mutex: \AMW0.ASMX
+  asus_ite87_mutex: \AMW0._GL
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHW
+  asus_wmi: Y
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG CROSSHAIR VI Hero:
   asus_dispatcher: []
   asus_ec: N
@@ -839,560 +1932,1119 @@ ROG CROSSHAIR VI Hero:
   known_good: []
   wmi_methods: []
 ROG CROSSHAIR VII HERO:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: L
-  asus_wmi_entrypoint: N
+  asus_dispatcher:
+  - BREC
+  - GNAM
+  - GNUM
+  - GVER
+  - RHWM
+  - RSEN
+  - RSIO
+  - UPSB
+  - WHWM
+  - WSIO
+  asus_ec: U
+  asus_ec_mutex: \AMW0.ASMX
+  asus_ite87_mutex: \AMW0._GL
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHW
+  asus_wmi: Y
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG CROSSHAIR VII HERO (WI-FI):
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: L
-  asus_wmi_entrypoint: N
+  asus_dispatcher:
+  - BREC
+  - GNAM
+  - GNUM
+  - GVER
+  - RHWM
+  - RSEN
+  - RSIO
+  - UPSB
+  - WHWM
+  - WSIO
+  asus_ec: U
+  asus_ec_mutex: \AMW0.ASMX
+  asus_ite87_mutex: \AMW0._GL
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHW
+  asus_wmi: Y
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG CROSSHAIR VIII DARK HERO:
-  asus_dispatcher: []
-  asus_ec: L
+  asus_dispatcher:
+  - BREC
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG CROSSHAIR VIII EXTREME:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
+  asus_dispatcher:
+  - BREC
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: U
+  asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG CROSSHAIR VIII FORMULA:
-  asus_dispatcher: []
-  asus_ec: L
+  asus_dispatcher:
+  - BREC
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG CROSSHAIR VIII HERO:
-  asus_dispatcher: []
-  asus_ec: L
+  asus_dispatcher:
+  - BREC
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG CROSSHAIR VIII HERO (WI-FI):
-  asus_dispatcher: []
-  asus_ec: L
+  asus_dispatcher:
+  - BREC
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG CROSSHAIR VIII IMPACT:
-  asus_dispatcher: []
-  asus_ec: L
+  asus_dispatcher:
+  - BREC
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG CROSSHAIR X670E EXTREME:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG CROSSHAIR X670E GENE:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG CROSSHAIR X670E HERO:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG MAXIMUS X HERO:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: \_SB_.PCI0.LPCB.SIO1.MUT0
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG MAXIMUS XI HERO:
-  asus_dispatcher: []
-  asus_ec: L
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N?
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG MAXIMUS XI HERO (WI-FI):
-  asus_dispatcher: []
-  asus_ec: L
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N?
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG MAXIMUS XIII EXTREME GLACIAL:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG MAXIMUS Z690 EXTREME:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG MAXIMUS Z690 EXTREME GLACIAL:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG MAXIMUS Z790 EXTREME:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX B350-F GAMING:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
+  asus_nct6775: M
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX B350-I GAMING:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO3B
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX B450-E GAMING:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - BREC
+  - GNAM
+  - GNUM
+  - GVER
+  - RHWM
+  - RSEN
+  - RSIO
+  - UPSB
+  - WHWM
+  - WSIO
+  asus_ec: U
+  asus_ec_mutex: \AMW0.ASMX
+  asus_ite87_mutex: \AMW0._GL
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHW
+  asus_wmi: Y
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX B450-F GAMING:
+  asus_dispatcher:
+  - BREC
+  - GNAM
+  - GNUM
+  - GVER
+  - RHWM
+  - RSEN
+  - RSIO
+  - UPSB
+  - WHWM
+  - WSIO
+  asus_ec: U
+  asus_ec_mutex: \AMW0.ASMX
+  asus_ite87_mutex: \AMW0._GL
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHW
+  asus_wmi: Y
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX B450-F GAMING II:
+  asus_dispatcher:
+  - BREC
+  - GNAM
+  - GNUM
+  - GVER
+  - RHWM
+  - RSEN
+  - RSIO
+  - UPSB
+  - WHWM
+  - WSIO
+  asus_ec: U
+  asus_ec_mutex: \AMW0.ASMX
+  asus_ite87_mutex: \AMW0._GL
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHW
+  asus_wmi: Y
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX B450-I GAMING:
+  asus_dispatcher:
+  - BREC
+  - GNAM
+  - GNUM
+  - GVER
+  - RHWM
+  - RSEN
+  - RSIO
+  - UPSB
+  - WHWM
+  - WSIO
+  asus_ec: U
+  asus_ec_mutex: \AMW0.ASMX
+  asus_ite87_mutex: \AMW0._GL
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHW
+  asus_wmi: Y
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX B550-A GAMING:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: L
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX B550-E GAMING:
+  asus_dispatcher:
+  - BREC
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: Y
+  asus_ec_mutex: \AMW0.ASMX
+  asus_ite87_mutex: ''
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX B550-F GAMING:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX B550-F GAMING (WI-FI):
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX B550-F GAMING WIFI II:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX B550-I GAMING:
+  asus_dispatcher:
+  - BREC
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: Y
+  asus_ec_mutex: \AMW0.ASMX
+  asus_ite87_mutex: ''
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX B550-XE GAMING (WI-FI):
+  asus_dispatcher:
+  - BREC
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: U
+  asus_ec_mutex: \AMW0.ASMX
+  asus_ite87_mutex: ''
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX B650-A GAMING WIFI:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ROG STRIX B450-F GAMING:
-  asus_dispatcher: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX B650E-E GAMING WIFI:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX B650E-F GAMING WIFI:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX B650E-I GAMING WIFI:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX B660-A GAMING WIFI D4:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX B660-F GAMING WIFI:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX B660-G GAMING WIFI:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX B660-I GAMING WIFI:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX X370-F GAMING:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: M
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: L
-  asus_wmi_entrypoint: N
+  asus_port290:
+  - IO3B
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ROG STRIX B450-F GAMING II:
-  asus_dispatcher: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG STRIX X370-I GAMING:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: L
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ROG STRIX B450-I GAMING:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: L
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ROG STRIX B550-A GAMING:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ROG STRIX B550-E GAMING:
-  asus_dispatcher: []
-  asus_ec: L
-  asus_ec_mutex: \AMW0.ASMX
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ROG STRIX B550-F GAMING:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ROG STRIX B550-F GAMING (WI-FI):
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ROG STRIX B550-F GAMING WIFI II:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ROG STRIX B550-I GAMING:
-  asus_dispatcher: []
-  asus_ec: L
-  asus_ec_mutex: \AMW0.ASMX
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ROG STRIX B550-XE GAMING (WI-FI):
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ROG STRIX B650-A GAMING WIFI:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ROG STRIX B650E-E GAMING WIFI:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ROG STRIX B650E-F GAMING WIFI:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ROG STRIX B650E-I GAMING WIFI:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ROG STRIX B660-A GAMING WIFI D4:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ROG STRIX B660-F GAMING WIFI:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ROG STRIX B660-G GAMING WIFI:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
-ROG STRIX B660-I GAMING WIFI:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
-  gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX X399-E GAMING:
   asus_dispatcher: []
   asus_ec: N
@@ -1409,365 +3061,653 @@ ROG STRIX X399-E GAMING:
   known_good: []
   wmi_methods: []
 ROG STRIX X470-F GAMING:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: L
-  asus_wmi_entrypoint: N
+  asus_dispatcher:
+  - BREC
+  - GNAM
+  - GNUM
+  - GVER
+  - RHWM
+  - RSEN
+  - RSIO
+  - UPSB
+  - WHWM
+  - WSIO
+  asus_ec: U
+  asus_ec_mutex: \AMW0.ASMX
+  asus_ite87_mutex: \AMW0._GL
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHW
+  asus_wmi: Y
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX X470-I GAMING:
-  asus_dispatcher: []
-  asus_ec: N
-  asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: L
-  asus_wmi_entrypoint: N
+  asus_dispatcher:
+  - BREC
+  - GNAM
+  - GNUM
+  - GVER
+  - RHWM
+  - RSEN
+  - RSIO
+  - UPSB
+  - WHWM
+  - WSIO
+  asus_ec: U
+  asus_ec_mutex: \AMW0.ASMX
+  asus_ite87_mutex: \AMW0._GL
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHW
+  asus_wmi: Y
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX X570-E GAMING:
-  asus_dispatcher: []
-  asus_ec: L
+  asus_dispatcher:
+  - BREC
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX X570-E GAMING WIFI II:
-  asus_dispatcher: []
-  asus_ec: L
+  asus_dispatcher:
+  - BREC
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX X570-F GAMING:
-  asus_dispatcher: []
-  asus_ec: L
+  asus_dispatcher:
+  - BREC
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX X570-I GAMING:
-  asus_dispatcher: []
-  asus_ec: L
+  asus_dispatcher:
+  - BREC
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX X670E-A GAMING WIFI:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX X670E-E GAMING WIFI:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX X670E-F GAMING WIFI:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX X670E-I GAMING WIFI:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX Z370-H GAMING:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: \_SB_.PCI0.LPCB.SIO1.MUT0
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX Z390-E GAMING:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX Z390-F GAMING:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX Z390-H GAMING:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX Z390-I GAMING:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX Z490-A GAMING:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX Z490-E GAMING:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX Z490-F GAMING:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX Z490-G GAMING:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX Z490-G GAMING (WI-FI):
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX Z490-H GAMING:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX Z490-I GAMING:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX Z590-A GAMING WIFI II:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX Z690-A GAMING WIFI D4:
-  asus_dispatcher: []
-  asus_ec: L
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N?
   asus_ec_mutex: \RMTW.ASMX
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG ZENITH EXTREME:
   asus_dispatcher: []
   asus_ec: N
@@ -1828,336 +3768,824 @@ ROG ZENITH II EXTREME ALPHA:
   gigabyte_wmi: N
   known_good: []
   wmi_methods: []
-TUF B450 PLUS GAMING:
+S206:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: LENOVO
+  gigabyte_wmi: N
+  known_good: []
+  wmi_methods: []
+STRIX-Z270E-GAMING:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+STRIX-Z270F-GAMING:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+STRIX-Z270G-GAMING:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+STRIX-Z270H-GAMING:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+TUF B450 PLUS GAMING:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: M
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+TUF GAMING A520M-PLUS:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+TUF GAMING A520M-PLUS II:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+TUF GAMING A520M-PLUS WIFI:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+TUF GAMING B450-PLUS II:
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO3B
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING B550-PLUS:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING B550-PLUS WIFI II:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING B550-PRO:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING B550M-E:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING B550M-E (WI-FI):
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING B550M-PLUS:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING B550M-PLUS (WI-FI):
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING B550M-PLUS WIFI II:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING B650-PLUS:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING B650-PLUS WIFI:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING B650M-PLUS:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING B650M-PLUS WIFI:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING B660M-PLUS WIFI:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING X570-PLUS:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING X570-PLUS (WI-FI):
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING X570-PRO (WI-FI):
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING X670E-PLUS:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING X670E-PLUS WIFI:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING Z490-PLUS:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING Z490-PLUS (WI-FI):
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING Z590-PLUS WIFI:
-  asus_dispatcher: []
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: YK
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - AsusMbSwInterface
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+TUF Z270 MARK 1:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 X570 AORUS ELITE:
   asus_dispatcher: []
   asus_ec: N
@@ -2170,9 +4598,13 @@ X570 AORUS ELITE:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: GIGABYTE
-  gigabyte_wmi: L
+  gigabyte_wmi: Y
   known_good: []
-  wmi_methods: []
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
 X570 AORUS ELITE WIFI:
   asus_dispatcher: []
   asus_ec: N
@@ -2185,9 +4617,13 @@ X570 AORUS ELITE WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: GIGABYTE
-  gigabyte_wmi: L
+  gigabyte_wmi: Y
   known_good: []
-  wmi_methods: []
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
 X570 GAMING X:
   asus_dispatcher: []
   asus_ec: N
@@ -2215,9 +4651,13 @@ X570 I AORUS PRO WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: GIGABYTE
-  gigabyte_wmi: L
+  gigabyte_wmi: Y
   known_good: []
-  wmi_methods: []
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
 X570 UD:
   asus_dispatcher: []
   asus_ec: N
@@ -2248,13 +4688,36 @@ X99-E WS/USB 3.1:
   gigabyte_wmi: N
   known_good: []
   wmi_methods: []
+Z170 PRO GAMING:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 Z170 PRO GAMING/AURA:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
   asus_nct6775: P
-  asus_nct6775_mutex: ''
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: HWM
   asus_port290:
   - IO3B
@@ -2276,31 +4739,93 @@ Z170-DELUXE:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: \_SB_.PCI0.LPCB.SIO1.MUT0
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+Z170I PRO GAMING:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 Z170M-PLUS:
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: L
-  asus_nct6775_mutex: \_SB_.PCI0.LPCB.SIO1.MUT0
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUS
   gigabyte_wmi: N
-  known_good: []
-  wmi_methods: []
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+Z270-WS:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 Z390 I AORUS PRO WIFI-CF:
   asus_dispatcher: []
   asus_ec: N
@@ -2331,6 +4856,33 @@ Z490 AORUS ELITE AC:
   gigabyte_wmi: L
   known_good: []
   wmi_methods: []
+Z490-GUNDAM (WI-FI):
+  asus_dispatcher:
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  gigabyte_wmi: N
+  known_good:
+  - ASUSWMI
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 Z690M AORUS ELITE AX DDR4:
   asus_dispatcher: []
   asus_ec: N
@@ -2343,6 +4895,25 @@ Z690M AORUS ELITE AX DDR4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: GIGABYTE
-  gigabyte_wmi: L
+  gigabyte_wmi: Y
+  known_good: []
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+Z97-PRO GAMER:
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUS
+  gigabyte_wmi: N
   known_good: []
   wmi_methods: []

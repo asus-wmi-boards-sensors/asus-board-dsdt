@@ -265,6 +265,9 @@ BOARDNAME_CONVERT = {
     "B150I-PRO-GAMING-AURA": "B150I PRO GAMING/AURA",
     "B150I-PRO-GAMING-WIFI-AURA": "B150I PRO GAMING/WIFI/AURA",
     "B150M-PRO-GAMING": "B150M PRO GAMING",
+    "TUF GAMING A520M-PLUS (WI-FI)": "TUF GAMING A520M-PLUS WIFI",
+    "PRO A520M-C-SI": "Pro A520M-C",
+    "PRO A520M-C-II-SI": "Pro A520M-C II",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -472,6 +475,23 @@ def find_asl_methods_mutex(asl_struct, methods, known_mutexes, count=1):
                     continue
                 if mutex_name in known_mutexes:
                     return mutex_name
+    return False
+
+
+# get possible mutexes and filter by possible know as useful
+def find_asl_mutex(asl_struct, known_mutexes):
+    mutexes = search_block_with_name_parameter(asl_struct, {
+        "operator": "Mutex"
+    }, parent=False)
+    for mutex_asl in mutexes:
+        param = mutex_asl['parameters']
+        if param[0] != "(":
+            continue
+        mutex_name = param[1:].split(",")[0].strip()
+        if mutex_name[0] != "\\" and mutex_asl["path"]:
+            mutex_name = "\\" + ".".join(mutex_asl["path"] + [mutex_name])
+        if mutex_name in known_mutexes:
+            return mutex_name
     return False
 
 
@@ -873,6 +893,17 @@ def update_board_asl_flags(board_flags, asl_struct):
                 # port is defined but no dispatch
                 board_flags["asus_nct6775"] = "P"
 
+    if (
+        not board_flags.get("asus_nct6775_mutex") and
+        board_flags.get("asus_nct6775") == "P"
+    ):
+        # board can use unknown method of define port
+        mutex_name = find_asl_mutex(asl_struct,
+                                    known_mutexes=ASUS_NCT6775_MUTEX)
+        if mutex_name:
+            print (f"\tNCT6775 partial mutex: {mutex_name}")
+            board_flags["asus_nct6775_mutex"] = mutex_name
+
 
 def fix_flags(boards_flags):
     for board_name in boards_flags:
@@ -1081,8 +1112,16 @@ if __name__ == "__main__":
     if len(sys.argv) > 1:
         current_dir = sys.argv[1]
 
+    count_files = 0
+    for dirname, _, filenames in os.walk(current_dir):
+        # print path to all filenames.
+        for filename in filenames:
+            if filename.endswith('.dsl'):
+                count_files += 1
+
     boards_flags = {}
 
+    processed_files = 0
     for dirname, _, filenames in os.walk(current_dir):
         # print path to all filenames.
         for filename in filenames:
@@ -1111,7 +1150,9 @@ if __name__ == "__main__":
                 else:
                     board_name = gen_asus_board_name(board_group)
 
+                processed_files += 1
                 print (f"Board: {board_name}")
+                print (f"Progress: {round(processed_files * 100 / count_files, 2)}%")
                 print (f"\tVersion: {board_version}")
                 print (f"\tRevision: {board_hash}")
                 print (f"\tProducer: {board_producer}")
@@ -1128,12 +1169,13 @@ if __name__ == "__main__":
                 content = cleanup_lines(content)
 
                 asl_struct = parse_asl(content)
-                # check dumps clenaup
-                with open(f"{dirname}/{file_parts[0]}.{file_parts[1]}.json", "bw") as f:
-                    f.write(json.dumps(
-                            asl_struct, indent=4
-                        ).encode("utf8")
-                    )
+                if os.environ.get("DEBUG"):
+                    # check dumps clenaup
+                    with open(f"{dirname}/{file_parts[0]}.{file_parts[1]}.json", "bw") as f:
+                        f.write(json.dumps(
+                                asl_struct, indent=4
+                            ).encode("utf8")
+                        )
                 # create flags struct
                 if board_name not in boards_flags:
                     boards_flags[board_name] = {

@@ -8,6 +8,10 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/CROSSHAIR-VI-HERO-ASUS-8601.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B660M-V5-PRO-D4-SI-2015.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/MAXIMUS-IX-EXTREME-ASUS-1501.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A520M-A-ASUS-3001.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A520M-A-II-ASUS-3001.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A520M-E-ASUS-3001.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A520M-K-ASUS-2814.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B360-PLUS-ASUS-3101.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450M-GAMING-BR-SI-3804.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450M-GAMING-II-ASUS-3802.zip \
@@ -42,6 +46,8 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z270-P-ASUS-2001.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z370-A-ASUS-3004.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z370-A-II-ASUS-3004.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-A520M-C-II-SI-3001.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-A520M-C-SI-3001.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ProArt-B550-CREATOR-ASUS-2803.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ProArt-B660-CREATOR-D4-ASUS-2103.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PROART-X570-CREATOR-WIFI-ASUS-0801.zip \
@@ -149,6 +155,9 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-Z270H-GAMING-ASUS-1501.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-Z270I-GAMING-ASUS-2001.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B450-PLUS-GAMING-ASUS-3802.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-A520M-PLUS-ASUS-3001.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-A520M-PLUS-II-ASUS-3001.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-A520M-PLUS-WIFI-ASUS-3001.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B450-PLUS-II-ASUS-3802.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550M-E-ASUS-2803.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550M-E-WIFI-ASUS-2803.zip \
@@ -179,8 +188,8 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/H97-PRO_GAMER/H97-PRO-GAMER-ASUS-2503.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/MAXIMUS-VII-HERO/MAXIMUS-VII-HERO-ASUS-3201.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/Z97-PRO_GAMER/Z97-PRO-GAMER-ASUS-2203.zip \
-    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B150I_PRO_GAMING_WIFI_AURA/B150I-PRO-GAMING-WIFI-AURA-ASUS-2606.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B150I_PRO_GAMING_AURA/B150I-PRO-GAMING-AURA-ASUS-2606.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B150I_PRO_GAMING_WIFI_AURA/B150I-PRO-GAMING-WIFI-AURA-ASUS-2606.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B150M_PRO_GAMING/B150M-PRO-GAMING-ASUS-1006.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B150_PRO_GAMING_AURA/B150-PRO-GAMING-AURA-ASUS-3805.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B150_PRO_GAMING/B150-PRO-GAMING-ASUS-3805.zip \
