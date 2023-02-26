@@ -4,6 +4,7 @@ import os
 import json
 import yaml
 import time
+import hashlib
 from asl_parser import (
     parse_asl, cleanup_lines, asl_has_operator_with_params,
     search_block_with_name_parameter, asl_get_operator_with_params,
@@ -57,6 +58,7 @@ WMI_BOARDS = [
 
 # Upstreamed nct6775
 NCT6775_BOARDS = [
+    # B550 style
     "PRO H410T",
     "ProArt B550-CREATOR",
     "ProArt X570-CREATOR WIFI",
@@ -112,6 +114,7 @@ NCT6775_BOARDS = [
     "TUF GAMING X570-PRO (WI-FI)",
     "TUF GAMING Z490-PLUS",
     "TUF GAMING Z490-PLUS (WI-FI)",
+    # B650 style
     "EX-B660M-V5 PRO D4",
     "PRIME B650-PLUS",
     "PRIME B650M-A",
@@ -268,6 +271,13 @@ BOARDNAME_CONVERT = {
     "TUF GAMING A520M-PLUS (WI-FI)": "TUF GAMING A520M-PLUS WIFI",
     "PRO A520M-C-SI": "Pro A520M-C",
     "PRO A520M-C-II-SI": "Pro A520M-C II",
+    "PROART B760-CREATOR-D4": "ProArt B760-CREATOR D4",
+    "PRO A320M-R-WIFI-SI": "PRO A320M-R WI-FI",
+    "PRIME A320M-F SI": "PRIME A320M-F",
+    "EX-A320M-GAMING-SI": "EX-A320M-GAMING",
+    "PRIME A320M-C R2 SI": "PRIME A320M-C R2.0",
+    "EX-B660M-V5-D4-SI": "EX-B660M-V5 D4",
+    "PRO B660M-C-SI": "Pro B660M-C",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -946,14 +956,6 @@ def fix_flags(boards_flags):
         ):
             board_flags["asus_nct6775"] = "M"
 
-        # we need nextgen for support
-        if (
-            board_flags["known_good"] and
-            board_flags["asus_nct6775"] in ("U", "Y") and
-            board_flags["asus_wmi_entrypoint"] == "N"
-        ):
-            board_flags["asus_nct6775"] += "K"
-
         # set known io mutex name
         if not board_flags["asus_nct6775_mutex"]:
             for mutex_name in ASUS_NCT6775_MUTEX:
@@ -1032,7 +1034,7 @@ def print_boards(boards_flags):
 
         if (
             board_flags["known_good"] and
-            board_flags["asus_nct6775"] in ("M", "U", "Y", "UK", "YK")
+            board_flags["asus_nct6775"] in ("M", "U", "Y")
         ):
             # nextgen patch required
             for name in board_flags["known_good"]:
@@ -1121,6 +1123,24 @@ if __name__ == "__main__":
 
     boards_flags = {}
 
+    try:
+        with open("boards.yaml", "rb") as f:
+            boards_flags.update(yaml.load(f.read().decode("utf8"), yaml.Loader))
+        print (f"Loaded {len(boards_flags.keys())} boards.")
+    except Exception as ex:
+        print (f"Could not read boards.yaml: {ex}")
+
+    # remove boards with old name
+    for board_name in BOARDNAME_CONVERT:
+        if board_name in boards_flags:
+            del boards_flags[board_name]
+
+    try:
+        with open("methods.json", "rb") as f:
+            method_dumps.update(json.loads(f.read().decode("utf8")))
+    except Exception as ex:
+        print (f"Could not read methods.json: {ex}")
+
     processed_files = 0
     for dirname, _, filenames in os.walk(current_dir):
         # print path to all filenames.
@@ -1166,6 +1186,26 @@ if __name__ == "__main__":
 
                 start_time = time.time()
                 print (f"\tInitial size: {len(content)}")
+                # create flags struct
+                if board_name not in boards_flags:
+                    boards_flags[board_name] = {
+                        "board_producer": board_producer,
+                    }
+                    set_default_flags(board_name, boards_flags[board_name])
+                board_flags = boards_flags[board_name]
+
+                content_hash = hashlib.md5(content.encode('utf-8')).hexdigest()
+                print (f"\tmd5: {content_hash}")
+
+                if "hash" not in board_flags:
+                    board_flags["hash"] = []
+
+                if content_hash in board_flags["hash"]:
+                    continue
+
+                board_flags["hash"].append(content_hash)
+
+                # content cleanup and convert
                 content = cleanup_lines(content)
 
                 asl_struct = parse_asl(content)
@@ -1176,22 +1216,18 @@ if __name__ == "__main__":
                                 asl_struct, indent=4
                             ).encode("utf8")
                         )
-                # create flags struct
-                if board_name not in boards_flags:
-                    boards_flags[board_name] = {
-                        "board_producer": board_producer,
-                    }
-                    set_default_flags(board_name, boards_flags[board_name])
-                board_flags = boards_flags[board_name]
 
                 update_board_asl_flags(board_flags, asl_struct)
 
                 print (f"\tProcess time: {round(time.time() - start_time, 3)}")
 
-    add_load_flags(boards_flags)
-    fix_flags(boards_flags)
-    print_boards(boards_flags)
+    # save current state
     with open("boards.yaml", "wb") as f:
         f.write(yaml.dump(boards_flags).encode("utf8"))
     with open("methods.json", "wb") as f:
         f.write(json.dumps(method_dumps, indent=4).encode("utf8"))
+    # show results
+    add_load_flags(boards_flags)
+    fix_flags(boards_flags)
+    print (f"Boards: {len(boards_flags.keys())}")
+    print_boards(boards_flags)
