@@ -9,6 +9,7 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-A320M-GAMING-SI-6061.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B660M-V5-D4-SI-2214.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B660M-V5-PRO-D4-SI-2015.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B760M-V5-D4-SI-0808.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/MAXIMUS-IX-EXTREME-ASUS-1501.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320I-K-ASUS-6061.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-A-ASUS-6061.zip \
@@ -20,6 +21,10 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A520M-A-II-ASUS-3001.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A520M-E-ASUS-3001.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A520M-K-ASUS-2814.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B350M-A-ASUS-6061.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B350M-E-ASUS-6061.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B350M-K-ASUS-6061.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B350-PLUS-ASUS-6061.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B360-PLUS-ASUS-3101.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450M-GAMING-BR-SI-3804.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450M-GAMING-II-ASUS-3802.zip \
@@ -42,6 +47,13 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B650-PLUS-ASUS-0823.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B660M-A-D4-ASUS-2014.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B660M-A-WIFI-D4-ASUS-2014.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-A-AX-D4-ASUS-0405.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-A-D4-ASUS-0405.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-A-D4-ASUS-0807.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-AJ-D4-ASUS-0807.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-A-WIFI-D4-ASUS-0807.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-K-D4-ASUS-0807.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760-PLUS-D4-ASUS-0807.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-R-ASUS-1620.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X370-PRO-ASUS-6042.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X399-A-ASUS-1206.ZIP \
@@ -55,6 +67,11 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z270-P-ASUS-2001.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z370-A-ASUS-3004.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z370-A-II-ASUS-3004.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z590-A-ASUS-1701.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z590M-PLUS-ASUS-1801.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z590-P-ASUS-1801.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z590-P-WIFI-ASUS-1801.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z590-V-ASUS-1801.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-A320M-R-WIFI-SI-6061.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-A520M-C-II-SI-3001.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-A520M-C-SI-3001.zip \
@@ -71,6 +88,8 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B550M-C-SI-2804.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B660M-C-D4-ASUS-2014.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B660M-C-SI-2212.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B760M-C-SI-0405.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B760M-CT-SI-0402.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-H410T-SI-1623.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-W680-ACE-ASUS-0203.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-W680-ACE-IPMI-ASUS-0203.zip \
@@ -94,12 +113,18 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-X-HERO-ASUS-2701.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XI-HERO-ASUS-2004.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XI-HERO-WIFI-ASUS-2004.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XIII-APEX-ASUS-1701.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XIII-EXTREME-ASUS-1701.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XIII-EXTREME-GLACIAL-ASUS-1402.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XIII-EXTREME-GLACIAL-ASUS-1701.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XIII-HERO-ASUS-1701.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-Z690-EXTREME-ASUS-2103.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-Z690-EXTREME-GLACIAL-ASUS-2103.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-Z790-EXTREME-ASUS-0703.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B350-F-GAMING-ASUS-5606.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B350-F-GAMING-ASUS-6061.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B350-I-GAMING-ASUS-5606.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B350-I-GAMING-ASUS-6061.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-E-GAMING-ASUS-4602.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-F-GAMING-ASUS-4602.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-F-GAMING-II-ASUS-4602.ZIP \
@@ -123,6 +148,10 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B660-F-GAMING-WIFI-ASUS-2012.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B660-G-GAMING-WIFI-ASUS-2012.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B660-I-GAMING-WIFI-ASUS-2012.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B760-A-GAMING-WIFI-D4-ASUS-0807.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B760-F-GAMING-WIFI-ASUS-0811.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B760-G-GAMING-WIFI-D4-ASUS-0808.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B760-I-GAMING-WIFI-ASUS-0808.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-TRX40-E-GAMING-ASUS-1502.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-TRX40-XE-GAMING-ASUS-1502.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X370-F-GAMING-ASUS-5606.ZIP \
@@ -158,7 +187,12 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z490-G-GAMING-WIFI-ASUS-2403.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z490-H-GAMING-ASUS-2403.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z490-I-GAMING-ASUS-2403.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z590-A-GAMING-WIFI-ASUS-1701.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z590-A-GAMING-WIFI-II-ASUS-1402.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z590-A-GAMING-WIFI-II-ASUS-1701.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z590-E-GAMING-WIFI-ASUS-1701.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z590-F-GAMING-WIFI-ASUS-1701.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z590-I-GAMING-WIFI-ASUS-1701.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-ZENITH-EXTREME-ALPHA-ASUS-2202.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-ZENITH-EXTREME-ASUS-2201.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-ZENITH-II-EXTREME-ALPHA-ASUS-1603.ZIP \
@@ -168,6 +202,7 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-Z270G-GAMING-ASUS-1501.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-Z270H-GAMING-ASUS-1501.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-Z270I-GAMING-ASUS-2001.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B350M-PLUS-GAMING-ASUS-6061.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B450-PLUS-GAMING-ASUS-3802.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-A520M-PLUS-ASUS-3001.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-A520M-PLUS-II-ASUS-3001.zip \
@@ -188,6 +223,9 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B660M-E-D4-ASUS-2212.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B660M-PLUS-WIFI-ASUS-2012.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B660-PLUS-WIFI-D4-ASUS-2212.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760M-PLUS-D4-ASUS-0807.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760M-PLUS-WIFI-D4-ASUS-0807.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760-PLUS-WIFI-D4-ASUS-0808.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-X570-PLUS-ASUS-4021.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-X570-PLUS-WIFI-ASUS-4403.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-X570-PRO-WIFI-SI-4403.zip \
@@ -195,9 +233,12 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-X670E-PLUS-WIFI-ASUS-0821.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z490-PLUS-ASUS-2601.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z490-PLUS-WIFI-ASUS-2602.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z590-PLUS-ASUS-1801.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z590-PLUS-WIFI-ASUS-1601.zip \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z590-PLUS-WIFI-ASUS-1801.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z270-MARK-1-ASUS-1501.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Z490-GUNDAM-WIFI-ASUS-2601.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Z590-WIFI-GUNDAM-EDITION-ASUS-1801.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/B85M-GAMER/B85M-GAMER-ASUS-0605.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/B85-PRO_GAMER/B85-PRO-GAMER-ASUS-2203.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/H81-GAMER/H81-GAMER-ASUS-0505.zip \

@@ -240,8 +240,6 @@ WMI_METHODS_CONVERT = {
 
 # Bios dump has diffrent name to board name
 BOARDNAME_CONVERT = {
-    "PRO B550M-C-SI": "Pro B550M-C",
-    "PRO H410T-SI": "PRO H410T",
     "PROART Z790-CREATOR-WIFI": "ProArt Z790-CREATOR WIFI",
     "PROART Z690-CREATOR-WIFI": "ProArt Z690-CREATOR WIFI",
     "PROART B660-CREATOR-D4": "ProArt B660-CREATOR D4",
@@ -251,11 +249,10 @@ BOARDNAME_CONVERT = {
     "PROART Z490-CREATOR-10G": "ProArt Z490-CREATOR 10G",
     "ROG CROSSHAIR VI HERO WIFI AC": "ROG CROSSHAIR VI HERO (WI-FI AC)",
     "Z490-GUNDAM-WIFI": "Z490-GUNDAM (WI-FI)",
-    "TUF GAMING Z590-PLUS (WI-FI)": "TUF GAMING Z590-PLUS WIFI",
     "TUF GAMING X570-PRO WIFI SI": "TUF GAMING X570-PRO (WI-FI)",
     "PRIME B450M-GAMING BR SI": "PRIME B450M-GAMING/BR",
     "PRIME X670-P (WI-FI)": "PRIME X670-P WIFI",
-    "EX-B660M-V5-PRO-D4-SI": "EX-B660M-V5 PRO D4",
+    "EX-B660M-V5-PRO-D4": "EX-B660M-V5 PRO D4",
     "PRO WS W680-ACE-IPMI": "Pro WS W680-ACE IPMI",
     "Z97-PRO-GAMER": "Z97-PRO GAMER",
     "Z170I-PRO-GAMING": "Z170I PRO GAMING",
@@ -269,15 +266,15 @@ BOARDNAME_CONVERT = {
     "B150I-PRO-GAMING-WIFI-AURA": "B150I PRO GAMING/WIFI/AURA",
     "B150M-PRO-GAMING": "B150M PRO GAMING",
     "TUF GAMING A520M-PLUS (WI-FI)": "TUF GAMING A520M-PLUS WIFI",
-    "PRO A520M-C-SI": "Pro A520M-C",
-    "PRO A520M-C-II-SI": "Pro A520M-C II",
+    "PRO A520M-C-II": "Pro A520M-C II",
     "PROART B760-CREATOR-D4": "ProArt B760-CREATOR D4",
-    "PRO A320M-R-WIFI-SI": "PRO A320M-R WI-FI",
-    "PRIME A320M-F SI": "PRIME A320M-F",
-    "EX-A320M-GAMING-SI": "EX-A320M-GAMING",
-    "PRIME A320M-C R2 SI": "PRIME A320M-C R2.0",
-    "EX-B660M-V5-D4-SI": "EX-B660M-V5 D4",
-    "PRO B660M-C-SI": "Pro B660M-C",
+    "PRO A320M-R-WIFI": "PRO A320M-R WI-FI",
+    "PRIME A320M-C R2": "PRIME A320M-C R2.0",
+    "EX-B660M-V5-D4": "EX-B660M-V5 D4",
+    "Z590-WIFI-GUNDAM-EDITION": "Z590 WIFI GUNDAM EDITION",
+    "EX-B760M-V5-D4": "EX-B760M-V5 D4",
+    "TUF B350M PLUS GAMING": "TUF B350M-PLUS GAMING",
+    "TUF B450 PLUS GAMING": "TUF B450-PLUS GAMING",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -323,20 +320,23 @@ ASUS_NCT6775_MUTEX = {
         "ROG STRIX X399-E GAMING", # "ASUSTeK COMPUTER INC."
         "ROG STRIX B350-F GAMING", # "ASUSTeK COMPUTER INC."
         "ROG STRIX B450-F GAMING", # "ASUSTeK COMPUTER INC."
-        "TUF B450 PLUS GAMING", # "ASUSTeK COMPUTER INC."
+        "TUF B450-PLUS GAMING", # "ASUSTeK COMPUTER INC."
     ],
     "\\_GPE.MUT0": [
         "MAXIMUS IX APEX", # "ASUSTeK COMPUTER INC." Need to recheck
     ],
 }
 
+ASUS_LOWCASE_BOARDNAME = [
+    "P8Z68-V LX",
+]
 
 ASUS_NCT6775_MUTEX_CODENAME = {
     "\\_GPE.MUT0": "acpi_board_GPEM_MUTEX",
-    "\\_SB_.PCI0.LPCB.SIO1.MUT0": "acpi_board_PCI0_LPCB_MUTEX",
-    "\\_SB.PC00.LPCB.SIO1.MUT0": "acpi_board_PC00_LPCB_MUTEX",
-    "\\_SB.PCI0.SBRG.SIO1.MUT0": "acpi_board_PCI0_SBRG_MUTEX",
-    "\\_SB.PCI0.LPCB.SIO1.MUT0": "acpi_board_PCI0_LPCB_MUTEX",
+    "\\_SB_.PCI0.LPCB.SIO1.MUT0": "acpi_board_LPCB_MUTEX",
+    "\\_SB.PC00.LPCB.SIO1.MUT0": "acpi_board_0LPC_MUTEX",
+    "\\_SB.PCI0.LPCB.SIO1.MUT0": "acpi_board_ILPC_MUTEX",
+    "\\_SB.PCI0.SBRG.SIO1.MUT0": "acpi_board_SBRG_MUTEX",
 }
 
 
@@ -373,12 +373,18 @@ ASUS_KNOWN_UIDS = {
     "AsusMbSwInterface": "B650 style board",
 }
 
+ASUS_WIFI_NO_CONVERT = ["B650", "B660", "B760", "X670", "Z590"]
+
 
 def gen_asus_board_name(board_group):
+    # remove SI at the end of name
+    if board_group[-1].upper() == "SI":
+        board_group = board_group[:-1]
+
     if board_group[0] == "ROG" and board_group[1] == "STRIX":
         # fix WIFI name
         if board_group[-1].upper() == "WIFI":
-            for chipset in ["B650", "B660", "X670"]:
+            for chipset in ASUS_WIFI_NO_CONVERT:
                 if board_group[2].startswith(chipset):
                     break
             else:
@@ -397,7 +403,7 @@ def gen_asus_board_name(board_group):
     elif board_group[0] == "TUF" and board_group[1] == "GAMING":
         # fix WIFI name
         if board_group[-1].upper() == "WIFI":
-            for chipset in ["B650", "B660", "X670"]:
+            for chipset in ASUS_WIFI_NO_CONVERT:
                 if board_group[2].startswith(chipset):
                     break
             else:
@@ -416,7 +422,7 @@ def gen_asus_board_name(board_group):
     elif board_group[0].upper() in ("PRIME"):
         # fix WIFI name
         if board_group[-1].upper() == "WIFI":
-            for chipset in ["B650", "B660", "X670"]:
+            for chipset in ASUS_WIFI_NO_CONVERT:
                 if board_group[1].startswith(chipset):
                     break
             else:
@@ -1103,9 +1109,12 @@ def print_boards(boards_flags):
             board_flags["asus_nct6775"] in ("P", "M") and
             board_flags["asus_nct6775_mutex"]
         ):
-            print (f'\tDMI_MATCH_ASUS_WMI_BOARD("{board_name}", '
-                   f'&{ASUS_NCT6775_MUTEX_CODENAME.get(board_flags["asus_nct6775_mutex"], "")}),'
-                   f'  // {board_flags["asus_nct6775_mutex"]}')
+            if board_name in ASUS_LOWCASE_BOARDNAME:
+                print (f'\tDMI_MATCH_ASUS_NONWMI_BOARD("{board_name}", '
+                       f'&{ASUS_NCT6775_MUTEX_CODENAME.get(board_flags["asus_nct6775_mutex"], "")}),')
+            else:
+                print (f'\tDMI_MATCH_ASUS_WMI_BOARD("{board_name}", '
+                       f'&{ASUS_NCT6775_MUTEX_CODENAME.get(board_flags["asus_nct6775_mutex"], "")}),')
 
 
 if __name__ == "__main__":
