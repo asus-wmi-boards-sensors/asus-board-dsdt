@@ -81,7 +81,6 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | PRIME B360-PLUS                  | N                             | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B450-PLUS                  | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B450M-GAMING               | N                             | N            | L (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
-| ASUS     | PRIME B450M-GAMING BR            | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B450M-GAMING II            | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B450M-GAMING/BR            | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B460-PLUS                  | N                             | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
