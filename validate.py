@@ -127,6 +127,9 @@ NCT6775_BOARDS = [
     "PRIME X670-P",
     "PRIME X670-P WIFI",
     "PRIME X670E-PRO WIFI",
+    "PRIME Z590-A",
+    "PRIME Z590-P",
+    "PRIME Z590M-PLUS",
     "Pro B660M-C-D4",
     "ProArt B660-CREATOR D4",
     "ProArt X670E-CREATOR WIFI",
@@ -183,36 +186,83 @@ GIGABYTE_BOARDS = [
     "Z690M AORUS ELITE AX DDR4",
 ]
 
+
+# Mutex required nct6775 series
+CHIP_SERIES = {
+    "MAXIMUS VII ": "NCT6791D", # MAXIMUS VII HERO
+    "P8H67": "NCT6776D/F", # P8H67
+    "P8Z68": "NCT6776D/F", # P8Z68-V LX
+    "PRIME B450": "IT8665E", # PRIME B450-PLUS
+    "PRIME B460": "NCT6798D", # PRIME B460-PLUS
+    "PRIME B550": "NCT6798D", # PRIME B550M-A (WI-FI)
+    "Prime H310": "NCT6796D", # Prime H310I-Plus
+    "PRIME H410": "NCT6798D", # PRIME H410M-R
+    "PRIME X470": "IT8665E", # PRIME X470-PRO
+    "PRIME X570": "NCT6798D", # PRIME X570-P
+    "PRIME Z590": "NCT6798D", # Z590M-PLUS
+    "ProArt X670": "NCT6799D", # ProArt X670E-CREATOR WIFI
+    "PRO H410": "NCT6798D", # PRO H410T
+    "Pro WS W680": "NCT6798D", # Pro WS W680-ACE
+    "ROG CROSSHAIR VIII ": "NCT6798D", # ROG CROSSHAIR VIII FORMULA
+                                       # ROG CROSSHAIR VIII DARK HERO
+                                       # ROG CROSSHAIR VIII HERO (WI-FI)
+    "ROG STRIX B450": "IT8665E", # ROG STRIX B450-F GAMING
+    "ROG STRIX B550": "NCT6798D", # ROG STRIX B550-F GAMING (WI-FI)
+    "ROG STRIX B660": "NCT6798D", # ROG STRIX B660-I GAMING WIFI
+    "ROG STRIX X570": "NCT6798D", # ROG STRIX X570-E GAMING WIFI II
+                                  # ROG STRIX X570-I GAMING
+                                  # ROG STRIX X570-F GAMING
+    "ROG STRIX X670": "NCT6799D", # ROG STRIX X670E-I GAMING WIFI
+    "ROG STRIX Z390": "NCT6798D", # ROG STRIX Z390-F GAMING
+    "ROG STRIX Z390": "NCT6798D", # ROG STRIX Z390-F GAMING
+                                  # TUF Z390M-PRO GAMING
+    "ROG STRIX Z490": "NCT6798D", # ROG STRIX Z490-I
+    "TUF B450": "IT8665E", # TUF B450-PLUS GAMING
+    "TUF GAMING B550": "NCT6798D", # TUF GAMING B550-PLUS
+    "TUF GAMING Z490": "NCT6798D", # TUF GAMING Z490-PLUS (WI-FI)
+    "TUF X470": "IT8665E", # TUF X470-PLUS GAMING
+    "X99": "NCT6791D", # X99-E WS/USB 3.1
+    "Z170": "NCT6793D", # Z170 PRO GAMING/AURA
+                        # Z170-DELUXE
+                        # Z170-WS
+}
+
 # Upstreamed nct6775 series
-NCT6775_SERIES = [
+NCT6775_SERIES = {
+    # B550 style
     "PRO H410",
     "ProArt B550",
     "ProArt X570",
     "ProArt Z490",
+    "Pro A520",
     "Pro B550",
     "Pro WS X570",
+    "PRIME A520",
     "PRIME B360",
     "PRIME B460",
     "PRIME B550",
     "PRIME H410",
     "PRIME X570",
-    "ROG CROSSHAIR VIII",
+    "ROG CROSSHAIR VIII ",
     "ROG STRIX B550",
     "ROG STRIX X570",
     "ROG STRIX Z390",
     "ROG STRIX Z490",
+    "TUF GAMING A520",
     "TUF GAMING B550",
     "TUF GAMING X570",
     "TUF GAMING Z490",
+    # B650 style
     "EX-B660",
     "PRIME B650",
     "PRIME B660",
     "PRIME X670",
+    "PRIME Z590",
     "Pro B660",
     "ProArt B660",
     "ProArt X670",
     "ROG CROSSHAIR X670",
-    "ROG MAXIMUS XIII EXTREME",
+    "ROG MAXIMUS XIII ",
     "ROG MAXIMUS Z690",
     "ROG STRIX B650",
     "ROG STRIX B660",
@@ -223,7 +273,7 @@ NCT6775_SERIES = [
     "TUF GAMING B660",
     "TUF GAMING X670",
     "TUF GAMING Z590",
-]
+}
 
 # methods
 EC_METHODS = ["BREC"]
@@ -265,6 +315,7 @@ BOARDNAME_CONVERT = {
     "B150I-PRO-GAMING-WIFI-AURA": "B150I PRO GAMING/WIFI/AURA",
     "B150M-PRO-GAMING": "B150M PRO GAMING",
     "TUF GAMING A520M-PLUS (WI-FI)": "TUF GAMING A520M-PLUS WIFI",
+    "PRO A520M-C": "Pro A520M-C",
     "PRO A520M-C-II": "Pro A520M-C II",
     "PROART B760-CREATOR-D4": "ProArt B760-CREATOR D4",
     "PRO A320M-R-WIFI": "PRO A320M-R WI-FI",
@@ -366,6 +417,9 @@ ASUS_EC_MUTEX = {
         "ROG ZENITH II EXTREME", # "ASUSTeK COMPUTER INC."
     ]
 }
+
+# Statuses for correctly detected board
+BOARD_CORRECTLY_DETECTED = ("U", "Y", "L")
 
 ASUS_KNOWN_UIDS = {
     "ASUSWMI": "B550 style board",
@@ -691,22 +745,23 @@ def get_asl_method_mutexes(asl_struct):
     return mutexes
 
 
-def set_default_flags(board_name, board_flags):
-    board_flags.update({
-        "asus_wmi": "N",
-        "asus_ec": "N",
-        "asus_wmi_entrypoint": "N",
-        "asus_nct6775": "N",
-        "asus_nct6775_region": "",
-        "asus_port290": [],
-        "asus_dispatcher": [],
-        "gigabyte_wmi": "N",
-        "asus_ite87_mutex": "",
-        "asus_nct6775_mutex": "",
-        "asus_ec_mutex": "",
-        "wmi_methods": [],
-        "known_good": []
-    })
+DEFAULT_FLAGS = {
+    "asus_wmi": "N",
+    "asus_ec": "N",
+    "asus_wmi_entrypoint": "N",
+    "asus_nct6775": "N",
+    "asus_nct6775_region": "",
+    "asus_port290": [],
+    "asus_dispatcher": [],
+    "gigabyte_wmi": "N",
+    "asus_ite87_mutex": "",
+    "asus_nct6775_mutex": "",
+    "upstreamed_serie": False,
+    "superio": "",
+    "asus_ec_mutex": "",
+    "wmi_methods": [],
+    "known_good": []
+}
 
 
 def update_board_asl_flags(board_flags, asl_struct):
@@ -926,25 +981,25 @@ def fix_flags(boards_flags):
 
         # check for errors in detect
         if (
-            board_flags["gigabyte_wmi"] not in ("Y", "L") and
+            board_flags["gigabyte_wmi"] not in BOARD_CORRECTLY_DETECTED and
             board_name in GIGABYTE_BOARDS
         ):
             board_flags["gigabyte_wmi"] += "?"
 
         if (
-            board_flags["asus_wmi"] not in ("Y", "L") and
+            board_flags["asus_wmi"] not in BOARD_CORRECTLY_DETECTED and
             board_name in WMI_BOARDS
         ):
             board_flags["asus_wmi"] += "?"
 
         if (
-            board_flags["asus_nct6775"] not in ("Y", "L") and
+            board_flags["asus_nct6775"] not in BOARD_CORRECTLY_DETECTED and
             board_name in NCT6775_BOARDS
         ):
             board_flags["asus_nct6775"] += "?"
 
         if (
-            board_flags["asus_ec"] not in ("Y", "L") and
+            board_flags["asus_ec"] not in BOARD_CORRECTLY_DETECTED and
             board_name in EC_BOARDS
         ):
             board_flags["asus_ec"] += "?"
@@ -957,7 +1012,7 @@ def fix_flags(boards_flags):
 
         if (
             board_flags["asus_nct6775"] in ("U") and
-            board_flags["asus_wmi"] in ("Y", "L")
+            board_flags["asus_wmi"] in BOARD_CORRECTLY_DETECTED
         ):
             board_flags["asus_nct6775"] = "M"
 
@@ -991,7 +1046,7 @@ def add_load_flags(boards_flags):
         boards_flags[board_name] = {
             "board_producer": "GIGABYTE" if board_name in GIGABYTE_BOARDS else "ASUS"
         }
-        set_default_flags(board_name, boards_flags[board_name])
+        boards_flags[board_name].update(DEFAULT_FLAGS)
         boards_flags[board_name].update({
             "asus_wmi": "L" if board_name in WMI_BOARDS else "N",
             "gigabyte_wmi": "L" if board_name in GIGABYTE_BOARDS else "N",
@@ -1000,7 +1055,7 @@ def add_load_flags(boards_flags):
         })
 
 
-def show_board(board_name, board_producer, asus_wmi="N", gigabyte_wmi="N",
+def show_board(board_name, board_producer, superio="", asus_wmi="N", gigabyte_wmi="N",
                asus_nct6775="N", asus_ec="N", asus_ite87_mutex="",
                asus_nct6775_mutex="", asus_ec_mutex=""):
     if asus_ite87_mutex:
@@ -1022,20 +1077,10 @@ def show_board(board_name, board_producer, asus_wmi="N", gigabyte_wmi="N",
 
 def print_boards(boards_flags):
     table = {}
-    boards2update_nct6775 = []
     nextgen_required = {}
 
     for board_name in boards_flags:
         board_flags = boards_flags[board_name]
-
-        if (
-            "U" in board_flags["asus_nct6775"] and
-            board_flags["asus_wmi"] == "N"
-        ):
-            for serie in NCT6775_SERIES:
-                if board_name.upper().startswith(serie.upper()):
-                    boards2update_nct6775.append(board_name)
-                    break
 
         if (
             board_flags["known_good"] and
@@ -1051,6 +1096,7 @@ def print_boards(boards_flags):
     desc = show_board(
             board_name="board name",
             board_producer="made by",
+            superio="superio",
             asus_wmi="asus_wmi_sensors",
             asus_nct6775="nct6775",
             asus_ec="asus_ec_sensors",
@@ -1063,6 +1109,7 @@ def print_boards(boards_flags):
     desc = show_board(
             board_name="-" * 32,
             board_producer="-" * 9,
+            superio="-" * 11,
             asus_wmi="-" * 29,
             asus_nct6775="-"  * 29,
             asus_ec="-" * 29,
@@ -1075,6 +1122,7 @@ def print_boards(boards_flags):
         desc = show_board(
             board_name,
             board_producer=board_flags["board_producer"],
+            superio=board_flags["superio"],
             asus_wmi=board_flags["asus_wmi"],
             asus_nct6775=board_flags["asus_nct6775"],
             asus_ec=board_flags["asus_ec"],
@@ -1085,10 +1133,6 @@ def print_boards(boards_flags):
         )
         print (desc)
 
-    print ("Boards with nct6775 to add:")
-    for board_name in sorted(boards2update_nct6775):
-        print (f"\t{board_name}")
-
     print ("Boards with nct6775 for nextgen:")
     for name in nextgen_required:
         print (f"\tDevice name: '{name}'")
@@ -1097,6 +1141,8 @@ def print_boards(boards_flags):
 
             if board_flags["asus_nct6775"] == "M":
                 print (f'\t\t"{board_name}", // use custom port definition')
+            elif not board_flags["upstreamed_serie"]:
+                print (f'\t\t"{board_name}", // No feedback')
             else:
                 print (f'\t\t"{board_name}",')
 
@@ -1199,8 +1245,26 @@ if __name__ == "__main__":
                     boards_flags[board_name] = {
                         "board_producer": board_producer,
                     }
-                    set_default_flags(board_name, boards_flags[board_name])
+                    boards_flags[board_name].update(DEFAULT_FLAGS)
                 board_flags = boards_flags[board_name]
+
+                # update flags to default
+                for flag in DEFAULT_FLAGS:
+                    if flag not in board_flags:
+                        board_flags[flag] = DEFAULT_FLAGS[flag]
+
+                # set upstream ready
+                if not board_flags["upstreamed_serie"]:
+                    for serie in NCT6775_SERIES:
+                        if board_name.upper().startswith(serie.upper()):
+                            board_flags["upstreamed_serie"] = True
+                            break
+
+                # set chip value
+                for serie in CHIP_SERIES:
+                    if board_name.upper().startswith(serie.upper()):
+                        board_flags["superio"] = CHIP_SERIES[serie]
+                        break
 
                 content_hash = hashlib.md5(content.encode('utf-8')).hexdigest()
                 print (f"\tmd5: {content_hash}")

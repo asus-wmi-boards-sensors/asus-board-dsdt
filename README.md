@@ -6,6 +6,8 @@ All files are provided by motherboard users or downloaded and extracted from sup
 
 Support sites:
 * [ASUS UEFI](https://www.asus.com/motherboards-components/motherboards/all-series/)
+* [ASUS ACPI DUMPS](https://github.com/linuxhw/ACPI/tree/master/Desktop/ASUSTek%20Computer)
+* [ASUS DMI DUMPS](https://github.com/linuxhw/DMI/tree/master/Desktop/ASUSTek%20Computer)
 * [Gigabyte UEFI](https://www.gigabyte.com/Motherboard/All-Series)
 * [NCT* sensors](https://www.nuvoton.com/)
 
@@ -14,6 +16,7 @@ Support sites:
 How it works for:
 * [ASUS](https://bugzilla.kernel.org/show_bug.cgi?id=204807#c37)
 * [Gigabyte](https://github.com/t-8ch/linux-gigabyte-wmi-driver)
+* [it87](https://github.com/frankcrawford/it87)
 * [ACPI Specification](https://uefi.org/specifications)
 * [HWMON repository](https://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git/log/?h=hwmon-next)
 * [NetBSD](https://github.com/NetBSD/src/tree/trunk/sys/dev/isa/wbsio.c)
@@ -122,7 +125,6 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | PRIME Z590-V                     | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME Z590M-PLUS                 | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRO A320M-R WI-FI                | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
-| ASUS     | PRO A520M-C                      | N                             | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRO H410T                        | N                             | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | Pro A520M-C                      | N                             | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | Pro A520M-C II                   | N                             | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
