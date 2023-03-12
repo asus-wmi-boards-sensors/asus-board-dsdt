@@ -5,6 +5,7 @@ import json
 import yaml
 import time
 import hashlib
+import csv
 from asl_parser import (
     parse_asl, cleanup_lines, asl_has_operator_with_params,
     search_block_with_name_parameter, asl_get_operator_with_params,
@@ -185,47 +186,6 @@ GIGABYTE_BOARDS = [
     "X570 UD",
     "Z690M AORUS ELITE AX DDR4",
 ]
-
-
-# Mutex required nct6775 series
-CHIP_SERIES = {
-    "MAXIMUS VII ": "NCT6791D", # MAXIMUS VII HERO
-    "P8H67": "NCT6776D/F", # P8H67
-    "P8Z68": "NCT6776D/F", # P8Z68-V LX
-    "PRIME B450": "IT8665E", # PRIME B450-PLUS
-    "PRIME B460": "NCT6798D", # PRIME B460-PLUS
-    "PRIME B550": "NCT6798D", # PRIME B550M-A (WI-FI)
-    "Prime H310": "NCT6796D", # Prime H310I-Plus
-    "PRIME H410": "NCT6798D", # PRIME H410M-R
-    "PRIME X470": "IT8665E", # PRIME X470-PRO
-    "PRIME X570": "NCT6798D", # PRIME X570-P
-    "PRIME Z590": "NCT6798D", # Z590M-PLUS
-    "ProArt X670": "NCT6799D", # ProArt X670E-CREATOR WIFI
-    "PRO H410": "NCT6798D", # PRO H410T
-    "Pro WS W680": "NCT6798D", # Pro WS W680-ACE
-    "ROG CROSSHAIR VIII ": "NCT6798D", # ROG CROSSHAIR VIII FORMULA
-                                       # ROG CROSSHAIR VIII DARK HERO
-                                       # ROG CROSSHAIR VIII HERO (WI-FI)
-    "ROG STRIX B450": "IT8665E", # ROG STRIX B450-F GAMING
-    "ROG STRIX B550": "NCT6798D", # ROG STRIX B550-F GAMING (WI-FI)
-    "ROG STRIX B660": "NCT6798D", # ROG STRIX B660-I GAMING WIFI
-    "ROG STRIX X570": "NCT6798D", # ROG STRIX X570-E GAMING WIFI II
-                                  # ROG STRIX X570-I GAMING
-                                  # ROG STRIX X570-F GAMING
-    "ROG STRIX X670": "NCT6799D", # ROG STRIX X670E-I GAMING WIFI
-    "ROG STRIX Z390": "NCT6798D", # ROG STRIX Z390-F GAMING
-    "ROG STRIX Z390": "NCT6798D", # ROG STRIX Z390-F GAMING
-                                  # TUF Z390M-PRO GAMING
-    "ROG STRIX Z490": "NCT6798D", # ROG STRIX Z490-I
-    "TUF B450": "IT8665E", # TUF B450-PLUS GAMING
-    "TUF GAMING B550": "NCT6798D", # TUF GAMING B550-PLUS
-    "TUF GAMING Z490": "NCT6798D", # TUF GAMING Z490-PLUS (WI-FI)
-    "TUF X470": "IT8665E", # TUF X470-PLUS GAMING
-    "X99": "NCT6791D", # X99-E WS/USB 3.1
-    "Z170": "NCT6793D", # Z170 PRO GAMING/AURA
-                        # Z170-DELUXE
-                        # Z170-WS
-}
 
 # Upstreamed nct6775 series
 NCT6775_SERIES = {
@@ -1067,6 +1027,7 @@ def show_board(board_name, board_producer, superio="", asus_wmi="N", gigabyte_wm
     return (
         f"| {board_producer}{' ' * (9 - len(board_producer))}"
         f"| {board_name}{' ' * (33 - len(board_name))}"
+        f"| {superio}{' ' * (10 - len(superio))}"
         f"| {asus_wmi}{' ' * (30 - len(asus_wmi)) }"
         f"| {gigabyte_wmi}{' ' * (13 - len(gigabyte_wmi)) }"
         f"| {asus_nct6775}{' ' * (30 - len(asus_nct6775))}"
@@ -1176,6 +1137,7 @@ if __name__ == "__main__":
                 count_files += 1
 
     boards_flags = {}
+    board_desc = []
 
     try:
         with open("boards.yaml", "rb") as f:
@@ -1192,6 +1154,20 @@ if __name__ == "__main__":
     try:
         with open("methods.json", "rb") as f:
             method_dumps.update(json.loads(f.read().decode("utf8")))
+    except Exception as ex:
+        print (f"Could not read methods.json: {ex}")
+
+    try:
+        with open("docs/linuxhw_DMI.csv", newline='') as f:
+            reader = csv.reader(f)
+            try:
+                for row in reader:
+                    if row[0] == "ASUSTek Computer":
+                        row[0] = "ASUS"
+                    board_desc.append(row)
+            except csv.Error as ex:
+                print (f"Could not read docs/linuxhw_DMI.csv: {ex}")
+        print (f"Loaded {len(board_desc)} boards descriptions.")
     except Exception as ex:
         print (f"Could not read methods.json: {ex}")
 
@@ -1261,9 +1237,15 @@ if __name__ == "__main__":
                             break
 
                 # set chip value
-                for serie in CHIP_SERIES:
-                    if board_name.upper().startswith(serie.upper()):
-                        board_flags["superio"] = CHIP_SERIES[serie]
+                for board_info in board_desc:
+                    if (
+                        board_info[0] == board_flags["board_producer"] and
+                        board_info[1].upper() == board_name.upper()
+                    ):
+                        board_flags["superio"] = board_info[2]
+                        print (f"\tSuper I/O: {board_info[2]}")
+                        if board_info[1] != board_name:
+                            print ("\tDatabase has different name of board")
                         break
 
                 content_hash = hashlib.md5(content.encode('utf-8')).hexdigest()

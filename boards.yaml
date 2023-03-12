@@ -105,7 +105,7 @@ B150 PRO GAMING:
   - b5e54698995c1760f8ff42201616b5de
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -175,7 +175,7 @@ B150 PRO GAMING D3:
   - 7f06aace0e107d64540926bdbbaf76b0
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -381,7 +381,7 @@ B150M PRO GAMING:
   - bbd52ee96a10576a4357ad34026f4691
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -570,7 +570,7 @@ EX-A320M-GAMING:
   - 4be8d23eb6f6d2100fc6f0a6b1921860
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -1030,7 +1030,7 @@ MAXIMUS IX CODE:
   - 571526dae9a5c920072a4d0eb4512980
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -1084,7 +1084,7 @@ MAXIMUS IX FORMULA:
   - 855328f68c472f32b839e0dda11f0dfb
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -1111,7 +1111,7 @@ MAXIMUS IX HERO:
   - 59ff3e8bb790451f4d82784bc1fd49f2
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -1165,7 +1165,7 @@ P8H67:
   - 0e5ac15bac082a88c42b030dab6ea532
   known_good:
   - ASUSWMI
-  superio: NCT6776D/F
+  superio: NCT6776F
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -1192,7 +1192,7 @@ P8Z68-V LX:
   - 2adfcee903b14eef2d6831009a1c7821
   known_good:
   - ASUSWMI
-  superio: NCT6776D/F
+  superio: NCT6776F
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -1247,7 +1247,7 @@ PRIME A320I-K:
   - b3cfa74f4556698c7ece3d15ab52adcd
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -1302,7 +1302,7 @@ PRIME A320M-A:
   - 3a37ee6bee571b62603a3e2f5755fcca
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -1357,7 +1357,7 @@ PRIME A320M-C R2.0:
   - 4b91e5b909f02eefaa73ac16a3dcce5c
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: IT8665E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -1412,7 +1412,7 @@ PRIME A320M-E:
   - 0926fedce4507cbb2244dbf965e0477f
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -1467,7 +1467,7 @@ PRIME A320M-F:
   - d995d162cef03335e8091149f9c72bb7
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -1522,7 +1522,7 @@ PRIME A320M-K:
   - 41db24693131d0b7c977d01bf386c460
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -1594,7 +1594,7 @@ PRIME A520M-A:
   - 28695438f8ce5f96def6f6623d039eba
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -1738,7 +1738,7 @@ PRIME A520M-E:
   - 56307d60562f16863b83fa4a2d172941
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -1810,7 +1810,7 @@ PRIME A520M-K:
   - 04b1b1a61d55d4c981b45ba3569f4414
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -1865,7 +1865,7 @@ PRIME B350-PLUS:
   - 16999bf7314b5d346db5ff6275e99f35
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -1920,7 +1920,7 @@ PRIME B350M-A:
   - 087e0edfa2ba0cfdb44ed589152b76dc
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -1975,7 +1975,7 @@ PRIME B350M-E:
   - 816453884b5748ccb0d3bf4219a3430d
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -2030,7 +2030,7 @@ PRIME B350M-K:
   - 76b9d48436ebe5dfaebb44f05b61bc58
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -2060,7 +2060,7 @@ PRIME B360-PLUS:
   - 41d96f958eec2e772e441fb2f0036194
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT5582D
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -2147,7 +2147,7 @@ PRIME B450M-GAMING II:
   - 0141a80eb2c627e81532eb07ad53bc0d
   known_good:
   - ASUSWMI
-  superio: IT8665E
+  superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -2267,7 +2267,7 @@ PRIME B550-PLUS:
   - 3bc49d42d0cd5822a70b8299102072b3
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -2301,7 +2301,7 @@ PRIME B550M-A:
   - 8af8bc97f8566d8f227ef869d009b405
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -2369,7 +2369,7 @@ PRIME B550M-A AC:
   - 47dd55839ff3b0b39bb40179ae04e224
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -2403,7 +2403,7 @@ PRIME B550M-A WIFI II:
   - da654c3f4f98f8c82fed7f7df06ef347
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -2437,7 +2437,7 @@ PRIME B550M-K:
   - 9a07ccc0e15d8c755f854e53d3f611c5
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -2632,7 +2632,7 @@ PRIME B650M-A AX:
   - 1a91ef89431922597676ddb4b784862e
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6799D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -3053,7 +3053,7 @@ PRIME B660M-A WIFI D4:
   - 61141c39297c5bc221c689eb74af4f91
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -3824,7 +3824,7 @@ PRIME X370-PRO:
   - 67750baf6829ae4b540e4c0926addd99
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: IT8665E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -3897,7 +3897,7 @@ PRIME X570-P:
   - d8230aaa24d4b47adba929d02b77959c
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -3932,7 +3932,7 @@ PRIME X570-PRO:
   - e61a6e513a44a68f727f84cfd8331bb0
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -4062,7 +4062,7 @@ PRIME X670-P WIFI:
   - e09191b1b490e6d01c6ca40246886e33
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6799D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -4127,7 +4127,7 @@ PRIME X670E-PRO WIFI:
   - 5d8062a428507ab4836f7c517cb62e6c
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6799D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -4154,7 +4154,7 @@ PRIME Z270-A:
   - 1e2f86f827cebdd216c488b3cf249251
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -4529,7 +4529,7 @@ PRO A320M-R WI-FI:
   - 31f61ee961c745977c8f0c99d936683b
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -4743,7 +4743,7 @@ Pro B550M-C:
   - 72a6fbd0dc7361f7bbfcded74e14c013
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -5315,7 +5315,7 @@ Pro WS X570-ACE:
   - f67d268a9a9f43064e03bdefa9c885b8
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -5350,7 +5350,7 @@ ProArt B550-CREATOR:
   - aaf9f9ec28b0a08855d755e36cbbd5fe
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -5765,7 +5765,7 @@ ProArt X570-CREATOR WIFI:
   - 6254dddca4324ccba21e170c8101bbe1
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -5795,7 +5795,7 @@ ProArt X670E-CREATOR WIFI:
   - d8a2750abfefe956839cb0e554c5db8b
   known_good:
   - AsusMbSwInterface
-  superio: NCT6799D
+  superio: NCT6799D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -5826,7 +5826,7 @@ ProArt Z490-CREATOR 10G:
   - f59640e9338d08c224f7317feb984548
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -6047,7 +6047,7 @@ ROG CROSSHAIR VIII DARK HERO:
   - 7eb54dcaebeccf2d65006517aa5f0d84
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -6080,7 +6080,7 @@ ROG CROSSHAIR VIII EXTREME:
   - 240b71f5841b32345e0abf7c2f6b7b9e
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -6115,7 +6115,7 @@ ROG CROSSHAIR VIII FORMULA:
   - ea51124e3b4e6c13d87f2e0fd6f34861
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -6150,7 +6150,7 @@ ROG CROSSHAIR VIII HERO:
   - 6b5c4d608e8aa29e0699821e08160883
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -6220,7 +6220,7 @@ ROG CROSSHAIR VIII IMPACT:
   - e369f620255f0eb1781485041298a508
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -6287,7 +6287,7 @@ ROG CROSSHAIR X670E EXTREME:
   - 33516a1951e855084d37980bd950de1e
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6799D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -6418,7 +6418,7 @@ ROG CROSSHAIR X670E HERO:
   - fa1a4c6da2bb4c38fed43b417be02ee4
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6799D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -6444,7 +6444,7 @@ ROG MAXIMUS X HERO:
   - 81583abc082735de427b4633f031de2a
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -6475,7 +6475,7 @@ ROG MAXIMUS XI HERO:
   - aac001e83bea9fe881ae4aae0cb2348a
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -6571,7 +6571,7 @@ ROG MAXIMUS XIII APEX:
   - 9ebc32761facfaa154acf65d8d412dba
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -6764,7 +6764,7 @@ ROG MAXIMUS XIII HERO:
   - ff5029ee5c3b5c26796e384f61c3dd02
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -6794,7 +6794,7 @@ ROG MAXIMUS Z690 EXTREME:
   - dba1ba8633ab713b6a1249630990bb06
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -6911,7 +6911,7 @@ ROG STRIX B350-F GAMING:
   - b03b29afc97efcc0dc0122652db7b9b7
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: IT8665E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -6970,7 +6970,7 @@ ROG STRIX B350-I GAMING:
   - 3aa1569e947f6f5dc4b2e7857b0e8480
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: IT8665E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -7160,7 +7160,7 @@ ROG STRIX B550-A GAMING:
   - 958288dbafd1cc232349ae48e136d42d
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -7234,7 +7234,7 @@ ROG STRIX B550-E GAMING:
   - 8e9c4d20227d7cc1422bc0cc8322bb95
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -7268,7 +7268,7 @@ ROG STRIX B550-F GAMING:
   - 07ac6cd02a220c2231a3f8f72f38e7b9
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -7340,7 +7340,7 @@ ROG STRIX B550-F GAMING WIFI II:
   - 45f705df0f32b1df8b355356f48f27d5
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -7375,7 +7375,7 @@ ROG STRIX B550-I GAMING:
   - e125376b34d547bf345cb9fdda01d03b
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -7476,7 +7476,7 @@ ROG STRIX B650-A GAMING WIFI:
   - 62d5f86526afa8d4c29dae1219facb83
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6799D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -7543,7 +7543,7 @@ ROG STRIX B650E-E GAMING WIFI:
   - f938401c67ac4016f6d0699cf423a6f5
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6799D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -7610,7 +7610,7 @@ ROG STRIX B650E-F GAMING WIFI:
   - 8f4a1a3c3384ec36a46f4e404df9b81d
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6799D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -7674,7 +7674,7 @@ ROG STRIX B650E-I GAMING WIFI:
   - 84ed2731cfee6f041de36fec992ee517
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6799D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -8533,7 +8533,7 @@ ROG STRIX X370-F GAMING:
   - 2e321b03427540de831934ffaaa072fa
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: IT8665E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -8604,7 +8604,7 @@ ROG STRIX X470-F GAMING:
   - 34e3edcb87cc3874ef81b0bd3fdfbcfe
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: IT8665E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -8678,7 +8678,7 @@ ROG STRIX X570-E GAMING:
   - aae23ae1c2296c35946f0be8050c2709
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -8718,7 +8718,7 @@ ROG STRIX X570-E GAMING WIFI II:
   - 12b0829646c3840b4ed8132a47faafc1
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -8751,7 +8751,7 @@ ROG STRIX X570-F GAMING:
   - 023e73ca3f27221bbc5be86308fd1a4c
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -8786,7 +8786,7 @@ ROG STRIX X570-I GAMING:
   - 4366d07d0780c8bae6cc0bc3c6be7523
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -8852,7 +8852,7 @@ ROG STRIX X670E-A GAMING WIFI:
   - 1659e578f6077588f28ef1d52d6e2780
   known_good:
   - AsusMbSwInterface
-  superio: NCT6799D
+  superio: NCT6799D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -8918,7 +8918,7 @@ ROG STRIX X670E-E GAMING WIFI:
   - 1ac2a3b94cc0fcaa6b8cafc2609cf021
   known_good:
   - AsusMbSwInterface
-  superio: NCT6799D
+  superio: NCT6799D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -8983,7 +8983,7 @@ ROG STRIX X670E-F GAMING WIFI:
   - 3cdaa086aff2c7cb35c439fb2739942c
   known_good:
   - AsusMbSwInterface
-  superio: NCT6799D
+  superio: NCT6799D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -9049,7 +9049,7 @@ ROG STRIX X670E-I GAMING WIFI:
   - aec5a14b8d3fe49df38f99ebca154452
   known_good:
   - AsusMbSwInterface
-  superio: NCT6799D
+  superio: NCT6799D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -9075,7 +9075,7 @@ ROG STRIX Z370-H GAMING:
   - df1493a328d3e82b7e9fbcb477ef608d
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -9482,7 +9482,7 @@ ROG STRIX Z590-A GAMING WIFI:
   - 18aa5e5fdad2679929fd99544dce3a22
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -9611,7 +9611,7 @@ ROG STRIX Z590-E GAMING WIFI:
   - 32e349a5705e2afd36bad201e509f024
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -9675,7 +9675,7 @@ ROG STRIX Z590-F GAMING WIFI:
   - 6448048dde334d33282c8da10fdcf414
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -9739,7 +9739,7 @@ ROG STRIX Z590-I GAMING WIFI:
   - f3b1e7e57f57d0048e76e48b6cc211f4
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -9769,7 +9769,7 @@ ROG STRIX Z690-A GAMING WIFI D4:
   - ffcd4dc5b1ea6ecb7100a8ef9f4f94dd
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -9952,7 +9952,7 @@ TUF B350M-PLUS GAMING:
   - 7dfbfa1ce1d619e1199305cf12d0ecdb
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -10056,7 +10056,7 @@ TUF GAMING A520M-PLUS:
   - ebd18c231cbd538c038f9ae1fa720680
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -10200,7 +10200,7 @@ TUF GAMING A520M-PLUS WIFI:
   - b6f5aea17789997d8ddd2381f8bedbc6
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -10232,7 +10232,7 @@ TUF GAMING B450-PLUS II:
   - 87c705733873b91c54c86637e9edd46d
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: IT8665E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -10266,7 +10266,7 @@ TUF GAMING B550-PLUS:
   - 1b7e656d712a6f144df7e58ce862b1bb
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -10300,7 +10300,7 @@ TUF GAMING B550-PLUS WIFI II:
   - e56cfb784acac680ee001e777227585f
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -10334,7 +10334,7 @@ TUF GAMING B550-PRO:
   - 1aa1ab75d5229b2971835ab7737b24f4
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -10368,7 +10368,7 @@ TUF GAMING B550M-E:
   - 826859de9deaa27eb1b5cf4ae926e5be
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -10436,7 +10436,7 @@ TUF GAMING B550M-PLUS:
   - d047a45e68e028e5058a83cd0e98429f
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -10504,7 +10504,7 @@ TUF GAMING B550M-PLUS WIFI II:
   - d72a2d73177b74222cdc5eaf804e00d5
   known_good:
   - ASUSWMI
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -10633,7 +10633,7 @@ TUF GAMING B650-PLUS WIFI:
   - 6759dae58a690ddf6958e289778db73b
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6799D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -10697,7 +10697,7 @@ TUF GAMING B650M-PLUS:
   - fd55a0b73218e45e98c083ce68e977bc
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6799D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -10936,7 +10936,7 @@ TUF GAMING B660-PLUS WIFI D4:
   - 11a02d4e75a794a2c1d95843121af858
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -11031,7 +11031,7 @@ TUF GAMING B660M-E D4:
   - 00fb006d4ca1e257325a6e21ac117729
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -11114,7 +11114,7 @@ TUF GAMING B660M-PLUS WIFI:
   - 270c16945eb5ab38fa18f2363118c314
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -11447,7 +11447,7 @@ TUF GAMING X570-PLUS:
   - 548f3b9f7fc1c9a353fa6f0f30b793fe
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -11645,7 +11645,7 @@ TUF GAMING X670E-PLUS WIFI:
   - 80301050ba305d24b90fb8852c7e4684
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6799D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -11771,7 +11771,7 @@ TUF GAMING Z590-PLUS:
   - 543001ab5d07d214eb5cfa6ecddf50c6
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -11835,7 +11835,7 @@ TUF GAMING Z590-PLUS WIFI:
   - f3998379c644dc376192fa0a0b5546e4
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -11861,7 +11861,7 @@ TUF Z270 MARK 1:
   - bf30b4607ceca3eedeb000daba60063c
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -12263,7 +12263,7 @@ Z170I PRO GAMING:
   - a71a3c3efcd7de714a8fae4cbb50e362
   known_good:
   - ASUSWMI
-  superio: NCT6793D
+  superio: NCT5539D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -12446,7 +12446,7 @@ Z590 WIFI GUNDAM EDITION:
   - 9c02b58a78f1576476011bb4b565eaed
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
