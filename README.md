@@ -24,6 +24,7 @@ How it works for:
 
 Datasheets for sensors are placed to [docs directory](docs).
 
+* [Used Super I/O Chips](docs/linuxhw_DMI.csv)
 * [NCT6776F/D](https://media.digikey.com/pdf/Data%20Sheets/Nuvoton%20PDFs/NCT6776F,D.pdf)
 * [NCT6796D](https://www.nuvoton.com/export/resource-files/NCT6796D_Datasheet_V0_6.pdf)
 * search more in google: `site:www.nuvoton.com nct6 pdf`
