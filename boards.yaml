@@ -1666,7 +1666,7 @@ PRIME A520M-A II:
   - 08039a566b5097ce7d1f7b65ddff38d9
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -2737,7 +2737,7 @@ PRIME B650M-A AX II:
   - b976c34139aa7673f2329ad8b2f98842
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6799D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -6506,7 +6506,7 @@ ROG MAXIMUS XI HERO (WI-FI):
   - e6e0bc7bb75d515899e366ecc6044ae0
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -6824,7 +6824,7 @@ ROG MAXIMUS Z690 EXTREME GLACIAL:
   - a92d5bf0755bcfaf01b3b6be612cf73d
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -9547,7 +9547,7 @@ ROG STRIX Z590-A GAMING WIFI II:
   - a1078da9e507bc98bbd40aa53920875b
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -10128,7 +10128,7 @@ TUF GAMING A520M-PLUS II:
   - 374d06b7125748b2a5bdf595c36becaa
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -10762,7 +10762,7 @@ TUF GAMING B650M-PLUS WIFI:
   - d37079a88d698934b7b6c438d996a142
   known_good:
   - AsusMbSwInterface
-  superio: ''
+  superio: NCT6799D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -11481,7 +11481,7 @@ TUF GAMING X570-PLUS (WI-FI):
   - 3bb4dddecd61db25bc3cec5135172fe7
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -11515,7 +11515,7 @@ TUF GAMING X570-PRO (WI-FI):
   - cb12004f001577d799761962c688c44e
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102

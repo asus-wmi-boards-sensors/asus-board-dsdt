@@ -57,6 +57,31 @@ WMI_BOARDS = [
     "ROG ZENITH EXTREME ALPHA",
 ]
 
+NCT6775_CHIPS = [
+    "NCT5532",
+    "NCT5572",
+    "NCT5573",
+    "NCT5577",
+    "NCT6102",
+    "NCT6104",
+    "NCT6106",
+    "NCT6116",
+    "NCT6771",
+    "NCT6772",
+    "NCT6775",
+    "NCT6776",
+    "NCT6779",
+    "NCT6791",
+    "NCT6792",
+    "NCT6793",
+    "NCT6795",
+    "NCT6796",
+    "NCT6797",
+    "NCT6798",
+    "NCT6799",
+    "W83677",
+]
+
 # Upstreamed nct6775
 NCT6775_BOARDS = [
     # B550 style
@@ -989,7 +1014,7 @@ def fix_flags(boards_flags):
                     board_flags["asus_ec_mutex"] = mutex_name
 
 
-def add_load_flags(boards_flags):
+def add_load_flags(boards_flags, board_desc):
     # boards with partial support, will be updated from mutext list
     nct6775_partial = []
     for mutex_name in ASUS_NCT6775_MUTEX:
@@ -1014,6 +1039,32 @@ def add_load_flags(boards_flags):
             "asus_ec": "L" if board_name in EC_BOARDS else "N",
         })
 
+    # check load from db
+    for board_info in board_desc:
+        board_producer = board_info[0]
+        board_name = board_info[1]
+        board_superio = board_info[2]
+
+        if not board_has_nct6775(board_superio):
+            continue
+
+        for serie in NCT6775_SERIES:
+            if board_name.upper().startswith(serie.upper()):
+                board_name = serie + board_name[len(serie):]
+
+                if board_name not in boards_flags:
+                    boards_flags[board_name] = {
+                        "board_producer": board_producer,
+                    }
+                    boards_flags[board_name].update(DEFAULT_FLAGS)
+                    boards_flags[board_name].update({
+                        "asus_wmi": "N",
+                        "gigabyte_wmi": "N",
+                        "asus_nct6775": "L",
+                        "asus_ec": "N",
+                        "superio": board_superio
+                    })
+
 
 def show_board(board_name, board_producer, superio="", asus_wmi="N", gigabyte_wmi="N",
                asus_nct6775="N", asus_ec="N", asus_ite87_mutex="",
@@ -1034,6 +1085,16 @@ def show_board(board_name, board_producer, superio="", asus_wmi="N", gigabyte_wm
         f"| {asus_ec}{' ' * (30 - len(asus_ec))}"
         f"|"
     )
+
+
+def board_has_nct6775(superio):
+    if not superio:
+        return True
+    for chip_id in NCT6775_CHIPS:
+        if superio.upper().startswith(chip_id):
+            return True
+    else:
+        return False
 
 
 def print_boards(boards_flags):
@@ -1100,6 +1161,9 @@ def print_boards(boards_flags):
         for board_name in sorted(nextgen_required[name]):
             board_flags = boards_flags[board_name]
 
+            if not board_has_nct6775(board_flags["superio"]):
+                continue
+
             if board_flags["asus_nct6775"] == "M":
                 print (f'\t\t"{board_name}", // use custom port definition')
             elif not board_flags["upstreamed_serie"]:
@@ -1111,6 +1175,9 @@ def print_boards(boards_flags):
     for board_name in sorted(boards_flags.keys()):
         board_flags = boards_flags[board_name]
 
+        if not board_has_nct6775(board_flags["superio"]):
+            continue
+
         if (
             board_flags["asus_nct6775"] in ("P", "M") and
             board_flags["asus_nct6775_mutex"]
@@ -1121,6 +1188,18 @@ def print_boards(boards_flags):
             else:
                 print (f'\tDMI_MATCH_ASUS_WMI_BOARD("{board_name}", '
                        f'&{ASUS_NCT6775_MUTEX_CODENAME.get(board_flags["asus_nct6775_mutex"], "")}),')
+
+
+def file_write_with_changes(name, content):
+    try:
+        with open(name, "rb") as f:
+            if f.read().decode("utf8") == content:
+                print (f"Same content {name}")
+                return
+    except Exception as ex:
+        print (f"Could not read {name}: {ex}")
+    with open(name, "wb") as f:
+        f.write(content.encode("utf8"))
 
 
 if __name__ == "__main__":
@@ -1238,7 +1317,7 @@ if __name__ == "__main__":
                             board_flags["upstreamed_serie"] = True
                             break
 
-                # set chip value
+                # set chip value strict
                 for board_info in board_desc:
                     if (
                         board_info[0] == board_flags["board_producer"] and
@@ -1247,8 +1326,19 @@ if __name__ == "__main__":
                         board_flags["superio"] = board_info[2]
                         print (f"\tSuper I/O: {board_info[2]}")
                         if board_info[1] != board_name:
-                            print ("\tDatabase has different name of board")
+                            print (f"\tDatabase has different name {board_info[1]} != {board_name}")
                         break
+
+                # set chip value like base version
+                if not board_flags["superio"]:
+                    for board_info in board_desc:
+                        if (
+                            board_info[0] == board_flags["board_producer"] and
+                            board_name.upper().startswith(board_info[1].upper())
+                        ):
+                            board_flags["superio"] = board_info[2]
+                            print (f"\tSuper I/O: {board_info[2]}")
+                            break
 
                 content_hash = hashlib.md5(content.encode('utf-8')).hexdigest()
                 print (f"\tmd5: {content_hash}")
@@ -1278,12 +1368,10 @@ if __name__ == "__main__":
                 print (f"\tProcess time: {round(time.time() - start_time, 3)}")
 
     # save current state
-    with open("boards.yaml", "wb") as f:
-        f.write(yaml.dump(boards_flags).encode("utf8"))
-    with open("methods.json", "wb") as f:
-        f.write(json.dumps(method_dumps, indent=4).encode("utf8"))
+    file_write_with_changes("boards.yaml", yaml.dump(boards_flags))
+    file_write_with_changes("methods.json", json.dumps(method_dumps, indent=4))
     # show results
-    add_load_flags(boards_flags)
+    add_load_flags(boards_flags, board_desc)
     fix_flags(boards_flags)
     print (f"Boards: {len(boards_flags.keys())}")
     print_boards(boards_flags)
