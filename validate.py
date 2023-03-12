@@ -1164,6 +1164,8 @@ if __name__ == "__main__":
                 for row in reader:
                     if row[0] == "ASUSTek Computer":
                         row[0] = "ASUS"
+                    elif row[0] == "Gigabyte Technology Co., Ltd.":
+                        row[0] = "GIGABYTE"
                     board_desc.append(row)
             except csv.Error as ex:
                 print (f"Could not read docs/linuxhw_DMI.csv: {ex}")

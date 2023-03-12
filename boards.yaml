@@ -243,7 +243,7 @@ B150I PRO GAMING/AURA:
   - 2056db56a845973cd08070d8dfa28b46
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT5539D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -311,7 +311,7 @@ B150I PRO GAMING/WIFI/AURA:
   - 047a4e51aba81bd55ee079579f8e0680
   known_good:
   - ASUSWMI
-  superio: ''
+  superio: NCT5539D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -11963,7 +11963,7 @@ X570 AORUS ELITE WIFI:
   - e7d9f56a4b9ab340e426bf7f3d9118e1
   - 99dab3070a3cdb5ea510e1646b29cdd7
   known_good: []
-  superio: ''
+  superio: IT8688E
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -12014,7 +12014,7 @@ X570 I AORUS PRO WIFI:
   - 2f9bba82f00fd014143ec0b68bccd7a0
   - cc4e05439e87b0c1c86b5855efacfd6d
   known_good: []
-  superio: ''
+  superio: IT8688E
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
