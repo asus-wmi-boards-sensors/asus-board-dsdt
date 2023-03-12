@@ -412,14 +412,48 @@ ASUS_KNOWN_UIDS = {
 }
 
 ASUS_WIFI_NO_CONVERT = ["B650", "B660", "B760", "X670", "Z590"]
+BRIDGE_CHIPSETS = [
+    "A300",
+    "A320",
+    "A520",
+    "A620",
+    "B350",
+    "B360",
+    "B450",
+    "B460",
+    "B550",
+    "B650",
+    "B660",
+    "B760",
+    "H410",
+    "TRX40",
+    "W680",
+    "WRX80",
+    "X300",
+    "X370",
+    "X399",
+    "X470",
+    "X570",
+    "X670",
+    "Z270",
+    "Z390",
+    "Z490",
+    "Z590",
+    "Z690",
+]
 
 
 def gen_asus_board_name(board_group):
+    bridge_chipset = ""
     # remove SI at the end of name
     if board_group[-1].upper() == "SI":
         board_group = board_group[:-1]
 
     if board_group[0] == "ROG" and board_group[1] == "STRIX":
+        # detect chipset from name
+        for chipset in BRIDGE_CHIPSETS:
+            if board_group[2].startswith(chipset):
+                bridge_chipset = chipset
         # fix WIFI name
         if board_group[-1].upper() == "WIFI":
             for chipset in ASUS_WIFI_NO_CONVERT:
@@ -432,6 +466,10 @@ def gen_asus_board_name(board_group):
         board_name += f"{board_group[2]}-{board_group[3]} "
         board_name += " ".join(board_group[4:])
     elif board_group[0] == "ROG" and board_group[1] in ("CROSSHAIR", "MAXIMUS"):
+        # detect chipset from name
+        for chipset in BRIDGE_CHIPSETS:
+            if board_group[2].startswith(chipset):
+                bridge_chipset = chipset
         # fix WIFI name
         if board_group[-1].upper() == "WIFI":
             board_group[-1] = "(WI-FI)"
@@ -439,6 +477,10 @@ def gen_asus_board_name(board_group):
         board_name = f"{board_group[0]} {board_group[1]} "
         board_name += " ".join(board_group[2:])
     elif board_group[0] == "TUF" and board_group[1] == "GAMING":
+        # detect chipset from name
+        for chipset in BRIDGE_CHIPSETS:
+            if board_group[2].startswith(chipset):
+                bridge_chipset = chipset
         # fix WIFI name
         if board_group[-1].upper() == "WIFI":
             for chipset in ASUS_WIFI_NO_CONVERT:
@@ -458,6 +500,10 @@ def gen_asus_board_name(board_group):
         board_name = f"{board_group[0]} {board_group[1]} "
         board_name += " ".join(board_group[2:])
     elif board_group[0].upper() in ("PRIME"):
+        # detect chipset from name
+        for chipset in BRIDGE_CHIPSETS:
+            if board_group[1].startswith(chipset):
+                bridge_chipset = chipset
         # fix WIFI name
         if board_group[-1].upper() == "WIFI":
             for chipset in ASUS_WIFI_NO_CONVERT:
@@ -470,14 +516,26 @@ def gen_asus_board_name(board_group):
         board_name += "-".join(board_group[1:3]) + " "
         board_name += " ".join(board_group[3:])
     elif board_group[0] == "Pro" and board_group[1] == "WS":
+        # detect chipset from name
+        for chipset in BRIDGE_CHIPSETS:
+            if board_group[2].startswith(chipset):
+                bridge_chipset = chipset
         # create name
         board_name = f"{board_group[0]} {board_group[1]} "
         board_name += "-".join(board_group[2:])
     elif board_group[0].upper() in ("PRO", "PROART"):
+        # detect chipset from name
+        for chipset in BRIDGE_CHIPSETS:
+            if board_group[1].startswith(chipset):
+                bridge_chipset = chipset
         # create name
         board_name = f"{board_group[0]} "
         board_name += "-".join(board_group[1:])
     elif board_group[0].upper() in ("MAXIMUS", "TUF", "CROSSHAIR"):
+        # detect chipset from name
+        for chipset in BRIDGE_CHIPSETS:
+            if board_group[1].startswith(chipset):
+                bridge_chipset = chipset
         # create name
         board_name = f"{board_group[0]} "
         board_name += " ".join(board_group[1:])
@@ -487,8 +545,8 @@ def gen_asus_board_name(board_group):
 
     # conver board names
     if board_name.upper() in BOARDNAME_CONVERT:
-        return BOARDNAME_CONVERT[board_name.upper()]
-    return board_name
+        return BOARDNAME_CONVERT[board_name.upper()], bridge_chipset
+    return board_name, bridge_chipset
 
 
 def gen_gigabyte_board_name(board_group):
@@ -744,6 +802,7 @@ DEFAULT_FLAGS = {
     "upstreamed_serie": False,
     "superio": "",
     "asus_ec_mutex": "",
+    "bridge": "",
     "wmi_methods": [],
     "known_good": []
 }
@@ -1278,8 +1337,9 @@ if __name__ == "__main__":
                         board_version = board_suffix[-1]
                         board_group[-1] = "_".join(board_suffix[:-1])
                     board_name = gen_gigabyte_board_name(board_group)
+                    bridge_chipset = ""
                 else:
-                    board_name = gen_asus_board_name(board_group)
+                    board_name, bridge_chipset = gen_asus_board_name(board_group)
 
                 processed_files += 1
                 print (f"Board: {board_name}")
@@ -1304,6 +1364,8 @@ if __name__ == "__main__":
                     }
                     boards_flags[board_name].update(DEFAULT_FLAGS)
                 board_flags = boards_flags[board_name]
+                if bridge_chipset:
+                    board_flags["bridge"] = bridge_chipset
 
                 # update flags to default
                 for flag in DEFAULT_FLAGS:

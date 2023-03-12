@@ -10,6 +10,7 @@ A68HM-K:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - e99c81de4f50e6f31bcd3be0c5e956c0
@@ -30,6 +31,7 @@ A68HM-PLUS:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 4feb35689b240a7927c4677da8c1f520
@@ -53,6 +55,7 @@ B150 PRO GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 25c5ef5cc82f4ce18c1944e1d9287913
@@ -127,6 +130,7 @@ B150 PRO GAMING D3:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 0bb0146d4d875bf69ef7c2a7b5c45633
@@ -197,6 +201,7 @@ B150I PRO GAMING/AURA:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 928cf0878bd8b9c2654225f382d1acd5
@@ -265,6 +270,7 @@ B150I PRO GAMING/WIFI/AURA:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 1ab06e3caa6fc8a4219664fcca56ae9f
@@ -333,6 +339,7 @@ B150M PRO GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - f1a71149f51940de96ca41332d79a573
@@ -400,6 +407,7 @@ B85-PRO GAMER:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 7c837bc4f7455fdea2bb11741156c763
@@ -436,6 +444,7 @@ B85M-GAMER:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - c811bbe9c16d6cfb839248d79cf535e6
@@ -484,6 +493,7 @@ CROSSHAIR VI HERO:
   asus_wmi: Y
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 095f491f3013efd9c2b02ff1605eab87
@@ -539,6 +549,7 @@ EX-A320M-GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - f783c8731e14189c3cf17e526fb049b1
@@ -596,6 +607,7 @@ EX-B660M-V5 D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - a31ec09a9e186899d52cee422b20f227
@@ -691,6 +703,7 @@ EX-B660M-V5 PRO D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - e5cf143894cf54fcc439ed18002c1c9e
@@ -768,6 +781,7 @@ EX-B760M-V5 D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - e7f9a1ab559373d4ee0058e92e970758
@@ -923,6 +937,7 @@ H81-GAMER:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 276b3fa862ec64a13fa57c5148f12411
@@ -959,6 +974,7 @@ H97-PRO GAMER:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - d86161a34054e107add64a45318d008f
@@ -998,6 +1014,7 @@ MAXIMUS IX APEX:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - dc14ca4c3eea27e277e54e0865cf4e78
@@ -1025,6 +1042,7 @@ MAXIMUS IX CODE:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 571526dae9a5c920072a4d0eb4512980
@@ -1052,6 +1070,7 @@ MAXIMUS IX EXTREME:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 2f45acb4605f0d468cc6686c4a18def1
@@ -1079,6 +1098,7 @@ MAXIMUS IX FORMULA:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 855328f68c472f32b839e0dda11f0dfb
@@ -1106,6 +1126,7 @@ MAXIMUS IX HERO:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 59ff3e8bb790451f4d82784bc1fd49f2
@@ -1133,6 +1154,7 @@ MAXIMUS VII HERO:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 37a265c2ad5a8b5ff9256146284b6c0b
@@ -1160,6 +1182,7 @@ P8H67:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 0e5ac15bac082a88c42b030dab6ea532
@@ -1187,6 +1210,7 @@ P8Z68-V LX:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 2adfcee903b14eef2d6831009a1c7821
@@ -1216,6 +1240,7 @@ PRIME A320I-K:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: A320
   gigabyte_wmi: N
   hash:
   - de41470990e905185fc072e27077eb8a
@@ -1271,6 +1296,7 @@ PRIME A320M-A:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: A320
   gigabyte_wmi: N
   hash:
   - 6e37117342eaafc90e729c34a9f33095
@@ -1326,6 +1352,7 @@ PRIME A320M-C R2.0:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: A320
   gigabyte_wmi: N
   hash:
   - d0041cc878fb14729b7ef07d0fd8a47a
@@ -1381,6 +1408,7 @@ PRIME A320M-E:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: A320
   gigabyte_wmi: N
   hash:
   - d0ec28d10aa99a7e20224358963c1d84
@@ -1436,6 +1464,7 @@ PRIME A320M-F:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: A320
   gigabyte_wmi: N
   hash:
   - 35b07187cddca63da35b7dcae9f8dca8
@@ -1491,6 +1520,7 @@ PRIME A320M-K:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: A320
   gigabyte_wmi: N
   hash:
   - d2c3e4b09c98fa48b5803366435e936e
@@ -1548,6 +1578,7 @@ PRIME A520M-A:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: A520
   gigabyte_wmi: N
   hash:
   - 1dc8daa9267b82609f308de656897419
@@ -1620,6 +1651,7 @@ PRIME A520M-A II:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: A520
   gigabyte_wmi: N
   hash:
   - acf72b496a2a6afdf4c6f6af5595a96e
@@ -1692,6 +1724,7 @@ PRIME A520M-E:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: A520
   gigabyte_wmi: N
   hash:
   - a35828857b073b50e76f7e9eda8c085e
@@ -1764,6 +1797,7 @@ PRIME A520M-K:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: A520
   gigabyte_wmi: N
   hash:
   - c308d25ad727939a9b1617df193621e2
@@ -1834,6 +1868,7 @@ PRIME B350-PLUS:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B350
   gigabyte_wmi: N
   hash:
   - 08b8e138dd03c95da462eb4519c10abd
@@ -1889,6 +1924,7 @@ PRIME B350M-A:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B350
   gigabyte_wmi: N
   hash:
   - f335cd77e005fb21868403bbc24f5772
@@ -1944,6 +1980,7 @@ PRIME B350M-E:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B350
   gigabyte_wmi: N
   hash:
   - b9c20f4759d5c077186503cc4c9196bc
@@ -1999,6 +2036,7 @@ PRIME B350M-K:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B350
   gigabyte_wmi: N
   hash:
   - a173fe9363a963529b76557ed9ab81a6
@@ -2055,6 +2093,7 @@ PRIME B360-PLUS:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B360
   gigabyte_wmi: N
   hash:
   - 41d96f958eec2e772e441fb2f0036194
@@ -2084,6 +2123,7 @@ PRIME B450-PLUS:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B450
   gigabyte_wmi: N
   hash:
   - 5a59e93c996b219380a0766bb5f978e4
@@ -2116,6 +2156,7 @@ PRIME B450M-GAMING II:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B450
   gigabyte_wmi: N
   hash:
   - ebf79e23369a7f97c5828b94814f7ec6
@@ -2171,6 +2212,7 @@ PRIME B450M-GAMING/BR:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B450
   gigabyte_wmi: N
   hash:
   - 4a74c28275339934c77deedcbaa80dcf
@@ -2228,6 +2270,7 @@ PRIME B460-PLUS:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B460
   gigabyte_wmi: N
   hash:
   - 39ed57ac393055806d4c309126dae331
@@ -2259,6 +2302,7 @@ PRIME B550-PLUS:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - 325a07b4b932465fe7c00e94191facd9
@@ -2293,6 +2337,7 @@ PRIME B550M-A:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - 4191fec53be96eb7b500300ebe9e39d9
@@ -2327,6 +2372,7 @@ PRIME B550M-A (WI-FI):
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - 5c6d18858d6fdc9d6f0042badee59c3c
@@ -2361,6 +2407,7 @@ PRIME B550M-A AC:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - 81d67f0cf0729535326990ca14292bab
@@ -2395,6 +2442,7 @@ PRIME B550M-A WIFI II:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - 88f4f35021092c81781a67e6ba4e74f0
@@ -2429,6 +2477,7 @@ PRIME B550M-K:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - 70d453dcf98d386cdc234b28359ac4c8
@@ -2462,6 +2511,7 @@ PRIME B650-PLUS:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B650
   gigabyte_wmi: N
   hash:
   - f519538d6ce2240c93cefc4b659bc33f
@@ -2528,6 +2578,7 @@ PRIME B650M-A:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B650
   gigabyte_wmi: N
   hash:
   - 445a2e0f40d7fc97698e859057867a18
@@ -2593,6 +2644,7 @@ PRIME B650M-A AX:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B650
   gigabyte_wmi: N
   hash:
   - eb90f5a9816c060066fea47eda78199c
@@ -2657,6 +2709,7 @@ PRIME B650M-A AX II:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B650
   gigabyte_wmi: N
   hash:
   - 99f0a66b9cdcefb75231238719f38a8e
@@ -2762,6 +2815,7 @@ PRIME B650M-A II:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B650
   gigabyte_wmi: N
   hash:
   - 8e9a98db964e876bd4595fa1721c2e5a
@@ -2826,6 +2880,7 @@ PRIME B650M-A WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B650
   gigabyte_wmi: N
   hash:
   - f32d33c57a9a96379e3fa0a102096a5a
@@ -2856,6 +2911,7 @@ PRIME B650M-A WIFI II:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B650
   gigabyte_wmi: N
   hash:
   - 53b8d593aa328da5b39fc1492a1802e2
@@ -2921,6 +2977,7 @@ PRIME B660M-A D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B660
   gigabyte_wmi: N
   hash:
   - 53047049268e00b49a5e5663774d5171
@@ -3000,6 +3057,7 @@ PRIME B660M-A WIFI D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B660
   gigabyte_wmi: N
   hash:
   - 916657b6d3232b7cd7e2d005f91f7c5b
@@ -3078,6 +3136,7 @@ PRIME B760-PLUS D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B760
   gigabyte_wmi: N
   hash:
   - 7f75b73c913ed620d34ed20f25bd44b2
@@ -3179,6 +3238,7 @@ PRIME B760M-A AX D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B760
   gigabyte_wmi: N
   hash:
   - 34a6f09567d20585c035670440ab1e9f
@@ -3274,6 +3334,7 @@ PRIME B760M-A D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B760
   gigabyte_wmi: N
   hash:
   - 103aa125924f0a155060f4571d8c90b2
@@ -3501,6 +3562,7 @@ PRIME B760M-A WIFI D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B760
   gigabyte_wmi: N
   hash:
   - 631adb3aaaab9a25400f51fd729b4fbd
@@ -3596,6 +3658,7 @@ PRIME B760M-AJ D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B760
   gigabyte_wmi: N
   hash:
   - d2f601235794397748be0b90958ece7c
@@ -3691,6 +3754,7 @@ PRIME B760M-K D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B760
   gigabyte_wmi: N
   hash:
   - f5816888e69edaa6d32d8650d2e193ab
@@ -3787,6 +3851,7 @@ PRIME H410M-R:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: H410
   gigabyte_wmi: N
   hash:
   - 1d58dd548291d4c0eef44d82e96411a5
@@ -3816,6 +3881,7 @@ PRIME X370-PRO:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: X370
   gigabyte_wmi: N
   hash:
   - 5d13f04126e78beef029ed0fe18c98a4
@@ -3855,6 +3921,7 @@ PRIME X470-PRO:
   asus_wmi: Y
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: X470
   gigabyte_wmi: N
   hash:
   - f1e7d2307e825653f012b0ab2bbd1997
@@ -3889,6 +3956,7 @@ PRIME X570-P:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: X570
   gigabyte_wmi: N
   hash:
   - dda7eb7b4f8e2df8f50a077dd609e869
@@ -3924,6 +3992,7 @@ PRIME X570-PRO:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: X570
   gigabyte_wmi: N
   hash:
   - 07dca9de0325b543aa3bef13c8685c49
@@ -3957,6 +4026,7 @@ PRIME X670-P:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 13f8d666addd6b5c441391df15131957
@@ -4022,6 +4092,7 @@ PRIME X670-P WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 61cca61f8e1edcfa3abc246d04e354c9
@@ -4087,6 +4158,7 @@ PRIME X670E-PRO WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 3497cf6e763299f107d025ed977d9982
@@ -4149,6 +4221,7 @@ PRIME Z270-A:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: Z270
   gigabyte_wmi: N
   hash:
   - 1e2f86f827cebdd216c488b3cf249251
@@ -4180,6 +4253,7 @@ PRIME Z590-A:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: Z590
   gigabyte_wmi: N
   hash:
   - d1c7e5a1e5f48226a899e742a05a96cc
@@ -4245,6 +4319,7 @@ PRIME Z590-P:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: Z590
   gigabyte_wmi: N
   hash:
   - e6c82e9b8db7565e350480ede0ee9c15
@@ -4309,6 +4384,7 @@ PRIME Z590-P WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: Z590
   gigabyte_wmi: N
   hash:
   - 6ed68c99c76d64b73c59dec019ddebf5
@@ -4373,6 +4449,7 @@ PRIME Z590-V:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: Z590
   gigabyte_wmi: N
   hash:
   - 958f3eedcf0872461d70676e42f686c9
@@ -4437,6 +4514,7 @@ PRIME Z590M-PLUS:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: Z590
   gigabyte_wmi: N
   hash:
   - b3d180786d82785a2fe83d3e9469c12b
@@ -4498,6 +4576,7 @@ PRO A320M-R WI-FI:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: A320
   gigabyte_wmi: N
   hash:
   - d60ad788200de293e3c9e2d75c33996f
@@ -4555,6 +4634,7 @@ PRO H410T:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: H410
   gigabyte_wmi: N
   hash:
   - 5e4a7b01779f137a7cb2a8ba95c50bf2
@@ -4587,6 +4667,7 @@ Pro A520M-C:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: A520
   gigabyte_wmi: N
   hash:
   - 54e3d648ebb811411b14a9769c1bddab
@@ -4659,6 +4740,7 @@ Pro A520M-C II:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: A520
   gigabyte_wmi: N
   hash:
   - 977eb58c1ca1b2e5a02c3286fe50534d
@@ -4731,6 +4813,7 @@ Pro B550M-C:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - 96cac431136c19367f4b4f815910f43d
@@ -4769,6 +4852,7 @@ Pro B660M-C:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B660
   gigabyte_wmi: N
   hash:
   - bc0bc8f357da15550c69e884fd498233
@@ -4865,6 +4949,7 @@ Pro B660M-C-D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B660
   gigabyte_wmi: N
   hash:
   - d076d5a873325bc43d8e1789411dabfe
@@ -4943,6 +5028,7 @@ Pro B760M-C:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B760
   gigabyte_wmi: N
   hash:
   - 753558803d5140c5339c03364c1c90c9
@@ -5038,6 +5124,7 @@ Pro B760M-CT:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B760
   gigabyte_wmi: N
   hash:
   - 64a7b72983343b1eaf79d3ec213bb963
@@ -5134,6 +5221,7 @@ Pro WS W680-ACE:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: W680
   gigabyte_wmi: N
   hash:
   - 3cd9c6f0a47c20bd48b25d7d06084cb5
@@ -5220,6 +5308,7 @@ Pro WS W680-ACE IPMI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: W680
   gigabyte_wmi: N
   hash:
   - 4b6b7bae92910aa711ce81f4a5900187
@@ -5307,6 +5396,7 @@ Pro WS X570-ACE:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: X570
   gigabyte_wmi: N
   hash:
   - 45cdd4bb3d36ffee1599abf19c3e47be
@@ -5342,6 +5432,7 @@ ProArt B550-CREATOR:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - b1d677ccba3d69b4d546dba933e782c0
@@ -5375,6 +5466,7 @@ ProArt B650-CREATOR:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B650
   gigabyte_wmi: N
   hash:
   - 8a9d5f76e9c0cd2af12508816035f556
@@ -5483,6 +5575,7 @@ ProArt B660-CREATOR D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B660
   gigabyte_wmi: N
   hash:
   - 1fadcd75db82a9f1dc26a44e75012954
@@ -5513,6 +5606,7 @@ ProArt B760-CREATOR D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B760
   gigabyte_wmi: N
   hash:
   - 93844f504108ef80e6adfdc3c2121be9
@@ -5759,6 +5853,7 @@ ProArt X570-CREATOR WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: X570
   gigabyte_wmi: N
   hash:
   - 87bb20b86679cdc7bcb2cf8c70636dfa
@@ -5790,6 +5885,7 @@ ProArt X670E-CREATOR WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - d8a2750abfefe956839cb0e554c5db8b
@@ -5821,6 +5917,7 @@ ProArt Z490-CREATOR 10G:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: Z490
   gigabyte_wmi: N
   hash:
   - f59640e9338d08c224f7317feb984548
@@ -5851,6 +5948,7 @@ ProArt Z790-CREATOR WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - b05b2b86250b3f046e5afa38c1b9b239
@@ -5887,6 +5985,7 @@ ROG CROSSHAIR VI EXTREME:
   asus_wmi: Y
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - cf9d04e2613dc8dea1bf1414aa914b4c
@@ -5926,6 +6025,7 @@ ROG CROSSHAIR VI HERO (WI-FI AC):
   asus_wmi: Y
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 0ffce81f9cf12044ea951c7380e68bfc
@@ -5965,6 +6065,7 @@ ROG CROSSHAIR VII HERO:
   asus_wmi: Y
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 20fb5404117fefd804bdd4ac40ace6d1
@@ -6004,6 +6105,7 @@ ROG CROSSHAIR VII HERO (WI-FI):
   asus_wmi: Y
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - d56be697d429e33dc90e99f052414052
@@ -6039,6 +6141,7 @@ ROG CROSSHAIR VIII DARK HERO:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 81e57cec0c6bbfacd46a7bbc8a5884ba
@@ -6074,6 +6177,7 @@ ROG CROSSHAIR VIII EXTREME:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - f79dca0081e88297bcd12243a5aa9aba
@@ -6107,6 +6211,7 @@ ROG CROSSHAIR VIII FORMULA:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 0587b51c6d64555fb0d4947f3c1dae33
@@ -6142,6 +6247,7 @@ ROG CROSSHAIR VIII HERO:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 0fee2e46559c85bcb89a17a268998bc4
@@ -6177,6 +6283,7 @@ ROG CROSSHAIR VIII HERO (WI-FI):
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - f2129229db7c5184521c96a7062ed72b
@@ -6212,6 +6319,7 @@ ROG CROSSHAIR VIII IMPACT:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 1f58f3b5b991630c61c2ebd057f587ae
@@ -6245,6 +6353,7 @@ ROG CROSSHAIR X670E EXTREME:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - bb5b2126115b9415cde19d522f25471c
@@ -6311,6 +6420,7 @@ ROG CROSSHAIR X670E GENE:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 5c8cd0bf170737db081f7eb1ea876493
@@ -6376,6 +6486,7 @@ ROG CROSSHAIR X670E HERO:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 2dff96cb42a2138b37f1f8ce6937668b
@@ -6439,6 +6550,7 @@ ROG MAXIMUS X HERO:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 81583abc082735de427b4633f031de2a
@@ -6470,6 +6582,7 @@ ROG MAXIMUS XI HERO:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - aac001e83bea9fe881ae4aae0cb2348a
@@ -6501,6 +6614,7 @@ ROG MAXIMUS XI HERO (WI-FI):
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - e6e0bc7bb75d515899e366ecc6044ae0
@@ -6532,6 +6646,7 @@ ROG MAXIMUS XIII APEX:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - ca98397dcc928cad201bb03f13215caf
@@ -6596,6 +6711,7 @@ ROG MAXIMUS XIII EXTREME:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 1abd38beeed7bbba1c0be642569b3627
@@ -6660,6 +6776,7 @@ ROG MAXIMUS XIII EXTREME GLACIAL:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - a001b81fcd1bb4ef6156686fd07f9288
@@ -6725,6 +6842,7 @@ ROG MAXIMUS XIII HERO:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 08aa4029c42f3db6d9791f95acb90fa6
@@ -6789,6 +6907,7 @@ ROG MAXIMUS Z690 EXTREME:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: Z690
   gigabyte_wmi: N
   hash:
   - dba1ba8633ab713b6a1249630990bb06
@@ -6819,6 +6938,7 @@ ROG MAXIMUS Z690 EXTREME GLACIAL:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: Z690
   gigabyte_wmi: N
   hash:
   - a92d5bf0755bcfaf01b3b6be612cf73d
@@ -6848,6 +6968,7 @@ ROG MAXIMUS Z790 EXTREME:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - dc987070dfd43249d35f0cc48eb8cbca
@@ -6876,6 +6997,7 @@ ROG STRIX B350-F GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B350
   gigabyte_wmi: N
   hash:
   - 2bdc139cdd85d013778d7c5542473768
@@ -6935,6 +7057,7 @@ ROG STRIX B350-I GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B350
   gigabyte_wmi: N
   hash:
   - 9f78d6d238d7c6a81f874b326686444f
@@ -7001,6 +7124,7 @@ ROG STRIX B450-E GAMING:
   asus_wmi: Y
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B450
   gigabyte_wmi: N
   hash:
   - bb152f504817ad5673b297363be9f4e1
@@ -7040,6 +7164,7 @@ ROG STRIX B450-F GAMING:
   asus_wmi: Y
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B450
   gigabyte_wmi: N
   hash:
   - 3606e7e6ec91e12e87680f3dc58b3776
@@ -7079,6 +7204,7 @@ ROG STRIX B450-F GAMING II:
   asus_wmi: Y
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B450
   gigabyte_wmi: N
   hash:
   - e5c47bb2cb92740dbc55e68df604b23b
@@ -7118,6 +7244,7 @@ ROG STRIX B450-I GAMING:
   asus_wmi: Y
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B450
   gigabyte_wmi: N
   hash:
   - b78172c006c03bac08a97ca4e6e3227e
@@ -7152,6 +7279,7 @@ ROG STRIX B550-A GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - e51f2ad0235a2c9e109a90d35bb517ce
@@ -7187,6 +7315,7 @@ ROG STRIX B550-E GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - 2e604e8530ea15ebe2f94e1bbf04e9f1
@@ -7260,6 +7389,7 @@ ROG STRIX B550-F GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - ec860be42de1999d8ab7ac8661de5043
@@ -7294,6 +7424,7 @@ ROG STRIX B550-F GAMING (WI-FI):
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - eae0f7d283651cd6c4be73b00ea87a7e
@@ -7328,6 +7459,7 @@ ROG STRIX B550-F GAMING WIFI II:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - 0d822244cef2d2e6c4ef75705fd8d84f
@@ -7367,6 +7499,7 @@ ROG STRIX B550-I GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - 820b73897cc4fbe91a0ee88eba1cc24f
@@ -7402,6 +7535,7 @@ ROG STRIX B550-XE GAMING (WI-FI):
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - d4a9dab830c388c9b3d54f1c9ce3cb52
@@ -7435,6 +7569,7 @@ ROG STRIX B650-A GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B650
   gigabyte_wmi: N
   hash:
   - 275f52a1f5d57df197f3c4a8fbaa2dc4
@@ -7501,6 +7636,7 @@ ROG STRIX B650E-E GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B650
   gigabyte_wmi: N
   hash:
   - 4918303a776033a0dd5c640f060ba0c6
@@ -7568,6 +7704,7 @@ ROG STRIX B650E-F GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B650
   gigabyte_wmi: N
   hash:
   - 741447d160d9b8cf2e5a325899d0ec71
@@ -7635,6 +7772,7 @@ ROG STRIX B650E-I GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B650
   gigabyte_wmi: N
   hash:
   - d2492c041356d28c150732a2db595770
@@ -7699,6 +7837,7 @@ ROG STRIX B660-A GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B660
   gigabyte_wmi: N
   hash:
   - 873a1164a5a884addd30075de45f9756
@@ -7800,6 +7939,7 @@ ROG STRIX B660-A GAMING WIFI D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B660
   gigabyte_wmi: N
   hash:
   - 07fd6e8db57e7074e15312f21eb36330
@@ -7883,6 +8023,7 @@ ROG STRIX B660-F GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B660
   gigabyte_wmi: N
   hash:
   - ac4e3a7dadf10461af5a60f96de3b663
@@ -7967,6 +8108,7 @@ ROG STRIX B660-G GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B660
   gigabyte_wmi: N
   hash:
   - ca01b1e3b400610961dd0b737749890c
@@ -8051,6 +8193,7 @@ ROG STRIX B660-I GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B660
   gigabyte_wmi: N
   hash:
   - 5b3b3da5545612381bfa19ee5822781b
@@ -8128,6 +8271,7 @@ ROG STRIX B760-A GAMING WIFI D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B760
   gigabyte_wmi: N
   hash:
   - 82062135efe1ef49d90498d75706cd45
@@ -8229,6 +8373,7 @@ ROG STRIX B760-F GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B760
   gigabyte_wmi: N
   hash:
   - e40e03e4bee2c2130cf009c0c9781664
@@ -8330,6 +8475,7 @@ ROG STRIX B760-G GAMING WIFI D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B760
   gigabyte_wmi: N
   hash:
   - 9a3aa1a98d0b2e31db98dfaf0d7c0003
@@ -8431,6 +8577,7 @@ ROG STRIX B760-I GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B760
   gigabyte_wmi: N
   hash:
   - 314cc4261559775964a80ceedf5140cc
@@ -8525,6 +8672,7 @@ ROG STRIX X370-F GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: X370
   gigabyte_wmi: N
   hash:
   - d20aa7f67c99c5ce1de742ccecf51028
@@ -8557,6 +8705,7 @@ ROG STRIX X370-I GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: X370
   gigabyte_wmi: N
   hash:
   - d4e8f2e8988e9d37d84e2fd8056d299a
@@ -8596,6 +8745,7 @@ ROG STRIX X470-F GAMING:
   asus_wmi: Y
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: X470
   gigabyte_wmi: N
   hash:
   - 9f265da1ba10f4a0bff679bfa5bcaa63
@@ -8635,6 +8785,7 @@ ROG STRIX X470-I GAMING:
   asus_wmi: Y
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: X470
   gigabyte_wmi: N
   hash:
   - 725ce60036f7b05a13a4eb3e7653c2c0
@@ -8670,6 +8821,7 @@ ROG STRIX X570-E GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: X570
   gigabyte_wmi: N
   hash:
   - 845ee5a6a55486926f7fe2e035070b77
@@ -8705,6 +8857,7 @@ ROG STRIX X570-E GAMING WIFI II:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: X570
   gigabyte_wmi: N
   hash:
   - c262f8cd2708966a18465df2b10ebee8
@@ -8745,6 +8898,7 @@ ROG STRIX X570-F GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: X570
   gigabyte_wmi: N
   hash:
   - e6cfe5198cc88699da2c6edbbb2f078e
@@ -8778,6 +8932,7 @@ ROG STRIX X570-I GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: X570
   gigabyte_wmi: N
   hash:
   - 0484563eafe01eac418fd4466a2bd528
@@ -8811,6 +8966,7 @@ ROG STRIX X670E-A GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 69ffaa2bf6dbc5317f6ff67dca402593
@@ -8876,6 +9032,7 @@ ROG STRIX X670E-E GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 98a2464627c97e5abaed5c23c4eec082
@@ -8942,6 +9099,7 @@ ROG STRIX X670E-F GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 515f30f8bbd00e2884f10e1dd21a0254
@@ -9007,6 +9165,7 @@ ROG STRIX X670E-I GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - ff9fbb263f3f182f36fe0d8aeca0d8a5
@@ -9070,6 +9229,7 @@ ROG STRIX Z370-H GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - df1493a328d3e82b7e9fbcb477ef608d
@@ -9101,6 +9261,7 @@ ROG STRIX Z390-E GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: Z390
   gigabyte_wmi: N
   hash:
   - fe07af916548c7b991487911f5cb7891
@@ -9132,6 +9293,7 @@ ROG STRIX Z390-F GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: Z390
   gigabyte_wmi: N
   hash:
   - 5e4af04876e0b7d0adadb62f4f896b2f
@@ -9163,6 +9325,7 @@ ROG STRIX Z390-H GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: Z390
   gigabyte_wmi: N
   hash:
   - de4bc9d6c55af9c9229b7a65558c8cb2
@@ -9194,6 +9357,7 @@ ROG STRIX Z390-I GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: Z390
   gigabyte_wmi: N
   hash:
   - 7825860fd33b72c880be27d2aa843a12
@@ -9225,6 +9389,7 @@ ROG STRIX Z490-A GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: Z490
   gigabyte_wmi: N
   hash:
   - 6cdba78927941b182a451ed721b41fec
@@ -9256,6 +9421,7 @@ ROG STRIX Z490-E GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: Z490
   gigabyte_wmi: N
   hash:
   - 4447d4479a1746b5d388dc1d12e018e3
@@ -9287,6 +9453,7 @@ ROG STRIX Z490-F GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: Z490
   gigabyte_wmi: N
   hash:
   - 71e0dd93fafcc55a8d4613d28690a2a6
@@ -9319,6 +9486,7 @@ ROG STRIX Z490-G GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: Z490
   gigabyte_wmi: N
   hash:
   - 8c192c34a5278561c3911fd36688d0ec
@@ -9350,6 +9518,7 @@ ROG STRIX Z490-G GAMING (WI-FI):
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: Z490
   gigabyte_wmi: N
   hash:
   - 8a5fb6e5715f5755f1a537f7f0dc4106
@@ -9381,6 +9550,7 @@ ROG STRIX Z490-H GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: Z490
   gigabyte_wmi: N
   hash:
   - b59dc9642f79c2bc35996ac497ec9c67
@@ -9412,6 +9582,7 @@ ROG STRIX Z490-I GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: Z490
   gigabyte_wmi: N
   hash:
   - ee130e700b485350aceaaaccab17d489
@@ -9443,6 +9614,7 @@ ROG STRIX Z590-A GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: Z590
   gigabyte_wmi: N
   hash:
   - 402006c1f0c9aae2aba2f28c7f91b953
@@ -9507,6 +9679,7 @@ ROG STRIX Z590-A GAMING WIFI II:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: Z590
   gigabyte_wmi: N
   hash:
   - 4e08436c25359d2f0f92bd3578fbf37d
@@ -9572,6 +9745,7 @@ ROG STRIX Z590-E GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: Z590
   gigabyte_wmi: N
   hash:
   - dcbfb977e2dad75ce063d6c2dcae8a53
@@ -9636,6 +9810,7 @@ ROG STRIX Z590-F GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: Z590
   gigabyte_wmi: N
   hash:
   - 3f513d552c11947d641ac1b60b69bb53
@@ -9700,6 +9875,7 @@ ROG STRIX Z590-I GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: Z590
   gigabyte_wmi: N
   hash:
   - d9d4b0bd32a3db46eface0ddc234fc84
@@ -9764,6 +9940,7 @@ ROG STRIX Z690-A GAMING WIFI D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: Z690
   gigabyte_wmi: N
   hash:
   - ffcd4dc5b1ea6ecb7100a8ef9f4f94dd
@@ -9787,6 +9964,7 @@ S206:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: LENOVO
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 700f176e91a395650e48fd71abad03ae
@@ -9811,6 +9989,7 @@ STRIX-Z270E-GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 27f538dc9f6241d76f316f183e4305f6
@@ -9838,6 +10017,7 @@ STRIX-Z270F-GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 8dea4de431f5b91bfa3e2e1a6cc81060
@@ -9865,6 +10045,7 @@ STRIX-Z270G-GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - dcc7c13017c1279a347fa4fda7a24e20
@@ -9892,6 +10073,7 @@ STRIX-Z270H-GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 02353df9a7d3ebcb7f6523a9e0241f8f
@@ -9921,6 +10103,7 @@ TUF B350M-PLUS GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B350
   gigabyte_wmi: N
   hash:
   - 2476ed4d889e8832785c6ec94ac6ed56
@@ -9976,6 +10159,7 @@ TUF B450-PLUS GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B450
   gigabyte_wmi: N
   hash:
   - aa6535411cd20a933f96f55eeba69bf9
@@ -10010,6 +10194,7 @@ TUF GAMING A520M-PLUS:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: A520
   gigabyte_wmi: N
   hash:
   - 62dd3c1c1b641a1b3fec0642db7e40c6
@@ -10082,6 +10267,7 @@ TUF GAMING A520M-PLUS II:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: A520
   gigabyte_wmi: N
   hash:
   - 92a4f0630be3dc6f8b3403efbecd4e86
@@ -10154,6 +10340,7 @@ TUF GAMING A520M-PLUS WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: A520
   gigabyte_wmi: N
   hash:
   - 30118c6fcfabccb045e315ded4c82ccf
@@ -10224,6 +10411,7 @@ TUF GAMING B450-PLUS II:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B450
   gigabyte_wmi: N
   hash:
   - 27255f72b71c4ddf7c5c9c4c58b1989c
@@ -10258,6 +10446,7 @@ TUF GAMING B550-PLUS:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - 41a25bb5caf9ab1607aa6e30830603e6
@@ -10292,6 +10481,7 @@ TUF GAMING B550-PLUS WIFI II:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - 60530fcf8881af387d384fcfbdb0d9cd
@@ -10326,6 +10516,7 @@ TUF GAMING B550-PRO:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - 89357830a2c08f114f64dcd7a131eb87
@@ -10360,6 +10551,7 @@ TUF GAMING B550M-E:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - ffd36e57946649fe4c8b68cef1d96022
@@ -10394,6 +10586,7 @@ TUF GAMING B550M-E (WI-FI):
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - a6bc851387c7677639bf8bc2b628c2ce
@@ -10428,6 +10621,7 @@ TUF GAMING B550M-PLUS:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - 016597e0dcea5fd062f728910d8bb7c4
@@ -10462,6 +10656,7 @@ TUF GAMING B550M-PLUS (WI-FI):
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - 1e8aa9e4df4cf84e3e218ffb34647539
@@ -10496,6 +10691,7 @@ TUF GAMING B550M-PLUS WIFI II:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: B550
   gigabyte_wmi: N
   hash:
   - c3de7eb11000cf6197a19825436c7955
@@ -10529,6 +10725,7 @@ TUF GAMING B650-PLUS:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B650
   gigabyte_wmi: N
   hash:
   - ebed8515b38d7ef6a69977bc4f65fd04
@@ -10593,6 +10790,7 @@ TUF GAMING B650-PLUS WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B650
   gigabyte_wmi: N
   hash:
   - 5c7cb33e7ccfa036f9a124b02dd89a0e
@@ -10657,6 +10855,7 @@ TUF GAMING B650M-PLUS:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B650
   gigabyte_wmi: N
   hash:
   - 90860d96fcd1b06ffa80f5b4d5551da1
@@ -10722,6 +10921,7 @@ TUF GAMING B650M-PLUS WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B650
   gigabyte_wmi: N
   hash:
   - 0d14d9afefedd85a3fd2201df08331ce
@@ -10788,6 +10988,7 @@ TUF GAMING B660-PLUS WIFI D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B660
   gigabyte_wmi: N
   hash:
   - 2c4fb991ee77e6e436296cabf5820509
@@ -10961,6 +11162,7 @@ TUF GAMING B660M-E D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B660
   gigabyte_wmi: N
   hash:
   - 934eccce082fa5649325135bc0b2c0cc
@@ -11056,6 +11258,7 @@ TUF GAMING B660M-PLUS WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B660
   gigabyte_wmi: N
   hash:
   - 874891591035bb883ee025abb1c70a56
@@ -11138,6 +11341,7 @@ TUF GAMING B760-PLUS WIFI D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B760
   gigabyte_wmi: N
   hash:
   - 2700fd2e1e7250963dffe6821f8b2317
@@ -11238,6 +11442,7 @@ TUF GAMING B760M-PLUS D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B760
   gigabyte_wmi: N
   hash:
   - 1b0f59a8d0b4b8763ce01d154290325d
@@ -11338,6 +11543,7 @@ TUF GAMING B760M-PLUS WIFI D4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: B760
   gigabyte_wmi: N
   hash:
   - a21dbf86ffcd29ab4fbc29f059a85d65
@@ -11439,6 +11645,7 @@ TUF GAMING X570-PLUS:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: X570
   gigabyte_wmi: N
   hash:
   - 487e62158a9ba05fb92a61d222da78a5
@@ -11473,6 +11680,7 @@ TUF GAMING X570-PLUS (WI-FI):
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: X570
   gigabyte_wmi: N
   hash:
   - 3c76525d44a72647c72c9cffa65ccb0b
@@ -11507,6 +11715,7 @@ TUF GAMING X570-PRO (WI-FI):
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: X570
   gigabyte_wmi: N
   hash:
   - 853517d8467b29c4b712247d11811147
@@ -11540,6 +11749,7 @@ TUF GAMING X670E-PLUS:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 8a89ed53e79dd6579093b0e2e0c093c3
@@ -11605,6 +11815,7 @@ TUF GAMING X670E-PLUS WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 905f4fddbea7496973ccb88b13c14054
@@ -11671,6 +11882,7 @@ TUF GAMING Z490-PLUS:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: Z490
   gigabyte_wmi: N
   hash:
   - 73c707c5c02a96e3ba3fdd5e15ed7aaa
@@ -11702,6 +11914,7 @@ TUF GAMING Z490-PLUS (WI-FI):
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: Z490
   gigabyte_wmi: N
   hash:
   - fc2599d257937bd1798c9adcf1fbd439
@@ -11733,6 +11946,7 @@ TUF GAMING Z590-PLUS:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: Z590
   gigabyte_wmi: N
   hash:
   - fb528dc2847542eb07ed4539ef36bf12
@@ -11796,6 +12010,7 @@ TUF GAMING Z590-PLUS WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: Z590
   gigabyte_wmi: N
   hash:
   - de1011a193fa196888fb495cd2ca1d35
@@ -11856,6 +12071,7 @@ TUF Z270 MARK 1:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: Z270
   gigabyte_wmi: N
   hash:
   - bf30b4607ceca3eedeb000daba60063c
@@ -11880,6 +12096,7 @@ X570 AORUS ELITE:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: GIGABYTE
+  bridge: ''
   gigabyte_wmi: Y
   hash:
   - a26e2d4cee758b7426a5e264a9d5bd37
@@ -11931,6 +12148,7 @@ X570 AORUS ELITE WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: GIGABYTE
+  bridge: ''
   gigabyte_wmi: Y
   hash:
   - b246ada00ff038ef7fbda08f98d8a553
@@ -11982,6 +12200,7 @@ X570 I AORUS PRO WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: GIGABYTE
+  bridge: ''
   gigabyte_wmi: Y
   hash:
   - 5f8de7e4e76ddf9e138b25747f177554
@@ -12036,6 +12255,7 @@ Z170 PRO GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 6a7dd50ca8f39746c8609758647db33b
@@ -12110,6 +12330,7 @@ Z170 PRO GAMING/AURA:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - fc377df65d0f4bb980ee09b9574c1a52
@@ -12184,6 +12405,7 @@ Z170-DELUXE:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 5d7479c5e9a4a07537f12a6472799a40
@@ -12211,6 +12433,7 @@ Z170I PRO GAMING:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 2d93badc1ded4ee194fd42487756bbce
@@ -12285,6 +12508,7 @@ Z170M-PLUS:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - e5160664654325dd992729f772dc94cc
@@ -12312,6 +12536,7 @@ Z270-WS:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - a12fae35a02acceb09fa90c20b98a82b
@@ -12343,6 +12568,7 @@ Z490-GUNDAM (WI-FI):
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - 29e1930ff6f3425a3dbd5614f2a967d3
@@ -12374,6 +12600,7 @@ Z590 WIFI GUNDAM EDITION:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - e466fe0267ec6cfdc5df0242e9f80b4e
@@ -12464,6 +12691,7 @@ Z690M AORUS ELITE AX DDR4:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: GIGABYTE
+  bridge: ''
   gigabyte_wmi: Y
   hash:
   - 7fa4cfe09e5bb97fffbc7c9b50ff1098
@@ -12918,6 +13146,7 @@ Z97-PRO GAMER:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUS
+  bridge: ''
   gigabyte_wmi: N
   hash:
   - f23cd21962e48a7afaf50f07cedc126d
