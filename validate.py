@@ -263,6 +263,7 @@ NCT6775_SERIES = {
 # methods
 EC_METHODS = ["BREC"]
 NCT6775_METHODS = ["RSIO", "WSIO", "RHWM", "WHWM"]
+NCT6775_REGION_METHODS = ["RHWM", "WHWM", "BRHM", "BWHM"]
 WMI_METHODS = ["RSEN", "GNAM", "GNUM", "UPSB", "GVER"]
 WMI_INT_METHODS = ["UPEC", "UPHM"]
 WMI_METHODS_CONVERT = {
@@ -312,6 +313,8 @@ BOARDNAME_CONVERT = {
     "TUF B450 PLUS GAMING": "TUF B450-PLUS GAMING",
     "PRIME B550-PLUS AC HES": "PRIME B550-PLUS AC-HES",
     "TUF GAMING B550M-E (WI-FI)": "TUF GAMING B550M-E WIFI",
+    "PRIME B460M-A R2": "PRIME B460M-A R2.0",
+    "TUF GAMING X570-PLUS BR": "TUF GAMING X570-PLUS_BR"
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -678,12 +681,7 @@ def check_asl_290_custom_port(asl_struct):
     return ports
 
 
-def check_asl_290_port(asl_struct):
-    if not search_block_with_name_parameter(asl_struct, {
-        "operator": "Name",
-        "parameters": "(IOHW, 0x0290)" # probes 0x2e and 0x4e
-    }):
-        return False
+def check_asl_290_port_region(asl_struct):
     for region_name in ["HWM", "SHWM", "HWRE"]:
         if not search_block_with_name_parameter(asl_struct, {
             "operator": "OperationRegion",
@@ -716,6 +714,38 @@ def check_asl_290_port(asl_struct):
                     method_dumps[region_name].append(index_content)
         return region_name
     return None
+
+
+def check_asl_290_port(asl_struct):
+    if not search_block_with_name_parameter(asl_struct, {
+        "operator": "Name",
+        "parameters": "(IOHW, 0x0290)" # probes 0x2e and 0x4e
+    }):
+        return False
+    region_name = check_asl_290_port_region(asl_struct)
+    if not region_name:
+        # search region create in methods
+        for method in NCT6775_REGION_METHODS:
+            if method in NCT6775_METHODS:
+
+                method_blocks = search_block_with_name_parameter(asl_struct, {
+                    "operator": "Method",
+                    "parameters": f"({method}, 1, Serialized)"
+                }, parent=False)
+                for block in method_blocks:
+                    func_impl = block.get("content")
+                    # no method implementation
+                    if not func_impl:
+                        continue
+                    # remove braces
+                    if func_impl[0] != "{" or func_impl[-1] != "}":
+                        continue
+                    # parse asl
+                    for sub_asl in parse_asl(func_impl[1:-1].strip()):
+                        region_name = check_asl_290_port_region(sub_asl)
+                        if region_name:
+                            return region_name
+    return region_name
 
 
 def check_asl_case(asl_struct, dispatcher, methods, convert=None):
@@ -921,7 +951,10 @@ def update_board_asl_flags(board_flags, asl_struct):
             # port is defined in some custom way
             board_flags["asus_nct6775"] = "P"
 
-    known_methods = sorted(EC_METHODS + WMI_METHODS + NCT6775_METHODS)
+    known_methods = sorted(EC_METHODS +
+                           WMI_METHODS +
+                           NCT6775_METHODS +
+                           NCT6775_REGION_METHODS)
     for dispatcher in [ASUS_DISPATCHER]:
         blocks = search_block_with_name_parameter(asl_struct, {
             "operator": "Method",

@@ -13,6 +13,8 @@ OPERATION_WITH_PARAMETERS = [
     "Event",
     "Store",
     "Notify",
+    "Release",
+    "Return",
     # Create*Field
     "CreateBitField",
     "CreateByteField",
