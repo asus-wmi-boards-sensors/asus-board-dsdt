@@ -12,6 +12,7 @@ OPERATION_WITH_PARAMETERS = [
     "Mutex",
     "Event",
     "Store",
+    "Notify",
     # Create*Field
     "CreateBitField",
     "CreateByteField",
@@ -48,8 +49,16 @@ def skip_empty_text(buf):
 def get_operator_name(buf):
     pos = 0
     buf_len = len(buf)
-    while pos < buf_len and buf[pos] in ASL_VALID_NAME:
+    # call of function defined inside scope
+    if buf.startswith("\\"):
         pos += 1
+        # call any func without path
+        while pos < buf_len and buf[pos] in (ASL_VALID_NAME + "."):
+            pos += 1
+    # call any func without path
+    else:
+        while pos < buf_len and buf[pos] in ASL_VALID_NAME:
+            pos += 1
     return buf[:pos], buf[pos:]
 
 
@@ -159,6 +168,9 @@ def parse_block(buf, path=None):
         result["content"], buf = select_open_close(buf)
         buf = skip_empty_text(buf)
     elif operator in OPERATION_WITH_PARAMETERS:
+        result["parameters"], buf = select_open_close(buf)
+    # call function in scope
+    elif operator.startswith("\\"):
         result["parameters"], buf = select_open_close(buf)
     elif operator in ["Zero"]:
         # noop

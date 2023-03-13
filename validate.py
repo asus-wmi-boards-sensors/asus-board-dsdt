@@ -128,7 +128,7 @@ NCT6775_BOARDS = [
     "ROG STRIX Z490-H GAMING",
     "ROG STRIX Z490-I GAMING",
     "TUF GAMING B550M-E",
-    "TUF GAMING B550M-E (WI-FI)",
+    "TUF GAMING B550M-E WIFI",
     "TUF GAMING B550M-PLUS",
     "TUF GAMING B550M-PLUS (WI-FI)",
     "TUF GAMING B550M-PLUS WIFI II",
@@ -310,6 +310,8 @@ BOARDNAME_CONVERT = {
     "EX-B760M-V5-D4": "EX-B760M-V5 D4",
     "TUF B350M PLUS GAMING": "TUF B350M-PLUS GAMING",
     "TUF B450 PLUS GAMING": "TUF B450-PLUS GAMING",
+    "PRIME B550-PLUS AC HES": "PRIME B550-PLUS AC-HES",
+    "TUF GAMING B550M-E (WI-FI)": "TUF GAMING B550M-E WIFI",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -351,7 +353,7 @@ ASUS_NCT6775_MUTEX = {
         "PRIME B450M-GAMING", # "ASUSTeK COMPUTER INC."
         "PRIME Z270-A", # "ASUSTeK COMPUTER INC."
         "PRIME Z370-A", # "ASUSTeK COMPUTER INC."
-        "ROG CROSSHAIR VI Hero", # "ASUSTeK COMPUTER INC."
+        "CROSSHAIR VI HERO", # "ASUSTeK COMPUTER INC."
         "ROG STRIX X399-E GAMING", # "ASUSTeK COMPUTER INC."
         "ROG STRIX B350-F GAMING", # "ASUSTeK COMPUTER INC."
         "ROG STRIX B450-F GAMING", # "ASUSTeK COMPUTER INC."
@@ -411,35 +413,54 @@ ASUS_KNOWN_UIDS = {
     "AsusMbSwInterface": "B650 style board",
 }
 
-ASUS_WIFI_NO_CONVERT = ["B650", "B660", "B760", "X670", "Z590"]
+ASUS_WIFI_NO_CONVERT = ["B650", "B660", "B760", "X670", "Z590", "Z690"]
 BRIDGE_CHIPSETS = [
+    # Intel LGA 1156
+    "H55", "P55", "H57", "Q57",
+    # Intel LGA 1155
+    "H61", "B65", "Q65", "Q67", "H67", "P67", "Z68",
+    "B75", "Q75", "Q77", "C216", "H77", "Z75", "Z77",
+    # Intel LGA 1150
+    "H81", "B85", "Q85", "Q87", "H87", "Z87",
+    "H97", "Z97",
+    # Intel LGA 1151
+    "H110", "B150", "Q150", "H170", "C236", "Q170", "Z170",
+    "B250", "Q250", "H270", "Q270", "Z270",
+    "H310", "B365", "B360", "H370", "C246", "Q370", "Z370", "Z390",
+    # Intel LGA 1200
+    "H410", "B460", "H470", "Q470", "Z490", "W480",
+    "H510", "B560", "H570", "Q570", "Z590", "W580",
+    # Intel LGA 1700
+    "H610", "B660", "H670", "Q670", "Z690", "W680",
+    "B760", "H770", "Z790",
+    # AMD FCH
+    "A55T", "A50M", "A60M", "A68M", "A70M", "A76M",
+    "A45", "A55", "A58", "A68H", "A75", "A78", "A85X", "A88X",
+    "A55E", "A77E",
+    # AMD AM4
     "A300",
-    "A320",
-    "A520",
-    "A620",
-    "B350",
-    "B360",
-    "B450",
-    "B460",
-    "B550",
-    "B650",
-    "B660",
-    "B760",
-    "H410",
-    "TRX40",
-    "W680",
-    "WRX80",
     "X300",
+    "Pro 500",
+    "A320",
+    "B350",
     "X370",
-    "X399",
+    "B450",
     "X470",
+    "A520",
+    "B550",
     "X570",
+    # AMD TR4
+    "X399",
+    # AMD sTRX4
+    "TRX40",
+    # AMD sWRX8
+    "WRX80",
+    # AMD AM5
+    "A620",
+    "B650",
+    "B650E",
     "X670",
-    "Z270",
-    "Z390",
-    "Z490",
-    "Z590",
-    "Z690",
+    "X670E",
 ]
 
 
@@ -465,7 +486,7 @@ def gen_asus_board_name(board_group):
         board_name = f"{board_group[0]} {board_group[1]} "
         board_name += f"{board_group[2]}-{board_group[3]} "
         board_name += " ".join(board_group[4:])
-    elif board_group[0] == "ROG" and board_group[1] in ("CROSSHAIR", "MAXIMUS"):
+    elif board_group[0] == "ROG" and board_group[1] in ("CROSSHAIR", "MAXIMUS", "ZENITH"):
         # detect chipset from name
         for chipset in BRIDGE_CHIPSETS:
             if board_group[2].startswith(chipset):
@@ -540,6 +561,15 @@ def gen_asus_board_name(board_group):
         board_name = f"{board_group[0]} "
         board_name += " ".join(board_group[1:])
     else:
+        # detect chipset from name
+        for chipset in BRIDGE_CHIPSETS:
+            if bridge_chipset:
+                break
+            for board_name_part in board_group:
+                if board_name_part.startswith(chipset):
+                    bridge_chipset = chipset
+                    break
+        # just combine
         board_name = "-".join(board_group)
     board_name = board_name.replace("_", " ").strip()
 
@@ -552,12 +582,22 @@ def gen_asus_board_name(board_group):
 def gen_gigabyte_board_name(board_group):
     board_name = " ".join(board_group).upper()
     board_name = board_name.replace("_", " ").strip()
+    bridge_chipset = ""
+
+    # detect chipset from name
+    for chipset in BRIDGE_CHIPSETS:
+        if bridge_chipset:
+            break
+        for board_name_part in board_group:
+            if board_name_part.upper().startswith(chipset):
+                bridge_chipset = chipset
+                break
 
     # conver board names
     if board_name.upper() in BOARDNAME_CONVERT:
-        return BOARDNAME_CONVERT[board_name.upper()]
+        return BOARDNAME_CONVERT[board_name.upper()], bridge_chipset
 
-    return board_name
+    return board_name, bridge_chipset
 
 
 def check_asl_entrypoint(asl_struct, wmi_methods, uuid, method):
@@ -1137,7 +1177,7 @@ def show_board(board_name, board_producer, superio="", asus_wmi="N", gigabyte_wm
     return (
         f"| {board_producer}{' ' * (9 - len(board_producer))}"
         f"| {board_name}{' ' * (33 - len(board_name))}"
-        f"| {superio}{' ' * (10 - len(superio))}"
+        f"| {superio}{' ' * (11 - len(superio))}"
         f"| {asus_wmi}{' ' * (30 - len(asus_wmi)) }"
         f"| {gigabyte_wmi}{' ' * (13 - len(gigabyte_wmi)) }"
         f"| {asus_nct6775}{' ' * (30 - len(asus_nct6775))}"
@@ -1190,7 +1230,7 @@ def print_boards(boards_flags):
     desc = show_board(
             board_name="-" * 32,
             board_producer="-" * 9,
-            superio="-" * 11,
+            superio="-" * 10,
             asus_wmi="-" * 29,
             asus_nct6775="-"  * 29,
             asus_ec="-" * 29,
@@ -1336,8 +1376,7 @@ if __name__ == "__main__":
                     if len(board_suffix) >= 2:
                         board_version = board_suffix[-1]
                         board_group[-1] = "_".join(board_suffix[:-1])
-                    board_name = gen_gigabyte_board_name(board_group)
-                    bridge_chipset = ""
+                    board_name, bridge_chipset = gen_gigabyte_board_name(board_group)
                 else:
                     board_name, bridge_chipset = gen_asus_board_name(board_group)
 
