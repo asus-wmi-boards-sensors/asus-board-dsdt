@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 import sys
 import os
+import copy
 import json
 import yaml
 import time
@@ -237,6 +238,7 @@ NCT6775_SERIES = {
     "TUF GAMING B550",
     "TUF GAMING X570",
     "TUF GAMING Z490",
+    "Z490-",
     # B650 style
     "EX-B660",
     "PRIME B650",
@@ -258,6 +260,8 @@ NCT6775_SERIES = {
     "TUF GAMING B660",
     "TUF GAMING X670",
     "TUF GAMING Z590",
+    "Pro WS W680-ACE",
+    "Z590",
 }
 
 # methods
@@ -874,7 +878,8 @@ DEFAULT_FLAGS = {
     "asus_ec_mutex": "",
     "bridge": "",
     "wmi_methods": [],
-    "known_good": []
+    "known_good": [],
+    "known_good_nct6775": [],
 }
 
 
@@ -1066,7 +1071,10 @@ def update_board_asl_flags(board_flags, asl_struct):
                 block_content, dispatcher=ASUS_DISPATCHER,
                 methods=NCT6775_METHODS,
             ):
-                print (f"\tNCT6775 methods by WMI Dispathcer: {NCT6775_METHODS}")
+                if uid_name not in board_flags["known_good_nct6775"]:
+                    board_flags["known_good_nct6775"].append(uid_name)
+
+                print (f"\tNCT6775 {uid_name} methods by WMI Dispathcer: {NCT6775_METHODS}")
                 if region_name:
                     # already upstreamed
                     if board_name in NCT6775_BOARDS:
@@ -1163,7 +1171,7 @@ def add_load_flags(boards_flags, board_desc):
         boards_flags[board_name] = {
             "board_producer": "GIGABYTE" if board_name in GIGABYTE_BOARDS else "ASUS"
         }
-        boards_flags[board_name].update(DEFAULT_FLAGS)
+        boards_flags[board_name].update(copy.deepcopy(DEFAULT_FLAGS))
         boards_flags[board_name].update({
             "asus_wmi": "L" if board_name in WMI_BOARDS else "N",
             "gigabyte_wmi": "L" if board_name in GIGABYTE_BOARDS else "N",
@@ -1188,7 +1196,7 @@ def add_load_flags(boards_flags, board_desc):
                     boards_flags[board_name] = {
                         "board_producer": board_producer,
                     }
-                    boards_flags[board_name].update(DEFAULT_FLAGS)
+                    boards_flags[board_name].update(copy.deepcopy(DEFAULT_FLAGS))
                     boards_flags[board_name].update({
                         "asus_wmi": "N",
                         "gigabyte_wmi": "N",
@@ -1237,11 +1245,11 @@ def print_boards(boards_flags):
         board_flags = boards_flags[board_name]
 
         if (
-            board_flags["known_good"] and
+            board_flags.get("known_good_nct6775") and
             board_flags["asus_nct6775"] in ("M", "U", "Y")
         ):
             # nextgen patch required
-            for name in board_flags["known_good"]:
+            for name in board_flags["known_good_nct6775"]:
                 if name not in nextgen_required:
                     nextgen_required[name] = []
                 if board_name not in nextgen_required[name]:
@@ -1377,6 +1385,8 @@ if __name__ == "__main__":
                         row[0] = "ASUS"
                     elif row[0] == "Gigabyte Technology Co., Ltd.":
                         row[0] = "GIGABYTE"
+                    else:
+                        continue
                     board_desc.append(row)
             except csv.Error as ex:
                 print (f"Could not read docs/linuxhw_DMI.csv: {ex}")
@@ -1434,7 +1444,7 @@ if __name__ == "__main__":
                     boards_flags[board_name] = {
                         "board_producer": board_producer,
                     }
-                    boards_flags[board_name].update(DEFAULT_FLAGS)
+                    boards_flags[board_name].update(copy.deepcopy(DEFAULT_FLAGS))
                 board_flags = boards_flags[board_name]
                 if bridge_chipset:
                     board_flags["bridge"] = bridge_chipset
@@ -1442,7 +1452,7 @@ if __name__ == "__main__":
                 # update flags to default
                 for flag in DEFAULT_FLAGS:
                     if flag not in board_flags:
-                        board_flags[flag] = DEFAULT_FLAGS[flag]
+                        board_flags[flag] = copy.deepcopy(DEFAULT_FLAGS[flag])
 
                 # set upstream ready
                 if not board_flags["upstreamed_serie"]:
@@ -1479,6 +1489,13 @@ if __name__ == "__main__":
 
                 if "hash" not in board_flags:
                     board_flags["hash"] = []
+
+                # clean up hashes
+                hashes = []
+                for content_hash in board_flags["hash"]:
+                     if content_hash not in hashes:
+                         hashes.append(content_hash)
+                board_flags["hash"] = hashes
 
                 if content_hash in board_flags["hash"]:
                     continue
