@@ -28,6 +28,9 @@ for bios_file in \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B350-PLUS-ASUS-6061.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B360M-A-ASUS-3202.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B360M-C-ASUS-3202.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B360M-D-ASUS-3202.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B360M-K-ASUS-3202.ZIP \
+    https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-Z790-HERO-ASUS-0816.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B360-PLUS-ASUS-3101.ZIP \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450M-GAMING-BR-SI-3804.zip \
     https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450M-GAMING-II-ASUS-3802.zip \

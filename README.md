@@ -85,6 +85,8 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | PRIME B360-PLUS                  | NCT5582D   | N                             | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B360M-A                    | NCT6796D   | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B360M-C                    | NCT6793D   | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME B360M-D                    | NCT5582D   | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME B360M-K                    | NCT5582D   | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B450-PLUS                  | IT8665E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B450M-GAMING               |            | N                             | N            | L (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B450M-GAMING II            | IT8655E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
@@ -183,6 +185,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ROG MAXIMUS Z690 FORMULA         | NCT6798D   | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | ROG MAXIMUS Z690 HERO            | NCT6798D   | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | ROG MAXIMUS Z790 EXTREME         |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | ROG MAXIMUS Z790 HERO            | NCT6798D   | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B350-F GAMING          | IT8665E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B350-I GAMING          | IT8665E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B450-E GAMING          | IT8665E    | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |

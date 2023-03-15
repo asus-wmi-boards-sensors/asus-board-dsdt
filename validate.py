@@ -63,6 +63,7 @@ NCT6775_CHIPS = [
     "NCT5572",
     "NCT5573",
     "NCT5577",
+    "NCT5582",
     "NCT6102",
     "NCT6104",
     "NCT6106",
@@ -218,6 +219,7 @@ NCT6775_SERIES = {
     # B550 style
     "PRO H410",
     "ProArt B550",
+    "ProArt B650",
     "ProArt X570",
     "ProArt Z490",
     "Pro A520",
@@ -248,9 +250,11 @@ NCT6775_SERIES = {
     "Pro B660",
     "ProArt B660",
     "ProArt X670",
+    "ProArt Z790",
     "ROG CROSSHAIR X670",
     "ROG MAXIMUS XIII ",
     "ROG MAXIMUS Z690",
+    "ROG MAXIMUS Z790",
     "ROG STRIX B650",
     "ROG STRIX B660",
     "ROG STRIX X670",
@@ -1484,18 +1488,27 @@ if __name__ == "__main__":
                             print (f"\tSuper I/O: {board_info[2]}")
                             break
 
-                content_hash = hashlib.md5(content.encode('utf-8')).hexdigest()
-                print (f"\tmd5: {content_hash}")
-
-                if "hash" not in board_flags:
+                if not board_flags.get("hash"):
                     board_flags["hash"] = []
+                else:
+                    # clean up hashes
+                    hashes = []
+                    for content_hash in board_flags["hash"]:
+                         if content_hash not in hashes:
+                             hashes.append(content_hash)
+                    board_flags["hash"] = hashes
 
-                # clean up hashes
-                hashes = []
-                for content_hash in board_flags["hash"]:
-                     if content_hash not in hashes:
-                         hashes.append(content_hash)
-                board_flags["hash"] = hashes
+                content_without_file_name = "\n".join(
+                    [
+                        line for line in content.split("\n")
+                        if not line.startswith(" * Disassembly of ")
+                    ]
+                )
+
+                content_hash = hashlib.md5(
+                    content_without_file_name.encode('utf-8')
+                ).hexdigest()
+                print (f"\tmd5: {content_hash}")
 
                 if content_hash in board_flags["hash"]:
                     continue
