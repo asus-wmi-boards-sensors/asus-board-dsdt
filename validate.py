@@ -60,6 +60,7 @@ WMI_BOARDS = [
 
 NCT6775_CHIPS = [
     "NCT5532",
+    "NCT5538",
     "NCT5572",
     "NCT5573",
     "NCT5577",
