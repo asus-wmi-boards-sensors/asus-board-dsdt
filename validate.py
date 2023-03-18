@@ -13,6 +13,10 @@ from asl_parser import (
     decode_buffer_uuid_by_name
 )
 
+LINKS = [
+    "https://dlcdnets.asus.com/pub/ASUS/mb/SocketFM2/A88X-GAMER/A88X-GAMER-ASUS-1603.zip",
+]
+
 
 # Upstreamed ec
 EC_BOARDS = [
@@ -323,7 +327,11 @@ BOARDNAME_CONVERT = {
     "PRIME B550-PLUS AC HES": "PRIME B550-PLUS AC-HES",
     "TUF GAMING B550M-E (WI-FI)": "TUF GAMING B550M-E WIFI",
     "PRIME B460M-A R2": "PRIME B460M-A R2.0",
-    "TUF GAMING X570-PLUS BR": "TUF GAMING X570-PLUS_BR"
+    "TUF GAMING X570-PLUS BR": "TUF GAMING X570-PLUS_BR",
+    "970-PRO-GAMING-AURA": "970 PRO GAMING/AURA",
+    "B150-PRO-GAMING-AURA": "B150 PRO GAMING/AURA",
+    "H170-PRO-GAMING": "H170 PRO GAMING",
+    "X99-E-10G-WS": "X99-E-10G WS",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -532,7 +540,7 @@ def gen_asus_board_name(board_group):
         # create name
         board_name = f"{board_group[0]} {board_group[1]} "
         board_name += " ".join(board_group[2:])
-    elif board_group[0].upper() in ("PRIME"):
+    elif board_group[0].upper() in ("PRIME", "STRIX"):
         # detect chipset from name
         for chipset in BRIDGE_CHIPSETS:
             if board_group[1].startswith(chipset):
@@ -885,6 +893,8 @@ DEFAULT_FLAGS = {
     "wmi_methods": [],
     "known_good": [],
     "known_good_nct6775": [],
+    "links": [],
+    "aliases": [],
 }
 
 
@@ -1347,6 +1357,30 @@ def file_write_with_changes(name, content):
         f.write(content.encode("utf8"))
 
 
+def file_name_to_board_name(filename):
+    board_group = filename.split("-")
+    board_version = ""
+    # check bios version
+    if board_group[-1].isdigit():
+        board_version = int(board_group[-1])
+        board_group = board_group[:-1]
+    # check board producer
+    board_producer = "ASUS"
+    if board_group[-1].upper() in ("ASUS", "GIGABYTE", "LENOVO"):
+        board_producer = board_group[-1].upper()
+        board_group = board_group[:-1]
+    if board_producer == "GIGABYTE":
+        board_suffix = board_group[-1].split("_")
+        if len(board_suffix) >= 2:
+            board_version = board_suffix[-1]
+            board_group[-1] = "_".join(board_suffix[:-1])
+        board_name, bridge_chipset = gen_gigabyte_board_name(board_group)
+    else:
+        board_name, bridge_chipset = gen_asus_board_name(board_group)
+
+    return board_name, board_version, bridge_chipset, board_producer
+
+
 if __name__ == "__main__":
 
     current_dir = "."
@@ -1374,6 +1408,43 @@ if __name__ == "__main__":
     for board_name in BOARDNAME_CONVERT:
         if board_name in boards_flags:
             del boards_flags[board_name]
+
+    for board_load_link in LINKS:
+        filename = board_load_link.split("/")[-1]
+        file_parts = filename.split(".")
+        if len(file_parts) != 2:
+            print (f"Uknown file name format: {filename}")
+            continue
+        if file_parts[-1].lower() != "zip":
+            print (f"Not zip? {file_parts[-1]}")
+            continue
+        (board_name, board_version,
+         bridge_chipset, board_producer
+        ) = file_name_to_board_name(file_parts[0])
+
+        # create flags struct
+        if board_name not in boards_flags:
+            boards_flags[board_name] = {
+                "board_producer": board_producer,
+            }
+            boards_flags[board_name].update(copy.deepcopy(DEFAULT_FLAGS))
+        board_flags = boards_flags[board_name]
+        if bridge_chipset:
+            board_flags["bridge"] = bridge_chipset
+        # links
+        if not board_flags.get("links"):
+            board_flags["links"] = []
+        if board_load_link not in board_flags["links"]:
+            board_flags["links"].append(board_load_link)
+        board_flags["links"] = sorted(board_flags["links"])
+        # aliases
+        if not board_flags.get("aliases"):
+            board_flags["aliases"] = []
+        if file_parts[0] not in board_flags["aliases"]:
+            board_flags["aliases"].append(file_parts[0])
+        board_flags["aliases"] = sorted(board_flags["aliases"])
+
+        print (f"To {board_name} added {board_load_link}")
 
     try:
         with open("methods.json", "rb") as f:
@@ -1407,26 +1478,12 @@ if __name__ == "__main__":
                 file_parts = filename.split(".")
                 if len(file_parts) != 3:
                     print (f"Can't parse filename: '{dirname}/{filename}'")
-                board_group = file_parts[0].split("-")
+
                 board_hash = file_parts[1]
-                board_version = ""
-                # check bios version
-                if board_group[-1].isdigit():
-                    board_version = int(board_group[-1])
-                    board_group = board_group[:-1]
-                # check board producer
-                board_producer = "ASUS"
-                if board_group[-1].upper() in ("ASUS", "GIGABYTE", "LENOVO"):
-                    board_producer = board_group[-1].upper()
-                    board_group = board_group[:-1]
-                if board_producer == "GIGABYTE":
-                    board_suffix = board_group[-1].split("_")
-                    if len(board_suffix) >= 2:
-                        board_version = board_suffix[-1]
-                        board_group[-1] = "_".join(board_suffix[:-1])
-                    board_name, bridge_chipset = gen_gigabyte_board_name(board_group)
-                else:
-                    board_name, bridge_chipset = gen_asus_board_name(board_group)
+
+                (board_name, board_version,
+                 bridge_chipset, board_producer
+                ) = file_name_to_board_name(file_parts[0])
 
                 processed_files += 1
                 print (f"Board: {board_name}")
@@ -1453,6 +1510,13 @@ if __name__ == "__main__":
                 board_flags = boards_flags[board_name]
                 if bridge_chipset:
                     board_flags["bridge"] = bridge_chipset
+
+                # aliases
+                if not board_flags.get("aliases"):
+                    board_flags["aliases"] = []
+                if file_parts[0] not in board_flags["aliases"]:
+                    board_flags["aliases"].append(file_parts[0])
+                board_flags["aliases"] = sorted(board_flags["aliases"])
 
                 # update flags to default
                 for flag in DEFAULT_FLAGS:
