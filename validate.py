@@ -1457,7 +1457,7 @@ if __name__ == "__main__":
             reader = csv.reader(f)
             try:
                 for row in reader:
-                    if row[0] == "ASUSTek Computer":
+                    if row[0] in ("ASUSTek Computer", "ASUSTeK COMPUTER INC."):
                         row[0] = "ASUS"
                     elif row[0] == "Gigabyte Technology Co., Ltd.":
                         row[0] = "GIGABYTE"

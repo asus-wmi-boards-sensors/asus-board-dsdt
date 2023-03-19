@@ -785,7 +785,7 @@ B85-PRO GAMER:
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/B85-PRO_GAMER/B85-PRO-GAMER-ASUS-2203.zip
-  superio: ''
+  superio: NCT6791D
   upstreamed_serie: false
   wmi_methods: []
 B85M-GAMER:
@@ -845,7 +845,7 @@ B85M-GAMER:
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/B85M-GAMER/B85M-GAMER-ASUS-0605.zip
-  superio: ''
+  superio: NCT6791D
   upstreamed_serie: false
   wmi_methods: []
 CROSSHAIR VI HERO:
@@ -1697,7 +1697,7 @@ H81-GAMER:
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/H81-GAMER/H81-GAMER-ASUS-0505.zip
-  superio: ''
+  superio: NCT5538D
   upstreamed_serie: false
   wmi_methods: []
 H97-PRO GAMER:
@@ -4108,7 +4108,7 @@ PRIME B450M-GAMING/BR:
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450M-GAMING-BR-SI-3804.zip
-  superio: IT8665E
+  superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -4720,7 +4720,7 @@ PRIME B550M-A (WI-FI):
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B550M-A-WIFI-ASUS-2803.zip
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -11375,7 +11375,7 @@ ROG CROSSHAIR VIII HERO (WI-FI):
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VIII-HERO-WIFI-ASUS-4201.zip
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -13232,7 +13232,7 @@ ROG STRIX B450-E GAMING:
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-E-GAMING-ASUS-4602.ZIP
-  superio: IT8665E
+  superio: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -13382,7 +13382,7 @@ ROG STRIX B450-I GAMING:
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-I-GAMING-ASUS-4602.ZIP
-  superio: IT8665E
+  superio: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -13641,7 +13641,7 @@ ROG STRIX B550-F GAMING (WI-FI):
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B550-F-GAMING-WIFI-ASUS-2423.ZIP
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -16916,7 +16916,7 @@ ROG STRIX Z390-H GAMING:
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z390-H-GAMING-ASUS-3006.ZIP
-  superio: NCT6798D
+  superio: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -16955,7 +16955,7 @@ ROG STRIX Z390-I GAMING:
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z390-I-GAMING-ASUS-3006.ZIP
-  superio: NCT6798D
+  superio: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -19266,7 +19266,7 @@ TUF GAMING B550M-PLUS (WI-FI):
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550M-PLUS-WIFI-ASUS-2803.zip
-  superio: NCT6798D
+  superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -23632,6 +23632,6 @@ Z97-PRO GAMER:
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/Z97-PRO_GAMER/Z97-PRO-GAMER-ASUS-2203.zip
-  superio: ''
+  superio: NCT5538D
   upstreamed_serie: false
   wmi_methods: []
