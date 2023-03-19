@@ -15,6 +15,13 @@ from asl_parser import (
 
 LINKS = [
     "https://dlcdnets.asus.com/pub/ASUS/mb/SocketFM2/A88X-GAMER/A88X-GAMER-ASUS-1603.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550-PLUS-WIFI-ASUS-3002.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-K-R2-ASUS-2802.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-K-ASUS-1620.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-E-ASUS-1620.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-A-ASUS-1620.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B550-XE-GAMING-WIFI-ASUS-2425.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B550-XE-GAMING-WIFI-ASUS-3001.zip",
 ]
 
 
@@ -118,7 +125,7 @@ NCT6775_BOARDS = [
     "ROG STRIX B550-F GAMING (WI-FI)",
     "ROG STRIX B550-F GAMING WIFI II",
     "ROG STRIX B550-I GAMING",
-    "ROG STRIX B550-XE GAMING (WI-FI)",
+    "ROG STRIX B550-XE GAMING WIFI",
     "ROG STRIX X570-E GAMING",
     "ROG STRIX X570-E GAMING WIFI II",
     "ROG STRIX X570-F GAMING",
@@ -332,6 +339,8 @@ BOARDNAME_CONVERT = {
     "B150-PRO-GAMING-AURA": "B150 PRO GAMING/AURA",
     "H170-PRO-GAMING": "H170 PRO GAMING",
     "X99-E-10G-WS": "X99-E-10G WS",
+    "ROG STRIX B550-XE GAMING (WI-FI)": "ROG STRIX B550-XE GAMING WIFI",
+    "PRIME H410M-K R2": "PRIME H410M-K R2.0",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -370,7 +379,6 @@ ASUS_NCT6775_MUTEX = {
         "PRIME X470-PRO", # "ASUSTeK COMPUTER INC."
         "PRIME X399-A", # "ASUSTeK COMPUTER INC."
         "PRIME B450-PLUS", # "ASUSTeK COMPUTER INC." Need to recheck
-        "PRIME B450M-GAMING", # "ASUSTeK COMPUTER INC."
         "PRIME Z270-A", # "ASUSTeK COMPUTER INC."
         "PRIME Z370-A", # "ASUSTeK COMPUTER INC."
         "CROSSHAIR VI HERO", # "ASUSTeK COMPUTER INC."

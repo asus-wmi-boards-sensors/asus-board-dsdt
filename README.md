@@ -92,7 +92,6 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | PRIME B360M-D                    | NCT5582D   | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B360M-K                    | NCT5582D   | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B450-PLUS                  | IT8665E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
-| ASUS     | PRIME B450M-GAMING               |            | N                             | N            | L (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B450M-GAMING II            | IT8655E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B450M-GAMING/BR            | IT8655E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B460-PLUS                  | NCT6798D   | N                             | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
@@ -126,10 +125,10 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | PRIME B760M-AJ D4                |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B760M-K D4                 |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME H410I-PLUS                 | NCT6798D   | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
-| ASUS     | PRIME H410M-A                    |            | N                             | N            | L                             | N                             |
-| ASUS     | PRIME H410M-E                    |            | N                             | N            | L                             | N                             |
-| ASUS     | PRIME H410M-K                    |            | N                             | N            | L                             | N                             |
-| ASUS     | PRIME H410M-K R2.0               |            | N                             | N            | L                             | N                             |
+| ASUS     | PRIME H410M-A                    |            | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME H410M-E                    |            | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME H410M-K                    |            | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME H410M-K R2.0               |            | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME H410M-R                    | NCT6798D   | N                             | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME X370-PRO                   | IT8665E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME X399-A                     |            | N?                            | N            | N (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
@@ -211,8 +210,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ROG STRIX B550-F GAMING (WI-FI)  | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B550-F GAMING WIFI II  | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B550-I GAMING          | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
-| ASUS     | ROG STRIX B550-XE GAMING (WI-FI) | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
-| ASUS     | ROG STRIX B550-XE GAMING WIFI    | NCT6798D-R | N                             | N            | L                             | N                             |
+| ASUS     | ROG STRIX B550-XE GAMING WIFI    | NCT6798D-R | N                             | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
 | ASUS     | ROG STRIX B650-A GAMING WIFI     | NCT6799D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B650E-E GAMING WIFI    | NCT6799D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B650E-F GAMING WIFI    | NCT6799D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
@@ -281,7 +279,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | TUF GAMING A520M-PLUS WIFI       | NCT6798D-R | N                             | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING B450-PLUS II          | IT8665E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING B550-PLUS             | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
-| ASUS     | TUF GAMING B550-PLUS (WI-FI)     | NCT6798D-R | N                             | N            | L                             | N                             |
+| ASUS     | TUF GAMING B550-PLUS (WI-FI)     | NCT6798D-R | N                             | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING B550-PLUS WIFI II     | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING B550-PRO              | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING B550M-E               | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |

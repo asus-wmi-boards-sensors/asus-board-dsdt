@@ -7394,6 +7394,330 @@ PRIME H410I-PLUS:
   superio: NCT6798D
   upstreamed_serie: true
   wmi_methods: *id004
+PRIME H410M-A:
+  aliases:
+  - PRIME-H410M-A-ASUS-1620
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  bridge: H410
+  gigabyte_wmi: N
+  hash:
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - b1e245208e50366bcdc72783a26ad2e7
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - efd6c097927c7b2a29764c2ef2782b76
+  - ded47140b9613fb68fff599b4dffc5f5
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - f74ccbdfe94af56646a949589162f1c1
+  - bafbb729548138922ca1308459d5f369
+  - 04a6fda4321891fd710c5254e6f9ca16
+  - e9d0791c6594f175c3a6b7915752b4f6
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  - 007e5e3e10634f890fd7c244287e4032
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - f6dbc187925fc646dedecd6c478c7150
+  - 27acec3780303f1f49b092d1c8f2cd91
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - b23168c8fff2f0a010cb662b74477bd0
+  - b8cea857ffde47d894cce27de4ac7095
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - e7e4347a349ed45e819e16618a83b8f6
+  - 11b0944941bc69483fdd8952f576de5b
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 70fa81867e9b91d22d7855436dbace29
+  - db2838ee53bc99ce296df0ee763831c5
+  - 0fc0a4e67747938601a66f49e0a79207
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 31b83ed86903b8ab484859912637e0a2
+  - a7e668c4d97491123555d43fee7e71d1
+  - afbb600fd2db509deb08c18427a8c0c4
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 375739a26431804d350f6225c0f54131
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-A-ASUS-1620.ZIP
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME H410M-E:
+  aliases:
+  - PRIME-H410M-E-ASUS-1620
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  bridge: H410
+  gigabyte_wmi: N
+  hash:
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - 007e5e3e10634f890fd7c244287e4032
+  - 375739a26431804d350f6225c0f54131
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - b23168c8fff2f0a010cb662b74477bd0
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - f74ccbdfe94af56646a949589162f1c1
+  - 70fa81867e9b91d22d7855436dbace29
+  - 04a6fda4321891fd710c5254e6f9ca16
+  - 31b83ed86903b8ab484859912637e0a2
+  - 11b0944941bc69483fdd8952f576de5b
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - e7e4347a349ed45e819e16618a83b8f6
+  - bafbb729548138922ca1308459d5f369
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 0fc0a4e67747938601a66f49e0a79207
+  - b1e245208e50366bcdc72783a26ad2e7
+  - a7e668c4d97491123555d43fee7e71d1
+  - afbb600fd2db509deb08c18427a8c0c4
+  - db2838ee53bc99ce296df0ee763831c5
+  - ded47140b9613fb68fff599b4dffc5f5
+  - b8cea857ffde47d894cce27de4ac7095
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f6dbc187925fc646dedecd6c478c7150
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - efd6c097927c7b2a29764c2ef2782b76
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - 27acec3780303f1f49b092d1c8f2cd91
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - e9d0791c6594f175c3a6b7915752b4f6
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-E-ASUS-1620.ZIP
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME H410M-K:
+  aliases:
+  - PRIME-H410M-K-ASUS-1620
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  bridge: H410
+  gigabyte_wmi: N
+  hash:
+  - b23168c8fff2f0a010cb662b74477bd0
+  - 11b0944941bc69483fdd8952f576de5b
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - afbb600fd2db509deb08c18427a8c0c4
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  - ded47140b9613fb68fff599b4dffc5f5
+  - b1e245208e50366bcdc72783a26ad2e7
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - 04a6fda4321891fd710c5254e6f9ca16
+  - 27acec3780303f1f49b092d1c8f2cd91
+  - 375739a26431804d350f6225c0f54131
+  - e9d0791c6594f175c3a6b7915752b4f6
+  - 31b83ed86903b8ab484859912637e0a2
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - 0fc0a4e67747938601a66f49e0a79207
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 007e5e3e10634f890fd7c244287e4032
+  - f6dbc187925fc646dedecd6c478c7150
+  - e7e4347a349ed45e819e16618a83b8f6
+  - a7e668c4d97491123555d43fee7e71d1
+  - 70fa81867e9b91d22d7855436dbace29
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - efd6c097927c7b2a29764c2ef2782b76
+  - b8cea857ffde47d894cce27de4ac7095
+  - bafbb729548138922ca1308459d5f369
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - db2838ee53bc99ce296df0ee763831c5
+  - f74ccbdfe94af56646a949589162f1c1
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-K-ASUS-1620.ZIP
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME H410M-K R2.0:
+  aliases:
+  - PRIME-H410M-K-R2-ASUS-2802
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  bridge: H410
+  gigabyte_wmi: N
+  hash:
+  - c4c88afe9f32bf03e9e30423e225fd02
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 8b44e41483a3c0cdc36440a1c6613c54
+  - 5b7ea64522abde776727e535447442d9
+  - f67b632f3573640a149aaa4f77865ba7
+  - 443dd3ca23d07729137b6ec1f1c49250
+  - efd6c097927c7b2a29764c2ef2782b76
+  - 177cf0d1ed804ff7d05217c22b74fbe8
+  - 49e75e347b0a97b086e2fe311445dbae
+  - a70d558c52b7c56293459ea12a54e2bc
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - bf51a438c3d9e90a638efa1458e24d33
+  - 143242e87154bc94fc7324a2f261d760
+  - 854bc52c5b0346cecad2fddeef2b6412
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 007e5e3e10634f890fd7c244287e4032
+  - 11b0944941bc69483fdd8952f576de5b
+  - 375739a26431804d350f6225c0f54131
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - 36e32382538aa95f8b32e3b7b11fb149
+  - a7e668c4d97491123555d43fee7e71d1
+  - 0fc0a4e67747938601a66f49e0a79207
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - a36ddb2be3bc408963301a1f268bca0a
+  - 1643b9a276b97966e6f0104d457de03a
+  - ee99ad5ab1a3df11cdba2c0c10257217
+  - d53e88a554303a059c738694a4dc1338
+  - 475dfbd4525874777c17470d4d0571d6
+  - 1320be9b84160e002e09729e752b6e28
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - bd26fb3d119eb22ae9778cd19f3fabaf
+  - f331349e6367ef9f9c8c66e5862bb8d0
+  - 34dec8b3796a9605f54b05eadab9e772
+  - f6dbc187925fc646dedecd6c478c7150
+  - 18797e6d2f4d25ec773d86ef8eff6736
+  - db2838ee53bc99ce296df0ee763831c5
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - 8ffed23a6528c54e2f829bafe739d2c9
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - b64290b7d9709e1bd93e204e11492c5c
+  - b1e245208e50366bcdc72783a26ad2e7
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 4cd8fd4675a457ccea6efba9cf77498f
+  - 4529fa9fb011a4e382ce0b8e623efdb4
+  - 972d589dc9dbf6c62f58e472f1f1480f
+  - 5723d24ae21e838e316cf7541af5bd38
+  - e9b9ef733f288bdfb61cd484250c17d8
+  - 6cfc3fc2aab96b1ff9c11b8a7ec46a37
+  - b44e572b5d91e2c7003d55952833613a
+  - cf18619f7419bc8dbd3bce2152fb8d53
+  - bd361be74e7cca7d40afe2a8b6f954dd
+  - bafbb729548138922ca1308459d5f369
+  - 2499fb4109f01b4d7d9bc17e872c757e
+  - 49fb501beee26c66cd404bb1e6ad8ae2
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - b972a3a88db30cc16cf7116d121fe699
+  - 3f05664f6f62f76ef765fdb00c31a60d
+  - ecdf6ca1d5975dcbd5743a0f257a7bb7
+  - 6c0e1911c55c70d573a2b4d510394e8a
+  - c93df97e800bc641666d3e42986f4bf5
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - f74ccbdfe94af56646a949589162f1c1
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-K-R2-ASUS-2802.ZIP
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME H410M-R:
   aliases:
   - PRIME-H410M-R-ASUS-1620
@@ -13749,12 +14073,14 @@ ROG STRIX B550-I GAMING:
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
-ROG STRIX B550-XE GAMING (WI-FI):
+ROG STRIX B550-XE GAMING WIFI:
   aliases:
   - ROG-STRIX-B550-XE-GAMING-WIFI-ASUS-2425
   - ROG-STRIX-B550-XE-GAMING-WIFI-ASUS-3001
   asus_dispatcher:
   - BREC
+  - BRHM
+  - BWHM
   - RHWM
   - RSIO
   - WHWM
@@ -13762,7 +14088,7 @@ ROG STRIX B550-XE GAMING (WI-FI):
   asus_ec: U
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: ''
-  asus_nct6775: Y
+  asus_nct6775: U
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -13775,53 +14101,6 @@ ROG STRIX B550-XE GAMING (WI-FI):
   bridge: B550
   gigabyte_wmi: N
   hash:
-  - d4a9dab830c388c9b3d54f1c9ce3cb52
-  - b099acc1f1931ff686c9cff5bb2f9016
-  - a83075167687a9edeab15f7f296db867
-  - 2878870fe6a2ac430634483ef1a04667
-  - 80c1e20dc5fc04433d8b8fb4361d367b
-  - e2a27f6184881232057257f8f9cb4a06
-  - dbb6f17ad2c215e8d7ecbf3047ebfc5a
-  - fc4bcccce2e738d1d8c29a23ca53973b
-  - 3d5cf298ebd9ed28a19fa502404d2631
-  - fcf167af85217bc1727a608851828864
-  - 1b9c0e99db03ee094746e2f3b5d11b13
-  - f46378d08626abb7dc5be5035530fafa
-  - 48246bb067eec0fb40893d323ad70276
-  - 99c2246e1267c127567a7970abc8c767
-  - 774f3bfc151ccfa9e82f747222daf583
-  - 81157e69f8fb549b3eaf2830cb6f108c
-  - d1530ee7fe1592711135fc817fc1ad40
-  - ba370d5d24717fa0283b907af0074bb1
-  - b35d71f6a6bb02f3beb10bff50fedb98
-  - 2b5c740b79ad81e56c4c88e7459274a5
-  - 443eeba3f078b41e4e6f31f93d8edf50
-  - 8a259ff7ed9896971297261a98cfee53
-  - 47b21f94836e5ea5c5bbd1ec8874f78b
-  - ecccebebd1fe27e8f0eb32266a64abf8
-  - d3970e0feb68e66d0c08f743b29f451e
-  - e394427988a6c7bc3587e061c2e69438
-  - 947f4de45abeff61173533d53e3fb6af
-  - 71ae1ab87b790a42b500820b23c09d75
-  - 990a086b7ea13b27f4236b9cc26e6542
-  - c673989f3caac2144df058f619135541
-  - 2d362aa2fb6efaacf2834266b130e731
-  - 07578dd44a7808dd00a8869cc6412771
-  - ab0e309d9425ce06b80d0ca6ca411f3a
-  - 513b782230b59030d83a5c8b17a6a919
-  - f50036c7cee1d8a26ab91094434270ff
-  - d07ba66e27a203a794a2ab6f9d94662b
-  - b8020323983bc172235514f39ac48e74
-  - 363af0438d71c118028d076bc03d2c75
-  - fc682b675e6f6d89927ad5dbaba8a024
-  - 93a62c2744d5e276e99be44371ef1948
-  - d42f69b50e0deeb87e53e551336e3b4b
-  - 50ea8cb0d72468349e7b01502dcf8fe0
-  - e06c083063cd0fa594a270b851a2a6e4
-  - aea46764597830fe8ebe7387dbe8547b
-  - 63f58e9eae9d53c5b8bec6aece5dcee2
-  - 740c04004354aeab097e263b561b9c05
-  - fac32adf82178bb9f5516173d0d275a9
   - 06752a4a56ef48a8b2516410eb750208
   - eec74cc62e5a853fb81a79d0de87042f
   - 689a85e5ec589a441066026a9c902320
@@ -18996,6 +19275,88 @@ TUF GAMING B550-PLUS:
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550-PLUS-ASUS-2803.zip
+  superio: NCT6798D-R
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+TUF GAMING B550-PLUS (WI-FI):
+  aliases:
+  - TUF-GAMING-B550-PLUS-WIFI-ASUS-3002
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUS
+  bridge: B550
+  gigabyte_wmi: N
+  hash:
+  - 357e7d530e2a0691ac51e320f2365b43
+  - 52c4cd21103a728585f3897eee679b57
+  - 065ab130d7877d35d0920f2769c11f33
+  - 9ad4ba1f151b45a8bfbbc929c233d035
+  - 750e9c870c45b5742adf14fa12e7fa7f
+  - 5ad15dc1eb9d6be9647f49c99814450b
+  - 0ac84bd030bbd93996549b993add6fff
+  - 19c5e35875dda7a3507d5b135a678593
+  - 8bb76d4ba4674c273a802c3ae77d1f33
+  - 4d0ec813c03755be929b0403084f6c80
+  - bc09647ad0fb52bfcce4599ffdbd1e47
+  - 980261660746a359b14ac2bc3791017f
+  - 4b49345665633695f474f9b4f282c517
+  - 306e111392a2c24a7559dd374eeee6d8
+  - a37850c53e932a5c2ad5ada9e4e43429
+  - 510c8e1f06e5f4b17eea84b305379c08
+  - f0c3e88532e230c713c81e76be37845c
+  - ac9926db5ff2703833b921b13c5c0cbb
+  - e5e384d3f468bbb7a9a8b5cf2e036694
+  - 490a15e09d3971f3e8c34990b34ccad3
+  - b84f52664f5a0a49a2b3e1596d0ab973
+  - d59afae0723170f66be19de545efec01
+  - 3b905e43fae6574cd5e7bbd86d4468ab
+  - f472cd2bb93a1ab993598562f6c774cb
+  - e9b69b8c1d3d05930378caa305d9ba61
+  - ad3a72ae561b107971fe71a565ac2c23
+  - ad792f6ed38ea4cb2261b90fb779cbab
+  - 6356326dae6ab169f5ad948af069e24c
+  - aa6ca0c51ddca6fddf6e317ad988b34a
+  - e110252fda8cdb9970965aaa4714d8a8
+  - ab17083f5828e5419fdb4792a0deb57d
+  - 846e4c8f99c84fc1db4b755b688622b9
+  - 62a1aa67b880d96f3d76579926da563e
+  - 7d6d4b9351c9bdc7e98e5c4f940fcae3
+  - 4624ffa4ac39f3e466b4d298f459f7e1
+  - 2dc3c715a9d6c9b385dcddb69a68dd26
+  - 4d7e9a4f1f187abde67493cf03486fcd
+  - a9404f150eb9dd28a3b1a0f10c3ade3d
+  - 0553603fc8b54cbaa940c910cb2113de
+  - 2b0c8eb7755bdbc67658bcafe67920d3
+  - 2d4fa36da211030c4985d92b50bc2734
+  - 7069466460838bf016226118b2306e42
+  - 30aa17fae0882045864c674f0f1df443
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550-PLUS-WIFI-ASUS-3002.zip
   superio: NCT6798D-R
   upstreamed_serie: true
   wmi_methods:
