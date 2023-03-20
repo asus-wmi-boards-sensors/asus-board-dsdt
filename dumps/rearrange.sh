@@ -5,5 +5,5 @@ do
 	mkdir -p "${dirname}" | exit
 	mv ${dirname}*.aml "${dirname}" | exit
 	# convert to dsl
-	find ${dirname}/*.aml | awk '{print "iasl -dl " $1}' | sh - || exit
+	find ${dirname}/*.aml | awk '{print "iasl -dl " $1}' | sh - 2>/dev/null 1>/dev/null || echo "Recheck ${dirname}"
 done

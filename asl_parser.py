@@ -15,6 +15,7 @@ OPERATION_WITH_PARAMETERS = [
     "Notify",
     "Release",
     "Return",
+    "And",
     # Create*Field
     "CreateBitField",
     "CreateByteField",
@@ -164,7 +165,7 @@ def parse_block(buf, path=None):
                 buf = skip_empty_text(buf)
         if buf and "}" == buf[0]:
             buf = buf[1:]
-    elif operator in ["Method", "Field", "IndexField"]:
+    elif operator in ["Method", "Field", "IndexField", "BankField", "Package"]:
         result["parameters"], buf = select_open_close(buf)
         buf = skip_empty_text(buf)
         result["content"], buf = select_open_close(buf)
@@ -174,7 +175,10 @@ def parse_block(buf, path=None):
     # call function in scope
     elif operator.startswith("\\"):
         result["parameters"], buf = select_open_close(buf)
-    elif operator in ["Zero"]:
+    elif (
+        operator in ["Zero", "Noop"] or
+        (operator.startswith("0x") and len(operator) == 10) # some raw command
+    ):
         # noop
         pass
     else:

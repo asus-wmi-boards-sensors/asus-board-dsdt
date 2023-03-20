@@ -11,7 +11,7 @@
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   known_good: []
@@ -21,8 +21,95 @@
   superio: ''
   upstreamed_serie: false
   wmi_methods: []
+970A-DS3P:
+  aliases:
+  - 970A-DS3P-GIGABYTE-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - c0793ea4fef009c2770dd55f8a34ea6b
+  - 129f853dd9718203b34b4bae9c7f5138
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
+990XA-UD3:
+  aliases:
+  - 990XA-UD3-GIGABYTE-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - c64bfa8192b7e7b495dd90799310538f
+  - 9faa2fdab8fc98da5add402ff790715a
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
+A320M-S2H-CF:
+  aliases:
+  - A320M-S2H-CF-GIGABYTE-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: A320
+  gigabyte_wmi: U
+  hash:
+  - f427f8f3b6859d2c14d28ee3d626ca21
+  - f207ef9ffc4c157494376ffdb5d16e9f
+  - b0b9e20dd30298361906fc9e6ae5e6b4
+  - 87b5c2c6b6d584dca5c78ba6ece841a9
+  - 2dfd0585504bd10e784c625088ff994d
+  - c22ee13f391cfd8d79cc5444473eac15
+  - e15a8f145d95956099eb7e14e9246938
+  - 7d91110956889843d701ec0f1acded08
+  - 66bd9af60a16bc06bd10e0813f016ce7
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
 A68HM-K:
   aliases:
+  - A68HM-K-ASUS-0000
   - A68HM-K-ASUS-2012
   asus_dispatcher: []
   asus_ec: N
@@ -34,7 +121,7 @@ A68HM-K:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A68H
   gigabyte_wmi: N
   hash:
@@ -42,13 +129,21 @@ A68HM-K:
   - 33508028db81f9a4e032bb6791da5fd7
   - 176a960cc0a858338d5dc92e97c36707
   - bb4b63d750ff539695dbf638eb6cf153
-  known_good: []
+  - a6d28c7d14575341b196e8b559530a52
+  - 3b8803df1e1f4d1a9ae5535095c34ee2
+  - b86e2d754110150be887dcfeae3008d4
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/SocketFM2/A68HM-K/A68HM-K-ASUS-2012.zip
   superio: ''
   upstreamed_serie: false
-  wmi_methods: []
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 A68HM-PLUS:
   aliases:
   - A68HM-PLUS-ASUS-2011
@@ -62,7 +157,7 @@ A68HM-PLUS:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A68H
   gigabyte_wmi: N
   hash:
@@ -90,7 +185,7 @@ A88X-GAMER:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A88X
   gigabyte_wmi: N
   known_good: []
@@ -116,7 +211,7 @@ B150 PRO GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B150
   gigabyte_wmi: N
   hash:
@@ -245,7 +340,7 @@ B150 PRO GAMING D3:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B150
   gigabyte_wmi: N
   hash:
@@ -363,7 +458,7 @@ B150 PRO GAMING/AURA:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B150
   gigabyte_wmi: N
   known_good: []
@@ -389,7 +484,7 @@ B150I PRO GAMING/AURA:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B150
   gigabyte_wmi: N
   hash:
@@ -506,7 +601,7 @@ B150I PRO GAMING/WIFI/AURA:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B150
   gigabyte_wmi: N
   hash:
@@ -623,7 +718,7 @@ B150M PRO GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B150
   gigabyte_wmi: N
   hash:
@@ -728,6 +823,156 @@ B150M PRO GAMING:
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+B450 AORUS ELITE:
+  aliases:
+  - B450-AORUS-ELITE-GIGABYTE-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: B450
+  gigabyte_wmi: U
+  hash:
+  - 7fc0bcfe80fa752b54441a4ad09f863f
+  - 38eca57fc8459f39be7f201fb406dd2e
+  - c86601d6143a31ec8744da227a277356
+  - fb69d9383e957b138fe1e6b010e491bc
+  - 66bd9af60a16bc06bd10e0813f016ce7
+  - 8de38a4f5681bdf366c35a5de22b1e96
+  - d487d8f69c6ed3cbf6fa2c9591cd0b81
+  - a85ae492f4e50d482b14f1f4f829bbc8
+  - d7a6f6381bcba7f17a529184caa24f0d
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+B450 AORUS PRO WIFI-CF:
+  aliases:
+  - B450-AORUS-PRO-WIFI-CF-GIGABYTE-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: B450
+  gigabyte_wmi: U
+  hash:
+  - 6da547d192dc94042bcc0bcbffffeace
+  - f073dcc56c3f4491c888dc71e2ea805b
+  - b28db0d6bd3b57792247d89ce4f0496f
+  - 3ba4c1ea125bcfee21598b8d9684d580
+  - e9dd43ea629f177b68c7a8e7e4abf2c7
+  - c28013fd57b13b93505f6029c10834ad
+  - 8980957b2b6eab31d650064f6573c76a
+  - 2448725ca22f9e8b9c34e400acf18706
+  - 41813321a911ad32cbf06cddc290ab5b
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+B550 AORUS ELITE AX V2:
+  aliases:
+  - B550-AORUS-ELITE-AX-V2-GIGABYTE-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: B550
+  gigabyte_wmi: Y
+  hash:
+  - 0137ba9ee872c1acf7b4cc28141ed2a9
+  - 6ab3c2c14c45920c8165c0681d19d050
+  - 7029768c856c60818724234b42780f0a
+  - 50f9dd7996aacbd338a185cc07f5869a
+  - 205dedf00b29b07f5341ee3d1eb12950
+  - f9a132386aedf55bc0c0bba127ad9adf
+  - 41813321a911ad32cbf06cddc290ab5b
+  - 0a436b7571ab628e9dd4108b591ee5f8
+  - 4a5d9332c2dc542bf04a5777ef2979e9
+  - 22e236e5105f1f9e68a3fdfa58ef2372
+  - 457fd865e426d7cb1c3d81d1abbffbbc
+  - 7ac38c3c7522f2c310b4ba755e348400
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+B550 AORUS PRO V2:
+  aliases:
+  - B550-AORUS-PRO-V2-GIGABYTE-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: B550
+  gigabyte_wmi: U
+  hash:
+  - 52302bb1f7bcff360ce50b9860036f13
+  - f9a132386aedf55bc0c0bba127ad9adf
+  - c60eb6ff8e652b26837f4d3cbc7b2587
+  - 68c24ecca3bbecb57e1c563d7c3c44e7
+  - 54b04017b3d6553ac5d48f91841149b8
+  - f6f3e48065b80a952dd7e9fa3f38d435
+  - 41813321a911ad32cbf06cddc290ab5b
+  - 3a8aec134c3ca28ef25d62cc4c976df3
+  - 97e4d6717e77bde40227bb1ccd231e78
+  - 0a436b7571ab628e9dd4108b591ee5f8
+  - 457fd865e426d7cb1c3d81d1abbffbbc
+  - 205dedf00b29b07f5341ee3d1eb12950
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
 B85-PRO GAMER:
   aliases:
   - B85-PRO-GAMER-ASUS-2203
@@ -741,7 +986,7 @@ B85-PRO GAMER:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B85
   gigabyte_wmi: N
   hash:
@@ -801,7 +1046,7 @@ B85M-GAMER:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B85
   gigabyte_wmi: N
   hash:
@@ -874,7 +1119,7 @@ CROSSHAIR VI HERO:
   - IOHW
   asus_wmi: Y
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -1008,7 +1253,7 @@ EX-A320M-GAMING:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A320
   gigabyte_wmi: N
   hash:
@@ -1099,7 +1344,7 @@ EX-B660M-V5 D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -1267,7 +1512,7 @@ EX-B660M-V5 PRO D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -1402,7 +1647,7 @@ EX-B760M-V5 D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B760
   gigabyte_wmi: N
   hash:
@@ -1617,6 +1862,129 @@ EX-B760M-V5 D4:
   - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+EX58-UD5:
+  aliases:
+  - EX58-UD5-GIGABYTE-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - 9b0341f40b50d151d5824dbff4ca399c
+  - 064d957ca4439e34fcf01800c6f3f014
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
+F2A78M-HD2:
+  aliases:
+  - F2A78M-HD2-GIGABYTE-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - ec1793057c855d8b33ff736016467094
+  - 17f6f39461cd30e6dfc77ba3b6d8451e
+  - 91ee7d5fde9acd6ff7a8d63551de023c
+  - 483531f814d7005c08741b4f3ca3280c
+  - c2cf18094b31140fe955531bbdb473de
+  - 800af3cb377c423f6d7322b203ea03e2
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
+GA-MA78LMT-US2H:
+  aliases:
+  - GA-MA78LMT-US2H-GIGABYTE-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - a62702327760da7f43819d6f36150979
+  - b21314b06c1a5cf64a15658772b12177
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
+H110M-A/M.2:
+  aliases:
+  - H110M-A-M-2-ASUS-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: H110
+  gigabyte_wmi: N
+  hash:
+  - bfd3e2b9c0885c9851b9330fbac0297c
+  - 2ce55b43dcb171dfb8ee453529cfd864
+  - 6820e45e3b69f30ccb84ae2022f1700d
+  - a28c299b6f05a6d820de7d79c72c04ec
+  - 9b4557889f4777289c97027e1ab19f57
+  - 51bf00ab6d43e0934e7bb2ad22f78490
+  - 4714bd08e60082a9668ed454bde09e96
+  - 32a7306afd94edf3cbea9da675648980
+  - ec1f624ff6980f47023d07adaf2a94d5
+  - 41ef62c4a901ab93184f918de26e7ec6
+  - 11859d4b129c5627a25637f97c6f3e63
+  - ee1c721a70d27b6f93f37514d727378d
+  - 40ff90996890eb96ba6862ad9f983301
+  known_good:
+  - ASUSWMI
+  known_good_nct6775: []
+  links: []
+  superio: NCT5539D
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 H170 PRO GAMING:
   aliases:
   - H170-PRO-GAMING-ASUS-3805
@@ -1630,7 +1998,7 @@ H170 PRO GAMING:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: H170
   gigabyte_wmi: N
   known_good: []
@@ -1653,7 +2021,7 @@ H81-GAMER:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: H81
   gigabyte_wmi: N
   hash:
@@ -1700,6 +2068,45 @@ H81-GAMER:
   superio: NCT5538D
   upstreamed_serie: false
   wmi_methods: []
+H81M-R:
+  aliases:
+  - H81M-R-ASUS-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: H81
+  gigabyte_wmi: N
+  hash:
+  - d8f373fafe6870327a41a9f087b6c484
+  - 7f3dc97a02591d40b6086d54284cc3ff
+  - e6ad53b1f58bb24874a39d2507a63d52
+  - be8c3efa5e46b5fd39e9cde22cf841f1
+  - 41818683233eb625a0457cb188da8027
+  - 468c4dbdb2aaa9e9ac53e93278de51a8
+  - d6327ca4cb812ed3ff94f7fa5fe01419
+  - 9545cede0b5e14885ab471b94a81f36a
+  known_good:
+  - ASUSWMI
+  known_good_nct6775: []
+  links: []
+  superio: NCT5538D
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 H97-PRO GAMER:
   aliases:
   - H97-PRO-GAMER-ASUS-2402
@@ -1714,7 +2121,7 @@ H97-PRO GAMER:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: H97
   gigabyte_wmi: N
   hash:
@@ -1743,6 +2150,121 @@ H97-PRO GAMER:
   superio: NCT5538D
   upstreamed_serie: false
   wmi_methods: []
+K30AD_M31AD_M51AD_M32AD:
+  aliases:
+  - K30AD_M31AD_M51AD_M32AD-ASUS-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - ad0920d70f9b0b02c16f7315e7a8c590
+  - 76e1e70129d612d67549dd00caf77ec8
+  - 5d94e894ac4a26d4636a71ca180222d3
+  - 9545cede0b5e14885ab471b94a81f36a
+  - 785911edb51f10c44ef1f19cae4703ab
+  - 468c4dbdb2aaa9e9ac53e93278de51a8
+  - e6ad53b1f58bb24874a39d2507a63d52
+  - d6327ca4cb812ed3ff94f7fa5fe01419
+  - 342394f51369fd8523a07ee2f726c69a
+  known_good:
+  - ASUSWMI
+  known_good_nct6775: []
+  links: []
+  superio: NCT5538D
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+M4A88TD-V EVO/USB3:
+  aliases:
+  - M4A88TD-V-EVO-USB3-ASUS-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK Computer INC.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - eb6ae429dbfc878a293c282554df2bea
+  - 992a934778b96414003d877c1a5370dc
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
+M5A78L-M PLUS/USB3:
+  aliases:
+  - M5A78L-M-PLUS-USB3-ASUS-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK Computer INC.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - 5edd40385f2f8ad983d25733bf9f8eb7
+  - b8207afab851b5ecf7ed7faccd261a87
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: IT8728F
+  upstreamed_serie: false
+  wmi_methods: []
+M5A88-M:
+  aliases:
+  - M5A88-M-ASUS-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK Computer INC.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - 4cdca3c83347345a83a8c30fca399c33
+  - 4f827b83c79ed818d1d853354a1edf1e
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
 MAXIMUS IX APEX:
   aliases:
   - MAXIMUS-IX-APEX-ASUS-1301
@@ -1759,7 +2281,7 @@ MAXIMUS IX APEX:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -1794,7 +2316,7 @@ MAXIMUS IX CODE:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -1828,7 +2350,7 @@ MAXIMUS IX EXTREME:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -1863,7 +2385,7 @@ MAXIMUS IX FORMULA:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -1897,7 +2419,7 @@ MAXIMUS IX HERO:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -1932,7 +2454,7 @@ MAXIMUS VII HERO:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -1945,6 +2467,202 @@ MAXIMUS VII HERO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/MAXIMUS-VII-HERO/MAXIMUS-VII-HERO-ASUS-3201.zip
   superio: NCT6791D
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+Maximus VIII FORMULA:
+  aliases:
+  - Maximus-VIII-FORMULA-ASUS-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - 4714bd08e60082a9668ed454bde09e96
+  - 5f96be801413c2e6a3ef500ef958635d
+  - 2ce55b43dcb171dfb8ee453529cfd864
+  - 4240b18a09eebb41a274b41fa2073c09
+  - 6820e45e3b69f30ccb84ae2022f1700d
+  - c910a8408828eb905a74fa14a4c87ac4
+  - ec1f624ff6980f47023d07adaf2a94d5
+  - 59e83e65e8bb1f6602cf27fdd592d38a
+  - d709def72375a5d48d957fd50b85a6b7
+  - bfd3e2b9c0885c9851b9330fbac0297c
+  - 7f961758418e5cd85e3e366a12565945
+  - 41ef62c4a901ab93184f918de26e7ec6
+  - eecd412d193be8d2c68ffa63f83acc59
+  - 448fe0de2f7fcad0e43d14c91c205c5f
+  - 4d4c1e57c3cfc766bd303ed7e249028f
+  - a407301b561326a07718277ddb5db3f4
+  known_good:
+  - ASUSWMI
+  known_good_nct6775: []
+  links: []
+  superio: NCT6793D
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+P5GC-MX:
+  aliases:
+  - P5GC-MX-ASUS-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: HWRE
+  asus_port290:
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK Computer INC.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - 9c7a85647e36377b84442857891a3b21
+  - 98f650ee7978f65107abd44154654d36
+  - 05f5430953333b2685d30c3b48f2564c
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
+P5Q-EM:
+  aliases:
+  - P5Q-EM-ASUS-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: HWRE
+  asus_port290:
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK Computer INC.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - 6e29f388c0be1cd45998c87ef2ba693b
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
+P5QL PRO:
+  aliases:
+  - P5QL-PRO-ASUS-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: HWRE
+  asus_port290:
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK Computer INC.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - cf9425dd93eb7d1722b657bd4e67eac2
+  - 287495693330f6f7aa43ba914f5df48d
+  - 0310999c6527bf17c386a7088e52f2b6
+  - 99a44c75c443d25040e02aaef012476f
+  - e943777b09d1b0df54f12336a4a9ab08
+  - 715c578425fe0ab37e03269f3a8de8d9
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
+P5VD2-VM:
+  aliases:
+  - P5VD2-VM-ASUS-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK Computer INC.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - c1dc85c3dd81379ea0592ad2c5c461c6
+  - d67d5892b39584f79e6cb7f710058645
+  - cc9444670cda94ff34516d8a87682708
+  - a771ff186dcfe0661c5f6e2c97c615f4
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
+P8H61-M LX R2.0:
+  aliases:
+  - P8H61-M-LX-R2-0-ASUS-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWRE
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - 8765cdab0f788bb8b048ee49be3be49f
+  - 1aebf30b748458f8b9727630540cd159
+  - 53314f817a3f63470c724c0fc007dbf2
+  - 7d579c65fe1d76c88805e1dbbd6a6d84
+  - 468c4dbdb2aaa9e9ac53e93278de51a8
+  - 40cfea39736bd6d67cda8af9b7b93408
+  - b5325f3338b5ff46af0aacca9b74922c
+  known_good:
+  - ASUSWMI
+  known_good_nct6775: []
+  links: []
+  superio: NCT6779D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -1967,7 +2685,7 @@ P8H67:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -2001,7 +2719,7 @@ P8Z68-V LX:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -2039,7 +2757,7 @@ PRIME A320I-K:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A320
   gigabyte_wmi: N
   hash:
@@ -2130,7 +2848,7 @@ PRIME A320M-A:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A320
   gigabyte_wmi: N
   hash:
@@ -2221,7 +2939,7 @@ PRIME A320M-C R2.0:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A320
   gigabyte_wmi: N
   hash:
@@ -2312,7 +3030,7 @@ PRIME A320M-E:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A320
   gigabyte_wmi: N
   hash:
@@ -2403,7 +3121,7 @@ PRIME A320M-F:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A320
   gigabyte_wmi: N
   hash:
@@ -2494,7 +3212,7 @@ PRIME A320M-K:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A320
   gigabyte_wmi: N
   hash:
@@ -2585,7 +3303,7 @@ PRIME A520M-A:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A520
   gigabyte_wmi: N
   hash:
@@ -2706,7 +3424,7 @@ PRIME A520M-A II:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A520
   gigabyte_wmi: N
   hash:
@@ -2827,7 +3545,7 @@ PRIME A520M-E:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A520
   gigabyte_wmi: N
   hash:
@@ -2948,7 +3666,7 @@ PRIME A520M-K:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A520
   gigabyte_wmi: N
   hash:
@@ -3069,7 +3787,7 @@ PRIME B350-PLUS:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B350
   gigabyte_wmi: N
   hash:
@@ -3160,7 +3878,7 @@ PRIME B350M-A:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B350
   gigabyte_wmi: N
   hash:
@@ -3233,6 +3951,7 @@ PRIME B350M-A:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME B350M-E:
   aliases:
+  - PRIME-B350M-E-ASUS-0000
   - PRIME-B350M-E-ASUS-6061
   asus_dispatcher:
   - RHWM
@@ -3251,7 +3970,7 @@ PRIME B350M-E:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B350
   gigabyte_wmi: N
   hash:
@@ -3309,6 +4028,13 @@ PRIME B350M-E:
   - 510c8e1f06e5f4b17eea84b305379c08
   - 0ac84bd030bbd93996549b993add6fff
   - aa6ca0c51ddca6fddf6e317ad988b34a
+  - c4f2961da10ce8f5f00540bdefab983a
+  - 7c527fbbdb20d7c0cc36f5fcff555ef5
+  - bbb514f8ce3ecc00810d58af5ccdeaab
+  - 1c3de3f1b75ac9ec8cfa6a3b8d4441e6
+  - f218da2f017ac107073204d78cb87f72
+  - e9dd43ea629f177b68c7a8e7e4abf2c7
+  - 76f761b68d8995ff93c9e788fc8fbca4
   known_good:
   - ASUSWMI
   known_good_nct6775:
@@ -3342,7 +4068,7 @@ PRIME B350M-K:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B350
   gigabyte_wmi: N
   hash:
@@ -3432,7 +4158,7 @@ PRIME B360-PLUS:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B360
   gigabyte_wmi: N
   hash:
@@ -3471,7 +4197,7 @@ PRIME B360M-A:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B360
   gigabyte_wmi: N
   hash:
@@ -3626,7 +4352,7 @@ PRIME B360M-C:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B360
   gigabyte_wmi: N
   hash:
@@ -3722,7 +4448,7 @@ PRIME B360M-D:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B360
   gigabyte_wmi: N
   hash:
@@ -3818,7 +4544,7 @@ PRIME B360M-K:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B360
   gigabyte_wmi: N
   hash:
@@ -3912,7 +4638,7 @@ PRIME B450-PLUS:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B450
   gigabyte_wmi: N
   hash:
@@ -3927,6 +4653,51 @@ PRIME B450-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450-PLUS-ASUS-3802.zip
   superio: IT8665E
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME B450M-A II:
+  aliases:
+  - PRIME-B450M-A-II-ASUS-0000
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO3B
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B450
+  gigabyte_wmi: N
+  hash:
+  - 26bc9d132b01d681687ee69a54210677
+  - e24682ce73613565638526c9180db8c0
+  - 4e651db9cbe4bba574a9208cecbd8021
+  - 6c2be92304f7f38542b2f699253dcbd8
+  - 3b0b21363d0458a0cdf7c5aa956eabde
+  - c422ff11dc608fb6961c6a7f7bb3dffb
+  - e486ee9b05013a327c5df392c4faba3a
+  - 24a54e3ad3f71c31a28fb65aeca8034f
+  - e532aa25656887a91b675c927ff2c37d
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links: []
+  superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -3953,7 +4724,7 @@ PRIME B450M-GAMING II:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B450
   gigabyte_wmi: N
   hash:
@@ -4044,7 +4815,7 @@ PRIME B450M-GAMING/BR:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B450
   gigabyte_wmi: N
   hash:
@@ -4135,7 +4906,7 @@ PRIME B460-PLUS:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B460
   gigabyte_wmi: N
   hash:
@@ -4176,7 +4947,7 @@ PRIME B460I-PLUS:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B460
   gigabyte_wmi: N
   hash:
@@ -4242,7 +5013,7 @@ PRIME B460M-A:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B460
   gigabyte_wmi: N
   hash:
@@ -4310,7 +5081,7 @@ PRIME B460M-A R2.0:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B460
   gigabyte_wmi: N
   hash:
@@ -4469,7 +5240,7 @@ PRIME B460M-K:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B460
   gigabyte_wmi: N
   hash:
@@ -4517,12 +5288,15 @@ PRIME B460M-K:
   wmi_methods: *id002
 PRIME B550-PLUS:
   aliases:
+  - PRIME-B550-PLUS-ASUS-0000
   - PRIME-B550-PLUS-ASUS-2803
   asus_dispatcher:
   - RHWM
   - RSIO
   - WHWM
   - WSIO
+  - BRHM
+  - BWHM
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
@@ -4535,7 +5309,7 @@ PRIME B550-PLUS:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -4547,6 +5321,15 @@ PRIME B550-PLUS:
   - b0db63846c745586a170744bfba10f5d
   - 1827a9cb746fc69f78d9f471e6364bc1
   - d6a02a738148d402e3d03228af8500a3
+  - add3fcd0d65b4390426d69033a70bdd8
+  - 167452fd51a7ffc9e48f28815ba4f4ab
+  - 9133ee1fe38d317fffa35197d116f317
+  - 96f27d876ff89ea538024f6d0c0a342e
+  - 0a436b7571ab628e9dd4108b591ee5f8
+  - 26bc9d132b01d681687ee69a54210677
+  - 21c483fced67a361a9154440ce99232a
+  - 68fc971a2694059ebdbcb8881efb2be8
+  - 7d6bb57521f5138671884538230f61b0
   known_good:
   - ASUSWMI
   known_good_nct6775:
@@ -4580,7 +5363,7 @@ PRIME B550-PLUS AC-HES:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -4657,7 +5440,7 @@ PRIME B550M-A:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -4702,7 +5485,7 @@ PRIME B550M-A (WI-FI):
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -4747,7 +5530,7 @@ PRIME B550M-A AC:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -4792,7 +5575,7 @@ PRIME B550M-A WIFI II:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -4837,7 +5620,7 @@ PRIME B550M-K:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -4882,7 +5665,7 @@ PRIME B650-PLUS:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B650
   gigabyte_wmi: N
   hash:
@@ -4993,7 +5776,7 @@ PRIME B650M-A:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B650
   gigabyte_wmi: N
   hash:
@@ -5101,7 +5884,7 @@ PRIME B650M-A AX:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B650
   gigabyte_wmi: N
   hash:
@@ -5209,7 +5992,7 @@ PRIME B650M-A AX II:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B650
   gigabyte_wmi: N
   hash:
@@ -5359,7 +6142,7 @@ PRIME B650M-A II:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B650
   gigabyte_wmi: N
   hash:
@@ -5465,7 +6248,7 @@ PRIME B650M-A WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B650
   gigabyte_wmi: N
   hash:
@@ -5503,7 +6286,7 @@ PRIME B650M-A WIFI II:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B650
   gigabyte_wmi: N
   hash:
@@ -5592,12 +6375,15 @@ PRIME B650M-A WIFI II:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME B660-PLUS D4:
   aliases:
+  - PRIME-B660-PLUS-D4-ASUS-0000
   - PRIME-B660-PLUS-D4-ASUS-2212
   asus_dispatcher: &id003
   - RHWM
   - RSIO
   - WHWM
   - WSIO
+  - BRHM
+  - BWHM
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
@@ -5610,7 +6396,7 @@ PRIME B660-PLUS D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -5686,8 +6472,21 @@ PRIME B660-PLUS D4:
   - a3c29c66f1fcd1975a7dd2c28e1a8a94
   - 2657e3a14d6837356381ea2e89cb3900
   - e9fceaffb238348bf8e9e39398885861
-  known_good: []
-  known_good_nct6775: []
+  - 041f2b79c4300f14119542b849e9369a
+  - 33a84499d562764dc4e09ead6de0dd27
+  - 024df977aab7a53b1b9a2f0f03441c70
+  - 4958e156ecf9642f2a5fe81358e4acb4
+  - 3eda53e4928d4464982c457bdaf0980e
+  - 513a78c7477d0b887caf5f78040f019f
+  - ab899c9a44ebe7dde76c476286da68c7
+  - 1dcd96ac8b2f560a4236b4d1e82cf52d
+  - fcc3b196695900a6f6bcaadc803ed5cb
+  - cdc59b3bc8dec3e6890ff1c73c1042c5
+  - 3f189ac66e88bdb3d42a733220046935
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B660-PLUS-D4-ASUS-2212.zip
   superio: NCT6798D
@@ -5714,7 +6513,7 @@ PRIME B660M-A AC D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -5811,7 +6610,7 @@ PRIME B660M-A D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -5946,7 +6745,7 @@ PRIME B660M-A WIFI D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -6077,7 +6876,7 @@ PRIME B660M-K D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -6175,7 +6974,7 @@ PRIME B760-PLUS D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B760
   gigabyte_wmi: N
   hash:
@@ -6357,7 +7156,7 @@ PRIME B760M-A AX D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B760
   gigabyte_wmi: N
   hash:
@@ -6528,7 +7327,7 @@ PRIME B760M-A D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B760
   gigabyte_wmi: N
   hash:
@@ -6843,7 +7642,7 @@ PRIME B760M-A WIFI D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B760
   gigabyte_wmi: N
   hash:
@@ -7013,7 +7812,7 @@ PRIME B760M-AJ D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B760
   gigabyte_wmi: N
   hash:
@@ -7183,7 +7982,7 @@ PRIME B760M-K D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B760
   gigabyte_wmi: N
   hash:
@@ -7332,6 +8131,103 @@ PRIME B760M-K D4:
   - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME H270-PLUS:
+  aliases:
+  - PRIME-H270-PLUS-ASUS-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: H270
+  gigabyte_wmi: N
+  hash:
+  - bfd3e2b9c0885c9851b9330fbac0297c
+  - 4742a50cfccb3ccd0f82b383435eed80
+  - 884ef32c7daf2266f768928242a49afc
+  - 6820e45e3b69f30ccb84ae2022f1700d
+  - 7f961758418e5cd85e3e366a12565945
+  - 9cd7f775be39faa3d4e56845bd9860d7
+  - bde81d792b3baec30f2269c26951dd60
+  - d73a10fbdb351e320558679d7e6c05f2
+  - bec72a6c115ad206bd7a86ccea573cfd
+  - 4714bd08e60082a9668ed454bde09e96
+  - 66a52e9ea6df4b794a4ee1c078d3c947
+  - d3057d7d8532890c6d4f6dbda41148f3
+  - b62ac08b0b5ec375fdee40bb7d3c1c5d
+  known_good:
+  - ASUSWMI
+  known_good_nct6775: []
+  links: []
+  superio: NCT5539D
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+PRIME H310T:
+  aliases:
+  - PRIME-H310T-ASUS-0000
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: H310
+  gigabyte_wmi: N
+  hash:
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - adada17f729ca2365837299b8effa28e
+  - dbab5a732833fea3eaa39b2652b8e375
+  - 0c334d5d4df14f83a80adec1399dda5c
+  - 9e92140df0d1dc9a04dddcb6da3495c4
+  - 4d7befc6e5b00ccc627a4d5eae703ce4
+  - c259b81a16a18c5f5d2137c70ba0725b
+  - 459ccd49cb521d5e3856d1defc39b4ac
+  - 1132f826353ff67b59ede631b35a031d
+  - 48e87d59304397114a6a7ae2479d3713
+  - bad02ea0c19697ff6d4ebb3f79c88cd3
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - 62df7cc4e24fd750dd67991ffee4c1c3
+  - acd09fab0d56c4f02b3a9bb009d3e3a0
+  - 05090ea03d6b58195a72203edf92ed0f
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links: []
+  superio: NCT5582D
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME H410I-PLUS:
   aliases:
   - PRIME-H410I-PLUS-ASUS-1601
@@ -7348,7 +8244,7 @@ PRIME H410I-PLUS:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: H410
   gigabyte_wmi: N
   hash:
@@ -7416,7 +8312,7 @@ PRIME H410M-A:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: H410
   gigabyte_wmi: N
   hash:
@@ -7490,7 +8386,7 @@ PRIME H410M-E:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: H410
   gigabyte_wmi: N
   hash:
@@ -7564,7 +8460,7 @@ PRIME H410M-K:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: H410
   gigabyte_wmi: N
   hash:
@@ -7638,7 +8534,7 @@ PRIME H410M-K R2.0:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: H410
   gigabyte_wmi: N
   hash:
@@ -7738,7 +8634,7 @@ PRIME H410M-R:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: H410
   gigabyte_wmi: N
   hash:
@@ -7759,6 +8655,7 @@ PRIME H410M-R:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME X370-PRO:
   aliases:
+  - PRIME-X370-PRO-ASUS-0000
   - PRIME-X370-PRO-ASUS-6042
   asus_dispatcher:
   - RHWM
@@ -7777,7 +8674,7 @@ PRIME X370-PRO:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X370
   gigabyte_wmi: N
   hash:
@@ -7789,6 +8686,13 @@ PRIME X370-PRO:
   - f44de220c2f11e6193bede09a379e2f4
   - 42d13e81ad789184e93542cf8cbeb128
   - 997f54960de9245cb59ecc7478be185d
+  - e9b69b8c1d3d05930378caa305d9ba61
+  - e2db6f09c0c6d6aaa6af4b8a786e76b6
+  - c00db5a83d18926823da3ebd73f9044a
+  - a304f37c879e37dc2662c44f445d6899
+  - dad5f1d28de1946b04028b9c02655bda
+  - 6826ba43c72520303de00e9a878af5a6
+  - c0ad90193248bb680955a8431bdeb175
   known_good:
   - ASUSWMI
   known_good_nct6775:
@@ -7804,27 +8708,49 @@ PRIME X370-PRO:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME X399-A:
   aliases:
+  - PRIME-X399-A-ASUS-0000
   - PRIME-X399-A-ASUS-1206
-  asus_dispatcher: []
+  asus_dispatcher:
+  - GNAM
+  - GNUM
+  - GVER
+  - RSEN
+  - UPSB
   asus_ec: N
   asus_ec_mutex: ''
-  asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
-  asus_wmi: N
-  asus_wmi_entrypoint: N
-  board_producer: ASUS
+  asus_ite87_mutex: \AMW0._GL
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHW
+  asus_wmi: Y
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X399
   gigabyte_wmi: N
-  known_good: []
+  hash:
+  - e9b69b8c1d3d05930378caa305d9ba61
+  - d6fdb3c0b61a004acb74d88222d61c6b
+  - e05a62b2b187e2bb2a40d78ab7a9f7e9
+  - 726a86fe3f6013eda589ab5e179d9a07
+  - 189942033a8f2964dbc4ea4aac14abda
+  - 6826ba43c72520303de00e9a878af5a6
+  - 9d78cc6486ddef12197e269118c69cb5
+  - 69a6aee926f23e27973f70a11b695914
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X399-A-ASUS-1206.ZIP
   superio: ''
   upstreamed_serie: false
-  wmi_methods: []
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME X470-PRO:
   aliases:
   - PRIME-X470-PRO-ASUS-6042
@@ -7850,7 +8776,7 @@ PRIME X470-PRO:
   - IOHW
   asus_wmi: Y
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X470
   gigabyte_wmi: N
   hash:
@@ -7895,7 +8821,7 @@ PRIME X570-P:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X570
   gigabyte_wmi: N
   hash:
@@ -7941,7 +8867,7 @@ PRIME X570-PRO:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X570
   gigabyte_wmi: N
   hash:
@@ -7985,7 +8911,7 @@ PRIME X670-P:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X670
   gigabyte_wmi: N
   hash:
@@ -8093,7 +9019,7 @@ PRIME X670-P WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X670
   gigabyte_wmi: N
   hash:
@@ -8201,7 +9127,7 @@ PRIME X670E-PRO WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X670E
   gigabyte_wmi: N
   hash:
@@ -8306,7 +9232,7 @@ PRIME Z270-A:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z270
   gigabyte_wmi: N
   hash:
@@ -8338,7 +9264,7 @@ PRIME Z270-K:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z270
   gigabyte_wmi: N
   known_good: []
@@ -8361,7 +9287,7 @@ PRIME Z270-P:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z270
   gigabyte_wmi: N
   known_good: []
@@ -8384,7 +9310,7 @@ PRIME Z270M-PLUS:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z270
   gigabyte_wmi: N
   known_good: []
@@ -8407,7 +9333,7 @@ PRIME Z370-A:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z370
   gigabyte_wmi: N
   known_good: []
@@ -8430,7 +9356,7 @@ PRIME Z370-A II:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z370
   gigabyte_wmi: N
   known_good: []
@@ -8440,6 +9366,60 @@ PRIME Z370-A II:
   superio: ''
   upstreamed_serie: false
   wmi_methods: []
+PRIME Z390-P:
+  aliases:
+  - PRIME-Z390-P-ASUS-0000
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z390
+  gigabyte_wmi: N
+  hash:
+  - 0341a03c73715cb3b56033ad7cf75d9a
+  - 1362ac74a2e6025b5a195ed8d2dd73c0
+  - 0a9b7c9284537f3b593e4093c05ba810
+  - 940b5c02e60f8048259f8bc68b95f8d4
+  - 00fe5645ead8847e62940fdaea09f5e9
+  - 26495a107369fe1569783479f11056d3
+  - 923753fd44bdea140b0382c4aeba2745
+  - 11ca0672fd57c728e25bc933deedc567
+  - aaf9f127e7b70e54b34942d8d532fd8a
+  - 22c0a72be6c1fa34c6dbba7acf6763fa
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - 4fe6800270a9559444bd5aa51709650a
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - 07dd1519bdc5da994798ee1856f1c83a
+  - 7c2fe4fb7bcefe4d14be2ce4a6cf565f
+  - ec92966d105c040ee6d0cf745ef3cfed
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links: []
+  superio: NCT6798D
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME Z590-A:
   aliases:
   - PRIME-Z590-A-ASUS-1701
@@ -8460,7 +9440,7 @@ PRIME Z590-A:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z590
   gigabyte_wmi: N
   hash:
@@ -8567,7 +9547,7 @@ PRIME Z590-P:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z590
   gigabyte_wmi: N
   hash:
@@ -8672,7 +9652,7 @@ PRIME Z590-P WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z590
   gigabyte_wmi: N
   hash:
@@ -8777,7 +9757,7 @@ PRIME Z590-V:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z590
   gigabyte_wmi: N
   hash:
@@ -8864,16 +9844,19 @@ PRIME Z590-V:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 PRIME Z590M-PLUS:
   aliases:
+  - PRIME-Z590M-PLUS-ASUS-0000
   - PRIME-Z590M-PLUS-ASUS-1801
   asus_dispatcher:
   - RHWM
   - RSIO
   - WHWM
   - WSIO
+  - BRHM
+  - BWHM
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -8882,7 +9865,7 @@ PRIME Z590M-PLUS:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z590
   gigabyte_wmi: N
   hash:
@@ -8954,6 +9937,16 @@ PRIME Z590M-PLUS:
   - 1d1eda19bef7ead588182a81d352093b
   - e07081f834d45506af8eff6d9b56047e
   - dd04eccbe0f2cc3a11ad59ef2afd6c41
+  - 4555554b927db7e5c0bf51669f41aa15
+  - 82e61e8ffaaa7e99545779a7073fe349
+  - 743e1804b073b6be81ed83c61248ee65
+  - f13c25aa06dc031b9a7e156520645b67
+  - 4f89ceda36d7ad2859c202c59d9b3cb8
+  - 298d3b559cd3dcf956f041d56e03ccad
+  - 39f2c66171a52279d21c7ff5b1e8a83b
+  - 97a0aae58eb80b9805b3f9feded9769e
+  - fa33cccb53bb72677ff28a70d54b60b7
+  - 94524850c3fe945ccef4d44f9514d7d4
   known_good:
   - AsusMbSwInterface
   known_good_nct6775:
@@ -8986,7 +9979,7 @@ PRO A320M-R WI-FI:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A320
   gigabyte_wmi: N
   hash:
@@ -9073,7 +10066,7 @@ PRO H410M-C:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: H410
   gigabyte_wmi: N
   hash:
@@ -9140,7 +10133,7 @@ PRO H410T:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: H410
   gigabyte_wmi: N
   hash:
@@ -9181,7 +10174,7 @@ Pro A520M-C:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A520
   gigabyte_wmi: N
   hash:
@@ -9302,7 +10295,7 @@ Pro A520M-C II:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A520
   gigabyte_wmi: N
   hash:
@@ -9424,7 +10417,7 @@ Pro B550M-C:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -9474,7 +10467,7 @@ Pro B660M-C:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -9643,7 +10636,7 @@ Pro B660M-C-D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -9779,7 +10772,7 @@ Pro B760M-C:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B760
   gigabyte_wmi: N
   hash:
@@ -9949,7 +10942,7 @@ Pro B760M-CT:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B760
   gigabyte_wmi: N
   hash:
@@ -10098,6 +11091,111 @@ Pro B760M-CT:
   - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+Pro H610T D4:
+  aliases:
+  - Pro-H610T-D4-SI-2212
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: H610
+  gigabyte_wmi: N
+  hash:
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - bf983352e31a3e61bc0a8588db167b9a
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - b6b1db9495760c835288c91ca7ea44c8
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - cabaa648badcc8017a52b26220a409ce
+  - 165b48f78671dd3c89540f81e90ec527
+  - df26933a33b808048f8656da16d7574c
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - 93907b649b3fe34401f8560d71b2e106
+  - 806004696ed3c90b3d029d75db6279b2
+  - 816cbdefc259322c6f91cb41abd4c477
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - cdd14195cf55ab9a248e9125a838d03b
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - a8d27095a3c0af54b5a109968cf3839b
+  - 2d661223fc66caa54089dce0c561cab9
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - fa7169e4de2034269223b48cd8937f26
+  - 022b46e55f8d2bafe32f4b2c369a961b
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 2657e3a14d6837356381ea2e89cb3900
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - b3af61349eaa2ea7f56619f89628a61a
+  - 0660f9fee8cba8299403307574d13674
+  - b03218e6eb63f3d696ffb41730dabb57
+  - 7143db358abb11d43176c6ba5d417516
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 27543ec8077ac7f9508754251508eb27
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 8d9e951941c062773b603bced78ed2af
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 47cc29970a23632b64491e5177544aec
+  - 91c01644f7efcfe60ab24117f801762f
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - a976e2965349077ca44fbf05b391dd36
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 388dffe7e047ab47672429c4359d1df4
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - 2fa3eda2c41d9bc18c87591844852978
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - d8e535534f12747d6f1e14ca39c99c89
+  - 6427506b3b9796a5039c901bad06b881
+  - cc185456e01db2ecd08d16a9b08d7aa1
+  - 5e184dd2c4fdb1caa82884460d0d43a2
+  - f318cf9775ad761e092a6c9dfe306889
+  - f06e72acdf21b644347fd64f2c51b61d
+  - 0a6f5911f12fded7f1e8e3281f1a7fcb
+  - bcdf52ff193d9d130fc679066c82c989
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 30fe9a3c8bd17122f82b10240480466b
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H610T-D4-SI-2212.zip
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 Pro WS W680-ACE:
   aliases:
   - Pro-WS-W680-ACE-ASUS-0203
@@ -10118,7 +11216,7 @@ Pro WS W680-ACE:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: W680
   gigabyte_wmi: N
   hash:
@@ -10267,7 +11365,7 @@ Pro WS W680-ACE IPMI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: W680
   gigabyte_wmi: N
   hash:
@@ -10417,7 +11515,7 @@ Pro WS X570-ACE:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X570
   gigabyte_wmi: N
   hash:
@@ -10463,7 +11561,7 @@ ProArt B550-CREATOR:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -10509,7 +11607,7 @@ ProArt B650-CREATOR:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B650
   gigabyte_wmi: N
   hash:
@@ -10663,7 +11761,7 @@ ProArt B660-CREATOR D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -10703,7 +11801,7 @@ ProArt B760-CREATOR D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B760
   gigabyte_wmi: N
   hash:
@@ -11028,7 +12126,7 @@ ProArt X570-CREATOR WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X570
   gigabyte_wmi: N
   hash:
@@ -11068,7 +12166,7 @@ ProArt X670E-CREATOR WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X670E
   gigabyte_wmi: N
   hash:
@@ -11107,7 +12205,7 @@ ProArt Z490-CREATOR 10G:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z490
   gigabyte_wmi: N
   hash:
@@ -11149,7 +12247,7 @@ ProArt Z690-CREATOR WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z690
   gigabyte_wmi: N
   hash:
@@ -11261,7 +12359,7 @@ ProArt Z790-CREATOR WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z790
   gigabyte_wmi: N
   hash:
@@ -11278,6 +12376,72 @@ ProArt Z790-CREATOR WIFI:
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+Q87M-D2H:
+  aliases:
+  - Q87M-D2H-GIGABYTE-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: Q87
+  gigabyte_wmi: N
+  hash:
+  - 63ff4fdd832576e4d018e02b8833ef00
+  - e57a5d288c0e036b0a64be50b0bf6209
+  - 2bc8b4b4d0cba75cb5049f78fa8739a7
+  - 7d579c65fe1d76c88805e1dbbd6a6d84
+  - 468c4dbdb2aaa9e9ac53e93278de51a8
+  - f5309b6de49a42fa8e1a1f3ffdbc2887
+  - 2764d6821d5484cf5e5a43e12a1d8b59
+  - 77a0a58419e150fa3c1dcc0952dc62a6
+  - 881eadfb4d152d08dc45c78ad34df940
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
+RAMPAGE V EXTREME:
+  aliases:
+  - RAMPAGE-V-EXTREME-ASUS-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - 3efa0a85f211b85c9063bd32f7ef7dbf
+  - c496931456e91035a06f78df2d99e1fe
+  - 0a6c8781729263f40e1630d301d157d7
+  known_good:
+  - ASUSWMI
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG CROSSHAIR VI EXTREME:
@@ -11305,7 +12469,7 @@ ROG CROSSHAIR VI EXTREME:
   - IOHW
   asus_wmi: Y
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -11355,7 +12519,7 @@ ROG CROSSHAIR VI HERO (WI-FI AC):
   - IOHW
   asus_wmi: Y
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -11405,7 +12569,7 @@ ROG CROSSHAIR VII HERO:
   - IOHW
   asus_wmi: Y
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -11455,7 +12619,7 @@ ROG CROSSHAIR VII HERO (WI-FI):
   - IOHW
   asus_wmi: Y
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -11501,7 +12665,7 @@ ROG CROSSHAIR VIII DARK HERO:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -11547,7 +12711,7 @@ ROG CROSSHAIR VIII EXTREME:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -11589,7 +12753,7 @@ ROG CROSSHAIR VIII FORMULA:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -11635,7 +12799,7 @@ ROG CROSSHAIR VIII HERO:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -11681,7 +12845,7 @@ ROG CROSSHAIR VIII HERO (WI-FI):
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -11727,7 +12891,7 @@ ROG CROSSHAIR VIII IMPACT:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -11772,7 +12936,7 @@ ROG CROSSHAIR X670E EXTREME:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X670E
   gigabyte_wmi: N
   hash:
@@ -11885,7 +13049,7 @@ ROG CROSSHAIR X670E GENE:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X670E
   gigabyte_wmi: N
   hash:
@@ -11996,7 +13160,7 @@ ROG CROSSHAIR X670E HERO:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X670E
   gigabyte_wmi: N
   hash:
@@ -12105,7 +13269,7 @@ ROG MAXIMUS X HERO:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -12118,6 +13282,76 @@ ROG MAXIMUS X HERO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-X-HERO-ASUS-2701.ZIP
   superio: NCT6793D
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+ROG MAXIMUS XI FORMULA:
+  aliases:
+  - ROG-MAXIMUS-XI-FORMULA-ASUS-0000
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - 0341a03c73715cb3b56033ad7cf75d9a
+  - 2611ee5b46313eebcfff714baba174ea
+  - 8e075426201c0a49f1d8e97089d99dcc
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - bad02ea0c19697ff6d4ebb3f79c88cd3
+  - 17cd51cce8085ea8fe2da0c73f2e1e5f
+  - 923753fd44bdea140b0382c4aeba2745
+  - 0c334d5d4df14f83a80adec1399dda5c
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - 93512b08af0f1083f881a3a62e05f313
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 22c0a72be6c1fa34c6dbba7acf6763fa
+  - 07dd1519bdc5da994798ee1856f1c83a
+  - 940b5c02e60f8048259f8bc68b95f8d4
+  - 5a1850b79e47ad27ad9c52b37df06300
+  - b766a2230b79ee7ddcbeb743d4e10b6a
+  - cead7358494f3d7f21bee00366a6fc6f
+  - ada66d0ab558aee618ea72eb229b970f
+  - 9e92140df0d1dc9a04dddcb6da3495c4
+  - 562f871ed2d8b05aa558dca2bf063bea
+  - 232809fd51fc3e6e3fc404571c1985dc
+  - 48e87d59304397114a6a7ae2479d3713
+  - 361ff4f97f87f4899ec8096a5db7b6e5
+  - a1035d331ede6d2a2b604db38f4238a3
+  - 4d7befc6e5b00ccc627a4d5eae703ce4
+  - 00fe5645ead8847e62940fdaea09f5e9
+  - 5bd9baf288f64663182d3ed09f414253
+  - 26495a107369fe1569783479f11056d3
+  - c259b81a16a18c5f5d2137c70ba0725b
+  - 1362ac74a2e6025b5a195ed8d2dd73c0
+  - c69fc96cd3b939cd810ddf11ac72b571
+  - 0a7b15ca678d3658479f2e8d76f069f5
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links: []
+  superio: NCT6798D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -12144,7 +13378,7 @@ ROG MAXIMUS XI HERO:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -12183,7 +13417,7 @@ ROG MAXIMUS XI HERO (WI-FI):
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -12222,7 +13456,7 @@ ROG MAXIMUS XIII APEX:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -12328,7 +13562,7 @@ ROG MAXIMUS XIII EXTREME:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -12435,7 +13669,7 @@ ROG MAXIMUS XIII EXTREME GLACIAL:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -12544,7 +13778,7 @@ ROG MAXIMUS XIII HERO:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -12652,7 +13886,7 @@ ROG MAXIMUS Z690 APEX:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z690
   gigabyte_wmi: N
   hash:
@@ -12907,7 +14141,7 @@ ROG MAXIMUS Z690 EXTREME:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z690
   gigabyte_wmi: N
   hash:
@@ -12945,7 +14179,7 @@ ROG MAXIMUS Z690 EXTREME GLACIAL:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z690
   gigabyte_wmi: N
   hash:
@@ -12979,7 +14213,7 @@ ROG MAXIMUS Z690 FORMULA:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z690
   gigabyte_wmi: N
   hash:
@@ -13079,7 +14313,7 @@ ROG MAXIMUS Z690 HERO:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z690
   gigabyte_wmi: N
   hash:
@@ -13184,7 +14418,7 @@ ROG MAXIMUS Z790 EXTREME:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z790
   gigabyte_wmi: N
   hash:
@@ -13222,7 +14456,7 @@ ROG MAXIMUS Z790 HERO:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z790
   gigabyte_wmi: N
   hash:
@@ -13332,7 +14566,7 @@ ROG STRIX B350-F GAMING:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B350
   gigabyte_wmi: N
   hash:
@@ -13433,7 +14667,7 @@ ROG STRIX B350-I GAMING:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B350
   gigabyte_wmi: N
   hash:
@@ -13538,7 +14772,7 @@ ROG STRIX B450-E GAMING:
   - IOHW
   asus_wmi: Y
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B450
   gigabyte_wmi: N
   hash:
@@ -13588,7 +14822,7 @@ ROG STRIX B450-F GAMING:
   - IOHW
   asus_wmi: Y
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B450
   gigabyte_wmi: N
   hash:
@@ -13638,7 +14872,7 @@ ROG STRIX B450-F GAMING II:
   - IOHW
   asus_wmi: Y
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B450
   gigabyte_wmi: N
   hash:
@@ -13688,7 +14922,7 @@ ROG STRIX B450-I GAMING:
   - IOHW
   asus_wmi: Y
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B450
   gigabyte_wmi: N
   hash:
@@ -13715,12 +14949,15 @@ ROG STRIX B450-I GAMING:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX B550-A GAMING:
   aliases:
+  - ROG-STRIX-B550-A-GAMING-ASUS-0000
   - ROG-STRIX-B550-A-GAMING-ASUS-2423
   asus_dispatcher:
   - RHWM
   - RSIO
   - WHWM
   - WSIO
+  - BRHM
+  - BWHM
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
@@ -13733,7 +14970,7 @@ ROG STRIX B550-A GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -13745,6 +14982,15 @@ ROG STRIX B550-A GAMING:
   - 53fda506c9d63cfbde19f3be8dba01f1
   - 2d218419edb2e916053d6db7db3b4035
   - 2f711fde392ccdc7d915ab9af5b40a9d
+  - ce8ecdb82a4a603eca9d06927760d682
+  - e733c094e1a8059ab89f4bfabf2b1164
+  - 5e8ca6971efae7f66104a0c682f6af30
+  - 212c00096f682cc6aadb6c69f1dc0ede
+  - bfce84cbcb3f3464a1c64154193e7c16
+  - 26bc9d132b01d681687ee69a54210677
+  - dab575166dd3833be62054374ec6ee74
+  - 9644b2b78b97a1cc491842d713572ae3
+  - 167452fd51a7ffc9e48f28815ba4f4ab
   known_good:
   - ASUSWMI
   known_good_nct6775:
@@ -13779,7 +15025,7 @@ ROG STRIX B550-E GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -13902,7 +15148,7 @@ ROG STRIX B550-F GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -13947,7 +15193,7 @@ ROG STRIX B550-F GAMING (WI-FI):
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -13993,7 +15239,7 @@ ROG STRIX B550-F GAMING WIFI II:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -14048,7 +15294,7 @@ ROG STRIX B550-I GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -14097,7 +15343,7 @@ ROG STRIX B550-XE GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -14181,7 +15427,7 @@ ROG STRIX B650-A GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B650
   gigabyte_wmi: N
   hash:
@@ -14274,6 +15520,7 @@ ROG STRIX B650-A GAMING WIFI:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX B650E-E GAMING WIFI:
   aliases:
+  - ROG-STRIX-B650E-E-GAMING-WIFI-ASUS-0000
   - ROG-STRIX-B650E-E-GAMING-WIFI-ASUS-0804
   - ROG-STRIX-B650E-E-GAMING-WIFI-ASUS-0821
   asus_dispatcher:
@@ -14281,6 +15528,8 @@ ROG STRIX B650E-E GAMING WIFI:
   - RSIO
   - WHWM
   - WSIO
+  - BRHM
+  - BWHM
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
@@ -14292,7 +15541,7 @@ ROG STRIX B650E-E GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B650E
   gigabyte_wmi: N
   hash:
@@ -14372,6 +15621,17 @@ ROG STRIX B650E-E GAMING WIFI:
   - 696f695955c3a08b044dbafd34c96d96
   - 541d70f3fc78135b03217f6961e5c121
   - 3938a66b115b04905d0c5da1a6d3f2dd
+  - b0f194f519abc8bdfaf0c8780d26bd10
+  - 1cf4aa784e94ef46f253c986a180bf03
+  - d8cfc224e0437cefb4943126e15321cf
+  - 8388764f35a31f0c707071e9947c908a
+  - 2a3cef34b2897548d1002f4cf63a089b
+  - 2abbac440dad0fc541eb73086d42c3ca
+  - 30d7f1894efe3a3fca95b47b3f469256
+  - 8edd1813b5ddace282be7208125907ed
+  - f2a33cf40849df7999e37c2af2f1da75
+  - e733c094e1a8059ab89f4bfabf2b1164
+  - bb796dcaa77a107314405b13161737d4
   known_good:
   - AsusMbSwInterface
   known_good_nct6775:
@@ -14406,7 +15666,7 @@ ROG STRIX B650E-F GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B650E
   gigabyte_wmi: N
   hash:
@@ -14518,7 +15778,7 @@ ROG STRIX B650E-I GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B650E
   gigabyte_wmi: N
   hash:
@@ -14624,7 +15884,7 @@ ROG STRIX B660-A GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -14804,7 +16064,7 @@ ROG STRIX B660-A GAMING WIFI D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -14948,7 +16208,7 @@ ROG STRIX B660-F GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -15094,7 +16354,7 @@ ROG STRIX B660-G GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -15240,7 +16500,7 @@ ROG STRIX B660-I GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -15375,7 +16635,7 @@ ROG STRIX B760-A GAMING WIFI D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B760
   gigabyte_wmi: N
   hash:
@@ -15558,7 +16818,7 @@ ROG STRIX B760-F GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B760
   gigabyte_wmi: N
   hash:
@@ -15741,7 +17001,7 @@ ROG STRIX B760-G GAMING WIFI D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B760
   gigabyte_wmi: N
   hash:
@@ -15924,7 +17184,7 @@ ROG STRIX B760-I GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B760
   gigabyte_wmi: N
   hash:
@@ -16090,7 +17350,7 @@ ROG STRIX TRX40-E GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: TRX40
   gigabyte_wmi: N
   hash:
@@ -16130,7 +17390,7 @@ ROG STRIX TRX40-XE GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: TRX40
   gigabyte_wmi: N
   hash:
@@ -16156,6 +17416,7 @@ ROG STRIX TRX40-XE GAMING:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX X370-F GAMING:
   aliases:
+  - ROG-STRIX-X370-F-GAMING-ASUS-0000
   - ROG-STRIX-X370-F-GAMING-ASUS-5606
   asus_dispatcher:
   - RHWM
@@ -16174,7 +17435,7 @@ ROG STRIX X370-F GAMING:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X370
   gigabyte_wmi: N
   hash:
@@ -16186,6 +17447,14 @@ ROG STRIX X370-F GAMING:
   - 50a57410bc01ba138ef12bfa5bd43e29
   - 23db43e7c9c460bc94734ee688058d5a
   - 1ff9193d535134594cb440e9aaefa60f
+  - e9b69b8c1d3d05930378caa305d9ba61
+  - 07198e4260e4a610abb6f7614ec6ced4
+  - ce62398a9b103762626bc6ce16d4d904
+  - 4e40c81cbdf652223bf8138f0c44b090
+  - c4f2961da10ce8f5f00540bdefab983a
+  - 125493a545458baec386886d157a228d
+  - d8b925a27381abbbbe9a212ea378ab9f
+  - 2ffd2fb0741380b4cd66924ec7d9b0d4
   known_good:
   - ASUSWMI
   known_good_nct6775:
@@ -16219,7 +17488,7 @@ ROG STRIX X370-I GAMING:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X370
   gigabyte_wmi: N
   hash:
@@ -16257,7 +17526,7 @@ ROG STRIX X399-E GAMING:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X399
   gigabyte_wmi: N
   known_good: []
@@ -16292,7 +17561,7 @@ ROG STRIX X470-F GAMING:
   - IOHW
   asus_wmi: Y
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X470
   gigabyte_wmi: N
   hash:
@@ -16342,7 +17611,7 @@ ROG STRIX X470-I GAMING:
   - IOHW
   asus_wmi: Y
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X470
   gigabyte_wmi: N
   hash:
@@ -16369,6 +17638,7 @@ ROG STRIX X470-I GAMING:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 ROG STRIX X570-E GAMING:
   aliases:
+  - ROG-STRIX-X570-E-GAMING-ASUS-0000
   - ROG-STRIX-X570-E-GAMING-ASUS-4021
   asus_dispatcher:
   - BREC
@@ -16376,6 +17646,8 @@ ROG STRIX X570-E GAMING:
   - RSIO
   - WHWM
   - WSIO
+  - BRHM
+  - BWHM
   asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: ''
@@ -16388,7 +17660,7 @@ ROG STRIX X570-E GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X570
   gigabyte_wmi: N
   hash:
@@ -16400,6 +17672,16 @@ ROG STRIX X570-E GAMING:
   - 26459f8b46297ca169d6e498db933482
   - 01b37f561bc0a2aa3a39f1488ce37be4
   - b4c1ab7f588b5f93ae6d71b659650577
+  - 55b29d97663ad33108c74cb8a99dc319
+  - 426f3cc284bff5145d641e7c38a161e3
+  - e150d86d1b444df99d42ae5bc0262f96
+  - cf1fcec435ea8bfe555962f9c582956c
+  - 94e3c8765c18eb15632af43186e67ae4
+  - 105df05b90314b281f40cb9e74128c39
+  - 272409694b0e8d201d2568b5fe810f4d
+  - dfdcceff4e9302c6eeccf5331cd94607
+  - fc794f9cb35100cbf419fcc90588c337
+  - 5eb6cbc4a43cfbfa89b5b011cbea90db
   known_good:
   - ASUSWMI
   known_good_nct6775:
@@ -16436,7 +17718,7 @@ ROG STRIX X570-E GAMING WIFI II:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X570
   gigabyte_wmi: N
   hash:
@@ -16489,7 +17771,7 @@ ROG STRIX X570-F GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X570
   gigabyte_wmi: N
   hash:
@@ -16531,7 +17813,7 @@ ROG STRIX X570-I GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X570
   gigabyte_wmi: N
   hash:
@@ -16576,7 +17858,7 @@ ROG STRIX X670E-A GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X670E
   gigabyte_wmi: N
   hash:
@@ -16687,7 +17969,7 @@ ROG STRIX X670E-E GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X670E
   gigabyte_wmi: N
   hash:
@@ -16800,7 +18082,7 @@ ROG STRIX X670E-F GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X670E
   gigabyte_wmi: N
   hash:
@@ -16911,7 +18193,7 @@ ROG STRIX X670E-I GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X670E
   gigabyte_wmi: N
   hash:
@@ -17017,7 +18299,7 @@ ROG STRIX Z370-E GAMING:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z370
   gigabyte_wmi: N
   known_good: []
@@ -17040,7 +18322,7 @@ ROG STRIX Z370-G GAMING:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z370
   gigabyte_wmi: N
   known_good: []
@@ -17066,7 +18348,7 @@ ROG STRIX Z370-H GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z370
   gigabyte_wmi: N
   hash:
@@ -17105,7 +18387,7 @@ ROG STRIX Z390-E GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z390
   gigabyte_wmi: N
   hash:
@@ -17144,7 +18426,7 @@ ROG STRIX Z390-F GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z390
   gigabyte_wmi: N
   hash:
@@ -17183,7 +18465,7 @@ ROG STRIX Z390-H GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z390
   gigabyte_wmi: N
   hash:
@@ -17222,7 +18504,7 @@ ROG STRIX Z390-I GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z390
   gigabyte_wmi: N
   hash:
@@ -17261,7 +18543,7 @@ ROG STRIX Z490-A GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z490
   gigabyte_wmi: N
   hash:
@@ -17300,7 +18582,7 @@ ROG STRIX Z490-E GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z490
   gigabyte_wmi: N
   hash:
@@ -17340,7 +18622,7 @@ ROG STRIX Z490-F GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z490
   gigabyte_wmi: N
   hash:
@@ -17382,7 +18664,7 @@ ROG STRIX Z490-G GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z490
   gigabyte_wmi: N
   hash:
@@ -17421,7 +18703,7 @@ ROG STRIX Z490-G GAMING (WI-FI):
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z490
   gigabyte_wmi: N
   hash:
@@ -17460,7 +18742,7 @@ ROG STRIX Z490-H GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z490
   gigabyte_wmi: N
   hash:
@@ -17499,7 +18781,7 @@ ROG STRIX Z490-I GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z490
   gigabyte_wmi: N
   hash:
@@ -17538,7 +18820,7 @@ ROG STRIX Z590-A GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z590
   gigabyte_wmi: N
   hash:
@@ -17645,7 +18927,7 @@ ROG STRIX Z590-A GAMING WIFI II:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z590
   gigabyte_wmi: N
   hash:
@@ -17754,7 +19036,7 @@ ROG STRIX Z590-E GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z590
   gigabyte_wmi: N
   hash:
@@ -17860,7 +19142,7 @@ ROG STRIX Z590-F GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z590
   gigabyte_wmi: N
   hash:
@@ -17966,7 +19248,7 @@ ROG STRIX Z590-I GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z590
   gigabyte_wmi: N
   hash:
@@ -18072,7 +19354,7 @@ ROG STRIX Z690-A GAMING WIFI D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z690
   gigabyte_wmi: N
   hash:
@@ -18105,7 +19387,7 @@ ROG STRIX Z690-E GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z690
   gigabyte_wmi: N
   hash:
@@ -18205,7 +19487,7 @@ ROG STRIX Z690-F GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z690
   gigabyte_wmi: N
   hash:
@@ -18305,7 +19587,7 @@ ROG STRIX Z690-G GAMING WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z690
   gigabyte_wmi: N
   hash:
@@ -18402,7 +19684,7 @@ ROG ZENITH EXTREME:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   known_good: []
@@ -18425,7 +19707,7 @@ ROG ZENITH EXTREME ALPHA:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   known_good: []
@@ -18452,7 +19734,7 @@ ROG ZENITH II EXTREME:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -18474,6 +19756,7 @@ ROG ZENITH II EXTREME:
   wmi_methods: *id006
 ROG ZENITH II EXTREME ALPHA:
   aliases:
+  - ROG-ZENITH-II-EXTREME-ALPHA-ASUS-0000
   - ROG-ZENITH-II-EXTREME-ALPHA-ASUS-1603
   - ROG-ZENITH-II-EXTREME-ALPHA-ASUS-1701
   asus_dispatcher: *id005
@@ -18489,7 +19772,7 @@ ROG ZENITH II EXTREME ALPHA:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
@@ -18501,7 +19784,15 @@ ROG ZENITH II EXTREME ALPHA:
   - 3821a7efad927cbf91832198c8e52e36
   - 9cf008abb4cb2bae1388b5d1ebc3258a
   - c67a5cf6cc5f924f6332928b012b044f
-  known_good: []
+  - 5bee3cc9caee5e3879121b0e234c2b67
+  - a195a1f95ec66edb12218ac51aa259b0
+  - 76702b5aaab7b085ba80a85f48f5a9be
+  - 2d3b71150bfe2ca0e7fd953dc4c076ca
+  - 8d184bd8c60efbc37ea9d1d1c227bc05
+  - b229d5b5eeff4b47d7557d1b0aca2814
+  - e30fb67f6ab6f140ab3b86817dc7ae61
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-ZENITH-II-EXTREME-ALPHA-ASUS-1603.ZIP
@@ -18538,8 +19829,9 @@ S206:
   superio: ''
   upstreamed_serie: false
   wmi_methods: []
-STRIX Z270E-GAMING:
+STRIX Z270E GAMING:
   aliases:
+  - STRIX-Z270E-GAMING-ASUS-0000
   - STRIX-Z270E-GAMING-ASUS-1501
   asus_dispatcher: []
   asus_ec: N
@@ -18554,24 +19846,40 @@ STRIX Z270E-GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z270
   gigabyte_wmi: N
   hash:
   - 16131efd555af8ed3d38d0f92bf1b3ab
+  - d3057d7d8532890c6d4f6dbda41148f3
+  - 7f961758418e5cd85e3e366a12565945
+  - a408d9b6176085784c858c5f6c82baf7
+  - 884ef32c7daf2266f768928242a49afc
+  - 4714bd08e60082a9668ed454bde09e96
+  - 6820e45e3b69f30ccb84ae2022f1700d
+  - 5f96be801413c2e6a3ef500ef958635d
+  - b1a7f49bca3175779d19efb06f9c66a1
+  - e83f99bdfc573a00fd30695f5d75e80b
+  - d73a10fbdb351e320558679d7e6c05f2
+  - c910a8408828eb905a74fa14a4c87ac4
+  - cc9a99b699b1b0ec9a875c7f2f2a9321
+  - bfd3e2b9c0885c9851b9330fbac0297c
+  - d95937538d92aa1278785743c0be9fb6
+  - a18767813f2f99500dc58378a12101fc
+  - ed1d3bf7aea1fea598b971168a8076c0
   known_good:
   - ASUSWMI
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-Z270E-GAMING-ASUS-1501.ZIP
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
-STRIX Z270F-GAMING:
+STRIX Z270F GAMING:
   aliases:
   - STRIX-Z270F-GAMING-ASUS-1501
   asus_dispatcher: []
@@ -18587,7 +19895,7 @@ STRIX Z270F-GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z270
   gigabyte_wmi: N
   hash:
@@ -18597,14 +19905,14 @@ STRIX Z270F-GAMING:
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-Z270F-GAMING-ASUS-1501.ZIP
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
-STRIX Z270G-GAMING:
+STRIX Z270G GAMING:
   aliases:
   - STRIX-Z270G-GAMING-ASUS-1501
   asus_dispatcher: []
@@ -18620,7 +19928,7 @@ STRIX Z270G-GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z270
   gigabyte_wmi: N
   hash:
@@ -18630,14 +19938,14 @@ STRIX Z270G-GAMING:
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-Z270G-GAMING-ASUS-1501.ZIP
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
-STRIX Z270H-GAMING:
+STRIX Z270H GAMING:
   aliases:
   - STRIX-Z270H-GAMING-ASUS-1501
   asus_dispatcher: []
@@ -18653,7 +19961,7 @@ STRIX Z270H-GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z270
   gigabyte_wmi: N
   hash:
@@ -18663,14 +19971,14 @@ STRIX Z270H-GAMING:
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-Z270H-GAMING-ASUS-1501.ZIP
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
-STRIX Z270I-GAMING:
+STRIX Z270I GAMING:
   aliases:
   - STRIX-Z270I-GAMING-ASUS-2001
   asus_dispatcher: []
@@ -18683,7 +19991,7 @@ STRIX Z270I-GAMING:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z270
   gigabyte_wmi: N
   known_good: []
@@ -18713,7 +20021,7 @@ TUF B350M-PLUS GAMING:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B350
   gigabyte_wmi: N
   hash:
@@ -18804,7 +20112,7 @@ TUF B450-PLUS GAMING:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B450
   gigabyte_wmi: N
   hash:
@@ -18849,7 +20157,7 @@ TUF GAMING A520M-PLUS:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A520
   gigabyte_wmi: N
   hash:
@@ -18970,7 +20278,7 @@ TUF GAMING A520M-PLUS II:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A520
   gigabyte_wmi: N
   hash:
@@ -19091,7 +20399,7 @@ TUF GAMING A520M-PLUS WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: A520
   gigabyte_wmi: N
   hash:
@@ -19212,7 +20520,7 @@ TUF GAMING B450-PLUS II:
   - IO3B
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B450
   gigabyte_wmi: N
   hash:
@@ -19257,7 +20565,7 @@ TUF GAMING B550-PLUS:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -19304,7 +20612,7 @@ TUF GAMING B550-PLUS (WI-FI):
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -19384,7 +20692,7 @@ TUF GAMING B550-PLUS WIFI II:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -19429,7 +20737,7 @@ TUF GAMING B550-PRO:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -19474,7 +20782,7 @@ TUF GAMING B550M-E:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -19519,7 +20827,7 @@ TUF GAMING B550M-E WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -19564,7 +20872,7 @@ TUF GAMING B550M-PLUS:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -19609,7 +20917,7 @@ TUF GAMING B550M-PLUS (WI-FI):
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -19654,7 +20962,7 @@ TUF GAMING B550M-PLUS WIFI II:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B550
   gigabyte_wmi: N
   hash:
@@ -19698,7 +21006,7 @@ TUF GAMING B650-PLUS:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B650
   gigabyte_wmi: N
   hash:
@@ -19805,7 +21113,7 @@ TUF GAMING B650-PLUS WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B650
   gigabyte_wmi: N
   hash:
@@ -19912,7 +21220,7 @@ TUF GAMING B650M-PLUS:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B650
   gigabyte_wmi: N
   hash:
@@ -20020,7 +21328,7 @@ TUF GAMING B650M-PLUS WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B650
   gigabyte_wmi: N
   hash:
@@ -20129,7 +21437,7 @@ TUF GAMING B660-PLUS WIFI D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -20381,7 +21689,7 @@ TUF GAMING B660M-E D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -20545,7 +21853,7 @@ TUF GAMING B660M-PLUS D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -20648,7 +21956,7 @@ TUF GAMING B660M-PLUS WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -20788,7 +22096,7 @@ TUF GAMING B660M-PLUS WIFI D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B660
   gigabyte_wmi: N
   hash:
@@ -20892,7 +22200,7 @@ TUF GAMING B760-PLUS WIFI D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B760
   gigabyte_wmi: N
   hash:
@@ -21073,7 +22381,7 @@ TUF GAMING B760M-PLUS D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B760
   gigabyte_wmi: N
   hash:
@@ -21254,7 +22562,7 @@ TUF GAMING B760M-PLUS WIFI D4:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: B760
   gigabyte_wmi: N
   hash:
@@ -21416,12 +22724,15 @@ TUF GAMING B760M-PLUS WIFI D4:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF GAMING X570-PLUS:
   aliases:
+  - TUF-GAMING-X570-PLUS-ASUS-0000
   - TUF-GAMING-X570-PLUS-ASUS-4021
   asus_dispatcher:
   - RHWM
   - RSIO
   - WHWM
   - WSIO
+  - BRHM
+  - BWHM
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
@@ -21434,7 +22745,7 @@ TUF GAMING X570-PLUS:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X570
   gigabyte_wmi: N
   hash:
@@ -21446,6 +22757,14 @@ TUF GAMING X570-PLUS:
   - 1d122a2c144af0c40e809d0fe118d53e
   - d1b0452a966821569acee1e6aeaa0b56
   - d5938883d7bc4c7baa1b50523fe23a19
+  - a66f730435223b3bdc16e75b5b4a16d9
+  - 4a1e19c3d535a0b1ed0a3fcd93aa9a9e
+  - cf1fcec435ea8bfe555962f9c582956c
+  - 60ca31204a7889a3b0e22b9d0d08fa0e
+  - 426f3cc284bff5145d641e7c38a161e3
+  - d85434979cb5e09b6278cacf162cffa2
+  - a8c69d254bac1bc00dc4d5a3e3258dcd
+  - 0930c44fb0730d6889ee4c34b0438a76
   known_good:
   - ASUSWMI
   known_good_nct6775:
@@ -21479,7 +22798,7 @@ TUF GAMING X570-PLUS (WI-FI):
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X570
   gigabyte_wmi: N
   hash:
@@ -21526,7 +22845,7 @@ TUF GAMING X570-PLUS_BR:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X570
   gigabyte_wmi: N
   hash:
@@ -21617,7 +22936,7 @@ TUF GAMING X570-PRO (WI-FI):
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X570
   gigabyte_wmi: N
   hash:
@@ -21658,7 +22977,7 @@ TUF GAMING X570-PRO WIFI II:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X570
   gigabyte_wmi: N
   hash:
@@ -21716,7 +23035,7 @@ TUF GAMING X670E-PLUS:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X670E
   gigabyte_wmi: N
   hash:
@@ -21824,7 +23143,7 @@ TUF GAMING X670E-PLUS WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: X670E
   gigabyte_wmi: N
   hash:
@@ -21933,7 +23252,7 @@ TUF GAMING Z490-PLUS:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z490
   gigabyte_wmi: N
   hash:
@@ -21972,7 +23291,7 @@ TUF GAMING Z490-PLUS (WI-FI):
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z490
   gigabyte_wmi: N
   hash:
@@ -22011,7 +23330,7 @@ TUF GAMING Z590-PLUS:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z590
   gigabyte_wmi: N
   hash:
@@ -22116,7 +23435,7 @@ TUF GAMING Z590-PLUS WIFI:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z590
   gigabyte_wmi: N
   hash:
@@ -22203,6 +23522,49 @@ TUF GAMING Z590-PLUS WIFI:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+TUF X470-PLUS GAMING:
+  aliases:
+  - TUF-X470-PLUS-GAMING-ASUS-0000
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO3B
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X470
+  gigabyte_wmi: N
+  hash:
+  - 7e3d15d28ec4a06a12fd6283934c4315
+  - ce62398a9b103762626bc6ce16d4d904
+  - 606f7f6be8db81c8b0eaee6fe72d4550
+  - e396ba826ca166c90b39c45665e1550e
+  - c487e2563919b1b13c96f9d25463a8b3
+  - 900cd506d6206e675190bca8e04289a9
+  - c4f2961da10ce8f5f00540bdefab983a
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links: []
+  superio: IT8665E
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 TUF Z270 MARK 1:
   aliases:
   - TUF-Z270-MARK-1-ASUS-1501
@@ -22219,7 +23581,7 @@ TUF Z270 MARK 1:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z270
   gigabyte_wmi: N
   hash:
@@ -22238,6 +23600,84 @@ TUF Z270 MARK 1:
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+X299 UD4-CF:
+  aliases:
+  - X299-UD4-CF-GIGABYTE-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: ''
+  gigabyte_wmi: U
+  hash:
+  - a16870b641e0c35456a1479148213aa4
+  - 8ba0cbe9236e652f50680a17ae4ca337
+  - 4714bd08e60082a9668ed454bde09e96
+  - cd52c0b9f51fcfb58a91d2345513d1d1
+  - bfd3e2b9c0885c9851b9330fbac0297c
+  - 8de5d5e5f69661a211ce2e363745ca20
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4001-0000-00A0-C90629100000:E100:0108
+  - QWDG:DEADBEEF-4001-0000-00A0-C90629100000:E200:0108
+X470 AORUS ULTRA GAMING-CF:
+  aliases:
+  - X470-AORUS-ULTRA-GAMING-CF-GIGABYTE-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: X470
+  gigabyte_wmi: U
+  hash:
+  - 4cdb970e9d903d0f0eeae9f800de6b41
+  - 3d58d9a7acfd89a7bbce6831f5726afd
+  - 7394f07b50a7afe4c2ea55b5e2a3821d
+  - 4be59f40e5f30c743dd0144f4db3456d
+  - b193ece3cad735cf7a1c475ad27bffe8
+  - e501b4c125012eee45a4795dc0efc105
+  - 80af51c48d411f9fa1e3bf3eff77fecc
+  - df9d7580e7430969e360b952fa38b133
+  - 66bd9af60a16bc06bd10e0813f016ce7
+  - 8de38a4f5681bdf366c35a5de22b1e96
+  - 2dcccac97aff9ac2f0b48b6250de6fd7
+  - 8d8ed3fa4c51472eff6657dc23d307b5
+  - 3cc34300d0a9294c1fd8bf5167b23d63
+  - 12e96a5983677907d64a0ec84e683566
+  - 2758a74e88cb0b6609f3135ff632ab01
+  - 552e30f153d8d435d83b79ff50fe24af
+  - 42aa1c35a5cbe20f17d764c1e322dec7
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
 X570 AORUS ELITE:
   aliases:
   - x570-aorus-elite_f37-GIGABYTE
@@ -22251,7 +23691,7 @@ X570 AORUS ELITE:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: GIGABYTE
+  board_producer: Gigabyte Technology Co., Ltd.
   bridge: X570
   gigabyte_wmi: Y
   hash:
@@ -22337,7 +23777,7 @@ X570 AORUS ELITE WIFI:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: GIGABYTE
+  board_producer: Gigabyte Technology Co., Ltd.
   bridge: X570
   gigabyte_wmi: Y
   hash:
@@ -22410,6 +23850,45 @@ X570 AORUS ELITE WIFI:
   - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
   - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
   - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+X570 AORUS MASTER:
+  aliases:
+  - X570-AORUS-MASTER-GIGABYTE-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: X570
+  gigabyte_wmi: U
+  hash:
+  - a6a6c8016f56741fc1ff7e4d00f6c2d1
+  - f202db48b9e28c20ad5679f940f42a19
+  - f6fb26a7889cf35f8d658227219597a4
+  - 531d533271b0d92fada926bf3c3d4e40
+  - d9753c95be1e335ffacb0653a4476d02
+  - f665aaeaff8d85e1f7a11d8dc92a492c
+  - 2d80627bca333c3a67d97ae56b6aba03
+  - 6e09155673e48af45f71147813dfd1a5
+  - caf79f05a6ed095dc38909e9d9313c4a
+  - aba2cd07b261b7e6172b2857b72fa0c4
+  - a66f730435223b3bdc16e75b5b4a16d9
+  - 4e28189e7987c519d68e8de9aa3a9c04
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: IT8688E
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
 X570 I AORUS PRO WIFI:
   aliases:
   - x570-i-aorus-pro-wifi_f36d-GIGABYTE
@@ -22423,7 +23902,7 @@ X570 I AORUS PRO WIFI:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: GIGABYTE
+  board_producer: Gigabyte Technology Co., Ltd.
   bridge: X570
   gigabyte_wmi: Y
   hash:
@@ -22496,6 +23975,31 @@ X570 I AORUS PRO WIFI:
   - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
   - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
   - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+X79-UP4:
+  aliases:
+  - X79-UP4-GIGABYTE-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - 61e77880a7c34b6715e9b147ccf541da
+  - 74cf029216a7d6492f45de3ee1c6bda0
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
 X99-E-10G WS:
   aliases:
   - X99-E-10G-WS-ASUS-1201
@@ -22509,13 +24013,39 @@ X99-E-10G WS:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: ''
   gigabyte_wmi: N
   known_good: []
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/Socket2011-R3/X99-E-10G_WS/BIOS/X99-E-10G-WS-ASUS-1201.zip
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
+X99-UD4-CF:
+  aliases:
+  - X99-UD4-CF-GIGABYTE-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - c496931456e91035a06f78df2d99e1fe
+  - b79b1af0207e89666c0ca7387d314983
+  - 5ae5e2eed993388aeea83e20cbc28965
+  known_good: []
+  known_good_nct6775: []
+  links: []
   superio: ''
   upstreamed_serie: false
   wmi_methods: []
@@ -22535,7 +24065,7 @@ Z170 PRO GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z170
   gigabyte_wmi: N
   hash:
@@ -22664,7 +24194,7 @@ Z170 PRO GAMING/AURA:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z170
   gigabyte_wmi: N
   hash:
@@ -22777,6 +24307,66 @@ Z170 PRO GAMING/AURA:
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+Z170-A:
+  aliases:
+  - Z170-A-ASUS-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z170
+  gigabyte_wmi: N
+  hash:
+  - f6dd8c11b0859219a61dbf6a88643a1e
+  - 59e83e65e8bb1f6602cf27fdd592d38a
+  - 7f961758418e5cd85e3e366a12565945
+  - fa068f626e8300ee6b4e983868f3d50f
+  - bfd3e2b9c0885c9851b9330fbac0297c
+  - 8f250b5c3cf9cf11f47c14a5a896cee2
+  - 0c7340983dc525354b6ece7ed391bb70
+  - 0162fc109d1f2397d7346eec70e0f37d
+  - a408d9b6176085784c858c5f6c82baf7
+  - ec1f624ff6980f47023d07adaf2a94d5
+  - 885ab57e7b6caab2c34c82112417929f
+  - 41ef62c4a901ab93184f918de26e7ec6
+  - 6820e45e3b69f30ccb84ae2022f1700d
+  - 3b1d8bbf7268329702c74bc62ef994c4
+  - 7945ff0dace3310e43f98d91090837ac
+  - 4d4c1e57c3cfc766bd303ed7e249028f
+  - 5f96be801413c2e6a3ef500ef958635d
+  - 2ce55b43dcb171dfb8ee453529cfd864
+  - 381fb9f28cfb925ec74acfc305a28daf
+  - c910a8408828eb905a74fa14a4c87ac4
+  - 3bb83d84f293c1f9033bf788ca4c8a6a
+  - 640faa09afa7bf07b147a8ca127692a8
+  - 4714bd08e60082a9668ed454bde09e96
+  - 11de564cc412d2c5f0de7f3496ac7a0c
+  - 9fa64282331c18dbf83e5af5aef3187b
+  - 5bb390e9812e8a27e53a241e08538620
+  - d85f9330c5091d944041a6e6ba9219a1
+  - eeebf618bf66d639dfe6fe5e037b337a
+  - e5b4aa715c7084639550b8ba19e97282
+  known_good:
+  - ASUSWMI
+  known_good_nct6775: []
+  links: []
+  superio: NCT6793D
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 Z170-DELUXE:
   aliases:
   - Z170-DELUXE-ASUS
@@ -22794,7 +24384,7 @@ Z170-DELUXE:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z170
   gigabyte_wmi: N
   hash:
@@ -22815,6 +24405,7 @@ Z170-DELUXE:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
 Z170I PRO GAMING:
   aliases:
+  - Z170I-PRO-GAMING-ASUS-0000
   - Z170I-PRO-GAMING-ASUS-3805
   asus_dispatcher: []
   asus_ec: N
@@ -22829,7 +24420,7 @@ Z170I PRO GAMING:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z170
   gigabyte_wmi: N
   hash:
@@ -22929,6 +24520,13 @@ Z170I PRO GAMING:
   - 8c27c9b4563d3f4ed36d6a18e8df7352
   - e4ae879231b7553df6c7a7549afdf6d5
   - d3835a47a5f3e593a5593a0a7de65a7a
+  - 954e4c624c3c798b2791644e4bf418a0
+  - dd1cf7f6489340003183ede40f900e32
+  - bfd3e2b9c0885c9851b9330fbac0297c
+  - 51bf00ab6d43e0934e7bb2ad22f78490
+  - 4714bd08e60082a9668ed454bde09e96
+  - 2a444eb34d087d8d2ae409f98a336073
+  - 9ee07bc823ce5fcf2f821e33161b5241
   known_good:
   - ASUSWMI
   known_good_nct6775:
@@ -22958,7 +24556,7 @@ Z170M-PLUS:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z170
   gigabyte_wmi: N
   hash:
@@ -22992,7 +24590,7 @@ Z270-WS:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z270
   gigabyte_wmi: N
   hash:
@@ -23011,6 +24609,86 @@ Z270-WS:
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+Z270N-WIFI-CF:
+  aliases:
+  - Z270N-WIFI-CF-GIGABYTE-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: Z270
+  gigabyte_wmi: N
+  hash:
+  - bfd3e2b9c0885c9851b9330fbac0297c
+  - 8abe69bc008e0a511a294e3bc95eff51
+  - 4714bd08e60082a9668ed454bde09e96
+  - 5358456f4b3b1d01a5f84796ed069439
+  - 0eb8efc7ee8e3a0e8c18a1f38025daeb
+  - 2ce55b43dcb171dfb8ee453529cfd864
+  - 6820e45e3b69f30ccb84ae2022f1700d
+  - 41ef62c4a901ab93184f918de26e7ec6
+  - a9f313fb2dde6175f715280e7d8dbe76
+  - d5bf407c2ca0ccd2ebdd924accdf4d50
+  - 9cd7f775be39faa3d4e56845bd9860d7
+  - ead484eed52f52ff4caa1ef17981c2c3
+  - 4ab782b49819c2028959c8130115dd2e
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
+Z390 I AORUS PRO WIFI-CF:
+  aliases:
+  - Z390-I-AORUS-PRO-WIFI-CF-GIGABYTE-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: Z390
+  gigabyte_wmi: Y
+  hash:
+  - 6613c3a3d8970d8b9cce2dac3da4de97
+  - 078ff0f02e6741a304b5ca137705227a
+  - 9b5b07dde3691028fdc3abfc4c2f7215
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - ed4284319e070f6248129d3cc07c9a4c
+  - 48e87d59304397114a6a7ae2479d3713
+  - 9e92140df0d1dc9a04dddcb6da3495c4
+  - 8189f5ad246b816cf6d414e24102bd2f
+  - 0d78216fc31624a50c38decbcf74ec2d
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - b5d4eda465d7c98a5b0d54d97ce8510b
+  - cbd9e07889675cfea34f40a79dcc8257
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - 3d22c017f8f4062ae134cc4dd908ccce
+  - 6e6c0a61fd596cee482ec36f5361d92e
+  - 08461e68fa543d96e4c9eeae9435828e
+  - 7d09b043758f58cc8dade72e87016347
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
 Z490-GUNDAM (WI-FI):
   aliases:
   - Z490-GUNDAM-WIFI-ASUS-2601
@@ -23031,7 +24709,7 @@ Z490-GUNDAM (WI-FI):
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: Y
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z490
   gigabyte_wmi: N
   hash:
@@ -23070,7 +24748,7 @@ Z590 WIFI GUNDAM EDITION:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z590
   gigabyte_wmi: N
   hash:
@@ -23201,7 +24879,7 @@ Z690M AORUS ELITE AX DDR4:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: GIGABYTE
+  board_producer: Gigabyte Technology Co., Ltd.
   bridge: Z690
   gigabyte_wmi: Y
   hash:
@@ -23936,6 +25614,38 @@ Z690M AORUS ELITE AX DDR4:
   - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
   - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
   - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+Z97-HD3:
+  aliases:
+  - Z97-HD3-GIGABYTE-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: Z97
+  gigabyte_wmi: N
+  hash:
+  - 304925122bfcf11c51de8e4ccabbd2d2
+  - d439f495a938280aa2f3324a60b1db54
+  - 5b2f607b9b625b0e9cc23ed1ae37ae00
+  - f5309b6de49a42fa8e1a1f3ffdbc2887
+  - 7d579c65fe1d76c88805e1dbbd6a6d84
+  - e57a5d288c0e036b0a64be50b0bf6209
+  - 71a900f4f2cd27cbc3a53da3337b663b
+  - 481ed55a4b95ab1722a23afe140c7434
+  - 69678e59d32af9b6e3b1136044725e3d
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
 Z97-PRO GAMER:
   aliases:
   - Z97-PRO-GAMER-ASUS-2203
@@ -23949,7 +25659,7 @@ Z97-PRO GAMER:
   asus_port290: []
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUS
+  board_producer: ASUSTeK COMPUTER INC.
   bridge: Z97
   gigabyte_wmi: N
   hash:

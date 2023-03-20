@@ -2,7 +2,7 @@
 import sys
 import os
 import csv
-import yaml
+from utils import load_linuxhw_DMI, save_linuxhw_DMI
 
 
 def __dmi_fix_result(result):
@@ -81,45 +81,6 @@ def dmi_process(content):
     return board_producer, board_name, board_sensor
 
 
-def load_linuxhw_DMI():
-    board_desc = []
-    try:
-        with open("docs/linuxhw_DMI.csv", newline='') as f:
-            reader = csv.reader(f)
-            try:
-                for row in reader:
-                    if row[0] in ("ASUSTek Computer", "ASUSTeK COMPUTER INC."):
-                        row[0] = "ASUSTeK COMPUTER INC."
-                    elif (
-                        not row[0] or
-                        not row[1]
-                    ):
-                        continue
-                    elif (
-                        "To be filled by O.E.M." in row[0] or
-                        "To be filled by O.E.M." in row[1]
-                    ):
-                        continue
-                    board_desc.append(row)
-            except csv.Error as ex:
-                print (f"Could not read docs/linuxhw_DMI.csv: {ex}")
-        print (f"Loaded {len(board_desc)} boards descriptions.")
-    except Exception as ex:
-        print (f"Could not read linuxhw_DMI.csv: {ex}")
-    return board_desc
-
-
-def save_linuxhw_DMI(board_desc):
-    try:
-        with open("docs/linuxhw_DMI.csv", 'w', newline='') as f:
-            writer = csv.writer(f)
-            for row in board_desc:
-                writer.writerow(row)
-        print (f"Saved {len(board_desc)} boards descriptions.")
-    except Exception as ex:
-        print (f"Could not write linuxhw_DMI.csv: {ex}")
-
-
 if __name__ == "__main__":
     board_desc = load_linuxhw_DMI()
 
@@ -129,7 +90,6 @@ if __name__ == "__main__":
 
     sensors = []
 
-    count_files = 0
     for dirname, _, filenames in os.walk(current_dir):
         if "/.git" in dirname:
             continue

@@ -12,6 +12,8 @@ from asl_parser import (
     search_block_with_name_parameter, asl_get_operator_with_params,
     decode_buffer_uuid_by_name
 )
+from utils import load_linuxhw_DMI, file_write_with_changes, load_board_flags
+
 
 LINKS = [
     "https://dlcdnets.asus.com/pub/ASUS/mb/SocketFM2/A88X-GAMER/A88X-GAMER-ASUS-1603.zip",
@@ -22,6 +24,7 @@ LINKS = [
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-A-ASUS-1620.ZIP",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B550-XE-GAMING-WIFI-ASUS-2425.ZIP",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B550-XE-GAMING-WIFI-ASUS-3001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H610T-D4-SI-2212.zip",
 ]
 
 
@@ -341,6 +344,7 @@ BOARDNAME_CONVERT = {
     "X99-E-10G-WS": "X99-E-10G WS",
     "ROG STRIX B550-XE GAMING (WI-FI)": "ROG STRIX B550-XE GAMING WIFI",
     "PRIME H410M-K R2": "PRIME H410M-K R2.0",
+    "PRO H610T-D4": "Pro H610T D4",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -564,6 +568,9 @@ def gen_asus_board_name(board_group):
         board_name = f"{board_group[0]} "
         board_name += "-".join(board_group[1:3]) + " "
         board_name += " ".join(board_group[3:])
+        # for strix should be space before gaming
+        if board_group[0].upper() in ("STRIX"):
+            board_name = board_name.replace("-GAMING", " GAMING")
     elif board_group[0] == "Pro" and board_group[1] == "WS":
         # detect chipset from name
         for chipset in BRIDGE_CHIPSETS:
@@ -1127,30 +1134,47 @@ def fix_flags(boards_flags):
     for board_name in boards_flags:
         board_flags = boards_flags[board_name]
 
+        # update flags to default
+        for flag in DEFAULT_FLAGS:
+            if flag not in board_flags:
+                board_flags[flag] = copy.deepcopy(DEFAULT_FLAGS[flag])
+
         # check for errors in detect
         if (
             board_flags["gigabyte_wmi"] not in BOARD_CORRECTLY_DETECTED and
             board_name in GIGABYTE_BOARDS
         ):
-            board_flags["gigabyte_wmi"] += "?"
+            if board_flags.get("hash"):
+                board_flags["gigabyte_wmi"] += "?"
+            else:
+                board_flags["gigabyte_wmi"] = "L"
 
         if (
             board_flags["asus_wmi"] not in BOARD_CORRECTLY_DETECTED and
             board_name in WMI_BOARDS
         ):
-            board_flags["asus_wmi"] += "?"
+            if board_flags.get("hash"):
+                board_flags["asus_wmi"] += "?"
+            else:
+                board_flags["asus_wmi"] = "L"
 
         if (
             board_flags["asus_nct6775"] not in BOARD_CORRECTLY_DETECTED and
             board_name in NCT6775_BOARDS
         ):
-            board_flags["asus_nct6775"] += "?"
+            if board_flags.get("hash"):
+                board_flags["asus_nct6775"] += "?"
+            else:
+                board_flags["asus_nct6775"] = "L"
 
         if (
             board_flags["asus_ec"] not in BOARD_CORRECTLY_DETECTED and
             board_name in EC_BOARDS
         ):
-            board_flags["asus_ec"] += "?"
+            if board_flags.get("hash"):
+                board_flags["asus_ec"] += "?"
+            else:
+                board_flags["asus_ec"] = "L"
 
         if (
             board_flags["asus_ec"] in ("U", "Y") and
@@ -1192,7 +1216,8 @@ def add_load_flags(boards_flags, board_desc):
         if board_name in boards_flags:
             continue
         boards_flags[board_name] = {
-            "board_producer": "GIGABYTE" if board_name in GIGABYTE_BOARDS else "ASUS"
+            "board_producer": "Gigabyte Technology Co., Ltd."
+                if board_name in GIGABYTE_BOARDS else "ASUSTeK COMPUTER INC."
         }
         boards_flags[board_name].update(copy.deepcopy(DEFAULT_FLAGS))
         boards_flags[board_name].update({
@@ -1232,6 +1257,10 @@ def add_load_flags(boards_flags, board_desc):
 def show_board(board_name, board_producer, superio="", asus_wmi="N", gigabyte_wmi="N",
                asus_nct6775="N", asus_ec="N", asus_ite87_mutex="",
                asus_nct6775_mutex="", asus_ec_mutex=""):
+    for brand in ["ASUS", "GIGABYTE", "LENOVO"]:
+        if brand in board_producer.upper():
+            board_producer = brand
+            break
     if asus_ite87_mutex:
         asus_wmi += " (" + asus_ite87_mutex + ")"
     if asus_nct6775_mutex:
@@ -1353,19 +1382,7 @@ def print_boards(boards_flags):
                        f'&{ASUS_NCT6775_MUTEX_CODENAME.get(board_flags["asus_nct6775_mutex"], "")}),')
 
 
-def file_write_with_changes(name, content):
-    try:
-        with open(name, "rb") as f:
-            if f.read().decode("utf8") == content:
-                print (f"Same content {name}")
-                return
-    except Exception as ex:
-        print (f"Could not read {name}: {ex}")
-    with open(name, "wb") as f:
-        f.write(content.encode("utf8"))
-
-
-def file_name_to_board_name(filename):
+def file_name_to_board_name(filename, alias_to_name):
     board_group = filename.split("-")
     board_version = ""
     # check bios version
@@ -1386,6 +1403,15 @@ def file_name_to_board_name(filename):
     else:
         board_name, bridge_chipset = gen_asus_board_name(board_group)
 
+    # fix name by alias
+    if filename in alias_to_name:
+        board_name = alias_to_name[filename]
+
+    if board_producer == "GIGABYTE":
+        board_producer = "Gigabyte Technology Co., Ltd."
+    elif board_producer == "ASUS":
+        board_producer = "ASUSTeK COMPUTER INC."
+
     return board_name, board_version, bridge_chipset, board_producer
 
 
@@ -1402,15 +1428,15 @@ if __name__ == "__main__":
             if filename.endswith('.dsl'):
                 count_files += 1
 
-    boards_flags = {}
     board_desc = []
+    alias_to_name = {}
+    boards_flags = load_board_flags()
 
-    try:
-        with open("boards.yaml", "rb") as f:
-            boards_flags.update(yaml.load(f.read().decode("utf8"), yaml.Loader))
-        print (f"Loaded {len(boards_flags.keys())} boards.")
-    except Exception as ex:
-        print (f"Could not read boards.yaml: {ex}")
+    # create aliases base
+    for name in boards_flags:
+        aliases = boards_flags[name].get("aliases", [])
+        for alias in aliases:
+            alias_to_name[alias] = name
 
     # remove boards with old name
     for board_name in BOARDNAME_CONVERT:
@@ -1428,7 +1454,7 @@ if __name__ == "__main__":
             continue
         (board_name, board_version,
          bridge_chipset, board_producer
-        ) = file_name_to_board_name(file_parts[0])
+        ) = file_name_to_board_name(file_parts[0], alias_to_name)
 
         # create flags struct
         if board_name not in boards_flags:
@@ -1460,23 +1486,17 @@ if __name__ == "__main__":
     except Exception as ex:
         print (f"Could not read methods.json: {ex}")
 
-    try:
-        with open("docs/linuxhw_DMI.csv", newline='') as f:
-            reader = csv.reader(f)
-            try:
-                for row in reader:
-                    if row[0] in ("ASUSTek Computer", "ASUSTeK COMPUTER INC."):
-                        row[0] = "ASUS"
-                    elif row[0] == "Gigabyte Technology Co., Ltd.":
-                        row[0] = "GIGABYTE"
-                    else:
-                        continue
-                    board_desc.append(row)
-            except csv.Error as ex:
-                print (f"Could not read docs/linuxhw_DMI.csv: {ex}")
-        print (f"Loaded {len(board_desc)} boards descriptions.")
-    except Exception as ex:
-        print (f"Could not read methods.json: {ex}")
+    # Load linux hw DMI database
+    for row in load_linuxhw_DMI():
+        if row[0] not in (
+            "ASUSTeK Computer INC.",
+            "ASUSTeK COMPUTER INC.",
+            "Gigabyte Technology Co., Ltd.",
+            "LENOVO"
+        ):
+            continue
+        board_desc.append(row)
+    print (f"Loaded cleanuped {len(board_desc)} boards descriptions.")
 
     processed_files = 0
     for dirname, _, filenames in os.walk(current_dir):
@@ -1491,7 +1511,7 @@ if __name__ == "__main__":
 
                 (board_name, board_version,
                  bridge_chipset, board_producer
-                ) = file_name_to_board_name(file_parts[0])
+                ) = file_name_to_board_name(file_parts[0], alias_to_name)
 
                 processed_files += 1
                 print (f"Board: {board_name}")

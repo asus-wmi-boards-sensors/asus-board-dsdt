@@ -34,6 +34,9 @@ Datasheets for sensors are placed to [docs directory](docs).
 | made by  | board name                       | superio    | asus_wmi_sensors (io mutex)   | gigabyte-wmi | nct6775 (io mutex)            | asus_ec_sensors (ec mutex)    |
 | ---------| -------------------------------- | ---------- | ----------------------------- | ------------ | ----------------------------- | ----------------------------- |
 | ASUS     | 970 PRO GAMING/AURA              |            | N                             | N            | N                             | N                             |
+| GIGABYTE | 970A-DS3P                        |            | N                             | N            | N                             | N                             |
+| GIGABYTE | 990XA-UD3                        |            | N                             | N            | N                             | N                             |
+| GIGABYTE | A320M-S2H-CF                     |            | N                             | U            | N                             | N                             |
 | ASUS     | A68HM-K                          |            | N                             | N            | N                             | N                             |
 | ASUS     | A68HM-PLUS                       |            | N                             | N            | N                             | N                             |
 | ASUS     | A88X-GAMER                       |            | N                             | N            | N                             | N                             |
@@ -43,11 +46,14 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | B150I PRO GAMING/AURA            | NCT5539D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | B150I PRO GAMING/WIFI/AURA       | NCT5539D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | B150M PRO GAMING                 | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
+| GIGABYTE | B450 AORUS ELITE                 |            | N                             | U            | N                             | N                             |
+| GIGABYTE | B450 AORUS PRO WIFI-CF           |            | N                             | U            | N                             | N                             |
 | GIGABYTE | B450M DS3H-CF                    |            | N                             | L            | N                             | N                             |
 | GIGABYTE | B450M S2H V2                     |            | N                             | L            | N                             | N                             |
 | GIGABYTE | B550 AORUS ELITE                 |            | N                             | L            | N                             | N                             |
-| GIGABYTE | B550 AORUS ELITE AX V2           |            | N                             | L            | N                             | N                             |
+| GIGABYTE | B550 AORUS ELITE AX V2           |            | N                             | Y            | N                             | N                             |
 | GIGABYTE | B550 AORUS ELITE V2              |            | N                             | L            | N                             | N                             |
+| GIGABYTE | B550 AORUS PRO V2                |            | N                             | U            | N                             | N                             |
 | GIGABYTE | B550 GAMING X V2                 |            | N                             | L            | N                             | N                             |
 | GIGABYTE | B550I AORUS PRO AX               |            | N                             | L            | N                             | N                             |
 | GIGABYTE | B550M AORUS PRO-P                |            | N                             | L            | N                             | N                             |
@@ -61,15 +67,30 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | EX-B660M-V5 D4                   |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | EX-B660M-V5 PRO D4               |            | N                             | N            | Y (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | EX-B760M-V5 D4                   |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| GIGABYTE | EX58-UD5                         |            | N                             | N            | N                             | N                             |
+| GIGABYTE | F2A78M-HD2                       |            | N                             | N            | N                             | N                             |
+| GIGABYTE | GA-MA78LMT-US2H                  |            | N                             | N            | N                             | N                             |
+| ASUS     | H110M-A/M.2                      | NCT5539D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | H170 PRO GAMING                  |            | N                             | N            | N                             | N                             |
 | ASUS     | H81-GAMER                        | NCT5538D   | N                             | N            | N                             | N                             |
+| ASUS     | H81M-R                           | NCT5538D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | H97-PRO GAMER                    | NCT5538D   | N                             | N            | N                             | N                             |
+| ASUS     | K30AD_M31AD_M51AD_M32AD          | NCT5538D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | M4A88TD-V EVO/USB3               |            | N                             | N            | N                             | N                             |
+| ASUS     | M5A78L-M PLUS/USB3               | IT8728F    | N                             | N            | N                             | N                             |
+| ASUS     | M5A88-M                          |            | N                             | N            | N                             | N                             |
 | ASUS     | MAXIMUS IX APEX                  |            | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | MAXIMUS IX CODE                  | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | MAXIMUS IX EXTREME               |            | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | MAXIMUS IX FORMULA               | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | MAXIMUS IX HERO                  | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | MAXIMUS VII HERO                 | NCT6791D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | Maximus VIII FORMULA             | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | P5GC-MX                          |            | N                             | N            | P                             | N                             |
+| ASUS     | P5Q-EM                           |            | N                             | N            | P                             | N                             |
+| ASUS     | P5QL PRO                         |            | N                             | N            | P                             | N                             |
+| ASUS     | P5VD2-VM                         |            | N                             | N            | N                             | N                             |
+| ASUS     | P8H61-M LX R2.0                  | NCT6779D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | P8H67                            | NCT6776F   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | P8Z68-V LX                       | NCT6776F   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME A320I-K                    | IT8655E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
@@ -92,6 +113,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | PRIME B360M-D                    | NCT5582D   | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B360M-K                    | NCT5582D   | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B450-PLUS                  | IT8665E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME B450M-A II                 | IT8655E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B450M-GAMING II            | IT8655E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B450M-GAMING/BR            | IT8655E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B460-PLUS                  | NCT6798D   | N                             | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
@@ -124,6 +146,8 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | PRIME B760M-A WIFI D4            |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B760M-AJ D4                |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B760M-K D4                 |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME H270-PLUS                  | NCT5539D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME H310T                      | NCT5582D   | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME H410I-PLUS                 | NCT6798D   | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME H410M-A                    |            | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME H410M-E                    |            | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
@@ -131,7 +155,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | PRIME H410M-K R2.0               |            | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME H410M-R                    | NCT6798D   | N                             | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME X370-PRO                   | IT8665E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
-| ASUS     | PRIME X399-A                     |            | N?                            | N            | N (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME X399-A                     |            | Y (\AMW0._GL)                 | N            | P (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME X470-PRO                   | IT8665E    | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
 | ASUS     | PRIME X570-P                     | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME X570-PRO                   | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
@@ -144,11 +168,12 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | PRIME Z270M-PLUS                 |            | N                             | N            | N                             | N                             |
 | ASUS     | PRIME Z370-A                     |            | N                             | N            | N (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME Z370-A II                  |            | N                             | N            | N                             | N                             |
+| ASUS     | PRIME Z390-P                     | NCT6798D   | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME Z590-A                     | NCT6798D   | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME Z590-P                     | NCT6798D   | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME Z590-P WIFI                | NCT6798D   | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME Z590-V                     | NCT6798D   | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
-| ASUS     | PRIME Z590M-PLUS                 | NCT6798D   | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME Z590M-PLUS                 | NCT6798D   | N                             | N            | Y (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRO A320M-R WI-FI                | IT8655E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRO H410M-C                      | NCT6798D   | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRO H410T                        | NCT6798D   | N                             | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
@@ -171,6 +196,8 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ProArt Z490-CREATOR 10G          | NCT6798D   | N                             | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | ProArt Z690-CREATOR WIFI         | NCT6798D   | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | ProArt Z790-CREATOR WIFI         |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| GIGABYTE | Q87M-D2H                         |            | N                             | N            | N                             | N                             |
+| ASUS     | RAMPAGE V EXTREME                |            | N                             | N            | P                             | N                             |
 | ASUS     | ROG CROSSHAIR VI EXTREME         |            | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
 | ASUS     | ROG CROSSHAIR VI HERO (WI-FI AC) |            | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
 | ASUS     | ROG CROSSHAIR VII HERO           |            | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
@@ -185,6 +212,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ROG CROSSHAIR X670E GENE         |            | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG CROSSHAIR X670E HERO         | NCT6799D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG MAXIMUS X HERO               | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | ROG MAXIMUS XI FORMULA           | NCT6798D   | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | ROG MAXIMUS XI HERO              | NCT6798D   | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N? (\AMW0.ASMX)               |
 | ASUS     | ROG MAXIMUS XI HERO (WI-FI)      | NCT6798D   | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N? (\AMW0.ASMX)               |
 | ASUS     | ROG MAXIMUS XIII APEX            | NCT6798D   | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
@@ -228,7 +256,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ROG STRIX TRX40-XE GAMING        | NCT6798D   | N                             | N            | P (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX X370-F GAMING          | IT8665E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX X370-I GAMING          |            | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
-| ASUS     | ROG STRIX X399-E GAMING          |            | N?                            | N            | N (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
+| ASUS     | ROG STRIX X399-E GAMING          |            | L                             | N            | N (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX X470-F GAMING          | IT8665E    | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
 | ASUS     | ROG STRIX X470-I GAMING          |            | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
 | ASUS     | ROG STRIX X570-E GAMING          | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
@@ -262,16 +290,16 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ROG STRIX Z690-E GAMING WIFI     | NCT6798D   | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX Z690-F GAMING WIFI     | NCT6798D   | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX Z690-G GAMING WIFI     | NCT6798D   | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
-| ASUS     | ROG ZENITH EXTREME               |            | N?                            | N            | N                             | N                             |
-| ASUS     | ROG ZENITH EXTREME ALPHA         |            | N?                            | N            | N                             | N                             |
+| ASUS     | ROG ZENITH EXTREME               |            | L                             | N            | N                             | N                             |
+| ASUS     | ROG ZENITH EXTREME ALPHA         |            | L                             | N            | N                             | N                             |
 | ASUS     | ROG ZENITH II EXTREME            | NCT6798D   | N                             | N            | P (\_SB.PCI0.SBRG.SIO1.MUT0)  | N? (\_SB_.PCI0.SBRG.SIO1.MUT0)|
 | ASUS     | ROG ZENITH II EXTREME ALPHA      | NCT6798D   | N                             | N            | P (\_SB.PCI0.SBRG.SIO1.MUT0)  | N?                            |
 | LENOVO   | S206                             |            | N                             | N            | N                             | N                             |
-| ASUS     | STRIX Z270E-GAMING               |            | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
-| ASUS     | STRIX Z270F-GAMING               |            | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
-| ASUS     | STRIX Z270G-GAMING               |            | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
-| ASUS     | STRIX Z270H-GAMING               |            | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
-| ASUS     | STRIX Z270I-GAMING               |            | N                             | N            | N                             | N                             |
+| ASUS     | STRIX Z270E GAMING               | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | STRIX Z270F GAMING               | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | STRIX Z270G GAMING               | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | STRIX Z270H GAMING               | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | STRIX Z270I GAMING               |            | N                             | N            | N                             | N                             |
 | ASUS     | TUF B350M-PLUS GAMING            | IT8655E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF B450-PLUS GAMING             | IT8665E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING A520M-PLUS            | NCT6798D-R | N                             | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
@@ -310,21 +338,29 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | TUF GAMING Z490-PLUS (WI-FI)     | NCT6798D   | N                             | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING Z590-PLUS             | NCT6798D   | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING Z590-PLUS WIFI        | NCT6798D   | N                             | N            | Y (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | TUF X470-PLUS GAMING             | IT8665E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF Z270 MARK 1                  | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
+| GIGABYTE | X299 UD4-CF                      |            | N                             | U            | N                             | N                             |
+| GIGABYTE | X470 AORUS ULTRA GAMING-CF       |            | N                             | U            | N                             | N                             |
 | GIGABYTE | X570 AORUS ELITE                 |            | N                             | Y            | N                             | N                             |
 | GIGABYTE | X570 AORUS ELITE WIFI            | IT8688E    | N                             | Y            | N                             | N                             |
+| GIGABYTE | X570 AORUS MASTER                | IT8688E    | N                             | U            | N                             | N                             |
 | GIGABYTE | X570 GAMING X                    |            | N                             | L            | N                             | N                             |
 | GIGABYTE | X570 I AORUS PRO WIFI            | IT8688E    | N                             | Y            | N                             | N                             |
 | GIGABYTE | X570 UD                          |            | N                             | L            | N                             | N                             |
+| GIGABYTE | X79-UP4                          |            | N                             | N            | N                             | N                             |
 | ASUS     | X99-E WS/USB 3.1                 |            | N                             | N            | L (\_SB_.PCI0.LPC0.SIO1.MUT0) | N                             |
 | ASUS     | X99-E-10G WS                     |            | N                             | N            | N                             | N                             |
+| GIGABYTE | X99-UD4-CF                       |            | N                             | N            | N                             | N                             |
 | ASUS     | Z170 PRO GAMING                  | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | Z170 PRO GAMING/AURA             | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | Z170-A                           | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | Z170-DELUXE                      | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | Z170I PRO GAMING                 | NCT5539D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | Z170M-PLUS                       | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | Z270-WS                          |            | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
-| GIGABYTE | Z390 I AORUS PRO WIFI-CF         |            | N                             | L            | N                             | N                             |
+| GIGABYTE | Z270N-WIFI-CF                    |            | N                             | N            | N                             | N                             |
+| GIGABYTE | Z390 I AORUS PRO WIFI-CF         |            | N                             | Y            | N                             | N                             |
 | GIGABYTE | Z490 AORUS ELITE AC              |            | N                             | L            | N                             | N                             |
 | ASUS     | Z490-GUNDAM (WI-FI)              |            | N                             | N            | U (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | GIGABYTE | Z590 AORUS ELITE AX              |            | N                             | N            | L                             | N                             |
@@ -343,6 +379,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | GIGABYTE | Z590M                            |            | N                             | N            | L                             | N                             |
 | GIGABYTE | Z590M GAMING X                   |            | N                             | N            | L                             | N                             |
 | GIGABYTE | Z690M AORUS ELITE AX DDR4        |            | N                             | Y            | N                             | N                             |
+| GIGABYTE | Z97-HD3                          |            | N                             | N            | N                             | N                             |
 | ASUS     | Z97-PRO GAMER                    | NCT5538D   | N                             | N            | N                             | N                             |
 
 * L - no DSDL/SSDL dumps,
