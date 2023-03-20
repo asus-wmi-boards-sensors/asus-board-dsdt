@@ -16,14 +16,6 @@ from utils import load_linuxhw_DMI, file_write_with_changes, load_board_flags
 
 
 LINKS = [
-    "https://dlcdnets.asus.com/pub/ASUS/mb/SocketFM2/A88X-GAMER/A88X-GAMER-ASUS-1603.zip",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550-PLUS-WIFI-ASUS-3002.zip",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-K-R2-ASUS-2802.ZIP",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-K-ASUS-1620.ZIP",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-E-ASUS-1620.ZIP",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-A-ASUS-1620.ZIP",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B550-XE-GAMING-WIFI-ASUS-2425.ZIP",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B550-XE-GAMING-WIFI-ASUS-3001.zip",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H610T-D4-SI-2212.zip",
 ]
 
@@ -102,17 +94,29 @@ NCT6775_CHIPS = [
 # Upstreamed nct6775
 NCT6775_BOARDS = [
     # B550 style
+    "Pro A520M-C",
+    "Pro A520M-C II",
     "PRO H410T",
     "ProArt B550-CREATOR",
     "ProArt X570-CREATOR WIFI",
     "ProArt Z490-CREATOR 10G",
     "Pro B550M-C",
     "Pro WS X570-ACE",
+    "PRIME A520M-A",
+    "PRIME A520M-A II",
+    "PRIME A520M-E",
+    "PRIME A520M-K",
     "PRIME B360-PLUS",
+    "PRIME B360M-A",
+    "PRIME B360M-C",
     "PRIME B460-PLUS",
+    "PRIME B460M-A R2.0",
     "PRIME B550-PLUS",
     "PRIME B550M-A",
     "PRIME B550M-A (WI-FI)",
+    "PRIME B550M-A AC",
+    "PRIME B550M-A WIFI II",
+    "PRIME B550M-K",
     "PRIME H410M-R",
     "PRIME X570-P",
     "PRIME X570-PRO",
@@ -144,6 +148,9 @@ NCT6775_BOARDS = [
     "ROG STRIX Z490-G GAMING (WI-FI)",
     "ROG STRIX Z490-H GAMING",
     "ROG STRIX Z490-I GAMING",
+    "TUF GAMING A520M-PLUS",
+    "TUF GAMING A520M-PLUS II",
+    "TUF GAMING A520M-PLUS WIFI",
     "TUF GAMING B550M-E",
     "TUF GAMING B550M-E WIFI",
     "TUF GAMING B550M-PLUS",
@@ -154,14 +161,18 @@ NCT6775_BOARDS = [
     "TUF GAMING B550-PRO",
     "TUF GAMING X570-PLUS",
     "TUF GAMING X570-PLUS (WI-FI)",
+    "TUF GAMING X570-PLUS_BR",
     "TUF GAMING X570-PRO (WI-FI)",
     "TUF GAMING Z490-PLUS",
     "TUF GAMING Z490-PLUS (WI-FI)",
+    "Z490-GUNDAM (WI-FI)",
     # B650 style
+    "EX-B660M-V5 D4",
     "EX-B660M-V5 PRO D4",
     "PRIME B650-PLUS",
     "PRIME B650M-A",
     "PRIME B650M-A AX",
+    "PRIME B650M-A AX II",
     "PRIME B650M-A II",
     "PRIME B650M-A WIFI",
     "PRIME B650M-A WIFI II",
@@ -172,20 +183,33 @@ NCT6775_BOARDS = [
     "PRIME X670E-PRO WIFI",
     "PRIME Z590-A",
     "PRIME Z590-P",
+    "PRIME Z590-P WIFI",
+    "PRIME Z590-V",
     "PRIME Z590M-PLUS",
+    "Pro B660M-C",
     "Pro B660M-C-D4",
+    "Pro WS W680-ACE",
+    "Pro WS W680-ACE IPMI",
+    "ProArt B650-CREATOR",
     "ProArt B660-CREATOR D4",
     "ProArt X670E-CREATOR WIFI",
+    "ProArt Z790-CREATOR WIFI",
     "ROG CROSSHAIR X670E EXTREME",
     "ROG CROSSHAIR X670E GENE",
     "ROG CROSSHAIR X670E HERO",
+    "ROG MAXIMUS XIII APEX",
+    "ROG MAXIMUS XIII EXTREME",
     "ROG MAXIMUS XIII EXTREME GLACIAL",
+    "ROG MAXIMUS XIII HERO",
+    "ROG MAXIMUS Z690 APEX",
     "ROG MAXIMUS Z690 EXTREME",
     "ROG MAXIMUS Z690 EXTREME GLACIAL",
+    "ROG MAXIMUS Z790 EXTREME",
     "ROG STRIX B650-A GAMING WIFI",
     "ROG STRIX B650E-E GAMING WIFI",
     "ROG STRIX B650E-F GAMING WIFI",
     "ROG STRIX B650E-I GAMING WIFI",
+    "ROG STRIX B660-A GAMING WIFI",
     "ROG STRIX B660-A GAMING WIFI D4",
     "ROG STRIX B660-F GAMING WIFI",
     "ROG STRIX B660-G GAMING WIFI",
@@ -194,16 +218,24 @@ NCT6775_BOARDS = [
     "ROG STRIX X670E-E GAMING WIFI",
     "ROG STRIX X670E-F GAMING WIFI",
     "ROG STRIX X670E-I GAMING WIFI",
+    "ROG STRIX Z590-A GAMING WIFI",
     "ROG STRIX Z590-A GAMING WIFI II",
+    "ROG STRIX Z590-E GAMING WIFI",
+    "ROG STRIX Z590-F GAMING WIFI",
+    "ROG STRIX Z590-I GAMING WIFI",
     "ROG STRIX Z690-A GAMING WIFI D4",
     "TUF GAMING B650-PLUS",
     "TUF GAMING B650-PLUS WIFI",
     "TUF GAMING B650M-PLUS",
     "TUF GAMING B650M-PLUS WIFI",
+    "TUF GAMING B660-PLUS WIFI D4",
+    "TUF GAMING B660M-E D4",
     "TUF GAMING B660M-PLUS WIFI",
     "TUF GAMING X670E-PLUS",
     "TUF GAMING X670E-PLUS WIFI",
+    "TUF GAMING Z590-PLUS",
     "TUF GAMING Z590-PLUS WIFI",
+    "Z590 WIFI GUNDAM EDITION",
 ]
 
 # Upstreamed gigabyte
@@ -232,12 +264,11 @@ GIGABYTE_BOARDS = [
 # Upstreamed nct6775 series
 NCT6775_SERIES = {
     # B550 style
+    "Pro A520",
     "PRO H410",
     "ProArt B550",
-    "ProArt B650",
     "ProArt X570",
     "ProArt Z490",
-    "Pro A520",
     "Pro B550",
     "Pro WS X570",
     "PRIME A520",
@@ -263,6 +294,8 @@ NCT6775_SERIES = {
     "PRIME X670",
     "PRIME Z590",
     "Pro B660",
+    "Pro WS W680",
+    "ProArt B650",
     "ProArt B660",
     "ProArt X670",
     "ProArt Z790",
@@ -279,8 +312,7 @@ NCT6775_SERIES = {
     "TUF GAMING B660",
     "TUF GAMING X670",
     "TUF GAMING Z590",
-    "Pro WS W680-ACE",
-    "Z590",
+    "Z590 ",
 }
 
 # methods
@@ -913,6 +945,30 @@ DEFAULT_FLAGS = {
 }
 
 
+def set_default_flags(board_flags, board_name):
+    # update flags to default
+    for flag in DEFAULT_FLAGS:
+        if flag not in board_flags:
+            board_flags[flag] = copy.deepcopy(DEFAULT_FLAGS[flag])
+    for key in board_flags.keys():
+        if isinstance(board_flags[key], list):
+            board_flags[key] = sorted(board_flags[key])
+
+    if (
+        board_flags["asus_wmi"] == "U" and
+        board_name in WMI_BOARDS
+    ):
+        if board_flags.get("hash"):
+            board_flags["asus_wmi"] = "Y"
+
+    if (
+        board_flags["asus_nct6775"] == "U" and
+        board_name in NCT6775_BOARDS
+    ):
+        if board_flags.get("hash"):
+            board_flags["asus_nct6775"] = "Y"
+
+
 def update_board_asl_flags(board_flags, asl_struct):
     # search name region Gigabyte style
     blocks = search_block_with_name_parameter(asl_struct, {
@@ -1134,10 +1190,7 @@ def fix_flags(boards_flags):
     for board_name in boards_flags:
         board_flags = boards_flags[board_name]
 
-        # update flags to default
-        for flag in DEFAULT_FLAGS:
-            if flag not in board_flags:
-                board_flags[flag] = copy.deepcopy(DEFAULT_FLAGS[flag])
+        set_default_flags(board_flags, board_name)
 
         # check for errors in detect
         if (
@@ -1219,7 +1272,7 @@ def add_load_flags(boards_flags, board_desc):
             "board_producer": "Gigabyte Technology Co., Ltd."
                 if board_name in GIGABYTE_BOARDS else "ASUSTeK COMPUTER INC."
         }
-        boards_flags[board_name].update(copy.deepcopy(DEFAULT_FLAGS))
+        set_default_flags(boards_flags[board_name], board_name)
         boards_flags[board_name].update({
             "asus_wmi": "L" if board_name in WMI_BOARDS else "N",
             "gigabyte_wmi": "L" if board_name in GIGABYTE_BOARDS else "N",
@@ -1244,7 +1297,7 @@ def add_load_flags(boards_flags, board_desc):
                     boards_flags[board_name] = {
                         "board_producer": board_producer,
                     }
-                    boards_flags[board_name].update(copy.deepcopy(DEFAULT_FLAGS))
+                    set_default_flags(boards_flags[board_name], board_name)
                     boards_flags[board_name].update({
                         "asus_wmi": "N",
                         "gigabyte_wmi": "N",
@@ -1434,6 +1487,7 @@ if __name__ == "__main__":
 
     # create aliases base
     for name in boards_flags:
+        set_default_flags(boards_flags[name], name)
         aliases = boards_flags[name].get("aliases", [])
         for alias in aliases:
             alias_to_name[alias] = name
@@ -1461,8 +1515,8 @@ if __name__ == "__main__":
             boards_flags[board_name] = {
                 "board_producer": board_producer,
             }
-            boards_flags[board_name].update(copy.deepcopy(DEFAULT_FLAGS))
         board_flags = boards_flags[board_name]
+        set_default_flags(board_flags, board_name)
         if bridge_chipset:
             board_flags["bridge"] = bridge_chipset
         # links
@@ -1534,8 +1588,8 @@ if __name__ == "__main__":
                     boards_flags[board_name] = {
                         "board_producer": board_producer,
                     }
-                    boards_flags[board_name].update(copy.deepcopy(DEFAULT_FLAGS))
                 board_flags = boards_flags[board_name]
+                set_default_flags(board_flags, board_name)
                 if bridge_chipset:
                     board_flags["bridge"] = bridge_chipset
 
@@ -1546,10 +1600,7 @@ if __name__ == "__main__":
                     board_flags["aliases"].append(file_parts[0])
                 board_flags["aliases"] = sorted(board_flags["aliases"])
 
-                # update flags to default
-                for flag in DEFAULT_FLAGS:
-                    if flag not in board_flags:
-                        board_flags[flag] = copy.deepcopy(DEFAULT_FLAGS[flag])
+                set_default_flags(board_flags, board_name)
 
                 # set upstream ready
                 if not board_flags["upstreamed_serie"]:
