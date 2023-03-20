@@ -262,6 +262,27 @@ GIGABYTE_BOARDS = [
 ]
 
 # Upstreamed nct6775 series
+NCT6775_UPSTREAMED_CHIPSETS = [
+    "A520",
+    "B360",
+    "B460",
+    "B550",
+    "B650",
+    "B660",
+    "H410",
+    "H610",
+    "W680",
+    "X570",
+    "X670",
+    "Z390",
+    "Z490",
+    "Z590",
+    "Z590",
+    "Z690",
+    "Z790",
+]
+
+# Upstreamed nct6775 series
 NCT6775_SERIES = {
     # B550 style
     "Pro A520",
@@ -955,6 +976,13 @@ def set_default_flags(board_flags, board_name):
             board_flags[key] = sorted(board_flags[key])
 
     if (
+        board_flags["gigabyte_wmi"] == "U" and
+        board_name in GIGABYTE_BOARDS
+    ):
+        if board_flags.get("hash"):
+            board_flags["gigabyte_wmi"] = "Y"
+
+    if (
         board_flags["asus_wmi"] == "U" and
         board_name in WMI_BOARDS
     ):
@@ -968,6 +996,27 @@ def set_default_flags(board_flags, board_name):
         if board_flags.get("hash"):
             board_flags["asus_nct6775"] = "Y"
 
+    if (
+        board_flags["asus_ec"] == "U" and
+        board_name in EC_BOARDS
+    ):
+        if board_flags.get("hash"):
+            board_flags["asus_ec"] = "Y"
+
+    # set upstream ready
+    if not board_flags["upstreamed_serie"]:
+        if (
+            "ASUS" in board_flags.get("board_producer") and
+            board_flags.get("bridge") in NCT6775_UPSTREAMED_CHIPSETS
+        ):
+            board_flags["upstreamed_serie"] = True
+
+    # set upstream ready
+    if not board_flags["upstreamed_serie"]:
+        for serie in NCT6775_SERIES:
+            if board_name.upper().startswith(serie.upper()):
+                board_flags["upstreamed_serie"] = True
+                break
 
 def update_board_asl_flags(board_flags, asl_struct):
     # search name region Gigabyte style
@@ -1601,13 +1650,6 @@ if __name__ == "__main__":
                 board_flags["aliases"] = sorted(board_flags["aliases"])
 
                 set_default_flags(board_flags, board_name)
-
-                # set upstream ready
-                if not board_flags["upstreamed_serie"]:
-                    for serie in NCT6775_SERIES:
-                        if board_name.upper().startswith(serie.upper()):
-                            board_flags["upstreamed_serie"] = True
-                            break
 
                 # set chip value strict
                 for board_info in board_desc:

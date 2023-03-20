@@ -9467,7 +9467,7 @@ PRIME Z390-P:
   - ASUSWMI
   links: []
   superio: NCT6798D
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
@@ -11254,7 +11254,7 @@ Pro H610T D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H610T-D4-SI-2212.zip
   superio: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -12396,7 +12396,7 @@ ProArt Z690-CREATOR WIFI:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ProArt-Z690-CREATOR-WIFI-ASUS-2103.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ProArt-Z690-CREATOR-WIFI-ASUS-2204.zip
   superio: NCT6798D
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
