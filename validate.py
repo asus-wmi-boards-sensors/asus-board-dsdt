@@ -12,13 +12,47 @@ from asl_parser import (
     search_block_with_name_parameter, asl_get_operator_with_params,
     decode_buffer_uuid_by_name
 )
+from board_const import NCT6775_CHIPS, ASUS_BOARDS, BRIDGE_CHIPSETS
 from utils import load_linuxhw_DMI, file_write_with_changes, load_board_flags
 
 
 LINKS = [
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B450-PLUS-II-ASUS-4001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/B450M-DRAGON-ASUS-4001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450M-K-ASUS-4001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450M-K-II-ASUS-4001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450M-A-II-ASUS-4001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B450M-PRO-II-ASUS-4001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B450M-PLUS-II-ASUS-4001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-F-GAMING-II-ASUS-5003.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B450M-PRO-S-ASUS-4001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-E-GAMING-ASUS-5003.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-F-GAMING-ASUS-5003.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-I-GAMING-ASUS-5003.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450M-A-ASUS-4001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B450-PRO-GAMING-ASUS-4001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B450M-PRO-GAMING-ASUS-4001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450-PLUS-ASUS-4001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B450M-PLUS-GAMING-ASUS-4001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B450-PLUS-GAMING-ASUS-4001.zip",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H610T-D4-SI-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H610T-D4-SI-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610M-A-D4-ASUS-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610I-PLUS-D4-ASUS-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610M-F-D4-ASUS-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610M-A-WIFI-D4-ASUS-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H610M-CT-D4-SI-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H610M-C-D4-SI-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H610T-D4-SI-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H610M-C-SI-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610M-D-D4-ASUS-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610M-E-D4-ASUS-2213.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610M-K-D4-ASUS-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610M-A-D4-ASUS-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-H610M-V3-D4-SI-2214.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610M-A-D4-ASUS-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610M-K-D4-ASUS-2212.zip",
 ]
-
 
 # Upstreamed ec
 EC_BOARDS = [
@@ -62,33 +96,6 @@ WMI_BOARDS = [
     "ROG STRIX X470-I GAMING",
     "ROG ZENITH EXTREME",
     "ROG ZENITH EXTREME ALPHA",
-]
-
-NCT6775_CHIPS = [
-    "NCT5532",
-    "NCT5538",
-    "NCT5572",
-    "NCT5573",
-    "NCT5577",
-    "NCT5582",
-    "NCT6102",
-    "NCT6104",
-    "NCT6106",
-    "NCT6116",
-    "NCT6771",
-    "NCT6772",
-    "NCT6775",
-    "NCT6776",
-    "NCT6779",
-    "NCT6791",
-    "NCT6792",
-    "NCT6793",
-    "NCT6795",
-    "NCT6796",
-    "NCT6797",
-    "NCT6798",
-    "NCT6799",
-    "W83677",
 ]
 
 # Upstreamed nct6775
@@ -270,6 +277,7 @@ NCT6775_UPSTREAMED_CHIPSETS = [
     "B650",
     "B660",
     "H410",
+    "H510",
     "H610",
     "W680",
     "X570",
@@ -287,6 +295,7 @@ NCT6775_SERIES = {
     # B550 style
     "Pro A520",
     "PRO H410",
+    "Pro H610",
     "ProArt B550",
     "ProArt X570",
     "ProArt Z490",
@@ -398,6 +407,12 @@ BOARDNAME_CONVERT = {
     "ROG STRIX B550-XE GAMING (WI-FI)": "ROG STRIX B550-XE GAMING WIFI",
     "PRIME H410M-K R2": "PRIME H410M-K R2.0",
     "PRO H610T-D4": "Pro H610T D4",
+    "TUF B450M PRO GAMING": "TUF B450M-PRO GAMING",
+    "TUF B450M PLUS GAMING": "TUF B450M-PLUS GAMING",
+    "TUF B450 PRO GAMING": "TUF B450-PRO GAMING",
+    "PRO H610M-CT-D4": "Pro H610M-CT D4",
+    "PRO H610M-C-D4": "Pro H610M-C D4",
+    "EX-H610M-V3-D4": "EX-H610M-V3 D4",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -499,54 +514,6 @@ ASUS_KNOWN_UIDS = {
 }
 
 ASUS_WIFI_NO_CONVERT = ["B650", "B660", "B760", "X670", "Z590", "Z690"]
-BRIDGE_CHIPSETS = [
-    # Intel LGA 1156
-    "H55", "P55", "H57", "Q57",
-    # Intel LGA 1155
-    "H61", "B65", "Q65", "Q67", "H67", "P67", "Z68",
-    "B75", "Q75", "Q77", "C216", "H77", "Z75", "Z77",
-    # Intel LGA 1150
-    "H81", "B85", "Q85", "Q87", "H87", "Z87",
-    "H97", "Z97",
-    # Intel LGA 1151
-    "H110", "B150", "Q150", "H170", "C236", "Q170", "Z170",
-    "B250", "Q250", "H270", "Q270", "Z270",
-    "H310", "B365", "B360", "H370", "C246", "Q370", "Z370", "Z390",
-    # Intel LGA 1200
-    "H410", "B460", "H470", "Q470", "Z490", "W480",
-    "H510", "B560", "H570", "Q570", "Z590", "W580",
-    # Intel LGA 1700
-    "H610", "B660", "H670", "Q670", "Z690", "W680",
-    "B760", "H770", "Z790",
-    # AMD FCH
-    "A55T", "A50M", "A60M", "A68M", "A70M", "A76M",
-    "A45", "A55", "A58", "A68H", "A75", "A78", "A85X", "A88X",
-    "A55E", "A77E",
-    # AMD AM4
-    "A300",
-    "X300",
-    "Pro 500",
-    "A320",
-    "B350",
-    "X370",
-    "B450",
-    "X470",
-    "A520",
-    "B550",
-    "X570",
-    # AMD TR4
-    "X399",
-    # AMD sTRX4
-    "TRX40",
-    # AMD sWRX8
-    "WRX80",
-    # AMD AM5
-    "A620",
-    "B650",
-    "B650E",
-    "X670",
-    "X670E",
-]
 
 
 def gen_asus_board_name(board_group):
@@ -1310,10 +1277,19 @@ def add_load_flags(boards_flags, board_desc):
         nct6775_partial += ASUS_NCT6775_MUTEX[mutex_name]
     for mutex_name in ASUS_EC_MUTEX:
         nct6775_partial += ASUS_EC_MUTEX[mutex_name]
+    for bridge in ASUS_BOARDS:
+        if bridge in NCT6775_UPSTREAMED_CHIPSETS:
+            nct6775_partial += ASUS_BOARDS[bridge]
     # validate load flags
-    for board_name in sorted(
-        NCT6775_BOARDS + WMI_BOARDS + EC_BOARDS + GIGABYTE_BOARDS + nct6775_partial
-    ):
+    boards_for_load = []
+    for bridge in ASUS_BOARDS:
+        boards_for_load += ASUS_BOARDS[bridge]
+    boards_for_load += NCT6775_BOARDS
+    boards_for_load += WMI_BOARDS
+    boards_for_load += EC_BOARDS
+    boards_for_load += GIGABYTE_BOARDS
+    boards_for_load += nct6775_partial
+    for board_name in sorted(boards_for_load):
         # Just skip existed boards
         if board_name in boards_flags:
             continue
@@ -1391,6 +1367,28 @@ def board_has_nct6775(superio):
         return False
 
 
+def update_readme(desc):
+    readme = ""
+    with open("README.md", "rb") as f:
+        readme = f.read().decode("utf8")
+    replace_place_start = readme.find(desc.split("\n")[0])
+    if replace_place_start < 0:
+        return
+    table_stop = False
+    lines = readme[replace_place_start:].split("\n")
+    readme = readme[:replace_place_start] + desc
+    for line in lines:
+        if table_stop:
+            readme += line + "\n"
+        else:
+            if line.startswith("|"):
+                continue
+            else:
+                table_stop = True
+                readme += line + "\n"
+    file_write_with_changes("README.md", readme.strip() + "\n")
+
+
 def print_boards(boards_flags):
     table = {}
     nextgen_required = {}
@@ -1409,7 +1407,8 @@ def print_boards(boards_flags):
                 if board_name not in nextgen_required[name]:
                     nextgen_required[name].append(board_name)
 
-    desc = show_board(
+    desc = ""
+    desc += show_board(
             board_name="board name",
             board_producer="made by",
             superio="superio",
@@ -1421,8 +1420,8 @@ def print_boards(boards_flags):
             asus_nct6775_mutex="io mutex",
             asus_ec_mutex="ec mutex"
     )
-    print(desc)
-    desc = show_board(
+    desc += "\n"
+    desc += show_board(
             board_name="-" * 32,
             board_producer="-" * 9,
             superio="-" * 10,
@@ -1431,11 +1430,11 @@ def print_boards(boards_flags):
             asus_ec="-" * 29,
             gigabyte_wmi="-" * 12
     )
-    print(desc)
+    desc += "\n"
     for board_name in sorted(boards_flags.keys()):
         board_flags = boards_flags[board_name]
 
-        desc = show_board(
+        desc += show_board(
             board_name,
             board_producer=board_flags["board_producer"],
             superio=board_flags["superio"],
@@ -1447,7 +1446,9 @@ def print_boards(boards_flags):
             asus_nct6775_mutex=board_flags["asus_nct6775_mutex"],
             asus_ec_mutex=board_flags["asus_ec_mutex"],
         )
-        print (desc)
+        desc += "\n"
+    print (desc)
+    update_readme(desc)
 
     print ("Boards with nct6775 for nextgen:")
     for name in nextgen_required:
@@ -1509,6 +1510,12 @@ def file_name_to_board_name(filename, alias_to_name):
     if filename in alias_to_name:
         board_name = alias_to_name[filename]
 
+    # fix possible bridge detect error
+    for bridge in ASUS_BOARDS:
+        if board_name in ASUS_BOARDS[bridge]:
+            bridge_chipset = bridge
+            board_producer = "ASUS"
+
     if board_producer == "GIGABYTE":
         board_producer = "Gigabyte Technology Co., Ltd."
     elif board_producer == "ASUS":
@@ -1534,17 +1541,25 @@ if __name__ == "__main__":
     alias_to_name = {}
     boards_flags = load_board_flags()
 
+    # remove boards with old name
+    for board_name in BOARDNAME_CONVERT:
+        if board_name in boards_flags:
+            del boards_flags[board_name]
+
+    for board_name in sorted(boards_flags.keys()):
+        # skip boards with different cases
+        if board_name == BOARDNAME_CONVERT.get(board_name.upper()):
+            continue
+        # fully diffent names
+        if board_name.upper() in BOARDNAME_CONVERT:
+            del boards_flags[board_name]
+
     # create aliases base
     for name in boards_flags:
         set_default_flags(boards_flags[name], name)
         aliases = boards_flags[name].get("aliases", [])
         for alias in aliases:
             alias_to_name[alias] = name
-
-    # remove boards with old name
-    for board_name in BOARDNAME_CONVERT:
-        if board_name in boards_flags:
-            del boards_flags[board_name]
 
     for board_load_link in LINKS:
         filename = board_load_link.split("/")[-1]
