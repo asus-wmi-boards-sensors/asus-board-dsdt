@@ -124,6 +124,8 @@ if __name__ == "__main__":
                     row[0].upper() == board_producer.upper() and
                     row[1].upper() == board_name.upper()
                 ):
+                    row[0] = board_producer
+                    row[1] = board_name
                     if board_sensor:
                         row[2] = board_sensor
                     if len(row) < 4:

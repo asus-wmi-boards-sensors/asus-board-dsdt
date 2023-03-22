@@ -83,6 +83,35 @@ LINKS = [
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790-P-WIFI-ASUS-0812.zip",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790-P-D4-ASUS-0810.zip",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790-P-ASUS-0812.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B560-A-GAMING-WIFI-ASUS-1601.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B560-E-GAMING-WIFI-ASUS-1601.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B560-F-GAMING-WIFI-ASUS-1601.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B560-G-GAMING-WIFI-ASUS-1601.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B560-I-GAMING-WIFI-ASUS-1601.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z690-PLUS-WIFI-D4-ASUS-2204.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z690-PLUS-WIFI-ASUS-2204.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z690-PLUS-D4-ASUS-2204.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z690-PLUS-ASUS-2204.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z690-I-GAMING-WIFI-ASUS-2305.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z690-A-GAMING-WIFI-ASUS-2305.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-Z690-HERO-EVA-ASUS-2305.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/WS-Z390-PRO-ASUS-1401.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z390M-PRO-GAMING-WIFI-ASUS-3006.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z390M-PRO-GAMING-ASUS-3006.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z390-PRO-GAMING-ASUS-3006.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z390-PLUS-GAMING-WIFI-SI-3006.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z390-PLUS-GAMING-SI-3006.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B460-F-GAMING-ASUS-1620.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B460-G-GAMING-ASUS-1601.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B460-H-GAMING-ASUS-1620.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B460-I-GAMING-ASUS-1601.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B460-PLUS-ASUS-1620.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B460-PRO-WIFI-ASUS-1620.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B460M-PLUS-ASUS-1601.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B460M-PLUS-WIFI-ASUS-1601.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B460M-PRO-ASUS-1601.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-B460M-C-SI-1620.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B460M-V5-SI-1620.ZIP",
 ]
 
 # Upstreamed ec
@@ -305,6 +334,7 @@ NCT6775_UPSTREAMED_CHIPSETS = [
     "B360",
     "B460",
     "B550",
+    "B560",
     "B650",
     "B660",
     "H410",
@@ -446,6 +476,13 @@ BOARDNAME_CONVERT = {
     "PRO B660M-C-D4": "Pro B660M-C D4",
     "PRO WS W790E-SAGE-SE": "Pro WS W790E-SAGE SE",
     "PRO H410M-C": "PRO H410M-C",
+    "WS-Z390-PRO": "WS Z390 PRO",
+    "TUF Z390 PLUS GAMING": "TUF Z390-PLUS GAMING",
+    "TUF Z390 PLUS GAMING WIFI": "TUF Z390-PLUS GAMING (WI-FI)",
+    "TUF Z390 PRO GAMING": "TUF Z390-PRO GAMING",
+    "TUF Z390M PRO GAMING": "TUF Z390M-PRO GAMING",
+    "TUF Z390M PRO GAMING WIFI": "TUF Z390M-PRO GAMING (WI-FI)",
+    "PRO B460M-C": "Pro B460M-C",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -546,7 +583,7 @@ ASUS_KNOWN_UIDS = {
     "AsusMbSwInterface": "B650 style board",
 }
 
-ASUS_WIFI_NO_CONVERT = ["B650", "B660", "B760", "X670", "Z590", "Z690", "Z790"]
+ASUS_WIFI_NO_CONVERT = ["B560", "B650", "B660", "B760", "X670", "Z590", "Z690", "Z790"]
 
 
 def gen_asus_board_name(board_group):
@@ -1472,7 +1509,8 @@ def print_boards(boards_flags):
             board_producer=board_flags["board_producer"],
             superio=board_flags["superio"],
             asus_wmi=board_flags["asus_wmi"],
-            asus_nct6775=board_flags["asus_nct6775"],
+            asus_nct6775="L" if not board_flags.get("hash")
+                             else board_flags["asus_nct6775"],
             asus_ec=board_flags["asus_ec"],
             gigabyte_wmi=board_flags["gigabyte_wmi"],
             asus_ite87_mutex=board_flags["asus_ite87_mutex"],

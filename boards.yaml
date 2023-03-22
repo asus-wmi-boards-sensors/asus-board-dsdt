@@ -1388,6 +1388,80 @@ EX-A320M-GAMING:
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+EX-B460M-V5:
+  aliases:
+  - EX-B460M-V5-SI-1620
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B460
+  gigabyte_wmi: N
+  hash:
+  - 007e5e3e10634f890fd7c244287e4032
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 0fc0a4e67747938601a66f49e0a79207
+  - 11b0944941bc69483fdd8952f576de5b
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 27acec3780303f1f49b092d1c8f2cd91
+  - 31b83ed86903b8ab484859912637e0a2
+  - 375739a26431804d350f6225c0f54131
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 70fa81867e9b91d22d7855436dbace29
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 86c9e004b6a36f08dbe45780774add11
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - a7e668c4d97491123555d43fee7e71d1
+  - afbb600fd2db509deb08c18427a8c0c4
+  - b1e245208e50366bcdc72783a26ad2e7
+  - b8cea857ffde47d894cce27de4ac7095
+  - bafbb729548138922ca1308459d5f369
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - cfe3661bcf725b3e017982413bbff594
+  - db2838ee53bc99ce296df0ee763831c5
+  - ded47140b9613fb68fff599b4dffc5f5
+  - e7e4347a349ed45e819e16618a83b8f6
+  - e9d0791c6594f175c3a6b7915752b4f6
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - efd6c097927c7b2a29764c2ef2782b76
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f6dbc187925fc646dedecd6c478c7150
+  - f74ccbdfe94af56646a949589162f1c1
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B460M-V5-SI-1620.ZIP
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 EX-B660M-V5 D4:
   aliases:
   - EX-B660M-V5-D4-SI-2214
@@ -11881,7 +11955,8 @@ PRIME Z790-A WIFI:
   - AsusMbSwInterface
   known_good_nct6775:
   - AsusMbSwInterface
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790-A-WIFI-ASUS-0812.zip
   superio: ''
   upstreamed_serie: true
   wmi_methods:
@@ -11990,7 +12065,8 @@ PRIME Z790-P:
   - AsusMbSwInterface
   known_good_nct6775:
   - AsusMbSwInterface
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790-P-ASUS-0812.zip
   superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
@@ -12099,7 +12175,8 @@ PRIME Z790-P D4:
   - AsusMbSwInterface
   known_good_nct6775:
   - AsusMbSwInterface
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790-P-D4-ASUS-0810.zip
   superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
@@ -12208,7 +12285,8 @@ PRIME Z790-P WIFI:
   - AsusMbSwInterface
   known_good_nct6775:
   - AsusMbSwInterface
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790-P-WIFI-ASUS-0812.zip
   superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
@@ -12317,7 +12395,8 @@ PRIME Z790-P WIFI D4:
   - AsusMbSwInterface
   known_good_nct6775:
   - AsusMbSwInterface
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790-P-WIFI-D4-ASUS-0810.zip
   superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
@@ -12401,6 +12480,7 @@ PRIME Z790M-PLUS:
   - a8d27095a3c0af54b5a109968cf3839b
   - a93fb6816eeb0908a0ae4cea61fa2e29
   - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
   - b03218e6eb63f3d696ffb41730dabb57
   - b3af61349eaa2ea7f56619f89628a61a
   - b6b1db9495760c835288c91ca7ea44c8
@@ -12421,12 +12501,12 @@ PRIME Z790M-PLUS:
   - f318cf9775ad761e092a6c9dfe306889
   - f835c33a6bd52ac0a8330a32e20bf840
   - fa7169e4de2034269223b48cd8937f26
-  - ac86db6e0da6bc7e6418cd4eb6bd2af7
   known_good:
   - AsusMbSwInterface
   known_good_nct6775:
   - AsusMbSwInterface
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790M-PLUS-ASUS-0812.zip
   superio: ''
   upstreamed_serie: true
   wmi_methods:
@@ -12535,7 +12615,8 @@ PRIME Z790M-PLUS D4:
   - AsusMbSwInterface
   known_good_nct6775:
   - AsusMbSwInterface
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790M-PLUS-D4-ASUS-0810.zip
   superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
@@ -12944,6 +13025,80 @@ Pro A520M-C II:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-A520M-C-II-SI-3001.zip
   superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+Pro B460M-C:
+  aliases:
+  - PRO-B460M-C-SI-1620
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B460
+  gigabyte_wmi: N
+  hash:
+  - 007e5e3e10634f890fd7c244287e4032
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 0fc0a4e67747938601a66f49e0a79207
+  - 11b0944941bc69483fdd8952f576de5b
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 27acec3780303f1f49b092d1c8f2cd91
+  - 31b83ed86903b8ab484859912637e0a2
+  - 375739a26431804d350f6225c0f54131
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 5cf5c839cedd4e90ac01c41e421f3a4d
+  - 70fa81867e9b91d22d7855436dbace29
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - a7e668c4d97491123555d43fee7e71d1
+  - afbb600fd2db509deb08c18427a8c0c4
+  - b1e245208e50366bcdc72783a26ad2e7
+  - b8cea857ffde47d894cce27de4ac7095
+  - bafbb729548138922ca1308459d5f369
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - cfe3661bcf725b3e017982413bbff594
+  - db2838ee53bc99ce296df0ee763831c5
+  - ded47140b9613fb68fff599b4dffc5f5
+  - e7e4347a349ed45e819e16618a83b8f6
+  - e9d0791c6594f175c3a6b7915752b4f6
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - efd6c097927c7b2a29764c2ef2782b76
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f6dbc187925fc646dedecd6c478c7150
+  - f74ccbdfe94af56646a949589162f1c1
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-B460M-C-SI-1620.ZIP
+  superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -17329,6 +17484,117 @@ ROG MAXIMUS Z690 HERO:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ROG MAXIMUS Z690 HERO EVA:
+  aliases:
+  - ROG-MAXIMUS-Z690-HERO-EVA-ASUS-2305
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z690
+  gigabyte_wmi: N
+  hash:
+  - 022b46e55f8d2bafe32f4b2c369a961b
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 0a6f5911f12fded7f1e8e3281f1a7fcb
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e5b288e058a6150d783cbacac82cdb0
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 816cbdefc259322c6f91cb41abd4c477
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cc185456e01db2ecd08d16a9b08d7aa1
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d03795f9b1466228282c3a07af5314fc
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - e06c14e9085e92c8970f1b4911cb73b8
+  - e607e92bb64a78dfa87823d5dcae691f
+  - f06e72acdf21b644347fd64f2c51b61d
+  - f302b0eba410949d356fe9fdaddc2030
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-Z690-HERO-EVA-ASUS-2305.zip
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 ROG MAXIMUS Z790 APEX:
   aliases:
   - ROG-MAXIMUS-Z790-APEX-ASUS-0812
@@ -17431,7 +17697,8 @@ ROG MAXIMUS Z790 APEX:
   - AsusMbSwInterface
   known_good_nct6775:
   - AsusMbSwInterface
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-Z790-APEX-ASUS-0812.zip
   superio: ''
   upstreamed_serie: true
   wmi_methods:
@@ -18112,6 +18379,304 @@ ROG STRIX B450-I GAMING:
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX B460-F GAMING:
+  aliases:
+  - ROG-STRIX-B460-F-GAMING-ASUS-1620
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B460
+  gigabyte_wmi: N
+  hash:
+  - 007e5e3e10634f890fd7c244287e4032
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 0a5344b75e73b8e4c1c0a2b507ce8fd2
+  - 0fc0a4e67747938601a66f49e0a79207
+  - 11b0944941bc69483fdd8952f576de5b
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 27acec3780303f1f49b092d1c8f2cd91
+  - 31b83ed86903b8ab484859912637e0a2
+  - 375739a26431804d350f6225c0f54131
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 40ab53d6ca641f996ed6a63b867a3f9d
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 70fa81867e9b91d22d7855436dbace29
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - a3a7aa7e434f7cedd2b75570f7d96328
+  - a7e668c4d97491123555d43fee7e71d1
+  - afbb600fd2db509deb08c18427a8c0c4
+  - b1e245208e50366bcdc72783a26ad2e7
+  - b8cea857ffde47d894cce27de4ac7095
+  - bafbb729548138922ca1308459d5f369
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - ca1dff4d5e7da91bbd02ad9077f207e7
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - db2838ee53bc99ce296df0ee763831c5
+  - e7e4347a349ed45e819e16618a83b8f6
+  - e9d0791c6594f175c3a6b7915752b4f6
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - efd6c097927c7b2a29764c2ef2782b76
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f6dbc187925fc646dedecd6c478c7150
+  - f74ccbdfe94af56646a949589162f1c1
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B460-F-GAMING-ASUS-1620.ZIP
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX B460-G GAMING:
+  aliases:
+  - ROG-STRIX-B460-G-GAMING-ASUS-1601
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B460
+  gigabyte_wmi: N
+  hash:
+  - 007e5e3e10634f890fd7c244287e4032
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 11b0944941bc69483fdd8952f576de5b
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 27acec3780303f1f49b092d1c8f2cd91
+  - 31b83ed86903b8ab484859912637e0a2
+  - 375739a26431804d350f6225c0f54131
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 40ab53d6ca641f996ed6a63b867a3f9d
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 70fa81867e9b91d22d7855436dbace29
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - a3a7aa7e434f7cedd2b75570f7d96328
+  - a7e668c4d97491123555d43fee7e71d1
+  - afbb600fd2db509deb08c18427a8c0c4
+  - b1e245208e50366bcdc72783a26ad2e7
+  - b8cea857ffde47d894cce27de4ac7095
+  - bafbb729548138922ca1308459d5f369
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - db2838ee53bc99ce296df0ee763831c5
+  - ded47140b9613fb68fff599b4dffc5f5
+  - e7e4347a349ed45e819e16618a83b8f6
+  - e9d0791c6594f175c3a6b7915752b4f6
+  - ec1f280b2e51c4bb09e80892375ec201
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - efd6c097927c7b2a29764c2ef2782b76
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f6dbc187925fc646dedecd6c478c7150
+  - f74ccbdfe94af56646a949589162f1c1
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B460-G-GAMING-ASUS-1601.ZIP
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX B460-H GAMING:
+  aliases:
+  - ROG-STRIX-B460-H-GAMING-ASUS-1620
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B460
+  gigabyte_wmi: N
+  hash:
+  - 007e5e3e10634f890fd7c244287e4032
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 0a5344b75e73b8e4c1c0a2b507ce8fd2
+  - 0fc0a4e67747938601a66f49e0a79207
+  - 11b0944941bc69483fdd8952f576de5b
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 27acec3780303f1f49b092d1c8f2cd91
+  - 31b83ed86903b8ab484859912637e0a2
+  - 375739a26431804d350f6225c0f54131
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 40ab53d6ca641f996ed6a63b867a3f9d
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 70fa81867e9b91d22d7855436dbace29
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - a7e668c4d97491123555d43fee7e71d1
+  - afbb600fd2db509deb08c18427a8c0c4
+  - b1e245208e50366bcdc72783a26ad2e7
+  - b4b1f168d978b3cc263bd9561daaa1b6
+  - b8cea857ffde47d894cce27de4ac7095
+  - bafbb729548138922ca1308459d5f369
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - ca1dff4d5e7da91bbd02ad9077f207e7
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - db2838ee53bc99ce296df0ee763831c5
+  - e7e4347a349ed45e819e16618a83b8f6
+  - e9d0791c6594f175c3a6b7915752b4f6
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - efd6c097927c7b2a29764c2ef2782b76
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f6dbc187925fc646dedecd6c478c7150
+  - f74ccbdfe94af56646a949589162f1c1
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B460-H-GAMING-ASUS-1620.ZIP
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX B460-I GAMING:
+  aliases:
+  - ROG-STRIX-B460-I-GAMING-ASUS-1601
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B460
+  gigabyte_wmi: N
+  hash:
+  - 007e5e3e10634f890fd7c244287e4032
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 11b0944941bc69483fdd8952f576de5b
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 27acec3780303f1f49b092d1c8f2cd91
+  - 31b83ed86903b8ab484859912637e0a2
+  - 375739a26431804d350f6225c0f54131
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 40ab53d6ca641f996ed6a63b867a3f9d
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 70fa81867e9b91d22d7855436dbace29
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - a7e668c4d97491123555d43fee7e71d1
+  - afbb600fd2db509deb08c18427a8c0c4
+  - b1e245208e50366bcdc72783a26ad2e7
+  - b2accaadb04f2000dba851a2b24bc171
+  - b8cea857ffde47d894cce27de4ac7095
+  - bafbb729548138922ca1308459d5f369
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - c50f68c077d9ea325a19df97f22ca575
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - db2838ee53bc99ce296df0ee763831c5
+  - ded47140b9613fb68fff599b4dffc5f5
+  - e7e4347a349ed45e819e16618a83b8f6
+  - e9d0791c6594f175c3a6b7915752b4f6
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - efd6c097927c7b2a29764c2ef2782b76
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f6dbc187925fc646dedecd6c478c7150
+  - f74ccbdfe94af56646a949589162f1c1
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B460-I-GAMING-ASUS-1601.ZIP
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 ROG STRIX B550-A GAMING:
   aliases:
   - ROG-STRIX-B550-A-GAMING-ASUS-0000
@@ -18571,6 +19136,366 @@ ROG STRIX B550-XE GAMING WIFI:
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX B560-A GAMING WIFI:
+  aliases:
+  - ROG-STRIX-B560-A-GAMING-WIFI-ASUS-1601
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B560
+  gigabyte_wmi: N
+  hash:
+  - 0b954684d85ad3772ea22eeca6381208
+  - 0c991c88286eb779ecfb94327a8f9c45
+  - 1015801303ac45d46652be39a3a1ad84
+  - 1d1eda19bef7ead588182a81d352093b
+  - 28f9e259c3ce6ee5ddbc0782ef333968
+  - 2d3fef00e4f13e3e23a863bc2ff0909e
+  - 2e078f344320e49d35dfd7d5685b4234
+  - 3c42bfb179cb30220e6afe84bd25ef2f
+  - 3d7dfd899d328d9b8755b2bb2f0877f8
+  - 56172a05242ee58f4f81a085fce23e59
+  - 5704068d3b38394404d2f1971ec57e54
+  - 59632511e8ce37c7ac57ee2ecae2d1d5
+  - 59886ef0d43fa4837e61feb017b3fa86
+  - 5a48ed4a67a7c648eedd60a6a5dea118
+  - 5d213ae1efc7c0284da64e2962d465bc
+  - 60268418a441d00e8c4c305cd05d427b
+  - 796b3187d3d200ed82db12ff83250e82
+  - 7b5a6c8be53058b1478621808110f9d6
+  - 7f1de654c53e58f3c7330ac2e892a7e1
+  - 85a386129779d1daa004d448b60be566
+  - 8cefcfe1964d8afc19bd86fc58cb54f9
+  - 963a2760b317ea88f6390264b7a6c412
+  - 992353b68f31cfd3b4cfb8c262bd65da
+  - ad6a4d2c2f724ad28dd2b817f94f7c28
+  - ad815ecc9394bc005f9859e84213b45e
+  - af33b6327439e7488374cb1264d5ccfa
+  - dd04eccbe0f2cc3a11ad59ef2afd6c41
+  - e07081f834d45506af8eff6d9b56047e
+  - eb1f70f051efe6d23b65375f2d30490f
+  - f21f74bc8cf001819d374ba95e1c576f
+  - f89eb350ae02cca4c4b5a8975f71e91f
+  - faaf7bd9503c5e082d400a8421c74617
+  - fadef99a6dcce6415351875d863b4e96
+  - ff30ecbe25125382ede2d1d71ac5bb79
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B560-A-GAMING-WIFI-ASUS-1601.zip
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX B560-E GAMING WIFI:
+  aliases:
+  - ROG-STRIX-B560-E-GAMING-WIFI-ASUS-1601
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B560
+  gigabyte_wmi: N
+  hash:
+  - 0b954684d85ad3772ea22eeca6381208
+  - 0c991c88286eb779ecfb94327a8f9c45
+  - 1015801303ac45d46652be39a3a1ad84
+  - 1d1eda19bef7ead588182a81d352093b
+  - 28f9e259c3ce6ee5ddbc0782ef333968
+  - 2d3fef00e4f13e3e23a863bc2ff0909e
+  - 2e078f344320e49d35dfd7d5685b4234
+  - 3c42bfb179cb30220e6afe84bd25ef2f
+  - 3d7dfd899d328d9b8755b2bb2f0877f8
+  - 56172a05242ee58f4f81a085fce23e59
+  - 5704068d3b38394404d2f1971ec57e54
+  - 59632511e8ce37c7ac57ee2ecae2d1d5
+  - 59886ef0d43fa4837e61feb017b3fa86
+  - 5d213ae1efc7c0284da64e2962d465bc
+  - 60268418a441d00e8c4c305cd05d427b
+  - 796b3187d3d200ed82db12ff83250e82
+  - 7b5a6c8be53058b1478621808110f9d6
+  - 7f1de654c53e58f3c7330ac2e892a7e1
+  - 85a386129779d1daa004d448b60be566
+  - 8cefcfe1964d8afc19bd86fc58cb54f9
+  - 963a2760b317ea88f6390264b7a6c412
+  - ad6a4d2c2f724ad28dd2b817f94f7c28
+  - ad815ecc9394bc005f9859e84213b45e
+  - af33b6327439e7488374cb1264d5ccfa
+  - dc142cefad8d135fbdd2ea0188b1a633
+  - dd04eccbe0f2cc3a11ad59ef2afd6c41
+  - e07081f834d45506af8eff6d9b56047e
+  - e3942d737b6d126f249d348c2c3a75b4
+  - eb1f70f051efe6d23b65375f2d30490f
+  - f21f74bc8cf001819d374ba95e1c576f
+  - f89eb350ae02cca4c4b5a8975f71e91f
+  - faaf7bd9503c5e082d400a8421c74617
+  - fadef99a6dcce6415351875d863b4e96
+  - ff30ecbe25125382ede2d1d71ac5bb79
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B560-E-GAMING-WIFI-ASUS-1601.zip
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX B560-F GAMING WIFI:
+  aliases:
+  - ROG-STRIX-B560-F-GAMING-WIFI-ASUS-1601
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B560
+  gigabyte_wmi: N
+  hash:
+  - 0b954684d85ad3772ea22eeca6381208
+  - 0c991c88286eb779ecfb94327a8f9c45
+  - 1015801303ac45d46652be39a3a1ad84
+  - 1d1eda19bef7ead588182a81d352093b
+  - 28f9e259c3ce6ee5ddbc0782ef333968
+  - 2d3fef00e4f13e3e23a863bc2ff0909e
+  - 2e078f344320e49d35dfd7d5685b4234
+  - 3c42bfb179cb30220e6afe84bd25ef2f
+  - 3d7dfd899d328d9b8755b2bb2f0877f8
+  - 56172a05242ee58f4f81a085fce23e59
+  - 5704068d3b38394404d2f1971ec57e54
+  - 59632511e8ce37c7ac57ee2ecae2d1d5
+  - 59886ef0d43fa4837e61feb017b3fa86
+  - 5d213ae1efc7c0284da64e2962d465bc
+  - 60268418a441d00e8c4c305cd05d427b
+  - 796b3187d3d200ed82db12ff83250e82
+  - 7b5a6c8be53058b1478621808110f9d6
+  - 7f1de654c53e58f3c7330ac2e892a7e1
+  - 85a386129779d1daa004d448b60be566
+  - 8cefcfe1964d8afc19bd86fc58cb54f9
+  - 963a2760b317ea88f6390264b7a6c412
+  - 992353b68f31cfd3b4cfb8c262bd65da
+  - ad6a4d2c2f724ad28dd2b817f94f7c28
+  - ad815ecc9394bc005f9859e84213b45e
+  - af33b6327439e7488374cb1264d5ccfa
+  - b13b9529dcbc5c0e4f4b7ee717c269a6
+  - dd04eccbe0f2cc3a11ad59ef2afd6c41
+  - e07081f834d45506af8eff6d9b56047e
+  - eb1f70f051efe6d23b65375f2d30490f
+  - f21f74bc8cf001819d374ba95e1c576f
+  - f89eb350ae02cca4c4b5a8975f71e91f
+  - faaf7bd9503c5e082d400a8421c74617
+  - fadef99a6dcce6415351875d863b4e96
+  - ff30ecbe25125382ede2d1d71ac5bb79
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B560-F-GAMING-WIFI-ASUS-1601.zip
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX B560-G GAMING WIFI:
+  aliases:
+  - ROG-STRIX-B560-G-GAMING-WIFI-ASUS-1601
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B560
+  gigabyte_wmi: N
+  hash:
+  - 0b954684d85ad3772ea22eeca6381208
+  - 0c991c88286eb779ecfb94327a8f9c45
+  - 1015801303ac45d46652be39a3a1ad84
+  - 1d1eda19bef7ead588182a81d352093b
+  - 28f9e259c3ce6ee5ddbc0782ef333968
+  - 2d3fef00e4f13e3e23a863bc2ff0909e
+  - 2e078f344320e49d35dfd7d5685b4234
+  - 39cf8e0a0d5387dded04eb9621f8bb58
+  - 3c42bfb179cb30220e6afe84bd25ef2f
+  - 3d7dfd899d328d9b8755b2bb2f0877f8
+  - 56172a05242ee58f4f81a085fce23e59
+  - 5704068d3b38394404d2f1971ec57e54
+  - 59632511e8ce37c7ac57ee2ecae2d1d5
+  - 59886ef0d43fa4837e61feb017b3fa86
+  - 5d213ae1efc7c0284da64e2962d465bc
+  - 60268418a441d00e8c4c305cd05d427b
+  - 796b3187d3d200ed82db12ff83250e82
+  - 7b5a6c8be53058b1478621808110f9d6
+  - 7f1de654c53e58f3c7330ac2e892a7e1
+  - 848eb0b114ef9dcd0421fef37d5e097f
+  - 85a386129779d1daa004d448b60be566
+  - 8cefcfe1964d8afc19bd86fc58cb54f9
+  - 963a2760b317ea88f6390264b7a6c412
+  - ad6a4d2c2f724ad28dd2b817f94f7c28
+  - ad815ecc9394bc005f9859e84213b45e
+  - af33b6327439e7488374cb1264d5ccfa
+  - dd04eccbe0f2cc3a11ad59ef2afd6c41
+  - e07081f834d45506af8eff6d9b56047e
+  - eb1f70f051efe6d23b65375f2d30490f
+  - f21f74bc8cf001819d374ba95e1c576f
+  - f89eb350ae02cca4c4b5a8975f71e91f
+  - faaf7bd9503c5e082d400a8421c74617
+  - fadef99a6dcce6415351875d863b4e96
+  - ff30ecbe25125382ede2d1d71ac5bb79
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B560-G-GAMING-WIFI-ASUS-1601.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX B560-I GAMING WIFI:
+  aliases:
+  - ROG-STRIX-B560-I-GAMING-WIFI-ASUS-1601
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B560
+  gigabyte_wmi: N
+  hash:
+  - 0b954684d85ad3772ea22eeca6381208
+  - 0c991c88286eb779ecfb94327a8f9c45
+  - 1015801303ac45d46652be39a3a1ad84
+  - 1d1eda19bef7ead588182a81d352093b
+  - 28f9e259c3ce6ee5ddbc0782ef333968
+  - 2d3fef00e4f13e3e23a863bc2ff0909e
+  - 2e078f344320e49d35dfd7d5685b4234
+  - 3c42bfb179cb30220e6afe84bd25ef2f
+  - 3d7dfd899d328d9b8755b2bb2f0877f8
+  - 5704068d3b38394404d2f1971ec57e54
+  - 59632511e8ce37c7ac57ee2ecae2d1d5
+  - 59886ef0d43fa4837e61feb017b3fa86
+  - 5b267481629113caea4edae5afe5654d
+  - 5d213ae1efc7c0284da64e2962d465bc
+  - 60268418a441d00e8c4c305cd05d427b
+  - 796b3187d3d200ed82db12ff83250e82
+  - 7b5a6c8be53058b1478621808110f9d6
+  - 7f1de654c53e58f3c7330ac2e892a7e1
+  - 8356615b3cdbd11ddeaa8d421ac5f6bf
+  - 85a386129779d1daa004d448b60be566
+  - 8cefcfe1964d8afc19bd86fc58cb54f9
+  - 963a2760b317ea88f6390264b7a6c412
+  - ad6a4d2c2f724ad28dd2b817f94f7c28
+  - ad815ecc9394bc005f9859e84213b45e
+  - af33b6327439e7488374cb1264d5ccfa
+  - be0a674815abeb8d655509190b94a8d3
+  - dd04eccbe0f2cc3a11ad59ef2afd6c41
+  - e07081f834d45506af8eff6d9b56047e
+  - eb1f70f051efe6d23b65375f2d30490f
+  - f21f74bc8cf001819d374ba95e1c576f
+  - f89eb350ae02cca4c4b5a8975f71e91f
+  - faaf7bd9503c5e082d400a8421c74617
+  - fadef99a6dcce6415351875d863b4e96
+  - ff30ecbe25125382ede2d1d71ac5bb79
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B560-I-GAMING-WIFI-ASUS-1601.zip
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 ROG STRIX B650-A GAMING WIFI:
@@ -22499,6 +23424,117 @@ ROG STRIX Z590-I GAMING WIFI:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX Z690-A GAMING WIFI:
+  aliases:
+  - ROG-STRIX-Z690-A-GAMING-WIFI-ASUS-2305
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z690
+  gigabyte_wmi: N
+  hash:
+  - 022b46e55f8d2bafe32f4b2c369a961b
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 0a6f5911f12fded7f1e8e3281f1a7fcb
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 816cbdefc259322c6f91cb41abd4c477
+  - 84fea5d4a29a3e344dc81bb63119d247
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - ae99a1e1eca2d695d59050c6adde53da
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cc185456e01db2ecd08d16a9b08d7aa1
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - e607e92bb64a78dfa87823d5dcae691f
+  - ec350f4cc769a483ef7b1a77411da6f5
+  - f06e72acdf21b644347fd64f2c51b61d
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z690-A-GAMING-WIFI-ASUS-2305.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 ROG STRIX Z690-A GAMING WIFI D4:
   aliases:
   - ROG-STRIX-Z690-A-GAMING-WIFI-D4-ASUS-2103
@@ -22858,6 +23894,117 @@ ROG STRIX Z690-G GAMING WIFI:
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX Z690-I GAMING WIFI:
+  aliases:
+  - ROG-STRIX-Z690-I-GAMING-WIFI-ASUS-2305
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z690
+  gigabyte_wmi: N
+  hash:
+  - 00831958b178a33b40d6321bbb758050
+  - 022b46e55f8d2bafe32f4b2c369a961b
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 0a6f5911f12fded7f1e8e3281f1a7fcb
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 223f2ffcf8d34b85e53795f546e97e93
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 816cbdefc259322c6f91cb41abd4c477
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9650d62d61ad8b1c121b38a7d4bb6d5c
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cc185456e01db2ecd08d16a9b08d7aa1
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - e607e92bb64a78dfa87823d5dcae691f
+  - f06e72acdf21b644347fd64f2c51b61d
+  - f302b0eba410949d356fe9fdaddc2030
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z690-I-GAMING-WIFI-ASUS-2305.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 ROG STRIX Z790-A GAMING WIFI:
@@ -24931,6 +26078,374 @@ TUF GAMING B450M-PRO S:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B450M-PRO-S-ASUS-4001.zip
   superio: IT8655E
   upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING B460-PLUS:
+  aliases:
+  - TUF-GAMING-B460-PLUS-ASUS-1620
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B460
+  gigabyte_wmi: N
+  hash:
+  - 007e5e3e10634f890fd7c244287e4032
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 0fc0a4e67747938601a66f49e0a79207
+  - 11b0944941bc69483fdd8952f576de5b
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 27acec3780303f1f49b092d1c8f2cd91
+  - 31b83ed86903b8ab484859912637e0a2
+  - 32bd6f9af25c5649674c4e7a31c5ea47
+  - 375739a26431804d350f6225c0f54131
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 70fa81867e9b91d22d7855436dbace29
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - a7e668c4d97491123555d43fee7e71d1
+  - afbb600fd2db509deb08c18427a8c0c4
+  - b1e245208e50366bcdc72783a26ad2e7
+  - b8cea857ffde47d894cce27de4ac7095
+  - bafbb729548138922ca1308459d5f369
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - db2838ee53bc99ce296df0ee763831c5
+  - ded47140b9613fb68fff599b4dffc5f5
+  - e172eb093523099b6d506a27a616f393
+  - e7e4347a349ed45e819e16618a83b8f6
+  - e9d0791c6594f175c3a6b7915752b4f6
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - efd6c097927c7b2a29764c2ef2782b76
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f6dbc187925fc646dedecd6c478c7150
+  - f74ccbdfe94af56646a949589162f1c1
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B460-PLUS-ASUS-1620.ZIP
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING B460-PRO (WI-FI):
+  aliases:
+  - TUF-GAMING-B460-PRO-WIFI-ASUS-1620
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B460
+  gigabyte_wmi: N
+  hash:
+  - 007e5e3e10634f890fd7c244287e4032
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 0fc0a4e67747938601a66f49e0a79207
+  - 11b0944941bc69483fdd8952f576de5b
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 1d1a0d9d26610afd1abcc051a2013cae
+  - 27acec3780303f1f49b092d1c8f2cd91
+  - 31b83ed86903b8ab484859912637e0a2
+  - 375739a26431804d350f6225c0f54131
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 5ad88015d62effeecc9a22a66d77e076
+  - 70fa81867e9b91d22d7855436dbace29
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - a7e668c4d97491123555d43fee7e71d1
+  - afbb600fd2db509deb08c18427a8c0c4
+  - b1e245208e50366bcdc72783a26ad2e7
+  - b8cea857ffde47d894cce27de4ac7095
+  - bafbb729548138922ca1308459d5f369
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - db2838ee53bc99ce296df0ee763831c5
+  - ded47140b9613fb68fff599b4dffc5f5
+  - e7e4347a349ed45e819e16618a83b8f6
+  - e9d0791c6594f175c3a6b7915752b4f6
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - efd6c097927c7b2a29764c2ef2782b76
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f6dbc187925fc646dedecd6c478c7150
+  - f74ccbdfe94af56646a949589162f1c1
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B460-PRO-WIFI-ASUS-1620.ZIP
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING B460M-PLUS:
+  aliases:
+  - TUF-GAMING-B460M-PLUS-ASUS-1601
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B460
+  gigabyte_wmi: N
+  hash:
+  - 007e5e3e10634f890fd7c244287e4032
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 11b0944941bc69483fdd8952f576de5b
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 27acec3780303f1f49b092d1c8f2cd91
+  - 31b83ed86903b8ab484859912637e0a2
+  - 375739a26431804d350f6225c0f54131
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 5013da37f2905f626249569e0f55701f
+  - 54cfc6f03a0f7e0bb7eb24f81084da59
+  - 70fa81867e9b91d22d7855436dbace29
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - a7e668c4d97491123555d43fee7e71d1
+  - afbb600fd2db509deb08c18427a8c0c4
+  - b1e245208e50366bcdc72783a26ad2e7
+  - b8cea857ffde47d894cce27de4ac7095
+  - bafbb729548138922ca1308459d5f369
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - db2838ee53bc99ce296df0ee763831c5
+  - ded47140b9613fb68fff599b4dffc5f5
+  - e7e4347a349ed45e819e16618a83b8f6
+  - e9d0791c6594f175c3a6b7915752b4f6
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - efd6c097927c7b2a29764c2ef2782b76
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f6dbc187925fc646dedecd6c478c7150
+  - f74ccbdfe94af56646a949589162f1c1
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B460M-PLUS-ASUS-1601.ZIP
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING B460M-PLUS (WI-FI):
+  aliases:
+  - TUF-GAMING-B460M-PLUS-WIFI-ASUS-1601
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B460
+  gigabyte_wmi: N
+  hash:
+  - 007e5e3e10634f890fd7c244287e4032
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 11b0944941bc69483fdd8952f576de5b
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 27acec3780303f1f49b092d1c8f2cd91
+  - 31b83ed86903b8ab484859912637e0a2
+  - 375739a26431804d350f6225c0f54131
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 5013da37f2905f626249569e0f55701f
+  - 54cfc6f03a0f7e0bb7eb24f81084da59
+  - 70fa81867e9b91d22d7855436dbace29
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - a7e668c4d97491123555d43fee7e71d1
+  - afbb600fd2db509deb08c18427a8c0c4
+  - b1e245208e50366bcdc72783a26ad2e7
+  - b8cea857ffde47d894cce27de4ac7095
+  - bafbb729548138922ca1308459d5f369
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - db2838ee53bc99ce296df0ee763831c5
+  - ded47140b9613fb68fff599b4dffc5f5
+  - e7e4347a349ed45e819e16618a83b8f6
+  - e9d0791c6594f175c3a6b7915752b4f6
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - efd6c097927c7b2a29764c2ef2782b76
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f6dbc187925fc646dedecd6c478c7150
+  - f74ccbdfe94af56646a949589162f1c1
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B460M-PLUS-WIFI-ASUS-1601.ZIP
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING B460M-PRO:
+  aliases:
+  - TUF-GAMING-B460M-PRO-ASUS-1601
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B460
+  gigabyte_wmi: N
+  hash:
+  - 007e5e3e10634f890fd7c244287e4032
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 11b0944941bc69483fdd8952f576de5b
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 27acec3780303f1f49b092d1c8f2cd91
+  - 31b83ed86903b8ab484859912637e0a2
+  - 375739a26431804d350f6225c0f54131
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 5013da37f2905f626249569e0f55701f
+  - 70fa81867e9b91d22d7855436dbace29
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - a7e668c4d97491123555d43fee7e71d1
+  - afbb600fd2db509deb08c18427a8c0c4
+  - b1e245208e50366bcdc72783a26ad2e7
+  - b8cea857ffde47d894cce27de4ac7095
+  - bafbb729548138922ca1308459d5f369
+  - bb54987365252a96d379dd3eecd84483
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - db2838ee53bc99ce296df0ee763831c5
+  - dd3d618d8e4c05015d6b0043baed2181
+  - ded47140b9613fb68fff599b4dffc5f5
+  - e7e4347a349ed45e819e16618a83b8f6
+  - e9d0791c6594f175c3a6b7915752b4f6
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - efd6c097927c7b2a29764c2ef2782b76
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f6dbc187925fc646dedecd6c478c7150
+  - f74ccbdfe94af56646a949589162f1c1
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B460M-PRO-ASUS-1601.ZIP
+  superio: ''
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
@@ -28024,6 +29539,446 @@ TUF GAMING Z590-PLUS WIFI:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING Z690-PLUS:
+  aliases:
+  - TUF-GAMING-Z690-PLUS-ASUS-2204
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z690
+  gigabyte_wmi: N
+  hash:
+  - 022b46e55f8d2bafe32f4b2c369a961b
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 06d02f1497bdf07eff5ddff540b94867
+  - 0a6f5911f12fded7f1e8e3281f1a7fcb
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 17f01a196175c5d296ab4c337322a4a6
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 816cbdefc259322c6f91cb41abd4c477
+  - 836d91ced51364143de36af8f7518941
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cc185456e01db2ecd08d16a9b08d7aa1
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f06e72acdf21b644347fd64f2c51b61d
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z690-PLUS-ASUS-2204.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING Z690-PLUS D4:
+  aliases:
+  - TUF-GAMING-Z690-PLUS-D4-ASUS-2204
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z690
+  gigabyte_wmi: N
+  hash:
+  - 022b46e55f8d2bafe32f4b2c369a961b
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 06d02f1497bdf07eff5ddff540b94867
+  - 0a6f5911f12fded7f1e8e3281f1a7fcb
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 17f01a196175c5d296ab4c337322a4a6
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 816cbdefc259322c6f91cb41abd4c477
+  - 836d91ced51364143de36af8f7518941
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cc185456e01db2ecd08d16a9b08d7aa1
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f06e72acdf21b644347fd64f2c51b61d
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z690-PLUS-D4-ASUS-2204.zip
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING Z690-PLUS WIFI:
+  aliases:
+  - TUF-GAMING-Z690-PLUS-WIFI-ASUS-2204
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z690
+  gigabyte_wmi: N
+  hash:
+  - 022b46e55f8d2bafe32f4b2c369a961b
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 06d02f1497bdf07eff5ddff540b94867
+  - 0a6f5911f12fded7f1e8e3281f1a7fcb
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 816cbdefc259322c6f91cb41abd4c477
+  - 836d91ced51364143de36af8f7518941
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cc185456e01db2ecd08d16a9b08d7aa1
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d0036b91b4b0139fef0f2be6e974288f
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f06e72acdf21b644347fd64f2c51b61d
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z690-PLUS-WIFI-ASUS-2204.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING Z690-PLUS WIFI D4:
+  aliases:
+  - TUF-GAMING-Z690-PLUS-WIFI-D4-ASUS-2204
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z690
+  gigabyte_wmi: N
+  hash:
+  - 022b46e55f8d2bafe32f4b2c369a961b
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 06d02f1497bdf07eff5ddff540b94867
+  - 0a6f5911f12fded7f1e8e3281f1a7fcb
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 816cbdefc259322c6f91cb41abd4c477
+  - 836d91ced51364143de36af8f7518941
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cc185456e01db2ecd08d16a9b08d7aa1
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d0036b91b4b0139fef0f2be6e974288f
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f06e72acdf21b644347fd64f2c51b61d
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z690-PLUS-WIFI-D4-ASUS-2204.zip
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 TUF GAMING Z790-PLUS D4:
   aliases:
   - TUF-GAMING-Z790-PLUS-D4-ASUS-0810
@@ -28125,7 +30080,8 @@ TUF GAMING Z790-PLUS D4:
   - AsusMbSwInterface
   known_good_nct6775:
   - AsusMbSwInterface
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z790-PLUS-D4-ASUS-0810.zip
   superio: ''
   upstreamed_serie: true
   wmi_methods:
@@ -28233,7 +30189,8 @@ TUF GAMING Z790-PLUS WIFI:
   - AsusMbSwInterface
   known_good_nct6775:
   - AsusMbSwInterface
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z790-PLUS-WIFI-ASUS-0812.zip
   superio: ''
   upstreamed_serie: true
   wmi_methods:
@@ -28341,7 +30298,8 @@ TUF GAMING Z790-PLUS WIFI D4:
   - AsusMbSwInterface
   known_good_nct6775:
   - AsusMbSwInterface
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z790-PLUS-WIFI-D4-ASUS-0810.zip
   superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
@@ -28421,6 +30379,587 @@ TUF Z270 MARK 1:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z270-MARK-1-ASUS-1501.ZIP
   superio: NCT6793D
   upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF Z390-PLUS GAMING:
+  aliases:
+  - TUF-Z390-PLUS-GAMING-SI-3006
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z390
+  gigabyte_wmi: N
+  hash:
+  - 00fe5645ead8847e62940fdaea09f5e9
+  - 0341a03c73715cb3b56033ad7cf75d9a
+  - 03a726b6a6e11aa5a65ddc589db1709e
+  - 043f4faffe590b7c7f97a15526c5a6f5
+  - 0a7dad1c3467165aa8bff9f7656fc7c1
+  - 11ca0672fd57c728e25bc933deedc567
+  - 120cfd8b38614d8a612f0ec485efd4e7
+  - 1320be9b84160e002e09729e752b6e28
+  - 22c0a72be6c1fa34c6dbba7acf6763fa
+  - 23fcfd2f2f0bade7ab6883375d0c1aec
+  - 26495a107369fe1569783479f11056d3
+  - 2af901b94fa4d2bcac36378945b3ebcd
+  - 311da198e58bb7015e9e1ef710bb348a
+  - 3468db3a02054f4cb2a146a947e2ec9b
+  - 375739a26431804d350f6225c0f54131
+  - 3cb451c91b95d8094ea8d30cb09088f1
+  - 3cfbda29bce2a981f8678f9f73e93894
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 48e87d59304397114a6a7ae2479d3713
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 5300a80100f715c6daea8f1e8e8e9573
+  - 56baf21079adaedac5377e958ca1743f
+  - 5f786e42a68737b4e9e586d66ad0d4d5
+  - 65742f800ed283a01710bcc1b08242c5
+  - 697f74b414e369221c26fbf13ce55bb3
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 7ffd93752de04128b4f08b13bbfda9ae
+  - 852a776b613ac135a954cb750129da26
+  - 8ca1d88e34efeff5f4da60e998229bd1
+  - 8dccc226e623cd8e05078749498c5b83
+  - 9611b6d8acff240e1d1732a26e47b52b
+  - 978dd461c3ffea5ddc552abee91828d1
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - 9b36867df1056f01c6b2b1c88cdc1660
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - 9d6c0bee895bf55945f30db9de79cc60
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - b079def8eed2c995c0bca711631caed7
+  - b1b580b48420b9676e08270094c90358
+  - b4217cb7525e8474076d60ad48cc8fdf
+  - bba8839e3a5b2ac8e77191798c93a681
+  - c7040eb040ffdc6cae92c1d77933c255
+  - cf0ee1276e05452f5c63d3decb538fd5
+  - d52b105dc43c56ed9d12b2bbae09c74e
+  - e1fc16ad40506c250d597f6e8af0ad92
+  - e3bcca9a13df5f2990c070353066464b
+  - ecd47c58be4348d8adad9cd2c7365c54
+  - ece68ada0b1824a426659dd69e4e0d82
+  - f1ba4da018af9ef36a96f88fd2cc74ae
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f5c9e724e726ad8d632e51541629d1b9
+  - f5d93d68d33fc81dcd641f59baeba157
+  - f6dbc187925fc646dedecd6c478c7150
+  - f7b0e1d085be4b5701ba70c57fc4887a
+  - f8843ca7140d36f95d8a574cfe4c139a
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z390-PLUS-GAMING-SI-3006.ZIP
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF Z390-PLUS GAMING (WI-FI):
+  aliases:
+  - TUF-Z390-PLUS-GAMING-WIFI-SI-3006
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z390
+  gigabyte_wmi: N
+  hash:
+  - 00fe5645ead8847e62940fdaea09f5e9
+  - 0341a03c73715cb3b56033ad7cf75d9a
+  - 03a726b6a6e11aa5a65ddc589db1709e
+  - 043f4faffe590b7c7f97a15526c5a6f5
+  - 0a7dad1c3467165aa8bff9f7656fc7c1
+  - 11ca0672fd57c728e25bc933deedc567
+  - 120cfd8b38614d8a612f0ec485efd4e7
+  - 1320be9b84160e002e09729e752b6e28
+  - 22c0a72be6c1fa34c6dbba7acf6763fa
+  - 23fcfd2f2f0bade7ab6883375d0c1aec
+  - 26495a107369fe1569783479f11056d3
+  - 2af901b94fa4d2bcac36378945b3ebcd
+  - 311da198e58bb7015e9e1ef710bb348a
+  - 3468db3a02054f4cb2a146a947e2ec9b
+  - 375739a26431804d350f6225c0f54131
+  - 3cb451c91b95d8094ea8d30cb09088f1
+  - 3cfbda29bce2a981f8678f9f73e93894
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 48e87d59304397114a6a7ae2479d3713
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 5300a80100f715c6daea8f1e8e8e9573
+  - 56baf21079adaedac5377e958ca1743f
+  - 5f786e42a68737b4e9e586d66ad0d4d5
+  - 65742f800ed283a01710bcc1b08242c5
+  - 697f74b414e369221c26fbf13ce55bb3
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 7ffd93752de04128b4f08b13bbfda9ae
+  - 852a776b613ac135a954cb750129da26
+  - 8ca1d88e34efeff5f4da60e998229bd1
+  - 8dccc226e623cd8e05078749498c5b83
+  - 9611b6d8acff240e1d1732a26e47b52b
+  - 978dd461c3ffea5ddc552abee91828d1
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - 9b36867df1056f01c6b2b1c88cdc1660
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - 9d6c0bee895bf55945f30db9de79cc60
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - aaf9f127e7b70e54b34942d8d532fd8a
+  - b079def8eed2c995c0bca711631caed7
+  - b1b580b48420b9676e08270094c90358
+  - b4217cb7525e8474076d60ad48cc8fdf
+  - c7040eb040ffdc6cae92c1d77933c255
+  - cf0ee1276e05452f5c63d3decb538fd5
+  - d52b105dc43c56ed9d12b2bbae09c74e
+  - e1fc16ad40506c250d597f6e8af0ad92
+  - e3bcca9a13df5f2990c070353066464b
+  - ecd47c58be4348d8adad9cd2c7365c54
+  - ece68ada0b1824a426659dd69e4e0d82
+  - f1ba4da018af9ef36a96f88fd2cc74ae
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f5c9e724e726ad8d632e51541629d1b9
+  - f5d93d68d33fc81dcd641f59baeba157
+  - f6dbc187925fc646dedecd6c478c7150
+  - f7b0e1d085be4b5701ba70c57fc4887a
+  - f8843ca7140d36f95d8a574cfe4c139a
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z390-PLUS-GAMING-WIFI-SI-3006.ZIP
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF Z390-PRO GAMING:
+  aliases:
+  - TUF-Z390-PRO-GAMING-ASUS-3006
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z390
+  gigabyte_wmi: N
+  hash:
+  - 00fe5645ead8847e62940fdaea09f5e9
+  - 0341a03c73715cb3b56033ad7cf75d9a
+  - 03a726b6a6e11aa5a65ddc589db1709e
+  - 043f4faffe590b7c7f97a15526c5a6f5
+  - 0a7dad1c3467165aa8bff9f7656fc7c1
+  - 11ca0672fd57c728e25bc933deedc567
+  - 120cfd8b38614d8a612f0ec485efd4e7
+  - 1320be9b84160e002e09729e752b6e28
+  - 22c0a72be6c1fa34c6dbba7acf6763fa
+  - 23fcfd2f2f0bade7ab6883375d0c1aec
+  - 26495a107369fe1569783479f11056d3
+  - 2af901b94fa4d2bcac36378945b3ebcd
+  - 311da198e58bb7015e9e1ef710bb348a
+  - 3468db3a02054f4cb2a146a947e2ec9b
+  - 375739a26431804d350f6225c0f54131
+  - 3cb451c91b95d8094ea8d30cb09088f1
+  - 3cfbda29bce2a981f8678f9f73e93894
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 48e87d59304397114a6a7ae2479d3713
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 56baf21079adaedac5377e958ca1743f
+  - 5f786e42a68737b4e9e586d66ad0d4d5
+  - 65742f800ed283a01710bcc1b08242c5
+  - 697f74b414e369221c26fbf13ce55bb3
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 7ffd93752de04128b4f08b13bbfda9ae
+  - 852a776b613ac135a954cb750129da26
+  - 8ca1d88e34efeff5f4da60e998229bd1
+  - 8dccc226e623cd8e05078749498c5b83
+  - 9611b6d8acff240e1d1732a26e47b52b
+  - 978dd461c3ffea5ddc552abee91828d1
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - 9b36867df1056f01c6b2b1c88cdc1660
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - 9d6c0bee895bf55945f30db9de79cc60
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - b079def8eed2c995c0bca711631caed7
+  - b1b580b48420b9676e08270094c90358
+  - b4217cb7525e8474076d60ad48cc8fdf
+  - bba8839e3a5b2ac8e77191798c93a681
+  - c7040eb040ffdc6cae92c1d77933c255
+  - cf0ee1276e05452f5c63d3decb538fd5
+  - d208dc959cc72158ce8576e5ccb59c04
+  - d52b105dc43c56ed9d12b2bbae09c74e
+  - e1fc16ad40506c250d597f6e8af0ad92
+  - e3bcca9a13df5f2990c070353066464b
+  - ecd47c58be4348d8adad9cd2c7365c54
+  - ece68ada0b1824a426659dd69e4e0d82
+  - f1ba4da018af9ef36a96f88fd2cc74ae
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f5c9e724e726ad8d632e51541629d1b9
+  - f5d93d68d33fc81dcd641f59baeba157
+  - f6dbc187925fc646dedecd6c478c7150
+  - f7b0e1d085be4b5701ba70c57fc4887a
+  - f8843ca7140d36f95d8a574cfe4c139a
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z390-PRO-GAMING-ASUS-3006.ZIP
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF Z390M-PRO GAMING:
+  aliases:
+  - TUF-Z390M-PRO-GAMING-ASUS-3006
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z390
+  gigabyte_wmi: N
+  hash:
+  - 00fe5645ead8847e62940fdaea09f5e9
+  - 0341a03c73715cb3b56033ad7cf75d9a
+  - 03a726b6a6e11aa5a65ddc589db1709e
+  - 043f4faffe590b7c7f97a15526c5a6f5
+  - 0a7dad1c3467165aa8bff9f7656fc7c1
+  - 11ca0672fd57c728e25bc933deedc567
+  - 1320be9b84160e002e09729e752b6e28
+  - 22c0a72be6c1fa34c6dbba7acf6763fa
+  - 23fcfd2f2f0bade7ab6883375d0c1aec
+  - 26495a107369fe1569783479f11056d3
+  - 2af901b94fa4d2bcac36378945b3ebcd
+  - 311da198e58bb7015e9e1ef710bb348a
+  - 3426c3c08499714ccad3d07aa82783e0
+  - 3468db3a02054f4cb2a146a947e2ec9b
+  - 375739a26431804d350f6225c0f54131
+  - 3cb451c91b95d8094ea8d30cb09088f1
+  - 3cfbda29bce2a981f8678f9f73e93894
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 48e87d59304397114a6a7ae2479d3713
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 56baf21079adaedac5377e958ca1743f
+  - 5f786e42a68737b4e9e586d66ad0d4d5
+  - 65742f800ed283a01710bcc1b08242c5
+  - 697f74b414e369221c26fbf13ce55bb3
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 7ffd93752de04128b4f08b13bbfda9ae
+  - 8193086736d2805863bd6570824bc69e
+  - 852a776b613ac135a954cb750129da26
+  - 8ca1d88e34efeff5f4da60e998229bd1
+  - 8dccc226e623cd8e05078749498c5b83
+  - 9611b6d8acff240e1d1732a26e47b52b
+  - 978dd461c3ffea5ddc552abee91828d1
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - 9b36867df1056f01c6b2b1c88cdc1660
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - 9d6c0bee895bf55945f30db9de79cc60
+  - a11db935db991d6e6e257de5d25ced70
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - b079def8eed2c995c0bca711631caed7
+  - b1b580b48420b9676e08270094c90358
+  - b4217cb7525e8474076d60ad48cc8fdf
+  - c7040eb040ffdc6cae92c1d77933c255
+  - cf0ee1276e05452f5c63d3decb538fd5
+  - d52b105dc43c56ed9d12b2bbae09c74e
+  - dd3d618d8e4c05015d6b0043baed2181
+  - e1fc16ad40506c250d597f6e8af0ad92
+  - e3bcca9a13df5f2990c070353066464b
+  - ecd47c58be4348d8adad9cd2c7365c54
+  - ece68ada0b1824a426659dd69e4e0d82
+  - f1ba4da018af9ef36a96f88fd2cc74ae
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f5c9e724e726ad8d632e51541629d1b9
+  - f5d93d68d33fc81dcd641f59baeba157
+  - f6dbc187925fc646dedecd6c478c7150
+  - f7b0e1d085be4b5701ba70c57fc4887a
+  - f8843ca7140d36f95d8a574cfe4c139a
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z390M-PRO-GAMING-ASUS-3006.ZIP
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF Z390M-PRO GAMING (WI-FI):
+  aliases:
+  - TUF-Z390M-PRO-GAMING-WIFI-ASUS-3006
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z390
+  gigabyte_wmi: N
+  hash:
+  - 00fe5645ead8847e62940fdaea09f5e9
+  - 0341a03c73715cb3b56033ad7cf75d9a
+  - 03a726b6a6e11aa5a65ddc589db1709e
+  - 043f4faffe590b7c7f97a15526c5a6f5
+  - 0a7dad1c3467165aa8bff9f7656fc7c1
+  - 11ca0672fd57c728e25bc933deedc567
+  - 1320be9b84160e002e09729e752b6e28
+  - 22c0a72be6c1fa34c6dbba7acf6763fa
+  - 23fcfd2f2f0bade7ab6883375d0c1aec
+  - 26495a107369fe1569783479f11056d3
+  - 2af901b94fa4d2bcac36378945b3ebcd
+  - 311da198e58bb7015e9e1ef710bb348a
+  - 3468db3a02054f4cb2a146a947e2ec9b
+  - 375739a26431804d350f6225c0f54131
+  - 3cb451c91b95d8094ea8d30cb09088f1
+  - 3cfbda29bce2a981f8678f9f73e93894
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 48e87d59304397114a6a7ae2479d3713
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 56baf21079adaedac5377e958ca1743f
+  - 5f786e42a68737b4e9e586d66ad0d4d5
+  - 65742f800ed283a01710bcc1b08242c5
+  - 697f74b414e369221c26fbf13ce55bb3
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 7ffd93752de04128b4f08b13bbfda9ae
+  - 8193086736d2805863bd6570824bc69e
+  - 852a776b613ac135a954cb750129da26
+  - 8ca1d88e34efeff5f4da60e998229bd1
+  - 8dccc226e623cd8e05078749498c5b83
+  - 9611b6d8acff240e1d1732a26e47b52b
+  - 978dd461c3ffea5ddc552abee91828d1
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - 9b36867df1056f01c6b2b1c88cdc1660
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - 9d6c0bee895bf55945f30db9de79cc60
+  - a11db935db991d6e6e257de5d25ced70
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - b079def8eed2c995c0bca711631caed7
+  - b1b580b48420b9676e08270094c90358
+  - b3cb51932c20bb8eee3dbf5514bd0906
+  - b4217cb7525e8474076d60ad48cc8fdf
+  - c7040eb040ffdc6cae92c1d77933c255
+  - cf0ee1276e05452f5c63d3decb538fd5
+  - d52b105dc43c56ed9d12b2bbae09c74e
+  - dd3d618d8e4c05015d6b0043baed2181
+  - e1fc16ad40506c250d597f6e8af0ad92
+  - e3bcca9a13df5f2990c070353066464b
+  - ecd47c58be4348d8adad9cd2c7365c54
+  - ece68ada0b1824a426659dd69e4e0d82
+  - f1ba4da018af9ef36a96f88fd2cc74ae
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f5c9e724e726ad8d632e51541629d1b9
+  - f5d93d68d33fc81dcd641f59baeba157
+  - f6dbc187925fc646dedecd6c478c7150
+  - f7b0e1d085be4b5701ba70c57fc4887a
+  - f8843ca7140d36f95d8a574cfe4c139a
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z390M-PRO-GAMING-WIFI-ASUS-3006.ZIP
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+WS Z390 PRO:
+  aliases:
+  - WS-Z390-PRO-ASUS-1401
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z390
+  gigabyte_wmi: N
+  hash:
+  - 031f1efa950a7749ede19fdde7d79e5f
+  - 0341a03c73715cb3b56033ad7cf75d9a
+  - 083bdddb9a0c33aba377213079a4884a
+  - 0a7dad1c3467165aa8bff9f7656fc7c1
+  - 11832f0f0efe6db05dcb98158d9ee3cf
+  - 1320be9b84160e002e09729e752b6e28
+  - 1940e01835708a42c0a018394e398513
+  - 22c0a72be6c1fa34c6dbba7acf6763fa
+  - 26495a107369fe1569783479f11056d3
+  - 2af901b94fa4d2bcac36378945b3ebcd
+  - 33bbf2a3aebc1cb07bc0d4894d51926e
+  - 375739a26431804d350f6225c0f54131
+  - 3cb451c91b95d8094ea8d30cb09088f1
+  - 3cfbda29bce2a981f8678f9f73e93894
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 4327a0fe7710283f6d97f16584ff8b13
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 48e87d59304397114a6a7ae2479d3713
+  - 49a99b3bda49d85b7b00e5a804db8486
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 51b3b4355bca9b74801b50af0fa83626
+  - 572c304a8da9a1c795ff9f600e7eec88
+  - 5ee1897b25c682557ffe34c6c449d4ed
+  - 5f786e42a68737b4e9e586d66ad0d4d5
+  - 6ada3b05e3f13dc25781cfdf6a620315
+  - 6ba77b22da2f2515cd9c93bbf43de599
+  - 700487e9599749ec4630a8aa0c1bd717
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 852a776b613ac135a954cb750129da26
+  - 88bcdc0f2ee695decac1173eda4968b4
+  - 8dccc226e623cd8e05078749498c5b83
+  - 9246be30c588373037d8ed69a8a02323
+  - 9611b6d8acff240e1d1732a26e47b52b
+  - 978dd461c3ffea5ddc552abee91828d1
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - 9bfb5c98cab2e03e9416dad4776ab301
+  - 9d6c0bee895bf55945f30db9de79cc60
+  - a3f0e96aa6ff4e32f0cf5c948cca4a0d
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - ada66d0ab558aee618ea72eb229b970f
+  - b1b580b48420b9676e08270094c90358
+  - b4217cb7525e8474076d60ad48cc8fdf
+  - b4795d34d6f642022b3c2622fb200bcc
+  - ba0d917963d7fbb583bde8f849ed3fc7
+  - be7040ad19f6685e996e056d78ebd6d7
+  - c4c559343b80978a45a384f94bfaea32
+  - c60e3af5e3c140d2167ea4ab3517373e
+  - c7040eb040ffdc6cae92c1d77933c255
+  - cf0ee1276e05452f5c63d3decb538fd5
+  - dd3d618d8e4c05015d6b0043baed2181
+  - e3bcca9a13df5f2990c070353066464b
+  - e4982e428934d6f98eefed8a07b86a52
+  - ece68ada0b1824a426659dd69e4e0d82
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f6dbc187925fc646dedecd6c478c7150
+  - f7b0e1d085be4b5701ba70c57fc4887a
+  - f9e85deb3e722846793d1903728684f6
+  - ff1cf9382d978ebc7a4a7c418a814236
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/WS-Z390-PRO-ASUS-1401.zip
+  superio: ''
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
