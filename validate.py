@@ -52,6 +52,37 @@ LINKS = [
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-H610M-V3-D4-SI-2214.zip",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610M-A-D4-ASUS-2212.zip",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610M-K-D4-ASUS-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-W790-ACE-ASUS-0403.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-W790E-SAGE-SE-ASUS-0215.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-B250I-GAMING-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-B250F-GAMING-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-B250G-GAMING-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-B250H-GAMING-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550M-ZAKU-WIFI-ASUS-3002.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-D-ASUS-1620.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-F-ASUS-1620.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-H410M-V3-SI-1620.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z490-V-ASUS-1621.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z490-P-ASUS-1621.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z490-A-ASUS-2701.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z490M-PLUS-ASUS-1621.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z790-I-GAMING-WIFI-ASUS-0812.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z790-E-GAMING-WIFI-ASUS-0816.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z790-H-GAMING-WIFI-ASUS-0816.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z790-F-GAMING-WIFI-ASUS-0816.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z790-A-GAMING-WIFI-ASUS-0816.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z790-A-GAMING-WIFI-D4-ASUS-0812.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z790-PLUS-WIFI-D4-ASUS-0810.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z790-PLUS-WIFI-ASUS-0812.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z790-PLUS-D4-ASUS-0810.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-Z790-APEX-ASUS-0812.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790M-PLUS-ASUS-0812.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790M-PLUS-D4-ASUS-0810.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790-P-WIFI-D4-ASUS-0810.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790-A-WIFI-ASUS-0812.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790-P-WIFI-ASUS-0812.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790-P-D4-ASUS-0810.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790-P-ASUS-0812.zip",
 ]
 
 # Upstreamed ec
@@ -194,7 +225,7 @@ NCT6775_BOARDS = [
     "PRIME Z590-V",
     "PRIME Z590M-PLUS",
     "Pro B660M-C",
-    "Pro B660M-C-D4",
+    "Pro B660M-C D4",
     "Pro WS W680-ACE",
     "Pro WS W680-ACE IPMI",
     "ProArt B650-CREATOR",
@@ -284,7 +315,6 @@ NCT6775_UPSTREAMED_CHIPSETS = [
     "X670",
     "Z390",
     "Z490",
-    "Z590",
     "Z590",
     "Z690",
     "Z790",
@@ -413,6 +443,9 @@ BOARDNAME_CONVERT = {
     "PRO H610M-CT-D4": "Pro H610M-CT D4",
     "PRO H610M-C-D4": "Pro H610M-C D4",
     "EX-H610M-V3-D4": "EX-H610M-V3 D4",
+    "PRO B660M-C-D4": "Pro B660M-C D4",
+    "PRO WS W790E-SAGE-SE": "Pro WS W790E-SAGE SE",
+    "PRO H410M-C": "PRO H410M-C",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -513,7 +546,7 @@ ASUS_KNOWN_UIDS = {
     "AsusMbSwInterface": "B650 style board",
 }
 
-ASUS_WIFI_NO_CONVERT = ["B650", "B660", "B760", "X670", "Z590", "Z690"]
+ASUS_WIFI_NO_CONVERT = ["B650", "B660", "B760", "X670", "Z590", "Z690", "Z790"]
 
 
 def gen_asus_board_name(board_group):
@@ -1616,6 +1649,21 @@ if __name__ == "__main__":
         board_desc.append(row)
     print (f"Loaded cleanuped {len(board_desc)} boards descriptions.")
 
+    # update superio
+    for board_name in boards_flags:
+        board_flags = boards_flags[board_name]
+        # set chip value strict
+        for board_info in board_desc:
+            if (
+                board_info[0] == board_flags["board_producer"] and
+                board_info[1].upper() == board_name.upper()
+            ):
+                if board_info[2]:
+                    board_flags["superio"] = board_info[2]
+                if board_info[1] != board_name:
+                    print (f"\tDatabase has different name {board_info[1]} != {board_name}")
+                break
+
     processed_files = 0
     for dirname, _, filenames in os.walk(current_dir):
         # print path to all filenames.
@@ -1685,9 +1733,10 @@ if __name__ == "__main__":
                             board_info[0] == board_flags["board_producer"] and
                             board_name.upper().startswith(board_info[1].upper())
                         ):
-                            board_flags["superio"] = board_info[2]
-                            print (f"\tSuper I/O: {board_info[2]}")
-                            break
+                            if board_info[2]:
+                                board_flags["superio"] = board_info[2]
+                                print (f"\tSuper I/O: {board_info[2]}")
+                                break
 
                 if not board_flags.get("hash"):
                     board_flags["hash"] = []

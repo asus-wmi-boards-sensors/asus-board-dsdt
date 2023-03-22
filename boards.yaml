@@ -465,7 +465,7 @@ B150 PRO GAMING/AURA:
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B150_PRO_GAMING_AURA/B150-PRO-GAMING-AURA-ASUS-3805.zip
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods: []
 B150I PRO GAMING/AURA:
@@ -1926,6 +1926,80 @@ EX-B760M-V5 D4:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+EX-H410M-V3:
+  aliases:
+  - EX-H410M-V3-SI-1620
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: H410
+  gigabyte_wmi: N
+  hash:
+  - 007e5e3e10634f890fd7c244287e4032
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 0fc0a4e67747938601a66f49e0a79207
+  - 11b0944941bc69483fdd8952f576de5b
+  - 126e9f11aa58a5babe753cb2016f4c8a
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 27acec3780303f1f49b092d1c8f2cd91
+  - 31b83ed86903b8ab484859912637e0a2
+  - 375739a26431804d350f6225c0f54131
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 70fa81867e9b91d22d7855436dbace29
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - a7e668c4d97491123555d43fee7e71d1
+  - afbb600fd2db509deb08c18427a8c0c4
+  - b1e245208e50366bcdc72783a26ad2e7
+  - b62530c59d2a1a79d33fd0dc030c9a9b
+  - b8cea857ffde47d894cce27de4ac7095
+  - bafbb729548138922ca1308459d5f369
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - db2838ee53bc99ce296df0ee763831c5
+  - ded47140b9613fb68fff599b4dffc5f5
+  - e7e4347a349ed45e819e16618a83b8f6
+  - e9d0791c6594f175c3a6b7915752b4f6
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - efd6c097927c7b2a29764c2ef2782b76
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f6dbc187925fc646dedecd6c478c7150
+  - f74ccbdfe94af56646a949589162f1c1
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-H410M-V3-SI-1620.ZIP
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 EX-H610M-V3 D4:
   aliases:
   - EX-H610M-V3-D4-SI-2214
@@ -2174,7 +2248,7 @@ H170 PRO GAMING:
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/H170_PRO_GAMING/H170-PRO-GAMING-ASUS-3805.zip
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods: []
 H81-GAMER:
@@ -8832,6 +8906,80 @@ PRIME H410M-A:
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+PRIME H410M-D:
+  aliases:
+  - PRIME-H410M-D-ASUS-1620
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: H410
+  gigabyte_wmi: N
+  hash:
+  - 007e5e3e10634f890fd7c244287e4032
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 0fc0a4e67747938601a66f49e0a79207
+  - 11b0944941bc69483fdd8952f576de5b
+  - 126e9f11aa58a5babe753cb2016f4c8a
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 27acec3780303f1f49b092d1c8f2cd91
+  - 31b83ed86903b8ab484859912637e0a2
+  - 375739a26431804d350f6225c0f54131
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 70fa81867e9b91d22d7855436dbace29
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - a7e668c4d97491123555d43fee7e71d1
+  - a80b6e299b771710fec88f6adc0c8ff7
+  - afbb600fd2db509deb08c18427a8c0c4
+  - b1e245208e50366bcdc72783a26ad2e7
+  - b8cea857ffde47d894cce27de4ac7095
+  - bafbb729548138922ca1308459d5f369
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - db2838ee53bc99ce296df0ee763831c5
+  - ded47140b9613fb68fff599b4dffc5f5
+  - e7e4347a349ed45e819e16618a83b8f6
+  - e9d0791c6594f175c3a6b7915752b4f6
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - efd6c097927c7b2a29764c2ef2782b76
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f6dbc187925fc646dedecd6c478c7150
+  - f74ccbdfe94af56646a949589162f1c1
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-D-ASUS-1620.ZIP
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H410M-E:
   aliases:
   - PRIME-H410M-E-ASUS-1620
@@ -8899,6 +9047,80 @@ PRIME H410M-E:
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-E-ASUS-1620.ZIP
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+PRIME H410M-F:
+  aliases:
+  - PRIME-H410M-F-ASUS-1620
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: H410
+  gigabyte_wmi: N
+  hash:
+  - 007e5e3e10634f890fd7c244287e4032
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 0fc0a4e67747938601a66f49e0a79207
+  - 11b0944941bc69483fdd8952f576de5b
+  - 126e9f11aa58a5babe753cb2016f4c8a
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 27acec3780303f1f49b092d1c8f2cd91
+  - 31b83ed86903b8ab484859912637e0a2
+  - 375739a26431804d350f6225c0f54131
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 70fa81867e9b91d22d7855436dbace29
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - a7e668c4d97491123555d43fee7e71d1
+  - afbb600fd2db509deb08c18427a8c0c4
+  - b1e245208e50366bcdc72783a26ad2e7
+  - b8cea857ffde47d894cce27de4ac7095
+  - bafbb729548138922ca1308459d5f369
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - db2838ee53bc99ce296df0ee763831c5
+  - ded47140b9613fb68fff599b4dffc5f5
+  - e7e4347a349ed45e819e16618a83b8f6
+  - e9d0791c6594f175c3a6b7915752b4f6
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - efd6c097927c7b2a29764c2ef2782b76
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f34ebebe0be1797ef5325ce12b3ebae6
+  - f6dbc187925fc646dedecd6c478c7150
+  - f74ccbdfe94af56646a949589162f1c1
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-F-ASUS-1620.ZIP
   superio: ''
   upstreamed_serie: true
   wmi_methods:
@@ -10331,7 +10553,7 @@ PRIME X670E-PRO WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUSTeK COMPUTER INC.
-  bridge: X670E
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 040b02302a5adebda4216edfc9cae88e
@@ -10474,7 +10696,7 @@ PRIME Z270-K:
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/PRIME_Z270-K/PRIME-Z270-K-ASUS-1207.zip
-  superio: ''
+  superio: NCT5539D
   upstreamed_serie: false
   wmi_methods: []
 PRIME Z270-P:
@@ -10497,7 +10719,7 @@ PRIME Z270-P:
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z270-P-ASUS-2001.ZIP
-  superio: ''
+  superio: NCT5539D
   upstreamed_serie: false
   wmi_methods: []
 PRIME Z270M-PLUS:
@@ -10520,7 +10742,7 @@ PRIME Z270M-PLUS:
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z270M-PLUS-ASUS-2001.ZIP
-  superio: ''
+  superio: NCT5539D
   upstreamed_serie: false
   wmi_methods: []
 PRIME Z370-A:
@@ -10543,7 +10765,7 @@ PRIME Z370-A:
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z370-A-ASUS-3004.ZIP
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods: []
 PRIME Z370-A II:
@@ -10566,7 +10788,7 @@ PRIME Z370-A II:
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z370-A-II-ASUS-3004.ZIP
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods: []
 PRIME Z390-P:
@@ -10616,6 +10838,402 @@ PRIME Z390-P:
   known_good_nct6775:
   - ASUSWMI
   links: []
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+PRIME Z490-A:
+  aliases:
+  - PRIME-Z490-A-ASUS-2701
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z490
+  gigabyte_wmi: N
+  hash:
+  - 007e5e3e10634f890fd7c244287e4032
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 11b0944941bc69483fdd8952f576de5b
+  - 1320be9b84160e002e09729e752b6e28
+  - 143242e87154bc94fc7324a2f261d760
+  - 1643b9a276b97966e6f0104d457de03a
+  - 177cf0d1ed804ff7d05217c22b74fbe8
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 18797e6d2f4d25ec773d86ef8eff6736
+  - 2499fb4109f01b4d7d9bc17e872c757e
+  - 34dec8b3796a9605f54b05eadab9e772
+  - 36e32382538aa95f8b32e3b7b11fb149
+  - 375739a26431804d350f6225c0f54131
+  - 443dd3ca23d07729137b6ec1f1c49250
+  - 4529fa9fb011a4e382ce0b8e623efdb4
+  - 475dfbd4525874777c17470d4d0571d6
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 49e75e347b0a97b086e2fe311445dbae
+  - 49fb501beee26c66cd404bb1e6ad8ae2
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 4cd8fd4675a457ccea6efba9cf77498f
+  - 5723d24ae21e838e316cf7541af5bd38
+  - 5b7ea64522abde776727e535447442d9
+  - 6c0e1911c55c70d573a2b4d510394e8a
+  - 6cfc3fc2aab96b1ff9c11b8a7ec46a37
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7c15bcbbd94d0235a2a4c3087dc88c6e
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 854bc52c5b0346cecad2fddeef2b6412
+  - 8ffed23a6528c54e2f829bafe739d2c9
+  - 972d589dc9dbf6c62f58e472f1f1480f
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - a12f167e77a83424a3b0cb5e1a3059ad
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - a36ddb2be3bc408963301a1f268bca0a
+  - a70d558c52b7c56293459ea12a54e2bc
+  - a7e668c4d97491123555d43fee7e71d1
+  - b1e245208e50366bcdc72783a26ad2e7
+  - b44e572b5d91e2c7003d55952833613a
+  - b64290b7d9709e1bd93e204e11492c5c
+  - b972a3a88db30cc16cf7116d121fe699
+  - bafbb729548138922ca1308459d5f369
+  - bd26fb3d119eb22ae9778cd19f3fabaf
+  - bf51a438c3d9e90a638efa1458e24d33
+  - c4c88afe9f32bf03e9e30423e225fd02
+  - c93df97e800bc641666d3e42986f4bf5
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - cda031139eb517f0d33d23d72766b627
+  - cf18619f7419bc8dbd3bce2152fb8d53
+  - d53e88a554303a059c738694a4dc1338
+  - db2838ee53bc99ce296df0ee763831c5
+  - e9b9ef733f288bdfb61cd484250c17d8
+  - ecdf6ca1d5975dcbd5743a0f257a7bb7
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - ee99ad5ab1a3df11cdba2c0c10257217
+  - efd6c097927c7b2a29764c2ef2782b76
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f331349e6367ef9f9c8c66e5862bb8d0
+  - f67b632f3573640a149aaa4f77865ba7
+  - f6dbc187925fc646dedecd6c478c7150
+  - f74ccbdfe94af56646a949589162f1c1
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z490-A-ASUS-2701.zip
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+PRIME Z490-P:
+  aliases:
+  - PRIME-Z490-P-ASUS-1621
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z490
+  gigabyte_wmi: N
+  hash:
+  - 007e5e3e10634f890fd7c244287e4032
+  - 0091b679d334128f5f489bfccab4251b
+  - 029c67c3f5e6c2612b0db5f81e219be6
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 0fc0a4e67747938601a66f49e0a79207
+  - 11b0944941bc69483fdd8952f576de5b
+  - 1643b9a276b97966e6f0104d457de03a
+  - 16acf00f5cafa447e9a45e0ed024f0f7
+  - 177cf0d1ed804ff7d05217c22b74fbe8
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 18797e6d2f4d25ec773d86ef8eff6736
+  - 18efbc02b9d4ec079800c820f5718ed3
+  - 2499fb4109f01b4d7d9bc17e872c757e
+  - 24f1aea1ddc539d5bbe6a0123dc5d640
+  - 2abb624806c822484b9d4c00967a7401
+  - 2e00644805833fb8817fcf7281955f4e
+  - 31b83ed86903b8ab484859912637e0a2
+  - 375739a26431804d350f6225c0f54131
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 475dfbd4525874777c17470d4d0571d6
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 48e13b3075d5c374600da2afc9d8c753
+  - 49fb501beee26c66cd404bb1e6ad8ae2
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 82ff50d76663fd96d712c752eb80d237
+  - 8694f5cd5348deb6b64f00ec98c8e584
+  - 8a44f4af080351949a47d83c46fd8ff2
+  - 972d589dc9dbf6c62f58e472f1f1480f
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - a17824160ebacf1f74882d38875827b6
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - a7e668c4d97491123555d43fee7e71d1
+  - ae83018af3329136b4b3abd6cf56316c
+  - afbb600fd2db509deb08c18427a8c0c4
+  - b1e245208e50366bcdc72783a26ad2e7
+  - b64290b7d9709e1bd93e204e11492c5c
+  - b8cea857ffde47d894cce27de4ac7095
+  - bafbb729548138922ca1308459d5f369
+  - bf51a438c3d9e90a638efa1458e24d33
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - c919852be4993d47d0f7ea392a9e24e1
+  - c93df97e800bc641666d3e42986f4bf5
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - cd8d5c92ac93681182b38f9cbf175129
+  - d53e88a554303a059c738694a4dc1338
+  - db2838ee53bc99ce296df0ee763831c5
+  - dd3d618d8e4c05015d6b0043baed2181
+  - e2db8486319fda32a7358635c7f1231c
+  - e9d0791c6594f175c3a6b7915752b4f6
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - ee99ad5ab1a3df11cdba2c0c10257217
+  - efd6c097927c7b2a29764c2ef2782b76
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f6dbc187925fc646dedecd6c478c7150
+  - f74ccbdfe94af56646a949589162f1c1
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z490-P-ASUS-1621.ZIP
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+PRIME Z490-V:
+  aliases:
+  - PRIME-Z490-V-ASUS-1621
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z490
+  gigabyte_wmi: N
+  hash:
+  - 007e5e3e10634f890fd7c244287e4032
+  - 0091b679d334128f5f489bfccab4251b
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 0fc0a4e67747938601a66f49e0a79207
+  - 11b0944941bc69483fdd8952f576de5b
+  - 12d2b6dc6029d8ce6b9af4427ba7e720
+  - 1643b9a276b97966e6f0104d457de03a
+  - 16acf00f5cafa447e9a45e0ed024f0f7
+  - 177cf0d1ed804ff7d05217c22b74fbe8
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 18797e6d2f4d25ec773d86ef8eff6736
+  - 18efbc02b9d4ec079800c820f5718ed3
+  - 2499fb4109f01b4d7d9bc17e872c757e
+  - 24f1aea1ddc539d5bbe6a0123dc5d640
+  - 2abb624806c822484b9d4c00967a7401
+  - 2e00644805833fb8817fcf7281955f4e
+  - 31b83ed86903b8ab484859912637e0a2
+  - 375739a26431804d350f6225c0f54131
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 475dfbd4525874777c17470d4d0571d6
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 48e13b3075d5c374600da2afc9d8c753
+  - 49fb501beee26c66cd404bb1e6ad8ae2
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 82ff50d76663fd96d712c752eb80d237
+  - 8694f5cd5348deb6b64f00ec98c8e584
+  - 8a44f4af080351949a47d83c46fd8ff2
+  - 972d589dc9dbf6c62f58e472f1f1480f
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - a17824160ebacf1f74882d38875827b6
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - a7e668c4d97491123555d43fee7e71d1
+  - ae83018af3329136b4b3abd6cf56316c
+  - afbb600fd2db509deb08c18427a8c0c4
+  - b1e245208e50366bcdc72783a26ad2e7
+  - b64290b7d9709e1bd93e204e11492c5c
+  - b8cea857ffde47d894cce27de4ac7095
+  - bafbb729548138922ca1308459d5f369
+  - bf51a438c3d9e90a638efa1458e24d33
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - c919852be4993d47d0f7ea392a9e24e1
+  - c93df97e800bc641666d3e42986f4bf5
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - cd8d5c92ac93681182b38f9cbf175129
+  - d53e88a554303a059c738694a4dc1338
+  - db2838ee53bc99ce296df0ee763831c5
+  - dd3d618d8e4c05015d6b0043baed2181
+  - e2db8486319fda32a7358635c7f1231c
+  - e9d0791c6594f175c3a6b7915752b4f6
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - ee99ad5ab1a3df11cdba2c0c10257217
+  - efd6c097927c7b2a29764c2ef2782b76
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f6dbc187925fc646dedecd6c478c7150
+  - f74ccbdfe94af56646a949589162f1c1
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z490-V-ASUS-1621.ZIP
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+PRIME Z490M-PLUS:
+  aliases:
+  - PRIME-Z490M-PLUS-ASUS-1621
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z490
+  gigabyte_wmi: N
+  hash:
+  - 007e5e3e10634f890fd7c244287e4032
+  - 0091b679d334128f5f489bfccab4251b
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 0fc0a4e67747938601a66f49e0a79207
+  - 11b0944941bc69483fdd8952f576de5b
+  - 1643b9a276b97966e6f0104d457de03a
+  - 16acf00f5cafa447e9a45e0ed024f0f7
+  - 177cf0d1ed804ff7d05217c22b74fbe8
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 18797e6d2f4d25ec773d86ef8eff6736
+  - 18efbc02b9d4ec079800c820f5718ed3
+  - 220c46cd75686447191cf8646384ef5a
+  - 2499fb4109f01b4d7d9bc17e872c757e
+  - 24f1aea1ddc539d5bbe6a0123dc5d640
+  - 2abb624806c822484b9d4c00967a7401
+  - 2e00644805833fb8817fcf7281955f4e
+  - 31b83ed86903b8ab484859912637e0a2
+  - 375739a26431804d350f6225c0f54131
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 475dfbd4525874777c17470d4d0571d6
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 48e13b3075d5c374600da2afc9d8c753
+  - 49fb501beee26c66cd404bb1e6ad8ae2
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 52db46c8f8334b0107d0cff248533797
+  - 6d3e7b30cf8b8273d13422d1bcd2dcee
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 82ff50d76663fd96d712c752eb80d237
+  - 8694f5cd5348deb6b64f00ec98c8e584
+  - 972d589dc9dbf6c62f58e472f1f1480f
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - a17824160ebacf1f74882d38875827b6
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - a7e668c4d97491123555d43fee7e71d1
+  - ae83018af3329136b4b3abd6cf56316c
+  - afbb600fd2db509deb08c18427a8c0c4
+  - b1e245208e50366bcdc72783a26ad2e7
+  - b64290b7d9709e1bd93e204e11492c5c
+  - b8cea857ffde47d894cce27de4ac7095
+  - bafbb729548138922ca1308459d5f369
+  - bf51a438c3d9e90a638efa1458e24d33
+  - c070deeb15470b4b8ae7f0a413ea3c62
+  - c919852be4993d47d0f7ea392a9e24e1
+  - c93df97e800bc641666d3e42986f4bf5
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - d53e88a554303a059c738694a4dc1338
+  - db2838ee53bc99ce296df0ee763831c5
+  - dd3d618d8e4c05015d6b0043baed2181
+  - e2db8486319fda32a7358635c7f1231c
+  - e9d0791c6594f175c3a6b7915752b4f6
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - ee99ad5ab1a3df11cdba2c0c10257217
+  - efd6c097927c7b2a29764c2ef2782b76
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f6dbc187925fc646dedecd6c478c7150
+  - f74ccbdfe94af56646a949589162f1c1
+  - fb5c94adadb2a6dcc1b79f268daa6f91
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z490-A-ASUS-1621.ZIPhttps://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z490M-PLUS-ASUS-1621.ZIP
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z490M-PLUS-ASUS-1621.ZIP
   superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
@@ -11162,6 +11780,769 @@ PRIME Z590M-PLUS:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+PRIME Z790-A WIFI:
+  aliases:
+  - PRIME-Z790-A-WIFI-ASUS-0812
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z790
+  gigabyte_wmi: N
+  hash:
+  - 036d1b064e7a61c9ebeca55cfb95b66d
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - cffd944bdb20032e5db667996942e607
+  - d7890a05e7c4dbb46823ec03d8fdaf4a
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME Z790-P:
+  aliases:
+  - PRIME-Z790-P-ASUS-0812
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z790
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 09b906a47ff043b95544673405542c32
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 27ad51beff0d34eafda164bec3bcb65a
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c0802045ccb025e9f28791a84ac63265
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME Z790-P D4:
+  aliases:
+  - PRIME-Z790-P-D4-ASUS-0810
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z790
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 09b906a47ff043b95544673405542c32
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 27ad51beff0d34eafda164bec3bcb65a
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c0802045ccb025e9f28791a84ac63265
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME Z790-P WIFI:
+  aliases:
+  - PRIME-Z790-P-WIFI-ASUS-0812
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z790
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 09b906a47ff043b95544673405542c32
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 3768221d84910aea3ec565530eb67830
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c0802045ccb025e9f28791a84ac63265
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME Z790-P WIFI D4:
+  aliases:
+  - PRIME-Z790-P-WIFI-D4-ASUS-0810
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z790
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 09b906a47ff043b95544673405542c32
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 3768221d84910aea3ec565530eb67830
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c0802045ccb025e9f28791a84ac63265
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME Z790M-PLUS:
+  aliases:
+  - PRIME-Z790M-PLUS-ASUS-0812
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z790
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 3db7950a02c2797a4dd93ac8a8842c39
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 7bdb26fb893aed5fc913f35e9dbbde53
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f1643c2208458e84ae9195befb6a6bad
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME Z790M-PLUS D4:
+  aliases:
+  - PRIME-Z790M-PLUS-D4-ASUS-0810
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z790
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 3db7950a02c2797a4dd93ac8a8842c39
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 7bdb26fb893aed5fc913f35e9dbbde53
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f1643c2208458e84ae9195befb6a6bad
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 PRO A320M-R WI-FI:
   aliases:
   - PRO-A320M-R-WIFI-SI-6061
@@ -11296,7 +12677,6 @@ PRO H410M-C:
   - 7fdc80a643aedef38a604b3d8b4745fd
   - 9a6209f85ae13801a8f7f714c5a2c342
   - a2bd9fc67aea81d75db3fa70f3ca0fff
-  - a7e668c4d97491123555d43fee7e71d1
   - afbb600fd2db509deb08c18427a8c0c4
   - b1e245208e50366bcdc72783a26ad2e7
   - b23168c8fff2f0a010cb662b74477bd0
@@ -11314,10 +12694,12 @@ PRO H410M-C:
   - f6dbc187925fc646dedecd6c478c7150
   - f74ccbdfe94af56646a949589162f1c1
   - fb5c94adadb2a6dcc1b79f268daa6f91
-  known_good: []
-  known_good_nct6775: []
-  links:
-  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-H410M-C-SI-1620.ZIP
+  - a7e668c4d97491123555d43fee7e71d1
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links: []
   superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
@@ -11325,7 +12707,6 @@ PRO H410M-C:
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
-  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 PRO H410T:
   aliases:
   - PRO-H410T-SI
@@ -11789,10 +13170,12 @@ Pro B660M-C:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
-Pro B660M-C-D4:
+Pro B660M-C D4:
   aliases:
   - Pro-B660M-C-D4-ASUS-2014
   asus_dispatcher:
+  - BRHM
+  - BWHM
   - RHWM
   - RSIO
   - WHWM
@@ -11813,82 +13196,41 @@ Pro B660M-C-D4:
   bridge: B660
   gigabyte_wmi: N
   hash:
-  - 00076b01ad7fbe86672affd0fbcfdde9
-  - 016ab999393f400cb736ad8430b612d9
   - 041f2b79c4300f14119542b849e9369a
   - 04942d5c83d33dc5d3ade85e5ed1b250
   - 051d26cceadb136db6f4dd82cb345cbb
   - 079aa843a5502d7eea6e9f1b22769f54
-  - 08deaea1b7b1a335473a59a9d868441f
-  - 0bde71fd5725196c49073feb0327bf80
-  - 110db4b98c2b404d5e0a2f2d5a0c2996
-  - 1163a9b52a324cf1e1bc204f0f2ecfee
-  - 12a3f51e4f1aa72d878fe6006b58000b
-  - 137438228f8abd4d8b126dd2fe53ba41
   - 144fe5836fc6ec425c566e6d370dfcd9
-  - 14eda6114ac8b3b376471bce2b9189d7
-  - 16cee9bb932fbc18694ba4ae12b9ddb0
-  - 185110f2ee0b0d24fa8c6914f2c56e85
   - 197a7c8dfa2e30ee5a759d09910425dd
   - 1f1288218ab17bd23b2b9d1ffc58d671
-  - 1f1b6f5c56901c2b6d47a0ddae8dcc55
-  - 245b58b33e5617d74350155d19ecf985
-  - 24ea46f2f2366c5b7fa6fe1a3681a300
   - 27543ec8077ac7f9508754251508eb27
   - 28abaf0f142e57812f5d4668b0d3f625
-  - 2c794da094f696a9dbbcc9eaf9fac8c6
-  - 2cee2675a4b3664856930d330993c454
   - 2d661223fc66caa54089dce0c561cab9
   - 33359bfc5f0d23f44ed41874650e1685
-  - 34c2edcec0002bef636ca7619e19df20
   - 388dffe7e047ab47672429c4359d1df4
   - 3d41c253e5b30b76dec201368950cfc7
   - 3eda53e4928d4464982c457bdaf0980e
   - 42c2bd314b1ed662dfde3d4b03436c4f
   - 47cc29970a23632b64491e5177544aec
-  - 48abc5e06fe7094f14d70195f7b2bc23
-  - 4963c6cbe8c42f2b557b231cfe8be72e
-  - 4aa2056590b899ed3e6ae13a62272fb9
-  - 4b91505761f4fee0a6507424a7af6e88
-  - 4cd95ef208d56aa0502297ce2077ca4c
   - 4e8d22709e4efeda4177a989f7eb20d1
   - 52561c8793ac30d5defba223014a24e6
   - 559bd968fc979f19d76e1ce975555065
-  - 597f4f3f6b448d9d6245e5e7ff34572d
-  - 5ba45107e729fec872eebefb84a33291
-  - 6040c8285dee45e0dcd22d7c3ca82c64
   - 6427506b3b9796a5039c901bad06b881
-  - 644948a396fc08df1f289f5eb9346811
   - 661f42e810d8d8ef41b2e484059dee6d
   - 6cb93b8c13d05a3be00c72ff3bc4b1e4
-  - 6d335ea06e42dc8bb009caab74de2a71
   - 7810e64a9ece956ba773ce7b25de2cad
-  - 7852f62ce70f83d69cdacdcc7c6a7e77
   - 78d7f8821506bdbe5480bbf9abd6f737
   - 7a515beb49339cae3403edf65f16d6cc
-  - 7b70040daa6f840b0d1065fc22facdbb
-  - 7cdec2496caf249ae767331b2182060a
-  - 83ebf8f9b95d8559a3262568d5840c8c
-  - 870331dc843bb413207dfb3a6753a040
   - 87fb02d27dcce40268fad33cdc16ab38
   - 8ce80946bf8f4987cc877c82dd4f9110
   - 8d9e951941c062773b603bced78ed2af
   - 93907b649b3fe34401f8560d71b2e106
-  - 9505ce9b89ba992494cf55d70ad4032b
-  - 956b58beac75ec97f9ba1236ffc460b5
   - 9852bc03d8bd5b3a53d7b271f869a3c5
   - 99629d52bcf7c7a2e8206a3fa0c68631
-  - 99c0b8016dbf7c5736370bcb5ac2a5cf
-  - 9a594c8d7bc341321c76dc70178a8465
-  - 9ebe79617ea4e5d077f5057025b04529
   - a3c29c66f1fcd1975a7dd2c28e1a8a94
-  - a613163706c1542665f6ff0660e04079
   - a8d27095a3c0af54b5a109968cf3839b
   - a93fb6816eeb0908a0ae4cea61fa2e29
-  - aaa37ce8fd1efc53335d6dc171168475
-  - abe67d57e4c50eeb76cf068e3343f8b3
   - ac86db6e0da6bc7e6418cd4eb6bd2af7
-  - ada0779c14d8d35c08a397a44cf2ed0b
   - b5c2bf32ff56a19ee512a35138130c82
   - b6b1db9495760c835288c91ca7ea44c8
   - b9b8400561cfc28ba43c7bd5f532e121
@@ -11900,23 +13242,14 @@ Pro B660M-C-D4:
   - caeed762ccc971cea9f0154396c1ccee
   - cdd14195cf55ab9a248e9125a838d03b
   - ce1f47a049a5d4d75d32f54c66fba0ec
-  - d076d5a873325bc43d8e1789411dabfe
-  - d4dd5c08c55cb5be23046a16154c6843
-  - d5a710d45948e7df9c1a962369c7186d
-  - d6d0a23e1b9d3d2cef5d221725863c83
-  - db809e97368efba41a0bc4e314c1a0ff
   - dbfa76d1bb51bc3a18548c939a2345fd
-  - e871e07a72605d6e4d24d82e9d2eebf8
-  - efaae4214ec4d03362a72714d63e1606
   - f06e72acdf21b644347fd64f2c51b61d
   - f1fcd77eb7b71abe2a20a7f413a93127
-  - fc636a9f866dd9750eb0425f1713434e
   known_good:
   - AsusMbSwInterface
   known_good_nct6775:
   - AsusMbSwInterface
-  links:
-  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B660M-C-D4-ASUS-2014.zip
+  links: []
   superio: ''
   upstreamed_serie: true
   wmi_methods:
@@ -12982,6 +14315,98 @@ Pro WS W680-ACE IPMI:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+Pro WS W790-ACE:
+  aliases:
+  - Pro-WS-W790-ACE-ASUS-0403
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: W790
+  gigabyte_wmi: N
+  hash:
+  - 01a9bb2be7ce1b279770e00039aa1195
+  - 2d2976127040f7a2605ae61b3304c783
+  - 7b2ca88b66f3f895d4dcc6c88f888a62
+  - 7b792361def441d82585ff2e222f031a
+  - 7bf89e2fe649e7620fadc871babcf957
+  - b06df6f42b16dfb26058a721d4757645
+  - b650186e8dd937b35c25218b9333e256
+  - c17dd8f2f66481b29f152277ca7b401f
+  - ff0facb475cb1954deca36f36686f43c
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-W790-ACE-ASUS-0403.zip
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+Pro WS W790E-SAGE SE:
+  aliases:
+  - Pro-WS-W790E-SAGE-SE-ASUS-0215
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: W790
+  gigabyte_wmi: N
+  hash:
+  - 01a9bb2be7ce1b279770e00039aa1195
+  - 46e82fe2d30338715135391dbc5b9ff1
+  - 5fe6359a611f00f6c1d062ee6a0253d3
+  - 7b2ca88b66f3f895d4dcc6c88f888a62
+  - 7b792361def441d82585ff2e222f031a
+  - 7bf89e2fe649e7620fadc871babcf957
+  - c17dd8f2f66481b29f152277ca7b401f
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-W790E-SAGE-SE-ASUS-0215.zip
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 Pro WS X570-ACE:
   aliases:
   - Pro-WS-X570-ACE-ASUS-4201
@@ -13652,7 +15077,7 @@ ProArt X670E-CREATOR WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUSTeK COMPUTER INC.
-  bridge: X670E
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 70acbb6270a9c946c19da4cfca5bfa2f
@@ -14422,7 +15847,7 @@ ROG CROSSHAIR X670E EXTREME:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUSTeK COMPUTER INC.
-  bridge: X670E
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 05ebe537890f027ca277c4611667cb0e
@@ -14535,7 +15960,7 @@ ROG CROSSHAIR X670E GENE:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUSTeK COMPUTER INC.
-  bridge: X670E
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 0b002e98e79bdb6bfb0ae3dd8f66c1bf
@@ -14646,7 +16071,7 @@ ROG CROSSHAIR X670E HERO:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUSTeK COMPUTER INC.
-  bridge: X670E
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 0b002e98e79bdb6bfb0ae3dd8f66c1bf
@@ -14796,7 +16221,7 @@ ROG MAXIMUS XI FORMULA:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
-  bridge: ''
+  bridge: Z390
   gigabyte_wmi: N
   hash:
   - 00fe5645ead8847e62940fdaea09f5e9
@@ -14837,7 +16262,7 @@ ROG MAXIMUS XI FORMULA:
   - ASUSWMI
   links: []
   superio: NCT6798D
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
@@ -14864,7 +16289,7 @@ ROG MAXIMUS XI HERO:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
-  bridge: ''
+  bridge: Z390
   gigabyte_wmi: N
   hash:
   - aac001e83bea9fe881ae4aae0cb2348a
@@ -14876,7 +16301,7 @@ ROG MAXIMUS XI HERO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XI-HERO-ASUS-2004.ZIP
   superio: NCT6798D
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
@@ -14903,7 +16328,7 @@ ROG MAXIMUS XI HERO (WI-FI):
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
-  bridge: ''
+  bridge: Z390
   gigabyte_wmi: N
   hash:
   - aaa5022edfc726cef6af8a72a6b98c4b
@@ -14915,7 +16340,7 @@ ROG MAXIMUS XI HERO (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XI-HERO-WIFI-ASUS-2004.ZIP
   superio: NCT6798D
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
@@ -15904,6 +17329,115 @@ ROG MAXIMUS Z690 HERO:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ROG MAXIMUS Z790 APEX:
+  aliases:
+  - ROG-MAXIMUS-Z790-APEX-ASUS-0812
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z790
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 19da60b6877626676213257060ed245b
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c4a97fdd049aa8f9f2c49bfb597a61c2
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d6ffe0f2adb3e5b6c2a9a11257b2d783
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - e607e92bb64a78dfa87823d5dcae691f
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 ROG MAXIMUS Z790 EXTREME:
   aliases:
   - ROG-MAXIMUS-Z790-EXTREME-ASUS-0703
@@ -17173,7 +18707,7 @@ ROG STRIX B650E-E GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUSTeK COMPUTER INC.
-  bridge: B650E
+  bridge: B650
   gigabyte_wmi: N
   hash:
   - 039db0301785ca65725f33b3e6fd44e9
@@ -17298,7 +18832,7 @@ ROG STRIX B650E-F GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUSTeK COMPUTER INC.
-  bridge: B650E
+  bridge: B650
   gigabyte_wmi: N
   hash:
   - 073c8ef5ff1eab41558177358f1fbafc
@@ -17410,7 +18944,7 @@ ROG STRIX B650E-I GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUSTeK COMPUTER INC.
-  bridge: B650E
+  bridge: B650
   gigabyte_wmi: N
   hash:
   - 0b002e98e79bdb6bfb0ae3dd8f66c1bf
@@ -19490,7 +21024,7 @@ ROG STRIX X670E-A GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUSTeK COMPUTER INC.
-  bridge: X670E
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 0332ed4b61d2ef552ead8c1f03aa84c0
@@ -19601,7 +21135,7 @@ ROG STRIX X670E-E GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUSTeK COMPUTER INC.
-  bridge: X670E
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 0089e5ef8425e7c1e6c13072a8f1ad5b
@@ -19714,7 +21248,7 @@ ROG STRIX X670E-F GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUSTeK COMPUTER INC.
-  bridge: X670E
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 00231a1640bc46ddd6c76e602f196179
@@ -19825,7 +21359,7 @@ ROG STRIX X670E-I GAMING WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUSTeK COMPUTER INC.
-  bridge: X670E
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 0128d94cb39a9a01c7330ed46d037ef6
@@ -19937,7 +21471,7 @@ ROG STRIX Z370-E GAMING:
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z370-E-GAMING-ASUS-3005.ZIP
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods: []
 ROG STRIX Z370-G GAMING:
@@ -19960,7 +21494,7 @@ ROG STRIX Z370-G GAMING:
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z370-G-GAMING-ASUS-3004.ZIP
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods: []
 ROG STRIX Z370-H GAMING:
@@ -21326,6 +22860,666 @@ ROG STRIX Z690-G GAMING WIFI:
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX Z790-A GAMING WIFI:
+  aliases:
+  - ROG-STRIX-Z790-A-GAMING-WIFI-ASUS-0816
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z790
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 7bd6183a3a21468759052af580019485
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - cee333ac63c59d9052cc212c76781540
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df1bdeb807e36d30fbc25855b8bd2ae4
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - e607e92bb64a78dfa87823d5dcae691f
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z790-A-GAMING-WIFI-ASUS-0816.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX Z790-A GAMING WIFI D4:
+  aliases:
+  - ROG-STRIX-Z790-A-GAMING-WIFI-D4-ASUS-0812
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z790
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 7bd6183a3a21468759052af580019485
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - cee333ac63c59d9052cc212c76781540
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df1bdeb807e36d30fbc25855b8bd2ae4
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - e607e92bb64a78dfa87823d5dcae691f
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z790-A-GAMING-WIFI-D4-ASUS-0812.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX Z790-E GAMING WIFI:
+  aliases:
+  - ROG-STRIX-Z790-E-GAMING-WIFI-ASUS-0816
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z790
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - af58ca9fa4110ab3514fe2bdafa77925
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df1bdeb807e36d30fbc25855b8bd2ae4
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - e607e92bb64a78dfa87823d5dcae691f
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  - fab0dcd302ae7ede1359f9579740daaa
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z790-E-GAMING-WIFI-ASUS-0816.zip
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX Z790-F GAMING WIFI:
+  aliases:
+  - ROG-STRIX-Z790-F-GAMING-WIFI-ASUS-0816
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z790
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 547f5089e9492ca77a9accae20de9880
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - cee333ac63c59d9052cc212c76781540
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df1bdeb807e36d30fbc25855b8bd2ae4
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - e607e92bb64a78dfa87823d5dcae691f
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z790-F-GAMING-WIFI-ASUS-0816.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX Z790-H GAMING WIFI:
+  aliases:
+  - ROG-STRIX-Z790-H-GAMING-WIFI-ASUS-0816
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z790
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 0bc7a593e1d92c289ad3e856626e4266
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 7bd6183a3a21468759052af580019485
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cd90c4a91fae0a840a17f08e86785426
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - e607e92bb64a78dfa87823d5dcae691f
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z790-H-GAMING-WIFI-ASUS-0816.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX Z790-I GAMING WIFI:
+  aliases:
+  - ROG-STRIX-Z790-I-GAMING-WIFI-ASUS-0812
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z790
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 307ee7866d6ef11b9130de0a209ad776
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a65e46aa83305e8a16bfadedc8ec92d
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4dc5001d776f3a39518c1f413220f218
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bc6f96d6b7a21857274f41d731118e57
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - e607e92bb64a78dfa87823d5dcae691f
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z790-I-GAMING-WIFI-ASUS-0812.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 ROG ZENITH EXTREME:
   aliases:
   - ROG-ZENITH-EXTREME-ASUS-2201
@@ -21500,6 +23694,98 @@ S206:
   superio: ''
   upstreamed_serie: false
   wmi_methods: []
+STRIX B250F GAMING:
+  aliases:
+  - STRIX-B250F-GAMING-ASUS-2001
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B250
+  gigabyte_wmi: N
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-B250F-GAMING-ASUS-2001.ZIP
+  superio: NCT6793D
+  upstreamed_serie: false
+  wmi_methods: []
+STRIX B250G GAMING:
+  aliases:
+  - STRIX-B250G-GAMING-ASUS-2001
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B250
+  gigabyte_wmi: N
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-B250G-GAMING-ASUS-2001.ZIP
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
+STRIX B250H GAMING:
+  aliases:
+  - STRIX-B250H-GAMING-ASUS-2001
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B250
+  gigabyte_wmi: N
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-B250H-GAMING-ASUS-2001.ZIP
+  superio: NCT5539D
+  upstreamed_serie: false
+  wmi_methods: []
+STRIX B250I GAMING:
+  aliases:
+  - STRIX-B250I-GAMING-ASUS-2001
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B250
+  gigabyte_wmi: N
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-B250I-GAMING-ASUS-2001.ZIP
+  superio: NCT6793D
+  upstreamed_serie: false
+  wmi_methods: []
 STRIX Z270E GAMING:
   aliases:
   - STRIX-Z270E-GAMING-ASUS-0000
@@ -21669,7 +23955,7 @@ STRIX Z270I GAMING:
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-Z270I-GAMING-ASUS-2001.ZIP
-  superio: ''
+  superio: NCT6793D
   upstreamed_serie: false
   wmi_methods: []
 TUF B350M-PLUS GAMING:
@@ -22861,6 +25147,87 @@ TUF GAMING B550-PRO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550-PRO-ASUS-2803.zip
   superio: NCT6798D-R
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING B550M ZAKU (WI-FI):
+  aliases:
+  - TUF-GAMING-B550M-ZAKU-WIFI-ASUS-3002
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B550
+  gigabyte_wmi: N
+  hash:
+  - 0553603fc8b54cbaa940c910cb2113de
+  - 065ab130d7877d35d0920f2769c11f33
+  - 0ac84bd030bbd93996549b993add6fff
+  - 176369cac0ed4b94bf14aa8827a11568
+  - 19c3f602d71c07fecfcc3f6443aa4c52
+  - 19c5e35875dda7a3507d5b135a678593
+  - 2b0c8eb7755bdbc67658bcafe67920d3
+  - 2d4fa36da211030c4985d92b50bc2734
+  - 2dc3c715a9d6c9b385dcddb69a68dd26
+  - 306e111392a2c24a7559dd374eeee6d8
+  - 357e7d530e2a0691ac51e320f2365b43
+  - 4624ffa4ac39f3e466b4d298f459f7e1
+  - 490a15e09d3971f3e8c34990b34ccad3
+  - 4b49345665633695f474f9b4f282c517
+  - 4d0ec813c03755be929b0403084f6c80
+  - 4d7e9a4f1f187abde67493cf03486fcd
+  - 510c8e1f06e5f4b17eea84b305379c08
+  - 52c4cd21103a728585f3897eee679b57
+  - 5ad15dc1eb9d6be9647f49c99814450b
+  - 62a1aa67b880d96f3d76579926da563e
+  - 6356326dae6ab169f5ad948af069e24c
+  - 750e9c870c45b5742adf14fa12e7fa7f
+  - 7d6d4b9351c9bdc7e98e5c4f940fcae3
+  - 846e4c8f99c84fc1db4b755b688622b9
+  - 89b39c6bb5daa3a8e2548b2914990885
+  - 8bb76d4ba4674c273a802c3ae77d1f33
+  - 9ad4ba1f151b45a8bfbbc929c233d035
+  - a37850c53e932a5c2ad5ada9e4e43429
+  - a9404f150eb9dd28a3b1a0f10c3ade3d
+  - aa6ca0c51ddca6fddf6e317ad988b34a
+  - ab17083f5828e5419fdb4792a0deb57d
+  - ac9926db5ff2703833b921b13c5c0cbb
+  - ad3a72ae561b107971fe71a565ac2c23
+  - ad87e96abc5ff1204763d4ca3c87031a
+  - b84f52664f5a0a49a2b3e1596d0ab973
+  - bc09647ad0fb52bfcce4599ffdbd1e47
+  - d59afae0723170f66be19de545efec01
+  - e110252fda8cdb9970965aaa4714d8a8
+  - e5e384d3f468bbb7a9a8b5cf2e036694
+  - e9b69b8c1d3d05930378caa305d9ba61
+  - f0c3e88532e230c713c81e76be37845c
+  - f472cd2bb93a1ab993598562f6c774cb
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550M-ZAKU-WIFI-ASUS-3002.zip
+  superio: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -25171,7 +27538,7 @@ TUF GAMING X670E-PLUS:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUSTeK COMPUTER INC.
-  bridge: X670E
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 0250f81b7218a7e835239f2f88381c0a
@@ -25279,7 +27646,7 @@ TUF GAMING X670E-PLUS WIFI:
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUSTeK COMPUTER INC.
-  bridge: X670E
+  bridge: X670
   gigabyte_wmi: N
   hash:
   - 04dfc44c5aeb8626d3cd48a86dd9a67d
@@ -25651,6 +28018,330 @@ TUF GAMING Z590-PLUS WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z590-PLUS-WIFI-ASUS-1601.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z590-PLUS-WIFI-ASUS-1801.zip
+  superio: NCT6798D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING Z790-PLUS D4:
+  aliases:
+  - TUF-GAMING-Z790-PLUS-D4-ASUS-0810
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z790
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 08e402314884dd4ce90a4ebe1bc55f1d
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5dfafa400e5f08fd8f0fbcbb661906ad
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d7890a05e7c4dbb46823ec03d8fdaf4a
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING Z790-PLUS WIFI:
+  aliases:
+  - TUF-GAMING-Z790-PLUS-WIFI-ASUS-0812
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z790
+  gigabyte_wmi: N
+  hash:
+  - 036d1b064e7a61c9ebeca55cfb95b66d
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2b2254dbeaa4f15582dca531a52e0bd1
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d7890a05e7c4dbb46823ec03d8fdaf4a
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING Z790-PLUS WIFI D4:
+  aliases:
+  - TUF-GAMING-Z790-PLUS-WIFI-D4-ASUS-0810
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: Z790
+  gigabyte_wmi: N
+  hash:
+  - 036d1b064e7a61c9ebeca55cfb95b66d
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2b2254dbeaa4f15582dca531a52e0bd1
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d7890a05e7c4dbb46823ec03d8fdaf4a
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
   superio: NCT6798D
   upstreamed_serie: true
   wmi_methods:
