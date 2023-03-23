@@ -39,9 +39,9 @@ ASUS_BOARDS = {
         "TUF GAMING A520M-PLUS",
     ],
     "B250": [
-        "ROG STRIX B250F GAMING",
-        "ROG STRIX B250G GAMING",
-        "ROG STRIX B250H GAMING",
+        "STRIX B250F GAMING",
+        "STRIX B250G GAMING",
+        "STRIX B250H GAMING",
         "B250 MINING EXPERT",
         "B250M-C PRO",
         "PRIME B250M-J",
@@ -105,7 +105,7 @@ ASUS_BOARDS = {
     ],
     "B460": [
         "TUF GAMING B460M-PRO",
-        "Pro B460M-C",
+        "PRO B460M-C",
         "PRIME B460I-PLUS",
         "TUF GAMING B460M-PLUS (WI-FI)",
         "PRIME B460M-K",

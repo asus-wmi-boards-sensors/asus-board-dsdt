@@ -112,6 +112,86 @@ LINKS = [
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B460M-PRO-ASUS-1601.ZIP",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-B460M-C-SI-1620.ZIP",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B460M-V5-SI-1620.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B560-PLUS-WIFI-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B560M-PLUS-WIFI-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B560M-PLUS-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B560M-E-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B560-PLUS-AC-HES-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B560-PLUS-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B560M-K-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B560M-C-SI-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B560M-CT-SI-1601.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B560M-A-AC-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B560M-A-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B560M-V5-SI-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/B560M-P-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z690M-PLUS-D4-ASUS-2214.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z690-P-WIFI-D4-ASUS-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z690-P-WIFI-ASUS-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z690-P-D4-ASUS-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z690-P-ASUS-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z690-A-ASUS-2305.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B365M-PLUS-GAMING-ASUS-2208.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B365-PLUS-GAMING-ASUS-2208.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B365-G-GAMING-ASUS-2208.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B365-F-GAMING-ASUS-2208.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B365M-K-ASUS-2208.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B365M-C-SI-2208.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B365M-A-ASUS-2208.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B365-PLUS-ASUS-2208.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B365M-V5-SI-2208.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B365M-V-SI-2208.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B365M-PLUS-GAMING-ASUS-2208.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H510M-F-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H510M-E-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H510M-D-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H510M-A-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H510M-A-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H510M-A-WIFI-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H510M-K-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B250_MINING_EXPERT/B250-MINING-EXPERT-ASUS-1208.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H510M-C-SI-1501.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H510M-CT-SI-1501.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H510M-CT-SI-1301.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H510M-CT-SI-1402.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-H510M-V3-SI-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H510M-K-R2-ASUS-0402.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z390-A-H10-ASUS-2004.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z390M-PLUS-ASUS-3006.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z390-A-ASUS-2004.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XI-HERO-ASUS-2004.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XI-GENE-ASUS-2004.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XI-EXTREME-ASUS-2004.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XI-CODE-ASUS-2004.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XI-APEX-ASUS-2004.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XII-HERO-WIFI-ASUS-2701.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XII-FORMULA-ASUS-2701.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XII-EXTREME-ASUS-2701.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XII-APEX-ASUS-2701.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-B250F-GAMING-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-B250G-GAMING-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-B250H-GAMING-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/B250M-C-PRO-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250-PLUS-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250M-A-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250M-C-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250M-PLUS-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/B250M-C-PRO-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250-PLUS-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250M-A-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250M-C-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250M-J-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250M-K-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250M-PLUS-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/B250M-C-PRO-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250-PLUS-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250M-A-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250M-C-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250M-J-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250M-K-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250M-PLUS-ASUS-2001.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/Socket2011-R3/X99-E_WS_USB31/BIOS/X99-E-WS-USB31-ASUS-4001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/Socket2011-R3/X99-E_WS/BIOS/X99-E-WS-ASUS-4001.zip",
 ]
 
 # Upstreamed ec
@@ -475,14 +555,21 @@ BOARDNAME_CONVERT = {
     "EX-H610M-V3-D4": "EX-H610M-V3 D4",
     "PRO B660M-C-D4": "Pro B660M-C D4",
     "PRO WS W790E-SAGE-SE": "Pro WS W790E-SAGE SE",
-    "PRO H410M-C": "PRO H410M-C",
     "WS-Z390-PRO": "WS Z390 PRO",
     "TUF Z390 PLUS GAMING": "TUF Z390-PLUS GAMING",
     "TUF Z390 PLUS GAMING WIFI": "TUF Z390-PLUS GAMING (WI-FI)",
     "TUF Z390 PRO GAMING": "TUF Z390-PRO GAMING",
     "TUF Z390M PRO GAMING": "TUF Z390M-PRO GAMING",
     "TUF Z390M PRO GAMING WIFI": "TUF Z390M-PRO GAMING (WI-FI)",
-    "PRO B460M-C": "Pro B460M-C",
+    "PRIME B560-PLUS AC HES": "PRIME B560-PLUS AC-HES",
+    "TUF B365 PLUS GAMING": "TUF B365-PLUS GAMING",
+    "TUF B365M PLUS GAMING": "TUF B365M-PLUS GAMING",
+    "PRIME H510M-K R2": "PRIME H510M-K R2.0",
+    "PRIME Z390-A H10": "PRIME Z390-A/H10",
+    "B250-MINING-EXPERT": "B250 MINING EXPERT",
+    "B250M-C-PRO": "B250M-C PRO",
+    "X99-E-WS-USB31": "X99-E WS/USB 3.1",
+    "X99-E-WS": "X99-E WS",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -583,7 +670,8 @@ ASUS_KNOWN_UIDS = {
     "AsusMbSwInterface": "B650 style board",
 }
 
-ASUS_WIFI_NO_CONVERT = ["B560", "B650", "B660", "B760", "X670", "Z590", "Z690", "Z790"]
+ASUS_WIFI_NO_CONVERT = ["B560", "B650", "B660", "B760", "H510",
+                        "X670", "Z590", "Z690", "Z790"]
 
 
 def gen_asus_board_name(board_group):
@@ -1504,13 +1592,21 @@ def print_boards(boards_flags):
     for board_name in sorted(boards_flags.keys()):
         board_flags = boards_flags[board_name]
 
+        asus_wmi=board_flags["asus_wmi"]
+        asus_nct6775 = board_flags["asus_nct6775"]
+        if not board_flags.get("hash"):
+            if board_flags.get("links"):
+                asus_nct6775 = "F"
+                asus_wmi= "F"
+            else:
+                asus_nct6775 = "L"
+                asus_wmi = "L"
         desc += show_board(
             board_name,
             board_producer=board_flags["board_producer"],
             superio=board_flags["superio"],
-            asus_wmi=board_flags["asus_wmi"],
-            asus_nct6775="L" if not board_flags.get("hash")
-                             else board_flags["asus_nct6775"],
+            asus_wmi=asus_wmi,
+            asus_nct6775=asus_nct6775,
             asus_ec=board_flags["asus_ec"],
             gigabyte_wmi=board_flags["gigabyte_wmi"],
             asus_ite87_mutex=board_flags["asus_ite87_mutex"],
