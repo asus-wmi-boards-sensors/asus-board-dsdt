@@ -15,7 +15,10 @@ Support sites:
 
 How it works for:
 * [ASUS](https://bugzilla.kernel.org/show_bug.cgi?id=204807#c37)
+* [ASUS nct6775 upstream](https://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git/tree/drivers/hwmon/nct6775-platform.c?h=hwmon-next)
+* [ASUS wmi upstream](https://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git/tree/drivers/hwmon/asus_wmi_sensors.c?h=hwmon-next)
 * [Gigabyte](https://github.com/t-8ch/linux-gigabyte-wmi-driver)
+* [Gigabyte wmi upstream](https://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git/tree/drivers/platform/x86/gigabyte-wmi.c?h=hwmon-next)
 * [it87](https://github.com/frankcrawford/it87)
 * [ACPI Specification](https://uefi.org/specifications)
 * [HWMON repository](https://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git/log/?h=hwmon-next)
@@ -50,6 +53,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | B250M-C PRO                      |            | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | GIGABYTE | B450 AORUS ELITE                 |            | N                             | U            | N                             | N                             |
 | GIGABYTE | B450 AORUS PRO WIFI-CF           |            | N                             | U            | N                             | N                             |
+| GIGABYTE | B450M DS3H WIFI-CF               |            | L                             | L            | L                             | N                             |
 | GIGABYTE | B450M DS3H-CF                    |            | L                             | L            | L                             | N                             |
 | GIGABYTE | B450M S2H V2                     |            | L                             | L            | L                             | N                             |
 | ASUS     | B450M-DRAGON                     |            | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |

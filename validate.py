@@ -509,6 +509,7 @@ NCT6775_BOARDS = [
 # Upstreamed gigabyte
 GIGABYTE_BOARDS = [
     "B450M DS3H-CF",
+    "B450M DS3H WIFI-CF",
     "B450M S2H V2",
     "B550 AORUS ELITE AX V2",
     "B550 AORUS ELITE",
