@@ -1647,6 +1647,26 @@ def board_has_nct6775(superio):
         return False
 
 
+def update_section(section, desc):
+    with open("docs/nct6775-platform.c", "rb") as f:
+        content = f.read().decode("utf8")
+    if section == "ASUSWMI":
+        search_code = "static const char * const asus_wmi_boards[] = {\n"
+    elif section == "AsusMbSwInterface":
+        search_code = "static const char * const asus_msi_boards[] = {\n"
+    pos = content.find(search_code)
+    if pos < 0:
+        return
+    result = content[:pos+len(search_code)]
+    content = content[pos+len(search_code):]
+    result += desc
+    pos = content.find("\n};\n")
+    if pos < 0:
+        return
+    result += content[pos + 1:]
+    file_write_with_changes("docs/nct6775-platform.c", result.strip() + "\n")
+
+
 def update_readme(desc):
     readme = ""
     with open("README.md", "rb") as f:
@@ -1736,12 +1756,12 @@ def print_boards(boards_flags):
             asus_ec_mutex=board_flags["asus_ec_mutex"],
         )
         desc += "\n"
-    print (desc)
+    # print (desc)
     update_readme(desc)
 
     print ("Boards with nct6775 for nextgen:")
     for name in nextgen_required:
-        print (f"\tDevice name: '{name}'")
+        asus_wmi_section = ""
         for board_name in sorted(nextgen_required[name]):
             board_flags = boards_flags[board_name]
 
@@ -1749,11 +1769,14 @@ def print_boards(boards_flags):
                 continue
 
             if board_flags["asus_nct6775"] == "M":
-                print (f'\t\t"{board_name}", // use custom port definition')
+                asus_wmi_section += f'\t"{board_name}", // use custom port definition\n'
             elif not board_flags["upstreamed_serie"]:
-                print (f'\t\t"{board_name}", // No feedback')
+                asus_wmi_section += f'\t"{board_name}", // No feedback\n'
             else:
-                print (f'\t\t"{board_name}",')
+                asus_wmi_section += f'\t"{board_name}",\n'
+        update_section(name, asus_wmi_section)
+        print (f"\tDevice name updated: '{name}'")
+        # print (asus_wmi_section)
 
     print ("Boards with nct6775 with mutex:")
     for board_name in sorted(boards_flags.keys()):
