@@ -1442,11 +1442,9 @@ static struct acpi_board_info name = {				\
 	.acpi_mutex_path = mutex_path,				\
 }
 
-DMI_ASUS_BOARD_INFO(acpi_board_GPEM_MUTEX, "\\_GPE.MUT0");
-DMI_ASUS_BOARD_INFO(acpi_board_LPCB_MUTEX, "\\_SB_.PCI0.LPCB.SIO1.MUT0");
-DMI_ASUS_BOARD_INFO(acpi_board_0LPC_MUTEX, "\\_SB.PC00.LPCB.SIO1.MUT0");
 DMI_ASUS_BOARD_INFO(acpi_board_ILPC_MUTEX, "\\_SB.PCI0.LPCB.SIO1.MUT0");
 DMI_ASUS_BOARD_INFO(acpi_board_SBRG_MUTEX, "\\_SB.PCI0.SBRG.SIO1.MUT0");
+DMI_ASUS_BOARD_INFO(acpi_board_LPC0_MUTEX, "\\_SB_.PCI0.LPC0.SIO1.MUT0");
 
 #define DMI_MATCH_ASUS_WMI_BOARD(name, info) {					\
 	.matches = {								\
@@ -1517,6 +1515,7 @@ static const struct dmi_system_id asus_wmi_info_table[] = {
 	DMI_MATCH_ASUS_WMI_BOARD("TUF B365-PLUS GAMING", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("TUF B365M-PLUS GAMING", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("TUF Z270 MARK 1", &acpi_board_ILPC_MUTEX),
+	DMI_MATCH_ASUS_WMI_BOARD("X99-E WS/USB 3.1", &acpi_board_LPC0_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("Z170 PRO GAMING", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("Z170 PRO GAMING/AURA", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("Z170-A", &acpi_board_ILPC_MUTEX),

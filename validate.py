@@ -743,16 +743,10 @@ ASUS_NCT6775_MUTEX = {
     ],
 }
 
-ASUS_LOWCASE_BOARDNAME = [
-    "P8Z68-V LX",
-]
-
 ASUS_NCT6775_MUTEX_CODENAME = {
-    "\\_GPE.MUT0": "acpi_board_GPEM_MUTEX",
-    "\\_SB_.PCI0.LPCB.SIO1.MUT0": "acpi_board_LPCB_MUTEX",
-    "\\_SB.PC00.LPCB.SIO1.MUT0": "acpi_board_0LPC_MUTEX",
     "\\_SB.PCI0.LPCB.SIO1.MUT0": "acpi_board_ILPC_MUTEX",
     "\\_SB.PCI0.SBRG.SIO1.MUT0": "acpi_board_SBRG_MUTEX",
+    "\\_SB_.PCI0.LPC0.SIO1.MUT0": "acpi_board_LPC0_MUTEX",
 }
 
 
@@ -1667,6 +1661,23 @@ def update_section(section, desc):
     file_write_with_changes("docs/nct6775-platform.c", result.strip() + "\n")
 
 
+def update_mutex_section(desc):
+    with open("docs/nct6775-platform.c", "rb") as f:
+        content = f.read().decode("utf8")
+    search_code = "static const struct dmi_system_id asus_wmi_info_table[] = {\n"
+    pos = content.find(search_code)
+    if pos < 0:
+        return
+    result = content[:pos+len(search_code)]
+    content = content[pos+len(search_code):]
+    result += desc
+    pos = content.find("\n\t{}\n};\n")
+    if pos < 0:
+        return
+    result += content[pos + 1:]
+    file_write_with_changes("docs/nct6775-platform.c", result.strip() + "\n")
+
+
 def update_readme(desc):
     readme = ""
     with open("README.md", "rb") as f:
@@ -1778,7 +1789,8 @@ def print_boards(boards_flags):
         print (f"\tDevice name updated: '{name}'")
         # print (asus_wmi_section)
 
-    print ("Boards with nct6775 with mutex:")
+    print ("Boards with nct6775 with mutex update")
+    desc = ""
     for board_name in sorted(boards_flags.keys()):
         board_flags = boards_flags[board_name]
 
@@ -1789,12 +1801,13 @@ def print_boards(boards_flags):
             board_flags["asus_nct6775"] in ("P", "M") and
             board_flags["asus_nct6775_mutex"]
         ):
-            if board_name in ASUS_LOWCASE_BOARDNAME:
-                print (f'\tDMI_MATCH_ASUS_NONWMI_BOARD("{board_name}", '
-                       f'&{ASUS_NCT6775_MUTEX_CODENAME.get(board_flags["asus_nct6775_mutex"], "")}),')
+            if board_flags.get('board_producer') == 'ASUSTeK Computer INC.':
+                desc += (f'\tDMI_MATCH_ASUS_NONWMI_BOARD("{board_name}", '
+                         f'&{ASUS_NCT6775_MUTEX_CODENAME.get(board_flags["asus_nct6775_mutex"], "")}),\n')
             else:
-                print (f'\tDMI_MATCH_ASUS_WMI_BOARD("{board_name}", '
-                       f'&{ASUS_NCT6775_MUTEX_CODENAME.get(board_flags["asus_nct6775_mutex"], "")}),')
+                desc += (f'\tDMI_MATCH_ASUS_WMI_BOARD("{board_name}", '
+                         f'&{ASUS_NCT6775_MUTEX_CODENAME.get(board_flags["asus_nct6775_mutex"], "")}),\n')
+    update_mutex_section(desc)
 
 
 def file_name_to_board_name(filename, alias_to_name):

@@ -3594,7 +3594,7 @@ P8Z68-V LX:
   - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
-  board_producer: ASUSTeK COMPUTER INC.
+  board_producer: ASUSTeK Computer INC.
   bridge: ''
   gigabyte_wmi: N
   hash:
