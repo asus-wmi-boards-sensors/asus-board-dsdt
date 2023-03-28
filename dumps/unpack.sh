@@ -13,7 +13,7 @@ do
 	# unpack
 	unzip -o ${file} || exit
 	# remove old capsules and unrequired files
-	rm -rf *.exe *.EXE *CAP_output || exit
+	rm -rf *.exe *.EXE *CAP_output *.pdf *.efi BOOT || exit
 	rm -v ${file} || exit
 	# unpack capsules
 	ls -1 *.CAP | awk '{print  "uefi-firmware-parser --brute -e -O " $1 }' | sh -  || exit
@@ -35,6 +35,11 @@ rm -vrf /tmp/unpack/ || exit
 mkdir -p /tmp/unpack
 ls -1 GIGABYTE | grep -i "\.zip" |  awk '{print "cp -v GIGABYTE/" $1 " /tmp/unpack" }' | sh - || exit
 cd /tmp/unpack
+# rebame
+for file in `ls -1 b_bios_*.zip`
+do
+	mv ${file} m${file}
+done
 # unpack
 for file in `ls -1 *.zip`
 do
@@ -44,13 +49,14 @@ do
 	echo ${file} | sed "s|.zip||g" | awk '{print "rm -rvf " $1 "CAP_output/*.bat" }' | sh -
 	echo ${file} | sed "s|.zip||g" | awk '{print "rm -rvf " $1 "CAP_output/*.exe" }' | sh -
 	echo ${file} | sed "s|.zip||g" | awk '{print "rm -rvf " $1 "CAP_output/*.txt" }' | sh -
+	echo ${file} | sed "s|.zip||g" | awk '{print "rm -rvf " $1 "CAP_output/BOOT/" }' | sh -
 	echo ${file} | sed "s|.zip||g" | awk '{print "rm -rvf " $1 "CAP_output/EFI/" }' | sh -
 	echo ${file} | sed "s|.zip||g" | awk '{print "rm -rvf " $1 "CAP_output/*.pdf" }' | sh -
 	echo ${file} | sed "s|.zip||g" | awk '{print "rm -rvf " $1 "CAP_output/*.efi" }' | sh -
 	echo ${file} | sed "s|.zip||g" | awk '{print "rm -rvf " $1 "CAP_output/*.nsh" }' | sh -
 	# unpack
 	echo ${file} | sed "s|.zip||g" \
-		| awk '{print  "uefi-firmware-parser --brute -e -O " $1 "CAP_output/*" }' | sh -  || exit
+		| awk '{print  "uefi-firmware-parser --brute -e -O " $1 "CAP_output/*" }' | sh -
 	echo Proccesed ${file}
 	# move all DSDL to root directory
 	grep -E "DSDT|SSDT" *CAP_output/* -R 2>&1 | sed 's|grep: ||g' | sed 's|: |\t|g' | awk '{print "file " $1}' | sh - \

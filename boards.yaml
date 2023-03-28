@@ -1052,6 +1052,234 @@ B450 AORUS PRO WIFI-CF:
   - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
   - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
   - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+B450M DS3H V2:
+  aliases:
+  - b450m-ds3h-v2_f64a-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: B450
+  gigabyte_wmi: U
+  hash:
+  - 0c4d90dfe1eb951a1dd37e4d5794d57e
+  - 23b4e9ea63624facb487eb603a1b03a4
+  - 249feede99ef2bad10caac328c7a7999
+  - 24e6f9039f008fe9065053ca88fb07a2
+  - 28bc699cf919c727e10a12f04989c5cd
+  - 2bbe76cdf2e1e15ba759a8e93cfe2312
+  - 5028bcc94f8f0fe90324ae58e317373d
+  - 63673dbe93766d9e0f4c3e34374cf5f2
+  - 65949d955a3b1115bfab0f1350698690
+  - 69eba557b359f1d66b3c8befa393b6ba
+  - 6cb50bb04d4389bac2defb05eba8fb95
+  - 83944265e2035d7123fd31d8ca0ac8af
+  - 85dcb5d6823cb10193ba24a877789be6
+  - 9e7f2fea0e414c836ec7ab9317090ce6
+  - a0999e1a1e0ea8d7952fa3d56039e69b
+  - a483ba1216d8e50608823f759306a862
+  - a60bbdf7628f567d20dfcf99f817c47f
+  - aee66043b216f91681f81997d5b2816d
+  - af6ab80b1d8beaa86067cc04fb7d7330
+  - b5e04b9a7fe87cbf3cd2a89674123f4f
+  - b6562c4173928e0ddcfab881b206b02d
+  - bb1910bfd5da41acaf7def69b77a76c7
+  - bde5c404deea870fa6402ede7a1e55c5
+  - ceb2c1d86bfdcf1a7f5f3a8bc2978039
+  - d09dc82a447f5eefadcbf9f35ed9bbe2
+  - d17dd03e9b3b8ae63823c97db0c49196
+  - d1dc50ad2144ed45c106a9f087553455
+  - ef5bfbdc79ec884006843103352ce762
+  - efe428454890bc5d938e406c5768d6a5
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_b450m-ds3h-v2_f64a.zip
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+B450M DS3H WIFI-CF:
+  aliases:
+  - b450m-ds3h-wifi_f65a-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: B450
+  gigabyte_wmi: Y
+  hash:
+  - 0c4d90dfe1eb951a1dd37e4d5794d57e
+  - 23b4e9ea63624facb487eb603a1b03a4
+  - 249feede99ef2bad10caac328c7a7999
+  - 24e6f9039f008fe9065053ca88fb07a2
+  - 28bc699cf919c727e10a12f04989c5cd
+  - 2bbe76cdf2e1e15ba759a8e93cfe2312
+  - 359986865cf2a07f184c65618a0cbbe8
+  - 5028bcc94f8f0fe90324ae58e317373d
+  - 63673dbe93766d9e0f4c3e34374cf5f2
+  - 65ef3ec99ee37456b71a5bb64348c14a
+  - 69eba557b359f1d66b3c8befa393b6ba
+  - 6cb50bb04d4389bac2defb05eba8fb95
+  - 83944265e2035d7123fd31d8ca0ac8af
+  - 85dcb5d6823cb10193ba24a877789be6
+  - 9e7f2fea0e414c836ec7ab9317090ce6
+  - a0999e1a1e0ea8d7952fa3d56039e69b
+  - a483ba1216d8e50608823f759306a862
+  - a60bbdf7628f567d20dfcf99f817c47f
+  - aee66043b216f91681f81997d5b2816d
+  - af6ab80b1d8beaa86067cc04fb7d7330
+  - b5e04b9a7fe87cbf3cd2a89674123f4f
+  - bb1910bfd5da41acaf7def69b77a76c7
+  - bde5c404deea870fa6402ede7a1e55c5
+  - ceb2c1d86bfdcf1a7f5f3a8bc2978039
+  - d09dc82a447f5eefadcbf9f35ed9bbe2
+  - d17dd03e9b3b8ae63823c97db0c49196
+  - d1dc50ad2144ed45c106a9f087553455
+  - ef5bfbdc79ec884006843103352ce762
+  - efe428454890bc5d938e406c5768d6a5
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_b450m-ds3h-wifi_f65a.zip
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+B450M DS3H-CF:
+  aliases:
+  - b450m-ds3h_f64a-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: B450
+  gigabyte_wmi: Y
+  hash:
+  - 0c4d90dfe1eb951a1dd37e4d5794d57e
+  - 23b4e9ea63624facb487eb603a1b03a4
+  - 249feede99ef2bad10caac328c7a7999
+  - 24e6f9039f008fe9065053ca88fb07a2
+  - 28bc699cf919c727e10a12f04989c5cd
+  - 2bbe76cdf2e1e15ba759a8e93cfe2312
+  - 359986865cf2a07f184c65618a0cbbe8
+  - 5028bcc94f8f0fe90324ae58e317373d
+  - 63673dbe93766d9e0f4c3e34374cf5f2
+  - 69eba557b359f1d66b3c8befa393b6ba
+  - 6cb50bb04d4389bac2defb05eba8fb95
+  - 83944265e2035d7123fd31d8ca0ac8af
+  - 85dcb5d6823cb10193ba24a877789be6
+  - 9e7f2fea0e414c836ec7ab9317090ce6
+  - a0999e1a1e0ea8d7952fa3d56039e69b
+  - a483ba1216d8e50608823f759306a862
+  - a60bbdf7628f567d20dfcf99f817c47f
+  - aee66043b216f91681f81997d5b2816d
+  - af6ab80b1d8beaa86067cc04fb7d7330
+  - b5e04b9a7fe87cbf3cd2a89674123f4f
+  - bb1910bfd5da41acaf7def69b77a76c7
+  - bde5c404deea870fa6402ede7a1e55c5
+  - ceb2c1d86bfdcf1a7f5f3a8bc2978039
+  - d09dc82a447f5eefadcbf9f35ed9bbe2
+  - d17dd03e9b3b8ae63823c97db0c49196
+  - d1dc50ad2144ed45c106a9f087553455
+  - d48dbd4f50fee5054b5f06916a3b0b8f
+  - ef5bfbdc79ec884006843103352ce762
+  - efe428454890bc5d938e406c5768d6a5
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_b450m-ds3h_f64a.zip
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+B450M S2H V2:
+  aliases:
+  - b450m-s2h-v2_f64a-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: B450
+  gigabyte_wmi: Y
+  hash:
+  - 0c4d90dfe1eb951a1dd37e4d5794d57e
+  - 23b4e9ea63624facb487eb603a1b03a4
+  - 249feede99ef2bad10caac328c7a7999
+  - 24e6f9039f008fe9065053ca88fb07a2
+  - 28bc699cf919c727e10a12f04989c5cd
+  - 2bbe76cdf2e1e15ba759a8e93cfe2312
+  - 5028bcc94f8f0fe90324ae58e317373d
+  - 63673dbe93766d9e0f4c3e34374cf5f2
+  - 65949d955a3b1115bfab0f1350698690
+  - 69eba557b359f1d66b3c8befa393b6ba
+  - 6cb50bb04d4389bac2defb05eba8fb95
+  - 75c040d7f4473da3aa0468f1677847d8
+  - 83944265e2035d7123fd31d8ca0ac8af
+  - 9e7f2fea0e414c836ec7ab9317090ce6
+  - a0999e1a1e0ea8d7952fa3d56039e69b
+  - a483ba1216d8e50608823f759306a862
+  - aee66043b216f91681f81997d5b2816d
+  - af6ab80b1d8beaa86067cc04fb7d7330
+  - b5e04b9a7fe87cbf3cd2a89674123f4f
+  - b979590bc0cb2effac3b5f306e2aa46d
+  - bde5c404deea870fa6402ede7a1e55c5
+  - ceb2c1d86bfdcf1a7f5f3a8bc2978039
+  - d09dc82a447f5eefadcbf9f35ed9bbe2
+  - d17dd03e9b3b8ae63823c97db0c49196
+  - d634a349a0a4d917ea63a37106c4c4dd
+  - df58a9918383c429497ba985090d4e4c
+  - ef5bfbdc79ec884006843103352ce762
+  - efe428454890bc5d938e406c5768d6a5
+  - fa98a7313306f8127f7184d4e32cde09
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_b450m-s2h-v2_f64a.zip
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
 B450M-DRAGON:
   aliases:
   - B450M-DRAGON-ASUS-4001
@@ -1116,6 +1344,72 @@ B450M-DRAGON:
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+B550 AORUS ELITE:
+  aliases:
+  - b550-aorus-elite_f16b-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: B550
+  gigabyte_wmi: Y
+  hash:
+  - 0c4d90dfe1eb951a1dd37e4d5794d57e
+  - 1c64d43522babad71a64b075a65185fd
+  - 23b4e9ea63624facb487eb603a1b03a4
+  - 249feede99ef2bad10caac328c7a7999
+  - 24e6f9039f008fe9065053ca88fb07a2
+  - 28bc699cf919c727e10a12f04989c5cd
+  - 2bbe76cdf2e1e15ba759a8e93cfe2312
+  - 3f7a28d536129bdd04f994eac026de11
+  - 47963edc287eab749ea6792dbd60cf2b
+  - 5028bcc94f8f0fe90324ae58e317373d
+  - 53403443e8e7d38745c2bb61e1aa023c
+  - 63673dbe93766d9e0f4c3e34374cf5f2
+  - 65949d955a3b1115bfab0f1350698690
+  - 69eba557b359f1d66b3c8befa393b6ba
+  - 6cb50bb04d4389bac2defb05eba8fb95
+  - 83944265e2035d7123fd31d8ca0ac8af
+  - 90642da87d9c9dad4ae933871c5bf659
+  - 99513001dc0aea246b4c426708cd4c6d
+  - 9e7f2fea0e414c836ec7ab9317090ce6
+  - 9fdaa1762f20bf7f56017ef84550edb9
+  - a0999e1a1e0ea8d7952fa3d56039e69b
+  - a34b39febb40eaf48ca33f5e4e299645
+  - a483ba1216d8e50608823f759306a862
+  - aee66043b216f91681f81997d5b2816d
+  - af6ab80b1d8beaa86067cc04fb7d7330
+  - b5e04b9a7fe87cbf3cd2a89674123f4f
+  - bde5c404deea870fa6402ede7a1e55c5
+  - cc582252ef6dde1260fc7bb13f6da6aa
+  - ceb2c1d86bfdcf1a7f5f3a8bc2978039
+  - d09dc82a447f5eefadcbf9f35ed9bbe2
+  - d16b02b31929190b3cb7e89a7765a6f1
+  - d17dd03e9b3b8ae63823c97db0c49196
+  - d77fd28afa7dd018309256c0623a052b
+  - ef5bfbdc79ec884006843103352ce762
+  - efe428454890bc5d938e406c5768d6a5
+  - f0e6aa3cd3524fa8dcde9cca32213b63
+  - f2abd5afdba36aa165a56481e52cd6d6
+  - fec9596ba26c8e7853078eeb6c41454e
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_b550-aorus-elite_f16b.zip
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
 B550 AORUS ELITE AX V2:
   aliases:
   - B550-AORUS-ELITE-AX-V2-GIGABYTE-0000
@@ -1155,6 +1449,72 @@ B550 AORUS ELITE AX V2:
   - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
   - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
   - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+B550 AORUS ELITE V2:
+  aliases:
+  - b550-aorus-elite-v2_f16b-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: B550
+  gigabyte_wmi: Y
+  hash:
+  - 0c4d90dfe1eb951a1dd37e4d5794d57e
+  - 1c64d43522babad71a64b075a65185fd
+  - 23b4e9ea63624facb487eb603a1b03a4
+  - 249feede99ef2bad10caac328c7a7999
+  - 24e6f9039f008fe9065053ca88fb07a2
+  - 28bc699cf919c727e10a12f04989c5cd
+  - 2bbe76cdf2e1e15ba759a8e93cfe2312
+  - 3f7a28d536129bdd04f994eac026de11
+  - 47963edc287eab749ea6792dbd60cf2b
+  - 5028bcc94f8f0fe90324ae58e317373d
+  - 53403443e8e7d38745c2bb61e1aa023c
+  - 596795062828f8535e6573a86f346db6
+  - 63673dbe93766d9e0f4c3e34374cf5f2
+  - 65949d955a3b1115bfab0f1350698690
+  - 69eba557b359f1d66b3c8befa393b6ba
+  - 6cb50bb04d4389bac2defb05eba8fb95
+  - 83944265e2035d7123fd31d8ca0ac8af
+  - 90642da87d9c9dad4ae933871c5bf659
+  - 99513001dc0aea246b4c426708cd4c6d
+  - 9e7f2fea0e414c836ec7ab9317090ce6
+  - 9fdaa1762f20bf7f56017ef84550edb9
+  - a0999e1a1e0ea8d7952fa3d56039e69b
+  - a34b39febb40eaf48ca33f5e4e299645
+  - a483ba1216d8e50608823f759306a862
+  - aee66043b216f91681f81997d5b2816d
+  - af6ab80b1d8beaa86067cc04fb7d7330
+  - b5e04b9a7fe87cbf3cd2a89674123f4f
+  - bde5c404deea870fa6402ede7a1e55c5
+  - cc582252ef6dde1260fc7bb13f6da6aa
+  - ceb2c1d86bfdcf1a7f5f3a8bc2978039
+  - d09dc82a447f5eefadcbf9f35ed9bbe2
+  - d17dd03e9b3b8ae63823c97db0c49196
+  - d77fd28afa7dd018309256c0623a052b
+  - ef5bfbdc79ec884006843103352ce762
+  - efe428454890bc5d938e406c5768d6a5
+  - f0e6aa3cd3524fa8dcde9cca32213b63
+  - f2abd5afdba36aa165a56481e52cd6d6
+  - fec9596ba26c8e7853078eeb6c41454e
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_b550-aorus-elite-v2_f16b.zip
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
 B550 AORUS PRO V2:
   aliases:
   - B550-AORUS-PRO-V2-GIGABYTE-0000
@@ -1187,6 +1547,270 @@ B550 AORUS PRO V2:
   known_good: []
   known_good_nct6775: []
   links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+B550 GAMING X V2:
+  aliases:
+  - b550-gaming-x-v2_f16b-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: B550
+  gigabyte_wmi: Y
+  hash:
+  - 0c4d90dfe1eb951a1dd37e4d5794d57e
+  - 0e38e905428830fadfe64762055c3610
+  - 23b4e9ea63624facb487eb603a1b03a4
+  - 249feede99ef2bad10caac328c7a7999
+  - 24e6f9039f008fe9065053ca88fb07a2
+  - 28bc699cf919c727e10a12f04989c5cd
+  - 2bbe76cdf2e1e15ba759a8e93cfe2312
+  - 5028bcc94f8f0fe90324ae58e317373d
+  - 53403443e8e7d38745c2bb61e1aa023c
+  - 63286ea17e0d22f1955461150736b0ff
+  - 63673dbe93766d9e0f4c3e34374cf5f2
+  - 65949d955a3b1115bfab0f1350698690
+  - 69eba557b359f1d66b3c8befa393b6ba
+  - 6cb50bb04d4389bac2defb05eba8fb95
+  - 83944265e2035d7123fd31d8ca0ac8af
+  - 90642da87d9c9dad4ae933871c5bf659
+  - 99513001dc0aea246b4c426708cd4c6d
+  - 9e7f2fea0e414c836ec7ab9317090ce6
+  - 9fdaa1762f20bf7f56017ef84550edb9
+  - a0999e1a1e0ea8d7952fa3d56039e69b
+  - a34b39febb40eaf48ca33f5e4e299645
+  - a483ba1216d8e50608823f759306a862
+  - aa327cc66523f006be429cdce74861d0
+  - aee66043b216f91681f81997d5b2816d
+  - af6ab80b1d8beaa86067cc04fb7d7330
+  - b5e04b9a7fe87cbf3cd2a89674123f4f
+  - b79d0b782f78ff731eb201f0aa40ba0e
+  - bde5c404deea870fa6402ede7a1e55c5
+  - c9029b82c9c35d9e6a78bd5e38c0cb63
+  - cc582252ef6dde1260fc7bb13f6da6aa
+  - ceb2c1d86bfdcf1a7f5f3a8bc2978039
+  - d09dc82a447f5eefadcbf9f35ed9bbe2
+  - d17dd03e9b3b8ae63823c97db0c49196
+  - ef5bfbdc79ec884006843103352ce762
+  - efe428454890bc5d938e406c5768d6a5
+  - f0e6aa3cd3524fa8dcde9cca32213b63
+  - f2abd5afdba36aa165a56481e52cd6d6
+  - fec9596ba26c8e7853078eeb6c41454e
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_b550-gaming-x-v2_f16b.zip
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+B550I AORUS PRO AX:
+  aliases:
+  - b550i-aorus-pro-ax_f17b-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: B550
+  gigabyte_wmi: Y
+  hash:
+  - 0c4d90dfe1eb951a1dd37e4d5794d57e
+  - 1c64d43522babad71a64b075a65185fd
+  - 23b4e9ea63624facb487eb603a1b03a4
+  - 249feede99ef2bad10caac328c7a7999
+  - 24e6f9039f008fe9065053ca88fb07a2
+  - 28bc699cf919c727e10a12f04989c5cd
+  - 2bbe76cdf2e1e15ba759a8e93cfe2312
+  - 3f7a28d536129bdd04f994eac026de11
+  - 47963edc287eab749ea6792dbd60cf2b
+  - 5028bcc94f8f0fe90324ae58e317373d
+  - 53403443e8e7d38745c2bb61e1aa023c
+  - 63673dbe93766d9e0f4c3e34374cf5f2
+  - 65949d955a3b1115bfab0f1350698690
+  - 69eba557b359f1d66b3c8befa393b6ba
+  - 6cb50bb04d4389bac2defb05eba8fb95
+  - 83944265e2035d7123fd31d8ca0ac8af
+  - 90642da87d9c9dad4ae933871c5bf659
+  - 99513001dc0aea246b4c426708cd4c6d
+  - 9e7f2fea0e414c836ec7ab9317090ce6
+  - 9fdaa1762f20bf7f56017ef84550edb9
+  - a0999e1a1e0ea8d7952fa3d56039e69b
+  - a34b39febb40eaf48ca33f5e4e299645
+  - a483ba1216d8e50608823f759306a862
+  - aee66043b216f91681f81997d5b2816d
+  - af6ab80b1d8beaa86067cc04fb7d7330
+  - b5e04b9a7fe87cbf3cd2a89674123f4f
+  - bde5c404deea870fa6402ede7a1e55c5
+  - cb1d5770835a53e52c83c7a34a61804a
+  - cc582252ef6dde1260fc7bb13f6da6aa
+  - ceb2c1d86bfdcf1a7f5f3a8bc2978039
+  - d09dc82a447f5eefadcbf9f35ed9bbe2
+  - d17dd03e9b3b8ae63823c97db0c49196
+  - d77fd28afa7dd018309256c0623a052b
+  - ef5bfbdc79ec884006843103352ce762
+  - efe428454890bc5d938e406c5768d6a5
+  - f0e6aa3cd3524fa8dcde9cca32213b63
+  - f2abd5afdba36aa165a56481e52cd6d6
+  - fec9596ba26c8e7853078eeb6c41454e
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_b550i-aorus-pro-ax_f17b.zip
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+B550M AORUS PRO-P:
+  aliases:
+  - b550m-aorus-pro-p_f16b-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: B550
+  gigabyte_wmi: Y
+  hash:
+  - 070f3494c3d541d6908f795e9355a8cd
+  - 0c4d90dfe1eb951a1dd37e4d5794d57e
+  - 23b4e9ea63624facb487eb603a1b03a4
+  - 249feede99ef2bad10caac328c7a7999
+  - 24e6f9039f008fe9065053ca88fb07a2
+  - 28bc699cf919c727e10a12f04989c5cd
+  - 2bbe76cdf2e1e15ba759a8e93cfe2312
+  - 5028bcc94f8f0fe90324ae58e317373d
+  - 53403443e8e7d38745c2bb61e1aa023c
+  - 63673dbe93766d9e0f4c3e34374cf5f2
+  - 6532630b1385128b284bba4532efff15
+  - 65949d955a3b1115bfab0f1350698690
+  - 69eba557b359f1d66b3c8befa393b6ba
+  - 6cb50bb04d4389bac2defb05eba8fb95
+  - 83944265e2035d7123fd31d8ca0ac8af
+  - 90642da87d9c9dad4ae933871c5bf659
+  - 99513001dc0aea246b4c426708cd4c6d
+  - 9e7f2fea0e414c836ec7ab9317090ce6
+  - 9fdaa1762f20bf7f56017ef84550edb9
+  - a0999e1a1e0ea8d7952fa3d56039e69b
+  - a34b39febb40eaf48ca33f5e4e299645
+  - a483ba1216d8e50608823f759306a862
+  - aee66043b216f91681f81997d5b2816d
+  - af6ab80b1d8beaa86067cc04fb7d7330
+  - b26b3981cc89955e6905b931fc81c338
+  - b31c48b967127664d94963f121c7d0f5
+  - b5e04b9a7fe87cbf3cd2a89674123f4f
+  - bde5c404deea870fa6402ede7a1e55c5
+  - cc582252ef6dde1260fc7bb13f6da6aa
+  - ceb2c1d86bfdcf1a7f5f3a8bc2978039
+  - d09dc82a447f5eefadcbf9f35ed9bbe2
+  - d17dd03e9b3b8ae63823c97db0c49196
+  - ed275a24d3747765b68d2a3b09737552
+  - ef5bfbdc79ec884006843103352ce762
+  - efe428454890bc5d938e406c5768d6a5
+  - f0e6aa3cd3524fa8dcde9cca32213b63
+  - f2abd5afdba36aa165a56481e52cd6d6
+  - fec9596ba26c8e7853078eeb6c41454e
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_b550m-aorus-pro-p_f16b.zip
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+B550M DS3H:
+  aliases:
+  - b550m-ds3h_f17b-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: B550
+  gigabyte_wmi: Y
+  hash:
+  - 03a552cd892f52814ffef475597e52cf
+  - 0c4d90dfe1eb951a1dd37e4d5794d57e
+  - 19cf4268b1acfd6b69ceb6d4bf7d08d2
+  - 23b4e9ea63624facb487eb603a1b03a4
+  - 249feede99ef2bad10caac328c7a7999
+  - 24e6f9039f008fe9065053ca88fb07a2
+  - 28bc699cf919c727e10a12f04989c5cd
+  - 2bbe76cdf2e1e15ba759a8e93cfe2312
+  - 5028bcc94f8f0fe90324ae58e317373d
+  - 53403443e8e7d38745c2bb61e1aa023c
+  - 63673dbe93766d9e0f4c3e34374cf5f2
+  - 65949d955a3b1115bfab0f1350698690
+  - 69eba557b359f1d66b3c8befa393b6ba
+  - 6cb50bb04d4389bac2defb05eba8fb95
+  - 72b80aa98b3aae0c18df510bfeaebdbf
+  - 7adb8803a6701a152211d8263277a4a5
+  - 83944265e2035d7123fd31d8ca0ac8af
+  - 90642da87d9c9dad4ae933871c5bf659
+  - 99513001dc0aea246b4c426708cd4c6d
+  - 9e7f2fea0e414c836ec7ab9317090ce6
+  - 9fdaa1762f20bf7f56017ef84550edb9
+  - a0999e1a1e0ea8d7952fa3d56039e69b
+  - a34b39febb40eaf48ca33f5e4e299645
+  - a483ba1216d8e50608823f759306a862
+  - aee66043b216f91681f81997d5b2816d
+  - af6ab80b1d8beaa86067cc04fb7d7330
+  - b5e04b9a7fe87cbf3cd2a89674123f4f
+  - bca7ba12fdcd20b552ad6bdf2503ad06
+  - bde5c404deea870fa6402ede7a1e55c5
+  - cc582252ef6dde1260fc7bb13f6da6aa
+  - ceb2c1d86bfdcf1a7f5f3a8bc2978039
+  - d09dc82a447f5eefadcbf9f35ed9bbe2
+  - d17dd03e9b3b8ae63823c97db0c49196
+  - ef5bfbdc79ec884006843103352ce762
+  - efe428454890bc5d938e406c5768d6a5
+  - f0e6aa3cd3524fa8dcde9cca32213b63
+  - f2abd5afdba36aa165a56481e52cd6d6
+  - fec9596ba26c8e7853078eeb6c41454e
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_b550m-ds3h_f17b.zip
   superio: ''
   upstreamed_serie: false
   wmi_methods:
@@ -1266,6 +1890,206 @@ B560M-P:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+B660 GAMING X DDR4:
+  aliases:
+  - b660-gaming-x-ddr4_f22-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: B660
+  gigabyte_wmi: Y
+  hash:
+  - 043d0d22cd6cf36580b6134aba6fd787
+  - 04942d5c83d33dc5d3ade85e5ed1b250
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 0934ea25f32c6ecb46b9a57748b9949f
+  - 0a6f5911f12fded7f1e8e3281f1a7fcb
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2281b6709372395b46958d6b2fe1df81
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 2ef90e4bf7ff3a73be6bb32b9f310df7
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 388dffe7e047ab47672429c4359d1df4
+  - 3e6c0b4971b121474f5fe999f97f8ff0
+  - 3eda53e4928d4464982c457bdaf0980e
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 43cecd3396f07506a2f7c0165b265cdd
+  - 453f92e22666875f120181ed6148ca11
+  - 47cc29970a23632b64491e5177544aec
+  - 47ffa403a0d457da629285b17a0d6b7e
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 58e193ee1765faeeb99402cebc9c7087
+  - 5e797c985dfe34df417f07ed0431fefe
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 62b753b7eb6b9b5b7c1ef9ed0af693d4
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 816cbdefc259322c6f91cb41abd4c477
+  - 8708c7cf3abe974ed765f30670bd5c17
+  - 8adacd5e632bb9d4b5f7b12c25020b8d
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - 99dccc9e24a19c3ece013bc6b9be78a6
+  - a02cefae87c7a8dc18ddcce3c00178ad
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - b7d167ea5d6590ea0d76e83dfccac61b
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cb0a08dd5bc00fe2977cc7742f291ebb
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - cf30a6ee9f12ec6fcf0b012363d38296
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - dc433d9ef3a223a8a599e45b3659b0bd
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f318cf9775ad761e092a6c9dfe306889
+  - fa7169e4de2034269223b48cd8937f26
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_b660-gaming-x-ddr4_f22.zip
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+B660I AORUS PRO DDR4:
+  aliases:
+  - B660i-aorus-pro-ddr4_f22-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: B660
+  gigabyte_wmi: Y
+  hash:
+  - 043d0d22cd6cf36580b6134aba6fd787
+  - 04942d5c83d33dc5d3ade85e5ed1b250
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 0934ea25f32c6ecb46b9a57748b9949f
+  - 0a6f5911f12fded7f1e8e3281f1a7fcb
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2281b6709372395b46958d6b2fe1df81
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 2ef90e4bf7ff3a73be6bb32b9f310df7
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 388dffe7e047ab47672429c4359d1df4
+  - 3e6c0b4971b121474f5fe999f97f8ff0
+  - 3eda53e4928d4464982c457bdaf0980e
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 43cecd3396f07506a2f7c0165b265cdd
+  - 47cc29970a23632b64491e5177544aec
+  - 47ffa403a0d457da629285b17a0d6b7e
+  - 48fe1ac494e7b7b2348f55da5a9953d1
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 58e193ee1765faeeb99402cebc9c7087
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 62b753b7eb6b9b5b7c1ef9ed0af693d4
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 816cbdefc259322c6f91cb41abd4c477
+  - 8708c7cf3abe974ed765f30670bd5c17
+  - 8adacd5e632bb9d4b5f7b12c25020b8d
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - 99dccc9e24a19c3ece013bc6b9be78a6
+  - 9ddc6c94f8b76fb52a6ce42f48b2d8de
+  - a02cefae87c7a8dc18ddcce3c00178ad
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - b7d167ea5d6590ea0d76e83dfccac61b
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cb0a08dd5bc00fe2977cc7742f291ebb
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - cf30a6ee9f12ec6fcf0b012363d38296
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - dc433d9ef3a223a8a599e45b3659b0bd
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f318cf9775ad761e092a6c9dfe306889
+  - fa7169e4de2034269223b48cd8937f26
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_B660i-aorus-pro-ddr4_f22.zip
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
 B85-PRO GAMER:
   aliases:
   - B85-PRO-GAMER-ASUS-2203
@@ -36109,6 +36933,63 @@ X570 AORUS MASTER:
   - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
   - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
   - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+X570 GAMING X:
+  aliases:
+  - x570-gaming-x_f38a-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: X570
+  gigabyte_wmi: Y
+  hash:
+  - 0b128a02b9202092112b88fa4b7f22bb
+  - 0c4d90dfe1eb951a1dd37e4d5794d57e
+  - 23b4e9ea63624facb487eb603a1b03a4
+  - 249feede99ef2bad10caac328c7a7999
+  - 24e6f9039f008fe9065053ca88fb07a2
+  - 28bc699cf919c727e10a12f04989c5cd
+  - 2bbe76cdf2e1e15ba759a8e93cfe2312
+  - 5028bcc94f8f0fe90324ae58e317373d
+  - 63673dbe93766d9e0f4c3e34374cf5f2
+  - 65949d955a3b1115bfab0f1350698690
+  - 68565b16524f1d7556d1d3451e3fcf58
+  - 69eba557b359f1d66b3c8befa393b6ba
+  - 6b68c1b97dba792356e310ebab55a423
+  - 6cb50bb04d4389bac2defb05eba8fb95
+  - 83944265e2035d7123fd31d8ca0ac8af
+  - 9e7f2fea0e414c836ec7ab9317090ce6
+  - a0999e1a1e0ea8d7952fa3d56039e69b
+  - a483ba1216d8e50608823f759306a862
+  - a6a6c8016f56741fc1ff7e4d00f6c2d1
+  - aa3aebf6631b28c455057f67499b635f
+  - aee66043b216f91681f81997d5b2816d
+  - af6ab80b1d8beaa86067cc04fb7d7330
+  - b5e04b9a7fe87cbf3cd2a89674123f4f
+  - bde5c404deea870fa6402ede7a1e55c5
+  - ceb2c1d86bfdcf1a7f5f3a8bc2978039
+  - d17dd03e9b3b8ae63823c97db0c49196
+  - d55937e1d8923e7842411cee264d9f5d
+  - ef5bfbdc79ec884006843103352ce762
+  - efe428454890bc5d938e406c5768d6a5
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_x570-gaming-x_f38a.zip
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
 X570 I AORUS PRO WIFI:
   aliases:
   - x570-i-aorus-pro-wifi_f36d-GIGABYTE
@@ -36189,6 +37070,63 @@ X570 I AORUS PRO WIFI:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_x570-i-aorus-pro-wifi_f36d.zip
   superio: IT8688E
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+X570 UD:
+  aliases:
+  - x570-ud_f38a-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: X570
+  gigabyte_wmi: Y
+  hash:
+  - 0b128a02b9202092112b88fa4b7f22bb
+  - 0c4d90dfe1eb951a1dd37e4d5794d57e
+  - 23b4e9ea63624facb487eb603a1b03a4
+  - 249feede99ef2bad10caac328c7a7999
+  - 24e6f9039f008fe9065053ca88fb07a2
+  - 28bc699cf919c727e10a12f04989c5cd
+  - 2bbe76cdf2e1e15ba759a8e93cfe2312
+  - 4b58d10360f181b48a8d97f9d41e2282
+  - 5028bcc94f8f0fe90324ae58e317373d
+  - 63673dbe93766d9e0f4c3e34374cf5f2
+  - 65949d955a3b1115bfab0f1350698690
+  - 69eba557b359f1d66b3c8befa393b6ba
+  - 6b68c1b97dba792356e310ebab55a423
+  - 6cb50bb04d4389bac2defb05eba8fb95
+  - 83944265e2035d7123fd31d8ca0ac8af
+  - 9e7f2fea0e414c836ec7ab9317090ce6
+  - a0999e1a1e0ea8d7952fa3d56039e69b
+  - a483ba1216d8e50608823f759306a862
+  - a6a6c8016f56741fc1ff7e4d00f6c2d1
+  - aa3aebf6631b28c455057f67499b635f
+  - aee66043b216f91681f81997d5b2816d
+  - af6ab80b1d8beaa86067cc04fb7d7330
+  - b5e04b9a7fe87cbf3cd2a89674123f4f
+  - bde5c404deea870fa6402ede7a1e55c5
+  - ceb2c1d86bfdcf1a7f5f3a8bc2978039
+  - d17dd03e9b3b8ae63823c97db0c49196
+  - d55937e1d8923e7842411cee264d9f5d
+  - ef5bfbdc79ec884006843103352ce762
+  - efe428454890bc5d938e406c5768d6a5
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_x570-ud_f38a.zip
+  superio: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -36985,6 +37923,97 @@ Z390 I AORUS PRO WIFI-CF:
   - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
   - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
   - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+Z490 AORUS ELITE AC:
+  aliases:
+  - z490-aorus-elite-ac_f22-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: Z490
+  gigabyte_wmi: Y
+  hash:
+  - 007e5e3e10634f890fd7c244287e4032
+  - 03d7980cc4881086f73eaa9eb3027a4d
+  - 0fc0a4e67747938601a66f49e0a79207
+  - 11b0944941bc69483fdd8952f576de5b
+  - 130f353725191b213744a0acfc3b0f33
+  - 1320be9b84160e002e09729e752b6e28
+  - 143242e87154bc94fc7324a2f261d760
+  - 14fe7807e274634d45aa5ee03b2837b4
+  - 1820d371ee5b6795c246e12d11e4dbfa
+  - 20d046efffa50c032ea59579e1fb2cdf
+  - 2348625e9e0f05ed2335ad75538d8fd3
+  - 2f7fc7f5913e807c02e956b6c3a47f24
+  - 375739a26431804d350f6225c0f54131
+  - 3766fcaaac43dcec0569320ef421b98e
+  - 377b4b7c4a0e0372a166ad2feff75dde
+  - 377dc5e68e1b27596e4125549a60c7e7
+  - 37ec2ad1cb66d13ce3b417111d8845ed
+  - 3d87ab690952fc222aa1b859a73160e2
+  - 4529fa9fb011a4e382ce0b8e623efdb4
+  - 485d54c382b4aee6a0cfae1df1c0ba7d
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 4af0745afe56ad67c1a555c5d4cba402
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 5b7ea64522abde776727e535447442d9
+  - 601f23b192c3d38dbcfd38945c390334
+  - 632eb1ad4d96f4637d283d40386a0b13
+  - 70fb2fa1616f23f91f64b113bbe06493
+  - 72c0906b7aaa2671847447a431854d4a
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - a04cc43bb01638fb532f4840651f88e7
+  - a2bd9fc67aea81d75db3fa70f3ca0fff
+  - a70d558c52b7c56293459ea12a54e2bc
+  - ac42195ef7a7b35e6733b888893533bf
+  - b1567b63439b7432e3f75d84bbfb22b5
+  - b1e245208e50366bcdc72783a26ad2e7
+  - b7b3479cd2abf20193ba221e92c86344
+  - b867ceec54e7663c3716fe32fd1575b2
+  - b972a3a88db30cc16cf7116d121fe699
+  - b9d9b632d1b6d3744cdadb4834e97c78
+  - bafbb729548138922ca1308459d5f369
+  - bd26fb3d119eb22ae9778cd19f3fabaf
+  - be7b81911e1187f0e2bc4ba2cd63b2f9
+  - c32ff8c62e7691cdb514f0912bf90a60
+  - c574633bfe8bccb5bddb5b149b8b384c
+  - c8c8c68c96481303cff157ed6686b335
+  - cb22e91c4a44991c8f8c30cb99530e9c
+  - d8928dcd1d77fd40b5b5764e4b98d939
+  - db2838ee53bc99ce296df0ee763831c5
+  - e504f0dd9012ff907a65dfc5e2318192
+  - eaff529098496499074adaf854bf3107
+  - ecdf6ca1d5975dcbd5743a0f257a7bb7
+  - ee5c93bbf611d1787fdb410822c3ac36
+  - efd6c097927c7b2a29764c2ef2782b76
+  - f085a6bf14e5c406fc8247a60b5b9c41
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f4003984738a49bab38f6de2c9648a15
+  - f42f58d02636edda0ddad94230abae4e
+  - f74ccbdfe94af56646a949589162f1c1
+  - fb91bf62e05ea639bfdb6a6ab2a2d5b4
+  - fbb5afc0fe2235c92ed74c2137cbbf82
+  - fe7c2a30d704756f02fedf815d81a0c7
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_z490-aorus-elite-ac_f22.zip
+  superio: IT8688E
+  upstreamed_serie: false
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
 Z490-GUNDAM (WI-FI):
   aliases:
   - Z490-GUNDAM-WIFI-ASUS-2601
@@ -37024,6 +38053,660 @@ Z490-GUNDAM (WI-FI):
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+Z590 AORUS ELITE AX:
+  aliases:
+  - z590-aorus-elite-ax_f8h-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: Z590
+  gigabyte_wmi: U
+  hash:
+  - 0b954684d85ad3772ea22eeca6381208
+  - 0c991c88286eb779ecfb94327a8f9c45
+  - 1431981e1d662d53eafab1be11906251
+  - 1b27bbd0b77259cd184b1bfe7cb79875
+  - 2d3fef00e4f13e3e23a863bc2ff0909e
+  - 3b1a9f92e06f483986db11731bb23169
+  - 414c86b2dbb9e553f945669653593a3b
+  - 4d7b8ef7258bc561873690d459049791
+  - 51d2a0928d2f2a067d3bbd44a64105b7
+  - 5704068d3b38394404d2f1971ec57e54
+  - 59632511e8ce37c7ac57ee2ecae2d1d5
+  - 59886ef0d43fa4837e61feb017b3fa86
+  - 5c233ab0c2eae5d8919b0b1e252e133a
+  - 5d213ae1efc7c0284da64e2962d465bc
+  - 60268418a441d00e8c4c305cd05d427b
+  - 796b3187d3d200ed82db12ff83250e82
+  - 7b5a6c8be53058b1478621808110f9d6
+  - 7d10c5f8f9321b0243160605df4cd2a4
+  - 7f1de654c53e58f3c7330ac2e892a7e1
+  - 7fcf14e792072ccfb045078ae7656c4d
+  - 88035af4d720d68370ceb84b3047132d
+  - 8cefcfe1964d8afc19bd86fc58cb54f9
+  - 8e97d55fccbc5e4a9feb3620c847bcaf
+  - 98c65e1e9fefd8852e557d7c6d03cc45
+  - ad6a4d2c2f724ad28dd2b817f94f7c28
+  - ad815ecc9394bc005f9859e84213b45e
+  - af33b6327439e7488374cb1264d5ccfa
+  - b321a01ee6d9c8417707a1c090d947c5
+  - b4e80d04f299cf50ec8a88b2cc9e345c
+  - ba2fdc09a299b1ff9aedc678deb11dc2
+  - c0b3de92c9f84842a0e0d50854562e51
+  - c972f4fa193d8fade7685380e5a7e934
+  - cbb8318cb7a0a301e6b68332ed44149b
+  - eb1f70f051efe6d23b65375f2d30490f
+  - f21f74bc8cf001819d374ba95e1c576f
+  - fadef99a6dcce6415351875d863b4e96
+  - ff30ecbe25125382ede2d1d71ac5bb79
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_z590-aorus-elite-ax_f8h.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+Z590 AORUS MASTER:
+  aliases:
+  - z590-aorus-master_f8f-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: Z590
+  gigabyte_wmi: U
+  hash:
+  - 0b954684d85ad3772ea22eeca6381208
+  - 0c991c88286eb779ecfb94327a8f9c45
+  - 1431981e1d662d53eafab1be11906251
+  - 175191a56752c8c131feb41276716b28
+  - 1b27bbd0b77259cd184b1bfe7cb79875
+  - 2d3fef00e4f13e3e23a863bc2ff0909e
+  - 3b1a9f92e06f483986db11731bb23169
+  - 414c86b2dbb9e553f945669653593a3b
+  - 4d7b8ef7258bc561873690d459049791
+  - 51d2a0928d2f2a067d3bbd44a64105b7
+  - 5704068d3b38394404d2f1971ec57e54
+  - 59632511e8ce37c7ac57ee2ecae2d1d5
+  - 59886ef0d43fa4837e61feb017b3fa86
+  - 5c233ab0c2eae5d8919b0b1e252e133a
+  - 5d213ae1efc7c0284da64e2962d465bc
+  - 60268418a441d00e8c4c305cd05d427b
+  - 796b3187d3d200ed82db12ff83250e82
+  - 7b5a6c8be53058b1478621808110f9d6
+  - 7f1de654c53e58f3c7330ac2e892a7e1
+  - 7fcf14e792072ccfb045078ae7656c4d
+  - 88035af4d720d68370ceb84b3047132d
+  - 8cefcfe1964d8afc19bd86fc58cb54f9
+  - 8d0eb9f92c87e52f5f104fe7a061290c
+  - 8e97d55fccbc5e4a9feb3620c847bcaf
+  - 98c65e1e9fefd8852e557d7c6d03cc45
+  - ad6a4d2c2f724ad28dd2b817f94f7c28
+  - ad815ecc9394bc005f9859e84213b45e
+  - af33b6327439e7488374cb1264d5ccfa
+  - b321a01ee6d9c8417707a1c090d947c5
+  - b4e80d04f299cf50ec8a88b2cc9e345c
+  - ba2fdc09a299b1ff9aedc678deb11dc2
+  - c0b3de92c9f84842a0e0d50854562e51
+  - cbb8318cb7a0a301e6b68332ed44149b
+  - eb1f70f051efe6d23b65375f2d30490f
+  - f21f74bc8cf001819d374ba95e1c576f
+  - fadef99a6dcce6415351875d863b4e96
+  - ff30ecbe25125382ede2d1d71ac5bb79
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/b_bios_z590-aorus-master_f8f.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+Z590 AORUS PRO AX:
+  aliases:
+  - z590-aorus-pro-ax_f9h-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: Z590
+  gigabyte_wmi: U
+  hash:
+  - 0b954684d85ad3772ea22eeca6381208
+  - 0c991c88286eb779ecfb94327a8f9c45
+  - 118101fb3fa0b446494140538139dbe9
+  - 1431981e1d662d53eafab1be11906251
+  - 1b27bbd0b77259cd184b1bfe7cb79875
+  - 2d3fef00e4f13e3e23a863bc2ff0909e
+  - 3b1a9f92e06f483986db11731bb23169
+  - 414c86b2dbb9e553f945669653593a3b
+  - 4d7b8ef7258bc561873690d459049791
+  - 51d2a0928d2f2a067d3bbd44a64105b7
+  - 5704068d3b38394404d2f1971ec57e54
+  - 59632511e8ce37c7ac57ee2ecae2d1d5
+  - 59886ef0d43fa4837e61feb017b3fa86
+  - 5c233ab0c2eae5d8919b0b1e252e133a
+  - 5d213ae1efc7c0284da64e2962d465bc
+  - 60268418a441d00e8c4c305cd05d427b
+  - 796b3187d3d200ed82db12ff83250e82
+  - 7b5a6c8be53058b1478621808110f9d6
+  - 7f1de654c53e58f3c7330ac2e892a7e1
+  - 7fcf14e792072ccfb045078ae7656c4d
+  - 88035af4d720d68370ceb84b3047132d
+  - 8cefcfe1964d8afc19bd86fc58cb54f9
+  - 8e97d55fccbc5e4a9feb3620c847bcaf
+  - 98c65e1e9fefd8852e557d7c6d03cc45
+  - ad6a4d2c2f724ad28dd2b817f94f7c28
+  - ad815ecc9394bc005f9859e84213b45e
+  - af33b6327439e7488374cb1264d5ccfa
+  - b321a01ee6d9c8417707a1c090d947c5
+  - b4e80d04f299cf50ec8a88b2cc9e345c
+  - ba2fdc09a299b1ff9aedc678deb11dc2
+  - c0b3de92c9f84842a0e0d50854562e51
+  - cbb8318cb7a0a301e6b68332ed44149b
+  - eb1f70f051efe6d23b65375f2d30490f
+  - f21f74bc8cf001819d374ba95e1c576f
+  - f9197de3bde170cc4b9ebb8bc8af8b98
+  - fadef99a6dcce6415351875d863b4e96
+  - ff30ecbe25125382ede2d1d71ac5bb79
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_z590-aorus-pro-ax_f9h.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+Z590 AORUS ULTRA:
+  aliases:
+  - z590-aorus-ultra_f7d-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: Z590
+  gigabyte_wmi: U
+  hash:
+  - 0b954684d85ad3772ea22eeca6381208
+  - 0c991c88286eb779ecfb94327a8f9c45
+  - 1431981e1d662d53eafab1be11906251
+  - 1b27bbd0b77259cd184b1bfe7cb79875
+  - 2d3fef00e4f13e3e23a863bc2ff0909e
+  - 3b1a9f92e06f483986db11731bb23169
+  - 414c86b2dbb9e553f945669653593a3b
+  - 42e810eda05583af4fd9ed49ae5d565b
+  - 4d7b8ef7258bc561873690d459049791
+  - 51d2a0928d2f2a067d3bbd44a64105b7
+  - 5704068d3b38394404d2f1971ec57e54
+  - 59632511e8ce37c7ac57ee2ecae2d1d5
+  - 59886ef0d43fa4837e61feb017b3fa86
+  - 5c233ab0c2eae5d8919b0b1e252e133a
+  - 5d213ae1efc7c0284da64e2962d465bc
+  - 60268418a441d00e8c4c305cd05d427b
+  - 796b3187d3d200ed82db12ff83250e82
+  - 7b5a6c8be53058b1478621808110f9d6
+  - 7f1de654c53e58f3c7330ac2e892a7e1
+  - 7fcf14e792072ccfb045078ae7656c4d
+  - 88035af4d720d68370ceb84b3047132d
+  - 8cefcfe1964d8afc19bd86fc58cb54f9
+  - 8e97d55fccbc5e4a9feb3620c847bcaf
+  - 98c65e1e9fefd8852e557d7c6d03cc45
+  - ad6a4d2c2f724ad28dd2b817f94f7c28
+  - ad815ecc9394bc005f9859e84213b45e
+  - af33b6327439e7488374cb1264d5ccfa
+  - b321a01ee6d9c8417707a1c090d947c5
+  - b4e80d04f299cf50ec8a88b2cc9e345c
+  - ba2fdc09a299b1ff9aedc678deb11dc2
+  - c0b3de92c9f84842a0e0d50854562e51
+  - cbb8318cb7a0a301e6b68332ed44149b
+  - eb1f70f051efe6d23b65375f2d30490f
+  - f21f74bc8cf001819d374ba95e1c576f
+  - f9197de3bde170cc4b9ebb8bc8af8b98
+  - fadef99a6dcce6415351875d863b4e96
+  - ff30ecbe25125382ede2d1d71ac5bb79
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_z590-aorus-ultra_f7d.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+Z590 D:
+  aliases:
+  - z590-d_f8b-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: Z590
+  gigabyte_wmi: U
+  hash:
+  - 0af15d24b5fade3327e0327169ac2a36
+  - 0b954684d85ad3772ea22eeca6381208
+  - 0c991c88286eb779ecfb94327a8f9c45
+  - 1431981e1d662d53eafab1be11906251
+  - 1b27bbd0b77259cd184b1bfe7cb79875
+  - 2d3fef00e4f13e3e23a863bc2ff0909e
+  - 3b1a9f92e06f483986db11731bb23169
+  - 414c86b2dbb9e553f945669653593a3b
+  - 4d7b8ef7258bc561873690d459049791
+  - 51d2a0928d2f2a067d3bbd44a64105b7
+  - 5704068d3b38394404d2f1971ec57e54
+  - 59632511e8ce37c7ac57ee2ecae2d1d5
+  - 59886ef0d43fa4837e61feb017b3fa86
+  - 5c233ab0c2eae5d8919b0b1e252e133a
+  - 5d213ae1efc7c0284da64e2962d465bc
+  - 60268418a441d00e8c4c305cd05d427b
+  - 796b3187d3d200ed82db12ff83250e82
+  - 7b5a6c8be53058b1478621808110f9d6
+  - 7f1de654c53e58f3c7330ac2e892a7e1
+  - 7fcf14e792072ccfb045078ae7656c4d
+  - 88035af4d720d68370ceb84b3047132d
+  - 8cefcfe1964d8afc19bd86fc58cb54f9
+  - 8e97d55fccbc5e4a9feb3620c847bcaf
+  - 98c65e1e9fefd8852e557d7c6d03cc45
+  - ad6a4d2c2f724ad28dd2b817f94f7c28
+  - ad815ecc9394bc005f9859e84213b45e
+  - af33b6327439e7488374cb1264d5ccfa
+  - b321a01ee6d9c8417707a1c090d947c5
+  - b4e80d04f299cf50ec8a88b2cc9e345c
+  - ba2fdc09a299b1ff9aedc678deb11dc2
+  - c0b3de92c9f84842a0e0d50854562e51
+  - cbb8318cb7a0a301e6b68332ed44149b
+  - eb1f70f051efe6d23b65375f2d30490f
+  - f21f74bc8cf001819d374ba95e1c576f
+  - f3cefea8f566c43625bb957962b6837f
+  - fadef99a6dcce6415351875d863b4e96
+  - ff30ecbe25125382ede2d1d71ac5bb79
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_z590-d_f8b.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4001-0000-00A0-C90629100000:E100:0108
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+Z590 GAMING X:
+  aliases:
+  - z590-gaming-x_f8b-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: Z590
+  gigabyte_wmi: U
+  hash:
+  - 0b954684d85ad3772ea22eeca6381208
+  - 0c991c88286eb779ecfb94327a8f9c45
+  - 1431981e1d662d53eafab1be11906251
+  - 14faf67b55b561bc0e6ab5e53911e857
+  - 2d3fef00e4f13e3e23a863bc2ff0909e
+  - 3b1a9f92e06f483986db11731bb23169
+  - 414c86b2dbb9e553f945669653593a3b
+  - 4d7b8ef7258bc561873690d459049791
+  - 51d2a0928d2f2a067d3bbd44a64105b7
+  - 5704068d3b38394404d2f1971ec57e54
+  - 59632511e8ce37c7ac57ee2ecae2d1d5
+  - 59886ef0d43fa4837e61feb017b3fa86
+  - 5c233ab0c2eae5d8919b0b1e252e133a
+  - 5d213ae1efc7c0284da64e2962d465bc
+  - 5f756ff2439e1b3ce1bed5ec21f07c63
+  - 60268418a441d00e8c4c305cd05d427b
+  - 796b3187d3d200ed82db12ff83250e82
+  - 7b5a6c8be53058b1478621808110f9d6
+  - 7f1de654c53e58f3c7330ac2e892a7e1
+  - 7fcf14e792072ccfb045078ae7656c4d
+  - 88035af4d720d68370ceb84b3047132d
+  - 8cefcfe1964d8afc19bd86fc58cb54f9
+  - 8e97d55fccbc5e4a9feb3620c847bcaf
+  - 98c65e1e9fefd8852e557d7c6d03cc45
+  - 9b2d68a7820b11f8cec9d5f9e3ae1e4e
+  - ad6a4d2c2f724ad28dd2b817f94f7c28
+  - ad815ecc9394bc005f9859e84213b45e
+  - af33b6327439e7488374cb1264d5ccfa
+  - b321a01ee6d9c8417707a1c090d947c5
+  - ba2fdc09a299b1ff9aedc678deb11dc2
+  - c0b3de92c9f84842a0e0d50854562e51
+  - cbb8318cb7a0a301e6b68332ed44149b
+  - e15aaa88e8e91aaf4778d7d955ba6c5a
+  - eb1f70f051efe6d23b65375f2d30490f
+  - f21f74bc8cf001819d374ba95e1c576f
+  - fadef99a6dcce6415351875d863b4e96
+  - ff30ecbe25125382ede2d1d71ac5bb79
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_z590-gaming-x_f8b.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4001-0000-00A0-C90629100000:E100:0108
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+Z590 UD:
+  aliases:
+  - z590-ud_f8c-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: Z590
+  gigabyte_wmi: U
+  hash:
+  - 0b954684d85ad3772ea22eeca6381208
+  - 0c991c88286eb779ecfb94327a8f9c45
+  - 1431981e1d662d53eafab1be11906251
+  - 1b27bbd0b77259cd184b1bfe7cb79875
+  - 2d3fef00e4f13e3e23a863bc2ff0909e
+  - 3b1a9f92e06f483986db11731bb23169
+  - 414c86b2dbb9e553f945669653593a3b
+  - 4d7b8ef7258bc561873690d459049791
+  - 51d2a0928d2f2a067d3bbd44a64105b7
+  - 5704068d3b38394404d2f1971ec57e54
+  - 59632511e8ce37c7ac57ee2ecae2d1d5
+  - 59886ef0d43fa4837e61feb017b3fa86
+  - 5c233ab0c2eae5d8919b0b1e252e133a
+  - 5d213ae1efc7c0284da64e2962d465bc
+  - 60268418a441d00e8c4c305cd05d427b
+  - 796b3187d3d200ed82db12ff83250e82
+  - 7b5a6c8be53058b1478621808110f9d6
+  - 7f1de654c53e58f3c7330ac2e892a7e1
+  - 7fcf14e792072ccfb045078ae7656c4d
+  - 88035af4d720d68370ceb84b3047132d
+  - 8cefcfe1964d8afc19bd86fc58cb54f9
+  - 8e97d55fccbc5e4a9feb3620c847bcaf
+  - 98c65e1e9fefd8852e557d7c6d03cc45
+  - ad6a4d2c2f724ad28dd2b817f94f7c28
+  - ad815ecc9394bc005f9859e84213b45e
+  - af33b6327439e7488374cb1264d5ccfa
+  - b321a01ee6d9c8417707a1c090d947c5
+  - b4e80d04f299cf50ec8a88b2cc9e345c
+  - ba2fdc09a299b1ff9aedc678deb11dc2
+  - c0b3de92c9f84842a0e0d50854562e51
+  - cbb8318cb7a0a301e6b68332ed44149b
+  - eb1f70f051efe6d23b65375f2d30490f
+  - ee11557127481a9e0d490fe8c9b06403
+  - f21f74bc8cf001819d374ba95e1c576f
+  - f54e21b8aecbd435230c69202e75c900
+  - fadef99a6dcce6415351875d863b4e96
+  - ff30ecbe25125382ede2d1d71ac5bb79
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_z590-ud_f8c.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4001-0000-00A0-C90629100000:E100:0108
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+Z590 UD AC:
+  aliases:
+  - z590-ud-ac_f8b-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: Z590
+  gigabyte_wmi: U
+  hash:
+  - 0b954684d85ad3772ea22eeca6381208
+  - 0c991c88286eb779ecfb94327a8f9c45
+  - 1431981e1d662d53eafab1be11906251
+  - 1b27bbd0b77259cd184b1bfe7cb79875
+  - 2d3fef00e4f13e3e23a863bc2ff0909e
+  - 3b1a9f92e06f483986db11731bb23169
+  - 414c86b2dbb9e553f945669653593a3b
+  - 4d7b8ef7258bc561873690d459049791
+  - 51d2a0928d2f2a067d3bbd44a64105b7
+  - 5704068d3b38394404d2f1971ec57e54
+  - 59632511e8ce37c7ac57ee2ecae2d1d5
+  - 59886ef0d43fa4837e61feb017b3fa86
+  - 5c233ab0c2eae5d8919b0b1e252e133a
+  - 5d213ae1efc7c0284da64e2962d465bc
+  - 60268418a441d00e8c4c305cd05d427b
+  - 796b3187d3d200ed82db12ff83250e82
+  - 7b5a6c8be53058b1478621808110f9d6
+  - 7f1de654c53e58f3c7330ac2e892a7e1
+  - 7fcf14e792072ccfb045078ae7656c4d
+  - 88035af4d720d68370ceb84b3047132d
+  - 8cefcfe1964d8afc19bd86fc58cb54f9
+  - 8e97d55fccbc5e4a9feb3620c847bcaf
+  - 98c65e1e9fefd8852e557d7c6d03cc45
+  - ad6a4d2c2f724ad28dd2b817f94f7c28
+  - ad815ecc9394bc005f9859e84213b45e
+  - af33b6327439e7488374cb1264d5ccfa
+  - b321a01ee6d9c8417707a1c090d947c5
+  - b4e80d04f299cf50ec8a88b2cc9e345c
+  - ba2fdc09a299b1ff9aedc678deb11dc2
+  - c0b3de92c9f84842a0e0d50854562e51
+  - cbb8318cb7a0a301e6b68332ed44149b
+  - df658ab3489994214e2b758743905237
+  - eb1f70f051efe6d23b65375f2d30490f
+  - f21f74bc8cf001819d374ba95e1c576f
+  - f54e21b8aecbd435230c69202e75c900
+  - fadef99a6dcce6415351875d863b4e96
+  - ff30ecbe25125382ede2d1d71ac5bb79
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_z590-ud-ac_f8b.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4001-0000-00A0-C90629100000:E100:0108
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+Z590 VISION D:
+  aliases:
+  - z590-vision-d_f8f-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: Z590
+  gigabyte_wmi: U
+  hash:
+  - 0b954684d85ad3772ea22eeca6381208
+  - 0c991c88286eb779ecfb94327a8f9c45
+  - 1431981e1d662d53eafab1be11906251
+  - 18492ea5642a9768044dac2046f902d3
+  - 1b27bbd0b77259cd184b1bfe7cb79875
+  - 2d3fef00e4f13e3e23a863bc2ff0909e
+  - 3b1a9f92e06f483986db11731bb23169
+  - 414c86b2dbb9e553f945669653593a3b
+  - 4d7b8ef7258bc561873690d459049791
+  - 51d2a0928d2f2a067d3bbd44a64105b7
+  - 5704068d3b38394404d2f1971ec57e54
+  - 59632511e8ce37c7ac57ee2ecae2d1d5
+  - 59886ef0d43fa4837e61feb017b3fa86
+  - 5c233ab0c2eae5d8919b0b1e252e133a
+  - 5d213ae1efc7c0284da64e2962d465bc
+  - 60268418a441d00e8c4c305cd05d427b
+  - 796b3187d3d200ed82db12ff83250e82
+  - 7b5a6c8be53058b1478621808110f9d6
+  - 7f1de654c53e58f3c7330ac2e892a7e1
+  - 7fcf14e792072ccfb045078ae7656c4d
+  - 88035af4d720d68370ceb84b3047132d
+  - 8cefcfe1964d8afc19bd86fc58cb54f9
+  - 8e97d55fccbc5e4a9feb3620c847bcaf
+  - 98c65e1e9fefd8852e557d7c6d03cc45
+  - ad6a4d2c2f724ad28dd2b817f94f7c28
+  - ad815ecc9394bc005f9859e84213b45e
+  - af33b6327439e7488374cb1264d5ccfa
+  - b321a01ee6d9c8417707a1c090d947c5
+  - b4e80d04f299cf50ec8a88b2cc9e345c
+  - ba2fdc09a299b1ff9aedc678deb11dc2
+  - c0b3de92c9f84842a0e0d50854562e51
+  - c1665bdf19f4140741dde4433d53488e
+  - cbb8318cb7a0a301e6b68332ed44149b
+  - eb1f70f051efe6d23b65375f2d30490f
+  - f21f74bc8cf001819d374ba95e1c576f
+  - fadef99a6dcce6415351875d863b4e96
+  - ff30ecbe25125382ede2d1d71ac5bb79
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_z590-vision-d_f8f.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+Z590 VISION G:
+  aliases:
+  - z590-vision-g_f7e-GIGABYTE
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Gigabyte Technology Co., Ltd.
+  bridge: Z590
+  gigabyte_wmi: U
+  hash:
+  - 0b954684d85ad3772ea22eeca6381208
+  - 0c991c88286eb779ecfb94327a8f9c45
+  - 1431981e1d662d53eafab1be11906251
+  - 1b27bbd0b77259cd184b1bfe7cb79875
+  - 2d3fef00e4f13e3e23a863bc2ff0909e
+  - 2f072b63c0485394b7cb69d9af7a6000
+  - 3b1a9f92e06f483986db11731bb23169
+  - 414c86b2dbb9e553f945669653593a3b
+  - 4d7b8ef7258bc561873690d459049791
+  - 51d2a0928d2f2a067d3bbd44a64105b7
+  - 5704068d3b38394404d2f1971ec57e54
+  - 59632511e8ce37c7ac57ee2ecae2d1d5
+  - 59886ef0d43fa4837e61feb017b3fa86
+  - 5c233ab0c2eae5d8919b0b1e252e133a
+  - 5d213ae1efc7c0284da64e2962d465bc
+  - 60268418a441d00e8c4c305cd05d427b
+  - 796b3187d3d200ed82db12ff83250e82
+  - 7b5a6c8be53058b1478621808110f9d6
+  - 7f1de654c53e58f3c7330ac2e892a7e1
+  - 7fcf14e792072ccfb045078ae7656c4d
+  - 88035af4d720d68370ceb84b3047132d
+  - 8cefcfe1964d8afc19bd86fc58cb54f9
+  - 8e97d55fccbc5e4a9feb3620c847bcaf
+  - 98c65e1e9fefd8852e557d7c6d03cc45
+  - ad6a4d2c2f724ad28dd2b817f94f7c28
+  - ad815ecc9394bc005f9859e84213b45e
+  - af33b6327439e7488374cb1264d5ccfa
+  - b321a01ee6d9c8417707a1c090d947c5
+  - b4e80d04f299cf50ec8a88b2cc9e345c
+  - ba2fdc09a299b1ff9aedc678deb11dc2
+  - c0b3de92c9f84842a0e0d50854562e51
+  - cbb8318cb7a0a301e6b68332ed44149b
+  - cf9a4159a4d0bdbeef6e0683fb493f96
+  - eb1f70f051efe6d23b65375f2d30490f
+  - f21f74bc8cf001819d374ba95e1c576f
+  - fadef99a6dcce6415351875d863b4e96
+  - ff30ecbe25125382ede2d1d71ac5bb79
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://download.gigabyte.com/FileList/BIOS/mb_bios_z590-vision-g_f7e.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
+  - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
+  - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
+  - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
 Z590 WIFI GUNDAM EDITION:
   aliases:
   - Z590-WIFI-GUNDAM-EDITION-ASUS-1801

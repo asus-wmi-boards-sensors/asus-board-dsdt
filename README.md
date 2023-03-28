@@ -53,21 +53,22 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | B250M-C PRO                      |            | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | GIGABYTE | B450 AORUS ELITE                 |            | N                             | U            | N                             | N                             |
 | GIGABYTE | B450 AORUS PRO WIFI-CF           |            | N                             | U            | N                             | N                             |
-| GIGABYTE | B450M DS3H WIFI-CF               |            | L                             | L            | L                             | N                             |
-| GIGABYTE | B450M DS3H-CF                    |            | L                             | L            | L                             | N                             |
-| GIGABYTE | B450M S2H V2                     |            | L                             | L            | L                             | N                             |
+| GIGABYTE | B450M DS3H V2                    |            | N                             | U            | N                             | N                             |
+| GIGABYTE | B450M DS3H WIFI-CF               |            | N                             | Y            | N                             | N                             |
+| GIGABYTE | B450M DS3H-CF                    |            | N                             | Y            | N                             | N                             |
+| GIGABYTE | B450M S2H V2                     |            | N                             | Y            | N                             | N                             |
 | ASUS     | B450M-DRAGON                     |            | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
-| GIGABYTE | B550 AORUS ELITE                 |            | L                             | L            | L                             | N                             |
+| GIGABYTE | B550 AORUS ELITE                 |            | N                             | Y            | N                             | N                             |
 | GIGABYTE | B550 AORUS ELITE AX V2           |            | N                             | Y            | N                             | N                             |
-| GIGABYTE | B550 AORUS ELITE V2              |            | L                             | L            | L                             | N                             |
+| GIGABYTE | B550 AORUS ELITE V2              |            | N                             | Y            | N                             | N                             |
 | GIGABYTE | B550 AORUS PRO V2                |            | N                             | U            | N                             | N                             |
-| GIGABYTE | B550 GAMING X V2                 |            | L                             | L            | L                             | N                             |
-| GIGABYTE | B550I AORUS PRO AX               |            | L                             | L            | L                             | N                             |
-| GIGABYTE | B550M AORUS PRO-P                |            | L                             | L            | L                             | N                             |
-| GIGABYTE | B550M DS3H                       |            | L                             | L            | L                             | N                             |
+| GIGABYTE | B550 GAMING X V2                 |            | N                             | Y            | N                             | N                             |
+| GIGABYTE | B550I AORUS PRO AX               |            | N                             | Y            | N                             | N                             |
+| GIGABYTE | B550M AORUS PRO-P                |            | N                             | Y            | N                             | N                             |
+| GIGABYTE | B550M DS3H                       |            | N                             | Y            | N                             | N                             |
 | ASUS     | B560M-P                          |            | N                             | N            | Y (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
-| GIGABYTE | B660 GAMING X DDR4               |            | L                             | L            | L                             | N                             |
-| GIGABYTE | B660I AORUS PRO DDR4             |            | L                             | L            | L                             | N                             |
+| GIGABYTE | B660 GAMING X DDR4               |            | N                             | Y            | N                             | N                             |
+| GIGABYTE | B660I AORUS PRO DDR4             |            | N                             | Y            | N                             | N                             |
 | ASUS     | B85-PRO GAMER                    | NCT6791D   | N                             | N            | N                             | N                             |
 | ASUS     | B85M-GAMER                       | NCT6791D   | N                             | N            | N                             | N                             |
 | ASUS     | CROSSHAIR VI HERO                |            | Y (\AMW0._GL)                 | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
@@ -489,9 +490,9 @@ Datasheets for sensors are placed to [docs directory](docs).
 | GIGABYTE | X570 AORUS ELITE                 |            | N                             | Y            | N                             | N                             |
 | GIGABYTE | X570 AORUS ELITE WIFI            | IT8688E    | N                             | Y            | N                             | N                             |
 | GIGABYTE | X570 AORUS MASTER                | IT8688E    | N                             | U            | N                             | N                             |
-| GIGABYTE | X570 GAMING X                    |            | L                             | L            | L                             | N                             |
+| GIGABYTE | X570 GAMING X                    |            | N                             | Y            | N                             | N                             |
 | GIGABYTE | X570 I AORUS PRO WIFI            | IT8688E    | N                             | Y            | N                             | N                             |
-| GIGABYTE | X570 UD                          |            | L                             | L            | L                             | N                             |
+| GIGABYTE | X570 UD                          |            | N                             | Y            | N                             | N                             |
 | GIGABYTE | X79-UP4                          |            | N                             | N            | N                             | N                             |
 | ASUS     | X99-E WS                         |            | N                             | N            | P                             | N                             |
 | ASUS     | X99-E WS/USB 3.1                 | NCT6791D   | N                             | N            | P (\_SB_.PCI0.LPC0.SIO1.MUT0) | N                             |
@@ -506,18 +507,18 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | Z270-WS                          |            | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | GIGABYTE | Z270N-WIFI-CF                    |            | N                             | N            | N                             | N                             |
 | GIGABYTE | Z390 I AORUS PRO WIFI-CF         |            | N                             | Y            | N                             | N                             |
-| GIGABYTE | Z490 AORUS ELITE AC              |            | L                             | L            | L                             | N                             |
+| GIGABYTE | Z490 AORUS ELITE AC              | IT8688E    | N                             | Y            | N                             | N                             |
 | ASUS     | Z490-GUNDAM (WI-FI)              |            | N                             | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
-| GIGABYTE | Z590 AORUS ELITE AX              |            | L                             | N            | L                             | N                             |
-| GIGABYTE | Z590 AORUS MASTER                |            | L                             | N            | L                             | N                             |
-| GIGABYTE | Z590 AORUS PRO AX                |            | L                             | N            | L                             | N                             |
-| GIGABYTE | Z590 AORUS ULTRA                 |            | L                             | N            | L                             | N                             |
-| GIGABYTE | Z590 D                           |            | L                             | N            | L                             | N                             |
-| GIGABYTE | Z590 GAMING X                    |            | L                             | N            | L                             | N                             |
-| GIGABYTE | Z590 UD                          |            | L                             | N            | L                             | N                             |
-| GIGABYTE | Z590 UD AC                       |            | L                             | N            | L                             | N                             |
-| GIGABYTE | Z590 VISION D                    |            | L                             | N            | L                             | N                             |
-| GIGABYTE | Z590 VISION G                    |            | L                             | N            | L                             | N                             |
+| GIGABYTE | Z590 AORUS ELITE AX              |            | N                             | U            | N                             | N                             |
+| GIGABYTE | Z590 AORUS MASTER                |            | N                             | U            | N                             | N                             |
+| GIGABYTE | Z590 AORUS PRO AX                |            | N                             | U            | N                             | N                             |
+| GIGABYTE | Z590 AORUS ULTRA                 |            | N                             | U            | N                             | N                             |
+| GIGABYTE | Z590 D                           |            | N                             | U            | N                             | N                             |
+| GIGABYTE | Z590 GAMING X                    |            | N                             | U            | N                             | N                             |
+| GIGABYTE | Z590 UD                          |            | N                             | U            | N                             | N                             |
+| GIGABYTE | Z590 UD AC                       |            | N                             | U            | N                             | N                             |
+| GIGABYTE | Z590 VISION D                    |            | N                             | U            | N                             | N                             |
+| GIGABYTE | Z590 VISION G                    |            | N                             | U            | N                             | N                             |
 | ASUS     | Z590 WIFI GUNDAM EDITION         | NCT6798D   | N                             | N            | Y (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | GIGABYTE | Z690M AORUS ELITE AX DDR4        |            | N                             | Y            | N                             | N                             |
 | GIGABYTE | Z97-HD3                          |            | N                             | N            | N                             | N                             |
