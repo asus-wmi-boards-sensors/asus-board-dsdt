@@ -1242,10 +1242,10 @@ static const char * const asus_msi_boards[] = {
 	"EX-B560M-V5",
 	"EX-B660M-V5 D4",
 	"EX-B660M-V5 PRO D4",
-	"EX-B760M-V5 D4", // No feedback
+	"EX-B760M-V5 D4",
 	"EX-H510M-V3",
 	"EX-H610M-V3 D4",
-	"PRIME A620M-A", // No feedback
+	"PRIME A620M-A",
 	"PRIME B560-PLUS",
 	"PRIME B560-PLUS AC-HES",
 	"PRIME B560M-A",
@@ -1262,12 +1262,15 @@ static const char * const asus_msi_boards[] = {
 	"PRIME B660M-A AC D4",
 	"PRIME B660M-A D4",
 	"PRIME B660M-A WIFI D4",
-	"PRIME B760-PLUS D4", // No feedback
-	"PRIME B760M-A AX D4", // No feedback
-	"PRIME B760M-A D4", // No feedback
-	"PRIME B760M-A WIFI D4", // No feedback
-	"PRIME B760M-AJ D4", // No feedback
-	"PRIME B760M-K D4", // No feedback
+	"PRIME B760-PLUS",
+	"PRIME B760-PLUS D4",
+	"PRIME B760M-A",
+	"PRIME B760M-A AX D4",
+	"PRIME B760M-A D4",
+	"PRIME B760M-A WIFI",
+	"PRIME B760M-A WIFI D4",
+	"PRIME B760M-AJ D4",
+	"PRIME B760M-K D4",
 	"PRIME H510M-A",
 	"PRIME H510M-A WIFI",
 	"PRIME H510M-D",
@@ -1306,8 +1309,8 @@ static const char * const asus_msi_boards[] = {
 	"Pro B560M-CT",
 	"Pro B660M-C",
 	"Pro B660M-C D4",
-	"Pro B760M-C", // No feedback
-	"Pro B760M-CT", // No feedback
+	"Pro B760M-C",
+	"Pro B760M-CT",
 	"Pro H510M-C",
 	"Pro H510M-CT",
 	"Pro H610M-C",
@@ -1320,7 +1323,7 @@ static const char * const asus_msi_boards[] = {
 	"Pro WS W790E-SAGE SE", // No feedback
 	"ProArt B650-CREATOR",
 	"ProArt B660-CREATOR D4",
-	"ProArt B760-CREATOR D4", // No feedback
+	"ProArt B760-CREATOR D4",
 	"ProArt X670E-CREATOR WIFI",
 	"ProArt Z690-CREATOR WIFI",
 	"ProArt Z790-CREATOR WIFI",
@@ -1354,10 +1357,12 @@ static const char * const asus_msi_boards[] = {
 	"ROG STRIX B660-F GAMING WIFI",
 	"ROG STRIX B660-G GAMING WIFI",
 	"ROG STRIX B660-I GAMING WIFI",
-	"ROG STRIX B760-A GAMING WIFI D4", // No feedback
-	"ROG STRIX B760-F GAMING WIFI", // No feedback
-	"ROG STRIX B760-G GAMING WIFI D4", // No feedback
-	"ROG STRIX B760-I GAMING WIFI", // No feedback
+	"ROG STRIX B760-A GAMING WIFI",
+	"ROG STRIX B760-A GAMING WIFI D4",
+	"ROG STRIX B760-F GAMING WIFI",
+	"ROG STRIX B760-G GAMING WIFI",
+	"ROG STRIX B760-G GAMING WIFI D4",
+	"ROG STRIX B760-I GAMING WIFI",
 	"ROG STRIX X670E-A GAMING WIFI",
 	"ROG STRIX X670E-E GAMING WIFI",
 	"ROG STRIX X670E-F GAMING WIFI",
@@ -1379,7 +1384,7 @@ static const char * const asus_msi_boards[] = {
 	"ROG STRIX Z790-F GAMING WIFI",
 	"ROG STRIX Z790-H GAMING WIFI",
 	"ROG STRIX Z790-I GAMING WIFI",
-	"TUF GAMING A620M-PLUS WIFI", // No feedback
+	"TUF GAMING A620M-PLUS WIFI",
 	"TUF GAMING B560-PLUS WIFI",
 	"TUF GAMING B560M-E",
 	"TUF GAMING B560M-PLUS",
@@ -1393,9 +1398,14 @@ static const char * const asus_msi_boards[] = {
 	"TUF GAMING B660M-PLUS D4",
 	"TUF GAMING B660M-PLUS WIFI",
 	"TUF GAMING B660M-PLUS WIFI D4",
-	"TUF GAMING B760-PLUS WIFI D4", // No feedback
-	"TUF GAMING B760M-PLUS D4", // No feedback
-	"TUF GAMING B760M-PLUS WIFI D4", // No feedback
+	"TUF GAMING B760-PLUS WIFI",
+	"TUF GAMING B760-PLUS WIFI D4",
+	"TUF GAMING B760M-BTF WIFI D4",
+	"TUF GAMING B760M-E D4",
+	"TUF GAMING B760M-PLUS",
+	"TUF GAMING B760M-PLUS D4",
+	"TUF GAMING B760M-PLUS WIFI",
+	"TUF GAMING B760M-PLUS WIFI D4",
 	"TUF GAMING X670E-PLUS",
 	"TUF GAMING X670E-PLUS WIFI",
 	"TUF GAMING Z590-PLUS",
@@ -1557,6 +1567,10 @@ static const struct dmi_system_id asus_wmi_info_table[] = {
 };
 MODULE_DEVICE_TABLE(dmi, asus_wmi_info_table);
 
+static const char * const asus_nonconflict_boards[] = {
+	"H97-PRO GAMER",
+};
+
 static int __init sensors_nct6775_platform_init(void)
 {
 	int i, err;
@@ -1665,7 +1679,9 @@ static int __init sensors_nct6775_platform_init(void)
 			res.end = address + IOREGION_OFFSET + IOREGION_LENGTH - 1;
 			res.flags = IORESOURCE_IO;
 
-			if (!acpi_wmi_mutex) {
+			err = match_string(asus_nonconflict_boards, ARRAY_SIZE(asus_nonconflict_boards),
+					   board_name);
+			if (!acpi_wmi_mutex && err < 0) {
 				err = acpi_check_resource_conflict(&res);
 				if (err) {
 					platform_device_put(pdev[i]);

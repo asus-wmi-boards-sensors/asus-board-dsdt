@@ -3461,7 +3461,7 @@ EX-B760M-V5 D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B760M-V5-D4-SI-0808.zip
   superio: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -5865,7 +5865,7 @@ PRIME A620M-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A620M-A-ASUS-0310.zip
   superio: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -10336,6 +10336,116 @@ PRIME B660M-K D4:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME B760-PLUS:
+  aliases:
+  - PRIME-B760-PLUS-ASUS-0812
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B760
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 0c4be60ff17fe8f50e5b9b4ed6cde46c
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d7890a05e7c4dbb46823ec03d8fdaf4a
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f1643c2208458e84ae9195befb6a6bad
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760-PLUS-ASUS-0812.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 PRIME B760-PLUS D4:
   aliases:
   - PRIME-B760-PLUS-D4-ASUS-0807
@@ -10512,7 +10622,111 @@ PRIME B760-PLUS D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760-PLUS-D4-ASUS-0807.zip
   superio: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME B760M-A:
+  aliases:
+  - PRIME-B760M-A-ASUS-0812
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B760
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 25650ea7e1a942ed995687ea057985e8
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a4af0e380553ca5b46331451fe93be5d
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cc185456e01db2ecd08d16a9b08d7aa1
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-A-ASUS-0812.zip
+  superio: ''
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -10682,7 +10896,7 @@ PRIME B760M-A AX D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-A-AX-D4-ASUS-0405.zip
   superio: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -10998,7 +11212,111 @@ PRIME B760M-A D4:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-A-D4-ASUS-0405.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-A-D4-ASUS-0807.zip
   superio: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME B760M-A WIFI:
+  aliases:
+  - PRIME-B760M-A-WIFI-ASUS-0812
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B760
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 554aa4569fb3a27b048f3df502e54ea3
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95348a17cac0cda21d98286033d0bddd
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cc185456e01db2ecd08d16a9b08d7aa1
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-A-WIFI-ASUS-0812.zip
+  superio: ''
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -11168,7 +11486,7 @@ PRIME B760M-A WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-A-WIFI-D4-ASUS-0807.zip
   superio: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -11338,7 +11656,7 @@ PRIME B760M-AJ D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-AJ-D4-ASUS-0807.zip
   superio: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -11508,7 +11826,7 @@ PRIME B760M-K D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-K-D4-ASUS-0807.zip
   superio: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -18005,7 +18323,7 @@ Pro B760M-C:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B760M-C-SI-0405.zip
   superio: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -18175,7 +18493,7 @@ Pro B760M-CT:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B760M-CT-SI-0402.zip
   superio: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -19744,7 +20062,7 @@ ProArt B760-CREATOR D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ProArt-B760-CREATOR-D4-ASUS-0812.zip
   superio: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -26335,6 +26653,116 @@ ROG STRIX B660-I GAMING WIFI:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX B760-A GAMING WIFI:
+  aliases:
+  - ROG-STRIX-B760-A-GAMING-WIFI-ASUS-0812
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B760
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71a6dbfb379a11925f237078610ad9ed
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - c9a4fc65d53b8c780920333f1d4216ed
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - e607e92bb64a78dfa87823d5dcae691f
+  - ea325ad172b586b5daa2faa9f789703a
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B760-A-GAMING-WIFI-ASUS-0812.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 ROG STRIX B760-A GAMING WIFI D4:
   aliases:
   - ROG-STRIX-B760-A-GAMING-WIFI-D4-ASUS-0807
@@ -26513,7 +26941,7 @@ ROG STRIX B760-A GAMING WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B760-A-GAMING-WIFI-D4-ASUS-0807.zip
   superio: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -26696,7 +27124,117 @@ ROG STRIX B760-F GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B760-F-GAMING-WIFI-ASUS-0811.zip
   superio: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX B760-G GAMING WIFI:
+  aliases:
+  - ROG-STRIX-B760-G-GAMING-WIFI-ASUS-0812
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B760
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - af28d28166814d6d87c524b5f22a14b2
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c1120ef199a57e3b5cae2185a874ba63
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d7890a05e7c4dbb46823ec03d8fdaf4a
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - e607e92bb64a78dfa87823d5dcae691f
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B760-G-GAMING-WIFI-ASUS-0812.zip
+  superio: ''
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -26879,7 +27417,7 @@ ROG STRIX B760-G GAMING WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B760-G-GAMING-WIFI-D4-ASUS-0808.zip
   superio: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -27050,7 +27588,7 @@ ROG STRIX B760-I GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B760-I-GAMING-WIFI-ASUS-0808.zip
   superio: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -31718,8 +32256,8 @@ TUF GAMING A620M-PLUS WIFI:
   - AsusMbSwInterface
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-A620M-PLUS-WIFI-ASUS-0214.zip
-  superio: ''
-  upstreamed_serie: false
+  superio: NCT6799D-R
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -34382,6 +34920,115 @@ TUF GAMING B660M-PLUS WIFI D4:
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING B760-PLUS WIFI:
+  aliases:
+  - TUF-GAMING-B760-PLUS-WIFI-ASUS-0812
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B760
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5baed52eadf504009398d3632cb35d29
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - c9a4fc65d53b8c780920333f1d4216ed
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d8e535534f12747d6f1e14ca39c99c89
+  - d9e258e6dcf4665c3fbfacee3b2bbc47
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760-PLUS-WIFI-ASUS-0812.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 TUF GAMING B760-PLUS WIFI D4:
   aliases:
   - TUF-GAMING-B760-PLUS-WIFI-D4-ASUS-0808
@@ -34558,7 +35205,328 @@ TUF GAMING B760-PLUS WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760-PLUS-WIFI-D4-ASUS-0808.zip
   superio: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING B760M-BTF WIFI D4:
+  aliases:
+  - TUF-GAMING-B760M-BTF-WIFI-D4-ASUS-0810
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B760
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5baed52eadf504009398d3632cb35d29
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d7890a05e7c4dbb46823ec03d8fdaf4a
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - e420d946580b4af3a12cc0566e9dc58d
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760M-BTF-WIFI-D4-ASUS-0810.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING B760M-E D4:
+  aliases:
+  - TUF-GAMING-B760M-E-D4-ASUS-0401
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B760
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 448ed3c2553f41025844f9b29a72dfaa
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 903126e6cc656559d4db1cd59405c1a6
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cc185456e01db2ecd08d16a9b08d7aa1
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760M-E-D4-ASUS-0401.zip
+  superio: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING B760M-PLUS:
+  aliases:
+  - TUF-GAMING-B760M-PLUS-ASUS-0812
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B760
+  gigabyte_wmi: N
+  hash:
+  - 0111f65d63bb52d191499eacc00703ff
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d7890a05e7c4dbb46823ec03d8fdaf4a
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - e9f3e1e3c9628bdf7d58dd2e4a2a7544
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760M-PLUS-ASUS-0812.zip
+  superio: NCT6798D
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -34739,7 +35707,116 @@ TUF GAMING B760M-PLUS D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760M-PLUS-D4-ASUS-0807.zip
   superio: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING B760M-PLUS WIFI:
+  aliases:
+  - TUF-GAMING-B760M-PLUS-WIFI-ASUS-0812
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B760
+  gigabyte_wmi: N
+  hash:
+  - 041f2b79c4300f14119542b849e9369a
+  - 051d26cceadb136db6f4dd82cb345cbb
+  - 0660f9fee8cba8299403307574d13674
+  - 11e695b3d619f412824514263fbafbc9
+  - 144fe5836fc6ec425c566e6d370dfcd9
+  - 165b48f78671dd3c89540f81e90ec527
+  - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1f47999911ff33fe59ad8ac44848cdec
+  - 2657e3a14d6837356381ea2e89cb3900
+  - 27543ec8077ac7f9508754251508eb27
+  - 2a2e90d2cbaeb868a6818be9c3732a9a
+  - 2d661223fc66caa54089dce0c561cab9
+  - 30fe9a3c8bd17122f82b10240480466b
+  - 33359bfc5f0d23f44ed41874650e1685
+  - 35e8eadeed24541dd16338739fd1d9bc
+  - 36d660962ea103f4bbb27f09ecaeab9e
+  - 388dffe7e047ab47672429c4359d1df4
+  - 4218c795a499a1a7d30afee55a4ba918
+  - 42c2bd314b1ed662dfde3d4b03436c4f
+  - 47cc29970a23632b64491e5177544aec
+  - 484d1dc7cf6abb7730049b59542b26a7
+  - 4a9c2d6fc20d627431a7c02c3f85562f
+  - 4e8d22709e4efeda4177a989f7eb20d1
+  - 548f1500353b663624d1b1036efb59e7
+  - 559bd968fc979f19d76e1ce975555065
+  - 5e8141d979fd640abe24cfe3285c7b0e
+  - 6427506b3b9796a5039c901bad06b881
+  - 661f42e810d8d8ef41b2e484059dee6d
+  - 69b7d9a5890359ff444366333049d75c
+  - 6a2ff1fe8e7cb4feb7d9927237232cf0
+  - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 7143db358abb11d43176c6ba5d417516
+  - 71bec948c6a366b1c6b6ad392b4164e9
+  - 7810e64a9ece956ba773ce7b25de2cad
+  - 78d7f8821506bdbe5480bbf9abd6f737
+  - 806004696ed3c90b3d029d75db6279b2
+  - 86275bb327596b06ebcc6f3fe1de83fe
+  - 8cad875c4b7c65be3af0f23ac8a7421f
+  - 8ce80946bf8f4987cc877c82dd4f9110
+  - 8d9e951941c062773b603bced78ed2af
+  - 91c01644f7efcfe60ab24117f801762f
+  - 93907b649b3fe34401f8560d71b2e106
+  - 95606e8b8bd2f7a68336167373f062a6
+  - 9852bc03d8bd5b3a53d7b271f869a3c5
+  - 99629d52bcf7c7a2e8206a3fa0c68631
+  - 9cffb22b957ca45750ee43a19f282feb
+  - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a8d27095a3c0af54b5a109968cf3839b
+  - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a976e2965349077ca44fbf05b391dd36
+  - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - b03218e6eb63f3d696ffb41730dabb57
+  - b3af61349eaa2ea7f56619f89628a61a
+  - b6b1db9495760c835288c91ca7ea44c8
+  - bcdf52ff193d9d130fc679066c82c989
+  - bd67b46dfd1cb4cbf29b97083ab67549
+  - beafc4ca5abeae3471effef9aad9afb7
+  - bf983352e31a3e61bc0a8588db167b9a
+  - c8bc8bd6f5a131ab3785a992965c4db0
+  - cabaa648badcc8017a52b26220a409ce
+  - cdd14195cf55ab9a248e9125a838d03b
+  - ce1f47a049a5d4d75d32f54c66fba0ec
+  - d7890a05e7c4dbb46823ec03d8fdaf4a
+  - d8e535534f12747d6f1e14ca39c99c89
+  - db4c30c9678bb1fc2a4ae12a181b550a
+  - df26933a33b808048f8656da16d7574c
+  - dfd101f5b7c7afc4ecef7b0d0803623e
+  - f0afef6e7aa63e6dfc54d626fed75050
+  - f318cf9775ad761e092a6c9dfe306889
+  - f835c33a6bd52ac0a8330a32e20bf840
+  - fa7169e4de2034269223b48cd8937f26
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760M-PLUS-WIFI-ASUS-0812.zip
+  superio: ''
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -34747,6 +35824,7 @@ TUF GAMING B760M-PLUS D4:
 TUF GAMING B760M-PLUS WIFI D4:
   aliases:
   - TUF-GAMING-B760M-PLUS-WIFI-D4-ASUS-0807
+  - TUF-GAMING-B760M-PLUS-WIFI-D4-ASUS-0810
   asus_dispatcher:
   - BRHM
   - BWHM
@@ -34919,8 +35997,9 @@ TUF GAMING B760M-PLUS WIFI D4:
   - AsusMbSwInterface
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760M-PLUS-WIFI-D4-ASUS-0807.zip
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760M-PLUS-WIFI-D4-ASUS-0810.zip
   superio: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102

@@ -17,22 +17,6 @@ from utils import load_linuxhw_DMI, file_write_with_changes, load_board_flags
 
 
 LINKS = [
-    "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/A320M-C/A320M-C-SI-1001.zip",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-A320M-GAMING-SI-6063.zip",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320I-K-ASUS-6062.zip",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-A-ASUS-6062.zip",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-C-R2-SI-6062.zip",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-E-ASUS-6062.zip",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-F-SI-6062.zip",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-K-ASUS-6062.zip",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-K-BR-SI-6062.zip",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-R-SI-6062.zip",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-A320M-R-WIFI-SI-6062.zip",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-K-BR-SI-6062.zip",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-K-ASUS-6062.zip",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-A620M-PLUS-WIFI-ASUS-0214.zip",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A620M-A-ASUS-0310.zip",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ProArt-Z690-CREATOR-WIFI-ASUS-2103.zip",
 ]
 
 # Upstreamed ec
@@ -374,12 +358,14 @@ GIGABYTE_BOARDS = [
 # Upstreamed nct6775 series
 NCT6775_UPSTREAMED_CHIPSETS = [
     "A520",
+    "A620",
     "B360",
     "B460",
     "B550",
     "B560",
     "B650",
     "B660",
+    "B760",
     "H410",
     "H510",
     "H610",
@@ -538,6 +524,7 @@ BOARDNAME_CONVERT = {
     "B450M DS3H WIFI": "B450M DS3H WIFI-CF",
     "B450M DS3H": "B450M DS3H-CF",
     "PRIME A320M-K BR": "PRIME A320M-K/BR",
+    "TUF GAMING B760M BTF WIFI D4": "TUF GAMING B760M-BTF WIFI D4",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -1947,6 +1934,10 @@ if __name__ == "__main__":
                 update_board_asl_flags(board_flags, asl_struct)
 
                 print (f"\tProcess time: {round(time.time() - start_time, 3)}")
+
+    # sort flags
+    for name in boards_flags:
+        set_default_flags(boards_flags[name], name)
 
     # save current state
     file_write_with_changes("boards.yaml", yaml.dump(boards_flags))

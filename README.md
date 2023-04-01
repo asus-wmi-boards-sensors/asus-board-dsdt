@@ -182,9 +182,12 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | PRIME B660M-A D4                 |            | N                             | N            | Y (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B660M-A WIFI D4            | NCT6798D   | N                             | N            | Y (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B660M-K D4                 | NCT6798D   | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME B760-PLUS                  |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B760-PLUS D4               |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME B760M-A                    |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B760M-A AX D4              |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B760M-A D4                 |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME B760M-A WIFI               |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B760M-A WIFI D4            |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B760M-AJ D4                |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B760M-K D4                 |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
@@ -279,6 +282,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ProArt B550-CREATOR              | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | U (\AMW0.ASMX)                |
 | ASUS     | ProArt B650-CREATOR              |            | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | ProArt B660-CREATOR D4           |            | N                             | N            | Y (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | ProArt B760-CREATOR              |            | L                             | N            | L                             | N                             |
 | ASUS     | ProArt B760-CREATOR D4           |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | ProArt X570-CREATOR WIFI         | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | Y (\AMW0.ASMX)                |
 | ASUS     | ProArt X670E-CREATOR WIFI        | NCT6799D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
@@ -358,8 +362,10 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ROG STRIX B660-F GAMING WIFI     | NCT6798D   | N                             | N            | Y (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B660-G GAMING WIFI     | NCT6798D   | N                             | N            | Y (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B660-I GAMING WIFI     | NCT6798D   | N                             | N            | Y (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | ROG STRIX B760-A GAMING WIFI     |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B760-A GAMING WIFI D4  |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B760-F GAMING WIFI     |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | ROG STRIX B760-G GAMING WIFI     |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B760-G GAMING WIFI D4  |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX B760-I GAMING WIFI     |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | ROG STRIX TRX40-E GAMING         | NCT6798D   | N                             | N            | P (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
@@ -433,7 +439,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | TUF GAMING A520M-PLUS II         | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING A520M-PLUS WIFI       | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING A620M-PLUS            |            | L                             | N            | L                             | N                             |
-| ASUS     | TUF GAMING A620M-PLUS WIFI       |            | N                             | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
+| ASUS     | TUF GAMING A620M-PLUS WIFI       | NCT6799D-R | N                             | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING B450-PLUS II          | IT8665E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING B450M-PLUS II         | IT8655E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING B450M-PRO II          | IT8655E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
@@ -466,8 +472,13 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | TUF GAMING B660M-PLUS D4         | NCT6798D   | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING B660M-PLUS WIFI       | NCT6798D   | N                             | N            | Y (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING B660M-PLUS WIFI D4    | NCT6798D   | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | TUF GAMING B760-PLUS WIFI        |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING B760-PLUS WIFI D4     |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | TUF GAMING B760M-BTF WIFI D4     |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | TUF GAMING B760M-E D4            |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | TUF GAMING B760M-PLUS            | NCT6798D   | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING B760M-PLUS D4         |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| ASUS     | TUF GAMING B760M-PLUS WIFI       |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING B760M-PLUS WIFI D4    |            | N                             | N            | U (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING X570-PLUS             | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING X570-PLUS (WI-FI)     | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |

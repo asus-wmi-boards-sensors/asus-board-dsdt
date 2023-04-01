@@ -37,7 +37,7 @@ ASUS_BOARDS = {
         "PRIME A320M-K",
         "PRIME A320M-K/BR",
         "PRIME A320M-R",
-        "PRO A320M-R WI-FI",
+        "PRO A320M-R WI-FI"
     ],
     "A520": [
         "PRIME A520M-A",
@@ -48,12 +48,12 @@ ASUS_BOARDS = {
         "Pro A520M-C II",
         "TUF GAMING A520M-PLUS",
         "TUF GAMING A520M-PLUS II",
-        "TUF GAMING A520M-PLUS WIFI",
+        "TUF GAMING A520M-PLUS WIFI"
     ],
     "A620": [
         "PRIME A620M-A",
         "TUF GAMING A620M-PLUS",
-        "TUF GAMING A620M-PLUS WIFI",
+        "TUF GAMING A620M-PLUS WIFI"
     ],
     "B250": [
         "B250 MINING EXPERT",
@@ -66,7 +66,7 @@ ASUS_BOARDS = {
         "PRIME B250M-PLUS",
         "STRIX B250F GAMING",
         "STRIX B250G GAMING",
-        "STRIX B250H GAMING",
+        "STRIX B250H GAMING"
     ],
     "B360": [
         "EX-B365M-V",
@@ -78,7 +78,7 @@ ASUS_BOARDS = {
         "ROG STRIX B365-F GAMING",
         "ROG STRIX B365-G GAMING",
         "TUF B365-PLUS GAMING",
-        "TUF B365M-PLUS GAMING",
+        "TUF B365M-PLUS GAMING"
     ],
     "B450": [
         "B450M-DRAGON",
@@ -98,7 +98,7 @@ ASUS_BOARDS = {
         "TUF GAMING B450-PLUS II",
         "TUF GAMING B450M-PLUS II",
         "TUF GAMING B450M-PRO II",
-        "TUF GAMING B450M-PRO S",
+        "TUF GAMING B450M-PRO S"
     ],
     "B460": [
         "EX-B460M-V5",
@@ -115,7 +115,7 @@ ASUS_BOARDS = {
         "TUF GAMING B460-PRO (WI-FI)",
         "TUF GAMING B460M-PLUS",
         "TUF GAMING B460M-PLUS (WI-FI)",
-        "TUF GAMING B460M-PRO",
+        "TUF GAMING B460M-PRO"
     ],
     "B550": [
         "PRIME B550-PLUS",
@@ -143,7 +143,7 @@ ASUS_BOARDS = {
         "TUF GAMING B550M-E WIFI",
         "TUF GAMING B550M-PLUS",
         "TUF GAMING B550M-PLUS (WI-FI)",
-        "TUF GAMING B550M-PLUS WIFI II",
+        "TUF GAMING B550M-PLUS WIFI II"
     ],
     "B560": [
         "B560M-P",
@@ -163,7 +163,7 @@ ASUS_BOARDS = {
         "TUF GAMING B560-PLUS WIFI",
         "TUF GAMING B560M-E",
         "TUF GAMING B560M-PLUS",
-        "TUF GAMING B560M-PLUS WIFI",
+        "TUF GAMING B560M-PLUS WIFI"
     ],
     "B650": [
         "PRIME B650-PLUS",
@@ -181,7 +181,7 @@ ASUS_BOARDS = {
         "TUF GAMING B650-PLUS",
         "TUF GAMING B650-PLUS WIFI",
         "TUF GAMING B650M-PLUS",
-        "TUF GAMING B650M-PLUS WIFI",
+        "TUF GAMING B650M-PLUS WIFI"
     ],
     "B660": [
         "EX-B660M-V5 D4",
@@ -198,7 +198,35 @@ ASUS_BOARDS = {
         "ROG STRIX B660-I GAMING WIFI",
         "TUF GAMING B660-PLUS WIFI D4",
         "TUF GAMING B660M-E D4",
-        "TUF GAMING B660M-PLUS WIFI",
+        "TUF GAMING B660M-PLUS WIFI"
+    ],
+    "B760": [
+        "EX-B760M-V5 D4",
+        "PRIME B760-PLUS",
+        "PRIME B760-PLUS D4",
+        "PRIME B760M-A",
+        "PRIME B760M-A D4",
+        "PRIME B760M-A WIFI",
+        "PRIME B760M-A WIFI D4",
+        "PRIME B760M-K D4",
+        "Pro B760M-C",
+        "Pro B760M-CT",
+        "ProArt B760-CREATOR",
+        "ProArt B760-CREATOR D4",
+        "ROG STRIX B760-A GAMING WIFI",
+        "ROG STRIX B760-A GAMING WIFI D4",
+        "ROG STRIX B760-F GAMING WIFI",
+        "ROG STRIX B760-G GAMING WIFI",
+        "ROG STRIX B760-G GAMING WIFI D4",
+        "ROG STRIX B760-I GAMING WIFI",
+        "TUF GAMING B760-PLUS WIFI",
+        "TUF GAMING B760-PLUS WIFI D4",
+        "TUF GAMING B760M-BTF WIFI D4",
+        "TUF GAMING B760M-E D4",
+        "TUF GAMING B760M-PLUS",
+        "TUF GAMING B760M-PLUS D4",
+        "TUF GAMING B760M-PLUS WIFI",
+        "TUF GAMING B760M-PLUS WIFI D4"
     ],
     "H410": [
         "EX-H410M-V3",
@@ -210,7 +238,7 @@ ASUS_BOARDS = {
         "PRIME H410M-K",
         "PRIME H410M-K R2.0",
         "PRO H410M-C",
-        "PRO H410T",
+        "PRO H410T"
     ],
     "H510": [
         "EX-H510M-V3",
@@ -222,7 +250,7 @@ ASUS_BOARDS = {
         "PRIME H510M-K",
         "PRIME H510M-K R2.0",
         "Pro H510M-C",
-        "Pro H510M-CT",
+        "Pro H510M-CT"
     ],
     "H610": [
         "EX-H610M-V3 D4",
@@ -236,15 +264,15 @@ ASUS_BOARDS = {
         "Pro H610M-C",
         "Pro H610M-C D4",
         "Pro H610M-CT D4",
-        "Pro H610T D4",
+        "Pro H610T D4"
     ],
     "W680": [
         "Pro WS W680-ACE",
-        "Pro WS W680-ACE IPMI",
+        "Pro WS W680-ACE IPMI"
     ],
     "W790": [
         "Pro WS W790-ACE",
-        "Pro WS W790E-SAGE SE",
+        "Pro WS W790E-SAGE SE"
     ],
     "X570": [
         "PRIME X570-P",
@@ -263,7 +291,7 @@ ASUS_BOARDS = {
         "TUF GAMING X570-PLUS",
         "TUF GAMING X570-PLUS (WI-FI)",
         "TUF GAMING X570-PRO (WI-FI)",
-        "TUF GAMING X570-PRO WIFI II",
+        "TUF GAMING X570-PRO WIFI II"
     ],
     "X670": [
         "PRIME X670-P",
@@ -278,7 +306,7 @@ ASUS_BOARDS = {
         "ROG STRIX X670E-F GAMING WIFI",
         "ROG STRIX X670E-I GAMING WIFI",
         "TUF GAMING X670E-PLUS",
-        "TUF GAMING X670E-PLUS WIFI",
+        "TUF GAMING X670E-PLUS WIFI"
     ],
     "Z390": [
         "PRIME Z390-A",
@@ -301,7 +329,7 @@ ASUS_BOARDS = {
         "TUF Z390-PRO GAMING",
         "TUF Z390M-PRO GAMING",
         "TUF Z390M-PRO GAMING (WI-FI)",
-        "WS Z390 PRO",
+        "WS Z390 PRO"
     ],
     "Z490": [
         "PRIME Z490-A",
@@ -323,7 +351,7 @@ ASUS_BOARDS = {
         "TUF GAMING Z490-PLUS",
         "TUF GAMING Z490-PLUS (WI-FI)",
         "TUF GAMING Z590-PLUS WIFI",
-        "Z490-GUNDAM (WI-FI)",
+        "Z490-GUNDAM (WI-FI)"
     ],
     "Z590": [
         "PRIME Z590-A",
@@ -342,7 +370,7 @@ ASUS_BOARDS = {
         "ROG STRIX Z590-I GAMING WIFI",
         "TUF GAMING Z590-PLUS",
         "TUF GAMING Z590-PLUS WIFI",
-        "Z590 WIFI GUNDAM EDITION",
+        "Z590 WIFI GUNDAM EDITION"
     ],
     "Z690": [
         "PRIME Z690-A",
@@ -367,7 +395,7 @@ ASUS_BOARDS = {
         "TUF GAMING Z690-PLUS",
         "TUF GAMING Z690-PLUS D4",
         "TUF GAMING Z690-PLUS WIFI",
-        "TUF GAMING Z690-PLUS WIFI D4",
+        "TUF GAMING Z690-PLUS WIFI D4"
     ],
     "Z790": [
         "PRIME Z790-A WIFI",
@@ -389,8 +417,8 @@ ASUS_BOARDS = {
         "ROG STRIX Z790-I GAMING WIFI",
         "TUF GAMING Z790-PLUS D4",
         "TUF GAMING Z790-PLUS WIFI",
-        "TUF GAMING Z790-PLUS WIFI D4",
-    ],
+        "TUF GAMING Z790-PLUS WIFI D4"
+    ]
 }
 
 BRIDGE_CHIPSETS = [
