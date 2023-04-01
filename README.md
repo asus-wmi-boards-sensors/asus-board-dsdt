@@ -39,6 +39,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | 970 PRO GAMING/AURA              |            | F                             | N            | F                             | N                             |
 | GIGABYTE | 970A-DS3P                        |            | N                             | N            | N                             | N                             |
 | GIGABYTE | 990XA-UD3                        |            | N                             | N            | N                             | N                             |
+| ASUS     | A320M-C                          | IT8665E    | N                             | N            | P (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | GIGABYTE | A320M-S2H-CF                     |            | N                             | U            | N                             | N                             |
 | ASUS     | A68HM-K                          |            | N                             | N            | N                             | N                             |
 | ASUS     | A68HM-PLUS                       |            | N                             | N            | N                             | N                             |
@@ -119,10 +120,13 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | PRIME A320M-E                    | IT8655E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME A320M-F                    | IT8655E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME A320M-K                    | IT8655E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME A320M-K/BR                 | IT8655E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME A320M-R                    | IT8655E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME A520M-A                    | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME A520M-A II                 | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME A520M-E                    | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME A520M-K                    | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
+| ASUS     | PRIME A620M-A                    |            | N                             | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | PRIME B250-PLUS                  | NCT5539D   | F                             | N            | F                             | N                             |
 | ASUS     | PRIME B250M-A                    | NCT6793D   | F                             | N            | F                             | N                             |
 | ASUS     | PRIME B250M-C                    | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
@@ -428,6 +432,8 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | TUF GAMING A520M-PLUS            | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING A520M-PLUS II         | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING A520M-PLUS WIFI       | NCT6798D-R | N                             | N            | Y (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
+| ASUS     | TUF GAMING A620M-PLUS            |            | L                             | N            | L                             | N                             |
+| ASUS     | TUF GAMING A620M-PLUS WIFI       |            | N                             | N            | U (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING B450-PLUS II          | IT8665E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING B450M-PLUS II         | IT8655E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | ASUS     | TUF GAMING B450M-PRO II          | IT8655E    | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |

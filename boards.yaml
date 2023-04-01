@@ -71,6 +71,52 @@
   superio: ''
   upstreamed_serie: false
   wmi_methods: []
+A320M-C:
+  aliases:
+  - A320M-C-SI-1001
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO3B
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: A320
+  gigabyte_wmi: N
+  hash:
+  - 002199baaa24f2644e9315334163d8b9
+  - 22b767c82fa0bbba29b34cba04c496af
+  - 3ef2fd02ccf5d1815035886d2c771924
+  - 41f12664e236535b98e122350c315449
+  - 48cd2161f4c08a253328a3ab02aacf87
+  - 5d115a03a0a3128e2795aa97964744f5
+  - 5dc8eaecdf03c8befe3e8dcddf87d6c0
+  - 8af4acf6422de4aff2fb1f3281c88374
+  - 903aba36510c9759f0edf4180f04b094
+  - a1c56e98f769d21bac882b20552975e9
+  - b6e1cea7d569b2e700f5c8017a442125
+  - e9b69b8c1d3d05930378caa305d9ba61
+  - ea6db5076d69f1691c41ee4bc7d3b5e7
+  - eed8bc87426783cc24969748164f8fea
+  - fe28d5f198a0d673b07f665d0bdc080c
+  - ffc4621f63df4366f2687a2c73dd181a
+  known_good:
+  - ASUSWMI
+  known_good_nct6775: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/A320M-C/A320M-C-SI-1001.zip
+  superio: IT8665E
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 A320M-S2H-CF:
   aliases:
   - A320M-S2H-CF-GIGABYTE-0000
@@ -2463,6 +2509,7 @@ CROSSHAIR VI HERO:
 EX-A320M-GAMING:
   aliases:
   - EX-A320M-GAMING-SI-6061
+  - EX-A320M-GAMING-SI-6063
   asus_dispatcher:
   - BRHM
   - BWHM
@@ -2544,6 +2591,7 @@ EX-A320M-GAMING:
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-A320M-GAMING-SI-6061.zip
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-A320M-GAMING-SI-6063.zip
   superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
@@ -4580,6 +4628,7 @@ P8Z68-V LX:
 PRIME A320I-K:
   aliases:
   - PRIME-A320I-K-ASUS-6061
+  - PRIME-A320I-K-ASUS-6062
   asus_dispatcher:
   - BRHM
   - BWHM
@@ -4661,6 +4710,7 @@ PRIME A320I-K:
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320I-K-ASUS-6061.zip
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320I-K-ASUS-6062.zip
   superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
@@ -4671,6 +4721,7 @@ PRIME A320I-K:
 PRIME A320M-A:
   aliases:
   - PRIME-A320M-A-ASUS-6061
+  - PRIME-A320M-A-ASUS-6062
   asus_dispatcher:
   - BRHM
   - BWHM
@@ -4752,6 +4803,7 @@ PRIME A320M-A:
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-A-ASUS-6061.zip
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-A-ASUS-6062.zip
   superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
@@ -4762,6 +4814,7 @@ PRIME A320M-A:
 PRIME A320M-C R2.0:
   aliases:
   - PRIME-A320M-C-R2-SI-6061
+  - PRIME-A320M-C-R2-SI-6062
   asus_dispatcher:
   - BRHM
   - BWHM
@@ -4843,6 +4896,7 @@ PRIME A320M-C R2.0:
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-C-R2-SI-6061.zip
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-C-R2-SI-6062.zip
   superio: IT8665E
   upstreamed_serie: false
   wmi_methods:
@@ -4853,6 +4907,7 @@ PRIME A320M-C R2.0:
 PRIME A320M-E:
   aliases:
   - PRIME-A320M-E-ASUS-6061
+  - PRIME-A320M-E-ASUS-6062
   asus_dispatcher:
   - BRHM
   - BWHM
@@ -4934,6 +4989,7 @@ PRIME A320M-E:
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-E-ASUS-6061.zip
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-E-ASUS-6062.zip
   superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
@@ -4944,6 +5000,7 @@ PRIME A320M-E:
 PRIME A320M-F:
   aliases:
   - PRIME-A320M-F-SI-6061
+  - PRIME-A320M-F-SI-6062
   asus_dispatcher:
   - BRHM
   - BWHM
@@ -5025,6 +5082,7 @@ PRIME A320M-F:
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-F-SI-6061.zip
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-F-SI-6062.zip
   superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
@@ -5035,6 +5093,7 @@ PRIME A320M-F:
 PRIME A320M-K:
   aliases:
   - PRIME-A320M-K-ASUS-6061
+  - PRIME-A320M-K-ASUS-6062
   asus_dispatcher:
   - BRHM
   - BWHM
@@ -5116,6 +5175,135 @@ PRIME A320M-K:
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-K-ASUS-6061.zip
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-K-ASUS-6062.zip
+  superio: IT8655E
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+PRIME A320M-K/BR:
+  aliases:
+  - PRIME-A320M-K-BR-SI-6062
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO3B
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: A320
+  gigabyte_wmi: N
+  hash:
+  - 0553603fc8b54cbaa940c910cb2113de
+  - 0ac84bd030bbd93996549b993add6fff
+  - 14bfb24158369a4ed74a318af30c44ee
+  - 4624ffa4ac39f3e466b4d298f459f7e1
+  - 490a15e09d3971f3e8c34990b34ccad3
+  - 4d0ec813c03755be929b0403084f6c80
+  - 4d7e9a4f1f187abde67493cf03486fcd
+  - 510c8e1f06e5f4b17eea84b305379c08
+  - 5ad15dc1eb9d6be9647f49c99814450b
+  - 5f479b2dbe44782f927a7bb94df5b5d2
+  - 6356326dae6ab169f5ad948af069e24c
+  - 7b2a7ee3f73a93ae8a793232f82495dc
+  - 7d6d4b9351c9bdc7e98e5c4f940fcae3
+  - 846e4c8f99c84fc1db4b755b688622b9
+  - 8bb76d4ba4674c273a802c3ae77d1f33
+  - 9ad4ba1f151b45a8bfbbc929c233d035
+  - a37850c53e932a5c2ad5ada9e4e43429
+  - aa6ca0c51ddca6fddf6e317ad988b34a
+  - b84f52664f5a0a49a2b3e1596d0ab973
+  - bc09647ad0fb52bfcce4599ffdbd1e47
+  - d29d3ef648e0604381c35e7d2c102c14
+  - d59afae0723170f66be19de545efec01
+  - e2446bbe23bae5a3c9b8e573673d9fef
+  - e5e384d3f468bbb7a9a8b5cf2e036694
+  - e9b69b8c1d3d05930378caa305d9ba61
+  - eea220b52ae37ee60270a15fb518be23
+  - f0c3e88532e230c713c81e76be37845c
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-K-BR-SI-6062.zip
+  superio: IT8655E
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+PRIME A320M-R:
+  aliases:
+  - PRIME-A320M-R-SI-6062
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: M
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO3B
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: A320
+  gigabyte_wmi: N
+  hash:
+  - 0553603fc8b54cbaa940c910cb2113de
+  - 0ac84bd030bbd93996549b993add6fff
+  - 3b13d302d227229d942b4df252b2217d
+  - 4624ffa4ac39f3e466b4d298f459f7e1
+  - 490a15e09d3971f3e8c34990b34ccad3
+  - 4d0ec813c03755be929b0403084f6c80
+  - 4d7e9a4f1f187abde67493cf03486fcd
+  - 510c8e1f06e5f4b17eea84b305379c08
+  - 5ad15dc1eb9d6be9647f49c99814450b
+  - 5f479b2dbe44782f927a7bb94df5b5d2
+  - 6356326dae6ab169f5ad948af069e24c
+  - 7d6d4b9351c9bdc7e98e5c4f940fcae3
+  - 7ef83bc85eee1df6f7d4df308580176b
+  - 846e4c8f99c84fc1db4b755b688622b9
+  - 8bb76d4ba4674c273a802c3ae77d1f33
+  - 9ad4ba1f151b45a8bfbbc929c233d035
+  - a37850c53e932a5c2ad5ada9e4e43429
+  - aa6ca0c51ddca6fddf6e317ad988b34a
+  - b84f52664f5a0a49a2b3e1596d0ab973
+  - bc09647ad0fb52bfcce4599ffdbd1e47
+  - c4dd0d6804d3a4a59c90c775b2420899
+  - d29d3ef648e0604381c35e7d2c102c14
+  - d59afae0723170f66be19de545efec01
+  - dd207d6230d0179d876435c3ddc16189
+  - e5e384d3f468bbb7a9a8b5cf2e036694
+  - e9b69b8c1d3d05930378caa305d9ba61
+  - f0c3e88532e230c713c81e76be37845c
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-R-SI-6062.zip
   superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
@@ -5607,6 +5795,82 @@ PRIME A520M-K:
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+PRIME A620M-A:
+  aliases:
+  - PRIME-A620M-A-ASUS-0310
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: A620
+  gigabyte_wmi: N
+  hash:
+  - 0b002e98e79bdb6bfb0ae3dd8f66c1bf
+  - 0df6aec0c26e677c794fb41f751f6973
+  - 130485154998be0938df815171ec84f6
+  - 1b1ef8175122dda60a2aff1a73fcb678
+  - 1b9da7d420aab93e3071c2c1720c6d7c
+  - 33f206003aa4db0c51ff032586534585
+  - 3d926f86dfbd5e3f707ae0d6069d726a
+  - 3e5bf5d1b20c6d45dc412bf368c5c43a
+  - 463ab1d00da2700918f7428d6ce1d08f
+  - 4c5ed7487bf5f24f008294780a1a4c99
+  - 4efad499bbd5b4001dea58cce1eb06d3
+  - 541d70f3fc78135b03217f6961e5c121
+  - 55d04927963889eed6e1a28346daaf39
+  - 5e7f311f9240cc2fe1efc4b1c0510092
+  - 5e7f3f38a9e8ca7fad985775a02f1347
+  - 60cb3664f5b4d81bf4c72022047f4858
+  - 696f695955c3a08b044dbafd34c96d96
+  - 6d992860db313ad2431086a7ddda6690
+  - 70a0c1c8a198db00db7eb6e0a91c1054
+  - 75d37f6a8a491a259f50992ad9ac7136
+  - 79146fa81656194d53127e238284fc94
+  - 81ec821b37ed574efd12299314d25df0
+  - 86ab0be8e9c0891b299224647fcf65f7
+  - 8b0bc2c6e408db8eb22ccacb3dbd9848
+  - 954005d8b1a1bed51d713e6a0cb98311
+  - 97d4800bcce7962ae4ffa77e21ddab4b
+  - a213f8a0db2d7aae85f7254e014d7c66
+  - a581ef0aac0810116c396d47120d753e
+  - aa97c6933bcbc6ee09bd93b0d7640159
+  - c60384430edaf566586c6fc63b43234f
+  - c666c77cdbf6b230b4ec4f8a94f07ddc
+  - c7652cbd2842ac6f30fb1a4243ca06e4
+  - ca6a3f354beda6f54f94f5704ef5e843
+  - d20e5760105978a822f8d9e3793db31b
+  - d8f4981b63a51bf3d5aa7218717812d1
+  - da667c9a6bb8f10ce25c3d33b0d27210
+  - dda0821bd9074e83bdbed9cc73542626
+  - fb108976582cd0e108461ade4609b907
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A620M-A-ASUS-0310.zip
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 PRIME B250-PLUS:
   aliases:
   - PRIME-B250-PLUS-ASUS-2001
@@ -7689,8 +7953,10 @@ PRIME B460I-PLUS:
   - f6dbc187925fc646dedecd6c478c7150
   - f74ccbdfe94af56646a949589162f1c1
   - fb5c94adadb2a6dcc1b79f268daa6f91
-  known_good: []
-  known_good_nct6775: []
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B460I-PLUS-ASUS-1601.ZIP
   superio: NCT6798D
@@ -7761,8 +8027,10 @@ PRIME B460M-A:
   - f6dbc187925fc646dedecd6c478c7150
   - f74ccbdfe94af56646a949589162f1c1
   - fb5c94adadb2a6dcc1b79f268daa6f91
-  known_good: []
-  known_good_nct6775: []
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B460M-A-ASUS-1620.ZIP
   superio: NCT6798D
@@ -7998,8 +8266,10 @@ PRIME B460M-K:
   - f6dbc187925fc646dedecd6c478c7150
   - f74ccbdfe94af56646a949589162f1c1
   - fb5c94adadb2a6dcc1b79f268daa6f91
-  known_good: []
-  known_good_nct6775: []
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B460M-K-ASUS-1620.ZIP
   superio: NCT6798D
@@ -8070,6 +8340,8 @@ PRIME B550-PLUS AC-HES:
   aliases:
   - PRIME-B550-PLUS-AC-HES-SI-3001
   asus_dispatcher:
+  - BRHM
+  - BWHM
   - RHWM
   - RSIO
   - WHWM
@@ -8132,8 +8404,10 @@ PRIME B550-PLUS AC-HES:
   - e9b69b8c1d3d05930378caa305d9ba61
   - f0c3e88532e230c713c81e76be37845c
   - f472cd2bb93a1ab993598562f6c774cb
-  known_good: []
-  known_good_nct6775: []
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B550-PLUS-AC-HES-SI-3001.zip
   superio: NCT6798D-R
@@ -9674,8 +9948,10 @@ PRIME B660M-A AC D4:
   - f06e72acdf21b644347fd64f2c51b61d
   - f318cf9775ad761e092a6c9dfe306889
   - fa7169e4de2034269223b48cd8937f26
-  known_good: []
-  known_good_nct6775: []
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B660M-A-AC-D4-ASUS-2212.zip
   superio: NCT6798D
@@ -11396,8 +11672,10 @@ PRIME H410I-PLUS:
   - f6dbc187925fc646dedecd6c478c7150
   - f74ccbdfe94af56646a949589162f1c1
   - fb5c94adadb2a6dcc1b79f268daa6f91
-  known_good: []
-  known_good_nct6775: []
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410I-PLUS-ASUS-1601.ZIP
   superio: NCT6798D
@@ -16630,6 +16908,7 @@ PRIME Z790M-PLUS D4:
 PRO A320M-R WI-FI:
   aliases:
   - PRO-A320M-R-WIFI-SI-6061
+  - PRO-A320M-R-WIFI-SI-6062
   asus_dispatcher:
   - BRHM
   - BWHM
@@ -16711,6 +16990,7 @@ PRO A320M-R WI-FI:
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-A320M-R-WIFI-SI-6061.zip
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-A320M-R-WIFI-SI-6062.zip
   superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
@@ -22524,8 +22804,10 @@ ROG MAXIMUS Z690 FORMULA:
   - f318cf9775ad761e092a6c9dfe306889
   - f835c33a6bd52ac0a8330a32e20bf840
   - fa7169e4de2034269223b48cd8937f26
-  known_good: []
-  known_good_nct6775: []
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-Z690-FORMULA-ASUS-2204.zip
   superio: NCT6798D
@@ -22635,8 +22917,10 @@ ROG MAXIMUS Z690 HERO:
   - f318cf9775ad761e092a6c9dfe306889
   - f835c33a6bd52ac0a8330a32e20bf840
   - fa7169e4de2034269223b48cd8937f26
-  known_good: []
-  known_good_nct6775: []
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-Z690-HERO-ASUS-2204.zip
   superio: NCT6798D
@@ -28923,6 +29207,8 @@ ROG STRIX Z690-E GAMING WIFI:
   aliases:
   - ROG-STRIX-Z690-E-GAMING-WIFI-ASUS-2204
   asus_dispatcher:
+  - BRHM
+  - BWHM
   - RHWM
   - RSIO
   - WHWM
@@ -29016,8 +29302,10 @@ ROG STRIX Z690-E GAMING WIFI:
   - f318cf9775ad761e092a6c9dfe306889
   - f835c33a6bd52ac0a8330a32e20bf840
   - fa7169e4de2034269223b48cd8937f26
-  known_good: []
-  known_good_nct6775: []
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z690-E-GAMING-WIFI-ASUS-2204.zip
   superio: NCT6798D
@@ -29031,6 +29319,8 @@ ROG STRIX Z690-F GAMING WIFI:
   aliases:
   - ROG-STRIX-Z690-F-GAMING-WIFI-ASUS-2204
   asus_dispatcher:
+  - BRHM
+  - BWHM
   - RHWM
   - RSIO
   - WHWM
@@ -29124,8 +29414,10 @@ ROG STRIX Z690-F GAMING WIFI:
   - f318cf9775ad761e092a6c9dfe306889
   - f835c33a6bd52ac0a8330a32e20bf840
   - fa7169e4de2034269223b48cd8937f26
-  known_good: []
-  known_good_nct6775: []
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z690-F-GAMING-WIFI-ASUS-2204.zip
   superio: NCT6798D
@@ -29139,6 +29431,8 @@ ROG STRIX Z690-G GAMING WIFI:
   aliases:
   - ROG-STRIX-Z690-G-GAMING-WIFI-ASUS-2204
   asus_dispatcher:
+  - BRHM
+  - BWHM
   - RHWM
   - RSIO
   - WHWM
@@ -29232,8 +29526,10 @@ ROG STRIX Z690-G GAMING WIFI:
   - f318cf9775ad761e092a6c9dfe306889
   - f835c33a6bd52ac0a8330a32e20bf840
   - fa7169e4de2034269223b48cd8937f26
-  known_good: []
-  known_good_nct6775: []
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z690-G-GAMING-WIFI-ASUS-2204.zip
   superio: NCT6798D
@@ -30093,7 +30389,8 @@ ROG ZENITH II EXTREME:
   - c239e54fa8e4117207ed2053031f17ae
   - c67a5cf6cc5f924f6332928b012b044f
   - e13a04f32ee9905dd7583758f18c3ea5
-  known_good: []
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-ZENITH-II-EXTREME-ASUS-1603.ZIP
@@ -31350,6 +31647,81 @@ TUF GAMING A520M-PLUS WIFI:
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING A620M-PLUS WIFI:
+  aliases:
+  - TUF-GAMING-A620M-PLUS-WIFI-ASUS-0214
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: A620
+  gigabyte_wmi: N
+  hash:
+  - 0b002e98e79bdb6bfb0ae3dd8f66c1bf
+  - 0df6aec0c26e677c794fb41f751f6973
+  - 130485154998be0938df815171ec84f6
+  - 1b1ef8175122dda60a2aff1a73fcb678
+  - 1b9da7d420aab93e3071c2c1720c6d7c
+  - 33f206003aa4db0c51ff032586534585
+  - 3d926f86dfbd5e3f707ae0d6069d726a
+  - 3e5bf5d1b20c6d45dc412bf368c5c43a
+  - 463ab1d00da2700918f7428d6ce1d08f
+  - 4c5ed7487bf5f24f008294780a1a4c99
+  - 4efad499bbd5b4001dea58cce1eb06d3
+  - 541d70f3fc78135b03217f6961e5c121
+  - 55d04927963889eed6e1a28346daaf39
+  - 5e7f311f9240cc2fe1efc4b1c0510092
+  - 5e7f3f38a9e8ca7fad985775a02f1347
+  - 60cb3664f5b4d81bf4c72022047f4858
+  - 696f695955c3a08b044dbafd34c96d96
+  - 6d992860db313ad2431086a7ddda6690
+  - 70a0c1c8a198db00db7eb6e0a91c1054
+  - 75d37f6a8a491a259f50992ad9ac7136
+  - 79146fa81656194d53127e238284fc94
+  - 81ec821b37ed574efd12299314d25df0
+  - 86ab0be8e9c0891b299224647fcf65f7
+  - 8b0bc2c6e408db8eb22ccacb3dbd9848
+  - 954005d8b1a1bed51d713e6a0cb98311
+  - 97d4800bcce7962ae4ffa77e21ddab4b
+  - a213f8a0db2d7aae85f7254e014d7c66
+  - a581ef0aac0810116c396d47120d753e
+  - aa97c6933bcbc6ee09bd93b0d7640159
+  - c666c77cdbf6b230b4ec4f8a94f07ddc
+  - c7652cbd2842ac6f30fb1a4243ca06e4
+  - ca6a3f354beda6f54f94f5704ef5e843
+  - d20e5760105978a822f8d9e3793db31b
+  - d8f4981b63a51bf3d5aa7218717812d1
+  - da667c9a6bb8f10ce25c3d33b0d27210
+  - dda0821bd9074e83bdbed9cc73542626
+  - ebec6e3e214a8c7ab6257c6053f41245
+  - fb108976582cd0e108461ade4609b907
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-A620M-PLUS-WIFI-ASUS-0214.zip
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 TUF GAMING B450-PLUS II:
@@ -33742,8 +34114,10 @@ TUF GAMING B660M-PLUS D4:
   - f318cf9775ad761e092a6c9dfe306889
   - f835c33a6bd52ac0a8330a32e20bf840
   - fa7169e4de2034269223b48cd8937f26
-  known_good: []
-  known_good_nct6775: []
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B660M-PLUS-D4-ASUS-2212.zip
   superio: NCT6798D
@@ -33995,8 +34369,10 @@ TUF GAMING B660M-PLUS WIFI D4:
   - f318cf9775ad761e092a6c9dfe306889
   - f835c33a6bd52ac0a8330a32e20bf840
   - fa7169e4de2034269223b48cd8937f26
-  known_good: []
-  known_good_nct6775: []
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B660M-PLUS-WIFI-D4-ASUS-2212.zip
   superio: NCT6798D
@@ -34842,8 +35218,10 @@ TUF GAMING X570-PRO WIFI II:
   - e5e384d3f468bbb7a9a8b5cf2e036694
   - e9b69b8c1d3d05930378caa305d9ba61
   - f0c3e88532e230c713c81e76be37845c
-  known_good: []
-  known_good_nct6775: []
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-X570-PRO-WIFI-II-SI-4601.zip
   superio: NCT6798D-R

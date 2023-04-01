@@ -17,6 +17,22 @@ from utils import load_linuxhw_DMI, file_write_with_changes, load_board_flags
 
 
 LINKS = [
+    "https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/A320M-C/A320M-C-SI-1001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-A320M-GAMING-SI-6063.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320I-K-ASUS-6062.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-A-ASUS-6062.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-C-R2-SI-6062.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-E-ASUS-6062.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-F-SI-6062.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-K-ASUS-6062.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-K-BR-SI-6062.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-R-SI-6062.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-A320M-R-WIFI-SI-6062.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-K-BR-SI-6062.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-K-ASUS-6062.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-A620M-PLUS-WIFI-ASUS-0214.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A620M-A-ASUS-0310.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ProArt-Z690-CREATOR-WIFI-ASUS-2103.zip",
 ]
 
 # Upstreamed ec
@@ -521,6 +537,7 @@ BOARDNAME_CONVERT = {
     "B450 AORUS PRO WIFI": "B450 AORUS PRO WIFI-CF",
     "B450M DS3H WIFI": "B450M DS3H WIFI-CF",
     "B450M DS3H": "B450M DS3H-CF",
+    "PRIME A320M-K BR": "PRIME A320M-K/BR",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -615,7 +632,7 @@ ASUS_KNOWN_UIDS = {
     "AsusMbSwInterface": "B650 style board",
 }
 
-ASUS_WIFI_NO_CONVERT = ["B560", "B650", "B660", "B760", "H510",
+ASUS_WIFI_NO_CONVERT = ["A620", "B560", "B650", "B660", "B760", "H510",
                         "X670", "Z590", "Z690", "Z790"]
 
 
@@ -1683,6 +1700,17 @@ def file_name_to_board_name(filename, alias_to_name):
 
 if __name__ == "__main__":
 
+    # resort board names
+    for chip in ASUS_BOARDS:
+        names = []
+        for name in ASUS_BOARDS[chip]:
+            if name not in names:
+                names.append(name)
+        ASUS_BOARDS[chip] = sorted(names)
+
+    if os.environ.get("DEBUG"):
+        print (json.dumps(ASUS_BOARDS, indent=4))
+
     current_dir = "."
     if len(sys.argv) > 1:
         current_dir = sys.argv[1]
@@ -1717,6 +1745,15 @@ if __name__ == "__main__":
         aliases = boards_flags[name].get("aliases", [])
         for alias in aliases:
             alias_to_name[alias] = name
+        board_flags = boards_flags[name]
+        if (
+            board_has_nct6775(board_flags["superio"]) and
+            board_flags.get("asus_wmi_entrypoint") == "Y" and
+            not board_flags.get("known_good") and
+            not board_flags.get("known_good_nct6775")
+        ):
+            board_flags["hash"] = []
+            print (f"Need revalidate {name}")
 
     for board_load_link in LINKS:
         filename = board_load_link.split("/")[-1]
