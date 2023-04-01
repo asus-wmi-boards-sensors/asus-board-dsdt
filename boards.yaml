@@ -980,6 +980,45 @@ B250M-C PRO:
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+B365M Pro4-F:
+  aliases:
+  - B365M-Pro4-F-ASRock-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO2B
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASRock
+  bridge: B365
+  gigabyte_wmi: N
+  hash:
+  - 10a691bc96465e94a6a21baadc0cfd67
+  - 1f08fe97c17f46dda8f4e55698fa6000
+  - 287d61149d132b2fdb8c3e645b0ef95a
+  - 3692ef4626f7ad6a55e2b3547618a639
+  - 47eb157790766b4a9a29c2218de4fa0e
+  - 64ff600cc0627cbeafd3d7f842a09e10
+  - 73fc1b8cb605f7acb2b99c454cc31038
+  - 82ac419364c0076da99bb44db6959aa7
+  - 8d9a1169344e015d510306fe75d3fde4
+  - a74829cf524b32b3172827102171b8c8
+  - b674ea87de3366316a558e0ac987a4ec
+  - bb99663b67dcae4617a48f8a8aae7b6a
+  - c3affa275303ba215365b8b7de0d32e2
+  - d3057d7d8532890c6d4f6dbda41148f3
+  - d73a10fbdb351e320558679d7e6c05f2
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
 B450 AORUS ELITE:
   aliases:
   - B450-AORUS-ELITE-GIGABYTE-0000
@@ -1223,6 +1262,38 @@ B450M DS3H-CF:
   - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
   - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
   - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+B450M Pro4:
+  aliases:
+  - B450M-Pro4-ASRock-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO2B
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASRock
+  bridge: B450
+  gigabyte_wmi: N
+  hash:
+  - 135ad77b0f5da44e5bb2f6742de81649
+  - 26bc9d132b01d681687ee69a54210677
+  - 3a5d866edaee4b5e6457edb8303ebc55
+  - 528b2f1a0f091be2114aa7a33f784986
+  - c712cdf8e9438d527c266e7fa9952ff6
+  - d6dbf94f47428e26290bdeaa598cc693
+  - dd72ae95433771615e9e77d5d4b27667
+  - e9dd43ea629f177b68c7a8e7e4abf2c7
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
 B450M S2H V2:
   aliases:
   - b450m-s2h-v2_f64a-GIGABYTE
@@ -1890,6 +1961,45 @@ B560M-P:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+B650E PG Riptide WiFi:
+  aliases:
+  - B650E-PG-Riptide-WiFi-ASRock-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO2B
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASRock
+  bridge: B65
+  gigabyte_wmi: N
+  hash:
+  - 0df6aec0c26e677c794fb41f751f6973
+  - 1165e83e95434689a36d756a0d12e223
+  - 17444b1c49d4fbe4afb82106f69f528d
+  - 2a3cef34b2897548d1002f4cf63a089b
+  - 2ac0af2ff3f329cc3717413d128b8c40
+  - 30d7f1894efe3a3fca95b47b3f469256
+  - 45b26feec1702a0e383a95d722fd6dfd
+  - 528e408b553f19fefa4c44e3c8f40f03
+  - 55d04927963889eed6e1a28346daaf39
+  - 57025a63cb299d7335a94ed6a3aedeab
+  - 63b160b610855b5d668c675beea67d42
+  - b00986a3ec0cab91a3458d2dfe5c1cdc
+  - c8fa182ddd7f4d1b5e07e39af8ffda1b
+  - f109fc91d3181941ad72928c287d06fd
+  - f9dd216f0ef6b831f54776d150f6336a
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
 B660 GAMING X DDR4:
   aliases:
   - b660-gaming-x-ddr4_f22-GIGABYTE
@@ -3705,6 +3815,37 @@ H170 PRO GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/H170_PRO_GAMING/H170-PRO-GAMING-ASUS-3805.zip
   superio: NCT6793D
+  upstreamed_serie: false
+  wmi_methods: []
+H77M:
+  aliases:
+  - H77M-ASRock-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASRock
+  bridge: H77
+  gigabyte_wmi: N
+  hash:
+  - 0fd3be6fa935819f9ee166b24945e047
+  - 1aebf30b748458f8b9727630540cd159
+  - 468c4dbdb2aaa9e9ac53e93278de51a8
+  - 53314f817a3f63470c724c0fc007dbf2
+  - 739fc8305f376ea3f17057033ec5a629
+  - 7d579c65fe1d76c88805e1dbbd6a6d84
+  - ca4201feae1169c2584269dd2627bd71
+  - f1fec53df688354ad4b5bfd2a892069a
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
   upstreamed_serie: false
   wmi_methods: []
 H81-GAMER:
@@ -36678,6 +36819,70 @@ X299 UD4-CF:
   - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
   - QWDG:DEADBEEF-4001-0000-00A0-C90629100000:E100:0108
   - QWDG:DEADBEEF-4001-0000-00A0-C90629100000:E200:0108
+X370 Gaming X:
+  aliases:
+  - X370-Gaming-X-ASRock-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO2B
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASRock
+  bridge: X370
+  gigabyte_wmi: N
+  hash:
+  - 061b324cfc5271d77823d4b4a2245cd7
+  - 30c05923ad61aead50b5bac4bc12af17
+  - 36d0c39c155e1ce391ebf5a5912887a5
+  - 76f761b68d8995ff93c9e788fc8fbca4
+  - 790e81cfa3a7009fec2c9e0741220840
+  - c089a2f9094ccba972daa60806c06463
+  - e9b69b8c1d3d05930378caa305d9ba61
+  - e9dd43ea629f177b68c7a8e7e4abf2c7
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
+X399 Taichi:
+  aliases:
+  - X399-Taichi-ASRock-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO2B
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASRock
+  bridge: X399
+  gigabyte_wmi: N
+  hash:
+  - 82101fd277be4fca37c33d00d00a5c90
+  - b206252b9bee3be87acd90fec8932187
+  - b6b778d552fd249c5fff42264c22f973
+  - ba1cf044566caf4d23f92b98b45f52c3
+  - bc9171bd09e61f043c25c652a9bab594
+  - c46192b1a52d5218d9e480cbc6d0761e
+  - e05a62b2b187e2bb2a40d78ab7a9f7e9
+  - e9b69b8c1d3d05930378caa305d9ba61
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
 X470 AORUS ULTRA GAMING-CF:
   aliases:
   - X470-AORUS-ULTRA-GAMING-CF-GIGABYTE-0000
@@ -37076,6 +37281,74 @@ X570 I AORUS PRO WIFI:
   - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
   - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
   - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+X570 Steel Legend:
+  aliases:
+  - X570-Steel-Legend-ASRock-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO2B
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASRock
+  bridge: X570
+  gigabyte_wmi: N
+  hash:
+  - 426f3cc284bff5145d641e7c38a161e3
+  - 642d71da3d858d8ca617d6632080f66f
+  - 685742467e5ac25dcb97cafa5b47d822
+  - bdd0b083ae5ebeee8d218a94ab701215
+  - ce62398a9b103762626bc6ce16d4d904
+  - cf3d75c304469f06b6462828195aad14
+  - d1f1345f075fe91e49f7b46a45e5ac60
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
+X570 Taichi:
+  aliases:
+  - X570-Taichi-ASRock-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO2B
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASRock
+  bridge: X570
+  gigabyte_wmi: N
+  hash:
+  - 08074d5e7fdb832ae71eff182a45b453
+  - 15d0fc699f56d4ac6de249e9b3d52fa6
+  - 31abac1b11574212963077396cf7997b
+  - 426f3cc284bff5145d641e7c38a161e3
+  - 487481b729d17156930f33b47b7e280d
+  - 4b3db75c6b43cd8a8b816becfef1647d
+  - 67bcf10926943bcc913f33bb1968ae80
+  - 806db5deae11ea041d45a50b446cae91
+  - 86b033fbad7f1ac94df512b7cd1a49dd
+  - b55cc858c5c6dc0aaf510e05b1aa7923
+  - c6690621c4e0c5a664bd891d6a91eb8a
+  - d8753d7a66c45dfe387ce9af239a8cf8
+  - fc794f9cb35100cbf419fcc90588c337
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
 X570 UD:
   aliases:
   - x570-ud_f38a-GIGABYTE
@@ -37277,6 +37550,40 @@ X99-UD4-CF:
   - 5ae5e2eed993388aeea83e20cbc28965
   - b79b1af0207e89666c0ca7387d314983
   - c496931456e91035a06f78df2d99e1fe
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
+Z170 Extreme4:
+  aliases:
+  - Z170-Extreme4-ASRock-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: ''
+  asus_port290:
+  - IO2B
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASRock
+  bridge: Z170
+  gigabyte_wmi: N
+  hash:
+  - 0162fc109d1f2397d7346eec70e0f37d
+  - 141794a130de26e0187a40d14415ea49
+  - 2f8408d9a8d5d267215a5391e0838dba
+  - 3bb83d84f293c1f9033bf788ca4c8a6a
+  - 4b10b94f23d845d0f4a7b1378a008911
+  - 5bb390e9812e8a27e53a241e08538620
+  - 661567745cbb8f06c1e03a60c974636d
+  - 7945ff0dace3310e43f98d91090837ac
+  - d85f9330c5091d944041a6e6ba9219a1
+  - de01a9ef91d9e190bdebc9820ea7f9cc
   known_good: []
   known_good_nct6775: []
   links: []
@@ -39593,6 +39900,65 @@ Z690M AORUS ELITE AX DDR4:
   - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
   - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
   - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+Z87 Extreme6:
+  aliases:
+  - Z87-Extreme6-ASRock-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASRock
+  bridge: Z87
+  gigabyte_wmi: N
+  hash:
+  - 2b5caa1b639224e92ece561dd40800f6
+  - 31bc0f17d7c3956f3c8a59a313e2277d
+  - 468c4dbdb2aaa9e9ac53e93278de51a8
+  - 664eb02a0b4074ac4dc0c6cf631b5695
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
+Z87 Pro3:
+  aliases:
+  - Z87-Pro3-ASRock-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASRock
+  bridge: Z87
+  gigabyte_wmi: N
+  hash:
+  - 2bc8b4b4d0cba75cb5049f78fa8739a7
+  - 3bb621cadd5fd04b4ac7621e11880076
+  - 3cd3c5535335a87bf50c7df8d10928c7
+  - 468c4dbdb2aaa9e9ac53e93278de51a8
+  - 7d579c65fe1d76c88805e1dbbd6a6d84
+  - e3bf7bcd3911b78f75487eed8d37cbe3
+  - e5038624b500714a80d6d295a1327736
+  - e57a5d288c0e036b0a64be50b0bf6209
+  - f5309b6de49a42fa8e1a1f3ffdbc2887
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  upstreamed_serie: false
+  wmi_methods: []
 Z97-HD3:
   aliases:
   - Z97-HD3-GIGABYTE-0000

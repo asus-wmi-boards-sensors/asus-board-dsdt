@@ -1462,13 +1462,23 @@ DMI_ASUS_BOARD_INFO(acpi_board_LPC0_MUTEX, "\\_SB_.PCI0.LPC0.SIO1.MUT0");
 	.driver_data = info,							\
 }
 
+#define DMI_MATCH_ASROCK_WMI_BOARD(name, info) {					\
+	.matches = {								\
+		DMI_EXACT_MATCH(DMI_BOARD_VENDOR, "ASRock"),	\
+		DMI_EXACT_MATCH(DMI_BOARD_NAME, name),				\
+	},									\
+	.driver_data = info,							\
+}
 
 static const struct dmi_system_id asus_wmi_info_table[] = {
 	DMI_MATCH_ASUS_WMI_BOARD("B150 PRO GAMING", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("B150 PRO GAMING D3", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("B150M PRO GAMING", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("B250M-C PRO", &acpi_board_ILPC_MUTEX),
+	DMI_MATCH_ASROCK_WMI_BOARD("B365M Pro4-F", &acpi_board_ILPC_MUTEX),
+	DMI_MATCH_ASROCK_WMI_BOARD("B450M Pro4", &acpi_board_SBRG_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("B450M-DRAGON", &acpi_board_SBRG_MUTEX),
+	DMI_MATCH_ASROCK_WMI_BOARD("B650E PG Riptide WiFi", &acpi_board_SBRG_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("CROSSHAIR VI HERO", &acpi_board_SBRG_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("EX-B365M-V", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("EX-B365M-V5", &acpi_board_ILPC_MUTEX),
@@ -1515,7 +1525,12 @@ static const struct dmi_system_id asus_wmi_info_table[] = {
 	DMI_MATCH_ASUS_WMI_BOARD("TUF B365-PLUS GAMING", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("TUF B365M-PLUS GAMING", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("TUF Z270 MARK 1", &acpi_board_ILPC_MUTEX),
+	DMI_MATCH_ASROCK_WMI_BOARD("X370 Gaming X", &acpi_board_SBRG_MUTEX),
+	DMI_MATCH_ASROCK_WMI_BOARD("X399 Taichi", &acpi_board_SBRG_MUTEX),
+	DMI_MATCH_ASROCK_WMI_BOARD("X570 Steel Legend", &acpi_board_SBRG_MUTEX),
+	DMI_MATCH_ASROCK_WMI_BOARD("X570 Taichi", &acpi_board_SBRG_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("X99-E WS/USB 3.1", &acpi_board_LPC0_MUTEX),
+	DMI_MATCH_ASROCK_WMI_BOARD("Z170 Extreme4", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("Z170 PRO GAMING", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("Z170 PRO GAMING/AURA", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("Z170-A", &acpi_board_ILPC_MUTEX),

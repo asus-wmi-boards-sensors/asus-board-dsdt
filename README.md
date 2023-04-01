@@ -51,11 +51,13 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | B150M PRO GAMING                 | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | B250 MINING EXPERT               | NCT5539D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | B250M-C PRO                      |            | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
+| ASRock   | B365M Pro4-F                     |            | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | GIGABYTE | B450 AORUS ELITE                 |            | N                             | U            | N                             | N                             |
 | GIGABYTE | B450 AORUS PRO WIFI-CF           |            | N                             | U            | N                             | N                             |
 | GIGABYTE | B450M DS3H V2                    |            | N                             | U            | N                             | N                             |
 | GIGABYTE | B450M DS3H WIFI-CF               |            | N                             | Y            | N                             | N                             |
 | GIGABYTE | B450M DS3H-CF                    |            | N                             | Y            | N                             | N                             |
+| ASRock   | B450M Pro4                       |            | N                             | N            | P (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | GIGABYTE | B450M S2H V2                     |            | N                             | Y            | N                             | N                             |
 | ASUS     | B450M-DRAGON                     |            | N                             | N            | M (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | GIGABYTE | B550 AORUS ELITE                 |            | N                             | Y            | N                             | N                             |
@@ -67,6 +69,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | GIGABYTE | B550M AORUS PRO-P                |            | N                             | Y            | N                             | N                             |
 | GIGABYTE | B550M DS3H                       |            | N                             | Y            | N                             | N                             |
 | ASUS     | B560M-P                          |            | N                             | N            | Y (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
+| ASRock   | B650E PG Riptide WiFi            |            | N                             | N            | P (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | GIGABYTE | B660 GAMING X DDR4               |            | N                             | Y            | N                             | N                             |
 | GIGABYTE | B660I AORUS PRO DDR4             |            | N                             | Y            | N                             | N                             |
 | ASUS     | B85-PRO GAMER                    | NCT6791D   | N                             | N            | N                             | N                             |
@@ -88,6 +91,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | GIGABYTE | GA-MA78LMT-US2H                  |            | N                             | N            | N                             | N                             |
 | ASUS     | H110M-A/M.2                      | NCT5539D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | H170 PRO GAMING                  | NCT6793D   | F                             | N            | F                             | N                             |
+| ASRock   | H77M                             |            | N                             | N            | N                             | N                             |
 | ASUS     | H81-GAMER                        | NCT5538D   | N                             | N            | N                             | N                             |
 | ASUS     | H81M-R                           | NCT5538D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | H97-PRO GAMER                    | NCT5538D   | N                             | N            | N                             | N                             |
@@ -486,18 +490,23 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | TUF Z390M-PRO GAMING (WI-FI)     | NCT6798D   | N                             | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | WS Z390 PRO                      |            | N                             | N            | Y (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | GIGABYTE | X299 UD4-CF                      |            | N                             | U            | N                             | N                             |
+| ASRock   | X370 Gaming X                    |            | N                             | N            | P (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
+| ASRock   | X399 Taichi                      |            | N                             | N            | P (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | GIGABYTE | X470 AORUS ULTRA GAMING-CF       |            | N                             | U            | N                             | N                             |
 | GIGABYTE | X570 AORUS ELITE                 |            | N                             | Y            | N                             | N                             |
 | GIGABYTE | X570 AORUS ELITE WIFI            | IT8688E    | N                             | Y            | N                             | N                             |
 | GIGABYTE | X570 AORUS MASTER                | IT8688E    | N                             | U            | N                             | N                             |
 | GIGABYTE | X570 GAMING X                    |            | N                             | Y            | N                             | N                             |
 | GIGABYTE | X570 I AORUS PRO WIFI            | IT8688E    | N                             | Y            | N                             | N                             |
+| ASRock   | X570 Steel Legend                |            | N                             | N            | P (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
+| ASRock   | X570 Taichi                      |            | N                             | N            | P (\_SB.PCI0.SBRG.SIO1.MUT0)  | N                             |
 | GIGABYTE | X570 UD                          |            | N                             | Y            | N                             | N                             |
 | GIGABYTE | X79-UP4                          |            | N                             | N            | N                             | N                             |
 | ASUS     | X99-E WS                         |            | N                             | N            | P                             | N                             |
 | ASUS     | X99-E WS/USB 3.1                 | NCT6791D   | N                             | N            | P (\_SB_.PCI0.LPC0.SIO1.MUT0) | N                             |
 | ASUS     | X99-E-10G WS                     |            | F                             | N            | F                             | N                             |
 | GIGABYTE | X99-UD4-CF                       |            | N                             | N            | N                             | N                             |
+| ASRock   | Z170 Extreme4                    |            | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | Z170 PRO GAMING                  | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | Z170 PRO GAMING/AURA             | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
 | ASUS     | Z170-A                           | NCT6793D   | N                             | N            | P (\_SB.PCI0.LPCB.SIO1.MUT0)  | N                             |
@@ -521,6 +530,8 @@ Datasheets for sensors are placed to [docs directory](docs).
 | GIGABYTE | Z590 VISION G                    |            | N                             | U            | N                             | N                             |
 | ASUS     | Z590 WIFI GUNDAM EDITION         | NCT6798D   | N                             | N            | Y (\_SB.PC00.LPCB.SIO1.MUT0)  | N                             |
 | GIGABYTE | Z690M AORUS ELITE AX DDR4        |            | N                             | Y            | N                             | N                             |
+| ASRock   | Z87 Extreme6                     |            | N                             | N            | N                             | N                             |
+| ASRock   | Z87 Pro3                         |            | N                             | N            | N                             | N                             |
 | GIGABYTE | Z97-HD3                          |            | N                             | N            | N                             | N                             |
 | ASUS     | Z97-PRO GAMER                    | NCT5538D   | N                             | N            | N                             | N                             |
 
@@ -533,6 +544,8 @@ Datasheets for sensors are placed to [docs directory](docs).
 * M - required method exists, port defined in different way,
 * W - required method exists, no wmi method defined,
 * P - return zero, no valid sensors results or requires custom lock.
+
+Some boards are used nct6799 sensor and [additional patch](https://patchwork.kernel.org/project/linux-hwmon/patch/20221228135744.281752-1-linux@roeck-us.net/) apply is requited.
 
 # Entry point definition
 

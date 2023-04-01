@@ -1633,8 +1633,11 @@ def print_boards(boards_flags):
             if board_flags.get('board_producer') == 'ASUSTeK Computer INC.':
                 desc += (f'\tDMI_MATCH_ASUS_NONWMI_BOARD("{board_name}", '
                          f'&{ASUS_NCT6775_MUTEX_CODENAME.get(board_flags["asus_nct6775_mutex"], "")}),\n')
-            else:
+            elif board_flags.get('board_producer') == 'ASUSTeK COMPUTER INC.':
                 desc += (f'\tDMI_MATCH_ASUS_WMI_BOARD("{board_name}", '
+                         f'&{ASUS_NCT6775_MUTEX_CODENAME.get(board_flags["asus_nct6775_mutex"], "")}),\n')
+            elif board_flags.get('board_producer') == 'ASRock':
+                desc += (f'\tDMI_MATCH_ASROCK_WMI_BOARD("{board_name}", '
                          f'&{ASUS_NCT6775_MUTEX_CODENAME.get(board_flags["asus_nct6775_mutex"], "")}),\n')
     update_mutex_section(desc)
 
