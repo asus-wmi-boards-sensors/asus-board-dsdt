@@ -17,6 +17,27 @@ from utils import load_linuxhw_DMI, file_write_with_changes, load_board_flags
 
 
 LINKS = [
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360M-PLUS-GAMING-BR-SI-3202.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B360-I-GAMING-ASUS-3201.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B360-G-GAMING-ASUS-3101.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B360-F-GAMING-ASUS-3101.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B360-H-GAMING-ASUS-3201.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B360-H-GAMING-OPTANE-ASUS-3201.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H510T2-CSM-SI-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B360M-A-ASUS-3202.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/B360M-BASALT-ASUS-3202.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/B360M-D3H-ASUS-3202.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B360M-V-SI-3202.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B360M-V3-SI-3202.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B360M-V5-SI-3202.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H510M-R-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610M-R-D4-ASUS-2212.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360-PLUS-GAMING-ASUS-3101.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360-PRO-GAMING-ASUS-3101.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360-PRO-GAMING-WIFI-ASUS-3101.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360M-PLUS-GAMING-S-SI-3202.ZIP"
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360M-E-GAMING-ASUS-3202.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360M-PLUS-GAMING-ASUS-3202.ZIP",
 ]
 
 # Upstreamed ec
@@ -379,61 +400,6 @@ NCT6775_UPSTREAMED_CHIPSETS = [
     "Z790",
 ]
 
-# Upstreamed nct6775 series
-NCT6775_SERIES = {
-    # B550 style
-    "Pro A520",
-    "PRO H410",
-    "Pro H610",
-    "ProArt B550",
-    "ProArt X570",
-    "ProArt Z490",
-    "Pro B550",
-    "Pro WS X570",
-    "PRIME A520",
-    "PRIME B360",
-    "PRIME B460",
-    "PRIME B550",
-    "PRIME H410",
-    "PRIME X570",
-    "ROG CROSSHAIR VIII ",
-    "ROG STRIX B550",
-    "ROG STRIX X570",
-    "ROG STRIX Z390",
-    "ROG STRIX Z490",
-    "TUF GAMING A520",
-    "TUF GAMING B550",
-    "TUF GAMING X570",
-    "TUF GAMING Z490",
-    "Z490-",
-    # B650 style
-    "EX-B660",
-    "PRIME B650",
-    "PRIME B660",
-    "PRIME X670",
-    "PRIME Z590",
-    "Pro B660",
-    "Pro WS W680",
-    "ProArt B650",
-    "ProArt B660",
-    "ProArt X670",
-    "ProArt Z790",
-    "ROG CROSSHAIR X670",
-    "ROG MAXIMUS XIII ",
-    "ROG MAXIMUS Z690",
-    "ROG MAXIMUS Z790",
-    "ROG STRIX B650",
-    "ROG STRIX B660",
-    "ROG STRIX X670",
-    "ROG STRIX Z590",
-    "ROG STRIX Z690",
-    "TUF GAMING B650",
-    "TUF GAMING B660",
-    "TUF GAMING X670",
-    "TUF GAMING Z590",
-    "Z590 ",
-}
-
 # methods
 EC_METHODS = ["BREC"]
 NCT6775_METHODS = ["RSIO", "WSIO", "RHWM", "WHWM"]
@@ -525,6 +491,15 @@ BOARDNAME_CONVERT = {
     "B450M DS3H": "B450M DS3H-CF",
     "PRIME A320M-K BR": "PRIME A320M-K/BR",
     "TUF GAMING B760M BTF WIFI D4": "TUF GAMING B760M-BTF WIFI D4",
+    "PRIME H510T2-CSM": "PRIME H510T2/CSM",
+    "ROG STRIX B360-H GAMING OPTANE": "ROG STRIX B360-H GAMING/OPTANE",
+    "TUF B360M PLUS GAMING BR": "TUF B360M-PLUS GAMING/BR",
+    "TUF B360 PLUS GAMING": "TUF B360-PLUS GAMING",
+    "TUF B360 PRO GAMING": "TUF B360-PRO GAMING",
+    "TUF B360 PRO GAMING WIFI": "TUF B360-PRO GAMING (WI-FI)",
+    "TUF B360M PLUS GAMING S": "TUF B360M-PLUS GAMING S",
+    "TUF B360M E GAMING": "TUF B360M-E GAMING",
+    "TUF B360M PLUS GAMING": "TUF B360M-PLUS GAMING",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -1085,12 +1060,6 @@ def set_default_flags(board_flags, board_name):
         ):
             board_flags["upstreamed_serie"] = True
 
-    # set upstream ready
-    if not board_flags["upstreamed_serie"]:
-        for serie in NCT6775_SERIES:
-            if board_name.upper().startswith(serie.upper()):
-                board_flags["upstreamed_serie"] = True
-                break
 
 def update_board_asl_flags(board_flags, asl_struct):
     # search name region Gigabyte style
@@ -1421,10 +1390,11 @@ def add_load_flags(boards_flags, board_desc):
         if not board_has_nct6775(board_superio):
             continue
 
-        for serie in NCT6775_SERIES:
-            if board_name.upper().startswith(serie.upper()):
-                board_name = serie + board_name[len(serie):]
-
+        for serie in NCT6775_UPSTREAMED_CHIPSETS:
+            # skip not asus for now
+            if "ASUS" not in board_producer.upper():
+                continue
+            if serie in board_name.upper():
                 if board_name not in boards_flags:
                     boards_flags[board_name] = {
                         "board_producer": board_producer,

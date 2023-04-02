@@ -32,6 +32,10 @@ Datasheets for sensors are placed to [docs directory](docs).
 * [NCT6796D](https://www.nuvoton.com/export/resource-files/NCT6796D_Datasheet_V0_6.pdf)
 * search more in google: `site:www.nuvoton.com nct6 pdf`
 
+# TODO
+
+Port to use asl directly instead disassembling to dsl.
+
 # Supported boards
 
 | made by  | board name                       | superio    | asus-wmi     | gigabyte-wmi | nct6775      | asus-ec      |
@@ -52,6 +56,8 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | B150M PRO GAMING                 | NCT6793D   | N            | N            | P            | N            |
 | ASUS     | B250 MINING EXPERT               | NCT5539D   | N            | N            | P            | N            |
 | ASUS     | B250M-C PRO                      |            | N            | N            | P            | N            |
+| ASUS     | B360M-BASALT                     | NCT5582D   | N            | N            | U            | N            |
+| ASUS     | B360M-D3H                        | NCT5582D   | N            | N            | U            | N            |
 | ASROCK   | B365M Pro4-F                     |            | N            | N            | P            | N            |
 | GIGABYTE | B450 AORUS ELITE                 |            | N            | U            | N            | N            |
 | GIGABYTE | B450 AORUS PRO WIFI-CF           |            | N            | U            | N            | N            |
@@ -69,6 +75,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | GIGABYTE | B550I AORUS PRO AX               |            | N            | Y            | N            | N            |
 | GIGABYTE | B550M AORUS PRO-P                |            | N            | Y            | N            | N            |
 | GIGABYTE | B550M DS3H                       |            | N            | Y            | N            | N            |
+| ASUS     | B560M-A PRIME                    |            | L            | N            | L            | N            |
 | ASUS     | B560M-P                          |            | N            | N            | Y            | N            |
 | ASROCK   | B650E PG Riptide WiFi            |            | N            | N            | P            | N            |
 | GIGABYTE | B660 GAMING X DDR4               |            | N            | Y            | N            | N            |
@@ -77,6 +84,9 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | B85M-GAMER                       | NCT6791D   | N            | N            | N            | N            |
 | ASUS     | CROSSHAIR VI HERO                |            | Y            | N            | M            | U            |
 | ASUS     | EX-A320M-GAMING                  | IT8655E    | N            | N            | M            | N            |
+| ASUS     | EX-B360M-V                       |            | N            | N            | U            | N            |
+| ASUS     | EX-B360M-V3                      |            | N            | N            | U            | N            |
+| ASUS     | EX-B360M-V5                      |            | N            | N            | U            | N            |
 | ASUS     | EX-B365M-V                       |            | N            | N            | P            | N            |
 | ASUS     | EX-B365M-V5                      | NCT5582D   | N            | N            | P            | N            |
 | ASUS     | EX-B460M-V5                      |            | N            | N            | Y            | N            |
@@ -89,6 +99,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | EX-H610M-V3 D4                   |            | N            | N            | Y            | N            |
 | GIGABYTE | EX58-UD5                         |            | N            | N            | N            | N            |
 | GIGABYTE | F2A78M-HD2                       |            | N            | N            | N            | N            |
+| ASUS     | FX570UD                          |            | L            | N            | L            | N            |
 | GIGABYTE | GA-MA78LMT-US2H                  |            | N            | N            | N            | N            |
 | ASUS     | H110M-A/M.2                      | NCT5539D   | N            | N            | P            | N            |
 | ASUS     | H170 PRO GAMING                  | NCT6793D   | F            | N            | F            | N            |
@@ -208,6 +219,8 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | PRIME H510M-F                    |            | N            | N            | Y            | N            |
 | ASUS     | PRIME H510M-K                    | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H510M-K R2.0               | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | PRIME H510M-R                    | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | PRIME H510T2/CSM                 | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | PRIME H610I-PLUS D4              |            | N            | N            | Y            | N            |
 | ASUS     | PRIME H610M-A D4                 | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H610M-A WIFI D4            | NCT6798D   | N            | N            | Y            | N            |
@@ -215,6 +228,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | PRIME H610M-E D4                 | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H610M-F D4                 |            | N            | N            | Y            | N            |
 | ASUS     | PRIME H610M-K D4                 | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | PRIME H610M-R D4                 | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | PRIME X370-PRO                   | IT8665E    | N            | N            | M            | N            |
 | ASUS     | PRIME X399-A                     |            | Y            | N            | P            | N            |
 | ASUS     | PRIME X470-PRO                   | IT8665E    | Y            | N            | M            | Y            |
@@ -247,6 +261,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | PRIME Z690-P D4                  | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME Z690-P WIFI                | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME Z690-P WIFI D4             | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | PRIME Z690M-HZ                   | NCT6798D   | L            | N            | L            | N            |
 | ASUS     | PRIME Z690M-PLUS D4              | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME Z790-A WIFI                |            | N            | N            | Y            | N            |
 | ASUS     | PRIME Z790-P                     | NCT6798D   | N            | N            | Y            | N            |
@@ -331,6 +346,11 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ROG MAXIMUS Z790 HERO            | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX B350-F GAMING          | IT8665E    | N            | N            | M            | N            |
 | ASUS     | ROG STRIX B350-I GAMING          | IT8665E    | N            | N            | M            | N            |
+| ASUS     | ROG STRIX B360-F GAMING          | NCT6796D   | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B360-G GAMING          | NCT5582D   | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B360-H GAMING          |            | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B360-H GAMING/OPTANE   |            | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B360-I GAMING          | NCT6796D   | N            | N            | U            | N            |
 | ASUS     | ROG STRIX B365-F GAMING          | NCT6796D   | N            | N            | P            | N            |
 | ASUS     | ROG STRIX B365-G GAMING          | NCT6796D   | N            | N            | P            | N            |
 | ASUS     | ROG STRIX B450-E GAMING          |            | Y            | N            | M            | U            |
@@ -429,6 +449,14 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | STRIX Z270H GAMING               | NCT6793D   | N            | N            | P            | N            |
 | ASUS     | STRIX Z270I GAMING               | NCT6793D   | F            | N            | F            | N            |
 | ASUS     | TUF B350M-PLUS GAMING            | IT8655E    | N            | N            | M            | N            |
+| ASUS     | TUF B360-PLUS GAMING             |            | N            | N            | U            | N            |
+| ASUS     | TUF B360-PRO GAMING              | NCT5582D   | N            | N            | U            | N            |
+| ASUS     | TUF B360-PRO GAMING (WI-FI)      | NCT5582D   | N            | N            | U            | N            |
+| ASUS     | TUF B360-PRO GAMING WIFI         |            | L            | N            | L            | N            |
+| ASUS     | TUF B360M-E GAMING               | NCT5582D   | N            | N            | U            | N            |
+| ASUS     | TUF B360M-PLUS GAMING            | NCT5582D   | N            | N            | U            | N            |
+| ASUS     | TUF B360M-PLUS GAMING S          | NCT5582D   | N            | N            | U            | N            |
+| ASUS     | TUF B360M-PLUS GAMING/BR         | NCT5582D   | N            | N            | U            | N            |
 | ASUS     | TUF B365-PLUS GAMING             | NCT5582D   | N            | N            | P            | N            |
 | ASUS     | TUF B365M-PLUS GAMING            | NCT5582D   | N            | N            | P            | N            |
 | ASUS     | TUF B450-PLUS GAMING             | IT8665E    | N            | N            | M            | N            |
@@ -445,6 +473,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | TUF GAMING B450M-PRO II          | IT8655E    | N            | N            | M            | N            |
 | ASUS     | TUF GAMING B450M-PRO S           | IT8655E    | N            | N            | M            | N            |
 | ASUS     | TUF GAMING B460-PLUS             | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | TUF GAMING B460-PRO              | NCT6798D   | L            | N            | L            | N            |
 | ASUS     | TUF GAMING B460-PRO (WI-FI)      | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING B460M-PLUS            | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING B460M-PLUS (WI-FI)    | NCT6798D   | N            | N            | Y            | N            |
@@ -518,6 +547,9 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASROCK   | X570 Steel Legend                |            | N            | N            | P            | N            |
 | ASROCK   | X570 Taichi                      |            | N            | N            | P            | N            |
 | GIGABYTE | X570 UD                          |            | N            | Y            | N            | N            |
+| ASUS     | X570DD                           |            | L            | N            | L            | N            |
+| ASUS     | X570UD                           |            | L            | N            | L            | N            |
+| ASUS     | X570ZD                           |            | L            | N            | L            | N            |
 | GIGABYTE | X79-UP4                          |            | N            | N            | N            | N            |
 | ASUS     | X99-E WS                         |            | N            | N            | P            | N            |
 | ASUS     | X99-E WS/USB 3.1                 | NCT6791D   | N            | N            | P            | N            |
@@ -541,7 +573,6 @@ Datasheets for sensors are placed to [docs directory](docs).
 | GIGABYTE | Z590 AORUS ULTRA                 |            | N            | U            | N            | N            |
 | GIGABYTE | Z590 D                           |            | N            | U            | N            | N            |
 | GIGABYTE | Z590 GAMING X                    |            | N            | U            | N            | N            |
-| ASROCK   | Z590 Phantom Gaming 4            |            | L            | N            | L            | N            |
 | GIGABYTE | Z590 UD                          |            | N            | U            | N            | N            |
 | GIGABYTE | Z590 UD AC                       |            | N            | U            | N            | N            |
 | GIGABYTE | Z590 VISION D                    |            | N            | U            | N            | N            |
@@ -563,7 +594,12 @@ Datasheets for sensors are placed to [docs directory](docs).
 * W - required method exists, no wmi method defined,
 * P - return zero, no valid sensors results or requires custom lock.
 
-Some boards are used nct6799 sensor and [additional patch](https://patchwork.kernel.org/project/linux-hwmon/patch/20221228135744.281752-1-linux@roeck-us.net/) apply is requited.
+Notes:
+* Some boards are used nct6799 sensor and
+  [additional patch](https://patchwork.kernel.org/project/linux-hwmon/patch/20221228135744.281752-1-linux@roeck-us.net/)
+  apply is requited.
+* IT8665E like sensors required custom it87 module and WMI proxy implementation,
+  that is not implemeted for now.
 
 # Entry point definition
 

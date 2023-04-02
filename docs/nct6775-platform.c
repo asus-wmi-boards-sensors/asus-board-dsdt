@@ -1097,8 +1097,13 @@ static int __init nct6775_find(int sioaddr, struct nct6775_sio_data *sio_data)
 static struct platform_device *pdev[2];
 
 static const char * const asus_wmi_boards[] = {
+	"B360M-BASALT",
+	"B360M-D3H",
 	"B450M-DRAGON", // use custom port definition
 	"CROSSHAIR VI HERO", // use custom port definition
+	"EX-B360M-V",
+	"EX-B360M-V3",
+	"EX-B360M-V5",
 	"EX-B460M-V5",
 	"EX-H410M-V3",
 	"PRIME A520M-A",
@@ -1173,6 +1178,11 @@ static const char * const asus_wmi_boards[] = {
 	"ROG MAXIMUS XII EXTREME",
 	"ROG MAXIMUS XII FORMULA",
 	"ROG MAXIMUS XII HERO (WI-FI)",
+	"ROG STRIX B360-F GAMING",
+	"ROG STRIX B360-G GAMING",
+	"ROG STRIX B360-H GAMING",
+	"ROG STRIX B360-H GAMING/OPTANE",
+	"ROG STRIX B360-I GAMING",
 	"ROG STRIX B450-E GAMING", // use custom port definition
 	"ROG STRIX B450-I GAMING", // use custom port definition
 	"ROG STRIX B460-F GAMING",
@@ -1203,6 +1213,13 @@ static const char * const asus_wmi_boards[] = {
 	"ROG STRIX Z490-G GAMING (WI-FI)",
 	"ROG STRIX Z490-H GAMING",
 	"ROG STRIX Z490-I GAMING",
+	"TUF B360-PLUS GAMING",
+	"TUF B360-PRO GAMING",
+	"TUF B360-PRO GAMING (WI-FI)",
+	"TUF B360M-E GAMING",
+	"TUF B360M-PLUS GAMING",
+	"TUF B360M-PLUS GAMING S",
+	"TUF B360M-PLUS GAMING/BR",
 	"TUF GAMING A520M-PLUS",
 	"TUF GAMING A520M-PLUS II",
 	"TUF GAMING A520M-PLUS WIFI",
@@ -1277,6 +1294,8 @@ static const char * const asus_msi_boards[] = {
 	"PRIME H510M-E",
 	"PRIME H510M-F",
 	"PRIME H510M-K",
+	"PRIME H510M-R",
+	"PRIME H510T2/CSM",
 	"PRIME H610I-PLUS D4",
 	"PRIME H610M-A D4",
 	"PRIME H610M-A WIFI D4",
@@ -1284,6 +1303,7 @@ static const char * const asus_msi_boards[] = {
 	"PRIME H610M-E D4",
 	"PRIME H610M-F D4",
 	"PRIME H610M-K D4",
+	"PRIME H610M-R D4",
 	"PRIME X670-P",
 	"PRIME X670-P WIFI",
 	"PRIME X670E-PRO WIFI",
