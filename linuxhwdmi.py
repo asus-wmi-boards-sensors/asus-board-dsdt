@@ -74,9 +74,6 @@ def dmi_process(content):
                 record[1].get("Type") == "Other"
             ):
                 board_sensor = record[1].get("Description")
-                for sensor_producer in ["SMsC", "SmSC", "Nuvoton", "Winbond", "ITE"]:
-                    if f"{sensor_producer} " in board_sensor:
-                        board_sensor = board_sensor.replace(f"{sensor_producer} ", "")
 
     return board_producer, board_name, board_sensor
 

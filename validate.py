@@ -1440,26 +1440,19 @@ def add_load_flags(boards_flags, board_desc):
 
 
 def show_board(board_name, board_producer, superio="", asus_wmi="N", gigabyte_wmi="N",
-               asus_nct6775="N", asus_ec="N", asus_ite87_mutex="",
-               asus_nct6775_mutex="", asus_ec_mutex=""):
-    for brand in ["ASUS", "GIGABYTE", "LENOVO"]:
+               asus_nct6775="N", asus_ec="N"):
+    for brand in ["ASUS", "GIGABYTE", "LENOVO", "ASROCK"]:
         if brand in board_producer.upper():
             board_producer = brand
             break
-    if asus_ite87_mutex:
-        asus_wmi += " (" + asus_ite87_mutex + ")"
-    if asus_nct6775_mutex:
-        asus_nct6775 += " (" + asus_nct6775_mutex + ")"
-    if asus_ec_mutex:
-        asus_ec += " (" + asus_ec_mutex + ")"
     return (
         f"| {board_producer}{' ' * (9 - len(board_producer))}"
         f"| {board_name}{' ' * (33 - len(board_name))}"
         f"| {superio}{' ' * (11 - len(superio))}"
-        f"| {asus_wmi}{' ' * (30 - len(asus_wmi)) }"
+        f"| {asus_wmi}{' ' * (13 - len(asus_wmi)) }"
         f"| {gigabyte_wmi}{' ' * (13 - len(gigabyte_wmi)) }"
-        f"| {asus_nct6775}{' ' * (30 - len(asus_nct6775))}"
-        f"| {asus_ec}{' ' * (30 - len(asus_ec))}"
+        f"| {asus_nct6775}{' ' * (13 - len(asus_nct6775))}"
+        f"| {asus_ec}{' ' * (13 - len(asus_ec))}"
         f"|"
     )
 
@@ -1556,22 +1549,19 @@ def print_boards(boards_flags):
             board_name="board name",
             board_producer="made by",
             superio="superio",
-            asus_wmi="asus_wmi_sensors",
+            asus_wmi="asus-wmi",
             asus_nct6775="nct6775",
-            asus_ec="asus_ec_sensors",
-            gigabyte_wmi="gigabyte-wmi",
-            asus_ite87_mutex="io mutex",
-            asus_nct6775_mutex="io mutex",
-            asus_ec_mutex="ec mutex"
+            asus_ec="asus-ec",
+            gigabyte_wmi="gigabyte-wmi"
     )
     desc += "\n"
     desc += show_board(
             board_name="-" * 32,
             board_producer="-" * 9,
             superio="-" * 10,
-            asus_wmi="-" * 29,
-            asus_nct6775="-"  * 29,
-            asus_ec="-" * 29,
+            asus_wmi="-" * 12,
+            asus_nct6775="-"  * 12,
+            asus_ec="-" * 12,
             gigabyte_wmi="-" * 12
     )
     desc += "\n"
@@ -1594,10 +1584,7 @@ def print_boards(boards_flags):
             asus_wmi=asus_wmi,
             asus_nct6775=asus_nct6775,
             asus_ec=board_flags["asus_ec"],
-            gigabyte_wmi=board_flags["gigabyte_wmi"],
-            asus_ite87_mutex=board_flags["asus_ite87_mutex"],
-            asus_nct6775_mutex=board_flags["asus_nct6775_mutex"],
-            asus_ec_mutex=board_flags["asus_ec_mutex"],
+            gigabyte_wmi=board_flags["gigabyte_wmi"]
         )
         desc += "\n"
     # print (desc)
@@ -1795,11 +1782,11 @@ if __name__ == "__main__":
         if row[0] not in (
             "ASUSTeK Computer INC.",
             "ASUSTeK COMPUTER INC.",
+            "ASRock",
             "Gigabyte Technology Co., Ltd.",
             "LENOVO"
         ):
             continue
-        row[2] = row[2].replace('"', " ").strip()
         board_desc.append(row)
     print (f"Loaded cleanuped {len(board_desc)} boards descriptions.")
 
