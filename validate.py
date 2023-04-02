@@ -38,6 +38,8 @@ LINKS = [
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360M-PLUS-GAMING-S-SI-3202.ZIP"
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360M-E-GAMING-ASUS-3202.ZIP",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360M-PLUS-GAMING-ASUS-3202.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-WRX80E-SAGE-SE-WIFI-II-ASUS-1106.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-WRX80E-SAGE-SE-WIFI-ASUS-1106.zip",
 ]
 
 # Upstreamed ec
@@ -391,6 +393,7 @@ NCT6775_UPSTREAMED_CHIPSETS = [
     "H510",
     "H610",
     "W680",
+    "W790",
     "X570",
     "X670",
     "Z390",
@@ -500,6 +503,8 @@ BOARDNAME_CONVERT = {
     "TUF B360M PLUS GAMING S": "TUF B360M-PLUS GAMING S",
     "TUF B360M E GAMING": "TUF B360M-E GAMING",
     "TUF B360M PLUS GAMING": "TUF B360M-PLUS GAMING",
+    "PRO WS WRX80E-SAGE-SE-WIFI": "Pro WS WRX80E-SAGE SE WIFI",
+    "PRO WS WRX80E-SAGE-SE-WIFI-II": "Pro WS WRX80E-SAGE SE WIFI II",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -1642,6 +1647,25 @@ def file_name_to_board_name(filename, alias_to_name):
     return board_name, board_version, bridge_chipset, board_producer
 
 
+def update_superio_by_bridge(boards_flags):
+    # update superio by bridge
+    for bridge in ASUS_BOARDS:
+        # current super io
+        superio = ""
+        for board in ASUS_BOARDS[bridge]:
+            if board in boards_flags:
+                superio = boards_flags[board].get("superio")
+                if superio:
+                    break
+        # skip serie
+        if not superio:
+            continue
+        for board in ASUS_BOARDS[bridge]:
+            if board in boards_flags:
+                if not boards_flags[board].get("superio"):
+                    boards_flags[board]["superio"] = superio
+
+
 if __name__ == "__main__":
 
     # resort board names
@@ -1891,6 +1915,8 @@ if __name__ == "__main__":
                 update_board_asl_flags(board_flags, asl_struct)
 
                 print (f"\tProcess time: {round(time.time() - start_time, 3)}")
+
+    update_superio_by_bridge(boards_flags)
 
     # sort flags
     for name in boards_flags:

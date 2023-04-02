@@ -55,7 +55,7 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | B150I PRO GAMING/WIFI/AURA       | NCT5539D   | N            | N            | P            | N            |
 | ASUS     | B150M PRO GAMING                 | NCT6793D   | N            | N            | P            | N            |
 | ASUS     | B250 MINING EXPERT               | NCT5539D   | N            | N            | P            | N            |
-| ASUS     | B250M-C PRO                      |            | N            | N            | P            | N            |
+| ASUS     | B250M-C PRO                      | NCT5539D   | N            | N            | P            | N            |
 | ASUS     | B360M-BASALT                     | NCT5582D   | N            | N            | U            | N            |
 | ASUS     | B360M-D3H                        | NCT5582D   | N            | N            | U            | N            |
 | ASROCK   | B365M Pro4-F                     |            | N            | N            | P            | N            |
@@ -76,7 +76,7 @@ Port to use asl directly instead disassembling to dsl.
 | GIGABYTE | B550M AORUS PRO-P                |            | N            | Y            | N            | N            |
 | GIGABYTE | B550M DS3H                       |            | N            | Y            | N            | N            |
 | ASUS     | B560M-A PRIME                    |            | L            | N            | L            | N            |
-| ASUS     | B560M-P                          |            | N            | N            | Y            | N            |
+| ASUS     | B560M-P                          | NCT6798D   | N            | N            | Y            | N            |
 | ASROCK   | B650E PG Riptide WiFi            |            | N            | N            | P            | N            |
 | GIGABYTE | B660 GAMING X DDR4               |            | N            | Y            | N            | N            |
 | GIGABYTE | B660I AORUS PRO DDR4             |            | N            | Y            | N            | N            |
@@ -84,19 +84,19 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | B85M-GAMER                       | NCT6791D   | N            | N            | N            | N            |
 | ASUS     | CROSSHAIR VI HERO                |            | Y            | N            | M            | U            |
 | ASUS     | EX-A320M-GAMING                  | IT8655E    | N            | N            | M            | N            |
-| ASUS     | EX-B360M-V                       |            | N            | N            | U            | N            |
-| ASUS     | EX-B360M-V3                      |            | N            | N            | U            | N            |
-| ASUS     | EX-B360M-V5                      |            | N            | N            | U            | N            |
-| ASUS     | EX-B365M-V                       |            | N            | N            | P            | N            |
+| ASUS     | EX-B360M-V                       | NCT5582D   | N            | N            | U            | N            |
+| ASUS     | EX-B360M-V3                      | NCT5582D   | N            | N            | U            | N            |
+| ASUS     | EX-B360M-V5                      | NCT5582D   | N            | N            | U            | N            |
+| ASUS     | EX-B365M-V                       | NCT5582D   | N            | N            | P            | N            |
 | ASUS     | EX-B365M-V5                      | NCT5582D   | N            | N            | P            | N            |
-| ASUS     | EX-B460M-V5                      |            | N            | N            | Y            | N            |
-| ASUS     | EX-B560M-V5                      |            | N            | N            | Y            | N            |
-| ASUS     | EX-B660M-V5 D4                   |            | N            | N            | Y            | N            |
-| ASUS     | EX-B660M-V5 PRO D4               |            | N            | N            | Y            | N            |
-| ASUS     | EX-B760M-V5 D4                   |            | N            | N            | U            | N            |
-| ASUS     | EX-H410M-V3                      |            | N            | N            | Y            | N            |
-| ASUS     | EX-H510M-V3                      |            | N            | N            | Y            | N            |
-| ASUS     | EX-H610M-V3 D4                   |            | N            | N            | Y            | N            |
+| ASUS     | EX-B460M-V5                      | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | EX-B560M-V5                      | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | EX-B660M-V5 D4                   | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | EX-B660M-V5 PRO D4               | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | EX-B760M-V5 D4                   | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | EX-H410M-V3                      | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | EX-H510M-V3                      | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | EX-H610M-V3 D4                   | NCT6798D   | N            | N            | Y            | N            |
 | GIGABYTE | EX58-UD5                         |            | N            | N            | N            | N            |
 | GIGABYTE | F2A78M-HD2                       |            | N            | N            | N            | N            |
 | ASUS     | FX570UD                          |            | L            | N            | L            | N            |
@@ -137,11 +137,11 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | PRIME A520M-A II                 | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | PRIME A520M-E                    | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | PRIME A520M-K                    | NCT6798D-R | N            | N            | Y            | N            |
-| ASUS     | PRIME A620M-A                    |            | N            | N            | U            | N            |
+| ASUS     | PRIME A620M-A                    | NCT6799D-R | N            | N            | U            | N            |
 | ASUS     | PRIME B250-PLUS                  | NCT5539D   | F            | N            | F            | N            |
 | ASUS     | PRIME B250M-A                    | NCT6793D   | F            | N            | F            | N            |
 | ASUS     | PRIME B250M-C                    | NCT6793D   | N            | N            | P            | N            |
-| ASUS     | PRIME B250M-J                    |            | N            | N            | P            | N            |
+| ASUS     | PRIME B250M-J                    | NCT5539D   | N            | N            | P            | N            |
 | ASUS     | PRIME B250M-K                    | NCT5539D   | F            | N            | F            | N            |
 | ASUS     | PRIME B250M-PLUS                 | NCT5539D   | F            | N            | F            | N            |
 | ASUS     | PRIME B350-PLUS                  | IT8655E    | N            | N            | M            | N            |
@@ -155,7 +155,7 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | PRIME B360M-K                    | NCT5582D   | N            | N            | Y            | N            |
 | ASUS     | PRIME B365-PLUS                  | NCT5582D   | N            | N            | P            | N            |
 | ASUS     | PRIME B365M-A                    | NCT6796D   | N            | N            | P            | N            |
-| ASUS     | PRIME B365M-C                    |            | N            | N            | P            | N            |
+| ASUS     | PRIME B365M-C                    | NCT5582D   | N            | N            | P            | N            |
 | ASUS     | PRIME B365M-K                    | NCT5582D   | N            | N            | P            | N            |
 | ASUS     | PRIME B450-PLUS                  | IT8665E    | N            | N            | M            | N            |
 | ASUS     | PRIME B450M-A                    | IT8655E    | N            | N            | M            | N            |
@@ -181,52 +181,52 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | PRIME B560M-A                    | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME B560M-A AC                 | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME B560M-K                    | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | PRIME B650-PLUS                  |            | N            | N            | Y            | N            |
-| ASUS     | PRIME B650M-A                    |            | N            | N            | Y            | N            |
+| ASUS     | PRIME B650-PLUS                  | NCT6799D-R | N            | N            | Y            | N            |
+| ASUS     | PRIME B650M-A                    | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | PRIME B650M-A AX                 | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | PRIME B650M-A AX II              | NCT6799D-R | N            | N            | Y            | N            |
-| ASUS     | PRIME B650M-A II                 |            | N            | N            | Y            | N            |
-| ASUS     | PRIME B650M-A WIFI               |            | N            | N            | Y            | N            |
-| ASUS     | PRIME B650M-A WIFI II            |            | N            | N            | Y            | N            |
+| ASUS     | PRIME B650M-A II                 | NCT6799D-R | N            | N            | Y            | N            |
+| ASUS     | PRIME B650M-A WIFI               | NCT6799D-R | N            | N            | Y            | N            |
+| ASUS     | PRIME B650M-A WIFI II            | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | PRIME B660-PLUS D4               | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME B660M-A AC D4              | NCT6798D   | N            | N            | U            | N            |
-| ASUS     | PRIME B660M-A D4                 |            | N            | N            | Y            | N            |
+| ASUS     | PRIME B660M-A D4                 | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME B660M-A WIFI D4            | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME B660M-K D4                 | NCT6798D   | N            | N            | U            | N            |
-| ASUS     | PRIME B760-PLUS                  |            | N            | N            | U            | N            |
-| ASUS     | PRIME B760-PLUS D4               |            | N            | N            | U            | N            |
-| ASUS     | PRIME B760M-A                    |            | N            | N            | U            | N            |
+| ASUS     | PRIME B760-PLUS                  | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | PRIME B760-PLUS D4               | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | PRIME B760M-A                    | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | PRIME B760M-A AX D4              |            | N            | N            | U            | N            |
-| ASUS     | PRIME B760M-A D4                 |            | N            | N            | U            | N            |
-| ASUS     | PRIME B760M-A WIFI               |            | N            | N            | U            | N            |
-| ASUS     | PRIME B760M-A WIFI D4            |            | N            | N            | U            | N            |
+| ASUS     | PRIME B760M-A D4                 | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | PRIME B760M-A WIFI               | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | PRIME B760M-A WIFI D4            | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | PRIME B760M-AJ D4                |            | N            | N            | U            | N            |
-| ASUS     | PRIME B760M-K D4                 |            | N            | N            | U            | N            |
+| ASUS     | PRIME B760M-K D4                 | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | PRIME H270-PLUS                  | NCT5539D   | N            | N            | P            | N            |
 | ASUS     | PRIME H310T                      | NCT5582D   | N            | N            | U            | N            |
 | ASUS     | PRIME H410I-PLUS                 | NCT6798D   | N            | N            | U            | N            |
-| ASUS     | PRIME H410M-A                    |            | N            | N            | Y            | N            |
-| ASUS     | PRIME H410M-D                    |            | N            | N            | Y            | N            |
-| ASUS     | PRIME H410M-E                    |            | N            | N            | Y            | N            |
-| ASUS     | PRIME H410M-F                    |            | N            | N            | Y            | N            |
-| ASUS     | PRIME H410M-K                    |            | N            | N            | Y            | N            |
-| ASUS     | PRIME H410M-K R2.0               |            | N            | N            | Y            | N            |
+| ASUS     | PRIME H410M-A                    | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | PRIME H410M-D                    | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | PRIME H410M-E                    | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | PRIME H410M-F                    | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | PRIME H410M-K                    | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | PRIME H410M-K R2.0               | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H410M-R                    | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H510M-A                    | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H510M-A WIFI               | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H510M-D                    | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H510M-E                    | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | PRIME H510M-F                    |            | N            | N            | Y            | N            |
+| ASUS     | PRIME H510M-F                    | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H510M-K                    | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H510M-K R2.0               | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H510M-R                    | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | PRIME H510T2/CSM                 | NCT6798D   | N            | N            | U            | N            |
-| ASUS     | PRIME H610I-PLUS D4              |            | N            | N            | Y            | N            |
+| ASUS     | PRIME H610I-PLUS D4              | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H610M-A D4                 | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H610M-A WIFI D4            | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | PRIME H610M-D D4                 |            | N            | N            | Y            | N            |
+| ASUS     | PRIME H610M-D D4                 | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H610M-E D4                 | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | PRIME H610M-F D4                 |            | N            | N            | Y            | N            |
+| ASUS     | PRIME H610M-F D4                 | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H610M-K D4                 | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H610M-R D4                 | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | PRIME X370-PRO                   | IT8665E    | N            | N            | M            | N            |
@@ -234,7 +234,7 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | PRIME X470-PRO                   | IT8665E    | Y            | N            | M            | Y            |
 | ASUS     | PRIME X570-P                     | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | PRIME X570-PRO                   | NCT6798D-R | N            | N            | Y            | Y            |
-| ASUS     | PRIME X670-P                     |            | N            | N            | Y            | N            |
+| ASUS     | PRIME X670-P                     | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | PRIME X670-P WIFI                | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | PRIME X670E-PRO WIFI             | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | PRIME Z270-A                     | NCT6793D   | N            | N            | P            | N            |
@@ -246,10 +246,10 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | PRIME Z390-A                     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME Z390-A/H10                 | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME Z390-P                     | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | PRIME Z390M-PLUS                 |            | N            | N            | Y            | N            |
+| ASUS     | PRIME Z390M-PLUS                 | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME Z490-A                     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME Z490-P                     | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | PRIME Z490-V                     |            | N            | N            | Y            | N            |
+| ASUS     | PRIME Z490-V                     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME Z490M-PLUS                 | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME Z590-A                     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME Z590-P                     | NCT6798D   | N            | N            | Y            | N            |
@@ -263,47 +263,49 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | PRIME Z690-P WIFI D4             | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME Z690M-HZ                   | NCT6798D   | L            | N            | L            | N            |
 | ASUS     | PRIME Z690M-PLUS D4              | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | PRIME Z790-A WIFI                |            | N            | N            | Y            | N            |
+| ASUS     | PRIME Z790-A WIFI                | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME Z790-P                     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME Z790-P D4                  | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME Z790-P WIFI                | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME Z790-P WIFI D4             | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | PRIME Z790M-PLUS                 |            | N            | N            | Y            | N            |
+| ASUS     | PRIME Z790M-PLUS                 | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME Z790M-PLUS D4              | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRO A320M-R WI-FI                | IT8655E    | N            | N            | M            | N            |
 | ASUS     | PRO B460M-C                      | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRO H410M-C                      | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRO H410T                        | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | Pro A520M-C                      |            | N            | N            | Y            | N            |
-| ASUS     | Pro A520M-C II                   |            | N            | N            | Y            | N            |
+| ASUS     | Pro A520M-C                      | NCT6798D-R | N            | N            | Y            | N            |
+| ASUS     | Pro A520M-C II                   | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | Pro B550M-C                      | NCT6798D-R | N            | N            | Y            | N            |
-| ASUS     | Pro B560M-C                      |            | N            | N            | Y            | N            |
-| ASUS     | Pro B560M-CT                     |            | N            | N            | Y            | N            |
-| ASUS     | Pro B660M-C                      |            | N            | N            | Y            | N            |
-| ASUS     | Pro B660M-C D4                   |            | N            | N            | Y            | N            |
-| ASUS     | Pro B760M-C                      |            | N            | N            | U            | N            |
-| ASUS     | Pro B760M-CT                     |            | N            | N            | U            | N            |
+| ASUS     | Pro B560M-C                      | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | Pro B560M-CT                     | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | Pro B660M-C                      | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | Pro B660M-C D4                   | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | Pro B760M-C                      | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | Pro B760M-CT                     | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | Pro H510M-C                      | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | Pro H510M-CT                     | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | Pro H610M-C                      |            | N            | N            | Y            | N            |
-| ASUS     | Pro H610M-C D4                   |            | N            | N            | Y            | N            |
-| ASUS     | Pro H610M-CT D4                  |            | N            | N            | Y            | N            |
-| ASUS     | Pro H610T D4                     |            | N            | N            | Y            | N            |
+| ASUS     | Pro H610M-C                      | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | Pro H610M-C D4                   | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | Pro H610M-CT D4                  | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | Pro H610T D4                     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | Pro WS W680-ACE                  | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | Pro WS W680-ACE IPMI             | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | Pro WS W790-ACE                  |            | N            | N            | U            | N            |
-| ASUS     | Pro WS W790E-SAGE SE             |            | N            | N            | U            | N            |
+| ASUS     | Pro WS W790-ACE                  | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | Pro WS W790E-SAGE SE             | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | Pro WS WRX80E-SAGE SE WIFI       | NCT6798D-R | N            | N            | P            | N            |
+| ASUS     | Pro WS WRX80E-SAGE SE WIFI II    | NCT6798D-R | N            | N            | P            | N            |
 | ASUS     | Pro WS X570-ACE                  | NCT6798D-R | N            | N            | Y            | Y            |
 | ASUS     | ProArt B550-CREATOR              | NCT6798D-R | N            | N            | Y            | U            |
-| ASUS     | ProArt B650-CREATOR              |            | N            | N            | Y            | N            |
-| ASUS     | ProArt B660-CREATOR D4           |            | N            | N            | Y            | N            |
+| ASUS     | ProArt B650-CREATOR              | NCT6799D-R | N            | N            | Y            | N            |
+| ASUS     | ProArt B660-CREATOR D4           | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ProArt B760-CREATOR              |            | L            | N            | L            | N            |
-| ASUS     | ProArt B760-CREATOR D4           |            | N            | N            | U            | N            |
+| ASUS     | ProArt B760-CREATOR D4           | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | ProArt X570-CREATOR WIFI         | NCT6798D-R | N            | N            | Y            | Y            |
 | ASUS     | ProArt X670E-CREATOR WIFI        | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | ProArt Z490-CREATOR 10G          | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ProArt Z690-CREATOR WIFI         | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | ProArt Z790-CREATOR WIFI         |            | N            | N            | Y            | N            |
+| ASUS     | ProArt Z790-CREATOR WIFI         | NCT6798D   | N            | N            | Y            | N            |
 | GIGABYTE | Q87M-D2H                         |            | N            | N            | N            | N            |
 | ASUS     | RAMPAGE V EXTREME                |            | N            | N            | P            | N            |
 | ASUS     | ROG CROSSHAIR VI EXTREME         |            | Y            | N            | M            | U            |
@@ -317,23 +319,23 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | ROG CROSSHAIR VIII HERO (WI-FI)  | NCT6798D-R | N            | N            | Y            | Y            |
 | ASUS     | ROG CROSSHAIR VIII IMPACT        | NCT6798D-R | N            | N            | Y            | Y            |
 | ASUS     | ROG CROSSHAIR X670E EXTREME      | NCT6799D-R | N            | N            | Y            | N            |
-| ASUS     | ROG CROSSHAIR X670E GENE         |            | N            | N            | Y            | N            |
+| ASUS     | ROG CROSSHAIR X670E GENE         | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | ROG CROSSHAIR X670E HERO         | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | ROG MAXIMUS X HERO               | NCT6793D   | N            | N            | P            | N            |
-| ASUS     | ROG MAXIMUS XI APEX              |            | N            | N            | Y            | N            |
+| ASUS     | ROG MAXIMUS XI APEX              | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG MAXIMUS XI CODE              | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | ROG MAXIMUS XI EXTREME           |            | N            | N            | Y            | N            |
+| ASUS     | ROG MAXIMUS XI EXTREME           | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG MAXIMUS XI FORMULA           | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | ROG MAXIMUS XI GENE              |            | N            | N            | Y            | N            |
+| ASUS     | ROG MAXIMUS XI GENE              | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG MAXIMUS XI HERO              | NCT6798D   | N            | N            | Y            | N?           |
 | ASUS     | ROG MAXIMUS XI HERO (WI-FI)      | NCT6798D   | N            | N            | Y            | N?           |
-| ASUS     | ROG MAXIMUS XII APEX             |            | N            | N            | Y            | N            |
+| ASUS     | ROG MAXIMUS XII APEX             | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG MAXIMUS XII EXTREME          | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG MAXIMUS XII FORMULA          | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG MAXIMUS XII HERO (WI-FI)     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG MAXIMUS XIII APEX            | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | ROG MAXIMUS XIII EXTREME         |            | N            | N            | Y            | N            |
-| ASUS     | ROG MAXIMUS XIII EXTREME GLACIAL |            | N            | N            | Y            | N            |
+| ASUS     | ROG MAXIMUS XIII EXTREME         | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | ROG MAXIMUS XIII EXTREME GLACIAL | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG MAXIMUS XIII HERO            | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG MAXIMUS Z690 APEX            | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG MAXIMUS Z690 EXTREME         | NCT6798D   | N            | N            | Y            | N            |
@@ -341,24 +343,24 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | ROG MAXIMUS Z690 FORMULA         | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | ROG MAXIMUS Z690 HERO            | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | ROG MAXIMUS Z690 HERO EVA        | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | ROG MAXIMUS Z790 APEX            |            | N            | N            | Y            | N            |
-| ASUS     | ROG MAXIMUS Z790 EXTREME         |            | N            | N            | Y            | N            |
+| ASUS     | ROG MAXIMUS Z790 APEX            | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | ROG MAXIMUS Z790 EXTREME         | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG MAXIMUS Z790 HERO            | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX B350-F GAMING          | IT8665E    | N            | N            | M            | N            |
 | ASUS     | ROG STRIX B350-I GAMING          | IT8665E    | N            | N            | M            | N            |
 | ASUS     | ROG STRIX B360-F GAMING          | NCT6796D   | N            | N            | U            | N            |
 | ASUS     | ROG STRIX B360-G GAMING          | NCT5582D   | N            | N            | U            | N            |
-| ASUS     | ROG STRIX B360-H GAMING          |            | N            | N            | U            | N            |
-| ASUS     | ROG STRIX B360-H GAMING/OPTANE   |            | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B360-H GAMING          | NCT5582D   | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B360-H GAMING/OPTANE   | NCT5582D   | N            | N            | U            | N            |
 | ASUS     | ROG STRIX B360-I GAMING          | NCT6796D   | N            | N            | U            | N            |
 | ASUS     | ROG STRIX B365-F GAMING          | NCT6796D   | N            | N            | P            | N            |
 | ASUS     | ROG STRIX B365-G GAMING          | NCT6796D   | N            | N            | P            | N            |
-| ASUS     | ROG STRIX B450-E GAMING          |            | Y            | N            | M            | U            |
+| ASUS     | ROG STRIX B450-E GAMING          | IT8655E    | Y            | N            | M            | U            |
 | ASUS     | ROG STRIX B450-F GAMING          | IT8665E    | Y            | N            | M            | U            |
 | ASUS     | ROG STRIX B450-F GAMING II       | IT8665E    | Y            | N            | M            | U            |
-| ASUS     | ROG STRIX B450-I GAMING          |            | Y            | N            | M            | U            |
+| ASUS     | ROG STRIX B450-I GAMING          | IT8655E    | Y            | N            | M            | U            |
 | ASUS     | ROG STRIX B460-F GAMING          | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX B460-G GAMING          |            | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX B460-G GAMING          | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX B460-H GAMING          | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX B460-I GAMING          | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX B550-A GAMING          | NCT6798D-R | N            | N            | Y            | N            |
@@ -371,7 +373,7 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | ROG STRIX B560-A GAMING WIFI     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX B560-E GAMING WIFI     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX B560-F GAMING WIFI     | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX B560-G GAMING WIFI     |            | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX B560-G GAMING WIFI     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX B560-I GAMING WIFI     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX B650-A GAMING WIFI     | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX B650E-E GAMING WIFI    | NCT6799D-R | N            | N            | Y            | N            |
@@ -382,12 +384,12 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | ROG STRIX B660-F GAMING WIFI     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX B660-G GAMING WIFI     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX B660-I GAMING WIFI     | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX B760-A GAMING WIFI     |            | N            | N            | U            | N            |
-| ASUS     | ROG STRIX B760-A GAMING WIFI D4  |            | N            | N            | U            | N            |
-| ASUS     | ROG STRIX B760-F GAMING WIFI     |            | N            | N            | U            | N            |
-| ASUS     | ROG STRIX B760-G GAMING WIFI     |            | N            | N            | U            | N            |
-| ASUS     | ROG STRIX B760-G GAMING WIFI D4  |            | N            | N            | U            | N            |
-| ASUS     | ROG STRIX B760-I GAMING WIFI     |            | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B760-A GAMING WIFI     | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B760-A GAMING WIFI D4  | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B760-F GAMING WIFI     | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B760-G GAMING WIFI     | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B760-G GAMING WIFI D4  | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B760-I GAMING WIFI     | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | ROG STRIX TRX40-E GAMING         | NCT6798D   | N            | N            | P            | N            |
 | ASUS     | ROG STRIX TRX40-XE GAMING        | NCT6798D   | N            | N            | P            | N            |
 | ASUS     | ROG STRIX X370-F GAMING          | IT8665E    | N            | N            | M            | N            |
@@ -408,8 +410,8 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | ROG STRIX Z370-H GAMING          | NCT6793D   | N            | N            | P            | N            |
 | ASUS     | ROG STRIX Z390-E GAMING          | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z390-F GAMING          | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX Z390-H GAMING          |            | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX Z390-I GAMING          |            | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX Z390-H GAMING          | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX Z390-I GAMING          | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z490-A GAMING          | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z490-E GAMING          | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z490-F GAMING          | NCT6798D   | N            | N            | Y            | N            |
@@ -422,25 +424,25 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | ROG STRIX Z590-E GAMING WIFI     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z590-F GAMING WIFI     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z590-I GAMING WIFI     | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX Z690-A GAMING WIFI     |            | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX Z690-A GAMING WIFI     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z690-A GAMING WIFI D4  | NCT6798D   | N            | N            | Y            | N?           |
 | ASUS     | ROG STRIX Z690-E GAMING WIFI     | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | ROG STRIX Z690-F GAMING WIFI     | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | ROG STRIX Z690-G GAMING WIFI     | NCT6798D   | N            | N            | U            | N            |
-| ASUS     | ROG STRIX Z690-I GAMING WIFI     |            | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX Z790-A GAMING WIFI     |            | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX Z790-A GAMING WIFI D4  |            | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX Z690-I GAMING WIFI     | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX Z790-A GAMING WIFI     | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX Z790-A GAMING WIFI D4  | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z790-E GAMING WIFI     | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX Z790-F GAMING WIFI     |            | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX Z790-H GAMING WIFI     |            | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX Z790-I GAMING WIFI     |            | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX Z790-F GAMING WIFI     | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX Z790-H GAMING WIFI     | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX Z790-I GAMING WIFI     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG ZENITH EXTREME               |            | F            | N            | F            | N            |
 | ASUS     | ROG ZENITH EXTREME ALPHA         |            | F            | N            | F            | N            |
 | ASUS     | ROG ZENITH II EXTREME            | NCT6798D   | N            | N            | P            | N?           |
 | ASUS     | ROG ZENITH II EXTREME ALPHA      | NCT6798D   | N            | N            | P            | N?           |
 | LENOVO   | S206                             |            | N            | N            | N            | N            |
 | ASUS     | STRIX B250F GAMING               | NCT6793D   | F            | N            | F            | N            |
-| ASUS     | STRIX B250G GAMING               |            | F            | N            | F            | N            |
+| ASUS     | STRIX B250G GAMING               | NCT5539D   | F            | N            | F            | N            |
 | ASUS     | STRIX B250H GAMING               | NCT5539D   | F            | N            | F            | N            |
 | ASUS     | STRIX B250I GAMING               | NCT6793D   | F            | N            | F            | N            |
 | ASUS     | STRIX Z270E GAMING               | NCT6793D   | N            | N            | P            | N            |
@@ -449,7 +451,7 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | STRIX Z270H GAMING               | NCT6793D   | N            | N            | P            | N            |
 | ASUS     | STRIX Z270I GAMING               | NCT6793D   | F            | N            | F            | N            |
 | ASUS     | TUF B350M-PLUS GAMING            | IT8655E    | N            | N            | M            | N            |
-| ASUS     | TUF B360-PLUS GAMING             |            | N            | N            | U            | N            |
+| ASUS     | TUF B360-PLUS GAMING             | NCT5582D   | N            | N            | U            | N            |
 | ASUS     | TUF B360-PRO GAMING              | NCT5582D   | N            | N            | U            | N            |
 | ASUS     | TUF B360-PRO GAMING (WI-FI)      | NCT5582D   | N            | N            | U            | N            |
 | ASUS     | TUF B360-PRO GAMING WIFI         |            | L            | N            | L            | N            |
@@ -477,12 +479,12 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | TUF GAMING B460-PRO (WI-FI)      | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING B460M-PLUS            | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING B460M-PLUS (WI-FI)    | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | TUF GAMING B460M-PRO             |            | N            | N            | Y            | N            |
+| ASUS     | TUF GAMING B460M-PRO             | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING B550-PLUS             | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING B550-PLUS (WI-FI)     | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING B550-PLUS WIFI II     | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING B550-PRO              | NCT6798D-R | N            | N            | Y            | N            |
-| ASUS     | TUF GAMING B550M ZAKU (WI-FI)    |            | N            | N            | Y            | N            |
+| ASUS     | TUF GAMING B550M ZAKU (WI-FI)    | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING B550M-E               | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING B550M-E WIFI          | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING B550M-PLUS            | NCT6798D-R | N            | N            | Y            | N            |
@@ -490,9 +492,9 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | TUF GAMING B550M-PLUS WIFI II    | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING B560-PLUS WIFI        | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING B560M-E               | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | TUF GAMING B560M-PLUS            |            | N            | N            | Y            | N            |
-| ASUS     | TUF GAMING B560M-PLUS WIFI       |            | N            | N            | Y            | N            |
-| ASUS     | TUF GAMING B650-PLUS             |            | N            | N            | Y            | N            |
+| ASUS     | TUF GAMING B560M-PLUS            | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | TUF GAMING B560M-PLUS WIFI       | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | TUF GAMING B650-PLUS             | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING B650-PLUS WIFI        | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING B650M-PLUS            | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING B650M-PLUS WIFI       | NCT6799D-R | N            | N            | Y            | N            |
@@ -501,40 +503,40 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | TUF GAMING B660M-PLUS D4         | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | TUF GAMING B660M-PLUS WIFI       | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING B660M-PLUS WIFI D4    | NCT6798D   | N            | N            | U            | N            |
-| ASUS     | TUF GAMING B760-PLUS WIFI        |            | N            | N            | U            | N            |
-| ASUS     | TUF GAMING B760-PLUS WIFI D4     |            | N            | N            | U            | N            |
-| ASUS     | TUF GAMING B760M-BTF WIFI D4     |            | N            | N            | U            | N            |
-| ASUS     | TUF GAMING B760M-E D4            |            | N            | N            | U            | N            |
+| ASUS     | TUF GAMING B760-PLUS WIFI        | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | TUF GAMING B760-PLUS WIFI D4     | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | TUF GAMING B760M-BTF WIFI D4     | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | TUF GAMING B760M-E D4            | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | TUF GAMING B760M-PLUS            | NCT6798D   | N            | N            | U            | N            |
-| ASUS     | TUF GAMING B760M-PLUS D4         |            | N            | N            | U            | N            |
-| ASUS     | TUF GAMING B760M-PLUS WIFI       |            | N            | N            | U            | N            |
-| ASUS     | TUF GAMING B760M-PLUS WIFI D4    |            | N            | N            | U            | N            |
+| ASUS     | TUF GAMING B760M-PLUS D4         | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | TUF GAMING B760M-PLUS WIFI       | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | TUF GAMING B760M-PLUS WIFI D4    | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | TUF GAMING X570-PLUS             | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING X570-PLUS (WI-FI)     | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING X570-PLUS_BR          | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING X570-PRO (WI-FI)      | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING X570-PRO WIFI II      | NCT6798D-R | N            | N            | U            | N            |
-| ASUS     | TUF GAMING X670E-PLUS            |            | N            | N            | Y            | N            |
+| ASUS     | TUF GAMING X670E-PLUS            | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING X670E-PLUS WIFI       | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING Z490-PLUS             | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING Z490-PLUS (WI-FI)     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING Z590-PLUS             | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING Z590-PLUS WIFI        | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | TUF GAMING Z690-PLUS             |            | N            | N            | Y            | N            |
+| ASUS     | TUF GAMING Z690-PLUS             | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING Z690-PLUS D4          | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | TUF GAMING Z690-PLUS WIFI        |            | N            | N            | Y            | N            |
+| ASUS     | TUF GAMING Z690-PLUS WIFI        | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING Z690-PLUS WIFI D4     | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | TUF GAMING Z790-PLUS D4          |            | N            | N            | Y            | N            |
-| ASUS     | TUF GAMING Z790-PLUS WIFI        |            | N            | N            | Y            | N            |
+| ASUS     | TUF GAMING Z790-PLUS D4          | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | TUF GAMING Z790-PLUS WIFI        | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING Z790-PLUS WIFI D4     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF X470-PLUS GAMING             | IT8665E    | N            | N            | M            | N            |
 | ASUS     | TUF Z270 MARK 1                  | NCT6793D   | N            | N            | P            | N            |
-| ASUS     | TUF Z390-PLUS GAMING             |            | N            | N            | Y            | N            |
-| ASUS     | TUF Z390-PLUS GAMING (WI-FI)     |            | N            | N            | Y            | N            |
-| ASUS     | TUF Z390-PRO GAMING              |            | N            | N            | Y            | N            |
+| ASUS     | TUF Z390-PLUS GAMING             | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | TUF Z390-PLUS GAMING (WI-FI)     | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | TUF Z390-PRO GAMING              | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF Z390M-PRO GAMING             | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF Z390M-PRO GAMING (WI-FI)     | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | WS Z390 PRO                      |            | N            | N            | Y            | N            |
+| ASUS     | WS Z390 PRO                      | NCT6798D   | N            | N            | Y            | N            |
 | GIGABYTE | X299 UD4-CF                      |            | N            | U            | N            | N            |
 | ASROCK   | X370 Gaming X                    |            | N            | N            | P            | N            |
 | ASROCK   | X399 Taichi                      |            | N            | N            | P            | N            |
@@ -566,7 +568,7 @@ Port to use asl directly instead disassembling to dsl.
 | GIGABYTE | Z270N-WIFI-CF                    |            | N            | N            | N            | N            |
 | GIGABYTE | Z390 I AORUS PRO WIFI-CF         |            | N            | Y            | N            | N            |
 | GIGABYTE | Z490 AORUS ELITE AC              | IT8688E    | N            | Y            | N            | N            |
-| ASUS     | Z490-GUNDAM (WI-FI)              |            | N            | N            | Y            | N            |
+| ASUS     | Z490-GUNDAM (WI-FI)              | NCT6798D   | N            | N            | Y            | N            |
 | GIGABYTE | Z590 AORUS ELITE AX              |            | N            | U            | N            | N            |
 | GIGABYTE | Z590 AORUS MASTER                |            | N            | U            | N            | N            |
 | GIGABYTE | Z590 AORUS PRO AX                |            | N            | U            | N            | N            |

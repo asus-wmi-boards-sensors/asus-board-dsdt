@@ -418,6 +418,10 @@ ASUS_BOARDS = {
         "TUF GAMING Z690-PLUS WIFI",
         "TUF GAMING Z690-PLUS WIFI D4"
     ],
+    "WRX80": [
+        "Pro WS WRX80E-SAGE SE WIFI II",
+        "Pro WS WRX80E-SAGE SE WIFI",
+    ],
     "Z790": [
         "PRIME Z790-A WIFI",
         "PRIME Z790-P",
