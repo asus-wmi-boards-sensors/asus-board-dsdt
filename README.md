@@ -66,7 +66,7 @@ Port to use asl directly instead disassembling to dsl.
 | GIGABYTE | B450M DS3H-CF                    |            | N            | Y            | N            | N            |
 | ASROCK   | B450M Pro4                       |            | N            | N            | P            | N            |
 | GIGABYTE | B450M S2H V2                     |            | N            | Y            | N            | N            |
-| ASUS     | B450M-DRAGON                     |            | N            | N            | M            | N            |
+| ASUS     | B450M-DRAGON                     | IT8655E    | N            | N            | M            | N            |
 | GIGABYTE | B550 AORUS ELITE                 |            | N            | Y            | N            | N            |
 | GIGABYTE | B550 AORUS ELITE AX V2           |            | N            | Y            | N            | N            |
 | GIGABYTE | B550 AORUS ELITE V2              |            | N            | Y            | N            | N            |

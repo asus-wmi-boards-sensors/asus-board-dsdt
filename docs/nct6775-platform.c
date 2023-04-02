@@ -1099,7 +1099,6 @@ static struct platform_device *pdev[2];
 static const char * const asus_wmi_boards[] = {
 	"B360M-BASALT",
 	"B360M-D3H",
-	"B450M-DRAGON", // use custom port definition
 	"CROSSHAIR VI HERO", // use custom port definition
 	"EX-B360M-V",
 	"EX-B360M-V3",
@@ -1523,7 +1522,6 @@ static const struct dmi_system_id asus_wmi_info_table[] = {
 	DMI_MATCH_ASUS_WMI_BOARD("B250M-C PRO", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASROCK_WMI_BOARD("B365M Pro4-F", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASROCK_WMI_BOARD("B450M Pro4", &acpi_board_SBRG_MUTEX),
-	DMI_MATCH_ASUS_WMI_BOARD("B450M-DRAGON", &acpi_board_SBRG_MUTEX),
 	DMI_MATCH_ASROCK_WMI_BOARD("B650E PG Riptide WiFi", &acpi_board_SBRG_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("CROSSHAIR VI HERO", &acpi_board_SBRG_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("EX-B365M-V", &acpi_board_ILPC_MUTEX),

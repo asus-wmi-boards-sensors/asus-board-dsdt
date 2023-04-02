@@ -1646,7 +1646,7 @@ B450M-DRAGON:
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/B450M-DRAGON-ASUS-4001.zip
-  superio: ''
+  superio: IT8655E
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
