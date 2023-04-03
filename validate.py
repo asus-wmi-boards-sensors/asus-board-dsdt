@@ -40,6 +40,10 @@ LINKS = [
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360M-PLUS-GAMING-ASUS-3202.ZIP",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-WRX80E-SAGE-SE-WIFI-II-ASUS-1106.zip",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-WRX80E-SAGE-SE-WIFI-ASUS-1106.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-A620M-PLUS-ASUS-0305.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-RAMPAGE-VI-EXTREME-ENCORE-ASUS-1403.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/LGA2011/RAMPAGE_V_EDITION_10/RAMPAGE-V-EDITION-10-ASUS-2101.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-Q670M-C-SI-2209.zip",
 ]
 
 # Upstreamed ec
@@ -394,6 +398,7 @@ NCT6775_UPSTREAMED_CHIPSETS = [
     "H610",
     "W680",
     "W790",
+    "Q670",
     "X570",
     "X670",
     "Z390",
@@ -625,7 +630,10 @@ def gen_asus_board_name(board_group):
         board_name = f"{board_group[0]} {board_group[1]} "
         board_name += f"{board_group[2]}-{board_group[3]} "
         board_name += " ".join(board_group[4:])
-    elif board_group[0] == "ROG" and board_group[1] in ("CROSSHAIR", "MAXIMUS", "ZENITH"):
+    elif (
+        board_group[0] == "ROG" and
+        board_group[1] in ("CROSSHAIR", "MAXIMUS", "ZENITH", "RAMPAGE")
+    ):
         # detect chipset from name
         for chipset in BRIDGE_CHIPSETS:
             if board_group[2].startswith(chipset):
@@ -694,7 +702,7 @@ def gen_asus_board_name(board_group):
         # create name
         board_name = f"{board_group[0]} "
         board_name += "-".join(board_group[1:])
-    elif board_group[0].upper() in ("MAXIMUS", "TUF", "CROSSHAIR"):
+    elif board_group[0].upper() in ("MAXIMUS", "TUF", "CROSSHAIR", "RAMPAGE"):
         # detect chipset from name
         for chipset in BRIDGE_CHIPSETS:
             if board_group[1].startswith(chipset):
@@ -1422,7 +1430,7 @@ def show_board(board_name, board_producer, superio="", asus_wmi="N", gigabyte_wm
             break
     return (
         f"| {board_producer}{' ' * (9 - len(board_producer))}"
-        f"| {board_name}{' ' * (33 - len(board_name))}"
+        f"| {board_name}{' ' * (36 - len(board_name))}"
         f"| {superio}{' ' * (11 - len(superio))}"
         f"| {asus_wmi}{' ' * (13 - len(asus_wmi)) }"
         f"| {gigabyte_wmi}{' ' * (13 - len(gigabyte_wmi)) }"
@@ -1531,7 +1539,7 @@ def print_boards(boards_flags):
     )
     desc += "\n"
     desc += show_board(
-            board_name="-" * 32,
+            board_name="-" * 35,
             board_producer="-" * 9,
             superio="-" * 10,
             asus_wmi="-" * 12,
@@ -1652,18 +1660,25 @@ def update_superio_by_bridge(boards_flags):
     for bridge in ASUS_BOARDS:
         # current super io
         superio = ""
-        for board in ASUS_BOARDS[bridge]:
-            if board in boards_flags:
-                superio = boards_flags[board].get("superio")
+        producer = ""
+        for board_name in ASUS_BOARDS[bridge]:
+            if board_name in boards_flags:
+                superio = boards_flags[board_name].get("superio")
+                producer = boards_flags[board_name].get("board_producer")
                 if superio:
                     break
         # skip serie
         if not superio:
             continue
-        for board in ASUS_BOARDS[bridge]:
-            if board in boards_flags:
-                if not boards_flags[board].get("superio"):
-                    boards_flags[board]["superio"] = superio
+        for board_name in ASUS_BOARDS[bridge]:
+            if board_name not in boards_flags:
+                boards_flags[board_name] = {
+                    "board_producer": producer,
+                }
+                set_default_flags(boards_flags[board_name], board_name)
+            boards_flags[board_name]["bridge"] = bridge
+            if not boards_flags[board_name].get("superio"):
+                boards_flags[board_name]["superio"] = superio
 
 
 if __name__ == "__main__":
@@ -1676,8 +1691,8 @@ if __name__ == "__main__":
                 names.append(name)
         ASUS_BOARDS[chip] = sorted(names)
 
-    if os.environ.get("DEBUG"):
-        print (json.dumps(ASUS_BOARDS, indent=4))
+    print ("Known boards bridges")
+    print (json.dumps(ASUS_BOARDS, sort_keys=True, indent=4))
 
     current_dir = "."
     if len(sys.argv) > 1:
