@@ -270,6 +270,8 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | PRIME B760M-AJ D4                   | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | PRIME B760M-K D4                    | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | PRIME H270-PLUS                     | NCT5539D   | N            | N            | P            | N            |
+| ASUS     | PRIME H270-PRO                      | NCT5539D   | F            | N            | F            | N            |
+| ASUS     | PRIME H270M-PLUS                    | NCT5539D   | F            | N            | F            | N            |
 | ASUS     | PRIME H310T                         | NCT5582D   | N            | N            | U            | N            |
 | ASUS     | PRIME H370-A                        | NCT5582D   | N            | N            | U            | N            |
 | ASUS     | PRIME H370-PLUS                     | NCT5582D   | N            | N            | U            | N            |
@@ -564,6 +566,8 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | STRIX B250G GAMING                  | NCT5539D   | F            | N            | F            | N            |
 | ASUS     | STRIX B250H GAMING                  | NCT5539D   | F            | N            | F            | N            |
 | ASUS     | STRIX B250I GAMING                  | NCT6793D   | F            | N            | F            | N            |
+| ASUS     | STRIX H270F GAMING                  | NCT6793D   | F            | N            | F            | N            |
+| ASUS     | STRIX H270I GAMING                  | NCT5539D   | F            | N            | F            | N            |
 | ASUS     | STRIX X99 GAMING                    |            | L            | N            | L            | N            |
 | ASUS     | STRIX Z270E GAMING                  | NCT6793D   | N            | N            | P            | N            |
 | ASUS     | STRIX Z270F GAMING                  | NCT6793D   | N            | N            | P            | N            |

@@ -13722,6 +13722,7 @@ PRIME B760M-K D4:
 PRIME H270-PLUS:
   aliases:
   - PRIME-H270-PLUS-ASUS-0000
+  - PRIME-H270-PLUS-ASUS-2001
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
@@ -13755,7 +13756,8 @@ PRIME H270-PLUS:
   known_good:
   - ASUSWMI
   known_good_nct6775: []
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H270-PLUS-ASUS-2001.ZIP
   superio: NCT5539D
   upstreamed_serie: false
   wmi_methods:
@@ -13763,6 +13765,52 @@ PRIME H270-PLUS:
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+PRIME H270-PRO:
+  aliases:
+  - PRIME-H270-PRO-ASUS-2001
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: H270
+  gigabyte_wmi: N
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H270-PRO-ASUS-2001.ZIP
+  superio: NCT5539D
+  upstreamed_serie: false
+  wmi_methods: []
+PRIME H270M-PLUS:
+  aliases:
+  - PRIME-H270M-PLUS-ASUS-2001
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: H270
+  gigabyte_wmi: N
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H270M-PLUS-ASUS-2001.ZIP
+  superio: NCT5539D
+  upstreamed_serie: false
+  wmi_methods: []
 PRIME H310T:
   aliases:
   - PRIME-H310T-ASUS-0000
@@ -32147,6 +32195,7 @@ ROG STRIX H370-I GAMING:
   - ASUSWMI
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-H370-I-GAMING-ASUS-3101.ZIP
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-H370-I-GAMING-ASUS-3202.ZIP
   superio: NCT6796D
   upstreamed_serie: false
   wmi_methods:
@@ -36007,6 +36056,52 @@ STRIX B250I GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-B250I-GAMING-ASUS-2001.ZIP
   superio: NCT6793D
+  upstreamed_serie: false
+  wmi_methods: []
+STRIX H270F GAMING:
+  aliases:
+  - STRIX-H270F-GAMING-ASUS-2001
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: H270
+  gigabyte_wmi: N
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-H270F-GAMING-ASUS-2001.ZIP
+  superio: NCT6793D
+  upstreamed_serie: false
+  wmi_methods: []
+STRIX H270I GAMING:
+  aliases:
+  - STRIX-H270I-GAMING-ASUS-2001
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: H270
+  gigabyte_wmi: N
+  known_good: []
+  known_good_nct6775: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-H270I-GAMING-ASUS-2001.ZIP
+  superio: NCT5539D
   upstreamed_serie: false
   wmi_methods: []
 STRIX Z270E GAMING:

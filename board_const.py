@@ -143,6 +143,7 @@ ASUS_BOARDS = {
         "PRIME B460-PLUS",
         "PRIME B460I-PLUS",
         "PRIME B460M-A",
+        "PRIME B460M-A R2.0",
         "PRIME B460M-K",
         "PRO B460M-C",
         "ROG STRIX B460-F GAMING",
@@ -153,7 +154,6 @@ ASUS_BOARDS = {
         "TUF GAMING B460-PRO (WI-FI)",
         "TUF GAMING B460M-PLUS",
         "TUF GAMING B460M-PLUS (WI-FI)",
-        "PRIME B460M-A R2.0",
         "TUF GAMING B460M-PRO"
     ],
     "B550": [
@@ -269,14 +269,19 @@ ASUS_BOARDS = {
         "TUF GAMING B760M-PLUS WIFI",
         "TUF GAMING B760M-PLUS WIFI D4"
     ],
+    "H270": [
+        "PRIME H270-PLUS",
+        "PRIME H270-PRO",
+        "PRIME H270M-PLUS",
+        "STRIX H270F GAMING",
+        "STRIX H270I GAMING"
+    ],
     "H370": [
-        "PRIME H370M-PLUS",
-        "ROG STRIX H370-I GAMING",
-        "ROG STRIX H370-F GAMING",
-        "PRIME H370M-PLUS",
         "PRIME H370-A",
         "PRIME H370-PLUS",
-        "PRIME H370-A",
+        "PRIME H370M-PLUS",
+        "ROG STRIX H370-F GAMING",
+        "ROG STRIX H370-I GAMING",
         "TUF H370-PRO GAMING",
         "TUF H370-PRO GAMING (WI-FI)"
     ],
@@ -290,21 +295,16 @@ ASUS_BOARDS = {
         "PRIME H410M-K",
         "PRIME H410M-K R2.0",
         "PRO H410M-C",
-        "PRO H410T",
-        "PRIME H410M-K R2.0",
+        "PRO H410T"
     ],
     "H470": [
+        "PRIME H470-PLUS",
         "PRIME H470M-PLUS",
-        "PRIME H470-PLUS",
-        "PRIME H470-PLUS",
+        "ROG STRIX H470-I GAMING",
         "TUF GAMING H470-PRO",
-        "TUF GAMING H470-PRO (WI-FI)",
-        "PRIME H470-PLUS",
-        "PRIME H470M-PLUS",
-        "ROG STRIX H470-I GAMING"
+        "TUF GAMING H470-PRO (WI-FI)"
     ],
     "H510": [
-        "PRIME H510M-K R2.0",
         "EX-H510M-V3",
         "PRIME H510M-A",
         "PRIME H510M-A WIFI",
@@ -317,11 +317,10 @@ ASUS_BOARDS = {
         "Pro H510M-CT"
     ],
     "H570": [
+        "PRIME H570-PLUS",
         "PRIME H570M-PLUS",
         "TUF GAMING H570-PRO",
-        "TUF GAMING H570-PRO WIFI",
-        "PRIME H570M-PLUS",
-        "PRIME H570-PLUS",
+        "TUF GAMING H570-PRO WIFI"
     ],
     "H61": [
         "H61M-A",
@@ -392,7 +391,7 @@ ASUS_BOARDS = {
     ],
     "H670": [
         "PRIME H670-PLUS D4",
-        "TUF GAMING H670-PRO WIFI D4",
+        "TUF GAMING H670-PRO WIFI D4"
     ],
     "H81": [
         "H81-GAMER",
