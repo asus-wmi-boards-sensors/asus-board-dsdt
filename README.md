@@ -105,7 +105,25 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | H170 PRO GAMING                     | NCT6793D   | F            | N            | F            | N            |
 | ASROCK   | H77M                                |            | N            | N            | N            | N            |
 | ASUS     | H81-GAMER                           | NCT5538D   | N            | N            | N            | N            |
+| ASUS     | H81-PLUS                            | NCT6791D   | L            | N            | L            | N            |
+| ASUS     | H81I-PLUS                           | NCT5535D2  | L            | N            | L            | N            |
+| ASUS     | H81M-A                              | NCT5538D   | L            | N            | L            | N            |
+| ASUS     | H81M-A/BR                           | NCT5538D   | L            | N            | L            | N            |
+| ASUS     | H81M-C                              | NCT6791D   | L            | N            | L            | N            |
+| ASUS     | H81M-C/BR                           | NCT6791D   | L            | N            | L            | N            |
+| ASUS     | H81M-CS                             | NCT5538D   | L            | N            | L            | N            |
+| ASUS     | H81M-CS/BR                          | NCT5538D   | L            | N            | L            | N            |
+| ASUS     | H81M-D                              | NCT5538D   | L            | N            | L            | N            |
+| ASUS     | H81M-D PLUS                         | NCT5538D   | L            | N            | L            | N            |
+| ASUS     | H81M-E                              | NCT5538D   | L            | N            | L            | N            |
+| ASUS     | H81M-K                              | NCT5538D   | L            | N            | L            | N            |
+| ASUS     | H81M-P                              | NCT5538D   | L            | N            | L            | N            |
+| ASUS     | H81M-P PLUS                         | NCT5535D   | L            | N            | L            | N            |
+| ASUS     | H81M-PLUS                           | NCT5538D   | L            | N            | L            | N            |
 | ASUS     | H81M-R                              | NCT5538D   | N            | N            | P            | N            |
+| ASUS     | H81M-V3                             | NCT6791D   | L            | N            | L            | N            |
+| ASUS     | H81M2                               | NCT6791D   | L            | N            | L            | N            |
+| ASUS     | H81T                                | NCT6791D   | L            | N            | L            | N            |
 | ASUS     | H97-PRO GAMER                       | NCT5538D   | N            | N            | N            | N            |
 | ASUS     | K30AD_M31AD_M51AD_M32AD             | NCT5538D   | N            | N            | P            | N            |
 | ASUS     | M4A88TD-V EVO/USB3                  |            | N            | N            | N            | N            |
@@ -229,6 +247,8 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | PRIME H610M-F D4                    | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H610M-K D4                    | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H610M-R D4                    | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | PRIME Q270M-C                       | NCT6793D   | F            | N            | F            | N            |
+| ASUS     | PRIME Q370M-C                       | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | PRIME TRX40-PRO                     | NCT6798D   | L            | N            | L            | N            |
 | ASUS     | PRIME TRX40-PRO S                   | NCT6798D   | L            | N            | L            | N            |
 | ASUS     | PRIME X299 EDITION 30               | NCT6798D   | L            | N            | L            | N            |
@@ -285,6 +305,7 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | PRO B460M-C                         | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRO H410M-C                         | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRO H410T                           | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | PRO Q470M-C                         | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | Pro A520M-C                         | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | Pro A520M-C II                      | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | Pro B550M-C                         | NCT6798D-R | N            | N            | Y            | N            |
@@ -319,6 +340,7 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | ProArt Z490-CREATOR 10G             | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ProArt Z690-CREATOR WIFI            | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ProArt Z790-CREATOR WIFI            | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | Q370I-IM-A R2.0                     | NCT6798D   | L            | N            | L            | N            |
 | GIGABYTE | Q87M-D2H                            |            | N            | N            | N            | N            |
 | ASUS     | RAMPAGE III BLACK EDITION           |            | L            | N            | L            | N            |
 | ASUS     | RAMPAGE IV BLACK EDITION            |            | L            | N            | L            | N            |

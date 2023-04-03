@@ -44,6 +44,9 @@ LINKS = [
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-RAMPAGE-VI-EXTREME-ENCORE-ASUS-1403.zip",
     "https://dlcdnets.asus.com/pub/ASUS/mb/LGA2011/RAMPAGE_V_EDITION_10/RAMPAGE-V-EDITION-10-ASUS-2101.zip",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-Q670M-C-SI-2209.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-Q470M-C-SI-1621.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/PRIME_Q370M-C/PRIME-Q370M-C-ASUS-2811.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/PRIME_Q270M-C/PRIME-Q270M-C-ASUS-1607.zip",
 ]
 
 # Upstreamed ec
@@ -398,6 +401,8 @@ NCT6775_UPSTREAMED_CHIPSETS = [
     "H610",
     "W680",
     "W790",
+    "Q370",
+    "Q470",
     "Q670",
     "X570",
     "X670",

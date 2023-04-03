@@ -570,6 +570,39 @@ ASUS_BOARDS = {
     ],
     "Q670": [
         "Pro Q670M-C",
+    ],
+    "Q470": [
+        "PRO Q470M-C"
+    ],
+    "Q370": [
+        "PRIME Q370M-C",
+        "Q370I-IM-A R2.0",
+    ],
+    "Q270": [
+        "PRIME Q270M-C"
+    ],
+    "H81": [
+        "H81M-K",
+        "H81M-CS",
+        "H81-GAMER",
+        "H81-PLUS",
+        "H81I-PLUS",
+        "H81M-A",
+        "H81M-A/BR",
+        "H81M-C",
+        "H81M-C/BR",
+        "H81M-CS/BR",
+        "H81M-D",
+        "H81M-D PLUS",
+        "H81M-E",
+        "H81M-K",
+        "H81M-P",
+        "H81M-P PLUS",
+        "H81M-PLUS",
+        "H81M-R",
+        "H81M-V3",
+        "H81M2",
+        "H81T"
     ]
 }
 
