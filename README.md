@@ -103,6 +103,17 @@ Port to use asl directly instead disassembling to dsl.
 | GIGABYTE | GA-MA78LMT-US2H                     |            | N            | N            | N            | N            |
 | ASUS     | H110M-A/M.2                         | NCT5539D   | N            | N            | P            | N            |
 | ASUS     | H170 PRO GAMING                     | NCT6793D   | F            | N            | F            | N            |
+| ASUS     | H61M-A                              | NCT5535D   | L            | N            | L            | N            |
+| ASUS     | H61M-A/BR                           | NCT5535D   | L            | N            | L            | N            |
+| ASUS     | H61M-A/USB3                         | NCT5535D   | L            | N            | L            | N            |
+| ASUS     | H61M-C                              | NCT5535D   | L            | N            | L            | N            |
+| ASUS     | H61M-CS                             | NCT5535D   | L            | N            | L            | N            |
+| ASUS     | H61M-D                              | NCT5535D   | L            | N            | L            | N            |
+| ASUS     | H61M-E                              | IT8603E    | L            | N            | L            | N            |
+| ASUS     | H61M-F                              | NCT5535D   | L            | N            | L            | N            |
+| ASUS     | H61M-K                              | NCT5535D   | L            | N            | L            | N            |
+| ASUS     | H61M-PLUS                           | NCT5535D   | L            | N            | L            | N            |
+| ASUS     | H61M-PRO                            | NCT5535D   | L            | N            | L            | N            |
 | ASROCK   | H77M                                |            | N            | N            | N            | N            |
 | ASUS     | H81-GAMER                           | NCT5538D   | N            | N            | N            | N            |
 | ASUS     | H81-PLUS                            | NCT6791D   | L            | N            | L            | N            |
@@ -140,7 +151,45 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | P5Q-EM                              |            | N            | N            | P            | N            |
 | ASUS     | P5QL PRO                            |            | N            | N            | P            | N            |
 | ASUS     | P5VD2-VM                            |            | N            | N            | N            | N            |
+| ASUS     | P8H61                               | NCT6779D   | L            | N            | L            | N            |
+| ASUS     | P8H61 PLUS                          | NCT6776F   | L            | N            | L            | N            |
+| ASUS     | P8H61 PRO                           | NCT6779D   | L            | N            | L            | N            |
+| ASUS     | P8H61 R2.0                          | NCT6779D   | L            | N            | L            | N            |
+| ASUS     | P8H61-I                             | NCT6779D   | L            | N            | L            | N            |
+| ASUS     | P8H61-I LX                          | NCT5579D   | L            | N            | L            | N            |
+| ASUS     | P8H61-I LX R2.0                     | NCT5535D   | L            | N            | L            | N            |
+| ASUS     | P8H61-I LX R2.0/RM/SI               | NCT5535D   | L            | N            | L            | N            |
+| ASUS     | P8H61-I R2.0                        | NCT5579D   | L            | N            | L            | N            |
+| ASUS     | P8H61-M                             | NCT6776F   | L            | N            | L            | N            |
+| ASUS     | P8H61-M EVO                         | NCT6776F   | L            | N            | L            | N            |
+| ASUS     | P8H61-M LE                          | NCT6779D   | L            | N            | L            | N            |
+| ASUS     | P8H61-M LE R2.0                     | NCT6779D   | L            | N            | L            | N            |
+| ASUS     | P8H61-M LE/BR                       | NCT6776F   | L            | N            | L            | N            |
+| ASUS     | P8H61-M LE/CSM                      | NCT6776F   | L            | N            | L            | N            |
+| ASUS     | P8H61-M LE/CSM R2.0                 | NCT6779D   | L            | N            | L            | N            |
+| ASUS     | P8H61-M LE/USB3                     | NCT6776F   | L            | N            | L            | N            |
+| ASUS     | P8H61-M LX                          | NCT6779D   | L            | N            | L            | N            |
+| ASUS     | P8H61-M LX PLUS                     | NCT6776F   | L            | N            | L            | N            |
+| ASUS     | P8H61-M LX PLUS R2.0                | NCT6779D   | L            | N            | L            | N            |
 | ASUS     | P8H61-M LX R2.0                     | NCT6779D   | N            | N            | P            | N            |
+| ASUS     | P8H61-M LX2                         | NCT6779D   | L            | N            | L            | N            |
+| ASUS     | P8H61-M LX2 2.0                     | NCT5535D   | L            | N            | L            | N            |
+| ASUS     | P8H61-M LX2 R2.0                    | NCT5535D   | L            | N            | L            | N            |
+| ASUS     | P8H61-M LX2/CSM                     | NCT6779D   | L            | N            | L            | N            |
+| ASUS     | P8H61-M LX3                         | NCT6779D   | L            | N            | L            | N            |
+| ASUS     | P8H61-M LX3 PLUS                    | NCT6779D   | L            | N            | L            | N            |
+| ASUS     | P8H61-M LX3 PLUS R2.0               | NCT5535D   | L            | N            | L            | N            |
+| ASUS     | P8H61-M LX3 R2.0                    | NCT5535D   | L            | N            | L            | N            |
+| ASUS     | P8H61-M PLUS V2                     | NCT6779D   | L            | N            | L            | N            |
+| ASUS     | P8H61-M PRO                         | NCT6776F   | L            | N            | L            | N            |
+| ASUS     | P8H61-M2 USB3                       | NCT6779D   | L            | N            | L            | N            |
+| ASUS     | P8H61-M2/SI                         | NCT6779D   | L            | N            | L            | N            |
+| ASUS     | P8H61-MX                            | NCT6779D   | L            | N            | L            | N            |
+| ASUS     | P8H61-MX R2.0                       | NCT5535D   | L            | N            | L            | N            |
+| ASUS     | P8H61-MX USB3                       | NCT5535D   | L            | N            | L            | N            |
+| ASUS     | P8H61-V                             | NCT6776F   | L            | N            | L            | N            |
+| ASUS     | P8H61/USB3                          | NCT6779D   | L            | N            | L            | N            |
+| ASUS     | P8H61/USB3 R2.0                     | NCT6779D   | L            | N            | L            | N            |
 | ASUS     | P8H67                               | NCT6776F   | N            | N            | P            | N            |
 | ASUS     | P8Z68-V LX                          | NCT6776F   | N            | N            | P            | N            |
 | ASUS     | PRIME A320I-K                       | IT8655E    | N            | N            | M            | N            |
@@ -222,6 +271,9 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | PRIME B760M-K D4                    | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | PRIME H270-PLUS                     | NCT5539D   | N            | N            | P            | N            |
 | ASUS     | PRIME H310T                         | NCT5582D   | N            | N            | U            | N            |
+| ASUS     | PRIME H370-A                        | NCT5582D   | N            | N            | U            | N            |
+| ASUS     | PRIME H370-PLUS                     | NCT5582D   | N            | N            | U            | N            |
+| ASUS     | PRIME H370M-PLUS                    | NCT5582D   | N            | N            | U            | N            |
 | ASUS     | PRIME H410I-PLUS                    | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | PRIME H410M-A                       | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H410M-D                       | NCT6798D   | N            | N            | Y            | N            |
@@ -230,6 +282,8 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | PRIME H410M-K                       | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H410M-K R2.0                  | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H410M-R                       | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | PRIME H470-PLUS                     | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | PRIME H470M-PLUS                    | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | PRIME H510M-A                       | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H510M-A WIFI                  | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H510M-D                       | NCT6798D   | N            | N            | Y            | N            |
@@ -239,6 +293,8 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | PRIME H510M-K R2.0                  | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H510M-R                       | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | PRIME H510T2/CSM                    | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | PRIME H570-PLUS                     | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | PRIME H570M-PLUS                    | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | PRIME H610I-PLUS D4                 | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H610M-A D4                    | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H610M-A WIFI D4               | NCT6798D   | N            | N            | Y            | N            |
@@ -247,6 +303,7 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | PRIME H610M-F D4                    | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H610M-K D4                    | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME H610M-R D4                    | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | PRIME H670-PLUS D4                  | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | PRIME Q270M-C                       | NCT6793D   | F            | N            | F            | N            |
 | ASUS     | PRIME Q370M-C                       | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | PRIME TRX40-PRO                     | NCT6798D   | L            | N            | L            | N            |
@@ -340,7 +397,7 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | ProArt Z490-CREATOR 10G             | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ProArt Z690-CREATOR WIFI            | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ProArt Z790-CREATOR WIFI            | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | Q370I-IM-A R2.0                     | NCT6798D   | L            | N            | L            | N            |
+| ASUS     | Q370I-IM-A R2.0                     | NCT6116D   | N            | N            | N            | N            |
 | GIGABYTE | Q87M-D2H                            |            | N            | N            | N            | N            |
 | ASUS     | RAMPAGE III BLACK EDITION           |            | L            | N            | L            | N            |
 | ASUS     | RAMPAGE IV BLACK EDITION            |            | L            | N            | L            | N            |
@@ -438,6 +495,9 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | ROG STRIX B760-G GAMING WIFI        | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | ROG STRIX B760-G GAMING WIFI D4     | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | ROG STRIX B760-I GAMING WIFI        | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | ROG STRIX H370-F GAMING             | NCT6796D   | N            | N            | U            | N            |
+| ASUS     | ROG STRIX H370-I GAMING             | NCT6796D   | N            | N            | U            | N            |
+| ASUS     | ROG STRIX H470-I GAMING             | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | ROG STRIX TRX40-E GAMING            | NCT6798D   | N            | N            | P            | N            |
 | ASUS     | ROG STRIX TRX40-XE GAMING           | NCT6798D   | N            | N            | P            | N            |
 | ASUS     | ROG STRIX X299-E GAMING             | NCT6796D   | L            | N            | L            | N            |
@@ -571,6 +631,11 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | TUF GAMING B760M-PLUS D4            | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | TUF GAMING B760M-PLUS WIFI          | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | TUF GAMING B760M-PLUS WIFI D4       | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | TUF GAMING H470-PRO                 | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | TUF GAMING H470-PRO (WI-FI)         | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | TUF GAMING H570-PRO                 | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | TUF GAMING H570-PRO WIFI            | NCT6798D   | N            | N            | U            | N            |
+| ASUS     | TUF GAMING H670-PRO WIFI D4         | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | TUF GAMING X570-PLUS                | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING X570-PLUS (WI-FI)        | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING X570-PLUS_BR             | NCT6798D-R | N            | N            | Y            | N            |
@@ -589,6 +654,8 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | TUF GAMING Z790-PLUS D4             | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING Z790-PLUS WIFI           | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING Z790-PLUS WIFI D4        | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | TUF H370-PRO GAMING                 | NCT5582D   | N            | N            | U            | N            |
+| ASUS     | TUF H370-PRO GAMING (WI-FI)         | NCT5582D   | N            | N            | U            | N            |
 | ASUS     | TUF X299 MARK 1                     | NCT6796D   | L            | N            | L            | N            |
 | ASUS     | TUF X299 MARK 2                     | NCT6796D   | L            | N            | L            | N            |
 | ASUS     | TUF X470-PLUS GAMING                | IT8665E    | N            | N            | M            | N            |

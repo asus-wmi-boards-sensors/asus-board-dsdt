@@ -153,6 +153,7 @@ ASUS_BOARDS = {
         "TUF GAMING B460-PRO (WI-FI)",
         "TUF GAMING B460M-PLUS",
         "TUF GAMING B460M-PLUS (WI-FI)",
+        "PRIME B460M-A R2.0",
         "TUF GAMING B460M-PRO"
     ],
     "B550": [
@@ -244,10 +245,10 @@ ASUS_BOARDS = {
         "PRIME B760-PLUS D4",
         "PRIME B760M-A",
         "PRIME B760M-A AX D4",
-        "PRIME B760M-AJ D4",
         "PRIME B760M-A D4",
         "PRIME B760M-A WIFI",
         "PRIME B760M-A WIFI D4",
+        "PRIME B760M-AJ D4",
         "PRIME B760M-K D4",
         "Pro B760M-C",
         "Pro B760M-CT",
@@ -268,6 +269,17 @@ ASUS_BOARDS = {
         "TUF GAMING B760M-PLUS WIFI",
         "TUF GAMING B760M-PLUS WIFI D4"
     ],
+    "H370": [
+        "PRIME H370M-PLUS",
+        "ROG STRIX H370-I GAMING",
+        "ROG STRIX H370-F GAMING",
+        "PRIME H370M-PLUS",
+        "PRIME H370-A",
+        "PRIME H370-PLUS",
+        "PRIME H370-A",
+        "TUF H370-PRO GAMING",
+        "TUF H370-PRO GAMING (WI-FI)"
+    ],
     "H410": [
         "EX-H410M-V3",
         "PRIME H410I-PLUS",
@@ -278,9 +290,21 @@ ASUS_BOARDS = {
         "PRIME H410M-K",
         "PRIME H410M-K R2.0",
         "PRO H410M-C",
-        "PRO H410T"
+        "PRO H410T",
+        "PRIME H410M-K R2.0",
+    ],
+    "H470": [
+        "PRIME H470M-PLUS",
+        "PRIME H470-PLUS",
+        "PRIME H470-PLUS",
+        "TUF GAMING H470-PRO",
+        "TUF GAMING H470-PRO (WI-FI)",
+        "PRIME H470-PLUS",
+        "PRIME H470M-PLUS",
+        "ROG STRIX H470-I GAMING"
     ],
     "H510": [
+        "PRIME H510M-K R2.0",
         "EX-H510M-V3",
         "PRIME H510M-A",
         "PRIME H510M-A WIFI",
@@ -291,6 +315,65 @@ ASUS_BOARDS = {
         "PRIME H510M-K R2.0",
         "Pro H510M-C",
         "Pro H510M-CT"
+    ],
+    "H570": [
+        "PRIME H570M-PLUS",
+        "TUF GAMING H570-PRO",
+        "TUF GAMING H570-PRO WIFI",
+        "PRIME H570M-PLUS",
+        "PRIME H570-PLUS",
+    ],
+    "H61": [
+        "H61M-A",
+        "H61M-A/BR",
+        "H61M-A/USB3",
+        "H61M-C",
+        "H61M-CS",
+        "H61M-D",
+        "H61M-E",
+        "H61M-F",
+        "H61M-K",
+        "H61M-PLUS",
+        "H61M-PRO",
+        "P8H61",
+        "P8H61 PLUS",
+        "P8H61 PRO",
+        "P8H61 R2.0",
+        "P8H61-I",
+        "P8H61-I LX",
+        "P8H61-I LX R2.0",
+        "P8H61-I LX R2.0/RM/SI",
+        "P8H61-I R2.0",
+        "P8H61-M",
+        "P8H61-M EVO",
+        "P8H61-M LE",
+        "P8H61-M LE R2.0",
+        "P8H61-M LE/BR",
+        "P8H61-M LE/CSM",
+        "P8H61-M LE/CSM R2.0",
+        "P8H61-M LE/USB3",
+        "P8H61-M LX",
+        "P8H61-M LX PLUS",
+        "P8H61-M LX PLUS R2.0",
+        "P8H61-M LX R2.0",
+        "P8H61-M LX2",
+        "P8H61-M LX2 2.0",
+        "P8H61-M LX2 R2.0",
+        "P8H61-M LX2/CSM",
+        "P8H61-M LX3",
+        "P8H61-M LX3 PLUS",
+        "P8H61-M LX3 PLUS R2.0",
+        "P8H61-M LX3 R2.0",
+        "P8H61-M PLUS V2",
+        "P8H61-M PRO",
+        "P8H61-M2 USB3",
+        "P8H61-M2/SI",
+        "P8H61-MX",
+        "P8H61-MX R2.0",
+        "P8H61-MX USB3",
+        "P8H61-V",
+        "P8H61/USB3",
+        "P8H61/USB3 R2.0"
     ],
     "H610": [
         "EX-H610M-V3 D4",
@@ -306,6 +389,45 @@ ASUS_BOARDS = {
         "Pro H610M-C D4",
         "Pro H610M-CT D4",
         "Pro H610T D4"
+    ],
+    "H670": [
+        "PRIME H670-PLUS D4",
+        "TUF GAMING H670-PRO WIFI D4",
+    ],
+    "H81": [
+        "H81-GAMER",
+        "H81-PLUS",
+        "H81I-PLUS",
+        "H81M-A",
+        "H81M-A/BR",
+        "H81M-C",
+        "H81M-C/BR",
+        "H81M-CS",
+        "H81M-CS/BR",
+        "H81M-D",
+        "H81M-D PLUS",
+        "H81M-E",
+        "H81M-K",
+        "H81M-P",
+        "H81M-P PLUS",
+        "H81M-PLUS",
+        "H81M-R",
+        "H81M-V3",
+        "H81M2",
+        "H81T"
+    ],
+    "Q270": [
+        "PRIME Q270M-C"
+    ],
+    "Q370": [
+        "PRIME Q370M-C",
+        "Q370I-IM-A R2.0"
+    ],
+    "Q470": [
+        "PRO Q470M-C"
+    ],
+    "Q670": [
+        "Pro Q670M-C"
     ],
     "TRX40": [
         "PRIME TRX40-PRO",
@@ -327,14 +449,40 @@ ASUS_BOARDS = {
         "Pro WS WRX80E-SAGE SE WIFI",
         "Pro WS WRX80E-SAGE SE WIFI II"
     ],
+    "X299": [
+        "PRIME X299 EDITION 30",
+        "PRIME X299-A",
+        "PRIME X299-A II",
+        "PRIME X299-DELUXE",
+        "PRIME X299-DELUXE II",
+        "Pro WS X299 SAGE II",
+        "ROG RAMPAGE VI APEX",
+        "ROG RAMPAGE VI EXTREME ENCORE",
+        "ROG RAMPAGE VI EXTREME OMEGA",
+        "ROG STRIX X299-E GAMING",
+        "ROG STRIX X299-E GAMING II",
+        "ROG STRIX X299-XE GAMING",
+        "TUF X299 MARK 1",
+        "TUF X299 MARK 2",
+        "WS X299 PRO",
+        "WS X299 PRO/SE",
+        "WS X299 SAGE",
+        "WS X299 SAGE/10G"
+    ],
     "X370": [
+        "CROSSHAIR VI HERO",
         "PRIME X370-A",
         "PRIME X370-PRO",
         "ROG CROSSHAIR VI EXTREME",
-        "CROSSHAIR VI HERO",
         "ROG CROSSHAIR VI HERO (WI-FI AC)",
         "ROG STRIX X370-F GAMING",
         "ROG STRIX X370-I GAMING"
+    ],
+    "X399": [
+        "PRIME X399-A",
+        "ROG STRIX X399-E GAMING",
+        "ROG ZENITH EXTREME",
+        "ROG ZENITH EXTREME ALPHA"
     ],
     "X470": [
         "PRIME X470-PRO",
@@ -363,6 +511,9 @@ ASUS_BOARDS = {
         "TUF GAMING X570-PRO (WI-FI)",
         "TUF GAMING X570-PRO WIFI II"
     ],
+    "X58": [
+        "RAMPAGE III BLACK EDITION"
+    ],
     "X670": [
         "PRIME X670-P",
         "PRIME X670-P WIFI",
@@ -378,16 +529,27 @@ ASUS_BOARDS = {
         "TUF GAMING X670E-PLUS",
         "TUF GAMING X670E-PLUS WIFI"
     ],
+    "X79": [
+        "RAMPAGE IV BLACK EDITION",
+        "RAMPAGE IV EXTREME",
+        "RAMPAGE IV FORMULA",
+        "RAMPAGE IV GENE"
+    ],
+    "X99": [
+        "RAMPAGE V EDITION 10",
+        "RAMPAGE V EXTREME",
+        "STRIX X99 GAMING"
+    ],
     "Z270": [
-        "PRIME Z270-A",
-        "PRIME Z270-K",
-        "PRIME Z270-P",
-        "PRIME Z270M-PLUS",
         "MAXIMUS IX APEX",
         "MAXIMUS IX CODE",
         "MAXIMUS IX EXTREME",
         "MAXIMUS IX FORMULA",
         "MAXIMUS IX HERO",
+        "PRIME Z270-A",
+        "PRIME Z270-K",
+        "PRIME Z270-P",
+        "PRIME Z270M-PLUS",
         "ROG STRIX Z270-I GAMING",
         "ROG STRIX Z270E GAMING",
         "ROG STRIX Z270F GAMING",
@@ -527,84 +689,9 @@ ASUS_BOARDS = {
         "TUF GAMING Z790-PLUS D4",
         "TUF GAMING Z790-PLUS WIFI",
         "TUF GAMING Z790-PLUS WIFI D4"
-    ],
-    "X299": [
-        "Pro WS X299 SAGE II",
-        "ROG STRIX X299-E GAMING II",
-        "ROG RAMPAGE VI EXTREME ENCORE",
-        "PRIME X299-A II",
-        "PRIME X299 EDITION 30",
-        "ROG STRIX X299-XE GAMING",
-        "ROG STRIX X299-E GAMING",
-        "ROG RAMPAGE VI EXTREME OMEGA",
-        "ROG RAMPAGE VI APEX",
-        "PRIME X299-DELUXE II",
-        "WS X299 SAGE/10G",
-        "WS X299 SAGE",
-        "WS X299 PRO/SE",
-        "WS X299 PRO",
-        "PRIME X299-A",
-        "TUF X299 MARK 2",
-        "PRIME X299-DELUXE",
-        "TUF X299 MARK 1",
-    ],
-    "X399": [
-        "ROG ZENITH EXTREME",
-        "ROG ZENITH EXTREME ALPHA",
-        "PRIME X399-A",
-        "ROG STRIX X399-E GAMING",
-    ],
-    "X99": [
-        "STRIX X99 GAMING",
-        "RAMPAGE V EDITION 10",
-        "RAMPAGE V EXTREME",
-    ],
-    "X79": [
-        "RAMPAGE IV BLACK EDITION",
-        "RAMPAGE IV EXTREME",
-        "RAMPAGE IV FORMULA",
-        "RAMPAGE IV GENE",
-    ],
-    "X58": [
-        "RAMPAGE III BLACK EDITION"
-    ],
-    "Q670": [
-        "Pro Q670M-C",
-    ],
-    "Q470": [
-        "PRO Q470M-C"
-    ],
-    "Q370": [
-        "PRIME Q370M-C",
-        "Q370I-IM-A R2.0",
-    ],
-    "Q270": [
-        "PRIME Q270M-C"
-    ],
-    "H81": [
-        "H81M-K",
-        "H81M-CS",
-        "H81-GAMER",
-        "H81-PLUS",
-        "H81I-PLUS",
-        "H81M-A",
-        "H81M-A/BR",
-        "H81M-C",
-        "H81M-C/BR",
-        "H81M-CS/BR",
-        "H81M-D",
-        "H81M-D PLUS",
-        "H81M-E",
-        "H81M-K",
-        "H81M-P",
-        "H81M-P PLUS",
-        "H81M-PLUS",
-        "H81M-R",
-        "H81M-V3",
-        "H81M2",
-        "H81T"
     ]
 }
+
 
 BRIDGE_CHIPSETS = [
     # Intel LGA 1156

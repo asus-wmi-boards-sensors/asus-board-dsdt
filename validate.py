@@ -35,7 +35,7 @@ LINKS = [
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360-PLUS-GAMING-ASUS-3101.ZIP",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360-PRO-GAMING-ASUS-3101.ZIP",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360-PRO-GAMING-WIFI-ASUS-3101.ZIP",
-    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360M-PLUS-GAMING-S-SI-3202.ZIP"
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360M-PLUS-GAMING-S-SI-3202.ZIP",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360M-E-GAMING-ASUS-3202.ZIP",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360M-PLUS-GAMING-ASUS-3202.ZIP",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-WRX80E-SAGE-SE-WIFI-II-ASUS-1106.zip",
@@ -47,6 +47,45 @@ LINKS = [
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-Q470M-C-SI-1621.ZIP",
     "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/PRIME_Q370M-C/PRIME-Q370M-C-ASUS-2811.zip",
     "https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/PRIME_Q270M-C/PRIME-Q270M-C-ASUS-1607.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/Embedded_IPC/Q370I-IM-A_R2.0/Q370I-IM-A-R2-SI-1502.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H670-PLUS-D4-ASUS-2214.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-H670-PRO-WIFI-D4-ASUS-2305.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-H570-PRO-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H570M-PLUS-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-H570-PRO-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-H570-PRO-WIFI-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H570M-PLUS-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H570-PLUS-ASUS-2001.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B460M-A-R2-ASUS-2601.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H470M-PLUS-ASUS-1620.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H470M-PLUS-ASUS-1620.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H470-PLUS-ASUS-1620.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H470-PLUS-ASUS-1620.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H470-PLUS-ASUS-1620.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H470M-PLUS-ASUS-1620.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-H470-PRO-ASUS-2601.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-H470-PRO-WIFI-ASUS-2601.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-H470-I-GAMING-ASUS-2601.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H370M-PLUS-ASUS-3201.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H370M-PLUS-ASUS-3201.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-H370-I-GAMING-ASUS-3101.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-H370-F-GAMING-ASUS-3101.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H370M-PLUS-ASUS-3201.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H370-A-ASUS-3101.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H370-PLUS-ASUS-3101.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H370-A-ASUS-3101.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-H370-PRO-GAMING-ASUS-3101.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-H370-PRO-GAMING-WIFI-ASUS-3101.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H370M-PLUS-ASUS-3201.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H370M-PLUS-ASUS-3201.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-H370-I-GAMING-ASUS-3101.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-H370-F-GAMING-ASUS-3101.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H370M-PLUS-ASUS-3201.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H370-A-ASUS-3101.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H370-PLUS-ASUS-3101.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H370-A-ASUS-3101.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-H370-PRO-GAMING-ASUS-3101.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-H370-PRO-GAMING-WIFI-ASUS-3101.ZIP",
 ]
 
 # Upstreamed ec
@@ -515,6 +554,9 @@ BOARDNAME_CONVERT = {
     "TUF B360M PLUS GAMING": "TUF B360M-PLUS GAMING",
     "PRO WS WRX80E-SAGE-SE-WIFI": "Pro WS WRX80E-SAGE SE WIFI",
     "PRO WS WRX80E-SAGE-SE-WIFI-II": "Pro WS WRX80E-SAGE SE WIFI II",
+    "Q370I-IM-A-R2": "Q370I-IM-A R2.0",
+    "TUF H370 PRO GAMING": "TUF H370-PRO GAMING",
+    "TUF H370 PRO GAMING WIFI": "TUF H370-PRO GAMING (WI-FI)",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -610,7 +652,7 @@ ASUS_KNOWN_UIDS = {
 }
 
 ASUS_WIFI_NO_CONVERT = ["A620", "B560", "B650", "B660", "B760", "H510",
-                        "X670", "Z590", "Z690", "Z790"]
+                        "H570", "H670", "X670", "Z590", "Z690", "Z790"]
 
 
 def gen_asus_board_name(board_group):
