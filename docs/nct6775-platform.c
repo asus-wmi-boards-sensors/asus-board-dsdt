@@ -1125,7 +1125,9 @@ static const char * const asus_wmi_boards[] = {
 	"PRIME B550M-A AC",
 	"PRIME B550M-A WIFI II",
 	"PRIME B550M-K",
+	"PRIME H310I-PLUS", // No feedback
 	"PRIME H310M-C", // No feedback
+	"PRIME H310M-E/BR", // No feedback
 	"PRIME H310T", // No feedback
 	"PRIME H370-A",
 	"PRIME H370-PLUS",

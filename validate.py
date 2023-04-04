@@ -23,6 +23,10 @@ LINKS = [
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H770-PLUS-D4-ASUS-0810.zip",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H770-PLUS-D4-ASUS-0810.zip",
     "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-H770-PRO-WIFI-ASUS-0812.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310I-PLUS-SI-3202.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310M-C-SI-3202.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310M-E-BR-SI-3202.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310T-SI-3202.ZIP",
 ]
 
 # Upstreamed ec
@@ -500,6 +504,7 @@ BOARDNAME_CONVERT = {
     "TUF H370 PRO GAMING": "TUF H370-PRO GAMING",
     "TUF H370 PRO GAMING WIFI": "TUF H370-PRO GAMING (WI-FI)",
     "WS C422 PRO SE": "WS C422 PRO/SE",
+    "PRIME H310M-E BR": "PRIME H310M-E/BR",
 }
 
 ASUS_DISPATCHER = "WMBD"

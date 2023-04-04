@@ -300,7 +300,7 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | PRIME H270M-PLUS                    | NCT5539D   | F            | N            | F            | N            |
 | ASUS     | PRIME H310-PLUS                     | NCT5582D   | L            | N            | L            | N            |
 | ASUS     | PRIME H310-PLUS R2.0                | NCT6796D   | L            | N            | L            | N            |
-| ASUS     | PRIME H310I-PLUS                    | NCT6793D   | L            | N            | L            | N            |
+| ASUS     | PRIME H310I-PLUS                    | NCT6793D   | N            | N            | U            | N            |
 | ASUS     | PRIME H310I-PLUS R2.0               | NCT5582D   | L            | N            | L            | N            |
 | ASUS     | PRIME H310M-A R2.0                  | NCT5582D   | L            | N            | L            | N            |
 | ASUS     | PRIME H310M-C                       | NCT6793D   | N            | N            | U            | N            |
@@ -314,7 +314,7 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | PRIME H310M-E                       | NCT5582D   | L            | N            | L            | N            |
 | ASUS     | PRIME H310M-E R2.0                  | NCT5582D   | L            | N            | L            | N            |
 | ASUS     | PRIME H310M-E R2.0/BR               | NCT5582D   | L            | N            | L            | N            |
-| ASUS     | PRIME H310M-E/BR                    | NCT5582D   | L            | N            | L            | N            |
+| ASUS     | PRIME H310M-E/BR                    | NCT5582D   | N            | N            | U            | N            |
 | ASUS     | PRIME H310M-F                       | NCT6793D   | L            | N            | L            | N            |
 | ASUS     | PRIME H310M-F R2.0                  | NCT6798D   | L            | N            | L            | N            |
 | ASUS     | PRIME H310M-K                       | NCT5582D   | L            | N            | L            | N            |
