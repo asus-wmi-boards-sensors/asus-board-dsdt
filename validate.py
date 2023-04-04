@@ -17,6 +17,12 @@ from utils import load_linuxhw_DMI, file_write_with_changes, load_board_flags
 
 
 LINKS = [
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310M-C-SI-3202.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-C422-ACE-ASUS-1403.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-DOMINUS-EXTREME-ASUS-0801.ZIP",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H770-PLUS-D4-ASUS-0810.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H770-PLUS-D4-ASUS-0810.zip",
+    "https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-H770-PRO-WIFI-ASUS-0812.zip",
 ]
 
 # Upstreamed ec
@@ -366,9 +372,14 @@ NCT6775_UPSTREAMED_CHIPSETS = [
     "B650",
     "B660",
     "B760",
+    "H370",
     "H410",
+    "H470",
     "H510",
+    "H570",
     "H610",
+    "H670",
+    "H770",
     "W680",
     "W790",
     "Q370",
@@ -488,6 +499,7 @@ BOARDNAME_CONVERT = {
     "Q370I-IM-A-R2": "Q370I-IM-A R2.0",
     "TUF H370 PRO GAMING": "TUF H370-PRO GAMING",
     "TUF H370 PRO GAMING WIFI": "TUF H370-PRO GAMING (WI-FI)",
+    "WS C422 PRO SE": "WS C422 PRO/SE",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -583,7 +595,8 @@ ASUS_KNOWN_UIDS = {
 }
 
 ASUS_WIFI_NO_CONVERT = ["A620", "B560", "B650", "B660", "B760", "H510",
-                        "H570", "H670", "X670", "Z590", "Z690", "Z790"]
+                        "H570", "H670", "H770", "X670", "Z590", "Z690",
+                        "Z790"]
 
 
 def gen_asus_board_name(board_group):
@@ -610,7 +623,8 @@ def gen_asus_board_name(board_group):
         board_name += " ".join(board_group[4:])
     elif (
         board_group[0] == "ROG" and
-        board_group[1] in ("CROSSHAIR", "MAXIMUS", "ZENITH", "RAMPAGE")
+        board_group[1] in ("CROSSHAIR", "MAXIMUS", "ZENITH", "RAMPAGE",
+                           "DOMINUS")
     ):
         # detect chipset from name
         for chipset in BRIDGE_CHIPSETS:

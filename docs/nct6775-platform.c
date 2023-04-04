@@ -1125,10 +1125,11 @@ static const char * const asus_wmi_boards[] = {
 	"PRIME B550M-A AC",
 	"PRIME B550M-A WIFI II",
 	"PRIME B550M-K",
+	"PRIME H310M-C", // No feedback
 	"PRIME H310T", // No feedback
-	"PRIME H370-A", // No feedback
-	"PRIME H370-PLUS", // No feedback
-	"PRIME H370M-PLUS", // No feedback
+	"PRIME H370-A",
+	"PRIME H370-PLUS",
+	"PRIME H370M-PLUS",
 	"PRIME H410I-PLUS",
 	"PRIME H410M-A",
 	"PRIME H410M-D",
@@ -1137,8 +1138,8 @@ static const char * const asus_wmi_boards[] = {
 	"PRIME H410M-K",
 	"PRIME H410M-K R2.0",
 	"PRIME H410M-R",
-	"PRIME H470-PLUS", // No feedback
-	"PRIME H470M-PLUS", // No feedback
+	"PRIME H470-PLUS",
+	"PRIME H470M-PLUS",
 	"PRIME H510M-K R2.0",
 	"PRIME Q370M-C",
 	"PRIME X570-P",
@@ -1195,9 +1196,9 @@ static const char * const asus_wmi_boards[] = {
 	"ROG STRIX B550-F GAMING WIFI II",
 	"ROG STRIX B550-I GAMING",
 	"ROG STRIX B550-XE GAMING WIFI",
-	"ROG STRIX H370-F GAMING", // No feedback
-	"ROG STRIX H370-I GAMING", // No feedback
-	"ROG STRIX H470-I GAMING", // No feedback
+	"ROG STRIX H370-F GAMING",
+	"ROG STRIX H370-I GAMING",
+	"ROG STRIX H470-I GAMING",
 	"ROG STRIX X570-E GAMING",
 	"ROG STRIX X570-E GAMING WIFI II",
 	"ROG STRIX X570-F GAMING",
@@ -1238,8 +1239,8 @@ static const char * const asus_wmi_boards[] = {
 	"TUF GAMING B550M-PLUS",
 	"TUF GAMING B550M-PLUS (WI-FI)",
 	"TUF GAMING B550M-PLUS WIFI II",
-	"TUF GAMING H470-PRO", // No feedback
-	"TUF GAMING H470-PRO (WI-FI)", // No feedback
+	"TUF GAMING H470-PRO",
+	"TUF GAMING H470-PRO (WI-FI)",
 	"TUF GAMING X570-PLUS",
 	"TUF GAMING X570-PLUS (WI-FI)",
 	"TUF GAMING X570-PLUS_BR",
@@ -1247,8 +1248,8 @@ static const char * const asus_wmi_boards[] = {
 	"TUF GAMING X570-PRO WIFI II",
 	"TUF GAMING Z490-PLUS",
 	"TUF GAMING Z490-PLUS (WI-FI)",
-	"TUF H370-PRO GAMING", // No feedback
-	"TUF H370-PRO GAMING (WI-FI)", // No feedback
+	"TUF H370-PRO GAMING",
+	"TUF H370-PRO GAMING (WI-FI)",
 	"TUF Z390-PLUS GAMING",
 	"TUF Z390-PLUS GAMING (WI-FI)",
 	"TUF Z390-PRO GAMING",
@@ -1300,8 +1301,8 @@ static const char * const asus_msi_boards[] = {
 	"PRIME H510M-K",
 	"PRIME H510M-R",
 	"PRIME H510T2/CSM",
-	"PRIME H570-PLUS", // No feedback
-	"PRIME H570M-PLUS", // No feedback
+	"PRIME H570-PLUS",
+	"PRIME H570M-PLUS",
 	"PRIME H610I-PLUS D4",
 	"PRIME H610M-A D4",
 	"PRIME H610M-A WIFI D4",
@@ -1310,7 +1311,8 @@ static const char * const asus_msi_boards[] = {
 	"PRIME H610M-F D4",
 	"PRIME H610M-K D4",
 	"PRIME H610M-R D4",
-	"PRIME H670-PLUS D4", // No feedback
+	"PRIME H670-PLUS D4",
+	"PRIME H770-PLUS D4",
 	"PRIME X670-P",
 	"PRIME X670-P WIFI",
 	"PRIME X670E-PRO WIFI",
@@ -1435,9 +1437,10 @@ static const char * const asus_msi_boards[] = {
 	"TUF GAMING B760M-PLUS D4",
 	"TUF GAMING B760M-PLUS WIFI",
 	"TUF GAMING B760M-PLUS WIFI D4",
-	"TUF GAMING H570-PRO", // No feedback
-	"TUF GAMING H570-PRO WIFI", // No feedback
-	"TUF GAMING H670-PRO WIFI D4", // No feedback
+	"TUF GAMING H570-PRO",
+	"TUF GAMING H570-PRO WIFI",
+	"TUF GAMING H670-PRO WIFI D4",
+	"TUF GAMING H770-PRO WIFI",
 	"TUF GAMING X670E-PLUS",
 	"TUF GAMING X670E-PLUS WIFI",
 	"TUF GAMING Z590-PLUS",
@@ -1556,6 +1559,7 @@ static const struct dmi_system_id asus_wmi_info_table[] = {
 	DMI_MATCH_ASUS_WMI_BOARD("PRIME B365M-K", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("PRIME X399-A", &acpi_board_SBRG_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("PRIME Z270-A", &acpi_board_ILPC_MUTEX),
+	DMI_MATCH_ASUS_WMI_BOARD("Pro WS C422-ACE", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("Pro WS WRX80E-SAGE SE WIFI", &acpi_board_SBRG_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("Pro WS WRX80E-SAGE SE WIFI II", &acpi_board_SBRG_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("ROG MAXIMUS X HERO", &acpi_board_ILPC_MUTEX),

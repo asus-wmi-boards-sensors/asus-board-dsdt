@@ -269,12 +269,87 @@ ASUS_BOARDS = {
         "TUF GAMING B760M-PLUS WIFI",
         "TUF GAMING B760M-PLUS WIFI D4"
     ],
+    "C246": [
+        "Pro WS C246-ACE",
+        "WS C246 PRO",
+        "WS C246M PRO"
+    ],
+    "C422": [
+        "Pro WS C422-ACE",
+        "WS C422 DC",
+        "WS C422 PRO/SE",
+        "WS C422 SAGE/10G"
+    ],
+    "C621": [
+        "ROG DOMINUS EXTREME",
+        "WS C621E SAGE"
+    ],
+    "H110": [
+        "H110-PLUS",
+        "H110I-PLUS",
+        "H110M-A",
+        "H110M-A D3",
+        "H110M-A/DP",
+        "H110M-A/M.2",
+        "H110M-C",
+        "H110M-C/BR",
+        "H110M-C/PS",
+        "H110M-C2",
+        "H110M-CS",
+        "H110M-CS/BR",
+        "H110M-D",
+        "H110M-E",
+        "H110M-E/M.2",
+        "H110M-F",
+        "H110M-K",
+        "H110M-K D3",
+        "H110M-PLUS",
+        "H110M-R",
+        "H110S1",
+        "H110S2",
+        "H110T",
+        "PRIME H110M-P",
+        "PRIME H110M2"
+    ],
     "H270": [
         "PRIME H270-PLUS",
         "PRIME H270-PRO",
         "PRIME H270M-PLUS",
         "STRIX H270F GAMING",
         "STRIX H270I GAMING"
+    ],
+    "H310": [
+        "EX-H310M-V3 R2.0",
+        "PRIME H310-PLUS",
+        "PRIME H310-PLUS R2.0",
+        "PRIME H310I-PLUS",
+        "PRIME H310I-PLUS R2.0",
+        "PRIME H310M-A R2.0",
+        "PRIME H310M-C",
+        "PRIME H310M-C R2.0",
+        "PRIME H310M-C/PS R2.0",
+        "PRIME H310M-CS R2.0",
+        "PRIME H310M-D",
+        "PRIME H310M-D R2.0",
+        "PRIME H310M-DASH",
+        "PRIME H310M-DASH R2.0",
+        "PRIME H310M-E",
+        "PRIME H310M-E R2.0",
+        "PRIME H310M-E R2.0/BR",
+        "PRIME H310M-E/BR",
+        "PRIME H310M-F",
+        "PRIME H310M-F R2.0",
+        "PRIME H310M-K",
+        "PRIME H310M-K R2.0",
+        "PRIME H310M-R R2.0",
+        "PRIME H310M2 R2.0",
+        "PRIME H310T",
+        "PRIME H310T R2.0",
+        "PRO H310M-R R2.0 WI-FI",
+        "TUF H310-PLUS GAMING",
+        "TUF H310M-PLUS GAMING",
+        "TUF H310M-PLUS GAMING R2.0",
+        "TUF H310M-PLUS GAMING/BR"
     ],
     "H370": [
         "PRIME H370-A",
@@ -356,7 +431,6 @@ ASUS_BOARDS = {
         "P8H61-M LX PLUS R2.0",
         "P8H61-M LX R2.0",
         "P8H61-M LX2",
-        "P8H61-M LX2 2.0",
         "P8H61-M LX2 R2.0",
         "P8H61-M LX2/CSM",
         "P8H61-M LX3",
@@ -392,6 +466,10 @@ ASUS_BOARDS = {
     "H670": [
         "PRIME H670-PLUS D4",
         "TUF GAMING H670-PRO WIFI D4"
+    ],
+    "H770": [
+        "PRIME H770-PLUS D4",
+        "TUF GAMING H770-PRO WIFI"
     ],
     "H81": [
         "H81-GAMER",
@@ -435,6 +513,9 @@ ASUS_BOARDS = {
         "ROG STRIX TRX40-XE GAMING",
         "ROG ZENITH II EXTREME",
         "ROG ZENITH II EXTREME ALPHA"
+    ],
+    "W480": [
+        "Pro WS W480-ACE"
     ],
     "W680": [
         "Pro WS W680-ACE",
