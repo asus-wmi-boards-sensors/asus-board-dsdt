@@ -324,6 +324,7 @@ ASUS_BOARDS = {
         "PRIME H310-PLUS R2.0",
         "PRIME H310I-PLUS",
         "PRIME H310I-PLUS R2.0",
+        "PRIME H310M-A",
         "PRIME H310M-A R2.0",
         "PRIME H310M-C",
         "PRIME H310M-C R2.0",

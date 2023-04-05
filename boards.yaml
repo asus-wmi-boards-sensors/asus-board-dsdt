@@ -3948,26 +3948,97 @@ EX-B760M-V5 D4:
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 EX-H310M-V3 R2.0:
-  aliases: []
+  aliases:
+  - EX-H310M-V3-R2-SI-2208
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
+  hash:
+  - 018a5121a53a9858851f19259210d4d7
+  - 10a691bc96465e94a6a21baadc0cfd67
+  - 18635a01d000063a963ac3114ae0d290
+  - 195c5ffc17cd301b56c15a8e627c4186
+  - 1a913b9845989956b977c87a0a83b6e7
+  - 1ed223c3f82d4567f34bb46ce974cf54
+  - 2b71bf0688752b0dfdca45389ddc818c
+  - 300ea82c664ddc30a4e6ae0b21653724
+  - 320e23570d3211d7453658a48e1c1cf6
+  - 37b3efbda27cbc14183e3be8facd5e2b
+  - 3d92eee03955b5790292469cc7c47e29
+  - 3ef49758a27da64c76e1f2c077c4b218
+  - 465aaf8d3733a3ba7923818087e826cf
+  - 47eb157790766b4a9a29c2218de4fa0e
+  - 4d1ea1c284ed8ecb6f985d6f9ca6d37b
+  - 4d6f4d95c31bec1f4617a4e6d44ad01f
+  - 5af3c48cebd12e5dcf832587cd938648
+  - 5e1f9a83b8711797119bcda51b0be01f
+  - 5ffbca5cfe19b336612a7c0646691bd8
+  - 60bc34ee1ef1f0f4574cb8d2fce4a6b5
+  - 64ff600cc0627cbeafd3d7f842a09e10
+  - 67e7eae682694c3168d03541110e5c73
+  - 6976816691f55f7bbeb3943409e9b074
+  - 6ac69202462bc10f6ec8f57a1d9a3bdd
+  - 6b1654fd01c1b022d30f409a4c82dbe5
+  - 7327dd64bb470e2df5ec87b549042b97
+  - 73fc1b8cb605f7acb2b99c454cc31038
+  - 76cfa2b6c918b25b8b11460695bbed02
+  - 7902165ffbe3405f1847d962c0f0a8df
+  - 8c27c9b4563d3f4ed36d6a18e8df7352
+  - 99a35c0926e72db2da54ddf9d28587b7
+  - 9dc6f9c131169349fec5a484ca47e632
+  - a32921bf94a3daf6b741f74e7b8f3ea0
+  - a5d0fb47c376ae8131b9316a4f2e0513
+  - a5e26af846765ab1d0a96fef4da926c0
+  - a74829cf524b32b3172827102171b8c8
+  - ade9a3d91b8924d7034e353c057a0de0
+  - b582d6e3bec27e083031dc1516f3ac71
+  - b6ada1df778db94ac9248b75a5b3276c
+  - b6c44640d67bff473d5f2f4e9b1b1a44
+  - b95370568b906e5285c2f2a8747e8b1c
+  - bc9fb08934bbc40427bf4df7bef4aa90
+  - bd61ae730ba5caead2d6edb4066aeea3
+  - c3affa275303ba215365b8b7de0d32e2
+  - c63a3df0ad8b7f4fd13e90af5d35653a
+  - c6845ed144f8c2e06d802a2a210469e4
+  - ce86326393daa60c28e54ea3fa70112b
+  - d2f927046b807a110bf690c7ad60e0e1
+  - d3057d7d8532890c6d4f6dbda41148f3
+  - d3835a47a5f3e593a5593a0a7de65a7a
+  - d3e2bd9c2eb91e941fd7d2b54cef9bd4
+  - d6eba60c56429f75aa77e38421467ea5
+  - d90f0a8f66600cbad77fc572abe4f6aa
+  - deb5d05ca66c8e2e71b5ee8f2288b14d
+  - e0a245a5b06f6b01fa95910b07b076b4
+  - e71a3974086f47d980a09b612d2e10f8
+  - eed216d1502e43dd628f8d4ed9d3a59c
+  - ef4a7ffc0e6389a342281838217b05be
+  - fa3d52cf30afb35db457fc601e21d89d
+  - fa5b665dfd25e58e088cfd70f3baba31
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/EX-H310M-V3-R2-SI-2208.ZIP
   superio: NCT5582D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 EX-H410M-V3:
   aliases:
   - EX-H410M-V3-SI-1620
@@ -14358,47 +14429,193 @@ PRIME H270M-PLUS:
   upstreamed_serie: false
   wmi_methods: []
 PRIME H310-PLUS:
-  aliases: []
-  asus_dispatcher: []
+  aliases:
+  - PRIME-H310-PLUS-ASUS-3202
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
-  known_good_nct6775: []
-  links: []
+  hash:
+  - 00fe5645ead8847e62940fdaea09f5e9
+  - 0341a03c73715cb3b56033ad7cf75d9a
+  - 03a726b6a6e11aa5a65ddc589db1709e
+  - 043f4faffe590b7c7f97a15526c5a6f5
+  - 0a7dad1c3467165aa8bff9f7656fc7c1
+  - 11ca0672fd57c728e25bc933deedc567
+  - 1320be9b84160e002e09729e752b6e28
+  - 22c0a72be6c1fa34c6dbba7acf6763fa
+  - 23fcfd2f2f0bade7ab6883375d0c1aec
+  - 26495a107369fe1569783479f11056d3
+  - 2af901b94fa4d2bcac36378945b3ebcd
+  - 311da198e58bb7015e9e1ef710bb348a
+  - 3468db3a02054f4cb2a146a947e2ec9b
+  - 375739a26431804d350f6225c0f54131
+  - 3cb451c91b95d8094ea8d30cb09088f1
+  - 3cfbda29bce2a981f8678f9f73e93894
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 48e87d59304397114a6a7ae2479d3713
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 56baf21079adaedac5377e958ca1743f
+  - 5f786e42a68737b4e9e586d66ad0d4d5
+  - 602b6c9159eb4c75a1cf7053cde87a07
+  - 65742f800ed283a01710bcc1b08242c5
+  - 697f74b414e369221c26fbf13ce55bb3
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 7ffd93752de04128b4f08b13bbfda9ae
+  - 852a776b613ac135a954cb750129da26
+  - 8ca1d88e34efeff5f4da60e998229bd1
+  - 8dccc226e623cd8e05078749498c5b83
+  - 9611b6d8acff240e1d1732a26e47b52b
+  - 978dd461c3ffea5ddc552abee91828d1
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - 9b36867df1056f01c6b2b1c88cdc1660
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - 9d6c0bee895bf55945f30db9de79cc60
+  - a363d33e150648df70ffde3eb80a7cb5
+  - a7e00a819816002d53014757e38dac8f
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - b079def8eed2c995c0bca711631caed7
+  - b1b580b48420b9676e08270094c90358
+  - b4217cb7525e8474076d60ad48cc8fdf
+  - c7040eb040ffdc6cae92c1d77933c255
+  - cf0ee1276e05452f5c63d3decb538fd5
+  - d52b105dc43c56ed9d12b2bbae09c74e
+  - e1fc16ad40506c250d597f6e8af0ad92
+  - e3bcca9a13df5f2990c070353066464b
+  - ecd47c58be4348d8adad9cd2c7365c54
+  - ece68ada0b1824a426659dd69e4e0d82
+  - f1ba4da018af9ef36a96f88fd2cc74ae
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f5c9e724e726ad8d632e51541629d1b9
+  - f5d93d68d33fc81dcd641f59baeba157
+  - f6dbc187925fc646dedecd6c478c7150
+  - f7b0e1d085be4b5701ba70c57fc4887a
+  - f8843ca7140d36f95d8a574cfe4c139a
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310-PLUS-ASUS-3202.ZIP
   superio: NCT5582D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310-PLUS R2.0:
-  aliases: []
+  aliases:
+  - PRIME-H310-PLUS-R2-ASUS-2208
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
+  hash:
+  - 018a5121a53a9858851f19259210d4d7
+  - 10a691bc96465e94a6a21baadc0cfd67
+  - 18635a01d000063a963ac3114ae0d290
+  - 195c5ffc17cd301b56c15a8e627c4186
+  - 1a913b9845989956b977c87a0a83b6e7
+  - 1ed223c3f82d4567f34bb46ce974cf54
+  - 2b71bf0688752b0dfdca45389ddc818c
+  - 300ea82c664ddc30a4e6ae0b21653724
+  - 320e23570d3211d7453658a48e1c1cf6
+  - 37b3efbda27cbc14183e3be8facd5e2b
+  - 3d92eee03955b5790292469cc7c47e29
+  - 3ef49758a27da64c76e1f2c077c4b218
+  - 465aaf8d3733a3ba7923818087e826cf
+  - 47eb157790766b4a9a29c2218de4fa0e
+  - 4d1ea1c284ed8ecb6f985d6f9ca6d37b
+  - 4d6f4d95c31bec1f4617a4e6d44ad01f
+  - 5af3c48cebd12e5dcf832587cd938648
+  - 5e1f9a83b8711797119bcda51b0be01f
+  - 5ffbca5cfe19b336612a7c0646691bd8
+  - 60bc34ee1ef1f0f4574cb8d2fce4a6b5
+  - 64ff600cc0627cbeafd3d7f842a09e10
+  - 67e7eae682694c3168d03541110e5c73
+  - 6976816691f55f7bbeb3943409e9b074
+  - 6ac69202462bc10f6ec8f57a1d9a3bdd
+  - 6b1654fd01c1b022d30f409a4c82dbe5
+  - 7327dd64bb470e2df5ec87b549042b97
+  - 73fc1b8cb605f7acb2b99c454cc31038
+  - 76cfa2b6c918b25b8b11460695bbed02
+  - 7902165ffbe3405f1847d962c0f0a8df
+  - 8c27c9b4563d3f4ed36d6a18e8df7352
+  - 99a35c0926e72db2da54ddf9d28587b7
+  - a32921bf94a3daf6b741f74e7b8f3ea0
+  - a5d0fb47c376ae8131b9316a4f2e0513
+  - a5e26af846765ab1d0a96fef4da926c0
+  - a74829cf524b32b3172827102171b8c8
+  - ade9a3d91b8924d7034e353c057a0de0
+  - b582d6e3bec27e083031dc1516f3ac71
+  - b6ada1df778db94ac9248b75a5b3276c
+  - b6c44640d67bff473d5f2f4e9b1b1a44
+  - b95370568b906e5285c2f2a8747e8b1c
+  - bc9fb08934bbc40427bf4df7bef4aa90
+  - bd61ae730ba5caead2d6edb4066aeea3
+  - c3affa275303ba215365b8b7de0d32e2
+  - c63a3df0ad8b7f4fd13e90af5d35653a
+  - c6845ed144f8c2e06d802a2a210469e4
+  - ce86326393daa60c28e54ea3fa70112b
+  - d2f927046b807a110bf690c7ad60e0e1
+  - d3057d7d8532890c6d4f6dbda41148f3
+  - d3835a47a5f3e593a5593a0a7de65a7a
+  - d3e2bd9c2eb91e941fd7d2b54cef9bd4
+  - d6eba60c56429f75aa77e38421467ea5
+  - d90f0a8f66600cbad77fc572abe4f6aa
+  - deb5d05ca66c8e2e71b5ee8f2288b14d
+  - e0a245a5b06f6b01fa95910b07b076b4
+  - e6f569680e4e0c09c93cc1be5ee071ac
+  - e71a3974086f47d980a09b612d2e10f8
+  - eed216d1502e43dd628f8d4ed9d3a59c
+  - ef4a7ffc0e6389a342281838217b05be
+  - fa3d52cf30afb35db457fc601e21d89d
+  - fa5b665dfd25e58e088cfd70f3baba31
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310-PLUS-R2-ASUS-2208.ZIP
   superio: NCT6796D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310I-PLUS:
   aliases:
   - PRIME-H310I-PLUS-SI-3202
@@ -14489,54 +14706,292 @@ PRIME H310I-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310I-PLUS-SI-3202.ZIP
   superio: NCT6793D
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310I-PLUS R2.0:
-  aliases: []
+  aliases:
+  - PRIME-H310I-PLUS-R2-SI-2208
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
+  hash:
+  - 018a5121a53a9858851f19259210d4d7
+  - 10a691bc96465e94a6a21baadc0cfd67
+  - 18635a01d000063a963ac3114ae0d290
+  - 195c5ffc17cd301b56c15a8e627c4186
+  - 1a913b9845989956b977c87a0a83b6e7
+  - 1ed223c3f82d4567f34bb46ce974cf54
+  - 2b71bf0688752b0dfdca45389ddc818c
+  - 300ea82c664ddc30a4e6ae0b21653724
+  - 320e23570d3211d7453658a48e1c1cf6
+  - 37b3efbda27cbc14183e3be8facd5e2b
+  - 3d92eee03955b5790292469cc7c47e29
+  - 3ef49758a27da64c76e1f2c077c4b218
+  - 465aaf8d3733a3ba7923818087e826cf
+  - 47eb157790766b4a9a29c2218de4fa0e
+  - 4d1ea1c284ed8ecb6f985d6f9ca6d37b
+  - 4d6f4d95c31bec1f4617a4e6d44ad01f
+  - 5af3c48cebd12e5dcf832587cd938648
+  - 5e1f9a83b8711797119bcda51b0be01f
+  - 5ffbca5cfe19b336612a7c0646691bd8
+  - 60bc34ee1ef1f0f4574cb8d2fce4a6b5
+  - 64ff600cc0627cbeafd3d7f842a09e10
+  - 67e7eae682694c3168d03541110e5c73
+  - 6976816691f55f7bbeb3943409e9b074
+  - 6ac69202462bc10f6ec8f57a1d9a3bdd
+  - 6b1654fd01c1b022d30f409a4c82dbe5
+  - 6c04ff006bcd6540d285523f16321ba4
+  - 7327dd64bb470e2df5ec87b549042b97
+  - 73fc1b8cb605f7acb2b99c454cc31038
+  - 76cfa2b6c918b25b8b11460695bbed02
+  - 7902165ffbe3405f1847d962c0f0a8df
+  - 8c27c9b4563d3f4ed36d6a18e8df7352
+  - 99a35c0926e72db2da54ddf9d28587b7
+  - a32921bf94a3daf6b741f74e7b8f3ea0
+  - a5d0fb47c376ae8131b9316a4f2e0513
+  - a5e26af846765ab1d0a96fef4da926c0
+  - a74829cf524b32b3172827102171b8c8
+  - ade9a3d91b8924d7034e353c057a0de0
+  - b582d6e3bec27e083031dc1516f3ac71
+  - b6ada1df778db94ac9248b75a5b3276c
+  - b6c44640d67bff473d5f2f4e9b1b1a44
+  - b95370568b906e5285c2f2a8747e8b1c
+  - bc9fb08934bbc40427bf4df7bef4aa90
+  - bd61ae730ba5caead2d6edb4066aeea3
+  - c3affa275303ba215365b8b7de0d32e2
+  - c63a3df0ad8b7f4fd13e90af5d35653a
+  - c6845ed144f8c2e06d802a2a210469e4
+  - ce86326393daa60c28e54ea3fa70112b
+  - d2f927046b807a110bf690c7ad60e0e1
+  - d3057d7d8532890c6d4f6dbda41148f3
+  - d3835a47a5f3e593a5593a0a7de65a7a
+  - d3e2bd9c2eb91e941fd7d2b54cef9bd4
+  - d6eba60c56429f75aa77e38421467ea5
+  - d90f0a8f66600cbad77fc572abe4f6aa
+  - deb5d05ca66c8e2e71b5ee8f2288b14d
+  - e0a245a5b06f6b01fa95910b07b076b4
+  - e71a3974086f47d980a09b612d2e10f8
+  - eed216d1502e43dd628f8d4ed9d3a59c
+  - ef4a7ffc0e6389a342281838217b05be
+  - fa3d52cf30afb35db457fc601e21d89d
+  - fa5b665dfd25e58e088cfd70f3baba31
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310I-PLUS-R2-SI-2208.ZIP
   superio: NCT5582D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+PRIME H310M-A:
+  aliases:
+  - PRIME-H310M-A-ASUS-3202
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: H310
+  gigabyte_wmi: N
+  hash:
+  - 00fe5645ead8847e62940fdaea09f5e9
+  - 0341a03c73715cb3b56033ad7cf75d9a
+  - 03a726b6a6e11aa5a65ddc589db1709e
+  - 043f4faffe590b7c7f97a15526c5a6f5
+  - 0a7dad1c3467165aa8bff9f7656fc7c1
+  - 11ca0672fd57c728e25bc933deedc567
+  - 1320be9b84160e002e09729e752b6e28
+  - 22c0a72be6c1fa34c6dbba7acf6763fa
+  - 23fcfd2f2f0bade7ab6883375d0c1aec
+  - 26495a107369fe1569783479f11056d3
+  - 2af901b94fa4d2bcac36378945b3ebcd
+  - 311da198e58bb7015e9e1ef710bb348a
+  - 3468db3a02054f4cb2a146a947e2ec9b
+  - 375739a26431804d350f6225c0f54131
+  - 3cb451c91b95d8094ea8d30cb09088f1
+  - 3cfbda29bce2a981f8678f9f73e93894
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 40a774f96d8d5c720efc432ee688d63f
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 48e87d59304397114a6a7ae2479d3713
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 56baf21079adaedac5377e958ca1743f
+  - 5f786e42a68737b4e9e586d66ad0d4d5
+  - 65742f800ed283a01710bcc1b08242c5
+  - 697f74b414e369221c26fbf13ce55bb3
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7bcbdd0d552e1b246d202ea7427f01b7
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 7ffd93752de04128b4f08b13bbfda9ae
+  - 852a776b613ac135a954cb750129da26
+  - 8ca1d88e34efeff5f4da60e998229bd1
+  - 8dccc226e623cd8e05078749498c5b83
+  - 9611b6d8acff240e1d1732a26e47b52b
+  - 978dd461c3ffea5ddc552abee91828d1
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - 9b36867df1056f01c6b2b1c88cdc1660
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - 9d6c0bee895bf55945f30db9de79cc60
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - b079def8eed2c995c0bca711631caed7
+  - b1b580b48420b9676e08270094c90358
+  - b4217cb7525e8474076d60ad48cc8fdf
+  - c7040eb040ffdc6cae92c1d77933c255
+  - cf0ee1276e05452f5c63d3decb538fd5
+  - d52b105dc43c56ed9d12b2bbae09c74e
+  - e1fc16ad40506c250d597f6e8af0ad92
+  - e3bcca9a13df5f2990c070353066464b
+  - ecd47c58be4348d8adad9cd2c7365c54
+  - ece68ada0b1824a426659dd69e4e0d82
+  - f1ba4da018af9ef36a96f88fd2cc74ae
+  - f26cb55a8f3c5f0c023a32b72c76194c
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f5c9e724e726ad8d632e51541629d1b9
+  - f5d93d68d33fc81dcd641f59baeba157
+  - f6dbc187925fc646dedecd6c478c7150
+  - f7b0e1d085be4b5701ba70c57fc4887a
+  - f8843ca7140d36f95d8a574cfe4c139a
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310M-A-ASUS-3202.ZIP
+  superio: NCT5582D
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310M-A R2.0:
-  aliases: []
+  aliases:
+  - PRIME-H310M-A-R2-ASUS-2208
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
+  hash:
+  - 018a5121a53a9858851f19259210d4d7
+  - 10a691bc96465e94a6a21baadc0cfd67
+  - 18635a01d000063a963ac3114ae0d290
+  - 195c5ffc17cd301b56c15a8e627c4186
+  - 1a913b9845989956b977c87a0a83b6e7
+  - 1ed223c3f82d4567f34bb46ce974cf54
+  - 2b71bf0688752b0dfdca45389ddc818c
+  - 300ea82c664ddc30a4e6ae0b21653724
+  - 320e23570d3211d7453658a48e1c1cf6
+  - 37b3efbda27cbc14183e3be8facd5e2b
+  - 3d92eee03955b5790292469cc7c47e29
+  - 3ef49758a27da64c76e1f2c077c4b218
+  - 465aaf8d3733a3ba7923818087e826cf
+  - 47eb157790766b4a9a29c2218de4fa0e
+  - 4d1ea1c284ed8ecb6f985d6f9ca6d37b
+  - 4d6f4d95c31bec1f4617a4e6d44ad01f
+  - 5af3c48cebd12e5dcf832587cd938648
+  - 5e1f9a83b8711797119bcda51b0be01f
+  - 5ffbca5cfe19b336612a7c0646691bd8
+  - 60bc34ee1ef1f0f4574cb8d2fce4a6b5
+  - 64ff600cc0627cbeafd3d7f842a09e10
+  - 67e7eae682694c3168d03541110e5c73
+  - 6976816691f55f7bbeb3943409e9b074
+  - 6ac69202462bc10f6ec8f57a1d9a3bdd
+  - 6b1654fd01c1b022d30f409a4c82dbe5
+  - 7327dd64bb470e2df5ec87b549042b97
+  - 73fc1b8cb605f7acb2b99c454cc31038
+  - 76cfa2b6c918b25b8b11460695bbed02
+  - 7902165ffbe3405f1847d962c0f0a8df
+  - 8c27c9b4563d3f4ed36d6a18e8df7352
+  - 99a35c0926e72db2da54ddf9d28587b7
+  - a32921bf94a3daf6b741f74e7b8f3ea0
+  - a5d0fb47c376ae8131b9316a4f2e0513
+  - a5e26af846765ab1d0a96fef4da926c0
+  - a74829cf524b32b3172827102171b8c8
+  - ade9a3d91b8924d7034e353c057a0de0
+  - b582d6e3bec27e083031dc1516f3ac71
+  - b6ada1df778db94ac9248b75a5b3276c
+  - b6c44640d67bff473d5f2f4e9b1b1a44
+  - b95370568b906e5285c2f2a8747e8b1c
+  - bc9fb08934bbc40427bf4df7bef4aa90
+  - bd61ae730ba5caead2d6edb4066aeea3
+  - c3affa275303ba215365b8b7de0d32e2
+  - c63a3df0ad8b7f4fd13e90af5d35653a
+  - c6845ed144f8c2e06d802a2a210469e4
+  - ce86326393daa60c28e54ea3fa70112b
+  - d2f927046b807a110bf690c7ad60e0e1
+  - d3057d7d8532890c6d4f6dbda41148f3
+  - d3835a47a5f3e593a5593a0a7de65a7a
+  - d3e2bd9c2eb91e941fd7d2b54cef9bd4
+  - d6eba60c56429f75aa77e38421467ea5
+  - d90f0a8f66600cbad77fc572abe4f6aa
+  - deb5d05ca66c8e2e71b5ee8f2288b14d
+  - e0a245a5b06f6b01fa95910b07b076b4
+  - e71a3974086f47d980a09b612d2e10f8
+  - eb8717c3d47c3ac366a4598ff42807a7
+  - eed216d1502e43dd628f8d4ed9d3a59c
+  - ef4a7ffc0e6389a342281838217b05be
+  - fa3d52cf30afb35db457fc601e21d89d
+  - fa5b665dfd25e58e088cfd70f3baba31
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-A-R2-ASUS-2208.ZIP
   superio: NCT5582D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310M-C:
   aliases:
   - PRIME-H310M-C-SI-3202
@@ -14627,222 +15082,943 @@ PRIME H310M-C:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310M-C-SI-3202.ZIP
   superio: NCT6793D
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310M-C R2.0:
-  aliases: []
+  aliases:
+  - PRIME-H310M-C-R2-SI-2208
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
+  hash:
+  - 018a5121a53a9858851f19259210d4d7
+  - 10a691bc96465e94a6a21baadc0cfd67
+  - 18635a01d000063a963ac3114ae0d290
+  - 195c5ffc17cd301b56c15a8e627c4186
+  - 1a913b9845989956b977c87a0a83b6e7
+  - 1ed223c3f82d4567f34bb46ce974cf54
+  - 2b71bf0688752b0dfdca45389ddc818c
+  - 300ea82c664ddc30a4e6ae0b21653724
+  - 320e23570d3211d7453658a48e1c1cf6
+  - 37b3efbda27cbc14183e3be8facd5e2b
+  - 3d92eee03955b5790292469cc7c47e29
+  - 3ef49758a27da64c76e1f2c077c4b218
+  - 465aaf8d3733a3ba7923818087e826cf
+  - 47eb157790766b4a9a29c2218de4fa0e
+  - 4d1ea1c284ed8ecb6f985d6f9ca6d37b
+  - 4d6f4d95c31bec1f4617a4e6d44ad01f
+  - 5af3c48cebd12e5dcf832587cd938648
+  - 5e1f9a83b8711797119bcda51b0be01f
+  - 5ffbca5cfe19b336612a7c0646691bd8
+  - 60bc34ee1ef1f0f4574cb8d2fce4a6b5
+  - 64ff600cc0627cbeafd3d7f842a09e10
+  - 67e7eae682694c3168d03541110e5c73
+  - 6976816691f55f7bbeb3943409e9b074
+  - 6ac69202462bc10f6ec8f57a1d9a3bdd
+  - 6b1654fd01c1b022d30f409a4c82dbe5
+  - 7327dd64bb470e2df5ec87b549042b97
+  - 73fc1b8cb605f7acb2b99c454cc31038
+  - 76cfa2b6c918b25b8b11460695bbed02
+  - 7902165ffbe3405f1847d962c0f0a8df
+  - 8c27c9b4563d3f4ed36d6a18e8df7352
+  - 99a35c0926e72db2da54ddf9d28587b7
+  - a32921bf94a3daf6b741f74e7b8f3ea0
+  - a5d0fb47c376ae8131b9316a4f2e0513
+  - a5e26af846765ab1d0a96fef4da926c0
+  - a74829cf524b32b3172827102171b8c8
+  - ade9a3d91b8924d7034e353c057a0de0
+  - b582d6e3bec27e083031dc1516f3ac71
+  - b6ada1df778db94ac9248b75a5b3276c
+  - b6c44640d67bff473d5f2f4e9b1b1a44
+  - b95370568b906e5285c2f2a8747e8b1c
+  - bad4a79bb16f3c83b42e16db1852b4f6
+  - bc9fb08934bbc40427bf4df7bef4aa90
+  - bd61ae730ba5caead2d6edb4066aeea3
+  - c3affa275303ba215365b8b7de0d32e2
+  - c63a3df0ad8b7f4fd13e90af5d35653a
+  - c6845ed144f8c2e06d802a2a210469e4
+  - ce86326393daa60c28e54ea3fa70112b
+  - d2f927046b807a110bf690c7ad60e0e1
+  - d3057d7d8532890c6d4f6dbda41148f3
+  - d3835a47a5f3e593a5593a0a7de65a7a
+  - d3e2bd9c2eb91e941fd7d2b54cef9bd4
+  - d6eba60c56429f75aa77e38421467ea5
+  - d90f0a8f66600cbad77fc572abe4f6aa
+  - deb5d05ca66c8e2e71b5ee8f2288b14d
+  - e0a245a5b06f6b01fa95910b07b076b4
+  - e71a3974086f47d980a09b612d2e10f8
+  - eed216d1502e43dd628f8d4ed9d3a59c
+  - ef4a7ffc0e6389a342281838217b05be
+  - fa3d52cf30afb35db457fc601e21d89d
+  - fa5b665dfd25e58e088cfd70f3baba31
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-C-R2-SI-2208.ZIP
   superio: NCT6793D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310M-C/PS R2.0:
-  aliases: []
+  aliases:
+  - PRIME-H310M-C-PS-R2-SI-2208
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
+  hash:
+  - 018a5121a53a9858851f19259210d4d7
+  - 10a691bc96465e94a6a21baadc0cfd67
+  - 18635a01d000063a963ac3114ae0d290
+  - 195c5ffc17cd301b56c15a8e627c4186
+  - 1a913b9845989956b977c87a0a83b6e7
+  - 1ed223c3f82d4567f34bb46ce974cf54
+  - 2b71bf0688752b0dfdca45389ddc818c
+  - 300ea82c664ddc30a4e6ae0b21653724
+  - 320e23570d3211d7453658a48e1c1cf6
+  - 37b3efbda27cbc14183e3be8facd5e2b
+  - 3d92eee03955b5790292469cc7c47e29
+  - 3ef49758a27da64c76e1f2c077c4b218
+  - 465aaf8d3733a3ba7923818087e826cf
+  - 47eb157790766b4a9a29c2218de4fa0e
+  - 4d1ea1c284ed8ecb6f985d6f9ca6d37b
+  - 4d6f4d95c31bec1f4617a4e6d44ad01f
+  - 5af3c48cebd12e5dcf832587cd938648
+  - 5e1f9a83b8711797119bcda51b0be01f
+  - 5ffbca5cfe19b336612a7c0646691bd8
+  - 60bc34ee1ef1f0f4574cb8d2fce4a6b5
+  - 64ff600cc0627cbeafd3d7f842a09e10
+  - 67e7eae682694c3168d03541110e5c73
+  - 6976816691f55f7bbeb3943409e9b074
+  - 6ac69202462bc10f6ec8f57a1d9a3bdd
+  - 6b1654fd01c1b022d30f409a4c82dbe5
+  - 7327dd64bb470e2df5ec87b549042b97
+  - 73fc1b8cb605f7acb2b99c454cc31038
+  - 76cfa2b6c918b25b8b11460695bbed02
+  - 7902165ffbe3405f1847d962c0f0a8df
+  - 8c27c9b4563d3f4ed36d6a18e8df7352
+  - 99a35c0926e72db2da54ddf9d28587b7
+  - a32921bf94a3daf6b741f74e7b8f3ea0
+  - a5d0fb47c376ae8131b9316a4f2e0513
+  - a5e26af846765ab1d0a96fef4da926c0
+  - a74829cf524b32b3172827102171b8c8
+  - ade9a3d91b8924d7034e353c057a0de0
+  - b582d6e3bec27e083031dc1516f3ac71
+  - b6ada1df778db94ac9248b75a5b3276c
+  - b6c44640d67bff473d5f2f4e9b1b1a44
+  - b95370568b906e5285c2f2a8747e8b1c
+  - bad4a79bb16f3c83b42e16db1852b4f6
+  - bc9fb08934bbc40427bf4df7bef4aa90
+  - bd61ae730ba5caead2d6edb4066aeea3
+  - c3affa275303ba215365b8b7de0d32e2
+  - c63a3df0ad8b7f4fd13e90af5d35653a
+  - c6845ed144f8c2e06d802a2a210469e4
+  - ce86326393daa60c28e54ea3fa70112b
+  - d2f927046b807a110bf690c7ad60e0e1
+  - d3057d7d8532890c6d4f6dbda41148f3
+  - d3835a47a5f3e593a5593a0a7de65a7a
+  - d3e2bd9c2eb91e941fd7d2b54cef9bd4
+  - d6eba60c56429f75aa77e38421467ea5
+  - d90f0a8f66600cbad77fc572abe4f6aa
+  - deb5d05ca66c8e2e71b5ee8f2288b14d
+  - e0a245a5b06f6b01fa95910b07b076b4
+  - e71a3974086f47d980a09b612d2e10f8
+  - eed216d1502e43dd628f8d4ed9d3a59c
+  - ef4a7ffc0e6389a342281838217b05be
+  - fa3d52cf30afb35db457fc601e21d89d
+  - fa5b665dfd25e58e088cfd70f3baba31
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-C-PS-R2-SI-2208.ZIP
   superio: NCT6793D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310M-CS R2.0:
-  aliases: []
+  aliases:
+  - PRIME-H310M-CS-R2-SI-2208
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
+  hash:
+  - 018a5121a53a9858851f19259210d4d7
+  - 10a691bc96465e94a6a21baadc0cfd67
+  - 18635a01d000063a963ac3114ae0d290
+  - 195c5ffc17cd301b56c15a8e627c4186
+  - 1a913b9845989956b977c87a0a83b6e7
+  - 1ed223c3f82d4567f34bb46ce974cf54
+  - 2b71bf0688752b0dfdca45389ddc818c
+  - 300ea82c664ddc30a4e6ae0b21653724
+  - 320e23570d3211d7453658a48e1c1cf6
+  - 37b3efbda27cbc14183e3be8facd5e2b
+  - 3d92eee03955b5790292469cc7c47e29
+  - 3ef49758a27da64c76e1f2c077c4b218
+  - 465aaf8d3733a3ba7923818087e826cf
+  - 47eb157790766b4a9a29c2218de4fa0e
+  - 4d1ea1c284ed8ecb6f985d6f9ca6d37b
+  - 4d6f4d95c31bec1f4617a4e6d44ad01f
+  - 5af3c48cebd12e5dcf832587cd938648
+  - 5e1f9a83b8711797119bcda51b0be01f
+  - 5ffbca5cfe19b336612a7c0646691bd8
+  - 60bc34ee1ef1f0f4574cb8d2fce4a6b5
+  - 6177cfb9febdb2ca4628cb19a289bd43
+  - 64ff600cc0627cbeafd3d7f842a09e10
+  - 67e7eae682694c3168d03541110e5c73
+  - 6976816691f55f7bbeb3943409e9b074
+  - 6ac69202462bc10f6ec8f57a1d9a3bdd
+  - 6b1654fd01c1b022d30f409a4c82dbe5
+  - 7327dd64bb470e2df5ec87b549042b97
+  - 73fc1b8cb605f7acb2b99c454cc31038
+  - 76cfa2b6c918b25b8b11460695bbed02
+  - 7902165ffbe3405f1847d962c0f0a8df
+  - 8c27c9b4563d3f4ed36d6a18e8df7352
+  - 99a35c0926e72db2da54ddf9d28587b7
+  - a32921bf94a3daf6b741f74e7b8f3ea0
+  - a5d0fb47c376ae8131b9316a4f2e0513
+  - a5e26af846765ab1d0a96fef4da926c0
+  - a74829cf524b32b3172827102171b8c8
+  - ade9a3d91b8924d7034e353c057a0de0
+  - b582d6e3bec27e083031dc1516f3ac71
+  - b6ada1df778db94ac9248b75a5b3276c
+  - b6c44640d67bff473d5f2f4e9b1b1a44
+  - b95370568b906e5285c2f2a8747e8b1c
+  - bc9fb08934bbc40427bf4df7bef4aa90
+  - bd61ae730ba5caead2d6edb4066aeea3
+  - c3affa275303ba215365b8b7de0d32e2
+  - c63a3df0ad8b7f4fd13e90af5d35653a
+  - c6845ed144f8c2e06d802a2a210469e4
+  - ce86326393daa60c28e54ea3fa70112b
+  - d2f927046b807a110bf690c7ad60e0e1
+  - d3057d7d8532890c6d4f6dbda41148f3
+  - d3835a47a5f3e593a5593a0a7de65a7a
+  - d3e2bd9c2eb91e941fd7d2b54cef9bd4
+  - d6eba60c56429f75aa77e38421467ea5
+  - d90f0a8f66600cbad77fc572abe4f6aa
+  - deb5d05ca66c8e2e71b5ee8f2288b14d
+  - e0a245a5b06f6b01fa95910b07b076b4
+  - e71a3974086f47d980a09b612d2e10f8
+  - eed216d1502e43dd628f8d4ed9d3a59c
+  - ef4a7ffc0e6389a342281838217b05be
+  - fa3d52cf30afb35db457fc601e21d89d
+  - fa5b665dfd25e58e088cfd70f3baba31
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-CS-R2-SI-2208.ZIP
   superio: NCT6798D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310M-D:
-  aliases: []
-  asus_dispatcher: []
+  aliases:
+  - PRIME-H310M-D-ASUS-3202
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
-  known_good_nct6775: []
-  links: []
+  hash:
+  - 00fe5645ead8847e62940fdaea09f5e9
+  - 0341a03c73715cb3b56033ad7cf75d9a
+  - 03a726b6a6e11aa5a65ddc589db1709e
+  - 043f4faffe590b7c7f97a15526c5a6f5
+  - 0a7dad1c3467165aa8bff9f7656fc7c1
+  - 11ca0672fd57c728e25bc933deedc567
+  - 1320be9b84160e002e09729e752b6e28
+  - 22c0a72be6c1fa34c6dbba7acf6763fa
+  - 23fcfd2f2f0bade7ab6883375d0c1aec
+  - 26495a107369fe1569783479f11056d3
+  - 2af901b94fa4d2bcac36378945b3ebcd
+  - 311da198e58bb7015e9e1ef710bb348a
+  - 3468db3a02054f4cb2a146a947e2ec9b
+  - 375739a26431804d350f6225c0f54131
+  - 3cb451c91b95d8094ea8d30cb09088f1
+  - 3cfbda29bce2a981f8678f9f73e93894
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 48e87d59304397114a6a7ae2479d3713
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 56baf21079adaedac5377e958ca1743f
+  - 5f786e42a68737b4e9e586d66ad0d4d5
+  - 65742f800ed283a01710bcc1b08242c5
+  - 697f74b414e369221c26fbf13ce55bb3
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7bcbdd0d552e1b246d202ea7427f01b7
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 7ffd93752de04128b4f08b13bbfda9ae
+  - 852a776b613ac135a954cb750129da26
+  - 8ca1d88e34efeff5f4da60e998229bd1
+  - 8dccc226e623cd8e05078749498c5b83
+  - 9611b6d8acff240e1d1732a26e47b52b
+  - 978dd461c3ffea5ddc552abee91828d1
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - 9b36867df1056f01c6b2b1c88cdc1660
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - 9d6c0bee895bf55945f30db9de79cc60
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - b079def8eed2c995c0bca711631caed7
+  - b1b580b48420b9676e08270094c90358
+  - b4217cb7525e8474076d60ad48cc8fdf
+  - c7040eb040ffdc6cae92c1d77933c255
+  - cf0ee1276e05452f5c63d3decb538fd5
+  - d52b105dc43c56ed9d12b2bbae09c74e
+  - e1fc16ad40506c250d597f6e8af0ad92
+  - e3bcca9a13df5f2990c070353066464b
+  - ecd47c58be4348d8adad9cd2c7365c54
+  - ece68ada0b1824a426659dd69e4e0d82
+  - ef69b16ccc4c4add41319dd339fbd6c0
+  - f1ba4da018af9ef36a96f88fd2cc74ae
+  - f26cb55a8f3c5f0c023a32b72c76194c
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f5c9e724e726ad8d632e51541629d1b9
+  - f5d93d68d33fc81dcd641f59baeba157
+  - f6dbc187925fc646dedecd6c478c7150
+  - f7b0e1d085be4b5701ba70c57fc4887a
+  - f8843ca7140d36f95d8a574cfe4c139a
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310M-D-ASUS-3202.ZIP
   superio: NCT6796D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310M-D R2.0:
-  aliases: []
+  aliases:
+  - PRIME-H310M-D-R2-ASUS-2208
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
+  hash:
+  - 018a5121a53a9858851f19259210d4d7
+  - 10a691bc96465e94a6a21baadc0cfd67
+  - 18635a01d000063a963ac3114ae0d290
+  - 195c5ffc17cd301b56c15a8e627c4186
+  - 1a913b9845989956b977c87a0a83b6e7
+  - 1ed223c3f82d4567f34bb46ce974cf54
+  - 2b71bf0688752b0dfdca45389ddc818c
+  - 300ea82c664ddc30a4e6ae0b21653724
+  - 320e23570d3211d7453658a48e1c1cf6
+  - 37b3efbda27cbc14183e3be8facd5e2b
+  - 3d92eee03955b5790292469cc7c47e29
+  - 3ef49758a27da64c76e1f2c077c4b218
+  - 465aaf8d3733a3ba7923818087e826cf
+  - 47eb157790766b4a9a29c2218de4fa0e
+  - 4d1ea1c284ed8ecb6f985d6f9ca6d37b
+  - 4d6f4d95c31bec1f4617a4e6d44ad01f
+  - 5af3c48cebd12e5dcf832587cd938648
+  - 5e1f9a83b8711797119bcda51b0be01f
+  - 5ffbca5cfe19b336612a7c0646691bd8
+  - 60bc34ee1ef1f0f4574cb8d2fce4a6b5
+  - 64ff600cc0627cbeafd3d7f842a09e10
+  - 67e7eae682694c3168d03541110e5c73
+  - 6976816691f55f7bbeb3943409e9b074
+  - 6ac69202462bc10f6ec8f57a1d9a3bdd
+  - 6b1654fd01c1b022d30f409a4c82dbe5
+  - 7327dd64bb470e2df5ec87b549042b97
+  - 73fc1b8cb605f7acb2b99c454cc31038
+  - 762044307439f55b449771039497f96a
+  - 76cfa2b6c918b25b8b11460695bbed02
+  - 7902165ffbe3405f1847d962c0f0a8df
+  - 8c27c9b4563d3f4ed36d6a18e8df7352
+  - 99a35c0926e72db2da54ddf9d28587b7
+  - a32921bf94a3daf6b741f74e7b8f3ea0
+  - a5d0fb47c376ae8131b9316a4f2e0513
+  - a5e26af846765ab1d0a96fef4da926c0
+  - a74829cf524b32b3172827102171b8c8
+  - ade9a3d91b8924d7034e353c057a0de0
+  - b582d6e3bec27e083031dc1516f3ac71
+  - b6ada1df778db94ac9248b75a5b3276c
+  - b6c44640d67bff473d5f2f4e9b1b1a44
+  - b95370568b906e5285c2f2a8747e8b1c
+  - bc9fb08934bbc40427bf4df7bef4aa90
+  - bd61ae730ba5caead2d6edb4066aeea3
+  - c3affa275303ba215365b8b7de0d32e2
+  - c63a3df0ad8b7f4fd13e90af5d35653a
+  - c6845ed144f8c2e06d802a2a210469e4
+  - ce86326393daa60c28e54ea3fa70112b
+  - d2f927046b807a110bf690c7ad60e0e1
+  - d3057d7d8532890c6d4f6dbda41148f3
+  - d3835a47a5f3e593a5593a0a7de65a7a
+  - d3e2bd9c2eb91e941fd7d2b54cef9bd4
+  - d6eba60c56429f75aa77e38421467ea5
+  - d90f0a8f66600cbad77fc572abe4f6aa
+  - deb5d05ca66c8e2e71b5ee8f2288b14d
+  - e0a245a5b06f6b01fa95910b07b076b4
+  - e71a3974086f47d980a09b612d2e10f8
+  - eed216d1502e43dd628f8d4ed9d3a59c
+  - ef4a7ffc0e6389a342281838217b05be
+  - fa3d52cf30afb35db457fc601e21d89d
+  - fa5b665dfd25e58e088cfd70f3baba31
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-D-R2-ASUS-2208.ZIP
   superio: NCT6796D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310M-DASH:
-  aliases: []
-  asus_dispatcher: []
+  aliases:
+  - PRIME-H310M-DASH-SI-2812
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
-  known_good_nct6775: []
-  links: []
+  hash:
+  - 00fe5645ead8847e62940fdaea09f5e9
+  - 0341a03c73715cb3b56033ad7cf75d9a
+  - 03a726b6a6e11aa5a65ddc589db1709e
+  - 043f4faffe590b7c7f97a15526c5a6f5
+  - 08f1aa381445092d975eaa2ed14c3ba8
+  - 0a7dad1c3467165aa8bff9f7656fc7c1
+  - 11ca0672fd57c728e25bc933deedc567
+  - 1320be9b84160e002e09729e752b6e28
+  - 22c0a72be6c1fa34c6dbba7acf6763fa
+  - 23fcfd2f2f0bade7ab6883375d0c1aec
+  - 26495a107369fe1569783479f11056d3
+  - 2af901b94fa4d2bcac36378945b3ebcd
+  - 311da198e58bb7015e9e1ef710bb348a
+  - 3468db3a02054f4cb2a146a947e2ec9b
+  - 375739a26431804d350f6225c0f54131
+  - 3cb451c91b95d8094ea8d30cb09088f1
+  - 3cfbda29bce2a981f8678f9f73e93894
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 48e87d59304397114a6a7ae2479d3713
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 56baf21079adaedac5377e958ca1743f
+  - 5f786e42a68737b4e9e586d66ad0d4d5
+  - 602b6c9159eb4c75a1cf7053cde87a07
+  - 65742f800ed283a01710bcc1b08242c5
+  - 697f74b414e369221c26fbf13ce55bb3
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 7ffd93752de04128b4f08b13bbfda9ae
+  - 852a776b613ac135a954cb750129da26
+  - 8ca1d88e34efeff5f4da60e998229bd1
+  - 8dccc226e623cd8e05078749498c5b83
+  - 9611b6d8acff240e1d1732a26e47b52b
+  - 978dd461c3ffea5ddc552abee91828d1
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - 9b36867df1056f01c6b2b1c88cdc1660
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - 9d6c0bee895bf55945f30db9de79cc60
+  - a7e00a819816002d53014757e38dac8f
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - b079def8eed2c995c0bca711631caed7
+  - b1b580b48420b9676e08270094c90358
+  - b4217cb7525e8474076d60ad48cc8fdf
+  - c7040eb040ffdc6cae92c1d77933c255
+  - cf0ee1276e05452f5c63d3decb538fd5
+  - d52b105dc43c56ed9d12b2bbae09c74e
+  - e1fc16ad40506c250d597f6e8af0ad92
+  - e3bcca9a13df5f2990c070353066464b
+  - ecd47c58be4348d8adad9cd2c7365c54
+  - ece68ada0b1824a426659dd69e4e0d82
+  - f1ba4da018af9ef36a96f88fd2cc74ae
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f5c9e724e726ad8d632e51541629d1b9
+  - f5d93d68d33fc81dcd641f59baeba157
+  - f6dbc187925fc646dedecd6c478c7150
+  - f7b0e1d085be4b5701ba70c57fc4887a
+  - f8843ca7140d36f95d8a574cfe4c139a
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/PRIME_H310M-DASH/PRIME-H310M-DASH-SI-2812.ZIP
   superio: NCT6793D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310M-DASH R2.0:
-  aliases: []
+  aliases:
+  - PRIME-H310M-DASH-R2-SI-2209
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
+  hash:
+  - 018a5121a53a9858851f19259210d4d7
+  - 10a691bc96465e94a6a21baadc0cfd67
+  - 18635a01d000063a963ac3114ae0d290
+  - 195c5ffc17cd301b56c15a8e627c4186
+  - 1a913b9845989956b977c87a0a83b6e7
+  - 1ed223c3f82d4567f34bb46ce974cf54
+  - 2b71bf0688752b0dfdca45389ddc818c
+  - 300ea82c664ddc30a4e6ae0b21653724
+  - 320e23570d3211d7453658a48e1c1cf6
+  - 37b3efbda27cbc14183e3be8facd5e2b
+  - 3d92eee03955b5790292469cc7c47e29
+  - 3ef49758a27da64c76e1f2c077c4b218
+  - 465aaf8d3733a3ba7923818087e826cf
+  - 47eb157790766b4a9a29c2218de4fa0e
+  - 4d1ea1c284ed8ecb6f985d6f9ca6d37b
+  - 4d6f4d95c31bec1f4617a4e6d44ad01f
+  - 55c2e0f78f565593ae6178d7383f61f5
+  - 5af3c48cebd12e5dcf832587cd938648
+  - 5ffbca5cfe19b336612a7c0646691bd8
+  - 60bc34ee1ef1f0f4574cb8d2fce4a6b5
+  - 64ff600cc0627cbeafd3d7f842a09e10
+  - 67e7eae682694c3168d03541110e5c73
+  - 6976816691f55f7bbeb3943409e9b074
+  - 6ac69202462bc10f6ec8f57a1d9a3bdd
+  - 6b1654fd01c1b022d30f409a4c82dbe5
+  - 7327dd64bb470e2df5ec87b549042b97
+  - 73fc1b8cb605f7acb2b99c454cc31038
+  - 76cfa2b6c918b25b8b11460695bbed02
+  - 7902165ffbe3405f1847d962c0f0a8df
+  - 8c27c9b4563d3f4ed36d6a18e8df7352
+  - 99a35c0926e72db2da54ddf9d28587b7
+  - a32921bf94a3daf6b741f74e7b8f3ea0
+  - a5d0fb47c376ae8131b9316a4f2e0513
+  - a5e26af846765ab1d0a96fef4da926c0
+  - a74829cf524b32b3172827102171b8c8
+  - ade9a3d91b8924d7034e353c057a0de0
+  - b582d6e3bec27e083031dc1516f3ac71
+  - b6ada1df778db94ac9248b75a5b3276c
+  - b6c44640d67bff473d5f2f4e9b1b1a44
+  - b95370568b906e5285c2f2a8747e8b1c
+  - bc9fb08934bbc40427bf4df7bef4aa90
+  - bd61ae730ba5caead2d6edb4066aeea3
+  - c3affa275303ba215365b8b7de0d32e2
+  - c63a3df0ad8b7f4fd13e90af5d35653a
+  - c6845ed144f8c2e06d802a2a210469e4
+  - ce86326393daa60c28e54ea3fa70112b
+  - d2f927046b807a110bf690c7ad60e0e1
+  - d3057d7d8532890c6d4f6dbda41148f3
+  - d3835a47a5f3e593a5593a0a7de65a7a
+  - d3e2bd9c2eb91e941fd7d2b54cef9bd4
+  - d6eba60c56429f75aa77e38421467ea5
+  - d90f0a8f66600cbad77fc572abe4f6aa
+  - deb5d05ca66c8e2e71b5ee8f2288b14d
+  - e0a245a5b06f6b01fa95910b07b076b4
+  - e71a3974086f47d980a09b612d2e10f8
+  - eed216d1502e43dd628f8d4ed9d3a59c
+  - ef4a7ffc0e6389a342281838217b05be
+  - fa3d52cf30afb35db457fc601e21d89d
+  - fa5b665dfd25e58e088cfd70f3baba31
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-DASH-R2-SI-2209.zip
   superio: NCT6793D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310M-E:
-  aliases: []
-  asus_dispatcher: []
+  aliases:
+  - PRIME-H310M-E-ASUS-3202
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
-  known_good_nct6775: []
-  links: []
+  hash:
+  - 00fe5645ead8847e62940fdaea09f5e9
+  - 0341a03c73715cb3b56033ad7cf75d9a
+  - 03a726b6a6e11aa5a65ddc589db1709e
+  - 043f4faffe590b7c7f97a15526c5a6f5
+  - 0a7dad1c3467165aa8bff9f7656fc7c1
+  - 11ca0672fd57c728e25bc933deedc567
+  - 1320be9b84160e002e09729e752b6e28
+  - 22c0a72be6c1fa34c6dbba7acf6763fa
+  - 23fcfd2f2f0bade7ab6883375d0c1aec
+  - 26495a107369fe1569783479f11056d3
+  - 2af901b94fa4d2bcac36378945b3ebcd
+  - 311da198e58bb7015e9e1ef710bb348a
+  - 3468db3a02054f4cb2a146a947e2ec9b
+  - 375739a26431804d350f6225c0f54131
+  - 3cb451c91b95d8094ea8d30cb09088f1
+  - 3cfbda29bce2a981f8678f9f73e93894
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 40a774f96d8d5c720efc432ee688d63f
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 48e87d59304397114a6a7ae2479d3713
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 56baf21079adaedac5377e958ca1743f
+  - 5f786e42a68737b4e9e586d66ad0d4d5
+  - 65742f800ed283a01710bcc1b08242c5
+  - 697f74b414e369221c26fbf13ce55bb3
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7bcbdd0d552e1b246d202ea7427f01b7
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 7ffd93752de04128b4f08b13bbfda9ae
+  - 852a776b613ac135a954cb750129da26
+  - 8ca1d88e34efeff5f4da60e998229bd1
+  - 8dccc226e623cd8e05078749498c5b83
+  - 9611b6d8acff240e1d1732a26e47b52b
+  - 978dd461c3ffea5ddc552abee91828d1
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - 9b36867df1056f01c6b2b1c88cdc1660
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - 9d6c0bee895bf55945f30db9de79cc60
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - b079def8eed2c995c0bca711631caed7
+  - b1b580b48420b9676e08270094c90358
+  - b4217cb7525e8474076d60ad48cc8fdf
+  - c7040eb040ffdc6cae92c1d77933c255
+  - cf0ee1276e05452f5c63d3decb538fd5
+  - d52b105dc43c56ed9d12b2bbae09c74e
+  - e1fc16ad40506c250d597f6e8af0ad92
+  - e3bcca9a13df5f2990c070353066464b
+  - ecd47c58be4348d8adad9cd2c7365c54
+  - ece68ada0b1824a426659dd69e4e0d82
+  - f1ba4da018af9ef36a96f88fd2cc74ae
+  - f26cb55a8f3c5f0c023a32b72c76194c
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f5c9e724e726ad8d632e51541629d1b9
+  - f5d93d68d33fc81dcd641f59baeba157
+  - f6dbc187925fc646dedecd6c478c7150
+  - f7b0e1d085be4b5701ba70c57fc4887a
+  - f8843ca7140d36f95d8a574cfe4c139a
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310M-E-ASUS-3202.ZIP
   superio: NCT5582D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310M-E R2.0:
-  aliases: []
+  aliases:
+  - PRIME-H310M-E-R2-ASUS-2208
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
+  hash:
+  - 018a5121a53a9858851f19259210d4d7
+  - 10a691bc96465e94a6a21baadc0cfd67
+  - 18635a01d000063a963ac3114ae0d290
+  - 195c5ffc17cd301b56c15a8e627c4186
+  - 1a913b9845989956b977c87a0a83b6e7
+  - 1ed223c3f82d4567f34bb46ce974cf54
+  - 2b71bf0688752b0dfdca45389ddc818c
+  - 300ea82c664ddc30a4e6ae0b21653724
+  - 320e23570d3211d7453658a48e1c1cf6
+  - 37b3efbda27cbc14183e3be8facd5e2b
+  - 3d92eee03955b5790292469cc7c47e29
+  - 3ef49758a27da64c76e1f2c077c4b218
+  - 465aaf8d3733a3ba7923818087e826cf
+  - 47eb157790766b4a9a29c2218de4fa0e
+  - 4d1ea1c284ed8ecb6f985d6f9ca6d37b
+  - 4d6f4d95c31bec1f4617a4e6d44ad01f
+  - 5af3c48cebd12e5dcf832587cd938648
+  - 5e1f9a83b8711797119bcda51b0be01f
+  - 5ffbca5cfe19b336612a7c0646691bd8
+  - 60bc34ee1ef1f0f4574cb8d2fce4a6b5
+  - 64ff600cc0627cbeafd3d7f842a09e10
+  - 67e7eae682694c3168d03541110e5c73
+  - 6976816691f55f7bbeb3943409e9b074
+  - 6ac69202462bc10f6ec8f57a1d9a3bdd
+  - 6b1654fd01c1b022d30f409a4c82dbe5
+  - 7327dd64bb470e2df5ec87b549042b97
+  - 73fc1b8cb605f7acb2b99c454cc31038
+  - 76cfa2b6c918b25b8b11460695bbed02
+  - 7902165ffbe3405f1847d962c0f0a8df
+  - 8c27c9b4563d3f4ed36d6a18e8df7352
+  - 99a35c0926e72db2da54ddf9d28587b7
+  - a32921bf94a3daf6b741f74e7b8f3ea0
+  - a5d0fb47c376ae8131b9316a4f2e0513
+  - a5e26af846765ab1d0a96fef4da926c0
+  - a74829cf524b32b3172827102171b8c8
+  - ade9a3d91b8924d7034e353c057a0de0
+  - b582d6e3bec27e083031dc1516f3ac71
+  - b6ada1df778db94ac9248b75a5b3276c
+  - b6c44640d67bff473d5f2f4e9b1b1a44
+  - b95370568b906e5285c2f2a8747e8b1c
+  - bc9fb08934bbc40427bf4df7bef4aa90
+  - bd61ae730ba5caead2d6edb4066aeea3
+  - c3affa275303ba215365b8b7de0d32e2
+  - c63a3df0ad8b7f4fd13e90af5d35653a
+  - c6845ed144f8c2e06d802a2a210469e4
+  - ce86326393daa60c28e54ea3fa70112b
+  - d2f927046b807a110bf690c7ad60e0e1
+  - d3057d7d8532890c6d4f6dbda41148f3
+  - d3835a47a5f3e593a5593a0a7de65a7a
+  - d3e2bd9c2eb91e941fd7d2b54cef9bd4
+  - d6eba60c56429f75aa77e38421467ea5
+  - d90f0a8f66600cbad77fc572abe4f6aa
+  - deb5d05ca66c8e2e71b5ee8f2288b14d
+  - e0a245a5b06f6b01fa95910b07b076b4
+  - e71a3974086f47d980a09b612d2e10f8
+  - eb8717c3d47c3ac366a4598ff42807a7
+  - eed216d1502e43dd628f8d4ed9d3a59c
+  - ef4a7ffc0e6389a342281838217b05be
+  - fa3d52cf30afb35db457fc601e21d89d
+  - fa5b665dfd25e58e088cfd70f3baba31
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-E-R2-ASUS-2208.ZIP
   superio: NCT5582D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310M-E R2.0/BR:
-  aliases: []
+  aliases:
+  - PRIME-H310M-E-R2-BR-SI-2208
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
+  hash:
+  - 018a5121a53a9858851f19259210d4d7
+  - 10a691bc96465e94a6a21baadc0cfd67
+  - 18635a01d000063a963ac3114ae0d290
+  - 195c5ffc17cd301b56c15a8e627c4186
+  - 1a913b9845989956b977c87a0a83b6e7
+  - 1ed223c3f82d4567f34bb46ce974cf54
+  - 2b71bf0688752b0dfdca45389ddc818c
+  - 300ea82c664ddc30a4e6ae0b21653724
+  - 320e23570d3211d7453658a48e1c1cf6
+  - 37b3efbda27cbc14183e3be8facd5e2b
+  - 3d92eee03955b5790292469cc7c47e29
+  - 3ef49758a27da64c76e1f2c077c4b218
+  - 465aaf8d3733a3ba7923818087e826cf
+  - 47eb157790766b4a9a29c2218de4fa0e
+  - 4d1ea1c284ed8ecb6f985d6f9ca6d37b
+  - 4d6f4d95c31bec1f4617a4e6d44ad01f
+  - 5af3c48cebd12e5dcf832587cd938648
+  - 5e1f9a83b8711797119bcda51b0be01f
+  - 5ffbca5cfe19b336612a7c0646691bd8
+  - 60bc34ee1ef1f0f4574cb8d2fce4a6b5
+  - 64ff600cc0627cbeafd3d7f842a09e10
+  - 67e7eae682694c3168d03541110e5c73
+  - 6976816691f55f7bbeb3943409e9b074
+  - 6ac69202462bc10f6ec8f57a1d9a3bdd
+  - 6b1654fd01c1b022d30f409a4c82dbe5
+  - 7327dd64bb470e2df5ec87b549042b97
+  - 73fc1b8cb605f7acb2b99c454cc31038
+  - 76cfa2b6c918b25b8b11460695bbed02
+  - 7902165ffbe3405f1847d962c0f0a8df
+  - 8c27c9b4563d3f4ed36d6a18e8df7352
+  - 99a35c0926e72db2da54ddf9d28587b7
+  - a32921bf94a3daf6b741f74e7b8f3ea0
+  - a5d0fb47c376ae8131b9316a4f2e0513
+  - a5e26af846765ab1d0a96fef4da926c0
+  - a74829cf524b32b3172827102171b8c8
+  - ade9a3d91b8924d7034e353c057a0de0
+  - b582d6e3bec27e083031dc1516f3ac71
+  - b6ada1df778db94ac9248b75a5b3276c
+  - b6c44640d67bff473d5f2f4e9b1b1a44
+  - b95370568b906e5285c2f2a8747e8b1c
+  - bc9fb08934bbc40427bf4df7bef4aa90
+  - bd61ae730ba5caead2d6edb4066aeea3
+  - c3affa275303ba215365b8b7de0d32e2
+  - c63a3df0ad8b7f4fd13e90af5d35653a
+  - c6845ed144f8c2e06d802a2a210469e4
+  - ce86326393daa60c28e54ea3fa70112b
+  - d2f927046b807a110bf690c7ad60e0e1
+  - d3057d7d8532890c6d4f6dbda41148f3
+  - d3835a47a5f3e593a5593a0a7de65a7a
+  - d3e2bd9c2eb91e941fd7d2b54cef9bd4
+  - d6eba60c56429f75aa77e38421467ea5
+  - d90f0a8f66600cbad77fc572abe4f6aa
+  - deb5d05ca66c8e2e71b5ee8f2288b14d
+  - e0a245a5b06f6b01fa95910b07b076b4
+  - e71a3974086f47d980a09b612d2e10f8
+  - eb8717c3d47c3ac366a4598ff42807a7
+  - eed216d1502e43dd628f8d4ed9d3a59c
+  - ef4a7ffc0e6389a342281838217b05be
+  - fa3d52cf30afb35db457fc601e21d89d
+  - fa5b665dfd25e58e088cfd70f3baba31
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-E-R2-BR-SI-2208.ZIP
   superio: NCT5582D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310M-E/BR:
   aliases:
   - PRIME-H310M-E-BR-SI-3202
@@ -14933,119 +16109,470 @@ PRIME H310M-E/BR:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310M-E-BR-SI-3202.ZIP
   superio: NCT5582D
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310M-F:
-  aliases: []
-  asus_dispatcher: []
+  aliases:
+  - PRIME-H310M-F-ASUS-0402
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
-  known_good_nct6775: []
-  links: []
+  hash:
+  - 00fe5645ead8847e62940fdaea09f5e9
+  - 0341a03c73715cb3b56033ad7cf75d9a
+  - 03a726b6a6e11aa5a65ddc589db1709e
+  - 043f4faffe590b7c7f97a15526c5a6f5
+  - 0a7dad1c3467165aa8bff9f7656fc7c1
+  - 11ca0672fd57c728e25bc933deedc567
+  - 1320be9b84160e002e09729e752b6e28
+  - 22c0a72be6c1fa34c6dbba7acf6763fa
+  - 23fcfd2f2f0bade7ab6883375d0c1aec
+  - 26495a107369fe1569783479f11056d3
+  - 2af901b94fa4d2bcac36378945b3ebcd
+  - 311da198e58bb7015e9e1ef710bb348a
+  - 3468db3a02054f4cb2a146a947e2ec9b
+  - 375739a26431804d350f6225c0f54131
+  - 3cb451c91b95d8094ea8d30cb09088f1
+  - 3cfbda29bce2a981f8678f9f73e93894
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 48e87d59304397114a6a7ae2479d3713
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 56baf21079adaedac5377e958ca1743f
+  - 5f786e42a68737b4e9e586d66ad0d4d5
+  - 65742f800ed283a01710bcc1b08242c5
+  - 697f74b414e369221c26fbf13ce55bb3
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7bcbdd0d552e1b246d202ea7427f01b7
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 7ffd93752de04128b4f08b13bbfda9ae
+  - 852a776b613ac135a954cb750129da26
+  - 8ca1d88e34efeff5f4da60e998229bd1
+  - 8dccc226e623cd8e05078749498c5b83
+  - 9611b6d8acff240e1d1732a26e47b52b
+  - 978dd461c3ffea5ddc552abee91828d1
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - 9b36867df1056f01c6b2b1c88cdc1660
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - 9d6c0bee895bf55945f30db9de79cc60
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - b079def8eed2c995c0bca711631caed7
+  - b1b580b48420b9676e08270094c90358
+  - b4217cb7525e8474076d60ad48cc8fdf
+  - c7040eb040ffdc6cae92c1d77933c255
+  - c978964515bfdb7e57e9ac6c93fbe4db
+  - cf0ee1276e05452f5c63d3decb538fd5
+  - d52b105dc43c56ed9d12b2bbae09c74e
+  - e1fc16ad40506c250d597f6e8af0ad92
+  - e3bcca9a13df5f2990c070353066464b
+  - ecd47c58be4348d8adad9cd2c7365c54
+  - ece68ada0b1824a426659dd69e4e0d82
+  - f1ba4da018af9ef36a96f88fd2cc74ae
+  - f26cb55a8f3c5f0c023a32b72c76194c
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f5c9e724e726ad8d632e51541629d1b9
+  - f5d93d68d33fc81dcd641f59baeba157
+  - f6dbc187925fc646dedecd6c478c7150
+  - f7b0e1d085be4b5701ba70c57fc4887a
+  - f8843ca7140d36f95d8a574cfe4c139a
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310M-F-ASUS-0402.ZIP
   superio: NCT6793D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310M-F R2.0:
-  aliases: []
+  aliases:
+  - PRIME-H310M-F-R2-ASUS-2208
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
+  hash:
+  - 10a691bc96465e94a6a21baadc0cfd67
+  - 18635a01d000063a963ac3114ae0d290
+  - 1a913b9845989956b977c87a0a83b6e7
+  - 1ed223c3f82d4567f34bb46ce974cf54
+  - 2b71bf0688752b0dfdca45389ddc818c
+  - 3ef49758a27da64c76e1f2c077c4b218
+  - 465aaf8d3733a3ba7923818087e826cf
+  - 47eb157790766b4a9a29c2218de4fa0e
+  - 4d6f4d95c31bec1f4617a4e6d44ad01f
+  - 5af3c48cebd12e5dcf832587cd938648
+  - 5ffbca5cfe19b336612a7c0646691bd8
+  - 60bc34ee1ef1f0f4574cb8d2fce4a6b5
+  - 64ff600cc0627cbeafd3d7f842a09e10
+  - 67e7eae682694c3168d03541110e5c73
+  - 6976816691f55f7bbeb3943409e9b074
+  - 6ac69202462bc10f6ec8f57a1d9a3bdd
+  - 6b1654fd01c1b022d30f409a4c82dbe5
+  - 7327dd64bb470e2df5ec87b549042b97
+  - 73fc1b8cb605f7acb2b99c454cc31038
+  - 76cfa2b6c918b25b8b11460695bbed02
+  - 7902165ffbe3405f1847d962c0f0a8df
+  - 8c27c9b4563d3f4ed36d6a18e8df7352
+  - 99a35c0926e72db2da54ddf9d28587b7
+  - a32921bf94a3daf6b741f74e7b8f3ea0
+  - a5d0fb47c376ae8131b9316a4f2e0513
+  - a5e26af846765ab1d0a96fef4da926c0
+  - a74829cf524b32b3172827102171b8c8
+  - ade9a3d91b8924d7034e353c057a0de0
+  - b582d6e3bec27e083031dc1516f3ac71
+  - b6ada1df778db94ac9248b75a5b3276c
+  - b6c44640d67bff473d5f2f4e9b1b1a44
+  - b95370568b906e5285c2f2a8747e8b1c
+  - bc9fb08934bbc40427bf4df7bef4aa90
+  - bd61ae730ba5caead2d6edb4066aeea3
+  - c3affa275303ba215365b8b7de0d32e2
+  - d2f927046b807a110bf690c7ad60e0e1
+  - d3057d7d8532890c6d4f6dbda41148f3
+  - d3835a47a5f3e593a5593a0a7de65a7a
+  - d3e2bd9c2eb91e941fd7d2b54cef9bd4
+  - d6eba60c56429f75aa77e38421467ea5
+  - d90f0a8f66600cbad77fc572abe4f6aa
+  - deb5d05ca66c8e2e71b5ee8f2288b14d
+  - e0a245a5b06f6b01fa95910b07b076b4
+  - e71a3974086f47d980a09b612d2e10f8
+  - ebcf5241d8f9d22c8be42fd93ff291f3
+  - eed216d1502e43dd628f8d4ed9d3a59c
+  - fa3d52cf30afb35db457fc601e21d89d
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-F-R2-ASUS-2208.ZIP
   superio: NCT6798D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310M-K:
-  aliases: []
-  asus_dispatcher: []
+  aliases:
+  - PRIME-H310M-K-ASUS-3202
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
-  known_good_nct6775: []
-  links: []
+  hash:
+  - 00fe5645ead8847e62940fdaea09f5e9
+  - 0341a03c73715cb3b56033ad7cf75d9a
+  - 03a726b6a6e11aa5a65ddc589db1709e
+  - 043f4faffe590b7c7f97a15526c5a6f5
+  - 0a7dad1c3467165aa8bff9f7656fc7c1
+  - 11ca0672fd57c728e25bc933deedc567
+  - 1320be9b84160e002e09729e752b6e28
+  - 22c0a72be6c1fa34c6dbba7acf6763fa
+  - 23fcfd2f2f0bade7ab6883375d0c1aec
+  - 26495a107369fe1569783479f11056d3
+  - 2af901b94fa4d2bcac36378945b3ebcd
+  - 311da198e58bb7015e9e1ef710bb348a
+  - 3468db3a02054f4cb2a146a947e2ec9b
+  - 375739a26431804d350f6225c0f54131
+  - 3cb451c91b95d8094ea8d30cb09088f1
+  - 3cfbda29bce2a981f8678f9f73e93894
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 48e87d59304397114a6a7ae2479d3713
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 56baf21079adaedac5377e958ca1743f
+  - 5f786e42a68737b4e9e586d66ad0d4d5
+  - 65742f800ed283a01710bcc1b08242c5
+  - 697f74b414e369221c26fbf13ce55bb3
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7bcbdd0d552e1b246d202ea7427f01b7
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 7ffd93752de04128b4f08b13bbfda9ae
+  - 852a776b613ac135a954cb750129da26
+  - 8ca1d88e34efeff5f4da60e998229bd1
+  - 8dccc226e623cd8e05078749498c5b83
+  - 9611b6d8acff240e1d1732a26e47b52b
+  - 978dd461c3ffea5ddc552abee91828d1
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - 9b36867df1056f01c6b2b1c88cdc1660
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - 9d6c0bee895bf55945f30db9de79cc60
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - b079def8eed2c995c0bca711631caed7
+  - b1b580b48420b9676e08270094c90358
+  - b4217cb7525e8474076d60ad48cc8fdf
+  - c7040eb040ffdc6cae92c1d77933c255
+  - cf0ee1276e05452f5c63d3decb538fd5
+  - d52b105dc43c56ed9d12b2bbae09c74e
+  - e1fc16ad40506c250d597f6e8af0ad92
+  - e3bcca9a13df5f2990c070353066464b
+  - e42ed3066bb1df0e02f27a10ce0cf930
+  - ecd47c58be4348d8adad9cd2c7365c54
+  - ece68ada0b1824a426659dd69e4e0d82
+  - f1ba4da018af9ef36a96f88fd2cc74ae
+  - f26cb55a8f3c5f0c023a32b72c76194c
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f5c9e724e726ad8d632e51541629d1b9
+  - f5d93d68d33fc81dcd641f59baeba157
+  - f6dbc187925fc646dedecd6c478c7150
+  - f7b0e1d085be4b5701ba70c57fc4887a
+  - f8843ca7140d36f95d8a574cfe4c139a
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310M-K-ASUS-3202.ZIP
   superio: NCT5582D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310M-K R2.0:
-  aliases: []
+  aliases:
+  - PRIME-H310M-K-R2-ASUS-2208
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
+  hash:
+  - 018a5121a53a9858851f19259210d4d7
+  - 10a691bc96465e94a6a21baadc0cfd67
+  - 18635a01d000063a963ac3114ae0d290
+  - 195c5ffc17cd301b56c15a8e627c4186
+  - 1a913b9845989956b977c87a0a83b6e7
+  - 1ed223c3f82d4567f34bb46ce974cf54
+  - 2b71bf0688752b0dfdca45389ddc818c
+  - 300ea82c664ddc30a4e6ae0b21653724
+  - 320e23570d3211d7453658a48e1c1cf6
+  - 37b3efbda27cbc14183e3be8facd5e2b
+  - 3d92eee03955b5790292469cc7c47e29
+  - 3ef49758a27da64c76e1f2c077c4b218
+  - 465aaf8d3733a3ba7923818087e826cf
+  - 47eb157790766b4a9a29c2218de4fa0e
+  - 4d1ea1c284ed8ecb6f985d6f9ca6d37b
+  - 4d6f4d95c31bec1f4617a4e6d44ad01f
+  - 5af3c48cebd12e5dcf832587cd938648
+  - 5e1f9a83b8711797119bcda51b0be01f
+  - 5ffbca5cfe19b336612a7c0646691bd8
+  - 60bc34ee1ef1f0f4574cb8d2fce4a6b5
+  - 64ff600cc0627cbeafd3d7f842a09e10
+  - 67e7eae682694c3168d03541110e5c73
+  - 6976816691f55f7bbeb3943409e9b074
+  - 6ac69202462bc10f6ec8f57a1d9a3bdd
+  - 6b1654fd01c1b022d30f409a4c82dbe5
+  - 7327dd64bb470e2df5ec87b549042b97
+  - 73fc1b8cb605f7acb2b99c454cc31038
+  - 76cfa2b6c918b25b8b11460695bbed02
+  - 7902165ffbe3405f1847d962c0f0a8df
+  - 8c27c9b4563d3f4ed36d6a18e8df7352
+  - 99a35c0926e72db2da54ddf9d28587b7
+  - a32921bf94a3daf6b741f74e7b8f3ea0
+  - a5d0fb47c376ae8131b9316a4f2e0513
+  - a5e26af846765ab1d0a96fef4da926c0
+  - a74829cf524b32b3172827102171b8c8
+  - ade9a3d91b8924d7034e353c057a0de0
+  - b582d6e3bec27e083031dc1516f3ac71
+  - b6ada1df778db94ac9248b75a5b3276c
+  - b6c44640d67bff473d5f2f4e9b1b1a44
+  - b95370568b906e5285c2f2a8747e8b1c
+  - bc9fb08934bbc40427bf4df7bef4aa90
+  - bd61ae730ba5caead2d6edb4066aeea3
+  - c3affa275303ba215365b8b7de0d32e2
+  - c63a3df0ad8b7f4fd13e90af5d35653a
+  - c6845ed144f8c2e06d802a2a210469e4
+  - ce86326393daa60c28e54ea3fa70112b
+  - d2f927046b807a110bf690c7ad60e0e1
+  - d3057d7d8532890c6d4f6dbda41148f3
+  - d3835a47a5f3e593a5593a0a7de65a7a
+  - d3e2bd9c2eb91e941fd7d2b54cef9bd4
+  - d6eba60c56429f75aa77e38421467ea5
+  - d90f0a8f66600cbad77fc572abe4f6aa
+  - deb5d05ca66c8e2e71b5ee8f2288b14d
+  - e0a245a5b06f6b01fa95910b07b076b4
+  - e71a3974086f47d980a09b612d2e10f8
+  - eb8717c3d47c3ac366a4598ff42807a7
+  - eed216d1502e43dd628f8d4ed9d3a59c
+  - ef4a7ffc0e6389a342281838217b05be
+  - fa3d52cf30afb35db457fc601e21d89d
+  - fa5b665dfd25e58e088cfd70f3baba31
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-K-R2-ASUS-2208.ZIP
   superio: NCT5582D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310M-R R2.0:
-  aliases: []
+  aliases:
+  - PRIME-H310M-R-R2-SI-2208
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
+  hash:
+  - 018a5121a53a9858851f19259210d4d7
+  - 10a691bc96465e94a6a21baadc0cfd67
+  - 18635a01d000063a963ac3114ae0d290
+  - 195c5ffc17cd301b56c15a8e627c4186
+  - 1a913b9845989956b977c87a0a83b6e7
+  - 1ed223c3f82d4567f34bb46ce974cf54
+  - 2b71bf0688752b0dfdca45389ddc818c
+  - 300ea82c664ddc30a4e6ae0b21653724
+  - 320e23570d3211d7453658a48e1c1cf6
+  - 37b3efbda27cbc14183e3be8facd5e2b
+  - 3d92eee03955b5790292469cc7c47e29
+  - 3ef49758a27da64c76e1f2c077c4b218
+  - 465aaf8d3733a3ba7923818087e826cf
+  - 47eb157790766b4a9a29c2218de4fa0e
+  - 4d1ea1c284ed8ecb6f985d6f9ca6d37b
+  - 4d6f4d95c31bec1f4617a4e6d44ad01f
+  - 5af3c48cebd12e5dcf832587cd938648
+  - 5e1f9a83b8711797119bcda51b0be01f
+  - 5ffbca5cfe19b336612a7c0646691bd8
+  - 60bc34ee1ef1f0f4574cb8d2fce4a6b5
+  - 6177cfb9febdb2ca4628cb19a289bd43
+  - 64ff600cc0627cbeafd3d7f842a09e10
+  - 67e7eae682694c3168d03541110e5c73
+  - 6976816691f55f7bbeb3943409e9b074
+  - 6ac69202462bc10f6ec8f57a1d9a3bdd
+  - 6b1654fd01c1b022d30f409a4c82dbe5
+  - 7327dd64bb470e2df5ec87b549042b97
+  - 73fc1b8cb605f7acb2b99c454cc31038
+  - 76cfa2b6c918b25b8b11460695bbed02
+  - 7902165ffbe3405f1847d962c0f0a8df
+  - 8c27c9b4563d3f4ed36d6a18e8df7352
+  - 99a35c0926e72db2da54ddf9d28587b7
+  - a32921bf94a3daf6b741f74e7b8f3ea0
+  - a5d0fb47c376ae8131b9316a4f2e0513
+  - a5e26af846765ab1d0a96fef4da926c0
+  - a74829cf524b32b3172827102171b8c8
+  - ade9a3d91b8924d7034e353c057a0de0
+  - b582d6e3bec27e083031dc1516f3ac71
+  - b6ada1df778db94ac9248b75a5b3276c
+  - b6c44640d67bff473d5f2f4e9b1b1a44
+  - b95370568b906e5285c2f2a8747e8b1c
+  - bc9fb08934bbc40427bf4df7bef4aa90
+  - bd61ae730ba5caead2d6edb4066aeea3
+  - c3affa275303ba215365b8b7de0d32e2
+  - c63a3df0ad8b7f4fd13e90af5d35653a
+  - c6845ed144f8c2e06d802a2a210469e4
+  - ce86326393daa60c28e54ea3fa70112b
+  - d2f927046b807a110bf690c7ad60e0e1
+  - d3057d7d8532890c6d4f6dbda41148f3
+  - d3835a47a5f3e593a5593a0a7de65a7a
+  - d3e2bd9c2eb91e941fd7d2b54cef9bd4
+  - d6eba60c56429f75aa77e38421467ea5
+  - d90f0a8f66600cbad77fc572abe4f6aa
+  - deb5d05ca66c8e2e71b5ee8f2288b14d
+  - e0a245a5b06f6b01fa95910b07b076b4
+  - e71a3974086f47d980a09b612d2e10f8
+  - eed216d1502e43dd628f8d4ed9d3a59c
+  - ef4a7ffc0e6389a342281838217b05be
+  - fa3d52cf30afb35db457fc601e21d89d
+  - fa5b665dfd25e58e088cfd70f3baba31
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-R-R2-SI-2208.ZIP
   superio: NCT6798D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310M2 R2.0:
-  aliases: []
+  aliases:
+  - PRIME-H310M2-R2-SI-1206
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
@@ -15061,9 +16588,10 @@ PRIME H310M2 R2.0:
   gigabyte_wmi: N
   known_good: []
   known_good_nct6775: []
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/PRIME_H310M2_R20/PRIME-H310M2-R2-SI-1206.zip
   superio: NCT6793D
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods: []
 PRIME H310T:
   aliases:
@@ -15168,14 +16696,15 @@ PRIME H310T:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310T-SI-3202.ZIP
   superio: NCT5582D
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME H310T R2.0:
-  aliases: []
+  aliases:
+  - PRIME-H310T-R2-SI-2208
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
@@ -15191,9 +16720,10 @@ PRIME H310T R2.0:
   gigabyte_wmi: N
   known_good: []
   known_good_nct6775: []
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310T-R2-SI-2208.ZIP
   superio: NCT5582D
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods: []
 PRIME H370-A:
   aliases:
@@ -22116,26 +23646,97 @@ PRO B460M-C:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRO H310M-R R2.0 WI-FI:
-  aliases: []
+  aliases:
+  - PRO-H310M-R-R2-WIFI-SI-2208
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
+  hash:
+  - 018a5121a53a9858851f19259210d4d7
+  - 10a691bc96465e94a6a21baadc0cfd67
+  - 18635a01d000063a963ac3114ae0d290
+  - 195c5ffc17cd301b56c15a8e627c4186
+  - 1a913b9845989956b977c87a0a83b6e7
+  - 1ed223c3f82d4567f34bb46ce974cf54
+  - 2b71bf0688752b0dfdca45389ddc818c
+  - 300ea82c664ddc30a4e6ae0b21653724
+  - 320e23570d3211d7453658a48e1c1cf6
+  - 32b3bbccbcf136bc7fa59829c1a542f9
+  - 37b3efbda27cbc14183e3be8facd5e2b
+  - 3d92eee03955b5790292469cc7c47e29
+  - 3ef49758a27da64c76e1f2c077c4b218
+  - 465aaf8d3733a3ba7923818087e826cf
+  - 47eb157790766b4a9a29c2218de4fa0e
+  - 4d1ea1c284ed8ecb6f985d6f9ca6d37b
+  - 4d6f4d95c31bec1f4617a4e6d44ad01f
+  - 5af3c48cebd12e5dcf832587cd938648
+  - 5e1f9a83b8711797119bcda51b0be01f
+  - 5ffbca5cfe19b336612a7c0646691bd8
+  - 60bc34ee1ef1f0f4574cb8d2fce4a6b5
+  - 64ff600cc0627cbeafd3d7f842a09e10
+  - 67e7eae682694c3168d03541110e5c73
+  - 6976816691f55f7bbeb3943409e9b074
+  - 6ac69202462bc10f6ec8f57a1d9a3bdd
+  - 6b1654fd01c1b022d30f409a4c82dbe5
+  - 7327dd64bb470e2df5ec87b549042b97
+  - 73fc1b8cb605f7acb2b99c454cc31038
+  - 76cfa2b6c918b25b8b11460695bbed02
+  - 7902165ffbe3405f1847d962c0f0a8df
+  - 8c27c9b4563d3f4ed36d6a18e8df7352
+  - 99a35c0926e72db2da54ddf9d28587b7
+  - a32921bf94a3daf6b741f74e7b8f3ea0
+  - a5d0fb47c376ae8131b9316a4f2e0513
+  - a5e26af846765ab1d0a96fef4da926c0
+  - a74829cf524b32b3172827102171b8c8
+  - ac49d37f179cf1c31d8617b94fc32f0b
+  - ade9a3d91b8924d7034e353c057a0de0
+  - b582d6e3bec27e083031dc1516f3ac71
+  - b6ada1df778db94ac9248b75a5b3276c
+  - b6c44640d67bff473d5f2f4e9b1b1a44
+  - b95370568b906e5285c2f2a8747e8b1c
+  - bd61ae730ba5caead2d6edb4066aeea3
+  - c3affa275303ba215365b8b7de0d32e2
+  - c63a3df0ad8b7f4fd13e90af5d35653a
+  - c6845ed144f8c2e06d802a2a210469e4
+  - ce86326393daa60c28e54ea3fa70112b
+  - d2f927046b807a110bf690c7ad60e0e1
+  - d3057d7d8532890c6d4f6dbda41148f3
+  - d3835a47a5f3e593a5593a0a7de65a7a
+  - d3e2bd9c2eb91e941fd7d2b54cef9bd4
+  - d6eba60c56429f75aa77e38421467ea5
+  - d90f0a8f66600cbad77fc572abe4f6aa
+  - deb5d05ca66c8e2e71b5ee8f2288b14d
+  - e0a245a5b06f6b01fa95910b07b076b4
+  - e71a3974086f47d980a09b612d2e10f8
+  - eed216d1502e43dd628f8d4ed9d3a59c
+  - ef4a7ffc0e6389a342281838217b05be
+  - fa3d52cf30afb35db457fc601e21d89d
+  - fa5b665dfd25e58e088cfd70f3baba31
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-H310M-R-R2-WIFI-SI-2208.ZIP
   superio: NCT6793D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRO H410M-C:
   aliases:
   - PRO-H410M-C-SI-1620
@@ -45475,89 +47076,385 @@ TUF GAMING Z790-PLUS WIFI D4:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 TUF H310-PLUS GAMING:
-  aliases: []
-  asus_dispatcher: []
+  aliases:
+  - TUF-H310-PLUS-GAMING-ASUS-3202
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
-  known_good_nct6775: []
-  links: []
+  hash:
+  - 00fe5645ead8847e62940fdaea09f5e9
+  - 0341a03c73715cb3b56033ad7cf75d9a
+  - 03a726b6a6e11aa5a65ddc589db1709e
+  - 043f4faffe590b7c7f97a15526c5a6f5
+  - 0a7dad1c3467165aa8bff9f7656fc7c1
+  - 11ca0672fd57c728e25bc933deedc567
+  - 1320be9b84160e002e09729e752b6e28
+  - 22c0a72be6c1fa34c6dbba7acf6763fa
+  - 23fcfd2f2f0bade7ab6883375d0c1aec
+  - 26495a107369fe1569783479f11056d3
+  - 2af901b94fa4d2bcac36378945b3ebcd
+  - 311da198e58bb7015e9e1ef710bb348a
+  - 3468db3a02054f4cb2a146a947e2ec9b
+  - 375739a26431804d350f6225c0f54131
+  - 3cb451c91b95d8094ea8d30cb09088f1
+  - 3cfbda29bce2a981f8678f9f73e93894
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 48e87d59304397114a6a7ae2479d3713
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 56baf21079adaedac5377e958ca1743f
+  - 5f786e42a68737b4e9e586d66ad0d4d5
+  - 602b6c9159eb4c75a1cf7053cde87a07
+  - 65742f800ed283a01710bcc1b08242c5
+  - 697f74b414e369221c26fbf13ce55bb3
+  - 72b0971560a7ab67490c4d6a0e70f12e
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 7ffd93752de04128b4f08b13bbfda9ae
+  - 852a776b613ac135a954cb750129da26
+  - 8ca1d88e34efeff5f4da60e998229bd1
+  - 8dccc226e623cd8e05078749498c5b83
+  - 9611b6d8acff240e1d1732a26e47b52b
+  - 978dd461c3ffea5ddc552abee91828d1
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - 9b36867df1056f01c6b2b1c88cdc1660
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - 9d6c0bee895bf55945f30db9de79cc60
+  - a7e00a819816002d53014757e38dac8f
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - b079def8eed2c995c0bca711631caed7
+  - b1b580b48420b9676e08270094c90358
+  - b4217cb7525e8474076d60ad48cc8fdf
+  - c7040eb040ffdc6cae92c1d77933c255
+  - cf0ee1276e05452f5c63d3decb538fd5
+  - d52b105dc43c56ed9d12b2bbae09c74e
+  - e1fc16ad40506c250d597f6e8af0ad92
+  - e3bcca9a13df5f2990c070353066464b
+  - ecd47c58be4348d8adad9cd2c7365c54
+  - ece68ada0b1824a426659dd69e4e0d82
+  - f1ba4da018af9ef36a96f88fd2cc74ae
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f5c9e724e726ad8d632e51541629d1b9
+  - f5d93d68d33fc81dcd641f59baeba157
+  - f6dbc187925fc646dedecd6c478c7150
+  - f7b0e1d085be4b5701ba70c57fc4887a
+  - f8843ca7140d36f95d8a574cfe4c139a
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-H310-PLUS-GAMING-ASUS-3202.ZIP
   superio: NCT6793D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 TUF H310M-PLUS GAMING:
-  aliases: []
-  asus_dispatcher: []
+  aliases:
+  - TUF-H310M-PLUS-GAMING-ASUS-3202
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
-  known_good_nct6775: []
-  links: []
+  hash:
+  - 00fe5645ead8847e62940fdaea09f5e9
+  - 0341a03c73715cb3b56033ad7cf75d9a
+  - 03a726b6a6e11aa5a65ddc589db1709e
+  - 043f4faffe590b7c7f97a15526c5a6f5
+  - 0a7dad1c3467165aa8bff9f7656fc7c1
+  - 11ca0672fd57c728e25bc933deedc567
+  - 1320be9b84160e002e09729e752b6e28
+  - 22c0a72be6c1fa34c6dbba7acf6763fa
+  - 23fcfd2f2f0bade7ab6883375d0c1aec
+  - 26495a107369fe1569783479f11056d3
+  - 2af901b94fa4d2bcac36378945b3ebcd
+  - 311da198e58bb7015e9e1ef710bb348a
+  - 3468db3a02054f4cb2a146a947e2ec9b
+  - 375739a26431804d350f6225c0f54131
+  - 3cb451c91b95d8094ea8d30cb09088f1
+  - 3cfbda29bce2a981f8678f9f73e93894
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 48e87d59304397114a6a7ae2479d3713
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 56baf21079adaedac5377e958ca1743f
+  - 5f786e42a68737b4e9e586d66ad0d4d5
+  - 65742f800ed283a01710bcc1b08242c5
+  - 697f74b414e369221c26fbf13ce55bb3
+  - 72b0971560a7ab67490c4d6a0e70f12e
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7bcbdd0d552e1b246d202ea7427f01b7
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 7ffd93752de04128b4f08b13bbfda9ae
+  - 852a776b613ac135a954cb750129da26
+  - 8ca1d88e34efeff5f4da60e998229bd1
+  - 8dccc226e623cd8e05078749498c5b83
+  - 9611b6d8acff240e1d1732a26e47b52b
+  - 978dd461c3ffea5ddc552abee91828d1
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - 9b36867df1056f01c6b2b1c88cdc1660
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - 9d6c0bee895bf55945f30db9de79cc60
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - b079def8eed2c995c0bca711631caed7
+  - b1b580b48420b9676e08270094c90358
+  - b4217cb7525e8474076d60ad48cc8fdf
+  - c7040eb040ffdc6cae92c1d77933c255
+  - cf0ee1276e05452f5c63d3decb538fd5
+  - d52b105dc43c56ed9d12b2bbae09c74e
+  - e1fc16ad40506c250d597f6e8af0ad92
+  - e3bcca9a13df5f2990c070353066464b
+  - ecd47c58be4348d8adad9cd2c7365c54
+  - ece68ada0b1824a426659dd69e4e0d82
+  - f1ba4da018af9ef36a96f88fd2cc74ae
+  - f26cb55a8f3c5f0c023a32b72c76194c
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f5c9e724e726ad8d632e51541629d1b9
+  - f5d93d68d33fc81dcd641f59baeba157
+  - f6dbc187925fc646dedecd6c478c7150
+  - f7b0e1d085be4b5701ba70c57fc4887a
+  - f8843ca7140d36f95d8a574cfe4c139a
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-H310M-PLUS-GAMING-ASUS-3202.ZIP
   superio: NCT5582D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 TUF H310M-PLUS GAMING R2.0:
-  aliases: []
+  aliases:
+  - TUF-H310M-PLUS-GAMING-R2-ASUS-2208
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
+  hash:
+  - 018a5121a53a9858851f19259210d4d7
+  - 10a691bc96465e94a6a21baadc0cfd67
+  - 18635a01d000063a963ac3114ae0d290
+  - 195c5ffc17cd301b56c15a8e627c4186
+  - 1a913b9845989956b977c87a0a83b6e7
+  - 1ed223c3f82d4567f34bb46ce974cf54
+  - 2b71bf0688752b0dfdca45389ddc818c
+  - 300ea82c664ddc30a4e6ae0b21653724
+  - 320e23570d3211d7453658a48e1c1cf6
+  - 37b3efbda27cbc14183e3be8facd5e2b
+  - 3d92eee03955b5790292469cc7c47e29
+  - 3ef49758a27da64c76e1f2c077c4b218
+  - 465aaf8d3733a3ba7923818087e826cf
+  - 47eb157790766b4a9a29c2218de4fa0e
+  - 4d1ea1c284ed8ecb6f985d6f9ca6d37b
+  - 4d6f4d95c31bec1f4617a4e6d44ad01f
+  - 5af3c48cebd12e5dcf832587cd938648
+  - 5e1f9a83b8711797119bcda51b0be01f
+  - 5ffbca5cfe19b336612a7c0646691bd8
+  - 60bc34ee1ef1f0f4574cb8d2fce4a6b5
+  - 64ff600cc0627cbeafd3d7f842a09e10
+  - 67e7eae682694c3168d03541110e5c73
+  - 6976816691f55f7bbeb3943409e9b074
+  - 6ac69202462bc10f6ec8f57a1d9a3bdd
+  - 6b1654fd01c1b022d30f409a4c82dbe5
+  - 7327dd64bb470e2df5ec87b549042b97
+  - 73fc1b8cb605f7acb2b99c454cc31038
+  - 76cfa2b6c918b25b8b11460695bbed02
+  - 7902165ffbe3405f1847d962c0f0a8df
+  - 8c27c9b4563d3f4ed36d6a18e8df7352
+  - 99a35c0926e72db2da54ddf9d28587b7
+  - a32921bf94a3daf6b741f74e7b8f3ea0
+  - a5d0fb47c376ae8131b9316a4f2e0513
+  - a5e26af846765ab1d0a96fef4da926c0
+  - a74829cf524b32b3172827102171b8c8
+  - ade9a3d91b8924d7034e353c057a0de0
+  - af5330d3db6d6d319d2825e148090c81
+  - b582d6e3bec27e083031dc1516f3ac71
+  - b6ada1df778db94ac9248b75a5b3276c
+  - b6c44640d67bff473d5f2f4e9b1b1a44
+  - b95370568b906e5285c2f2a8747e8b1c
+  - bc9fb08934bbc40427bf4df7bef4aa90
+  - bd61ae730ba5caead2d6edb4066aeea3
+  - c3affa275303ba215365b8b7de0d32e2
+  - c63a3df0ad8b7f4fd13e90af5d35653a
+  - c6845ed144f8c2e06d802a2a210469e4
+  - ce86326393daa60c28e54ea3fa70112b
+  - d2f927046b807a110bf690c7ad60e0e1
+  - d3057d7d8532890c6d4f6dbda41148f3
+  - d3835a47a5f3e593a5593a0a7de65a7a
+  - d3e2bd9c2eb91e941fd7d2b54cef9bd4
+  - d6eba60c56429f75aa77e38421467ea5
+  - d90f0a8f66600cbad77fc572abe4f6aa
+  - deb5d05ca66c8e2e71b5ee8f2288b14d
+  - e0a245a5b06f6b01fa95910b07b076b4
+  - e71a3974086f47d980a09b612d2e10f8
+  - eed216d1502e43dd628f8d4ed9d3a59c
+  - ef4a7ffc0e6389a342281838217b05be
+  - fa3d52cf30afb35db457fc601e21d89d
+  - fa5b665dfd25e58e088cfd70f3baba31
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
-  links: []
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-H310M-PLUS-GAMING-R2-ASUS-2208.ZIP
   superio: NCT6793D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 TUF H310M-PLUS GAMING/BR:
-  aliases: []
-  asus_dispatcher: []
+  aliases:
+  - TUF-H310M-PLUS-GAMING-BR-SI-3202
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: H310
   gigabyte_wmi: N
-  known_good: []
-  known_good_nct6775: []
-  links: []
+  hash:
+  - 00fe5645ead8847e62940fdaea09f5e9
+  - 0341a03c73715cb3b56033ad7cf75d9a
+  - 03a726b6a6e11aa5a65ddc589db1709e
+  - 043f4faffe590b7c7f97a15526c5a6f5
+  - 0a7dad1c3467165aa8bff9f7656fc7c1
+  - 11ca0672fd57c728e25bc933deedc567
+  - 1320be9b84160e002e09729e752b6e28
+  - 22c0a72be6c1fa34c6dbba7acf6763fa
+  - 23fcfd2f2f0bade7ab6883375d0c1aec
+  - 26495a107369fe1569783479f11056d3
+  - 2af901b94fa4d2bcac36378945b3ebcd
+  - 311da198e58bb7015e9e1ef710bb348a
+  - 3468db3a02054f4cb2a146a947e2ec9b
+  - 375739a26431804d350f6225c0f54131
+  - 3cb451c91b95d8094ea8d30cb09088f1
+  - 3cfbda29bce2a981f8678f9f73e93894
+  - 4050fe38a0a26d4e9a30a355fc0fd529
+  - 486be640ccdc1bfe2365d221ae2b7481
+  - 48e87d59304397114a6a7ae2479d3713
+  - 4b058ac5b9daf9bdcd1bfceafe4a2ffe
+  - 56baf21079adaedac5377e958ca1743f
+  - 5f786e42a68737b4e9e586d66ad0d4d5
+  - 65742f800ed283a01710bcc1b08242c5
+  - 697f74b414e369221c26fbf13ce55bb3
+  - 72b0971560a7ab67490c4d6a0e70f12e
+  - 7526f6097649da7cc121ddf926eaaa5c
+  - 7bcbdd0d552e1b246d202ea7427f01b7
+  - 7fdc80a643aedef38a604b3d8b4745fd
+  - 7ffd93752de04128b4f08b13bbfda9ae
+  - 852a776b613ac135a954cb750129da26
+  - 8ca1d88e34efeff5f4da60e998229bd1
+  - 8dccc226e623cd8e05078749498c5b83
+  - 9611b6d8acff240e1d1732a26e47b52b
+  - 978dd461c3ffea5ddc552abee91828d1
+  - 9a6209f85ae13801a8f7f714c5a2c342
+  - 9b36867df1056f01c6b2b1c88cdc1660
+  - 9bb069813129de3b1eb5ef1aaf760116
+  - 9d6c0bee895bf55945f30db9de79cc60
+  - a9874a5ae91254fd508c20ce8937e5c8
+  - b079def8eed2c995c0bca711631caed7
+  - b1b580b48420b9676e08270094c90358
+  - b4217cb7525e8474076d60ad48cc8fdf
+  - c7040eb040ffdc6cae92c1d77933c255
+  - cf0ee1276e05452f5c63d3decb538fd5
+  - d52b105dc43c56ed9d12b2bbae09c74e
+  - e1fc16ad40506c250d597f6e8af0ad92
+  - e3bcca9a13df5f2990c070353066464b
+  - ecd47c58be4348d8adad9cd2c7365c54
+  - ece68ada0b1824a426659dd69e4e0d82
+  - f1ba4da018af9ef36a96f88fd2cc74ae
+  - f26cb55a8f3c5f0c023a32b72c76194c
+  - f2c9daafd0f0a223bc8c52438f6d2bb4
+  - f5c9e724e726ad8d632e51541629d1b9
+  - f5d93d68d33fc81dcd641f59baeba157
+  - f6dbc187925fc646dedecd6c478c7150
+  - f7b0e1d085be4b5701ba70c57fc4887a
+  - f8843ca7140d36f95d8a574cfe4c139a
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links:
+  - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-H310M-PLUS-GAMING-BR-SI-3202.ZIP
   superio: NCT5582D
-  upstreamed_serie: false
-  wmi_methods: []
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 TUF H370-PRO GAMING:
   aliases:
   - TUF-H370-PRO-GAMING-ASUS-3101
