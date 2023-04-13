@@ -1039,7 +1039,7 @@ B360M-BASALT:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -1135,7 +1135,7 @@ B360M-D3H:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -2804,7 +2804,7 @@ EX-B360M-V:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -2900,7 +2900,7 @@ EX-B360M-V3:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -2996,7 +2996,7 @@ EX-B360M-V5:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -3724,7 +3724,7 @@ EX-B760M-V5 D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -8270,7 +8270,7 @@ PRIME A620M-A:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -10367,7 +10367,7 @@ PRIME B460I-PLUS:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -10441,7 +10441,7 @@ PRIME B460M-A:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -10680,7 +10680,7 @@ PRIME B460M-K:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -10811,7 +10811,7 @@ PRIME B550-PLUS AC-HES:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -12331,7 +12331,7 @@ PRIME B660M-A AC D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -12811,7 +12811,7 @@ PRIME B760-PLUS:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -12921,7 +12921,7 @@ PRIME B760-PLUS D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -13103,7 +13103,7 @@ PRIME B760M-A:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -13207,7 +13207,7 @@ PRIME B760M-A AX D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -13378,7 +13378,7 @@ PRIME B760M-A D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -13693,7 +13693,7 @@ PRIME B760M-A WIFI:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -13797,7 +13797,7 @@ PRIME B760M-A WIFI D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -13967,7 +13967,7 @@ PRIME B760M-AJ D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -14137,7 +14137,7 @@ PRIME B760M-K D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -14441,7 +14441,7 @@ PRIME H310-PLUS:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -14629,7 +14629,7 @@ PRIME H310I-PLUS:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -14817,7 +14817,7 @@ PRIME H310M-A:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -15005,7 +15005,7 @@ PRIME H310M-C:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -15377,7 +15377,7 @@ PRIME H310M-D:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -15565,7 +15565,7 @@ PRIME H310M-DASH:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -15752,7 +15752,7 @@ PRIME H310M-E:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -16032,7 +16032,7 @@ PRIME H310M-E/BR:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -16128,7 +16128,7 @@ PRIME H310M-F:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -16303,7 +16303,7 @@ PRIME H310M-K:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -16607,7 +16607,7 @@ PRIME H310T:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -16738,7 +16738,7 @@ PRIME H370-A:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -16836,7 +16836,7 @@ PRIME H370-PLUS:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -16934,7 +16934,7 @@ PRIME H370M-PLUS:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -17033,7 +17033,7 @@ PRIME H410I-PLUS:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -17619,7 +17619,7 @@ PRIME H470-PLUS:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -17717,7 +17717,7 @@ PRIME H470M-PLUS:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -18353,7 +18353,7 @@ PRIME H510M-R:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -18426,7 +18426,7 @@ PRIME H510T2/CSM:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -18499,7 +18499,7 @@ PRIME H570-PLUS:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -18572,7 +18572,7 @@ PRIME H570M-PLUS:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -19380,7 +19380,7 @@ PRIME H610M-R D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -19485,7 +19485,7 @@ PRIME H670-PLUS D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -19596,7 +19596,7 @@ PRIME H770-PLUS D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -19729,7 +19729,7 @@ PRIME Q370M-C:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -23865,7 +23865,7 @@ PRO Q470M-C:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -24617,7 +24617,7 @@ Pro B760M-C:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -24787,7 +24787,7 @@ Pro B760M-CT:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -25527,7 +25527,7 @@ Pro Q670M-C:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -26010,7 +26010,7 @@ Pro WS W790-ACE:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: ''
   asus_nct6775_region: SHWM
   asus_port290:
@@ -26057,7 +26057,7 @@ Pro WS W790E-SAGE SE:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: ''
   asus_nct6775_region: SHWM
   asus_port290:
@@ -26245,7 +26245,7 @@ ProArt B550-CREATOR:
   - RSIO
   - WHWM
   - WSIO
-  asus_ec: U
+  asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: ''
   asus_nct6775: Y
@@ -26505,7 +26505,7 @@ ProArt B760-CREATOR D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -30017,7 +30017,7 @@ ROG MAXIMUS Z690 FORMULA:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -30130,7 +30130,7 @@ ROG MAXIMUS Z690 HERO:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -30936,7 +30936,7 @@ ROG STRIX B360-F GAMING:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -31035,7 +31035,7 @@ ROG STRIX B360-G GAMING:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -31133,7 +31133,7 @@ ROG STRIX B360-H GAMING:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -31229,7 +31229,7 @@ ROG STRIX B360-H GAMING/OPTANE:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -31325,7 +31325,7 @@ ROG STRIX B360-I GAMING:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -34255,7 +34255,7 @@ ROG STRIX B760-A GAMING WIFI:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -34365,7 +34365,7 @@ ROG STRIX B760-A GAMING WIFI D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -34548,7 +34548,7 @@ ROG STRIX B760-F GAMING WIFI:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -34731,7 +34731,7 @@ ROG STRIX B760-G GAMING WIFI:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -34841,7 +34841,7 @@ ROG STRIX B760-G GAMING WIFI D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -35024,7 +35024,7 @@ ROG STRIX B760-I GAMING WIFI:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -35195,7 +35195,7 @@ ROG STRIX H370-F GAMING:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -35296,7 +35296,7 @@ ROG STRIX H370-I GAMING:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -35394,7 +35394,7 @@ ROG STRIX H470-I GAMING:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -37875,7 +37875,7 @@ ROG STRIX Z690-E GAMING WIFI:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -37987,7 +37987,7 @@ ROG STRIX Z690-F GAMING WIFI:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -38099,7 +38099,7 @@ ROG STRIX Z690-G GAMING WIFI:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -39558,7 +39558,7 @@ TUF B360-PLUS GAMING:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -39656,7 +39656,7 @@ TUF B360-PRO GAMING:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -39755,7 +39755,7 @@ TUF B360-PRO GAMING (WI-FI):
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -39854,7 +39854,7 @@ TUF B360M-E GAMING:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -39950,7 +39950,7 @@ TUF B360M-PLUS GAMING:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -40047,7 +40047,7 @@ TUF B360M-PLUS GAMING S:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -40144,7 +40144,7 @@ TUF B360M-PLUS GAMING/BR:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -41050,7 +41050,7 @@ TUF GAMING A620M-PLUS:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -41125,7 +41125,7 @@ TUF GAMING A620M-PLUS WIFI:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -43492,7 +43492,7 @@ TUF GAMING B660M-PLUS D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -43747,7 +43747,7 @@ TUF GAMING B660M-PLUS WIFI D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -43858,7 +43858,7 @@ TUF GAMING B760-PLUS WIFI:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -43967,7 +43967,7 @@ TUF GAMING B760-PLUS WIFI D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -44148,7 +44148,7 @@ TUF GAMING B760M-BTF WIFI D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -44257,7 +44257,7 @@ TUF GAMING B760M-E D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -44360,7 +44360,7 @@ TUF GAMING B760M-PLUS:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -44469,7 +44469,7 @@ TUF GAMING B760M-PLUS D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -44650,7 +44650,7 @@ TUF GAMING B760M-PLUS WIFI:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -44760,7 +44760,7 @@ TUF GAMING B760M-PLUS WIFI D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -44942,7 +44942,7 @@ TUF GAMING H470-PRO:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -45044,7 +45044,7 @@ TUF GAMING H470-PRO (WI-FI):
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -45146,7 +45146,7 @@ TUF GAMING H570-PRO:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -45218,7 +45218,7 @@ TUF GAMING H570-PRO WIFI:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -45290,7 +45290,7 @@ TUF GAMING H670-PRO WIFI D4:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -45400,7 +45400,7 @@ TUF GAMING H770-PRO WIFI:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -45748,7 +45748,7 @@ TUF GAMING X570-PRO WIFI II:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -47088,7 +47088,7 @@ TUF H310-PLUS GAMING:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -47184,7 +47184,7 @@ TUF H310M-PLUS GAMING:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -47372,7 +47372,7 @@ TUF H310M-PLUS GAMING/BR:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -47468,7 +47468,7 @@ TUF H370-PRO GAMING:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -47567,7 +47567,7 @@ TUF H370-PRO GAMING (WI-FI):
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
