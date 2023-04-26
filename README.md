@@ -14,7 +14,8 @@ Support sites:
 # Docs
 
 How it works for:
-* [ASUS](https://bugzilla.kernel.org/show_bug.cgi?id=204807#c37)
+* [ASUS](https://bugzilla.kernel.org/show_bug.cgi?id=204807)
+* [HP wmi sensors](https://lore.kernel.org/all/20230424100459.41672-1-james@equiv.tech/)
 * [ASUS nct6775 upstream](https://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git/tree/drivers/hwmon/nct6775-platform.c?h=hwmon-next)
 * [ASUS wmi upstream](https://git.kernel.org/pub/scm/linux/kernel/git/groeck/linux-staging.git/tree/drivers/hwmon/asus_wmi_sensors.c?h=hwmon-next)
 * [Gigabyte](https://github.com/t-8ch/linux-gigabyte-wmi-driver)
