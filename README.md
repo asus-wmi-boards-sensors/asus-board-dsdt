@@ -477,7 +477,7 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | ROG CROSSHAIR VIII IMPACT           | NCT6798D-R | N            | N            | Y            | Y            |
 | ASUS     | ROG CROSSHAIR X670E EXTREME         | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | ROG CROSSHAIR X670E GENE            | NCT6799D-R | N            | N            | Y            | N            |
-| ASUS     | ROG CROSSHAIR X670E HERO            | NCT6799D-R | N            | N            | Y            | N            |
+| ASUS     | ROG CROSSHAIR X670E HERO            | NCT6799D-R | N            | N            | Y            | N?           |
 | ASUS     | ROG DOMINUS EXTREME                 |            | N            | N            | P            | N            |
 | ASUS     | ROG MAXIMUS X APEX                  | NCT6793D   | L            | N            | L            | N            |
 | ASUS     | ROG MAXIMUS X CODE                  | NCT6793D   | L            | N            | L            | N            |

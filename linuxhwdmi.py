@@ -2,6 +2,7 @@
 import sys
 import os
 import csv
+import string
 from utils import load_linuxhw_DMI, save_linuxhw_DMI
 
 
@@ -55,7 +56,9 @@ def dmi_process(content):
     dmi_data = dmi_process_line(content.split("\n"))
     board_producer = ""
     board_name = ""
+    system_name = ""
     board_sensor = ""
+    system_version = ""
 
     for record in dmi_data:
         if isinstance(record, list):
@@ -64,8 +67,20 @@ def dmi_process(content):
                 record[0] == "Base Board Information" and
                 isinstance(record[1], dict)
             ):
-                board_producer = record[1].get("Manufacturer")
-                board_name = record[1].get("Product Name")
+                if not board_producer:
+                    board_producer = record[1].get("Manufacturer").strip()
+                board_name = record[1].get("Product Name").strip()
+            elif (
+                len(record) == 2 and
+                record[0] == "System Information" and
+                isinstance(record[1], dict)
+            ):
+                if not board_producer:
+                    board_producer = record[1].get("Manufacturer").strip()
+                if not system_name:
+                    system_name = record[1].get("Product Name").strip()
+                if not system_version:
+                    system_version = record[1].get("Version").strip()
             elif (
                 len(record) == 2 and
                 record[0] == "Management Device" and
@@ -73,9 +88,25 @@ def dmi_process(content):
                 record[1].get("Address Type") == "I/O Port" and
                 record[1].get("Type") == "Other"
             ):
-                board_sensor = record[1].get("Description")
+                board_sensor = record[1].get("Description").strip()
 
-    return board_producer, board_name, board_sensor
+    return board_producer, board_name, board_sensor, system_name, system_version
+
+
+# name has some letters or digits
+def check_is_human_name(name):
+    #empty name
+    if not name:
+        return False
+    # started not from leters or digits
+    if name[0] not in string.ascii_letters + string.digits:
+        return False
+    # has some letters or digits
+    for c in name:
+        if c in string.ascii_letters + string.digits:
+            return True
+    else:
+        return False
 
 
 if __name__ == "__main__":
@@ -98,17 +129,22 @@ if __name__ == "__main__":
                 with open(f"{dirname}/{filename}", "rb") as f:
                     content = f.read().decode("utf8")
 
-                board_producer, board_name, board_sensor = dmi_process(content)
+                (
+                    board_producer, board_name, board_sensor,
+                    system_name, system_version
+                ) = dmi_process(content)
             except:
                 print (f"Could not parse: {dirname}/{filename}")
                 continue
 
             print (f"\tBoard: {board_name}")
+            print (f"\tSystem: {system_name}")
+            print (f"\tVersion: {system_version}")
             print (f"\tProduced: {board_producer}")
             print (f"\tSensor: {board_sensor}")
             if (
-                not board_producer or
-                not board_name
+                not check_is_human_name(board_producer) or
+                not check_is_human_name(board_name)
             ):
                 continue
 
@@ -125,6 +161,7 @@ if __name__ == "__main__":
                     row[1] = board_name
                     if board_sensor:
                         row[2] = board_sensor
+                    # add filename where found info
                     if len(row) < 4:
                         row.append(filename)
                     else:
@@ -132,9 +169,21 @@ if __name__ == "__main__":
                         if filename not in names:
                             names.append(filename)
                         row[3] = "/".join(sorted(names))
+                    # add system name where found info
+                    if len(row) < 5:
+                        row.append(system_name)
+                    else:
+                        row[4] = system_name
+                    # add system name where found info
+                    if len(row) < 6:
+                        row.append(system_version)
+                    else:
+                        row[5] = system_version
                     break
             else:
-                board_desc.append([board_producer, board_name, board_sensor, filename])
+                board_desc.append([board_producer, board_name,
+                                   board_sensor, filename, system_name,
+                                   system_version])
 
     print ("Used sensors:")
     for board_sensor in sorted(sensors):
