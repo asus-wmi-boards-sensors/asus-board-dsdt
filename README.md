@@ -41,6 +41,9 @@ Port to use asl directly instead disassembling to dsl.
 
 | made by  | board name                          | superio    | asus-wmi     | gigabyte-wmi | nct6775      | asus-ec      |
 | ---------| ----------------------------------- | ---------- | ------------ | ------------ | ------------ | ------------ |
+| HP       | Z220 CMT Workstation                |            | N            | N            | N            | N            |
+| HP       | Elite 7300 Series MT                |            | N            | N            | N            | N            |
+| HP       | Compaq 8100 Elite SFF Brazil PC     |            | N            | N            | N            | N            |
 | ASUS     | 970 PRO GAMING/AURA                 |            | F            | N            | F            | N            |
 | GIGABYTE | 970A-DS3P                           |            | N            | N            | N            | N            |
 | GIGABYTE | 990XA-UD3                           |            | N            | N            | N            | N            |

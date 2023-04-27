@@ -1,3 +1,90 @@
+'1790':
+  aliases:
+  - HP-Z220-CMT-Workstation-HP-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Hewlett-Packard
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - 1aebf30b748458f8b9727630540cd159
+  - 2fcc8c3f20d66ed020fa70c6eb328c7c
+  - 36fc0465b827e7ab51921ae69594d24e
+  - 468c4dbdb2aaa9e9ac53e93278de51a8
+  - 53314f817a3f63470c724c0fc007dbf2
+  - 7517cccc9b7ef973b78454ddd56332da
+  - 76ee87ef1f14f7e90073611446f964de
+  - 7d579c65fe1d76c88805e1dbbd6a6d84
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  system_name: HP Z220 CMT Workstation
+  upstreamed_serie: false
+  wmi_methods: []
+2AB5:
+  aliases:
+  - HP-Elite-7300-Series-MT-HP-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Hewlett-Packard
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - 24eac3b3dbbaaa2dcfb8e9e3b8d91713
+  - 4a77a244e30481771b520000ae84a0a0
+  - 80a718b8e56c13e8be43c897b37e03e7
+  - 832cb997932f9b177f42595dca3011e7
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  system_name: HP Elite 7300 Series MT
+  upstreamed_serie: false
+  wmi_methods: []
+304Ah:
+  aliases:
+  - HP-Compaq-8100-Elite-SFF-Brazil-PC-HP-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: Hewlett-Packard
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - 17540256fe06db55ffffbf3d746f8190
+  - 1c9a6c8ca5fc9144470d8240d3443cba
+  - 2961dd56c9270db39587ca896c82be20
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  system_name: HP Compaq 8100 Elite SFF Brazil PC
+  upstreamed_serie: false
+  wmi_methods: []
 970 PRO GAMING/AURA:
   aliases:
   - 970-PRO-GAMING-AURA-ASUS-1001
@@ -19,6 +106,7 @@
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM3+/970_PRO_GAMING_AURA/970-PRO-GAMING-AURA-ASUS-1001.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 970A-DS3P:
@@ -44,6 +132,7 @@
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 990XA-UD3:
@@ -69,6 +158,7 @@
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 A320M-C:
@@ -111,6 +201,7 @@ A320M-C:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/A320M-C/A320M-C-SI-1001.zip
   superio: IT8665E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -147,6 +238,7 @@ A320M-S2H-CF:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -184,6 +276,7 @@ A68HM-K:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/SocketFM2/A68HM-K/A68HM-K-ASUS-2012.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -216,6 +309,7 @@ A68HM-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/SocketFM2/A68HM-PLUS/A68HM-PLUS-ASUS-2011.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 A88X-GAMER:
@@ -239,6 +333,7 @@ A88X-GAMER:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/SocketFM2/A88X-GAMER/A88X-GAMER-ASUS-1603.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 B150 PRO GAMING:
@@ -364,6 +459,7 @@ B150 PRO GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B150_PRO_GAMING/B150-PRO-GAMING-ASUS-3805.zip
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -485,6 +581,7 @@ B150 PRO GAMING D3:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B150_PRO_GAMING_D3/B150-PRO-GAMING-D3-ASUS-2604.zip
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -512,6 +609,7 @@ B150 PRO GAMING/AURA:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B150_PRO_GAMING_AURA/B150-PRO-GAMING-AURA-ASUS-3805.zip
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 B150I PRO GAMING/AURA:
@@ -625,6 +723,7 @@ B150I PRO GAMING/AURA:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B150I_PRO_GAMING_AURA/B150I-PRO-GAMING-AURA-ASUS-2606.zip
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -742,6 +841,7 @@ B150I PRO GAMING/WIFI/AURA:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B150I_PRO_GAMING_WIFI_AURA/B150I-PRO-GAMING-WIFI-AURA-ASUS-2606.zip
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -863,6 +963,7 @@ B150M PRO GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B150M_PRO_GAMING/B150M-PRO-GAMING-ASUS-1006.zip
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -936,6 +1037,7 @@ B250 MINING EXPERT:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/B250_MINING_EXPERT/B250-MINING-EXPERT-ASUS-1208.zip
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -1020,6 +1122,7 @@ B250M-C PRO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/B250M-C-PRO-ASUS-2001.ZIP
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -1116,6 +1219,7 @@ B360M-BASALT:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/B360M-BASALT-ASUS-3202.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -1212,6 +1316,7 @@ B360M-D3H:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/B360M-D3H-ASUS-3202.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -1255,6 +1360,7 @@ B365M Pro4-F:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 B450 AORUS ELITE:
@@ -1287,6 +1393,7 @@ B450 AORUS ELITE:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -1323,6 +1430,7 @@ B450 AORUS PRO WIFI-CF:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -1380,6 +1488,7 @@ B450M DS3H V2:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_b450m-ds3h-v2_f64a.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -1437,6 +1546,7 @@ B450M DS3H WIFI-CF:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_b450m-ds3h-wifi_f65a.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -1494,6 +1604,7 @@ B450M DS3H-CF:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_b450m-ds3h_f64a.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -1530,6 +1641,7 @@ B450M Pro4:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 B450M S2H V2:
@@ -1583,6 +1695,7 @@ B450M S2H V2:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_b450m-s2h-v2_f64a.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -1647,6 +1760,7 @@ B450M-DRAGON:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/B450M-DRAGON-ASUS-4001.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -1713,6 +1827,7 @@ B550 AORUS ELITE:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_b550-aorus-elite_f16b.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -1752,6 +1867,7 @@ B550 AORUS ELITE AX V2:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -1818,6 +1934,7 @@ B550 AORUS ELITE V2:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_b550-aorus-elite-v2_f16b.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -1857,6 +1974,7 @@ B550 AORUS PRO V2:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -1923,6 +2041,7 @@ B550 GAMING X V2:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_b550-gaming-x-v2_f16b.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -1989,6 +2108,7 @@ B550I AORUS PRO AX:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_b550i-aorus-pro-ax_f17b.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -2055,6 +2175,7 @@ B550M AORUS PRO-P:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_b550m-aorus-pro-p_f16b.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -2121,6 +2242,7 @@ B550M DS3H:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_b550m-ds3h_f17b.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -2194,6 +2316,7 @@ B560M-P:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/B560M-P-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -2236,6 +2359,7 @@ B650E PG Riptide WiFi:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 B660 GAMING X DDR4:
@@ -2332,6 +2456,7 @@ B660 GAMING X DDR4:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_b660-gaming-x-ddr4_f22.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -2432,6 +2557,7 @@ B660I AORUS PRO DDR4:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_B660i-aorus-pro-ddr4_f22.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -2496,6 +2622,7 @@ B85-PRO GAMER:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/B85-PRO_GAMER/B85-PRO-GAMER-ASUS-2203.zip
   superio: NCT6791D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 B85M-GAMER:
@@ -2556,6 +2683,7 @@ B85M-GAMER:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/B85M-GAMER/B85M-GAMER-ASUS-0605.zip
   superio: NCT6791D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 CROSSHAIR VI HERO:
@@ -2692,6 +2820,7 @@ CROSSHAIR VI HERO:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/CROSSHAIR-VI-HERO-ASUS-8601.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/CROSSHAIR-VI-HERO-ASUS-8701.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -2785,6 +2914,7 @@ EX-A320M-GAMING:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-A320M-GAMING-SI-6061.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-A320M-GAMING-SI-6063.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -2881,6 +3011,7 @@ EX-B360M-V:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B360M-V-SI-3202.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -2977,6 +3108,7 @@ EX-B360M-V3:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B360M-V3-SI-3202.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -3073,6 +3205,7 @@ EX-B360M-V5:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B360M-V5-SI-3202.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -3165,6 +3298,7 @@ EX-B365M-V:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B365M-V-SI-2208.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -3257,6 +3391,7 @@ EX-B365M-V5:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B365M-V5-SI-2208.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -3331,6 +3466,7 @@ EX-B460M-V5:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B460M-V5-SI-1620.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -3404,6 +3540,7 @@ EX-B560M-V5:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B560M-V5-SI-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -3572,6 +3709,7 @@ EX-B660M-V5 D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B660M-V5-D4-SI-2214.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -3706,6 +3844,7 @@ EX-B660M-V5 PRO D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B660M-V5-PRO-D4-SI-2015.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -3941,6 +4080,7 @@ EX-B760M-V5 D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-B760M-V5-D4-SI-0808.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -4033,6 +4173,7 @@ EX-H310M-V3 R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/EX-H310M-V3-R2-SI-2208.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -4107,6 +4248,7 @@ EX-H410M-V3:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-H410M-V3-SI-1620.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -4180,6 +4322,7 @@ EX-H510M-V3:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-H510M-V3-SI-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -4285,6 +4428,7 @@ EX-H610M-V3 D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/EX-H610M-V3-D4-SI-2214.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -4314,6 +4458,7 @@ EX58-UD5:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 F2A78M-HD2:
@@ -4343,6 +4488,7 @@ F2A78M-HD2:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 GA-MA78LMT-US2H:
@@ -4368,6 +4514,7 @@ GA-MA78LMT-US2H:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110-PLUS:
@@ -4389,6 +4536,7 @@ H110-PLUS:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110I-PLUS:
@@ -4410,6 +4558,7 @@ H110I-PLUS:
   known_good_nct6775: []
   links: []
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110M-A:
@@ -4431,6 +4580,7 @@ H110M-A:
   known_good_nct6775: []
   links: []
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110M-A D3:
@@ -4452,6 +4602,7 @@ H110M-A D3:
   known_good_nct6775: []
   links: []
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110M-A/DP:
@@ -4473,6 +4624,7 @@ H110M-A/DP:
   known_good_nct6775: []
   links: []
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110M-A/M.2:
@@ -4513,6 +4665,7 @@ H110M-A/M.2:
   known_good_nct6775: []
   links: []
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -4538,6 +4691,7 @@ H110M-C:
   known_good_nct6775: []
   links: []
   superio: NCT6791D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110M-C/BR:
@@ -4559,6 +4713,7 @@ H110M-C/BR:
   known_good_nct6775: []
   links: []
   superio: NCT6791D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110M-C/PS:
@@ -4580,6 +4735,7 @@ H110M-C/PS:
   known_good_nct6775: []
   links: []
   superio: NCT6791D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110M-C2:
@@ -4601,6 +4757,7 @@ H110M-C2:
   known_good_nct6775: []
   links: []
   superio: NCT6791D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110M-CS:
@@ -4622,6 +4779,7 @@ H110M-CS:
   known_good_nct6775: []
   links: []
   superio: NCT6791D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110M-CS/BR:
@@ -4643,6 +4801,7 @@ H110M-CS/BR:
   known_good_nct6775: []
   links: []
   superio: NCT6791D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110M-D:
@@ -4664,6 +4823,7 @@ H110M-D:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110M-E:
@@ -4685,6 +4845,7 @@ H110M-E:
   known_good_nct6775: []
   links: []
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110M-E-M.2:
@@ -4706,6 +4867,7 @@ H110M-E-M.2:
   known_good_nct6775: []
   links: []
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110M-E/M.2:
@@ -4727,6 +4889,7 @@ H110M-E/M.2:
   known_good_nct6775: []
   links: []
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110M-F:
@@ -4748,6 +4911,7 @@ H110M-F:
   known_good_nct6775: []
   links: []
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110M-K:
@@ -4769,6 +4933,7 @@ H110M-K:
   known_good_nct6775: []
   links: []
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110M-K D3:
@@ -4790,6 +4955,7 @@ H110M-K D3:
   known_good_nct6775: []
   links: []
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110M-PLUS:
@@ -4811,6 +4977,7 @@ H110M-PLUS:
   known_good_nct6775: []
   links: []
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110M-R:
@@ -4832,6 +4999,7 @@ H110M-R:
   known_good_nct6775: []
   links: []
   superio: NCT6791D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110S1:
@@ -4853,6 +5021,7 @@ H110S1:
   known_good_nct6775: []
   links: []
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110S2:
@@ -4874,6 +5043,7 @@ H110S2:
   known_good_nct6775: []
   links: []
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H110T:
@@ -4895,6 +5065,7 @@ H110T:
   known_good_nct6775: []
   links: []
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H170 PRO GAMING:
@@ -4918,6 +5089,7 @@ H170 PRO GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/H170_PRO_GAMING/H170-PRO-GAMING-ASUS-3805.zip
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H61M-A:
@@ -4939,6 +5111,7 @@ H61M-A:
   known_good_nct6775: []
   links: []
   superio: NCT5535D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H61M-A/BR:
@@ -4960,6 +5133,7 @@ H61M-A/BR:
   known_good_nct6775: []
   links: []
   superio: NCT5535D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H61M-A/USB3:
@@ -4981,6 +5155,7 @@ H61M-A/USB3:
   known_good_nct6775: []
   links: []
   superio: NCT5535D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H61M-C:
@@ -5002,6 +5177,7 @@ H61M-C:
   known_good_nct6775: []
   links: []
   superio: NCT5535D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H61M-CS:
@@ -5023,6 +5199,7 @@ H61M-CS:
   known_good_nct6775: []
   links: []
   superio: NCT5535D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H61M-D:
@@ -5044,6 +5221,7 @@ H61M-D:
   known_good_nct6775: []
   links: []
   superio: NCT5535D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H61M-E:
@@ -5065,6 +5243,7 @@ H61M-E:
   known_good_nct6775: []
   links: []
   superio: IT8603E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H61M-F:
@@ -5086,6 +5265,7 @@ H61M-F:
   known_good_nct6775: []
   links: []
   superio: NCT5535D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H61M-K:
@@ -5107,6 +5287,7 @@ H61M-K:
   known_good_nct6775: []
   links: []
   superio: NCT5535D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H61M-PLUS:
@@ -5128,6 +5309,7 @@ H61M-PLUS:
   known_good_nct6775: []
   links: []
   superio: NCT5535D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H61M-PRO:
@@ -5149,6 +5331,7 @@ H61M-PRO:
   known_good_nct6775: []
   links: []
   superio: NCT5535D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H77M:
@@ -5180,6 +5363,7 @@ H77M:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H81-GAMER:
@@ -5240,6 +5424,7 @@ H81-GAMER:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/H81-GAMER/H81-GAMER-ASUS-0505.zip
   superio: NCT5538D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H81-PLUS:
@@ -5261,6 +5446,7 @@ H81-PLUS:
   known_good_nct6775: []
   links: []
   superio: NCT6791D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H81I-PLUS:
@@ -5282,6 +5468,7 @@ H81I-PLUS:
   known_good_nct6775: []
   links: []
   superio: NCT5535D2
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H81M-A:
@@ -5303,6 +5490,7 @@ H81M-A:
   known_good_nct6775: []
   links: []
   superio: NCT5538D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H81M-A/BR:
@@ -5324,6 +5512,7 @@ H81M-A/BR:
   known_good_nct6775: []
   links: []
   superio: NCT5538D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H81M-C:
@@ -5345,6 +5534,7 @@ H81M-C:
   known_good_nct6775: []
   links: []
   superio: NCT6791D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H81M-C/BR:
@@ -5366,6 +5556,7 @@ H81M-C/BR:
   known_good_nct6775: []
   links: []
   superio: NCT6791D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H81M-CS:
@@ -5387,6 +5578,7 @@ H81M-CS:
   known_good_nct6775: []
   links: []
   superio: NCT5538D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H81M-CS/BR:
@@ -5408,6 +5600,7 @@ H81M-CS/BR:
   known_good_nct6775: []
   links: []
   superio: NCT5538D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H81M-D:
@@ -5429,6 +5622,7 @@ H81M-D:
   known_good_nct6775: []
   links: []
   superio: NCT5538D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H81M-D PLUS:
@@ -5450,6 +5644,7 @@ H81M-D PLUS:
   known_good_nct6775: []
   links: []
   superio: NCT5538D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H81M-E:
@@ -5471,6 +5666,7 @@ H81M-E:
   known_good_nct6775: []
   links: []
   superio: NCT5538D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H81M-K:
@@ -5492,6 +5688,7 @@ H81M-K:
   known_good_nct6775: []
   links: []
   superio: NCT5538D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H81M-P:
@@ -5513,6 +5710,7 @@ H81M-P:
   known_good_nct6775: []
   links: []
   superio: NCT5538D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H81M-P PLUS:
@@ -5534,6 +5732,7 @@ H81M-P PLUS:
   known_good_nct6775: []
   links: []
   superio: NCT5535D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H81M-PLUS:
@@ -5555,6 +5754,7 @@ H81M-PLUS:
   known_good_nct6775: []
   links: []
   superio: NCT5538D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H81M-R:
@@ -5590,6 +5790,7 @@ H81M-R:
   known_good_nct6775: []
   links: []
   superio: NCT5538D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -5615,6 +5816,7 @@ H81M-V3:
   known_good_nct6775: []
   links: []
   superio: NCT6791D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H81M2:
@@ -5636,6 +5838,7 @@ H81M2:
   known_good_nct6775: []
   links: []
   superio: NCT6791D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H81T:
@@ -5657,6 +5860,7 @@ H81T:
   known_good_nct6775: []
   links: []
   superio: NCT6791D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 H97-PRO GAMER:
@@ -5700,6 +5904,7 @@ H97-PRO GAMER:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/H97-PRO_GAMER/H97-PRO-GAMER-ASUS-2503.zip
   superio: NCT5538D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 K30AD_M31AD_M51AD_M32AD:
@@ -5736,6 +5941,7 @@ K30AD_M31AD_M51AD_M32AD:
   known_good_nct6775: []
   links: []
   superio: NCT5538D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -5765,6 +5971,7 @@ M4A88TD-V EVO/USB3:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 M5A78L-M PLUS/USB3:
@@ -5790,6 +5997,7 @@ M5A78L-M PLUS/USB3:
   known_good_nct6775: []
   links: []
   superio: IT8728F
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 M5A88-M:
@@ -5815,6 +6023,7 @@ M5A88-M:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 MAXIMUS IX APEX:
@@ -5846,6 +6055,7 @@ MAXIMUS IX APEX:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/MAXIMUS_IX_APEX/MAXIMUS-IX-APEX-ASUS-1301.zip
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -5880,6 +6090,7 @@ MAXIMUS IX CODE:
   - ASUSWMI
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -5915,6 +6126,7 @@ MAXIMUS IX EXTREME:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/MAXIMUS-IX-EXTREME-ASUS-1501.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -5949,6 +6161,7 @@ MAXIMUS IX FORMULA:
   - ASUSWMI
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -5983,6 +6196,7 @@ MAXIMUS IX HERO:
   - ASUSWMI
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -6019,6 +6233,7 @@ MAXIMUS VII HERO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/MAXIMUS-VII-HERO/MAXIMUS-VII-HERO-ASUS-3201.zip
   superio: NCT6791D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -6066,6 +6281,7 @@ MAXIMUS VIII FORMULA:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -6097,6 +6313,7 @@ P5GC-MX:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P5Q-EM:
@@ -6123,6 +6340,7 @@ P5Q-EM:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P5QL PRO:
@@ -6154,6 +6372,7 @@ P5QL PRO:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P5VD2-VM:
@@ -6181,6 +6400,7 @@ P5VD2-VM:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61:
@@ -6202,6 +6422,7 @@ P8H61:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61 PLUS:
@@ -6223,6 +6444,7 @@ P8H61 PLUS:
   known_good_nct6775: []
   links: []
   superio: NCT6776F
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61 PRO:
@@ -6244,6 +6466,7 @@ P8H61 PRO:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61 R2.0:
@@ -6265,6 +6488,7 @@ P8H61 R2.0:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-I:
@@ -6286,6 +6510,7 @@ P8H61-I:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-I LX:
@@ -6307,6 +6532,7 @@ P8H61-I LX:
   known_good_nct6775: []
   links: []
   superio: NCT5579D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-I LX R2.0:
@@ -6328,6 +6554,7 @@ P8H61-I LX R2.0:
   known_good_nct6775: []
   links: []
   superio: NCT5535D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-I LX R2.0/RM/SI:
@@ -6349,6 +6576,7 @@ P8H61-I LX R2.0/RM/SI:
   known_good_nct6775: []
   links: []
   superio: NCT5535D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-I R2.0:
@@ -6370,6 +6598,7 @@ P8H61-I R2.0:
   known_good_nct6775: []
   links: []
   superio: NCT5579D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M:
@@ -6391,6 +6620,7 @@ P8H61-M:
   known_good_nct6775: []
   links: []
   superio: NCT6776F
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M EVO:
@@ -6412,6 +6642,7 @@ P8H61-M EVO:
   known_good_nct6775: []
   links: []
   superio: NCT6776F
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M LE:
@@ -6433,6 +6664,7 @@ P8H61-M LE:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M LE R2.0:
@@ -6454,6 +6686,7 @@ P8H61-M LE R2.0:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M LE/BR:
@@ -6475,6 +6708,7 @@ P8H61-M LE/BR:
   known_good_nct6775: []
   links: []
   superio: NCT6776F
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M LE/CSM:
@@ -6496,6 +6730,7 @@ P8H61-M LE/CSM:
   known_good_nct6775: []
   links: []
   superio: NCT6776F
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M LE/CSM R2.0:
@@ -6517,6 +6752,7 @@ P8H61-M LE/CSM R2.0:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M LE/USB3:
@@ -6538,6 +6774,7 @@ P8H61-M LE/USB3:
   known_good_nct6775: []
   links: []
   superio: NCT6776F
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M LX:
@@ -6559,6 +6796,7 @@ P8H61-M LX:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M LX PLUS:
@@ -6580,6 +6818,7 @@ P8H61-M LX PLUS:
   known_good_nct6775: []
   links: []
   superio: NCT6776F
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M LX PLUS R2.0:
@@ -6601,6 +6840,7 @@ P8H61-M LX PLUS R2.0:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M LX R2.0:
@@ -6635,6 +6875,7 @@ P8H61-M LX R2.0:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -6660,6 +6901,7 @@ P8H61-M LX2:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M LX2 2.0:
@@ -6681,6 +6923,7 @@ P8H61-M LX2 2.0:
   known_good_nct6775: []
   links: []
   superio: NCT5535D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M LX2 R2.0:
@@ -6702,6 +6945,7 @@ P8H61-M LX2 R2.0:
   known_good_nct6775: []
   links: []
   superio: NCT5535D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M LX2/CSM:
@@ -6723,6 +6967,7 @@ P8H61-M LX2/CSM:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M LX3:
@@ -6744,6 +6989,7 @@ P8H61-M LX3:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M LX3 PLUS:
@@ -6765,6 +7011,7 @@ P8H61-M LX3 PLUS:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M LX3 PLUS R2.0:
@@ -6786,6 +7033,7 @@ P8H61-M LX3 PLUS R2.0:
   known_good_nct6775: []
   links: []
   superio: NCT5535D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M LX3 R2.0:
@@ -6807,6 +7055,7 @@ P8H61-M LX3 R2.0:
   known_good_nct6775: []
   links: []
   superio: NCT5535D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M PLUS V2:
@@ -6828,6 +7077,7 @@ P8H61-M PLUS V2:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M PRO:
@@ -6849,6 +7099,7 @@ P8H61-M PRO:
   known_good_nct6775: []
   links: []
   superio: NCT6776F
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M2 USB3:
@@ -6870,6 +7121,7 @@ P8H61-M2 USB3:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-M2/SI:
@@ -6891,6 +7143,7 @@ P8H61-M2/SI:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-MX:
@@ -6912,6 +7165,7 @@ P8H61-MX:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-MX R2.0:
@@ -6933,6 +7187,7 @@ P8H61-MX R2.0:
   known_good_nct6775: []
   links: []
   superio: NCT5535D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-MX USB3:
@@ -6954,6 +7209,7 @@ P8H61-MX USB3:
   known_good_nct6775: []
   links: []
   superio: NCT5535D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61-V:
@@ -6975,6 +7231,7 @@ P8H61-V:
   known_good_nct6775: []
   links: []
   superio: NCT6776F
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61/USB3:
@@ -6996,6 +7253,7 @@ P8H61/USB3:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H61/USB3 R2.0:
@@ -7017,6 +7275,7 @@ P8H61/USB3 R2.0:
   known_good_nct6775: []
   links: []
   superio: NCT6779D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 P8H67:
@@ -7047,6 +7306,7 @@ P8H67:
   - ASUSWMI
   links: []
   superio: NCT6776F
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -7081,6 +7341,7 @@ P8Z68-V LX:
   - ASUSWMI
   links: []
   superio: NCT6776F
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -7174,6 +7435,7 @@ PRIME A320I-K:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320I-K-ASUS-6061.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320I-K-ASUS-6062.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -7267,6 +7529,7 @@ PRIME A320M-A:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-A-ASUS-6061.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-A-ASUS-6062.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -7360,6 +7623,7 @@ PRIME A320M-C R2.0:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-C-R2-SI-6061.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-C-R2-SI-6062.zip
   superio: IT8665E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -7453,6 +7717,7 @@ PRIME A320M-E:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-E-ASUS-6061.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-E-ASUS-6062.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -7546,6 +7811,7 @@ PRIME A320M-F:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-F-SI-6061.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-F-SI-6062.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -7639,6 +7905,7 @@ PRIME A320M-K:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-K-ASUS-6061.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-K-ASUS-6062.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -7703,6 +7970,7 @@ PRIME A320M-K/BR:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-K-BR-SI-6062.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -7767,6 +8035,7 @@ PRIME A320M-R:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A320M-R-SI-6062.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -7888,6 +8157,7 @@ PRIME A520M-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A520M-A-ASUS-3001.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -8009,6 +8279,7 @@ PRIME A520M-A II:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A520M-A-II-ASUS-3001.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -8130,6 +8401,7 @@ PRIME A520M-E:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A520M-E-ASUS-3001.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -8251,6 +8523,7 @@ PRIME A520M-K:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A520M-K-ASUS-2814.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -8327,6 +8600,7 @@ PRIME A620M-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-A620M-A-ASUS-0310.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -8354,6 +8628,7 @@ PRIME B250-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250-PLUS-ASUS-2001.ZIP
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME B250M-A:
@@ -8377,6 +8652,7 @@ PRIME B250M-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250M-A-ASUS-2001.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME B250M-C:
@@ -8457,6 +8733,7 @@ PRIME B250M-C:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250M-C-ASUS-2001.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -8530,6 +8807,7 @@ PRIME B250M-J:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250M-J-ASUS-2001.ZIP
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -8557,6 +8835,7 @@ PRIME B250M-K:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250M-K-ASUS-2001.ZIP
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME B250M-PLUS:
@@ -8580,6 +8859,7 @@ PRIME B250M-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B250M-PLUS-ASUS-2001.ZIP
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME B350-PLUS:
@@ -8667,6 +8947,7 @@ PRIME B350-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B350-PLUS-ASUS-6061.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -8758,6 +9039,7 @@ PRIME B350M-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B350M-A-ASUS-6061.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -8857,6 +9139,7 @@ PRIME B350M-E:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B350M-E-ASUS-6061.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -8948,6 +9231,7 @@ PRIME B350M-K:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B350M-K-ASUS-6061.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -8986,6 +9270,7 @@ PRIME B360-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B360-PLUS-ASUS-3101.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -9139,6 +9424,7 @@ PRIME B360M-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B360M-A-ASUS-3202.ZIP
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -9235,6 +9521,7 @@ PRIME B360M-C:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B360M-C-ASUS-3202.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -9331,6 +9618,7 @@ PRIME B360M-D:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B360M-D-ASUS-3202.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -9427,6 +9715,7 @@ PRIME B360M-K:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B360M-K-ASUS-3202.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -9519,6 +9808,7 @@ PRIME B365-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B365-PLUS-ASUS-2208.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -9611,6 +9901,7 @@ PRIME B365M-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B365M-A-ASUS-2208.ZIP
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -9703,6 +9994,7 @@ PRIME B365M-C:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B365M-C-SI-2208.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -9795,6 +10087,7 @@ PRIME B365M-K:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B365M-K-ASUS-2208.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -9861,6 +10154,7 @@ PRIME B450-PLUS:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450-PLUS-ASUS-3802.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450-PLUS-ASUS-4001.zip
   superio: IT8665E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -9925,6 +10219,7 @@ PRIME B450M-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450M-A-ASUS-4001.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -9999,6 +10294,7 @@ PRIME B450M-A II:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450M-A-II-ASUS-4001.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -10090,6 +10386,7 @@ PRIME B450M-GAMING II:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450M-GAMING-II-ASUS-3802.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -10181,6 +10478,7 @@ PRIME B450M-GAMING/BR:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450M-GAMING-BR-SI-3804.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -10245,6 +10543,7 @@ PRIME B450M-K:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450M-K-ASUS-4001.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -10309,6 +10608,7 @@ PRIME B450M-K II:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B450M-K-II-ASUS-4001.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -10348,6 +10648,7 @@ PRIME B460-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B460-PLUS-ASUS-1620.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -10422,6 +10723,7 @@ PRIME B460I-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B460I-PLUS-ASUS-1601.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -10496,6 +10798,7 @@ PRIME B460M-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B460M-A-ASUS-1620.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -10661,6 +10964,7 @@ PRIME B460M-A R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B460M-A-R2-ASUS-2601.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -10735,6 +11039,7 @@ PRIME B460M-K:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B460M-K-ASUS-1620.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -10792,6 +11097,7 @@ PRIME B550-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B550-PLUS-ASUS-2803.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -10873,6 +11179,7 @@ PRIME B550-PLUS AC-HES:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B550-PLUS-AC-HES-SI-3001.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -10918,6 +11225,7 @@ PRIME B550M-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B550M-A-ASUS-2803.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -10963,6 +11271,7 @@ PRIME B550M-A (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B550M-A-WIFI-ASUS-2803.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -11008,6 +11317,7 @@ PRIME B550M-A AC:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B550M-A-AC-ASUS-2803.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -11053,6 +11363,7 @@ PRIME B550M-A WIFI II:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B550M-A-WIFI-II-ASUS-2803.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -11098,6 +11409,7 @@ PRIME B550M-K:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B550M-K-ASUS-2803.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -11171,6 +11483,7 @@ PRIME B560-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B560-PLUS-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -11243,6 +11556,7 @@ PRIME B560-PLUS AC-HES:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B560-PLUS-AC-HES-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -11315,6 +11629,7 @@ PRIME B560M-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B560M-A-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -11388,6 +11703,7 @@ PRIME B560M-A AC:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B560M-A-AC-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -11460,6 +11776,7 @@ PRIME B560M-K:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B560M-K-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -11571,6 +11888,7 @@ PRIME B650-PLUS:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B650-PLUS-ASUS-0809.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B650-PLUS-ASUS-0823.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -11680,6 +11998,7 @@ PRIME B650M-A:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B650M-A-ASUS-0812.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B650M-A-ASUS-0821.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -11786,6 +12105,7 @@ PRIME B650M-A AX:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B650M-A-AX-ASUS-0821.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -11938,6 +12258,7 @@ PRIME B650M-A AX II:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B650M-A-AX-II-ASUS-1222.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -12044,6 +12365,7 @@ PRIME B650M-A II:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B650M-A-II-ASUS-0303.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -12082,6 +12404,7 @@ PRIME B650M-A WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B650M-A-WIFI-ASUS-0812.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -12188,6 +12511,7 @@ PRIME B650M-A WIFI II:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B650M-A-WIFI-II-ASUS-0303.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -12311,6 +12635,7 @@ PRIME B660-PLUS D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B660-PLUS-D4-ASUS-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -12417,6 +12742,7 @@ PRIME B660M-A AC D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B660M-A-AC-D4-ASUS-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -12553,6 +12879,7 @@ PRIME B660M-A D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B660M-A-D4-ASUS-2014.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -12688,6 +13015,7 @@ PRIME B660M-A WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B660M-A-WIFI-D4-ASUS-2014.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -12791,6 +13119,7 @@ PRIME B660M-K D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B660M-K-D4-ASUS-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -12902,6 +13231,7 @@ PRIME B760-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760-PLUS-ASUS-0812.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -13084,6 +13414,7 @@ PRIME B760-PLUS D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760-PLUS-D4-ASUS-0807.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -13188,6 +13519,7 @@ PRIME B760M-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-A-ASUS-0812.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -13358,6 +13690,7 @@ PRIME B760M-A AX D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-A-AX-D4-ASUS-0405.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -13674,6 +14007,7 @@ PRIME B760M-A D4:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-A-D4-ASUS-0405.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-A-D4-ASUS-0807.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -13778,6 +14112,7 @@ PRIME B760M-A WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-A-WIFI-ASUS-0812.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -13948,6 +14283,7 @@ PRIME B760M-A WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-A-WIFI-D4-ASUS-0807.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -14118,6 +14454,7 @@ PRIME B760M-AJ D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-AJ-D4-ASUS-0807.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -14288,6 +14625,7 @@ PRIME B760M-K D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-B760M-K-D4-ASUS-0807.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -14313,6 +14651,7 @@ PRIME H110M-P:
   known_good_nct6775: []
   links: []
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME H110M2:
@@ -14334,6 +14673,7 @@ PRIME H110M2:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME H270-PLUS:
@@ -14376,6 +14716,7 @@ PRIME H270-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H270-PLUS-ASUS-2001.ZIP
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -14403,6 +14744,7 @@ PRIME H270-PRO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H270-PRO-ASUS-2001.ZIP
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME H270M-PLUS:
@@ -14426,6 +14768,7 @@ PRIME H270M-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H270M-PLUS-ASUS-2001.ZIP
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME H310-PLUS:
@@ -14518,6 +14861,7 @@ PRIME H310-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310-PLUS-ASUS-3202.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -14610,6 +14954,7 @@ PRIME H310-PLUS R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310-PLUS-R2-ASUS-2208.ZIP
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -14706,6 +15051,7 @@ PRIME H310I-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310I-PLUS-SI-3202.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -14798,6 +15144,7 @@ PRIME H310I-PLUS R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310I-PLUS-R2-SI-2208.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -14894,6 +15241,7 @@ PRIME H310M-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310M-A-ASUS-3202.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -14986,6 +15334,7 @@ PRIME H310M-A R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-A-R2-ASUS-2208.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -15082,6 +15431,7 @@ PRIME H310M-C:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310M-C-SI-3202.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -15174,6 +15524,7 @@ PRIME H310M-C R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-C-R2-SI-2208.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -15266,6 +15617,7 @@ PRIME H310M-C/PS R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-C-PS-R2-SI-2208.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -15358,6 +15710,7 @@ PRIME H310M-CS R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-CS-R2-SI-2208.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -15454,6 +15807,7 @@ PRIME H310M-D:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310M-D-ASUS-3202.ZIP
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -15546,6 +15900,7 @@ PRIME H310M-D R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-D-R2-ASUS-2208.ZIP
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -15642,6 +15997,7 @@ PRIME H310M-DASH:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/PRIME_H310M-DASH/PRIME-H310M-DASH-SI-2812.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -15733,6 +16089,7 @@ PRIME H310M-DASH R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-DASH-R2-SI-2209.zip
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -15829,6 +16186,7 @@ PRIME H310M-E:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310M-E-ASUS-3202.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -15921,6 +16279,7 @@ PRIME H310M-E R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-E-R2-ASUS-2208.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -16013,6 +16372,7 @@ PRIME H310M-E R2.0/BR:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-E-R2-BR-SI-2208.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -16109,6 +16469,7 @@ PRIME H310M-E/BR:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310M-E-BR-SI-3202.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -16205,6 +16566,7 @@ PRIME H310M-F:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310M-F-ASUS-0402.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -16284,6 +16646,7 @@ PRIME H310M-F R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-F-R2-ASUS-2208.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -16380,6 +16743,7 @@ PRIME H310M-K:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310M-K-ASUS-3202.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -16472,6 +16836,7 @@ PRIME H310M-K R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-K-R2-ASUS-2208.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -16564,6 +16929,7 @@ PRIME H310M-R R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310M-R-R2-SI-2208.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -16591,6 +16957,7 @@ PRIME H310M2 R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/PRIME_H310M2_R20/PRIME-H310M2-R2-SI-1206.zip
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods: []
 PRIME H310T:
@@ -16696,6 +17063,7 @@ PRIME H310T:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H310T-SI-3202.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -16723,6 +17091,7 @@ PRIME H310T R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/PRIME-H310T-R2-SI-2208.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods: []
 PRIME H370-A:
@@ -16817,6 +17186,7 @@ PRIME H370-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H370-A-ASUS-3101.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -16915,6 +17285,7 @@ PRIME H370-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H370-PLUS-ASUS-3101.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -17014,6 +17385,7 @@ PRIME H370M-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H370M-PLUS-ASUS-3201.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -17088,6 +17460,7 @@ PRIME H410I-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410I-PLUS-ASUS-1601.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -17163,6 +17536,7 @@ PRIME H410M-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-A-ASUS-1620.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -17237,6 +17611,7 @@ PRIME H410M-D:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-D-ASUS-1620.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -17311,6 +17686,7 @@ PRIME H410M-E:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-E-ASUS-1620.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -17385,6 +17761,7 @@ PRIME H410M-F:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-F-ASUS-1620.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -17459,6 +17836,7 @@ PRIME H410M-K:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-K-ASUS-1620.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -17561,6 +17939,7 @@ PRIME H410M-K R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-K-R2-ASUS-2802.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -17600,6 +17979,7 @@ PRIME H410M-R:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H410M-R-ASUS-1620.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -17698,6 +18078,7 @@ PRIME H470-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H470-PLUS-ASUS-1620.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -17796,6 +18177,7 @@ PRIME H470M-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H470M-PLUS-ASUS-1620.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -17869,6 +18251,7 @@ PRIME H510M-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H510M-A-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -17942,6 +18325,7 @@ PRIME H510M-A WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H510M-A-WIFI-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -18015,6 +18399,7 @@ PRIME H510M-D:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H510M-D-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -18088,6 +18473,7 @@ PRIME H510M-E:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H510M-E-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -18161,6 +18547,7 @@ PRIME H510M-F:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H510M-F-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -18234,6 +18621,7 @@ PRIME H510M-K:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H510M-K-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -18334,6 +18722,7 @@ PRIME H510M-K R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H510M-K-R2-ASUS-0402.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -18407,6 +18796,7 @@ PRIME H510M-R:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H510M-R-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -18480,6 +18870,7 @@ PRIME H510T2/CSM:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H510T2-CSM-SI-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -18553,6 +18944,7 @@ PRIME H570-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H570-PLUS-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -18626,6 +19018,7 @@ PRIME H570M-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H570M-PLUS-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -18731,6 +19124,7 @@ PRIME H610I-PLUS D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610I-PLUS-D4-ASUS-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -18836,6 +19230,7 @@ PRIME H610M-A D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610M-A-D4-ASUS-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -18941,6 +19336,7 @@ PRIME H610M-A WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610M-A-WIFI-D4-ASUS-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -19046,6 +19442,7 @@ PRIME H610M-D D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610M-D-D4-ASUS-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -19151,6 +19548,7 @@ PRIME H610M-E D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610M-E-D4-ASUS-2213.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -19256,6 +19654,7 @@ PRIME H610M-F D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610M-F-D4-ASUS-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -19361,6 +19760,7 @@ PRIME H610M-K D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610M-K-D4-ASUS-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -19466,6 +19866,7 @@ PRIME H610M-R D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H610M-R-D4-ASUS-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -19577,6 +19978,7 @@ PRIME H670-PLUS D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H670-PLUS-D4-ASUS-2214.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -19687,6 +20089,7 @@ PRIME H770-PLUS D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-H770-PLUS-D4-ASUS-0810.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -19714,6 +20117,7 @@ PRIME Q270M-C:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/PRIME_Q270M-C/PRIME-Q270M-C-ASUS-1607.zip
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME Q370M-C:
@@ -19806,6 +20210,7 @@ PRIME Q370M-C:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/PRIME_Q370M-C/PRIME-Q370M-C-ASUS-2811.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -19831,6 +20236,7 @@ PRIME TRX40-PRO:
   known_good_nct6775: []
   links: []
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME TRX40-PRO S:
@@ -19852,6 +20258,7 @@ PRIME TRX40-PRO S:
   known_good_nct6775: []
   links: []
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME X299 EDITION 30:
@@ -19873,6 +20280,7 @@ PRIME X299 EDITION 30:
   known_good_nct6775: []
   links: []
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME X299-A:
@@ -19894,6 +20302,7 @@ PRIME X299-A:
   known_good_nct6775: []
   links: []
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME X299-A II:
@@ -19915,6 +20324,7 @@ PRIME X299-A II:
   known_good_nct6775: []
   links: []
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME X299-DELUXE:
@@ -19936,6 +20346,7 @@ PRIME X299-DELUXE:
   known_good_nct6775: []
   links: []
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME X299-DELUXE II:
@@ -19957,6 +20368,7 @@ PRIME X299-DELUXE II:
   known_good_nct6775: []
   links: []
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME X370-A:
@@ -19978,6 +20390,7 @@ PRIME X370-A:
   known_good_nct6775: []
   links: []
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME X370-PRO:
@@ -20027,6 +20440,7 @@ PRIME X370-PRO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X370-PRO-ASUS-6042.zip
   superio: IT8665E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -20072,6 +20486,7 @@ PRIME X399-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X399-A-ASUS-1206.ZIP
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -20122,6 +20537,7 @@ PRIME X470-PRO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X470-PRO-ASUS-6042.zip
   superio: IT8665E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -20167,6 +20583,7 @@ PRIME X570-P:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X570-P-ASUS-4021.ZIP
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -20213,6 +20630,7 @@ PRIME X570-PRO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X570-PRO-ASUS-4021.ZIP
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -20321,6 +20739,7 @@ PRIME X670-P:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X670-P-ASUS-0823.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -20429,6 +20848,7 @@ PRIME X670-P WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X670-P-WIFI-ASUS-0823.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -20537,6 +20957,7 @@ PRIME X670E-PRO WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-X670E-PRO-WIFI-ASUS-0821.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -20572,6 +20993,7 @@ PRIME Z270-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/PRIME_Z270-A/PRIME-Z270-A-ASUS-1302.zip
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -20599,6 +21021,7 @@ PRIME Z270-K:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/PRIME_Z270-K/PRIME-Z270-K-ASUS-1207.zip
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME Z270-P:
@@ -20622,6 +21045,7 @@ PRIME Z270-P:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z270-P-ASUS-2001.ZIP
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME Z270M-PLUS:
@@ -20645,6 +21069,7 @@ PRIME Z270M-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z270M-PLUS-ASUS-2001.ZIP
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME Z370-A:
@@ -20668,6 +21093,7 @@ PRIME Z370-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z370-A-ASUS-3004.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME Z370-A II:
@@ -20691,6 +21117,7 @@ PRIME Z370-A II:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z370-A-II-ASUS-3004.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME Z370-P:
@@ -20712,6 +21139,7 @@ PRIME Z370-P:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME Z370-P II:
@@ -20733,6 +21161,7 @@ PRIME Z370-P II:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME Z370M-PLUS II:
@@ -20754,6 +21183,7 @@ PRIME Z370M-PLUS II:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 PRIME Z390-A:
@@ -20850,6 +21280,7 @@ PRIME Z390-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z390-A-ASUS-2004.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -20950,6 +21381,7 @@ PRIME Z390-A/H10:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z390-A-H10-ASUS-2004.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -21004,6 +21436,7 @@ PRIME Z390-P:
   - ASUSWMI
   links: []
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -21100,6 +21533,7 @@ PRIME Z390M-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z390M-PLUS-ASUS-3006.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -21201,6 +21635,7 @@ PRIME Z490-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z490-A-ASUS-2701.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -21299,6 +21734,7 @@ PRIME Z490-P:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z490-P-ASUS-1621.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -21397,6 +21833,7 @@ PRIME Z490-V:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z490-V-ASUS-1621.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -21496,6 +21933,7 @@ PRIME Z490M-PLUS:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z490-A-ASUS-1621.ZIPhttps://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z490M-PLUS-ASUS-1621.ZIP
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z490M-PLUS-ASUS-1621.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -21603,6 +22041,7 @@ PRIME Z590-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z590-A-ASUS-1701.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -21708,6 +22147,7 @@ PRIME Z590-P:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z590-P-ASUS-1801.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -21813,6 +22253,7 @@ PRIME Z590-P WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z590-P-WIFI-ASUS-1801.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -21918,6 +22359,7 @@ PRIME Z590-V:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z590-V-ASUS-1801.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -22036,6 +22478,7 @@ PRIME Z590M-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z590M-PLUS-ASUS-1801.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -22147,6 +22590,7 @@ PRIME Z690-A:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z690-A-ASUS-2305.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -22258,6 +22702,7 @@ PRIME Z690-P:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z690-P-ASUS-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -22369,6 +22814,7 @@ PRIME Z690-P D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z690-P-D4-ASUS-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -22480,6 +22926,7 @@ PRIME Z690-P WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z690-P-WIFI-ASUS-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -22591,6 +23038,7 @@ PRIME Z690-P WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z690-P-WIFI-D4-ASUS-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -22702,6 +23150,7 @@ PRIME Z690M-PLUS D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z690M-PLUS-D4-ASUS-2214.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -22812,6 +23261,7 @@ PRIME Z790-A WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790-A-WIFI-ASUS-0812.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -22922,6 +23372,7 @@ PRIME Z790-P:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790-P-ASUS-0812.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -23032,6 +23483,7 @@ PRIME Z790-P D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790-P-D4-ASUS-0810.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -23142,6 +23594,7 @@ PRIME Z790-P WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790-P-WIFI-ASUS-0812.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -23252,6 +23705,7 @@ PRIME Z790-P WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790-P-WIFI-D4-ASUS-0810.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -23362,6 +23816,7 @@ PRIME Z790M-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790M-PLUS-ASUS-0812.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -23472,6 +23927,7 @@ PRIME Z790M-PLUS D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRIME-Z790M-PLUS-D4-ASUS-0810.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -23565,6 +24021,7 @@ PRO A320M-R WI-FI:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-A320M-R-WIFI-SI-6061.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-A320M-R-WIFI-SI-6062.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -23639,6 +24096,7 @@ PRO B460M-C:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-B460M-C-SI-1620.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -23731,6 +24189,7 @@ PRO H310M-R R2.0 WI-FI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-H310M-R-R2-WIFI-SI-2208.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -23804,6 +24263,7 @@ PRO H410M-C:
   - ASUSWMI
   links: []
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -23846,6 +24306,7 @@ PRO H410T:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-H410T-SI-1623.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -23944,6 +24405,7 @@ PRO Q470M-C:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PRO-Q470M-C-SI-1621.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -24024,6 +24486,7 @@ Pro A520M-C:
   - ASUSWMI
   links: []
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -24145,6 +24608,7 @@ Pro A520M-C II:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-A520M-C-II-SI-3001.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -24196,6 +24660,7 @@ Pro B550M-C:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B550M-C-SI-2423.ZIP
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B550M-C-SI-2804.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -24269,6 +24734,7 @@ Pro B560M-C:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B560M-C-SI-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -24342,6 +24808,7 @@ Pro B560M-CT:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B560M-CT-SI-1601.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -24511,6 +24978,7 @@ Pro B660M-C:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B660M-C-SI-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -24598,6 +25066,7 @@ Pro B660M-C D4:
   - AsusMbSwInterface
   links: []
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -24768,6 +25237,7 @@ Pro B760M-C:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B760M-C-SI-0405.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -24938,6 +25408,7 @@ Pro B760M-CT:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-B760M-CT-SI-0402.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -25011,6 +25482,7 @@ Pro H510M-C:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H510M-C-SI-1501.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -25088,6 +25560,7 @@ Pro H510M-CT:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H510M-CT-SI-1402.ZIP
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H510M-CT-SI-1501.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -25193,6 +25666,7 @@ Pro H610M-C:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H610M-C-SI-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -25298,6 +25772,7 @@ Pro H610M-C D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H610M-C-D4-SI-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -25403,6 +25878,7 @@ Pro H610M-CT D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H610M-CT-D4-SI-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -25508,6 +25984,7 @@ Pro H610T D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-H610T-D4-SI-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -25613,6 +26090,7 @@ Pro Q670M-C:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-Q670M-C-SI-2209.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -25693,6 +26171,7 @@ Pro WS C422-ACE:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-C422-ACE-ASUS-1403.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -25842,6 +26321,7 @@ Pro WS W680-ACE:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-W680-ACE-ASUS-0203.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -25991,6 +26471,7 @@ Pro WS W680-ACE IPMI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-W680-ACE-IPMI-ASUS-0203.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -26038,6 +26519,7 @@ Pro WS W790-ACE:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-W790-ACE-ASUS-0403.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -26083,6 +26565,7 @@ Pro WS W790E-SAGE SE:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-W790E-SAGE-SE-ASUS-0215.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -26122,6 +26605,7 @@ Pro WS WRX80E-SAGE SE WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-WRX80E-SAGE-SE-WIFI-ASUS-1106.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -26161,6 +26645,7 @@ Pro WS WRX80E-SAGE SE WIFI II:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-WRX80E-SAGE-SE-WIFI-II-ASUS-1106.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -26186,6 +26671,7 @@ Pro WS X299 SAGE II:
   known_good_nct6775: []
   links: []
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 Pro WS X570-ACE:
@@ -26228,6 +26714,7 @@ Pro WS X570-ACE:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Pro-WS-X570-ACE-ASUS-4201.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -26271,6 +26758,7 @@ ProArt B550-CREATOR:
   - ASUSWMI
   links: []
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -26426,6 +26914,7 @@ ProArt B650-CREATOR:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ProArt-B650-CREATOR-ASUS-0922.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -26465,6 +26954,7 @@ ProArt B660-CREATOR D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ProArt-B660-CREATOR-D4-ASUS-2103.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -26490,6 +26980,7 @@ ProArt B760-CREATOR:
   known_good_nct6775: []
   links: []
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods: []
 ProArt B760-CREATOR D4:
@@ -26812,6 +27303,7 @@ ProArt B760-CREATOR D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ProArt-B760-CREATOR-D4-ASUS-0812.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -26853,6 +27345,7 @@ ProArt X570-CREATOR WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/PROART-X570-CREATOR-WIFI-ASUS-0801.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -26891,6 +27384,7 @@ ProArt X670E-CREATOR WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ProArt-X670E-CREATOR-WIFI-ASUS-0705.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -26930,6 +27424,7 @@ ProArt Z490-CREATOR 10G:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ProArt-Z490-CREATOR-10G-ASUS-2601.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -27044,6 +27539,7 @@ ProArt Z690-CREATOR WIFI:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ProArt-Z690-CREATOR-WIFI-ASUS-2103.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ProArt-Z690-CREATOR-WIFI-ASUS-2204.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -27084,6 +27580,7 @@ ProArt Z790-CREATOR WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ProArt-Z790-CREATOR-WIFI-ASUS-0703.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -27173,6 +27670,7 @@ Q370I-IM-A R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/Embedded_IPC/Q370I-IM-A_R2.0/Q370I-IM-A-R2-SI-1502.zip
   superio: NCT6116D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -27209,6 +27707,7 @@ Q87M-D2H:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 RAMPAGE V EDITION 10:
@@ -27232,6 +27731,7 @@ RAMPAGE V EDITION 10:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA2011/RAMPAGE_V_EDITION_10/RAMPAGE-V-EDITION-10-ASUS-2101.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 RAMPAGE V EXTREME:
@@ -27262,6 +27762,7 @@ RAMPAGE V EXTREME:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -27312,6 +27813,7 @@ ROG CROSSHAIR VI EXTREME:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VI-EXTREME-ASUS-8601.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -27362,6 +27864,7 @@ ROG CROSSHAIR VI HERO (WI-FI AC):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VI-HERO-WIFI-AC-ASUS-8601.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -27412,6 +27915,7 @@ ROG CROSSHAIR VII HERO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VII-HERO-ASUS-4901.zip
   superio: IT8665E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -27462,6 +27966,7 @@ ROG CROSSHAIR VII HERO (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VII-HERO-WIFI-ASUS-4901.zip
   superio: IT8665E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -27508,6 +28013,7 @@ ROG CROSSHAIR VIII DARK HERO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VIII-DARK-HERO-ASUS-4201.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -27550,6 +28056,7 @@ ROG CROSSHAIR VIII EXTREME:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VIII-EXTREME-ASUS-0801.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -27596,6 +28103,7 @@ ROG CROSSHAIR VIII FORMULA:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VIII-FORMULA-ASUS-4201.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -27642,6 +28150,7 @@ ROG CROSSHAIR VIII HERO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VIII-HERO-ASUS-4201.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -27688,6 +28197,7 @@ ROG CROSSHAIR VIII HERO (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VIII-HERO-WIFI-ASUS-4201.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -27734,6 +28244,7 @@ ROG CROSSHAIR VIII IMPACT:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-VIII-IMPACT-ASUS-4201.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -27848,6 +28359,7 @@ ROG CROSSHAIR X670E EXTREME:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-X670E-EXTREME-ASUS-0705.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-X670E-EXTREME-ASUS-0805.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -27959,6 +28471,7 @@ ROG CROSSHAIR X670E GENE:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-X670E-GENE-ASUS-0705.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-X670E-GENE-ASUS-0805.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -28072,6 +28585,7 @@ ROG CROSSHAIR X670E HERO:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-X670E-HERO-ASUS-0705.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-CROSSHAIR-X670E-HERO-ASUS-0805.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -28106,6 +28620,7 @@ ROG DOMINUS EXTREME:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-DOMINUS-EXTREME-ASUS-0801.ZIP
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -28131,6 +28646,7 @@ ROG MAXIMUS X APEX:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG MAXIMUS X CODE:
@@ -28152,6 +28668,7 @@ ROG MAXIMUS X CODE:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG MAXIMUS X FORMULA:
@@ -28173,6 +28690,7 @@ ROG MAXIMUS X FORMULA:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG MAXIMUS X HERO:
@@ -28204,6 +28722,7 @@ ROG MAXIMUS X HERO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-X-HERO-ASUS-2701.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -28229,6 +28748,7 @@ ROG MAXIMUS X HERO (WI-FI AC):
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG MAXIMUS XI APEX:
@@ -28325,6 +28845,7 @@ ROG MAXIMUS XI APEX:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XI-APEX-ASUS-2004.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -28425,6 +28946,7 @@ ROG MAXIMUS XI CODE:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XI-CODE-ASUS-2004.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -28525,6 +29047,7 @@ ROG MAXIMUS XI EXTREME:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XI-EXTREME-ASUS-2004.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -28595,6 +29118,7 @@ ROG MAXIMUS XI FORMULA:
   - ASUSWMI
   links: []
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -28695,6 +29219,7 @@ ROG MAXIMUS XI GENE:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XI-GENE-ASUS-2004.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -28794,6 +29319,7 @@ ROG MAXIMUS XI HERO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XI-HERO-ASUS-2004.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -28833,6 +29359,7 @@ ROG MAXIMUS XI HERO (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XI-HERO-WIFI-ASUS-2004.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -28934,6 +29461,7 @@ ROG MAXIMUS XII APEX:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XII-APEX-ASUS-2701.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -29035,6 +29563,7 @@ ROG MAXIMUS XII EXTREME:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XII-EXTREME-ASUS-2701.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -29136,6 +29665,7 @@ ROG MAXIMUS XII FORMULA:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XII-FORMULA-ASUS-2701.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -29237,6 +29767,7 @@ ROG MAXIMUS XII HERO (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XII-HERO-WIFI-ASUS-2701.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -29344,6 +29875,7 @@ ROG MAXIMUS XIII APEX:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XIII-APEX-ASUS-1701.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -29450,6 +29982,7 @@ ROG MAXIMUS XIII EXTREME:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XIII-EXTREME-ASUS-1701.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -29560,6 +30093,7 @@ ROG MAXIMUS XIII EXTREME GLACIAL:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XIII-EXTREME-GLACIAL-ASUS-1402.ZIP
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XIII-EXTREME-GLACIAL-ASUS-1701.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -29666,6 +30200,7 @@ ROG MAXIMUS XIII HERO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-XIII-HERO-ASUS-1701.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -29923,6 +30458,7 @@ ROG MAXIMUS Z690 APEX:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-Z690-APEX-ASUS-2204.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -29961,6 +30497,7 @@ ROG MAXIMUS Z690 EXTREME:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-Z690-EXTREME-ASUS-2103.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -29999,6 +30536,7 @@ ROG MAXIMUS Z690 EXTREME GLACIAL:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-Z690-EXTREME-GLACIAL-ASUS-2103.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -30110,6 +30648,7 @@ ROG MAXIMUS Z690 FORMULA:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-Z690-FORMULA-ASUS-2204.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -30223,6 +30762,7 @@ ROG MAXIMUS Z690 HERO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-Z690-HERO-ASUS-2204.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -30336,6 +30876,7 @@ ROG MAXIMUS Z690 HERO EVA:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-Z690-HERO-EVA-ASUS-2305.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -30446,6 +30987,7 @@ ROG MAXIMUS Z790 APEX:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-Z790-APEX-ASUS-0812.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -30484,6 +31026,7 @@ ROG MAXIMUS Z790 EXTREME:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-Z790-EXTREME-ASUS-0703.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -30594,6 +31137,7 @@ ROG MAXIMUS Z790 HERO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-MAXIMUS-Z790-HERO-ASUS-0816.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -30618,6 +31162,7 @@ ROG RAMPAGE VI APEX:
   known_good_nct6775: []
   links: []
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG RAMPAGE VI EXTREME ENCORE:
@@ -30694,6 +31239,7 @@ ROG RAMPAGE VI EXTREME ENCORE:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-RAMPAGE-VI-EXTREME-ENCORE-ASUS-1403.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -30719,6 +31265,7 @@ ROG RAMPAGE VI EXTREME OMEGA:
   known_good_nct6775: []
   links: []
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG STRIX B350-F GAMING:
@@ -30816,6 +31363,7 @@ ROG STRIX B350-F GAMING:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B350-F-GAMING-ASUS-5606.ZIP
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B350-F-GAMING-ASUS-6061.zip
   superio: IT8665E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -30917,6 +31465,7 @@ ROG STRIX B350-I GAMING:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B350-I-GAMING-ASUS-5606.ZIP
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B350-I-GAMING-ASUS-6061.zip
   superio: IT8665E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -31016,6 +31565,7 @@ ROG STRIX B360-F GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B360-F-GAMING-ASUS-3101.ZIP
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -31114,6 +31664,7 @@ ROG STRIX B360-G GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B360-G-GAMING-ASUS-3101.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -31210,6 +31761,7 @@ ROG STRIX B360-H GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B360-H-GAMING-ASUS-3201.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -31306,6 +31858,7 @@ ROG STRIX B360-H GAMING/OPTANE:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B360-H-GAMING-OPTANE-ASUS-3201.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -31403,6 +31956,7 @@ ROG STRIX B360-I GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B360-I-GAMING-ASUS-3201.ZIP
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -31495,6 +32049,7 @@ ROG STRIX B365-F GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B365-F-GAMING-ASUS-2208.ZIP
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -31587,6 +32142,7 @@ ROG STRIX B365-G GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B365-G-GAMING-ASUS-2208.ZIP
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -31668,6 +32224,7 @@ ROG STRIX B450-E GAMING:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-E-GAMING-ASUS-4602.ZIP
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-E-GAMING-ASUS-5003.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -31749,6 +32306,7 @@ ROG STRIX B450-F GAMING:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-F-GAMING-ASUS-4602.ZIP
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-F-GAMING-ASUS-5003.zip
   superio: IT8665E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -31830,6 +32388,7 @@ ROG STRIX B450-F GAMING II:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-F-GAMING-II-ASUS-4602.ZIP
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-F-GAMING-II-ASUS-5003.zip
   superio: IT8665E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -31911,6 +32470,7 @@ ROG STRIX B450-I GAMING:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-I-GAMING-ASUS-4602.ZIP
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B450-I-GAMING-ASUS-5003.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -31986,6 +32546,7 @@ ROG STRIX B460-F GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B460-F-GAMING-ASUS-1620.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -32060,6 +32621,7 @@ ROG STRIX B460-G GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B460-G-GAMING-ASUS-1601.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -32135,6 +32697,7 @@ ROG STRIX B460-H GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B460-H-GAMING-ASUS-1620.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -32209,6 +32772,7 @@ ROG STRIX B460-I GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B460-I-GAMING-ASUS-1601.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -32266,6 +32830,7 @@ ROG STRIX B550-A GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B550-A-GAMING-ASUS-2423.ZIP
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -32390,6 +32955,7 @@ ROG STRIX B550-E GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B550-E-GAMING-ASUS-2423.ZIP
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -32435,6 +33001,7 @@ ROG STRIX B550-F GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B550-F-GAMING-ASUS-2423.ZIP
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -32480,6 +33047,7 @@ ROG STRIX B550-F GAMING (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B550-F-GAMING-WIFI-ASUS-2423.ZIP
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -32535,6 +33103,7 @@ ROG STRIX B550-F GAMING WIFI II:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B550-F-GAMING-WIFI-II-ASUS-0305.ZIP
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B550-F-GAMING-WIFI-II-ASUS-2803.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -32581,6 +33150,7 @@ ROG STRIX B550-I GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B550-I-GAMING-ASUS-2423.ZIP
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -32670,6 +33240,7 @@ ROG STRIX B550-XE GAMING WIFI:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B550-XE-GAMING-WIFI-ASUS-2425.ZIP
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B550-XE-GAMING-WIFI-ASUS-3001.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -32743,6 +33314,7 @@ ROG STRIX B560-A GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B560-A-GAMING-WIFI-ASUS-1601.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -32815,6 +33387,7 @@ ROG STRIX B560-E GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B560-E-GAMING-WIFI-ASUS-1601.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -32887,6 +33460,7 @@ ROG STRIX B560-F GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B560-F-GAMING-WIFI-ASUS-1601.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -32959,6 +33533,7 @@ ROG STRIX B560-G GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B560-G-GAMING-WIFI-ASUS-1601.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -33031,6 +33606,7 @@ ROG STRIX B560-I GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B560-I-GAMING-WIFI-ASUS-1601.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -33140,6 +33716,7 @@ ROG STRIX B650-A GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B650-A-GAMING-WIFI-ASUS-0823.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -33268,6 +33845,7 @@ ROG STRIX B650E-E GAMING WIFI:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B650E-E-GAMING-WIFI-ASUS-0804.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B650E-E-GAMING-WIFI-ASUS-0821.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -33381,6 +33959,7 @@ ROG STRIX B650E-F GAMING WIFI:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B650E-F-GAMING-WIFI-ASUS-0804.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B650E-F-GAMING-WIFI-ASUS-0821.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -33487,6 +34066,7 @@ ROG STRIX B650E-I GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B650E-I-GAMING-WIFI-ASUS-0821.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -33667,6 +34247,7 @@ ROG STRIX B660-A GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B660-A-GAMING-WIFI-ASUS-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -33811,6 +34392,7 @@ ROG STRIX B660-A GAMING WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B660-A-GAMING-WIFI-D4-ASUS-2015.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -33957,6 +34539,7 @@ ROG STRIX B660-F GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B660-F-GAMING-WIFI-ASUS-2012.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -34103,6 +34686,7 @@ ROG STRIX B660-G GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B660-G-GAMING-WIFI-ASUS-2012.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -34237,6 +34821,7 @@ ROG STRIX B660-I GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B660-I-GAMING-WIFI-ASUS-2012.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -34347,6 +34932,7 @@ ROG STRIX B760-A GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B760-A-GAMING-WIFI-ASUS-0812.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -34530,6 +35116,7 @@ ROG STRIX B760-A GAMING WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B760-A-GAMING-WIFI-D4-ASUS-0807.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -34713,6 +35300,7 @@ ROG STRIX B760-F GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B760-F-GAMING-WIFI-ASUS-0811.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -34823,6 +35411,7 @@ ROG STRIX B760-G GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B760-G-GAMING-WIFI-ASUS-0812.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -35006,6 +35595,7 @@ ROG STRIX B760-G GAMING WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B760-G-GAMING-WIFI-D4-ASUS-0808.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -35177,6 +35767,7 @@ ROG STRIX B760-I GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-B760-I-GAMING-WIFI-ASUS-0808.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -35275,6 +35866,7 @@ ROG STRIX H370-F GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-H370-F-GAMING-ASUS-3101.ZIP
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -35375,6 +35967,7 @@ ROG STRIX H370-I GAMING:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-H370-I-GAMING-ASUS-3101.ZIP
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-H370-I-GAMING-ASUS-3202.ZIP
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -35477,6 +36070,7 @@ ROG STRIX H470-I GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-H470-I-GAMING-ASUS-2601.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -35517,6 +36111,7 @@ ROG STRIX TRX40-E GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-TRX40-E-GAMING-ASUS-1502.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -35557,6 +36152,7 @@ ROG STRIX TRX40-XE GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-TRX40-XE-GAMING-ASUS-1502.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -35582,6 +36178,7 @@ ROG STRIX X299-E GAMING:
   known_good_nct6775: []
   links: []
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG STRIX X299-E GAMING II:
@@ -35603,6 +36200,7 @@ ROG STRIX X299-E GAMING II:
   known_good_nct6775: []
   links: []
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG STRIX X299-XE GAMING:
@@ -35624,6 +36222,7 @@ ROG STRIX X299-XE GAMING:
   known_good_nct6775: []
   links: []
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG STRIX X370-F GAMING:
@@ -35674,6 +36273,7 @@ ROG STRIX X370-F GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X370-F-GAMING-ASUS-5606.ZIP
   superio: IT8665E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -35719,6 +36319,7 @@ ROG STRIX X370-I GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X370-I-GAMING-ASUS-5606.ZIP
   superio: IT8665E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -35746,6 +36347,7 @@ ROG STRIX X399-E GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X399-E-GAMING-ASUS-1206.ZIP
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG STRIX X470-F GAMING:
@@ -35792,6 +36394,7 @@ ROG STRIX X470-F GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X470-F-GAMING-ASUS-5861.ZIP
   superio: IT8665E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -35842,6 +36445,7 @@ ROG STRIX X470-I GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X470-I-GAMING-ASUS-4603.ZIP
   superio: IT8665E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -35901,6 +36505,7 @@ ROG STRIX X570-E GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X570-E-GAMING-ASUS-4021.ZIP
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -35956,6 +36561,7 @@ ROG STRIX X570-E GAMING WIFI II:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X570-E-GAMING-WIFI-II-ASUS-4204.ZIP
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X570-E-GAMING-WIFI-II-ASUS-4404.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -35998,6 +36604,7 @@ ROG STRIX X570-F GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X570-F-GAMING-ASUS-4021.ZIP
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -36044,6 +36651,7 @@ ROG STRIX X570-I GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X570-I-GAMING-ASUS-4021.ZIP
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -36156,6 +36764,7 @@ ROG STRIX X670E-A GAMING WIFI:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X670E-A-GAMING-WIFI-ASUS-0705.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X670E-A-GAMING-WIFI-ASUS-0805.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -36269,6 +36878,7 @@ ROG STRIX X670E-E GAMING WIFI:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X670E-E-GAMING-WIFI-ASUS-0705.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X670E-E-GAMING-WIFI-ASUS-0805.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -36380,6 +36990,7 @@ ROG STRIX X670E-F GAMING WIFI:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X670E-F-GAMING-WIFI-ASUS-0705.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X670E-F-GAMING-WIFI-ASUS-0805.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -36493,6 +37104,7 @@ ROG STRIX X670E-I GAMING WIFI:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X670E-I-GAMING-WIFI-ASUS-0804.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-X670E-I-GAMING-WIFI-ASUS-0822.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -36517,6 +37129,7 @@ ROG STRIX Z270-I GAMING:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG STRIX Z270E GAMING:
@@ -36538,6 +37151,7 @@ ROG STRIX Z270E GAMING:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG STRIX Z270F GAMING:
@@ -36559,6 +37173,7 @@ ROG STRIX Z270F GAMING:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG STRIX Z270G GAMING:
@@ -36580,6 +37195,7 @@ ROG STRIX Z270G GAMING:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG STRIX Z270H GAMING:
@@ -36601,6 +37217,7 @@ ROG STRIX Z270H GAMING:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG STRIX Z370-E GAMING:
@@ -36624,6 +37241,7 @@ ROG STRIX Z370-E GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z370-E-GAMING-ASUS-3005.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG STRIX Z370-F GAMING:
@@ -36645,6 +37263,7 @@ ROG STRIX Z370-F GAMING:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG STRIX Z370-G GAMING:
@@ -36668,6 +37287,7 @@ ROG STRIX Z370-G GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z370-G-GAMING-ASUS-3004.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG STRIX Z370-G GAMING (WI-FI AC):
@@ -36689,6 +37309,7 @@ ROG STRIX Z370-G GAMING (WI-FI AC):
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG STRIX Z370-H GAMING:
@@ -36720,6 +37341,7 @@ ROG STRIX Z370-H GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z370-H-GAMING-ASUS-2701.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -36745,6 +37367,7 @@ ROG STRIX Z370-I GAMING:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG STRIX Z390-E GAMING:
@@ -36780,6 +37403,7 @@ ROG STRIX Z390-E GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z390-E-GAMING-ASUS-2004.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -36819,6 +37443,7 @@ ROG STRIX Z390-F GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z390-F-GAMING-ASUS-2004.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -36858,6 +37483,7 @@ ROG STRIX Z390-H GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z390-H-GAMING-ASUS-3006.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -36897,6 +37523,7 @@ ROG STRIX Z390-I GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z390-I-GAMING-ASUS-3006.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -36936,6 +37563,7 @@ ROG STRIX Z490-A GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z490-A-GAMING-ASUS-2403.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -36975,6 +37603,7 @@ ROG STRIX Z490-E GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z490-E-GAMING-ASUS-2403.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -37018,6 +37647,7 @@ ROG STRIX Z490-F GAMING:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z490-F-GAMING-ASUS-2403.ZIP
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z490-F-GAMING-ASUS-2601.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -37057,6 +37687,7 @@ ROG STRIX Z490-G GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z490-G-GAMING-ASUS-2403.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -37096,6 +37727,7 @@ ROG STRIX Z490-G GAMING (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z490-G-GAMING-WIFI-ASUS-2403.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -37135,6 +37767,7 @@ ROG STRIX Z490-H GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z490-H-GAMING-ASUS-2403.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -37174,6 +37807,7 @@ ROG STRIX Z490-I GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z490-I-GAMING-ASUS-2403.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -37281,6 +37915,7 @@ ROG STRIX Z590-A GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z590-A-GAMING-WIFI-ASUS-1701.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -37391,6 +38026,7 @@ ROG STRIX Z590-A GAMING WIFI II:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z590-A-GAMING-WIFI-II-ASUS-1402.ZIP
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z590-A-GAMING-WIFI-II-ASUS-1701.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -37497,6 +38133,7 @@ ROG STRIX Z590-E GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z590-E-GAMING-WIFI-ASUS-1701.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -37603,6 +38240,7 @@ ROG STRIX Z590-F GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z590-F-GAMING-WIFI-ASUS-1701.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -37709,6 +38347,7 @@ ROG STRIX Z590-I GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z590-I-GAMING-WIFI-ASUS-1701.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -37820,6 +38459,7 @@ ROG STRIX Z690-A GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z690-A-GAMING-WIFI-ASUS-2305.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -37857,6 +38497,7 @@ ROG STRIX Z690-A GAMING WIFI D4:
   - AsusMbSwInterface
   links: []
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -37968,6 +38609,7 @@ ROG STRIX Z690-E GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z690-E-GAMING-WIFI-ASUS-2204.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -38080,6 +38722,7 @@ ROG STRIX Z690-F GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z690-F-GAMING-WIFI-ASUS-2204.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -38192,6 +38835,7 @@ ROG STRIX Z690-G GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z690-G-GAMING-WIFI-ASUS-2204.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -38304,6 +38948,7 @@ ROG STRIX Z690-I GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z690-I-GAMING-WIFI-ASUS-2305.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -38414,6 +39059,7 @@ ROG STRIX Z790-A GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z790-A-GAMING-WIFI-ASUS-0816.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -38524,6 +39170,7 @@ ROG STRIX Z790-A GAMING WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z790-A-GAMING-WIFI-D4-ASUS-0812.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -38634,6 +39281,7 @@ ROG STRIX Z790-E GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z790-E-GAMING-WIFI-ASUS-0816.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -38744,6 +39392,7 @@ ROG STRIX Z790-F GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z790-F-GAMING-WIFI-ASUS-0816.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -38854,6 +39503,7 @@ ROG STRIX Z790-H GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z790-H-GAMING-WIFI-ASUS-0816.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -38964,6 +39614,7 @@ ROG STRIX Z790-I GAMING WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-STRIX-Z790-I-GAMING-WIFI-ASUS-0812.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -38990,6 +39641,7 @@ ROG ZENITH EXTREME:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-ZENITH-EXTREME-ASUS-2201.ZIP
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG ZENITH EXTREME ALPHA:
@@ -39013,6 +39665,7 @@ ROG ZENITH EXTREME ALPHA:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-ZENITH-EXTREME-ALPHA-ASUS-2202.ZIP
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 ROG ZENITH II EXTREME:
@@ -39055,6 +39708,7 @@ ROG ZENITH II EXTREME:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-ZENITH-II-EXTREME-ASUS-1603.ZIP
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-ZENITH-II-EXTREME-ASUS-1701.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -39109,6 +39763,7 @@ ROG ZENITH II EXTREME ALPHA:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-ZENITH-II-EXTREME-ALPHA-ASUS-1603.ZIP
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/ROG-ZENITH-II-EXTREME-ALPHA-ASUS-1701.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -39142,6 +39797,7 @@ S206:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 STRIX B250F GAMING:
@@ -39165,6 +39821,7 @@ STRIX B250F GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-B250F-GAMING-ASUS-2001.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 STRIX B250G GAMING:
@@ -39188,6 +39845,7 @@ STRIX B250G GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-B250G-GAMING-ASUS-2001.ZIP
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 STRIX B250H GAMING:
@@ -39211,6 +39869,7 @@ STRIX B250H GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-B250H-GAMING-ASUS-2001.ZIP
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 STRIX B250I GAMING:
@@ -39234,6 +39893,7 @@ STRIX B250I GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-B250I-GAMING-ASUS-2001.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 STRIX H270F GAMING:
@@ -39257,6 +39917,7 @@ STRIX H270F GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-H270F-GAMING-ASUS-2001.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 STRIX H270I GAMING:
@@ -39280,6 +39941,7 @@ STRIX H270I GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-H270I-GAMING-ASUS-2001.ZIP
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 STRIX Z270E GAMING:
@@ -39326,6 +39988,7 @@ STRIX Z270E GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-Z270E-GAMING-ASUS-1501.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -39359,6 +40022,7 @@ STRIX Z270F GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-Z270F-GAMING-ASUS-1501.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -39392,6 +40056,7 @@ STRIX Z270G GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-Z270G-GAMING-ASUS-1501.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -39425,6 +40090,7 @@ STRIX Z270H GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-Z270H-GAMING-ASUS-1501.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -39452,6 +40118,7 @@ STRIX Z270I GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/STRIX-Z270I-GAMING-ASUS-2001.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 TUF B350M-PLUS GAMING:
@@ -39539,6 +40206,7 @@ TUF B350M-PLUS GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B350M-PLUS-GAMING-ASUS-6061.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -39637,6 +40305,7 @@ TUF B360-PLUS GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360-PLUS-GAMING-ASUS-3101.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -39736,6 +40405,7 @@ TUF B360-PRO GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360-PRO-GAMING-ASUS-3101.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -39835,6 +40505,7 @@ TUF B360-PRO GAMING (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360-PRO-GAMING-WIFI-ASUS-3101.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -39931,6 +40602,7 @@ TUF B360M-E GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360M-E-GAMING-ASUS-3202.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -40028,6 +40700,7 @@ TUF B360M-PLUS GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360M-PLUS-GAMING-ASUS-3202.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -40125,6 +40798,7 @@ TUF B360M-PLUS GAMING S:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360M-PLUS-GAMING-S-SI-3202.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -40222,6 +40896,7 @@ TUF B360M-PLUS GAMING/BR:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B360M-PLUS-GAMING-BR-SI-3202.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -40314,6 +40989,7 @@ TUF B365-PLUS GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B365-PLUS-GAMING-ASUS-2208.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -40406,6 +41082,7 @@ TUF B365M-PLUS GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B365M-PLUS-GAMING-ASUS-2208.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -40476,6 +41153,7 @@ TUF B450-PLUS GAMING:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B450-PLUS-GAMING-ASUS-3802.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B450-PLUS-GAMING-ASUS-4001.zip
   superio: IT8665E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -40540,6 +41218,7 @@ TUF B450-PRO GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B450-PRO-GAMING-ASUS-4001.zip
   superio: IT8665E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -40604,6 +41283,7 @@ TUF B450M-PLUS GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B450M-PLUS-GAMING-ASUS-4001.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -40668,6 +41348,7 @@ TUF B450M-PRO GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-B450M-PRO-GAMING-ASUS-4001.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -40789,6 +41470,7 @@ TUF GAMING A520M-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-A520M-PLUS-ASUS-3001.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -40910,6 +41592,7 @@ TUF GAMING A520M-PLUS II:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-A520M-PLUS-II-ASUS-3001.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -41031,6 +41714,7 @@ TUF GAMING A520M-PLUS WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-A520M-PLUS-WIFI-ASUS-3001.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -41107,6 +41791,7 @@ TUF GAMING A620M-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-A620M-PLUS-ASUS-0305.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -41182,6 +41867,7 @@ TUF GAMING A620M-PLUS WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-A620M-PLUS-WIFI-ASUS-0214.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -41251,6 +41937,7 @@ TUF GAMING B450-PLUS II:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B450-PLUS-II-ASUS-3802.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B450-PLUS-II-ASUS-4001.zip
   superio: IT8665E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -41315,6 +42002,7 @@ TUF GAMING B450M-PLUS II:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B450M-PLUS-II-ASUS-4001.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -41379,6 +42067,7 @@ TUF GAMING B450M-PRO II:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B450M-PRO-II-ASUS-4001.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -41443,6 +42132,7 @@ TUF GAMING B450M-PRO S:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B450M-PRO-S-ASUS-4001.zip
   superio: IT8655E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -41517,6 +42207,7 @@ TUF GAMING B460-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B460-PLUS-ASUS-1620.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -41591,6 +42282,7 @@ TUF GAMING B460-PRO (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B460-PRO-WIFI-ASUS-1620.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -41664,6 +42356,7 @@ TUF GAMING B460M-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B460M-PLUS-ASUS-1601.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -41737,6 +42430,7 @@ TUF GAMING B460M-PLUS (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B460M-PLUS-WIFI-ASUS-1601.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -41811,6 +42505,7 @@ TUF GAMING B460M-PRO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B460M-PRO-ASUS-1601.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -41856,6 +42551,7 @@ TUF GAMING B550-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550-PLUS-ASUS-2803.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -41938,6 +42634,7 @@ TUF GAMING B550-PLUS (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550-PLUS-WIFI-ASUS-3002.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -41983,6 +42680,7 @@ TUF GAMING B550-PLUS WIFI II:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550-PLUS-WIFI-II-ASUS-2803.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -42028,6 +42726,7 @@ TUF GAMING B550-PRO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550-PRO-ASUS-2803.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -42109,6 +42808,7 @@ TUF GAMING B550M ZAKU (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550M-ZAKU-WIFI-ASUS-3002.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -42154,6 +42854,7 @@ TUF GAMING B550M-E:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550M-E-ASUS-2803.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -42199,6 +42900,7 @@ TUF GAMING B550M-E WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550M-E-WIFI-ASUS-2803.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -42244,6 +42946,7 @@ TUF GAMING B550M-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550M-PLUS-ASUS-2803.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -42289,6 +42992,7 @@ TUF GAMING B550M-PLUS (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550M-PLUS-WIFI-ASUS-2803.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -42334,6 +43038,7 @@ TUF GAMING B550M-PLUS WIFI II:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B550M-PLUS-WIFI-II-ASUS-2803.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -42407,6 +43112,7 @@ TUF GAMING B560-PLUS WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B560-PLUS-WIFI-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -42479,6 +43185,7 @@ TUF GAMING B560M-E:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B560M-E-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -42552,6 +43259,7 @@ TUF GAMING B560M-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B560M-PLUS-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -42624,6 +43332,7 @@ TUF GAMING B560M-PLUS WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B560M-PLUS-WIFI-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -42731,6 +43440,7 @@ TUF GAMING B650-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B650-PLUS-ASUS-0823.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -42838,6 +43548,7 @@ TUF GAMING B650-PLUS WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B650-PLUS-WIFI-ASUS-0823.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -42945,6 +43656,7 @@ TUF GAMING B650M-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B650M-PLUS-ASUS-0823.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -43053,6 +43765,7 @@ TUF GAMING B650M-PLUS WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B650M-PLUS-WIFI-ASUS-0823.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -43306,6 +44019,7 @@ TUF GAMING B660-PLUS WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B660-PLUS-WIFI-D4-ASUS-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -43474,6 +44188,7 @@ TUF GAMING B660M-E D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B660M-E-D4-ASUS-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -43584,6 +44299,7 @@ TUF GAMING B660M-PLUS D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B660M-PLUS-D4-ASUS-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -43729,6 +44445,7 @@ TUF GAMING B660M-PLUS WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B660M-PLUS-WIFI-ASUS-2012.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -43839,6 +44556,7 @@ TUF GAMING B660M-PLUS WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B660M-PLUS-WIFI-D4-ASUS-2212.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -43949,6 +44667,7 @@ TUF GAMING B760-PLUS WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760-PLUS-WIFI-ASUS-0812.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -44130,6 +44849,7 @@ TUF GAMING B760-PLUS WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760-PLUS-WIFI-D4-ASUS-0808.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -44239,6 +44959,7 @@ TUF GAMING B760M-BTF WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760M-BTF-WIFI-D4-ASUS-0810.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -44342,6 +45063,7 @@ TUF GAMING B760M-E D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760M-E-D4-ASUS-0401.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -44451,6 +45173,7 @@ TUF GAMING B760M-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760M-PLUS-ASUS-0812.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -44632,6 +45355,7 @@ TUF GAMING B760M-PLUS D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760M-PLUS-D4-ASUS-0807.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -44741,6 +45465,7 @@ TUF GAMING B760M-PLUS WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760M-PLUS-WIFI-ASUS-0812.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -44924,6 +45649,7 @@ TUF GAMING B760M-PLUS WIFI D4:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760M-PLUS-WIFI-D4-ASUS-0807.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-B760M-PLUS-WIFI-D4-ASUS-0810.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -45025,6 +45751,7 @@ TUF GAMING H470-PRO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-H470-PRO-ASUS-2601.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -45127,6 +45854,7 @@ TUF GAMING H470-PRO (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-H470-PRO-WIFI-ASUS-2601.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -45200,6 +45928,7 @@ TUF GAMING H570-PRO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-H570-PRO-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -45272,6 +46001,7 @@ TUF GAMING H570-PRO WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-H570-PRO-WIFI-ASUS-2001.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -45382,6 +46112,7 @@ TUF GAMING H670-PRO WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-H670-PRO-WIFI-D4-ASUS-2305.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -45491,6 +46222,7 @@ TUF GAMING H770-PRO WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-H770-PRO-WIFI-ASUS-0812.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -45546,6 +46278,7 @@ TUF GAMING X570-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-X570-PLUS-ASUS-4021.ZIP
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -45591,6 +46324,7 @@ TUF GAMING X570-PLUS (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-X570-PLUS-WIFI-ASUS-4403.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -45684,6 +46418,7 @@ TUF GAMING X570-PLUS_BR:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-X570-PLUS-BR-SI-4601.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -45729,6 +46464,7 @@ TUF GAMING X570-PRO (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-X570-PRO-WIFI-SI-4403.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -45796,6 +46532,7 @@ TUF GAMING X570-PRO WIFI II:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-X570-PRO-WIFI-II-SI-4601.zip
   superio: NCT6798D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -45904,6 +46641,7 @@ TUF GAMING X670E-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-X670E-PLUS-ASUS-0821.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -46012,6 +46750,7 @@ TUF GAMING X670E-PLUS WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-X670E-PLUS-WIFI-ASUS-0821.zip
   superio: NCT6799D-R
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -46051,6 +46790,7 @@ TUF GAMING Z490-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z490-PLUS-ASUS-2601.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -46090,6 +46830,7 @@ TUF GAMING Z490-PLUS (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z490-PLUS-WIFI-ASUS-2602.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -46195,6 +46936,7 @@ TUF GAMING Z590-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z590-PLUS-ASUS-1801.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -46303,6 +47045,7 @@ TUF GAMING Z590-PLUS WIFI:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z590-PLUS-WIFI-ASUS-1601.zip
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z590-PLUS-WIFI-ASUS-1801.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -46413,6 +47156,7 @@ TUF GAMING Z690-PLUS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z690-PLUS-ASUS-2204.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -46523,6 +47267,7 @@ TUF GAMING Z690-PLUS D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z690-PLUS-D4-ASUS-2204.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -46633,6 +47378,7 @@ TUF GAMING Z690-PLUS WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z690-PLUS-WIFI-ASUS-2204.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -46743,6 +47489,7 @@ TUF GAMING Z690-PLUS WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z690-PLUS-WIFI-D4-ASUS-2204.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -46852,6 +47599,7 @@ TUF GAMING Z790-PLUS D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z790-PLUS-D4-ASUS-0810.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -46961,6 +47709,7 @@ TUF GAMING Z790-PLUS WIFI:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z790-PLUS-WIFI-ASUS-0812.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -47070,6 +47819,7 @@ TUF GAMING Z790-PLUS WIFI D4:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-GAMING-Z790-PLUS-WIFI-D4-ASUS-0810.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -47165,6 +47915,7 @@ TUF H310-PLUS GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-H310-PLUS-GAMING-ASUS-3202.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -47261,6 +48012,7 @@ TUF H310M-PLUS GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-H310M-PLUS-GAMING-ASUS-3202.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -47353,6 +48105,7 @@ TUF H310M-PLUS GAMING R2.0:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-H310M-PLUS-GAMING-R2-ASUS-2208.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -47449,6 +48202,7 @@ TUF H310M-PLUS GAMING/BR:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-H310M-PLUS-GAMING-BR-SI-3202.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -47548,6 +48302,7 @@ TUF H370-PRO GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-H370-PRO-GAMING-ASUS-3101.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -47647,6 +48402,7 @@ TUF H370-PRO GAMING (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-H370-PRO-GAMING-WIFI-ASUS-3101.ZIP
   superio: NCT5582D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -47672,6 +48428,7 @@ TUF X299 MARK 1:
   known_good_nct6775: []
   links: []
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 TUF X299 MARK 2:
@@ -47693,6 +48450,7 @@ TUF X299 MARK 2:
   known_good_nct6775: []
   links: []
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 TUF X470-PLUS GAMING:
@@ -47732,6 +48490,7 @@ TUF X470-PLUS GAMING:
   - ASUSWMI
   links: []
   superio: IT8665E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -47767,6 +48526,7 @@ TUF Z270 MARK 1:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z270-MARK-1-ASUS-1501.ZIP
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -47792,6 +48552,7 @@ TUF Z370-PLUS GAMING:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 TUF Z370-PLUS GAMING II:
@@ -47813,6 +48574,7 @@ TUF Z370-PLUS GAMING II:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 TUF Z370-PRO GAMING:
@@ -47834,6 +48596,7 @@ TUF Z370-PRO GAMING:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 TUF Z390-PLUS GAMING:
@@ -47926,6 +48689,7 @@ TUF Z390-PLUS GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z390-PLUS-GAMING-SI-3006.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -48022,6 +48786,7 @@ TUF Z390-PLUS GAMING (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z390-PLUS-GAMING-WIFI-SI-3006.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -48118,6 +48883,7 @@ TUF Z390-PRO GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z390-PRO-GAMING-ASUS-3006.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -48215,6 +48981,7 @@ TUF Z390M-PRO GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z390M-PRO-GAMING-ASUS-3006.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -48312,6 +49079,7 @@ TUF Z390M-PRO GAMING (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/TUF-Z390M-PRO-GAMING-WIFI-ASUS-3006.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -48337,6 +49105,7 @@ WS X299 PRO:
   known_good_nct6775: []
   links: []
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 WS X299 PRO/SE:
@@ -48358,6 +49127,7 @@ WS X299 PRO/SE:
   known_good_nct6775: []
   links: []
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 WS X299 SAGE:
@@ -48379,6 +49149,7 @@ WS X299 SAGE:
   known_good_nct6775: []
   links: []
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 WS X299 SAGE/10G:
@@ -48400,6 +49171,7 @@ WS X299 SAGE/10G:
   known_good_nct6775: []
   links: []
   superio: NCT6796D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 WS Z390 PRO:
@@ -48495,6 +49267,7 @@ WS Z390 PRO:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/WS-Z390-PRO-ASUS-1401.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -48528,6 +49301,7 @@ X299 UD4-CF:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -48565,6 +49339,7 @@ X370 Gaming X:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 X399 Taichi:
@@ -48597,6 +49372,7 @@ X399 Taichi:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 X470 AORUS ULTRA GAMING-CF:
@@ -48637,6 +49413,7 @@ X470 AORUS ULTRA GAMING-CF:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -48723,6 +49500,7 @@ X570 AORUS ELITE:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_x570-aorus-elite_f37.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -48809,6 +49587,7 @@ X570 AORUS ELITE WIFI:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_x570-aorus-elite-wifi_f37.zip
   superio: IT8688E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -48848,6 +49627,7 @@ X570 AORUS MASTER:
   known_good_nct6775: []
   links: []
   superio: IT8688E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -48905,6 +49685,7 @@ X570 GAMING X:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_x570-gaming-x_f38a.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -48991,6 +49772,7 @@ X570 I AORUS PRO WIFI:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_x570-i-aorus-pro-wifi_f36d.zip
   superio: IT8688E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -49026,6 +49808,7 @@ X570 Steel Legend:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 X570 Taichi:
@@ -49063,6 +49846,7 @@ X570 Taichi:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 X570 UD:
@@ -49116,6 +49900,7 @@ X570 UD:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_x570-ud_f38a.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -49145,6 +49930,7 @@ X79-UP4:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 X99-E WS:
@@ -49179,6 +49965,7 @@ X99-E WS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/Socket2011-R3/X99-E_WS/BIOS/X99-E-WS-ASUS-4001.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -49217,6 +50004,7 @@ X99-E WS/USB 3.1:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/Socket2011-R3/X99-E_WS_USB31/BIOS/X99-E-WS-USB31-ASUS-4001.zip
   superio: NCT6791D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -49244,6 +50032,7 @@ X99-E-10G WS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/Socket2011-R3/X99-E-10G_WS/BIOS/X99-E-10G-WS-ASUS-1201.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 X99-UD4-CF:
@@ -49270,6 +50059,7 @@ X99-UD4-CF:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 Z170 Extreme4:
@@ -49304,6 +50094,7 @@ Z170 Extreme4:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 Z170 PRO GAMING:
@@ -49429,6 +50220,7 @@ Z170 PRO GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170-PRO-GAMING/Z170-PRO-GAMING-ASUS-3805.zip
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -49558,6 +50350,7 @@ Z170 PRO GAMING/AURA:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170_PRO_GAMING_AURA/Z170-PRO-GAMING-AURA-ASUS-3805.zip
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -49618,6 +50411,7 @@ Z170-A:
   known_good_nct6775: []
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -49654,6 +50448,7 @@ Z170-DELUXE:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170-DELUXE/Z170-DELUXE-ASUS-3801.zip
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -49791,6 +50586,7 @@ Z170I PRO GAMING:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1151/Z170I_PRO_GAMING/Z170I-PRO-GAMING-ASUS-3805.zip
   superio: NCT5539D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -49825,6 +50621,7 @@ Z170M-PLUS:
   - ASUSWMI
   links: []
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -49860,6 +50657,7 @@ Z270-WS:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/socket1151/Z270-WS/BIOS/Z270-WS-ASUS-0801.zip
   superio: NCT6793D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -49900,6 +50698,7 @@ Z270N-WIFI-CF:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 Z390 I AORUS PRO WIFI-CF:
@@ -49940,6 +50739,7 @@ Z390 I AORUS PRO WIFI-CF:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -50031,6 +50831,7 @@ Z490 AORUS ELITE AC:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_z490-aorus-elite-ac_f22.zip
   superio: IT8688E
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -50070,6 +50871,7 @@ Z490-GUNDAM (WI-FI):
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Z490-GUNDAM-WIFI-ASUS-2601.ZIP
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -50135,6 +50937,7 @@ Z590 AORUS ELITE AX:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_z590-aorus-elite-ax_f8h.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -50200,6 +51003,7 @@ Z590 AORUS MASTER:
   links:
   - https://download.gigabyte.com/FileList/BIOS/b_bios_z590-aorus-master_f8f.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -50265,6 +51069,7 @@ Z590 AORUS PRO AX:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_z590-aorus-pro-ax_f9h.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -50330,6 +51135,7 @@ Z590 AORUS ULTRA:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_z590-aorus-ultra_f7d.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -50395,6 +51201,7 @@ Z590 D:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_z590-d_f8b.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -50461,6 +51268,7 @@ Z590 GAMING X:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_z590-gaming-x_f8b.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -50527,6 +51335,7 @@ Z590 UD:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_z590-ud_f8c.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -50593,6 +51402,7 @@ Z590 UD AC:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_z590-ud-ac_f8b.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -50659,6 +51469,7 @@ Z590 VISION D:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_z590-vision-d_f8f.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -50724,6 +51535,7 @@ Z590 VISION G:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_z590-vision-g_f7e.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -50863,6 +51675,7 @@ Z590 WIFI GUNDAM EDITION:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/BIOS/Z590-WIFI-GUNDAM-EDITION-ASUS-1801.zip
   superio: NCT6798D
+  system_name: ''
   upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
@@ -51610,6 +52423,7 @@ Z690M AORUS ELITE AX DDR4:
   links:
   - https://download.gigabyte.com/FileList/BIOS/mb_bios_z690m-aorus-elite-ax-ddr4_f21.zip
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods:
   - QWDG:05901221-D566-11D1-B2F0-00A0C9062910:4343:0100
@@ -51641,6 +52455,7 @@ Z87 Extreme6:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 Z87 Pro3:
@@ -51673,6 +52488,7 @@ Z87 Pro3:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 Z97-HD3:
@@ -51705,6 +52521,7 @@ Z97-HD3:
   known_good_nct6775: []
   links: []
   superio: ''
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []
 Z97-PRO GAMER:
@@ -51765,5 +52582,6 @@ Z97-PRO GAMER:
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA1150/Z97-PRO_GAMER/Z97-PRO-GAMER-ASUS-2203.zip
   superio: NCT5538D
+  system_name: ''
   upstreamed_serie: false
   wmi_methods: []

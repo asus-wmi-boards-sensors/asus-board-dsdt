@@ -40,10 +40,13 @@ if __name__ == "__main__":
 
             # produced
             board_producer = ""
+            system_name = ""
             for desc in board_desc:
                 if len(desc) >= 3:
                     if desc[1] == board_name:
                         board_producer = desc[0]
+                        if len(desc) > 4:
+                            system_name = desc[4]
                         break
 
             print (f"Processing {board_name} from {dirname}/{filename}")
@@ -94,15 +97,19 @@ if __name__ == "__main__":
                     data = bytes([int(val, 16) for val in row[1]])
                     hash_value = hashlib.md5(data).hexdigest()
                     # board final name
+                    produced_by = board_producer
                     board_dump_name = board_name
+                    if system_name and produced_by == "Hewlett-Packard":
+                        board_dump_name = system_name
                     for ch in "{}()/\\[].":
                         board_dump_name = board_dump_name.replace(ch, " ")
                     # produced
-                    produced_by = board_producer
                     if produced_by in ("ASUSTeK COMPUTER INC.", "ASUSTeK Computer INC."):
                         produced_by = "ASUS"
                     elif produced_by == "Gigabyte Technology Co., Ltd.":
                         produced_by = "GIGABYTE"
+                    elif produced_by == "Hewlett-Packard":
+                        produced_by = "HP"
                     board_dump_name += f" {produced_by}"
                     board_dump_name += " 0000"
                     board_dump_name = board_dump_name.strip().replace(" ", "-")

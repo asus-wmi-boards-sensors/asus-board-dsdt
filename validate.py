@@ -1140,6 +1140,7 @@ DEFAULT_FLAGS = {
     "known_good_nct6775": [],
     "links": [],
     "aliases": [],
+    "system_name": "",
 }
 
 
@@ -1538,11 +1539,19 @@ def add_load_flags(boards_flags, board_desc):
 
 
 def show_board(board_name, board_producer, superio="", asus_wmi="N", gigabyte_wmi="N",
-               asus_nct6775="N", asus_ec="N"):
-    for brand in ["ASUS", "GIGABYTE", "LENOVO", "ASROCK"]:
-        if brand in board_producer.upper():
-            board_producer = brand
-            break
+               asus_nct6775="N", asus_ec="N", system_name=""):
+    if board_producer == "Hewlett-Packard":
+        board_producer = "HP"
+        # HP has product name in separate field
+        if system_name:
+            board_name = system_name
+            if board_name.startswith("HP "):
+                board_name = board_name[3:]
+    else:
+        for brand in ["ASUS", "GIGABYTE", "LENOVO", "ASROCK"]:
+            if brand in board_producer.upper():
+                board_producer = brand
+                break
     return (
         f"| {board_producer}{' ' * (9 - len(board_producer))}"
         f"| {board_name}{' ' * (36 - len(board_name))}"
@@ -1678,6 +1687,7 @@ def print_boards(boards_flags):
         desc += show_board(
             board_name,
             board_producer=board_flags["board_producer"],
+            system_name=board_flags["system_name"],
             superio=board_flags["superio"],
             asus_wmi=asus_wmi,
             asus_nct6775=asus_nct6775,
@@ -1740,7 +1750,7 @@ def file_name_to_board_name(filename, alias_to_name):
         board_group = board_group[:-1]
     # check board producer
     board_producer = "ASUS"
-    if board_group[-1].upper() in ("ASUS", "GIGABYTE", "LENOVO"):
+    if board_group[-1].upper() in ("ASUS", "GIGABYTE", "LENOVO", "HP"):
         board_producer = board_group[-1].upper()
         board_group = board_group[:-1]
     if board_producer == "GIGABYTE":
@@ -1908,6 +1918,7 @@ if __name__ == "__main__":
             "ASUSTeK COMPUTER INC.",
             "ASRock",
             "Gigabyte Technology Co., Ltd.",
+            "Hewlett-Packard",
             "LENOVO"
         ):
             continue
@@ -1987,6 +1998,8 @@ if __name__ == "__main__":
                     ):
                         board_flags["superio"] = board_info[2]
                         print (f"\tSuper I/O: {board_info[2]}")
+                        if len(board_info) > 4:
+                            board_flags["system_name"] = board_info[4]
                         if board_info[1] != board_name:
                             print (f"\tDatabase has different name {board_info[1]} != {board_name}")
                         break
