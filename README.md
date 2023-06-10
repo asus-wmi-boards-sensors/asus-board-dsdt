@@ -86,6 +86,7 @@ Port to use asl directly instead disassembling to dsl.
 | GIGABYTE | B660I AORUS PRO DDR4                |            | N            | Y            | N            | N            |
 | ASUS     | B85-PRO GAMER                       | NCT6791D   | N            | N            | N            | N            |
 | ASUS     | B85M-GAMER                          | NCT6791D   | N            | N            | N            | N            |
+| ASUS     | CM6870                              |            | N            | N            | P            | N            |
 | ASUS     | CROSSHAIR VI HERO                   | IT8655E    | Y            | N            | M            | U            |
 | ASUS     | EX-A320M-GAMING                     | IT8655E    | N            | N            | M            | N            |
 | ASUS     | EX-B360M-V                          | NCT5582D   | N            | N            | Y            | N            |

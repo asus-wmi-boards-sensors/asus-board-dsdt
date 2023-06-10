@@ -1550,6 +1550,7 @@ static const struct dmi_system_id asus_wmi_info_table[] = {
 	DMI_MATCH_ASROCK_WMI_BOARD("B365M Pro4-F", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASROCK_WMI_BOARD("B450M Pro4", &acpi_board_SBRG_MUTEX),
 	DMI_MATCH_ASROCK_WMI_BOARD("B650E PG Riptide WiFi", &acpi_board_SBRG_MUTEX),
+	DMI_MATCH_ASUS_WMI_BOARD("CM6870", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("EX-B365M-V", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("EX-B365M-V5", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("EX-H310M-V3 R2.0", &acpi_board_ILPC_MUTEX),
