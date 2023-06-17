@@ -63,17 +63,17 @@ def dmi_process(content):
     for record in dmi_data:
         if isinstance(record, list):
             if (
-                len(record) == 2 and
-                record[0] == "Base Board Information" and
-                isinstance(record[1], dict)
+                len(record) == 2
+                and record[0] == "Base Board Information"
+                and isinstance(record[1], dict)
             ):
                 if not board_producer:
                     board_producer = record[1].get("Manufacturer").strip()
                 board_name = record[1].get("Product Name").strip()
             elif (
-                len(record) == 2 and
-                record[0] == "System Information" and
-                isinstance(record[1], dict)
+                len(record) == 2
+                and record[0] == "System Information"
+                and isinstance(record[1], dict)
             ):
                 if not board_producer:
                     board_producer = record[1].get("Manufacturer").strip()
@@ -82,11 +82,11 @@ def dmi_process(content):
                 if not system_version:
                     system_version = record[1].get("Version").strip()
             elif (
-                len(record) == 2 and
-                record[0] == "Management Device" and
-                isinstance(record[1], dict) and
-                record[1].get("Address Type") == "I/O Port" and
-                record[1].get("Type") == "Other"
+                len(record) == 2
+                and record[0] == "Management Device"
+                and isinstance(record[1], dict)
+                and record[1].get("Address Type") == "I/O Port"
+                and record[1].get("Type") == "Other"
             ):
                 board_sensor = record[1].get("Description").strip()
 
@@ -95,7 +95,7 @@ def dmi_process(content):
 
 # name has some letters or digits
 def check_is_human_name(name):
-    #empty name
+    # empty name
     if not name:
         return False
     # started not from leters or digits
@@ -123,28 +123,30 @@ if __name__ == "__main__":
             continue
         # print path to all filenames.
         for filename in filenames:
-            print (f"Processing: {dirname}/{filename}")
+            print(f"Processing: {dirname}/{filename}")
 
             try:
                 with open(f"{dirname}/{filename}", "rb") as f:
                     content = f.read().decode("utf8")
 
                 (
-                    board_producer, board_name, board_sensor,
-                    system_name, system_version
+                    board_producer,
+                    board_name,
+                    board_sensor,
+                    system_name,
+                    system_version,
                 ) = dmi_process(content)
             except:
-                print (f"Could not parse: {dirname}/{filename}")
+                print(f"Could not parse: {dirname}/{filename}")
                 continue
 
-            print (f"\tBoard: {board_name}")
-            print (f"\tSystem: {system_name}")
-            print (f"\tVersion: {system_version}")
-            print (f"\tProduced: {board_producer}")
-            print (f"\tSensor: {board_sensor}")
-            if (
-                not check_is_human_name(board_producer) or
-                not check_is_human_name(board_name)
+            print(f"\tBoard: {board_name}")
+            print(f"\tSystem: {system_name}")
+            print(f"\tVersion: {system_version}")
+            print(f"\tProduced: {board_producer}")
+            print(f"\tSensor: {board_sensor}")
+            if not check_is_human_name(board_producer) or not check_is_human_name(
+                board_name
             ):
                 continue
 
@@ -154,8 +156,8 @@ if __name__ == "__main__":
 
             for row in board_desc:
                 if (
-                    row[0].upper() == board_producer.upper() and
-                    row[1].upper() == board_name.upper()
+                    row[0].upper() == board_producer.upper()
+                    and row[1].upper() == board_name.upper()
                 ):
                     row[0] = board_producer
                     row[1] = board_name
@@ -181,12 +183,19 @@ if __name__ == "__main__":
                         row[5] = system_version
                     break
             else:
-                board_desc.append([board_producer, board_name,
-                                   board_sensor, filename, system_name,
-                                   system_version])
+                board_desc.append(
+                    [
+                        board_producer,
+                        board_name,
+                        board_sensor,
+                        filename,
+                        system_name,
+                        system_version,
+                    ]
+                )
 
-    print ("Used sensors:")
+    print("Used sensors:")
     for board_sensor in sorted(sensors):
-        print (f"\t{board_sensor}")
+        print(f"\t{board_sensor}")
     board_desc.sort()
     save_linuxhw_DMI(board_desc)

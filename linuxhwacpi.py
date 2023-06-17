@@ -26,16 +26,16 @@ if __name__ == "__main__":
         for filename in filenames:
             name_parts = filename.split(".")
             if len(name_parts) != 2:
-                print (f"Skip {filename}")
+                print(f"Skip {filename}")
                 continue
 
-            if name_parts[1].lower() != 'bin':
-                print (f"Skip incorrect extension {filename}")
+            if name_parts[1].lower() != "bin":
+                print(f"Skip incorrect extension {filename}")
                 continue
 
             board_name = hash_to_name.get(name_parts[0])
             if not board_name:
-                print (f"Unknown original name {filename}")
+                print(f"Unknown original name {filename}")
                 continue
 
             # produced
@@ -49,7 +49,7 @@ if __name__ == "__main__":
                             system_name = desc[4]
                         break
 
-            print (f"Processing {board_name} from {dirname}/{filename}")
+            print(f"Processing {board_name} from {dirname}/{filename}")
 
             # create flags struct
             if board_name not in boards_flags:
@@ -73,26 +73,23 @@ if __name__ == "__main__":
                 line = line.replace("\t", " " * 2)
                 if (
                     # could be any amount spaces before real dump
-                    line.startswith(" ") and
-                    parsed_content and
-                    ":" in line
+                    line.startswith(" ")
+                    and parsed_content
+                    and ":" in line
                 ):
                     # skip addr
                     line = line.split(":")[1].strip()
                     # get only bynary addr
-                    line = line[:16 * 3]
+                    line = line[: 16 * 3]
                     # add hex values
                     parsed_content[-1][1] += line.strip().split(" ")
                 else:
                     parsed_content.append([line.strip(), []])
 
             for row in parsed_content:
-                if (
-                    row[0].startswith("DSDT") or
-                    row[0].startswith("SSDT")
-                ):
+                if row[0].startswith("DSDT") or row[0].startswith("SSDT"):
                     if not len(row[1]):
-                        print (f"{row[0]} has empty data")
+                        print(f"{row[0]} has empty data")
                         continue
                     data = bytes([int(val, 16) for val in row[1]])
                     hash_value = hashlib.md5(data).hexdigest()
@@ -104,7 +101,10 @@ if __name__ == "__main__":
                     for ch in "{}()/\\[].":
                         board_dump_name = board_dump_name.replace(ch, " ")
                     # produced
-                    if produced_by in ("ASUSTeK COMPUTER INC.", "ASUSTeK Computer INC."):
+                    if produced_by in (
+                        "ASUSTeK COMPUTER INC.",
+                        "ASUSTeK Computer INC.",
+                    ):
                         produced_by = "ASUS"
                     elif produced_by == "Gigabyte Technology Co., Ltd.":
                         produced_by = "GIGABYTE"
@@ -114,7 +114,7 @@ if __name__ == "__main__":
                     board_dump_name += " 0000"
                     board_dump_name = board_dump_name.strip().replace(" ", "-")
                     board_dump_fullname = f"dumps/{board_dump_name}.{hash_value}.aml"
-                    print (f"Dump file name: {board_dump_fullname}")
+                    print(f"Dump file name: {board_dump_fullname}")
                     with open(board_dump_fullname, "wb") as f:
                         f.write(data)
                     # save to aliases

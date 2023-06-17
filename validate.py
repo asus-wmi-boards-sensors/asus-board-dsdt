@@ -8,16 +8,18 @@ import time
 import hashlib
 import csv
 from asl_parser import (
-    parse_asl, cleanup_lines, asl_has_operator_with_params,
-    search_block_with_name_parameter, asl_get_operator_with_params,
-    decode_buffer_uuid_by_name
+    parse_asl,
+    cleanup_lines,
+    asl_has_operator_with_params,
+    search_block_with_name_parameter,
+    asl_get_operator_with_params,
+    decode_buffer_uuid_by_name,
 )
 from board_const import NCT6775_CHIPS, ASUS_BOARDS, BRIDGE_CHIPSETS
 from utils import load_linuxhw_DMI, file_write_with_changes, load_board_flags
 
 
-LINKS = [
-]
+LINKS = []
 
 # Upstreamed ec
 EC_BOARDS = [
@@ -502,11 +504,11 @@ NCT6775_REGION_METHODS = ["RHWM", "WHWM", "BRHM", "BWHM"]
 WMI_METHODS = ["RSEN", "GNAM", "GNUM", "UPSB", "GVER"]
 WMI_INT_METHODS = ["UPEC", "UPHM"]
 WMI_METHODS_CONVERT = {
-    "RSEN": "52574543", # should be 5253454E
-    "GNAM": "50574543", # should be 474E414D
-    "GNUM": "50574572", # should be 474E554D
-    "UPSB": "51574543", # should be 55505342
-    "GVER": "50574574", # should be 47564552
+    "RSEN": "52574543",  # should be 5253454E
+    "GNAM": "50574543",  # should be 474E414D
+    "GNUM": "50574572",  # should be 474E554D
+    "UPSB": "51574543",  # should be 55505342
+    "GVER": "50574574",  # should be 47564552
 }
 
 # Bios dump has diffrent name to board name
@@ -631,46 +633,46 @@ GIGABYTE_DISPATCHER = "WMBB"
 # mutex names from kernel source
 ASUS_ITE87_MUTEX = {
     "\\AMW0._GL": [
-        "CROSSHAIR VI HERO", # "ASUSTeK Computer INC."
+        "CROSSHAIR VI HERO",  # "ASUSTeK Computer INC."
     ]
 }
 
 # mutex names from kernel source
 ASUS_NCT6775_MUTEX = {
     "\\_SB.PC00.LPCB.SIO1.MUT0": [
-        "ProArt B660-CREATOR D4", # "ASUSTeK Computer INC."
-        "ProArt Z790-CREATOR WIFI", # "ASUSTeK Computer INC."
+        "ProArt B660-CREATOR D4",  # "ASUSTeK Computer INC."
+        "ProArt Z790-CREATOR WIFI",  # "ASUSTeK Computer INC."
     ],
     "\\_SB.PCI0.LPCB.SIO1.MUT0": [
-        "PRIME H410M-R", # "ASUSTeK Computer INC."
+        "PRIME H410M-R",  # "ASUSTeK Computer INC."
     ],
     "\\_SB_.PCI0.LPCB.SIO1.MUT0": [
-        "P8Z68-V LX", # "ASUSTeK Computer INC."
-        "MAXIMUS VII HERO", # "ASUSTeK COMPUTER INC."
-        "P8H67", # "ASUSTeK COMPUTER INC."
-        "ROG MAXIMUS X HERO", # "ASUSTeK COMPUTER INC."
-        "ROG STRIX Z370-H GAMING", # "ASUSTeK COMPUTER INC."
-        "Z170-DELUXE", # "ASUSTeK COMPUTER INC."
-        "Z170M-PLUS", # "ASUSTeK COMPUTER INC."
+        "P8Z68-V LX",  # "ASUSTeK Computer INC."
+        "MAXIMUS VII HERO",  # "ASUSTeK COMPUTER INC."
+        "P8H67",  # "ASUSTeK COMPUTER INC."
+        "ROG MAXIMUS X HERO",  # "ASUSTeK COMPUTER INC."
+        "ROG STRIX Z370-H GAMING",  # "ASUSTeK COMPUTER INC."
+        "Z170-DELUXE",  # "ASUSTeK COMPUTER INC."
+        "Z170M-PLUS",  # "ASUSTeK COMPUTER INC."
     ],
     "\\_SB_.PCI0.LPC0.SIO1.MUT0": [
-        "X99-E WS/USB 3.1", # "ASUSTeK COMPUTER INC."
+        "X99-E WS/USB 3.1",  # "ASUSTeK COMPUTER INC."
     ],
     "\\_SB.PCI0.SBRG.SIO1.MUT0": [
-        "PRIME X370-PRO", # "ASUSTeK COMPUTER INC."
-        "PRIME X470-PRO", # "ASUSTeK COMPUTER INC."
-        "PRIME X399-A", # "ASUSTeK COMPUTER INC."
-        "PRIME B450-PLUS", # "ASUSTeK COMPUTER INC." Need to recheck
-        "PRIME Z270-A", # "ASUSTeK COMPUTER INC."
-        "PRIME Z370-A", # "ASUSTeK COMPUTER INC."
-        "CROSSHAIR VI HERO", # "ASUSTeK COMPUTER INC."
-        "ROG STRIX X399-E GAMING", # "ASUSTeK COMPUTER INC."
-        "ROG STRIX B350-F GAMING", # "ASUSTeK COMPUTER INC."
-        "ROG STRIX B450-F GAMING", # "ASUSTeK COMPUTER INC."
-        "TUF B450-PLUS GAMING", # "ASUSTeK COMPUTER INC."
+        "PRIME X370-PRO",  # "ASUSTeK COMPUTER INC."
+        "PRIME X470-PRO",  # "ASUSTeK COMPUTER INC."
+        "PRIME X399-A",  # "ASUSTeK COMPUTER INC."
+        "PRIME B450-PLUS",  # "ASUSTeK COMPUTER INC." Need to recheck
+        "PRIME Z270-A",  # "ASUSTeK COMPUTER INC."
+        "PRIME Z370-A",  # "ASUSTeK COMPUTER INC."
+        "CROSSHAIR VI HERO",  # "ASUSTeK COMPUTER INC."
+        "ROG STRIX X399-E GAMING",  # "ASUSTeK COMPUTER INC."
+        "ROG STRIX B350-F GAMING",  # "ASUSTeK COMPUTER INC."
+        "ROG STRIX B450-F GAMING",  # "ASUSTeK COMPUTER INC."
+        "TUF B450-PLUS GAMING",  # "ASUSTeK COMPUTER INC."
     ],
     "\\_GPE.MUT0": [
-        "MAXIMUS IX APEX", # "ASUSTeK COMPUTER INC." Need to recheck
+        "MAXIMUS IX APEX",  # "ASUSTeK COMPUTER INC." Need to recheck
     ],
 }
 
@@ -684,29 +686,29 @@ ASUS_NCT6775_MUTEX_CODENAME = {
 # mutex names from kernel source
 ASUS_EC_MUTEX = {
     "\\AMW0.ASMX": [
-        "ProArt X570-CREATOR WIFI", # "ASUSTeK COMPUTER INC."
-        "Pro WS X570-ACE", # "ASUSTeK COMPUTER INC."
-        "PRIME X570-PRO", # "ASUSTeK COMPUTER INC."
-        "ROG CROSSHAIR VIII DARK HERO", # "ASUSTeK COMPUTER INC."
-        "ROG CROSSHAIR VIII FORMULA", # "ASUSTeK COMPUTER INC."
-        "ROG CROSSHAIR VIII HERO", # "ASUSTeK COMPUTER INC."
-        "ROG CROSSHAIR VIII HERO (WI-FI)", # "ASUSTeK COMPUTER INC."
-        "ROG CROSSHAIR VIII IMPACT", # "ASUSTeK COMPUTER INC."
-        "ROG MAXIMUS XI HERO", # "ASUSTeK COMPUTER INC."
-        "ROG MAXIMUS XI HERO (WI-FI)", # "ASUSTeK COMPUTER INC."
-        "ROG STRIX B550-E GAMING", # "ASUSTeK COMPUTER INC."
-        "ROG STRIX B550-I GAMING", # "ASUSTeK COMPUTER INC."
-        "ROG STRIX X570-E GAMING", # "ASUSTeK COMPUTER INC."
-        "ROG STRIX X570-E GAMING WIFI II", # "ASUSTeK COMPUTER INC."
-        "ROG STRIX X570-F GAMING", # "ASUSTeK COMPUTER INC."
-        "ROG STRIX X570-I GAMING", # "ASUSTeK COMPUTER INC."
+        "ProArt X570-CREATOR WIFI",  # "ASUSTeK COMPUTER INC."
+        "Pro WS X570-ACE",  # "ASUSTeK COMPUTER INC."
+        "PRIME X570-PRO",  # "ASUSTeK COMPUTER INC."
+        "ROG CROSSHAIR VIII DARK HERO",  # "ASUSTeK COMPUTER INC."
+        "ROG CROSSHAIR VIII FORMULA",  # "ASUSTeK COMPUTER INC."
+        "ROG CROSSHAIR VIII HERO",  # "ASUSTeK COMPUTER INC."
+        "ROG CROSSHAIR VIII HERO (WI-FI)",  # "ASUSTeK COMPUTER INC."
+        "ROG CROSSHAIR VIII IMPACT",  # "ASUSTeK COMPUTER INC."
+        "ROG MAXIMUS XI HERO",  # "ASUSTeK COMPUTER INC."
+        "ROG MAXIMUS XI HERO (WI-FI)",  # "ASUSTeK COMPUTER INC."
+        "ROG STRIX B550-E GAMING",  # "ASUSTeK COMPUTER INC."
+        "ROG STRIX B550-I GAMING",  # "ASUSTeK COMPUTER INC."
+        "ROG STRIX X570-E GAMING",  # "ASUSTeK COMPUTER INC."
+        "ROG STRIX X570-E GAMING WIFI II",  # "ASUSTeK COMPUTER INC."
+        "ROG STRIX X570-F GAMING",  # "ASUSTeK COMPUTER INC."
+        "ROG STRIX X570-I GAMING",  # "ASUSTeK COMPUTER INC."
     ],
     "\\RMTW.ASMX": [
-        "ROG STRIX Z690-A GAMING WIFI D4", # "ASUSTeK COMPUTER INC."
+        "ROG STRIX Z690-A GAMING WIFI D4",  # "ASUSTeK COMPUTER INC."
     ],
     "\\_SB_.PCI0.SBRG.SIO1.MUT0": [
-        "ROG ZENITH II EXTREME", # "ASUSTeK COMPUTER INC."
-    ]
+        "ROG ZENITH II EXTREME",  # "ASUSTeK COMPUTER INC."
+    ],
 }
 
 # Statuses for correctly detected board
@@ -717,9 +719,21 @@ ASUS_KNOWN_UIDS = {
     "AsusMbSwInterface": "B650 style board",
 }
 
-ASUS_WIFI_NO_CONVERT = ["A620", "B560", "B650", "B660", "B760", "H510",
-                        "H570", "H670", "H770", "X670", "Z590", "Z690",
-                        "Z790"]
+ASUS_WIFI_NO_CONVERT = [
+    "A620",
+    "B560",
+    "B650",
+    "B660",
+    "B760",
+    "H510",
+    "H570",
+    "H670",
+    "H770",
+    "X670",
+    "Z590",
+    "Z690",
+    "Z790",
+]
 
 
 def gen_asus_board_name(board_group):
@@ -744,10 +758,12 @@ def gen_asus_board_name(board_group):
         board_name = f"{board_group[0]} {board_group[1]} "
         board_name += f"{board_group[2]}-{board_group[3]} "
         board_name += " ".join(board_group[4:])
-    elif (
-        board_group[0] == "ROG" and
-        board_group[1] in ("CROSSHAIR", "MAXIMUS", "ZENITH", "RAMPAGE",
-                           "DOMINUS")
+    elif board_group[0] == "ROG" and board_group[1] in (
+        "CROSSHAIR",
+        "MAXIMUS",
+        "ZENITH",
+        "RAMPAGE",
+        "DOMINUS",
     ):
         # detect chipset from name
         for chipset in BRIDGE_CHIPSETS:
@@ -771,13 +787,11 @@ def gen_asus_board_name(board_group):
                     break
             else:
                 board_group[-1] = "(WI-FI)"
-        if (
-            len(board_group[3]) == 1 or
-            board_group[3].upper() in ("PLUS", "PRO")
-        ):
+        if len(board_group[3]) == 1 or board_group[3].upper() in ("PLUS", "PRO"):
             board_group = [
-                board_group[0], board_group[1],
-                f"{board_group[2]}-{board_group[3]}"
+                board_group[0],
+                board_group[1],
+                f"{board_group[2]}-{board_group[3]}",
             ] + board_group[4:]
         # create name
         board_name = f"{board_group[0]} {board_group[1]} "
@@ -881,8 +895,7 @@ def check_asl_entrypoint(asl_struct, wmi_methods, uuid, method):
 def find_asl_methods_mutex(asl_struct, methods, known_mutexes, count=1):
     for method in methods:
         method_content = asl_get_operator_with_params(
-            asl_struct,
-            "Method", f"({method}, {count}, Serialized)"
+            asl_struct, "Method", f"({method}, {count}, Serialized)"
         )
         if method_content:
             inline_mutex = get_asl_method_inline_mutexes(method_content)
@@ -897,11 +910,11 @@ def find_asl_methods_mutex(asl_struct, methods, known_mutexes, count=1):
 
 # get possible mutexes and filter by possible know as useful
 def find_asl_mutex(asl_struct, known_mutexes):
-    mutexes = search_block_with_name_parameter(asl_struct, {
-        "operator": "Mutex"
-    }, parent=False)
+    mutexes = search_block_with_name_parameter(
+        asl_struct, {"operator": "Mutex"}, parent=False
+    )
     for mutex_asl in mutexes:
-        param = mutex_asl['parameters']
+        param = mutex_asl["parameters"]
         if param[0] != "(":
             continue
         mutex_name = param[1:].split(",")[0].strip()
@@ -913,14 +926,17 @@ def find_asl_mutex(asl_struct, known_mutexes):
 
 
 def get_asl_nct6775_mutexes_in_block(asl_struct, region_name, known_mutexes):
-    regions = search_block_with_name_parameter(asl_struct, {
-        "operator": "OperationRegion",
-        "parameters": f"({region_name}, SystemIO, IOHW, 0x0A)"
-    })
+    regions = search_block_with_name_parameter(
+        asl_struct,
+        {
+            "operator": "OperationRegion",
+            "parameters": f"({region_name}, SystemIO, IOHW, 0x0A)",
+        },
+    )
     for region in regions:
-        methods = search_block_with_name_parameter(region, {
-            "operator": "Method"
-        }, parent=False)
+        methods = search_block_with_name_parameter(
+            region, {"operator": "Method"}, parent=False
+        )
         for method in methods:
             inline_mutex = get_asl_method_inline_mutexes(method)
             mutexes = get_asl_method_mutexes(method)
@@ -935,36 +951,49 @@ def get_asl_nct6775_mutexes_in_block(asl_struct, region_name, known_mutexes):
 def check_asl_290_custom_port(asl_struct):
     ports = []
     for port_name in ["IO2B", "IO3B", "IOHB", "IOHW"]:
-        if search_block_with_name_parameter(asl_struct, {
-            "operator": "Name",
-            "parameters": f"({port_name}, 0x0290)"
-        }):
+        if search_block_with_name_parameter(
+            asl_struct, {"operator": "Name", "parameters": f"({port_name}, 0x0290)"}
+        ):
             ports.append(port_name)
     return ports
 
 
 def check_asl_290_port_region(asl_struct):
     for region_name in ["HWM", "SHWM", "HWRE"]:
-        if not search_block_with_name_parameter(asl_struct, {
-            "operator": "OperationRegion",
-            "parameters": f"({region_name}, SystemIO, IOHW, 0x0A)"
-        }):
+        if not search_block_with_name_parameter(
+            asl_struct,
+            {
+                "operator": "OperationRegion",
+                "parameters": f"({region_name}, SystemIO, IOHW, 0x0A)",
+            },
+        ):
             continue
-        if not search_block_with_name_parameter(asl_struct, {
-            "operator": "Field",
-            "parameters": f"({region_name}, ByteAcc, NoLock, Preserve)"
-        }):
+        if not search_block_with_name_parameter(
+            asl_struct,
+            {
+                "operator": "Field",
+                "parameters": f"({region_name}, ByteAcc, NoLock, Preserve)",
+            },
+        ):
             continue
         # for fields structure investigation
         for locked_state in ["Lock", "NoLock"]:
-            index_blocks = search_block_with_name_parameter(asl_struct, {
-                "operator": "IndexField",
-                "parameters": f"(HIDX, HDAT, ByteAcc, {locked_state}, Preserve)"
-            }, parent=False)
-            index_blocks += search_block_with_name_parameter(asl_struct, {
-                "operator": "Field",
-                "parameters": f"({region_name}, ByteAcc, {locked_state}, Preserve)"
-            }, parent=False)
+            index_blocks = search_block_with_name_parameter(
+                asl_struct,
+                {
+                    "operator": "IndexField",
+                    "parameters": f"(HIDX, HDAT, ByteAcc, {locked_state}, Preserve)",
+                },
+                parent=False,
+            )
+            index_blocks += search_block_with_name_parameter(
+                asl_struct,
+                {
+                    "operator": "Field",
+                    "parameters": f"({region_name}, ByteAcc, {locked_state}, Preserve)",
+                },
+                parent=False,
+            )
             for block in index_blocks:
                 index_content = block.get("content")
                 # no index implementation
@@ -979,21 +1008,21 @@ def check_asl_290_port_region(asl_struct):
 
 
 def check_asl_290_port(asl_struct):
-    if not search_block_with_name_parameter(asl_struct, {
-        "operator": "Name",
-        "parameters": "(IOHW, 0x0290)" # probes 0x2e and 0x4e
-    }):
+    if not search_block_with_name_parameter(
+        asl_struct,
+        {"operator": "Name", "parameters": "(IOHW, 0x0290)"},  # probes 0x2e and 0x4e
+    ):
         return False
     region_name = check_asl_290_port_region(asl_struct)
     if not region_name:
         # search region create in methods
         for method in NCT6775_REGION_METHODS:
             if method in NCT6775_METHODS:
-
-                method_blocks = search_block_with_name_parameter(asl_struct, {
-                    "operator": "Method",
-                    "parameters": f"({method}, 1, Serialized)"
-                }, parent=False)
+                method_blocks = search_block_with_name_parameter(
+                    asl_struct,
+                    {"operator": "Method", "parameters": f"({method}, 1, Serialized)"},
+                    parent=False,
+                )
                 for block in method_blocks:
                     func_impl = block.get("content")
                     # no method implementation
@@ -1012,8 +1041,7 @@ def check_asl_290_port(asl_struct):
 
 def check_asl_case(asl_struct, dispatcher, methods, convert=None):
     method_content = asl_get_operator_with_params(
-        asl_struct,
-        "Method", f"({dispatcher}, 3, Serialized)"
+        asl_struct, "Method", f"({dispatcher}, 3, Serialized)"
     )
     if not method_content:
         return False
@@ -1037,23 +1065,24 @@ method_dumps = {}
 def check_asl_method(asl_struct, methods, count=1):
     for method in methods:
         if not asl_has_operator_with_params(
-            asl_struct, {
+            asl_struct,
+            {
                 "operator": "Method",
                 "parameters": f"({method}, {count}, Serialized)",
-            }
+            },
         ):
             return False
         if asl_has_operator_with_params(
-            asl_struct, {
+            asl_struct,
+            {
                 "operator": "Method",
                 "parameters": f"({method}, {count}, Serialized)",
-                "content": "{\nReturn (Ones)\n}"
-            }
+                "content": "{\nReturn (Ones)\n}",
+            },
         ):
             return False
         method_content = asl_get_operator_with_params(
-            asl_struct,
-            "Method", f"({method}, {count}, Serialized)"
+            asl_struct, "Method", f"({method}, {count}, Serialized)"
         )
         # no such method?
         if not method_content:
@@ -1090,7 +1119,7 @@ def get_asl_method_inline_mutexes(asl_struct):
         end_mutex = func_impl.find(",", start_mutex)
         if end_mutex == -1:
             break
-        mutex_name = func_impl[start_mutex + len("Mutex ("):end_mutex]
+        mutex_name = func_impl[start_mutex + len("Mutex (") : end_mutex]
         func_impl = func_impl[end_mutex:]
         mutex_name = mutex_name.strip()
         if mutex_name[0] != "\\":
@@ -1110,7 +1139,7 @@ def get_asl_method_mutexes(asl_struct):
         end_acquire = func_impl.find(",", start_acquire)
         if end_acquire == -1:
             break
-        mutex_name = func_impl[start_acquire + len("Acquire ("):end_acquire]
+        mutex_name = func_impl[start_acquire + len("Acquire (") : end_acquire]
         func_impl = func_impl[end_acquire:]
         mutex_name = mutex_name.strip()
         if mutex_name[0] != "\\":
@@ -1153,90 +1182,72 @@ def set_default_flags(board_flags, board_name):
         if isinstance(board_flags[key], list):
             board_flags[key] = sorted(board_flags[key])
 
-    if (
-        board_flags["gigabyte_wmi"] == "U" and
-        board_name in GIGABYTE_BOARDS
-    ):
+    if board_flags["gigabyte_wmi"] == "U" and board_name in GIGABYTE_BOARDS:
         if board_flags.get("hash"):
             board_flags["gigabyte_wmi"] = "Y"
 
-    if (
-        board_flags["asus_wmi"] == "U" and
-        board_name in WMI_BOARDS
-    ):
+    if board_flags["asus_wmi"] == "U" and board_name in WMI_BOARDS:
         if board_flags.get("hash"):
             board_flags["asus_wmi"] = "Y"
 
-    if (
-        board_flags["asus_nct6775"] == "U" and
-        board_name in NCT6775_BOARDS
-    ):
+    if board_flags["asus_nct6775"] == "U" and board_name in NCT6775_BOARDS:
         if board_flags.get("hash"):
             board_flags["asus_nct6775"] = "Y"
 
-    if (
-        board_flags["asus_ec"] == "U" and
-        board_name in EC_BOARDS
-    ):
+    if board_flags["asus_ec"] == "U" and board_name in EC_BOARDS:
         if board_flags.get("hash"):
             board_flags["asus_ec"] = "Y"
 
     # set upstream ready
     if not board_flags["upstreamed_serie"]:
         if (
-            "ASUS" in board_flags.get("board_producer") and
-            board_flags.get("bridge") in NCT6775_UPSTREAMED_CHIPSETS
+            "ASUS" in board_flags.get("board_producer")
+            and board_flags.get("bridge") in NCT6775_UPSTREAMED_CHIPSETS
         ):
             board_flags["upstreamed_serie"] = True
 
 
 def update_board_asl_flags(board_flags, asl_struct):
     # search name region Gigabyte style
-    blocks = search_block_with_name_parameter(asl_struct, {
-        "operator": "Name",
-        "parameters": "(_UID, \"GSADEV0\")"
-    })
+    blocks = search_block_with_name_parameter(
+        asl_struct, {"operator": "Name", "parameters": '(_UID, "GSADEV0")'}
+    )
     for block in blocks:
-        block_content = block['content']
+        block_content = block["content"]
         if not asl_has_operator_with_params(
-            block_content, {
-                "operator": "Name",
-                "parameters": "(_HID, EisaId (\"PNP0C14\") )"
-            }
+            block_content,
+            {"operator": "Name", "parameters": '(_HID, EisaId ("PNP0C14") )'},
         ):
             continue
         # has convert _WDG -> QWDG
         if not asl_has_operator_with_params(
-            block_content, {
+            block_content,
+            {
                 "operator": "Method",
                 "parameters": "(_WDG, 0, Serialized)",
-                "content": "{\nReturn (QWDG) \n}"
-            }
+                "content": "{\nReturn (QWDG) \n}",
+            },
         ):
             continue
         wdg_content = asl_get_operator_with_params(
-            block_content,
-            "Name", "(QWDG, Buffer ("
+            block_content, "Name", "(QWDG, Buffer ("
         )
         if wdg_content:
-            wmi_methods = decode_buffer_uuid_by_name(
-                wdg_content["parameters"], "QWDG"
-            )
-            str_methods = '\n\t\t'.join(wmi_methods)
-            print (f"\tWMI methods: \n\t\t{str_methods}")
+            wmi_methods = decode_buffer_uuid_by_name(wdg_content["parameters"], "QWDG")
+            str_methods = "\n\t\t".join(wmi_methods)
+            print(f"\tWMI methods: \n\t\t{str_methods}")
             # add methods to flags
             for wmi_method in wmi_methods:
                 if wmi_method not in board_flags["wmi_methods"]:
                     board_flags["wmi_methods"].append(wmi_method)
 
         # check implementation
-        if (
-            check_asl_entrypoint(
-                block_content, board_flags["wmi_methods"],
-                "QWDG:DEADBEEF-2001-0000-00A0-C90629100000", "BB"
-            ) and
-            check_asl_method(block_content, [GIGABYTE_DISPATCHER], count=3)
-        ):
+        if check_asl_entrypoint(
+            block_content,
+            board_flags["wmi_methods"],
+            "QWDG:DEADBEEF-2001-0000-00A0-C90629100000",
+            "BB",
+        ) and check_asl_method(block_content, [GIGABYTE_DISPATCHER], count=3):
             # already upstreamed
             if board_name in GIGABYTE_BOARDS:
                 board_flags["gigabyte_wmi"] = "Y"
@@ -1246,74 +1257,72 @@ def update_board_asl_flags(board_flags, asl_struct):
     # port definition can be anywhere
     region_name = check_asl_290_port(asl_struct)
     if region_name:
-        print (f"\tWMI port region name: {region_name}")
+        print(f"\tWMI port region name: {region_name}")
         board_flags["asus_nct6775_region"] = region_name
         mutex_name = get_asl_nct6775_mutexes_in_block(
-            asl_struct, region_name, ASUS_NCT6775_MUTEX)
+            asl_struct, region_name, ASUS_NCT6775_MUTEX
+        )
         if mutex_name:
-            print (f"\tnct6775 io mutex in region: {mutex_name}")
+            print(f"\tnct6775 io mutex in region: {mutex_name}")
             if not board_flags["asus_nct6775_mutex"]:
                 board_flags["asus_nct6775_mutex"] = mutex_name
 
     port_names = check_asl_290_custom_port(asl_struct)
     if port_names:
-        print (f"\tWMI ports names: {port_names}")
+        print(f"\tWMI ports names: {port_names}")
         board_flags["asus_port290"] = port_names
         if board_flags["asus_nct6775"] == "N":
             # port is defined in some custom way
             board_flags["asus_nct6775"] = "P"
 
-    known_methods = sorted(EC_METHODS +
-                           WMI_METHODS +
-                           NCT6775_METHODS +
-                           NCT6775_REGION_METHODS)
+    known_methods = sorted(
+        EC_METHODS + WMI_METHODS + NCT6775_METHODS + NCT6775_REGION_METHODS
+    )
     for dispatcher in [ASUS_DISPATCHER]:
-        blocks = search_block_with_name_parameter(asl_struct, {
-            "operator": "Method",
-            "parameters": f"({dispatcher}, 3, Serialized)"
-        })
+        blocks = search_block_with_name_parameter(
+            asl_struct,
+            {"operator": "Method", "parameters": f"({dispatcher}, 3, Serialized)"},
+        )
         for block in blocks:
-            block_content = block['content']
+            block_content = block["content"]
             for method in known_methods:
                 if check_asl_methods_dispatcher(
-                    block_content, dispatcher=ASUS_DISPATCHER, methods=[method],
-                    convert=WMI_METHODS_CONVERT
+                    block_content,
+                    dispatcher=ASUS_DISPATCHER,
+                    methods=[method],
+                    convert=WMI_METHODS_CONVERT,
                 ):
                     if method not in board_flags["asus_dispatcher"]:
                         board_flags["asus_dispatcher"].append(method)
-        print (f'\t{dispatcher} dispatched methods: {board_flags["asus_dispatcher"]}')
+        print(f'\t{dispatcher} dispatched methods: {board_flags["asus_dispatcher"]}')
 
     # search name in B550/B650 style
     for uid_name in ASUS_KNOWN_UIDS:
-        blocks = search_block_with_name_parameter(asl_struct, {
-            "operator": "Name",
-            "parameters": f"(_UID, \"{uid_name}\")"
-        })
+        blocks = search_block_with_name_parameter(
+            asl_struct, {"operator": "Name", "parameters": f'(_UID, "{uid_name}")'}
+        )
         for block in blocks:
-            block_content = block['content']
+            block_content = block["content"]
             if not asl_has_operator_with_params(
-                block_content, {
-                    "operator": "Name",
-                    "parameters": "(_HID, EisaId (\"PNP0C14\") )"
-                }
+                block_content,
+                {"operator": "Name", "parameters": '(_HID, EisaId ("PNP0C14") )'},
             ):
                 continue
 
             if uid_name not in board_flags["known_good"]:
                 board_flags["known_good"].append(uid_name)
 
-            print (f"\tCan be: {ASUS_KNOWN_UIDS[uid_name]}")
+            print(f"\tCan be: {ASUS_KNOWN_UIDS[uid_name]}")
 
             wdg_content = asl_get_operator_with_params(
-                block_content,
-                "Name", "(_WDG, Buffer ("
+                block_content, "Name", "(_WDG, Buffer ("
             )
             if wdg_content:
                 wmi_methods = decode_buffer_uuid_by_name(
                     wdg_content["parameters"], "_WDG"
                 )
-                str_methods = '\n\t\t'.join(wmi_methods)
-                print (f"\tWMI methods: \n\t\t{str_methods}")
+                str_methods = "\n\t\t".join(wmi_methods)
+                print(f"\tWMI methods: \n\t\t{str_methods}")
                 # add methods to flags
                 for wmi_method in wmi_methods:
                     if wmi_method not in board_flags["wmi_methods"]:
@@ -1321,41 +1330,45 @@ def update_board_asl_flags(board_flags, asl_struct):
 
             # asus entrypoint
             if check_asl_entrypoint(
-                block_content, board_flags["wmi_methods"],
-                "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66", "BD"
+                block_content,
+                board_flags["wmi_methods"],
+                "_WDG:466747A0-70EC-11DE-8A39-0800200C9A66",
+                "BD",
             ):
                 board_flags["asus_wmi_entrypoint"] = "Y"
 
             # get ec method
-            mutex_name = find_asl_methods_mutex(block_content,
-                                                methods=EC_METHODS,
-                                                known_mutexes=ASUS_EC_MUTEX)
+            mutex_name = find_asl_methods_mutex(
+                block_content, methods=EC_METHODS, known_mutexes=ASUS_EC_MUTEX
+            )
             if mutex_name:
-                print (f"\tEC mutex: {mutex_name}")
+                print(f"\tEC mutex: {mutex_name}")
                 board_flags["asus_ec_mutex"] = mutex_name
 
             # board can use unknown method of define port
-            mutex_name = find_asl_methods_mutex(block_content,
-                                                methods=NCT6775_METHODS,
-                                                known_mutexes=ASUS_NCT6775_MUTEX)
+            mutex_name = find_asl_methods_mutex(
+                block_content, methods=NCT6775_METHODS, known_mutexes=ASUS_NCT6775_MUTEX
+            )
             if mutex_name:
-                print (f"\tNCT6775 mutex: {mutex_name}")
+                print(f"\tNCT6775 mutex: {mutex_name}")
                 board_flags["asus_nct6775_mutex"] = mutex_name
 
             # board can use unknown method of define port
-            mutex_name = find_asl_methods_mutex(block_content,
-                                                methods=WMI_INT_METHODS,
-                                                known_mutexes=ASUS_ITE87_MUTEX,
-                                                count=0)
+            mutex_name = find_asl_methods_mutex(
+                block_content,
+                methods=WMI_INT_METHODS,
+                known_mutexes=ASUS_ITE87_MUTEX,
+                count=0,
+            )
             if mutex_name:
-                print (f"\tITE87 mutex: {mutex_name}")
+                print(f"\tITE87 mutex: {mutex_name}")
                 board_flags["asus_ite87_mutex"] = mutex_name
 
             # Check ec / can be without ntc6775 sensor
             if check_asl_methods_dispatcher(
                 block_content, dispatcher=ASUS_DISPATCHER, methods=EC_METHODS
             ):
-                print (f"\tEC methods by WMI Dispathcer: {EC_METHODS}")
+                print(f"\tEC methods by WMI Dispathcer: {EC_METHODS}")
                 if board_name in EC_BOARDS:
                     board_flags["asus_ec"] = "Y"
                 else:
@@ -1363,11 +1376,12 @@ def update_board_asl_flags(board_flags, asl_struct):
 
             # Check wmi / can be without ntc6775 sensor
             if check_asl_methods_dispatcher(
-                block_content, dispatcher=ASUS_DISPATCHER,
+                block_content,
+                dispatcher=ASUS_DISPATCHER,
                 methods=WMI_METHODS,
-                convert=WMI_METHODS_CONVERT
+                convert=WMI_METHODS_CONVERT,
             ):
-                print (f"\tWMI methods by WMI Dispathcer: {WMI_METHODS}")
+                print(f"\tWMI methods by WMI Dispathcer: {WMI_METHODS}")
                 if board_name in WMI_BOARDS:
                     board_flags["asus_wmi"] = "Y"
                 else:
@@ -1375,13 +1389,16 @@ def update_board_asl_flags(board_flags, asl_struct):
 
             # check nct6775
             if check_asl_methods_dispatcher(
-                block_content, dispatcher=ASUS_DISPATCHER,
+                block_content,
+                dispatcher=ASUS_DISPATCHER,
                 methods=NCT6775_METHODS,
             ):
                 if uid_name not in board_flags["known_good_nct6775"]:
                     board_flags["known_good_nct6775"].append(uid_name)
 
-                print (f"\tNCT6775 {uid_name} methods by WMI Dispathcer: {NCT6775_METHODS}")
+                print(
+                    f"\tNCT6775 {uid_name} methods by WMI Dispathcer: {NCT6775_METHODS}"
+                )
                 if region_name:
                     # already upstreamed
                     if board_name in NCT6775_BOARDS:
@@ -1396,14 +1413,13 @@ def update_board_asl_flags(board_flags, asl_struct):
                 board_flags["asus_nct6775"] = "P"
 
     if (
-        not board_flags.get("asus_nct6775_mutex") and
-        board_flags.get("asus_nct6775") == "P"
+        not board_flags.get("asus_nct6775_mutex")
+        and board_flags.get("asus_nct6775") == "P"
     ):
         # board can use unknown method of define port
-        mutex_name = find_asl_mutex(asl_struct,
-                                    known_mutexes=ASUS_NCT6775_MUTEX)
+        mutex_name = find_asl_mutex(asl_struct, known_mutexes=ASUS_NCT6775_MUTEX)
         if mutex_name:
-            print (f"\tNCT6775 partial mutex: {mutex_name}")
+            print(f"\tNCT6775 partial mutex: {mutex_name}")
             board_flags["asus_nct6775_mutex"] = mutex_name
 
 
@@ -1415,8 +1431,8 @@ def fix_flags(boards_flags):
 
         # check for errors in detect
         if (
-            board_flags["gigabyte_wmi"] not in BOARD_CORRECTLY_DETECTED and
-            board_name in GIGABYTE_BOARDS
+            board_flags["gigabyte_wmi"] not in BOARD_CORRECTLY_DETECTED
+            and board_name in GIGABYTE_BOARDS
         ):
             if board_flags.get("hash"):
                 board_flags["gigabyte_wmi"] += "?"
@@ -1424,8 +1440,8 @@ def fix_flags(boards_flags):
                 board_flags["gigabyte_wmi"] = "L"
 
         if (
-            board_flags["asus_wmi"] not in BOARD_CORRECTLY_DETECTED and
-            board_name in WMI_BOARDS
+            board_flags["asus_wmi"] not in BOARD_CORRECTLY_DETECTED
+            and board_name in WMI_BOARDS
         ):
             if board_flags.get("hash"):
                 board_flags["asus_wmi"] += "?"
@@ -1433,8 +1449,8 @@ def fix_flags(boards_flags):
                 board_flags["asus_wmi"] = "L"
 
         if (
-            board_flags["asus_nct6775"] not in BOARD_CORRECTLY_DETECTED and
-            board_name in NCT6775_BOARDS
+            board_flags["asus_nct6775"] not in BOARD_CORRECTLY_DETECTED
+            and board_name in NCT6775_BOARDS
         ):
             if board_flags.get("hash"):
                 board_flags["asus_nct6775"] += "?"
@@ -1442,8 +1458,8 @@ def fix_flags(boards_flags):
                 board_flags["asus_nct6775"] = "L"
 
         if (
-            board_flags["asus_ec"] not in BOARD_CORRECTLY_DETECTED and
-            board_name in EC_BOARDS
+            board_flags["asus_ec"] not in BOARD_CORRECTLY_DETECTED
+            and board_name in EC_BOARDS
         ):
             if board_flags.get("hash"):
                 board_flags["asus_ec"] += "?"
@@ -1451,14 +1467,14 @@ def fix_flags(boards_flags):
                 board_flags["asus_ec"] = "L"
 
         if (
-            board_flags["asus_ec"] in ("U", "Y") and
-            board_flags["asus_wmi_entrypoint"] == "N"
+            board_flags["asus_ec"] in ("U", "Y")
+            and board_flags["asus_wmi_entrypoint"] == "N"
         ):
             board_flags["asus_ec"] = "W"
 
         if (
-            board_flags["asus_nct6775"] in ("U") and
-            board_flags["asus_wmi"] in BOARD_CORRECTLY_DETECTED
+            board_flags["asus_nct6775"] in ("U")
+            and board_flags["asus_wmi"] in BOARD_CORRECTLY_DETECTED
         ):
             board_flags["asus_nct6775"] = "M"
 
@@ -1500,15 +1516,20 @@ def add_load_flags(boards_flags, board_desc):
             continue
         boards_flags[board_name] = {
             "board_producer": "Gigabyte Technology Co., Ltd."
-                if board_name in GIGABYTE_BOARDS else "ASUSTeK COMPUTER INC."
+            if board_name in GIGABYTE_BOARDS
+            else "ASUSTeK COMPUTER INC."
         }
         set_default_flags(boards_flags[board_name], board_name)
-        boards_flags[board_name].update({
-            "asus_wmi": "L" if board_name in WMI_BOARDS else "N",
-            "gigabyte_wmi": "L" if board_name in GIGABYTE_BOARDS else "N",
-            "asus_nct6775": "L" if board_name in (NCT6775_BOARDS + nct6775_partial) else "N",
-            "asus_ec": "L" if board_name in EC_BOARDS else "N",
-        })
+        boards_flags[board_name].update(
+            {
+                "asus_wmi": "L" if board_name in WMI_BOARDS else "N",
+                "gigabyte_wmi": "L" if board_name in GIGABYTE_BOARDS else "N",
+                "asus_nct6775": "L"
+                if board_name in (NCT6775_BOARDS + nct6775_partial)
+                else "N",
+                "asus_ec": "L" if board_name in EC_BOARDS else "N",
+            }
+        )
 
     # check load from db
     for board_info in board_desc:
@@ -1529,17 +1550,27 @@ def add_load_flags(boards_flags, board_desc):
                         "board_producer": board_producer,
                     }
                     set_default_flags(boards_flags[board_name], board_name)
-                    boards_flags[board_name].update({
-                        "asus_wmi": "N",
-                        "gigabyte_wmi": "N",
-                        "asus_nct6775": "L",
-                        "asus_ec": "N",
-                        "superio": board_superio
-                    })
+                    boards_flags[board_name].update(
+                        {
+                            "asus_wmi": "N",
+                            "gigabyte_wmi": "N",
+                            "asus_nct6775": "L",
+                            "asus_ec": "N",
+                            "superio": board_superio,
+                        }
+                    )
 
 
-def show_board(board_name, board_producer, superio="", asus_wmi="N", gigabyte_wmi="N",
-               asus_nct6775="N", asus_ec="N", system_name=""):
+def show_board(
+    board_name,
+    board_producer,
+    superio="",
+    asus_wmi="N",
+    gigabyte_wmi="N",
+    asus_nct6775="N",
+    asus_ec="N",
+    system_name="",
+):
     if board_producer == "Hewlett-Packard":
         board_producer = "HP"
         # HP has product name in separate field
@@ -1584,13 +1615,13 @@ def update_section(section, desc):
     pos = content.find(search_code)
     if pos < 0:
         return
-    result = content[:pos+len(search_code)]
-    content = content[pos+len(search_code):]
+    result = content[: pos + len(search_code)]
+    content = content[pos + len(search_code) :]
     result += desc
     pos = content.find("\n};\n")
     if pos < 0:
         return
-    result += content[pos + 1:]
+    result += content[pos + 1 :]
     file_write_with_changes("docs/nct6775-platform.c", result.strip() + "\n")
 
 
@@ -1601,13 +1632,13 @@ def update_mutex_section(desc):
     pos = content.find(search_code)
     if pos < 0:
         return
-    result = content[:pos+len(search_code)]
-    content = content[pos+len(search_code):]
+    result = content[: pos + len(search_code)]
+    content = content[pos + len(search_code) :]
     result += desc
     pos = content.find("\n\t{}\n};\n")
     if pos < 0:
         return
-    result += content[pos + 1:]
+    result += content[pos + 1 :]
     file_write_with_changes("docs/nct6775-platform.c", result.strip() + "\n")
 
 
@@ -1640,9 +1671,10 @@ def print_boards(boards_flags):
     for board_name in boards_flags:
         board_flags = boards_flags[board_name]
 
-        if (
-            board_flags.get("known_good_nct6775") and
-            board_flags["asus_nct6775"] in ("M", "U", "Y")
+        if board_flags.get("known_good_nct6775") and board_flags["asus_nct6775"] in (
+            "M",
+            "U",
+            "Y",
         ):
             # nextgen patch required
             for name in board_flags["known_good_nct6775"]:
@@ -1653,34 +1685,34 @@ def print_boards(boards_flags):
 
     desc = ""
     desc += show_board(
-            board_name="board name",
-            board_producer="made by",
-            superio="superio",
-            asus_wmi="asus-wmi",
-            asus_nct6775="nct6775",
-            asus_ec="asus-ec",
-            gigabyte_wmi="gigabyte-wmi"
+        board_name="board name",
+        board_producer="made by",
+        superio="superio",
+        asus_wmi="asus-wmi",
+        asus_nct6775="nct6775",
+        asus_ec="asus-ec",
+        gigabyte_wmi="gigabyte-wmi",
     )
     desc += "\n"
     desc += show_board(
-            board_name="-" * 35,
-            board_producer="-" * 9,
-            superio="-" * 10,
-            asus_wmi="-" * 12,
-            asus_nct6775="-"  * 12,
-            asus_ec="-" * 12,
-            gigabyte_wmi="-" * 12
+        board_name="-" * 35,
+        board_producer="-" * 9,
+        superio="-" * 10,
+        asus_wmi="-" * 12,
+        asus_nct6775="-" * 12,
+        asus_ec="-" * 12,
+        gigabyte_wmi="-" * 12,
     )
     desc += "\n"
     for board_name in sorted(boards_flags.keys()):
         board_flags = boards_flags[board_name]
 
-        asus_wmi=board_flags["asus_wmi"]
+        asus_wmi = board_flags["asus_wmi"]
         asus_nct6775 = board_flags["asus_nct6775"]
         if not board_flags.get("hash"):
             if board_flags.get("links"):
                 asus_nct6775 = "F"
-                asus_wmi= "F"
+                asus_wmi = "F"
             else:
                 asus_nct6775 = "L"
                 asus_wmi = "L"
@@ -1692,13 +1724,13 @@ def print_boards(boards_flags):
             asus_wmi=asus_wmi,
             asus_nct6775=asus_nct6775,
             asus_ec=board_flags["asus_ec"],
-            gigabyte_wmi=board_flags["gigabyte_wmi"]
+            gigabyte_wmi=board_flags["gigabyte_wmi"],
         )
         desc += "\n"
     # print (desc)
     update_readme(desc)
 
-    print ("Boards with nct6775 for nextgen:")
+    print("Boards with nct6775 for nextgen:")
     for name in nextgen_required:
         asus_wmi_section = ""
         for board_name in sorted(nextgen_required[name]):
@@ -1714,10 +1746,10 @@ def print_boards(boards_flags):
             else:
                 asus_wmi_section += f'\t"{board_name}",\n'
         update_section(name, asus_wmi_section)
-        print (f"\tDevice name updated: '{name}'")
+        print(f"\tDevice name updated: '{name}'")
         # print (asus_wmi_section)
 
-    print ("Boards with nct6775 with mutex update")
+    print("Boards with nct6775 with mutex update")
     desc = ""
     for board_name in sorted(boards_flags.keys()):
         board_flags = boards_flags[board_name]
@@ -1726,18 +1758,24 @@ def print_boards(boards_flags):
             continue
 
         if (
-            board_flags["asus_nct6775"] in ("P", "M") and
-            board_flags["asus_nct6775_mutex"]
+            board_flags["asus_nct6775"] in ("P", "M")
+            and board_flags["asus_nct6775_mutex"]
         ):
-            if board_flags.get('board_producer') == 'ASUSTeK Computer INC.':
-                desc += (f'\tDMI_MATCH_ASUS_NONWMI_BOARD("{board_name}", '
-                         f'&{ASUS_NCT6775_MUTEX_CODENAME.get(board_flags["asus_nct6775_mutex"], "")}),\n')
-            elif board_flags.get('board_producer') == 'ASUSTeK COMPUTER INC.':
-                desc += (f'\tDMI_MATCH_ASUS_WMI_BOARD("{board_name}", '
-                         f'&{ASUS_NCT6775_MUTEX_CODENAME.get(board_flags["asus_nct6775_mutex"], "")}),\n')
-            elif board_flags.get('board_producer') == 'ASRock':
-                desc += (f'\tDMI_MATCH_ASROCK_WMI_BOARD("{board_name}", '
-                         f'&{ASUS_NCT6775_MUTEX_CODENAME.get(board_flags["asus_nct6775_mutex"], "")}),\n')
+            if board_flags.get("board_producer") == "ASUSTeK Computer INC.":
+                desc += (
+                    f'\tDMI_MATCH_ASUS_NONWMI_BOARD("{board_name}", '
+                    f'&{ASUS_NCT6775_MUTEX_CODENAME.get(board_flags["asus_nct6775_mutex"], "")}),\n'
+                )
+            elif board_flags.get("board_producer") == "ASUSTeK COMPUTER INC.":
+                desc += (
+                    f'\tDMI_MATCH_ASUS_WMI_BOARD("{board_name}", '
+                    f'&{ASUS_NCT6775_MUTEX_CODENAME.get(board_flags["asus_nct6775_mutex"], "")}),\n'
+                )
+            elif board_flags.get("board_producer") == "ASRock":
+                desc += (
+                    f'\tDMI_MATCH_ASROCK_WMI_BOARD("{board_name}", '
+                    f'&{ASUS_NCT6775_MUTEX_CODENAME.get(board_flags["asus_nct6775_mutex"], "")}),\n'
+                )
     update_mutex_section(desc)
 
 
@@ -1807,7 +1845,6 @@ def update_superio_by_bridge(boards_flags):
 
 
 if __name__ == "__main__":
-
     # resort board names
     for chip in ASUS_BOARDS:
         names = []
@@ -1816,8 +1853,8 @@ if __name__ == "__main__":
                 names.append(name)
         ASUS_BOARDS[chip] = sorted(names)
 
-    print ("Known boards bridges")
-    print (json.dumps(ASUS_BOARDS, sort_keys=True, indent=4))
+    print("Known boards bridges")
+    print(json.dumps(ASUS_BOARDS, sort_keys=True, indent=4))
 
     current_dir = "."
     if len(sys.argv) > 1:
@@ -1827,7 +1864,7 @@ if __name__ == "__main__":
     for dirname, _, filenames in os.walk(current_dir):
         # print path to all filenames.
         for filename in filenames:
-            if filename.endswith('.dsl'):
+            if filename.endswith(".dsl"):
                 count_files += 1
 
     board_desc = []
@@ -1855,30 +1892,33 @@ if __name__ == "__main__":
             alias_to_name[alias] = name
         board_flags = boards_flags[name]
         if (
-            board_has_nct6775(board_flags["superio"]) and
-            board_flags.get("asus_wmi_entrypoint") == "Y" and
-            not board_flags.get("known_good") and
-            not board_flags.get("known_good_nct6775")
+            board_has_nct6775(board_flags["superio"])
+            and board_flags.get("asus_wmi_entrypoint") == "Y"
+            and not board_flags.get("known_good")
+            and not board_flags.get("known_good_nct6775")
         ):
             board_flags["hash"] = []
-            print (f"Need revalidate {name}")
+            print(f"Need revalidate {name}")
 
     for board_load_link in LINKS:
         filename = board_load_link.split("/")[-1]
         file_parts = filename.split(".")
         if len(file_parts) != 2:
-            print (f"Uknown file name format: {filename}")
+            print(f"Uknown file name format: {filename}")
             continue
         if file_parts[-1].lower() != "zip":
-            print (f"Not zip? {file_parts[-1]}")
+            print(f"Not zip? {file_parts[-1]}")
             continue
         # gigabyte fix
         for prefix in ["mb_bios_", "b_bios_"]:
             if file_parts[0].startswith(prefix):
-                file_parts[0] = file_parts[0][len(prefix):] + "-GIGABYTE"
+                file_parts[0] = file_parts[0][len(prefix) :] + "-GIGABYTE"
         # convert names
-        (board_name, board_version,
-         bridge_chipset, board_producer
+        (
+            board_name,
+            board_version,
+            bridge_chipset,
+            board_producer,
         ) = file_name_to_board_name(file_parts[0], alias_to_name)
 
         # create flags struct
@@ -1903,13 +1943,13 @@ if __name__ == "__main__":
             board_flags["aliases"].append(file_parts[0])
         board_flags["aliases"] = sorted(board_flags["aliases"])
 
-        print (f"To {board_name} added {board_load_link}")
+        print(f"To {board_name} added {board_load_link}")
 
     try:
         with open("methods.json", "rb") as f:
             method_dumps.update(json.loads(f.read().decode("utf8")))
     except Exception as ex:
-        print (f"Could not read methods.json: {ex}")
+        print(f"Could not read methods.json: {ex}")
 
     # Load linux hw DMI database
     for row in load_linuxhw_DMI():
@@ -1919,11 +1959,11 @@ if __name__ == "__main__":
             "ASRock",
             "Gigabyte Technology Co., Ltd.",
             "Hewlett-Packard",
-            "LENOVO"
+            "LENOVO",
         ):
             continue
         board_desc.append(row)
-    print (f"Loaded cleanuped {len(board_desc)} boards descriptions.")
+    print(f"Loaded cleanuped {len(board_desc)} boards descriptions.")
 
     # update superio
     for board_name in boards_flags:
@@ -1931,36 +1971,41 @@ if __name__ == "__main__":
         # set chip value strict
         for board_info in board_desc:
             if (
-                board_info[0] == board_flags["board_producer"] and
-                board_info[1].upper() == board_name.upper()
+                board_info[0] == board_flags["board_producer"]
+                and board_info[1].upper() == board_name.upper()
             ):
                 if board_info[2]:
                     board_flags["superio"] = board_info[2]
                 if board_info[1] != board_name:
-                    print (f"\tDatabase has different name {board_info[1]} != {board_name}")
+                    print(
+                        f"\tDatabase has different name {board_info[1]} != {board_name}"
+                    )
                 break
 
     processed_files = 0
     for dirname, _, filenames in os.walk(current_dir):
         # print path to all filenames.
         for filename in filenames:
-            if filename.endswith('.dsl'):
+            if filename.endswith(".dsl"):
                 file_parts = filename.split(".")
                 if len(file_parts) != 3:
-                    print (f"Can't parse filename: '{dirname}/{filename}'")
+                    print(f"Can't parse filename: '{dirname}/{filename}'")
 
                 board_hash = file_parts[1]
 
-                (board_name, board_version,
-                 bridge_chipset, board_producer
+                (
+                    board_name,
+                    board_version,
+                    bridge_chipset,
+                    board_producer,
                 ) = file_name_to_board_name(file_parts[0], alias_to_name)
 
                 processed_files += 1
-                print (f"Board: {board_name}")
-                print (f"Progress: {round(processed_files * 100 / count_files, 2)}%")
-                print (f"\tVersion: {board_version}")
-                print (f"\tRevision: {board_hash}")
-                print (f"\tProducer: {board_producer}")
+                print(f"Board: {board_name}")
+                print(f"Progress: {round(processed_files * 100 / count_files, 2)}%")
+                print(f"\tVersion: {board_version}")
+                print(f"\tRevision: {board_hash}")
+                print(f"\tProducer: {board_producer}")
 
                 content = None
                 with open(f"{dirname}/{filename}", "br") as f:
@@ -1970,7 +2015,7 @@ if __name__ == "__main__":
                     continue
 
                 start_time = time.time()
-                print (f"\tInitial size: {len(content)}")
+                print(f"\tInitial size: {len(content)}")
                 # create flags struct
                 if board_name not in boards_flags:
                     boards_flags[board_name] = {
@@ -1993,27 +2038,28 @@ if __name__ == "__main__":
                 # set chip value strict
                 for board_info in board_desc:
                     if (
-                        board_info[0] == board_flags["board_producer"] and
-                        board_info[1].upper() == board_name.upper()
+                        board_info[0] == board_flags["board_producer"]
+                        and board_info[1].upper() == board_name.upper()
                     ):
                         board_flags["superio"] = board_info[2]
-                        print (f"\tSuper I/O: {board_info[2]}")
+                        print(f"\tSuper I/O: {board_info[2]}")
                         if len(board_info) > 4:
                             board_flags["system_name"] = board_info[4]
                         if board_info[1] != board_name:
-                            print (f"\tDatabase has different name {board_info[1]} != {board_name}")
+                            print(
+                                f"\tDatabase has different name {board_info[1]} != {board_name}"
+                            )
                         break
 
                 # set chip value like base version
                 if not board_flags["superio"]:
                     for board_info in board_desc:
-                        if (
-                            board_info[0] == board_flags["board_producer"] and
-                            board_name.upper().startswith(board_info[1].upper())
-                        ):
+                        if board_info[0] == board_flags[
+                            "board_producer"
+                        ] and board_name.upper().startswith(board_info[1].upper()):
                             if board_info[2]:
                                 board_flags["superio"] = board_info[2]
-                                print (f"\tSuper I/O: {board_info[2]}")
+                                print(f"\tSuper I/O: {board_info[2]}")
                                 break
 
                 if not board_flags.get("hash"):
@@ -2022,21 +2068,22 @@ if __name__ == "__main__":
                     # clean up hashes
                     hashes = []
                     for content_hash in board_flags["hash"]:
-                         if content_hash not in hashes:
-                             hashes.append(content_hash)
+                        if content_hash not in hashes:
+                            hashes.append(content_hash)
                     board_flags["hash"] = hashes
 
                 content_without_file_name = "\n".join(
                     [
-                        line for line in content.split("\n")
+                        line
+                        for line in content.split("\n")
                         if not line.startswith(" * Disassembly of ")
                     ]
                 )
 
                 content_hash = hashlib.md5(
-                    content_without_file_name.encode('utf-8')
+                    content_without_file_name.encode("utf-8")
                 ).hexdigest()
-                print (f"\tmd5: {content_hash}")
+                print(f"\tmd5: {content_hash}")
 
                 if content_hash in board_flags["hash"]:
                     continue
@@ -2049,15 +2096,14 @@ if __name__ == "__main__":
                 asl_struct = parse_asl(content)
                 if os.environ.get("DEBUG"):
                     # check dumps clenaup
-                    with open(f"{dirname}/{file_parts[0]}.{file_parts[1]}.json", "bw") as f:
-                        f.write(json.dumps(
-                                asl_struct, indent=4
-                            ).encode("utf8")
-                        )
+                    with open(
+                        f"{dirname}/{file_parts[0]}.{file_parts[1]}.json", "bw"
+                    ) as f:
+                        f.write(json.dumps(asl_struct, indent=4).encode("utf8"))
 
                 update_board_asl_flags(board_flags, asl_struct)
 
-                print (f"\tProcess time: {round(time.time() - start_time, 3)}")
+                print(f"\tProcess time: {round(time.time() - start_time, 3)}")
 
     update_superio_by_bridge(boards_flags)
 
@@ -2071,5 +2117,5 @@ if __name__ == "__main__":
     # show results
     add_load_flags(boards_flags, board_desc)
     fix_flags(boards_flags)
-    print (f"Boards: {len(boards_flags.keys())}")
+    print(f"Boards: {len(boards_flags.keys())}")
     print_boards(boards_flags)

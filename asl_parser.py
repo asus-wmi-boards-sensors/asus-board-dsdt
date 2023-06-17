@@ -32,13 +32,13 @@ def skip_empty_text(buf):
     while buf and buf[pos] in (string.whitespace + "/"):
         if buf[pos] in string.whitespace:
             pos += 1
-        elif buf[pos:pos + 2] == "//":
+        elif buf[pos : pos + 2] == "//":
             end_pos = buf.find("\n", pos + 2)
             if end_pos == -1:
                 return ""
             else:
                 pos = end_pos + 1
-        elif buf[pos:pos + 2] == "/*":
+        elif buf[pos : pos + 2] == "/*":
             end_pos = buf.find("*/", pos + 2)
             if end_pos == -1:
                 return ""
@@ -77,8 +77,8 @@ def select_open_close(buf):
         if buf[pos] in brakets:
             brakets[buf[pos]] += 1
             pos += 1
-        elif buf[pos] == "\"":
-            end_pos = buf.find("\"", pos + 1)
+        elif buf[pos] == '"':
+            end_pos = buf.find('"', pos + 1)
             if end_pos == -1:
                 return buf.strip(), ""
             else:
@@ -93,22 +93,22 @@ def select_open_close(buf):
         elif buf[pos] == ")":
             brakets["("] -= 1
             pos += 1
-        elif buf[pos:pos + 2] == "//":
+        elif buf[pos : pos + 2] == "//":
             end_pos = buf.find("\n", pos + 2)
             if end_pos == -1:
                 return buf[:pos], ""
             else:
                 buf_beg = buf[:pos]
-                buf_end = buf[end_pos + 1:]
+                buf_end = buf[end_pos + 1 :]
                 buf = buf_beg + buf_end
                 str_len = len(buf)
-        elif buf[pos:pos + 2] == "/*":
+        elif buf[pos : pos + 2] == "/*":
             end_pos = buf.find("*/", pos + 2)
             if end_pos == -1:
                 return buf[:pos], ""
             else:
                 buf_beg = buf[:pos]
-                buf_end = buf[end_pos + 2:]
+                buf_end = buf[end_pos + 2 :]
                 buf = buf_beg + buf_end
                 str_len = len(buf)
         else:
@@ -124,6 +124,7 @@ def select_open_close(buf):
 
     return buf[:pos].strip(), buf[pos:]
 
+
 def parse_block(buf, path=None):
     result = {}
 
@@ -133,8 +134,15 @@ def parse_block(buf, path=None):
     result["path"] = path
     buf = skip_empty_text(buf)
     if operator in [
-        "DefinitionBlock", "Scope", "Device", "PowerResource", "Processor",
-        "If", "Else", "ElseIf", "ThermalZone"
+        "DefinitionBlock",
+        "Scope",
+        "Device",
+        "PowerResource",
+        "Processor",
+        "If",
+        "Else",
+        "ElseIf",
+        "ThermalZone",
     ]:
         # Else does not have parameters
         if operator not in ["Else"]:
@@ -175,10 +183,9 @@ def parse_block(buf, path=None):
     # call function in scope
     elif operator.startswith("\\"):
         result["parameters"], buf = select_open_close(buf)
-    elif (
-        operator in ["Zero", "Noop"] or
-        (operator.startswith("0x") and len(operator) == 10) # some raw command
-    ):
+    elif operator in ["Zero", "Noop"] or (
+        operator.startswith("0x") and len(operator) == 10
+    ):  # some raw command
         # noop
         pass
     else:
@@ -231,9 +238,9 @@ def asl_has_operator_with_params(asl_struct, asl_dict, whole=False):
 def asl_get_operator_with_params(asl_struct, operator, params):
     for el in asl_struct:
         if (
-            el.get("operator") == operator and
-            isinstance(el.get("parameters"), str) and
-            el.get("parameters", "").startswith(params)
+            el.get("operator") == operator
+            and isinstance(el.get("parameters"), str)
+            and el.get("parameters", "").startswith(params)
         ):
             return el
     else:
@@ -251,14 +258,18 @@ def search_block_with_name_parameter(asl_struct, asl_dict, parent=True):
                 results += res
     elif isinstance(asl_struct, dict):
         if "content" in asl_struct and isinstance(asl_struct["content"], list):
-            el = asl_has_operator_with_params(asl_struct["content"], asl_dict, whole=not parent)
+            el = asl_has_operator_with_params(
+                asl_struct["content"], asl_dict, whole=not parent
+            )
             if el:
                 if parent:
                     results.append(asl_struct)
                 else:
                     results += el
             # go deeper
-            res = search_block_with_name_parameter(asl_struct["content"], asl_dict, parent)
+            res = search_block_with_name_parameter(
+                asl_struct["content"], asl_dict, parent
+            )
             if res:
                 results += res
     return results
@@ -276,9 +287,9 @@ def decode_buffer_uuid_by_name(content, name):
     # search buffer values end
     end_wdg = content.find("}", start_wdg + 1)
     if end_wdg == -1:
-       end_wdg = len(content) + 1
+        end_wdg = len(content) + 1
     # get buffer
-    wdg_content = content[start_wdg + 1:end_wdg - 1]
+    wdg_content = content[start_wdg + 1 : end_wdg - 1]
     # get left values
     content = content[end_wdg:]
     # remove whitespaces
@@ -307,9 +318,7 @@ def decode_buffer_uuid_by_name(content, name):
         uuid_str.append(begin_uuid[0:4])
         uuid_str.append(end_uuid[0:4])
         uuid_str.append(end_uuid[4:16])
-        result.append(
-            f"{name}:{'-'.join(uuid_str)}:{end_uuid[16:20]}:{end_uuid[20:]}"
-        )
+        result.append(f"{name}:{'-'.join(uuid_str)}:{end_uuid[16:20]}:{end_uuid[20:]}")
         values_combined = values_combined[40:]
 
     return result

@@ -37,7 +37,7 @@ ASUS_BOARDS = {
         "PRIME A320M-K",
         "PRIME A320M-K/BR",
         "PRIME A320M-R",
-        "PRO A320M-R WI-FI"
+        "PRO A320M-R WI-FI",
     ],
     "A520": [
         "PRIME A520M-A",
@@ -48,24 +48,17 @@ ASUS_BOARDS = {
         "Pro A520M-C II",
         "TUF GAMING A520M-PLUS",
         "TUF GAMING A520M-PLUS II",
-        "TUF GAMING A520M-PLUS WIFI"
+        "TUF GAMING A520M-PLUS WIFI",
     ],
-    "A620": [
-        "PRIME A620M-A",
-        "TUF GAMING A620M-PLUS",
-        "TUF GAMING A620M-PLUS WIFI"
-    ],
-    "A68H": [
-        "A68HM-K",
-        "A68HM-PLUS"
-    ],
+    "A620": ["PRIME A620M-A", "TUF GAMING A620M-PLUS", "TUF GAMING A620M-PLUS WIFI"],
+    "A68H": ["A68HM-K", "A68HM-PLUS"],
     "B150": [
         "B150 PRO GAMING",
         "B150 PRO GAMING D3",
         "B150 PRO GAMING/AURA",
         "B150I PRO GAMING/AURA",
         "B150I PRO GAMING/WIFI/AURA",
-        "B150M PRO GAMING"
+        "B150M PRO GAMING",
     ],
     "B250": [
         "B250 MINING EXPERT",
@@ -78,14 +71,14 @@ ASUS_BOARDS = {
         "PRIME B250M-PLUS",
         "STRIX B250F GAMING",
         "STRIX B250G GAMING",
-        "STRIX B250H GAMING"
+        "STRIX B250H GAMING",
     ],
     "B350": [
         "PRIME B350-PLUS",
         "PRIME B350M-A",
         "PRIME B350M-E",
         "PRIME B350M-K",
-        "TUF B350M-PLUS GAMING"
+        "TUF B350M-PLUS GAMING",
     ],
     "B360": [
         "EX-B360M-V",
@@ -104,7 +97,7 @@ ASUS_BOARDS = {
         "TUF B360-PRO GAMING",
         "TUF B360-PRO GAMING (WI-FI)",
         "TUF B360M-PLUS GAMING",
-        "TUF B360M-PLUS GAMING S"
+        "TUF B360M-PLUS GAMING S",
     ],
     "B365": [
         "EX-B365M-V",
@@ -116,7 +109,7 @@ ASUS_BOARDS = {
         "ROG STRIX B365-F GAMING",
         "ROG STRIX B365-G GAMING",
         "TUF B365-PLUS GAMING",
-        "TUF B365M-PLUS GAMING"
+        "TUF B365M-PLUS GAMING",
     ],
     "B450": [
         "B450M-DRAGON",
@@ -136,7 +129,7 @@ ASUS_BOARDS = {
         "TUF GAMING B450-PLUS II",
         "TUF GAMING B450M-PLUS II",
         "TUF GAMING B450M-PRO II",
-        "TUF GAMING B450M-PRO S"
+        "TUF GAMING B450M-PRO S",
     ],
     "B460": [
         "EX-B460M-V5",
@@ -154,7 +147,7 @@ ASUS_BOARDS = {
         "TUF GAMING B460-PRO (WI-FI)",
         "TUF GAMING B460M-PLUS",
         "TUF GAMING B460M-PLUS (WI-FI)",
-        "TUF GAMING B460M-PRO"
+        "TUF GAMING B460M-PRO",
     ],
     "B550": [
         "PRIME B550-PLUS",
@@ -182,7 +175,7 @@ ASUS_BOARDS = {
         "TUF GAMING B550M-E WIFI",
         "TUF GAMING B550M-PLUS",
         "TUF GAMING B550M-PLUS (WI-FI)",
-        "TUF GAMING B550M-PLUS WIFI II"
+        "TUF GAMING B550M-PLUS WIFI II",
     ],
     "B560": [
         "B560M-P",
@@ -202,7 +195,7 @@ ASUS_BOARDS = {
         "TUF GAMING B560-PLUS WIFI",
         "TUF GAMING B560M-E",
         "TUF GAMING B560M-PLUS",
-        "TUF GAMING B560M-PLUS WIFI"
+        "TUF GAMING B560M-PLUS WIFI",
     ],
     "B650": [
         "PRIME B650-PLUS",
@@ -220,7 +213,7 @@ ASUS_BOARDS = {
         "TUF GAMING B650-PLUS",
         "TUF GAMING B650-PLUS WIFI",
         "TUF GAMING B650M-PLUS",
-        "TUF GAMING B650M-PLUS WIFI"
+        "TUF GAMING B650M-PLUS WIFI",
     ],
     "B660": [
         "EX-B660M-V5 D4",
@@ -237,7 +230,7 @@ ASUS_BOARDS = {
         "ROG STRIX B660-I GAMING WIFI",
         "TUF GAMING B660-PLUS WIFI D4",
         "TUF GAMING B660M-E D4",
-        "TUF GAMING B660M-PLUS WIFI"
+        "TUF GAMING B660M-PLUS WIFI",
     ],
     "B760": [
         "EX-B760M-V5 D4",
@@ -267,23 +260,11 @@ ASUS_BOARDS = {
         "TUF GAMING B760M-PLUS",
         "TUF GAMING B760M-PLUS D4",
         "TUF GAMING B760M-PLUS WIFI",
-        "TUF GAMING B760M-PLUS WIFI D4"
+        "TUF GAMING B760M-PLUS WIFI D4",
     ],
-    "C246": [
-        "Pro WS C246-ACE",
-        "WS C246 PRO",
-        "WS C246M PRO"
-    ],
-    "C422": [
-        "Pro WS C422-ACE",
-        "WS C422 DC",
-        "WS C422 PRO/SE",
-        "WS C422 SAGE/10G"
-    ],
-    "C621": [
-        "ROG DOMINUS EXTREME",
-        "WS C621E SAGE"
-    ],
+    "C246": ["Pro WS C246-ACE", "WS C246 PRO", "WS C246M PRO"],
+    "C422": ["Pro WS C422-ACE", "WS C422 DC", "WS C422 PRO/SE", "WS C422 SAGE/10G"],
+    "C621": ["ROG DOMINUS EXTREME", "WS C621E SAGE"],
     "H110": [
         "H110-PLUS",
         "H110I-PLUS",
@@ -309,14 +290,14 @@ ASUS_BOARDS = {
         "H110S2",
         "H110T",
         "PRIME H110M-P",
-        "PRIME H110M2"
+        "PRIME H110M2",
     ],
     "H270": [
         "PRIME H270-PLUS",
         "PRIME H270-PRO",
         "PRIME H270M-PLUS",
         "STRIX H270F GAMING",
-        "STRIX H270I GAMING"
+        "STRIX H270I GAMING",
     ],
     "H310": [
         "EX-H310M-V3 R2.0",
@@ -350,7 +331,7 @@ ASUS_BOARDS = {
         "TUF H310-PLUS GAMING",
         "TUF H310M-PLUS GAMING",
         "TUF H310M-PLUS GAMING R2.0",
-        "TUF H310M-PLUS GAMING/BR"
+        "TUF H310M-PLUS GAMING/BR",
     ],
     "H370": [
         "PRIME H370-A",
@@ -359,7 +340,7 @@ ASUS_BOARDS = {
         "ROG STRIX H370-F GAMING",
         "ROG STRIX H370-I GAMING",
         "TUF H370-PRO GAMING",
-        "TUF H370-PRO GAMING (WI-FI)"
+        "TUF H370-PRO GAMING (WI-FI)",
     ],
     "H410": [
         "EX-H410M-V3",
@@ -371,14 +352,14 @@ ASUS_BOARDS = {
         "PRIME H410M-K",
         "PRIME H410M-K R2.0",
         "PRO H410M-C",
-        "PRO H410T"
+        "PRO H410T",
     ],
     "H470": [
         "PRIME H470-PLUS",
         "PRIME H470M-PLUS",
         "ROG STRIX H470-I GAMING",
         "TUF GAMING H470-PRO",
-        "TUF GAMING H470-PRO (WI-FI)"
+        "TUF GAMING H470-PRO (WI-FI)",
     ],
     "H510": [
         "EX-H510M-V3",
@@ -390,13 +371,13 @@ ASUS_BOARDS = {
         "PRIME H510M-K",
         "PRIME H510M-K R2.0",
         "Pro H510M-C",
-        "Pro H510M-CT"
+        "Pro H510M-CT",
     ],
     "H570": [
         "PRIME H570-PLUS",
         "PRIME H570M-PLUS",
         "TUF GAMING H570-PRO",
-        "TUF GAMING H570-PRO WIFI"
+        "TUF GAMING H570-PRO WIFI",
     ],
     "H61": [
         "H61M-A",
@@ -447,7 +428,7 @@ ASUS_BOARDS = {
         "P8H61-MX USB3",
         "P8H61-V",
         "P8H61/USB3",
-        "P8H61/USB3 R2.0"
+        "P8H61/USB3 R2.0",
     ],
     "H610": [
         "EX-H610M-V3 D4",
@@ -462,16 +443,10 @@ ASUS_BOARDS = {
         "Pro H610M-C",
         "Pro H610M-C D4",
         "Pro H610M-CT D4",
-        "Pro H610T D4"
+        "Pro H610T D4",
     ],
-    "H670": [
-        "PRIME H670-PLUS D4",
-        "TUF GAMING H670-PRO WIFI D4"
-    ],
-    "H770": [
-        "PRIME H770-PLUS D4",
-        "TUF GAMING H770-PRO WIFI"
-    ],
+    "H670": ["PRIME H670-PLUS D4", "TUF GAMING H670-PRO WIFI D4"],
+    "H770": ["PRIME H770-PLUS D4", "TUF GAMING H770-PRO WIFI"],
     "H81": [
         "H81-GAMER",
         "H81-PLUS",
@@ -492,44 +467,24 @@ ASUS_BOARDS = {
         "H81M-R",
         "H81M-V3",
         "H81M2",
-        "H81T"
+        "H81T",
     ],
-    "Q270": [
-        "PRIME Q270M-C"
-    ],
-    "Q370": [
-        "PRIME Q370M-C",
-        "Q370I-IM-A R2.0"
-    ],
-    "Q470": [
-        "PRO Q470M-C"
-    ],
-    "Q670": [
-        "Pro Q670M-C"
-    ],
+    "Q270": ["PRIME Q270M-C"],
+    "Q370": ["PRIME Q370M-C", "Q370I-IM-A R2.0"],
+    "Q470": ["PRO Q470M-C"],
+    "Q670": ["Pro Q670M-C"],
     "TRX40": [
         "PRIME TRX40-PRO",
         "PRIME TRX40-PRO S",
         "ROG STRIX TRX40-E GAMING",
         "ROG STRIX TRX40-XE GAMING",
         "ROG ZENITH II EXTREME",
-        "ROG ZENITH II EXTREME ALPHA"
+        "ROG ZENITH II EXTREME ALPHA",
     ],
-    "W480": [
-        "Pro WS W480-ACE"
-    ],
-    "W680": [
-        "Pro WS W680-ACE",
-        "Pro WS W680-ACE IPMI"
-    ],
-    "W790": [
-        "Pro WS W790-ACE",
-        "Pro WS W790E-SAGE SE"
-    ],
-    "WRX80": [
-        "Pro WS WRX80E-SAGE SE WIFI",
-        "Pro WS WRX80E-SAGE SE WIFI II"
-    ],
+    "W480": ["Pro WS W480-ACE"],
+    "W680": ["Pro WS W680-ACE", "Pro WS W680-ACE IPMI"],
+    "W790": ["Pro WS W790-ACE", "Pro WS W790E-SAGE SE"],
+    "WRX80": ["Pro WS WRX80E-SAGE SE WIFI", "Pro WS WRX80E-SAGE SE WIFI II"],
     "X299": [
         "PRIME X299 EDITION 30",
         "PRIME X299-A",
@@ -548,7 +503,7 @@ ASUS_BOARDS = {
         "WS X299 PRO",
         "WS X299 PRO/SE",
         "WS X299 SAGE",
-        "WS X299 SAGE/10G"
+        "WS X299 SAGE/10G",
     ],
     "X370": [
         "CROSSHAIR VI HERO",
@@ -557,13 +512,13 @@ ASUS_BOARDS = {
         "ROG CROSSHAIR VI EXTREME",
         "ROG CROSSHAIR VI HERO (WI-FI AC)",
         "ROG STRIX X370-F GAMING",
-        "ROG STRIX X370-I GAMING"
+        "ROG STRIX X370-I GAMING",
     ],
     "X399": [
         "PRIME X399-A",
         "ROG STRIX X399-E GAMING",
         "ROG ZENITH EXTREME",
-        "ROG ZENITH EXTREME ALPHA"
+        "ROG ZENITH EXTREME ALPHA",
     ],
     "X470": [
         "PRIME X470-PRO",
@@ -571,7 +526,7 @@ ASUS_BOARDS = {
         "ROG CROSSHAIR VII HERO (WI-FI)",
         "ROG STRIX X470-F GAMING",
         "ROG STRIX X470-I GAMING",
-        "TUF X470-PLUS GAMING"
+        "TUF X470-PLUS GAMING",
     ],
     "X570": [
         "PRIME X570-P",
@@ -590,11 +545,9 @@ ASUS_BOARDS = {
         "TUF GAMING X570-PLUS",
         "TUF GAMING X570-PLUS (WI-FI)",
         "TUF GAMING X570-PRO (WI-FI)",
-        "TUF GAMING X570-PRO WIFI II"
+        "TUF GAMING X570-PRO WIFI II",
     ],
-    "X58": [
-        "RAMPAGE III BLACK EDITION"
-    ],
+    "X58": ["RAMPAGE III BLACK EDITION"],
     "X670": [
         "PRIME X670-P",
         "PRIME X670-P WIFI",
@@ -608,19 +561,15 @@ ASUS_BOARDS = {
         "ROG STRIX X670E-F GAMING WIFI",
         "ROG STRIX X670E-I GAMING WIFI",
         "TUF GAMING X670E-PLUS",
-        "TUF GAMING X670E-PLUS WIFI"
+        "TUF GAMING X670E-PLUS WIFI",
     ],
     "X79": [
         "RAMPAGE IV BLACK EDITION",
         "RAMPAGE IV EXTREME",
         "RAMPAGE IV FORMULA",
-        "RAMPAGE IV GENE"
+        "RAMPAGE IV GENE",
     ],
-    "X99": [
-        "RAMPAGE V EDITION 10",
-        "RAMPAGE V EXTREME",
-        "STRIX X99 GAMING"
-    ],
+    "X99": ["RAMPAGE V EDITION 10", "RAMPAGE V EXTREME", "STRIX X99 GAMING"],
     "Z270": [
         "MAXIMUS IX APEX",
         "MAXIMUS IX CODE",
@@ -637,7 +586,7 @@ ASUS_BOARDS = {
         "ROG STRIX Z270G GAMING",
         "ROG STRIX Z270H GAMING",
         "TUF Z270 MARK 1",
-        "Z270-WS"
+        "Z270-WS",
     ],
     "Z370": [
         "PRIME Z370-A",
@@ -658,7 +607,7 @@ ASUS_BOARDS = {
         "ROG STRIX Z370-I GAMING",
         "TUF Z370-PLUS GAMING",
         "TUF Z370-PLUS GAMING II",
-        "TUF Z370-PRO GAMING"
+        "TUF Z370-PRO GAMING",
     ],
     "Z390": [
         "PRIME Z390-A",
@@ -681,7 +630,7 @@ ASUS_BOARDS = {
         "TUF Z390-PRO GAMING",
         "TUF Z390M-PRO GAMING",
         "TUF Z390M-PRO GAMING (WI-FI)",
-        "WS Z390 PRO"
+        "WS Z390 PRO",
     ],
     "Z490": [
         "PRIME Z490-A",
@@ -703,7 +652,7 @@ ASUS_BOARDS = {
         "TUF GAMING Z490-PLUS",
         "TUF GAMING Z490-PLUS (WI-FI)",
         "TUF GAMING Z590-PLUS WIFI",
-        "Z490-GUNDAM (WI-FI)"
+        "Z490-GUNDAM (WI-FI)",
     ],
     "Z590": [
         "PRIME Z590-A",
@@ -722,7 +671,7 @@ ASUS_BOARDS = {
         "ROG STRIX Z590-I GAMING WIFI",
         "TUF GAMING Z590-PLUS",
         "TUF GAMING Z590-PLUS WIFI",
-        "Z590 WIFI GUNDAM EDITION"
+        "Z590 WIFI GUNDAM EDITION",
     ],
     "Z690": [
         "PRIME Z690-A",
@@ -747,7 +696,7 @@ ASUS_BOARDS = {
         "TUF GAMING Z690-PLUS",
         "TUF GAMING Z690-PLUS D4",
         "TUF GAMING Z690-PLUS WIFI",
-        "TUF GAMING Z690-PLUS WIFI D4"
+        "TUF GAMING Z690-PLUS WIFI D4",
     ],
     "Z790": [
         "PRIME Z790-A WIFI",
@@ -769,34 +718,102 @@ ASUS_BOARDS = {
         "ROG STRIX Z790-I GAMING WIFI",
         "TUF GAMING Z790-PLUS D4",
         "TUF GAMING Z790-PLUS WIFI",
-        "TUF GAMING Z790-PLUS WIFI D4"
-    ]
+        "TUF GAMING Z790-PLUS WIFI D4",
+    ],
 }
 
 
 BRIDGE_CHIPSETS = [
     # Intel LGA 1156
-    "H55", "P55", "H57", "Q57",
+    "H55",
+    "P55",
+    "H57",
+    "Q57",
     # Intel LGA 1155
-    "H61", "B65", "Q65", "Q67", "H67", "P67", "Z68",
-    "B75", "Q75", "Q77", "C216", "H77", "Z75", "Z77",
+    "H61",
+    "B65",
+    "Q65",
+    "Q67",
+    "H67",
+    "P67",
+    "Z68",
+    "B75",
+    "Q75",
+    "Q77",
+    "C216",
+    "H77",
+    "Z75",
+    "Z77",
     # Intel LGA 1150
-    "H81", "B85", "Q85", "Q87", "H87", "Z87",
-    "H97", "Z97",
+    "H81",
+    "B85",
+    "Q85",
+    "Q87",
+    "H87",
+    "Z87",
+    "H97",
+    "Z97",
     # Intel LGA 1151
-    "H110", "B150", "Q150", "H170", "C236", "Q170", "Z170",
-    "B250", "Q250", "H270", "Q270", "Z270",
-    "H310", "B365", "B360", "H370", "C246", "Q370", "Z370", "Z390",
+    "H110",
+    "B150",
+    "Q150",
+    "H170",
+    "C236",
+    "Q170",
+    "Z170",
+    "B250",
+    "Q250",
+    "H270",
+    "Q270",
+    "Z270",
+    "H310",
+    "B365",
+    "B360",
+    "H370",
+    "C246",
+    "Q370",
+    "Z370",
+    "Z390",
     # Intel LGA 1200
-    "H410", "B460", "H470", "Q470", "Z490", "W480",
-    "H510", "B560", "H570", "Q570", "Z590", "W580",
+    "H410",
+    "B460",
+    "H470",
+    "Q470",
+    "Z490",
+    "W480",
+    "H510",
+    "B560",
+    "H570",
+    "Q570",
+    "Z590",
+    "W580",
     # Intel LGA 1700
-    "H610", "B660", "H670", "Q670", "Z690", "W680",
-    "B760", "H770", "Z790",
+    "H610",
+    "B660",
+    "H670",
+    "Q670",
+    "Z690",
+    "W680",
+    "B760",
+    "H770",
+    "Z790",
     # AMD FCH
-    "A55T", "A50M", "A60M", "A68M", "A70M", "A76M",
-    "A45", "A55", "A58", "A68H", "A75", "A78", "A85X", "A88X",
-    "A55E", "A77E",
+    "A55T",
+    "A50M",
+    "A60M",
+    "A68M",
+    "A70M",
+    "A76M",
+    "A45",
+    "A55",
+    "A58",
+    "A68H",
+    "A75",
+    "A78",
+    "A85X",
+    "A88X",
+    "A55E",
+    "A77E",
     # AMD AM4
     "A300",
     "X300",
