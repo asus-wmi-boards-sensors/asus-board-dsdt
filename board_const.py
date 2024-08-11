@@ -180,6 +180,7 @@ ASUS_BOARDS = {
     "B560": [
         "B560M-P",
         "EX-B560M-V5",
+        "G15CE",
         "PRIME B560-PLUS",
         "PRIME B560-PLUS AC-HES",
         "PRIME B560M-A",
@@ -218,6 +219,7 @@ ASUS_BOARDS = {
     "B660": [
         "EX-B660M-V5 D4",
         "EX-B660M-V5 PRO D4",
+        "G15CF",
         "PRIME B660M-A D4",
         "PRIME B660M-A WIFI D4",
         "Pro B660M-C",

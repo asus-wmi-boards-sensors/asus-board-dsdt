@@ -244,6 +244,7 @@ NCT6775_BOARDS = [
     "WS Z390 PRO",
     "Z490-GUNDAM (WI-FI)",
     # B650 style
+    "G15CF",
     "B560M-P",
     "EX-B560M-V5",
     "EX-B660M-V5 D4",
@@ -1142,7 +1143,7 @@ def get_asl_method_mutexes(asl_struct):
         mutex_name = func_impl[start_acquire + len("Acquire (") : end_acquire]
         func_impl = func_impl[end_acquire:]
         mutex_name = mutex_name.strip()
-        if mutex_name[0] != "\\":
+        if mutex_name[0] != "\\" and asl_struct["path"]:
             mutex_name = "\\" + ".".join(asl_struct["path"] + [mutex_name])
         if mutex_name not in mutexes:
             mutexes.append(mutex_name)

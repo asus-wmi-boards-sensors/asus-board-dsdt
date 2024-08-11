@@ -106,6 +106,8 @@ Port to use asl directly instead disassembling to dsl.
 | GIGABYTE | EX58-UD5                            |            | N            | N            | N            | N            |
 | GIGABYTE | F2A78M-HD2                          |            | N            | N            | N            | N            |
 | ASUS     | FX570UD                             |            | L            | N            | L            | N            |
+| ASUS     | G15CE                               | NCT6798D   | L            | N            | L            | N            |
+| ASUS     | G15CF                               | NCT6798D   | N            | N            | Y            | N            |
 | GIGABYTE | GA-MA78LMT-US2H                     |            | N            | N            | N            | N            |
 | ASUS     | H110-PLUS                           | NCT6793D   | L            | N            | L            | N            |
 | ASUS     | H110I-PLUS                          | NCT5539D   | L            | N            | L            | N            |

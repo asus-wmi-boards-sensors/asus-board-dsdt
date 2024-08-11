@@ -4530,6 +4530,67 @@ F2A78M-HD2:
   system_name: ''
   upstreamed_serie: false
   wmi_methods: []
+G15CE:
+  aliases: []
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B560
+  gigabyte_wmi: N
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: NCT6798D
+  system_name: ''
+  upstreamed_serie: true
+  wmi_methods: []
+G15CF:
+  aliases:
+  - G15CF-ASUS
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B660
+  gigabyte_wmi: N
+  hash:
+  - 699184af0b46c9c9b0d7301b96016991
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: NCT6798D
+  system_name: ROG STRIX G15CF_G15CF
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 GA-MA78LMT-US2H:
   aliases:
   - GA-MA78LMT-US2H-GIGABYTE-0000
