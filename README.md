@@ -443,6 +443,7 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | Pro Q670M-C                         | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | Pro WS C246-ACE                     |            | L            | N            | L            | N            |
 | ASUS     | Pro WS C422-ACE                     |            | N            | N            | P            | N            |
+| ASUS     | Pro WS TRX50-SAGE WIFI              |            | N            | N            | U            | N            |
 | ASUS     | Pro WS W480-ACE                     |            | L            | N            | L            | N            |
 | ASUS     | Pro WS W680-ACE                     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | Pro WS W680-ACE IPMI                | NCT6798D   | N            | N            | Y            | N            |
@@ -450,6 +451,7 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | Pro WS W790E-SAGE SE                | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | Pro WS WRX80E-SAGE SE WIFI          | NCT6798D-R | N            | N            | P            | N            |
 | ASUS     | Pro WS WRX80E-SAGE SE WIFI II       | NCT6798D-R | N            | N            | P            | N            |
+| ASUS     | Pro WS WRX90E-SAGE SE               |            | N            | N            | U            | N            |
 | ASUS     | Pro WS X299 SAGE II                 | NCT6798D   | L            | N            | L            | N            |
 | ASUS     | Pro WS X570-ACE                     | NCT6798D-R | N            | N            | Y            | Y            |
 | ASUS     | ProArt B550-CREATOR                 | NCT6798D-R | N            | N            | Y            | Y            |
@@ -471,6 +473,8 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | RAMPAGE IV GENE                     |            | L            | N            | L            | N            |
 | ASUS     | RAMPAGE V EDITION 10                |            | F            | N            | F            | N            |
 | ASUS     | RAMPAGE V EXTREME                   |            | N            | N            | P            | N            |
+| ASUS     | RC71L                               |            | L            | N            | L            | N            |
+| ASUS     | RC72LA                              |            | L            | N            | L            | N            |
 | ASUS     | ROG CROSSHAIR VI EXTREME            | IT8655E    | Y            | N            | M            | U            |
 | ASUS     | ROG CROSSHAIR VI HERO (WI-FI AC)    | IT8655E    | Y            | N            | M            | U            |
 | ASUS     | ROG CROSSHAIR VII HERO              | IT8665E    | Y            | N            | M            | U            |

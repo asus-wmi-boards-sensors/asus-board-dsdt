@@ -483,10 +483,12 @@ ASUS_BOARDS = {
         "ROG ZENITH II EXTREME",
         "ROG ZENITH II EXTREME ALPHA",
     ],
+    "TRX50": ["Pro WS TRX50-SAGE WIFI"],
     "W480": ["Pro WS W480-ACE"],
     "W680": ["Pro WS W680-ACE", "Pro WS W680-ACE IPMI"],
     "W790": ["Pro WS W790-ACE", "Pro WS W790E-SAGE SE"],
     "WRX80": ["Pro WS WRX80E-SAGE SE WIFI", "Pro WS WRX80E-SAGE SE WIFI II"],
+    "WRX90": ["Pro WS WRX90E-SAGE SE"],
     "X299": [
         "PRIME X299 EDITION 30",
         "PRIME X299-A",
@@ -722,6 +724,11 @@ ASUS_BOARDS = {
         "TUF GAMING Z790-PLUS WIFI",
         "TUF GAMING Z790-PLUS WIFI D4",
     ],
+    "AMD 14e8": [
+        # need to recheck
+        "RC71L",  # ROG Ally (2023) RC71L
+        "RC72LA",  # ROG Ally X (2024)
+    ],
 }
 
 
@@ -840,4 +847,11 @@ BRIDGE_CHIPSETS = [
     "B650E",
     "X670",
     "X670E",
+    "X870",
+    "X870E",
+    # AMD sTR5
+    "TRX50",
+    "WRX90",
+    # AMD Ryzen Z1 Extreme
+    "AMD 14e8",
 ]

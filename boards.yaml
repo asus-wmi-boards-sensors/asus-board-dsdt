@@ -26301,6 +26301,77 @@ Pro WS C422-ACE:
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+Pro WS TRX50-SAGE WIFI:
+  aliases:
+  - Pro-WS-TRX50-SAGE-WIFI-ASUS-0702
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: TRX50
+  gigabyte_wmi: N
+  hash:
+  - 00b16fc57ac48e9662e626f47eb02b20
+  - 050d40a4da45924f7300ef8631e6f394
+  - 0eab5662b304f694fc1189173afb3472
+  - 153331a317e671aae7abcbc409596d61
+  - 17e8a32f21066b472d3661699212f9a7
+  - 2bdc8b846546dbb3bed9cdad9ee25502
+  - 2cc7ce514d2a3873079d5d0003bc10cc
+  - 3b25c586e51ed2a3a5ddf7e2327a7608
+  - 49f0c6025a9b266e93b2466e086cd19c
+  - 4f570c17a23c89e61624b25b08f3dcf2
+  - 5027eaa9db337e19e635f91e5dff0633
+  - 5376432609f9c450d16c8a341a8e651e
+  - 5bd15814e5e1cb97448ff8051a3d0024
+  - 61da65acaf883b2beeb4c417df9e0ae5
+  - 6606c4fc47abfdd3e92d4413e48e9c4a
+  - 77e3c107a3365d94bb506c158a8cc8e8
+  - 7c1bfb5597602bc59dae60cf806023de
+  - 845996e858458f69e75d95e1eeb3b7dd
+  - 86652374aa9af042f5d6916886d9f449
+  - 868204f63ae6ca4917f572329ba4d535
+  - 9e419d0c8c4808a9fb04050b1ef7307d
+  - a013c2b2a60f89f550bd271d66bd1cb8
+  - a8e740602d878df8d483d05a2d3e5279
+  - a92bc9abcc1f30c00439ef03bb7ec31a
+  - c17e1df28128e4a292fec494509f163e
+  - c22916e3c90f3ce55265ab88dcb39e84
+  - c65b1cedca9de5f3c4ec7809538e95b5
+  - ce2d11aaef80ee4aa04a8ddad785d198
+  - cf278b323d9e384326361cff0029ee84
+  - dddb431954ee9afa9ff1ccd0a9324e1d
+  - e750edc5c66414b9a45e191c8dea29c7
+  - ec84da954b8d7d8f395be81aa0e7971a
+  - fd1327f63376edf4d704d00a303ee1dd
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 Pro WS W680-ACE:
   aliases:
   - Pro-WS-W680-ACE-ASUS-0203
@@ -26775,6 +26846,76 @@ Pro WS WRX80E-SAGE SE WIFI II:
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+Pro WS WRX90E-SAGE SE:
+  aliases:
+  - Pro-WS-WRX90E-SAGE-SE-ASUS-0502
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: WRX90
+  gigabyte_wmi: N
+  hash:
+  - 00b16fc57ac48e9662e626f47eb02b20
+  - 050d40a4da45924f7300ef8631e6f394
+  - 0eab5662b304f694fc1189173afb3472
+  - 153331a317e671aae7abcbc409596d61
+  - 17e8a32f21066b472d3661699212f9a7
+  - 2bdc8b846546dbb3bed9cdad9ee25502
+  - 2cc7ce514d2a3873079d5d0003bc10cc
+  - 3b25c586e51ed2a3a5ddf7e2327a7608
+  - 49f0c6025a9b266e93b2466e086cd19c
+  - 4f570c17a23c89e61624b25b08f3dcf2
+  - 5027eaa9db337e19e635f91e5dff0633
+  - 5bd15814e5e1cb97448ff8051a3d0024
+  - 61da65acaf883b2beeb4c417df9e0ae5
+  - 6606c4fc47abfdd3e92d4413e48e9c4a
+  - 77e3c107a3365d94bb506c158a8cc8e8
+  - 7c1bfb5597602bc59dae60cf806023de
+  - 845996e858458f69e75d95e1eeb3b7dd
+  - 86652374aa9af042f5d6916886d9f449
+  - 868204f63ae6ca4917f572329ba4d535
+  - 9cfb6c252b212c7f16baa4354fe3dce1
+  - 9e419d0c8c4808a9fb04050b1ef7307d
+  - a013c2b2a60f89f550bd271d66bd1cb8
+  - a8e740602d878df8d483d05a2d3e5279
+  - a92bc9abcc1f30c00439ef03bb7ec31a
+  - c17e1df28128e4a292fec494509f163e
+  - c22916e3c90f3ce55265ab88dcb39e84
+  - ce2d11aaef80ee4aa04a8ddad785d198
+  - dddb431954ee9afa9ff1ccd0a9324e1d
+  - e220b284f1504fa44e85aa76b28adf15
+  - e750edc5c66414b9a45e191c8dea29c7
+  - ec84da954b8d7d8f395be81aa0e7971a
+  - fd1327f63376edf4d704d00a303ee1dd
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 Pro WS X299 SAGE II:
   aliases: []
   asus_dispatcher: []

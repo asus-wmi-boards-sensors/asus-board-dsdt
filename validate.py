@@ -626,6 +626,8 @@ BOARDNAME_CONVERT = {
     "TUF H310 PLUS GAMING": "TUF H310-PLUS GAMING",
     "TUF H310M PLUS GAMING": "TUF H310M-PLUS GAMING",
     "PRIME H310-PLUS R2": "PRIME H310-PLUS R2.0",
+    "PRO WS TRX50-SAGE-WIFI": "Pro WS TRX50-SAGE WIFI",
+    "PRO WS WRX90E-SAGE-SE": "Pro WS WRX90E-SAGE SE",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -1516,18 +1518,20 @@ def add_load_flags(boards_flags, board_desc):
         if board_name in boards_flags:
             continue
         boards_flags[board_name] = {
-            "board_producer": "Gigabyte Technology Co., Ltd."
-            if board_name in GIGABYTE_BOARDS
-            else "ASUSTeK COMPUTER INC."
+            "board_producer": (
+                "Gigabyte Technology Co., Ltd."
+                if board_name in GIGABYTE_BOARDS
+                else "ASUSTeK COMPUTER INC."
+            )
         }
         set_default_flags(boards_flags[board_name], board_name)
         boards_flags[board_name].update(
             {
                 "asus_wmi": "L" if board_name in WMI_BOARDS else "N",
                 "gigabyte_wmi": "L" if board_name in GIGABYTE_BOARDS else "N",
-                "asus_nct6775": "L"
-                if board_name in (NCT6775_BOARDS + nct6775_partial)
-                else "N",
+                "asus_nct6775": (
+                    "L" if board_name in (NCT6775_BOARDS + nct6775_partial) else "N"
+                ),
                 "asus_ec": "L" if board_name in EC_BOARDS else "N",
             }
         )
