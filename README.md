@@ -106,7 +106,7 @@ Port to use asl directly instead disassembling to dsl.
 | GIGABYTE | EX58-UD5                            |            | N            | N            | N            | N            |
 | GIGABYTE | F2A78M-HD2                          |            | N            | N            | N            | N            |
 | ASUS     | FX570UD                             |            | L            | N            | L            | N            |
-| ASUS     | G15CE                               | NCT6798D   | L            | N            | L            | N            |
+| ASUS     | G15CE                               | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | G15CF                               | NCT6798D   | N            | N            | Y            | N            |
 | GIGABYTE | GA-MA78LMT-US2H                     |            | N            | N            | N            | N            |
 | ASUS     | H110-PLUS                           | NCT6793D   | L            | N            | L            | N            |
@@ -473,8 +473,8 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | RAMPAGE IV GENE                     |            | L            | N            | L            | N            |
 | ASUS     | RAMPAGE V EDITION 10                |            | F            | N            | F            | N            |
 | ASUS     | RAMPAGE V EXTREME                   |            | N            | N            | P            | N            |
-| ASUS     | RC71L                               |            | L            | N            | L            | N            |
-| ASUS     | RC72LA                              |            | L            | N            | L            | N            |
+| ASUS     | RC71L                               |            | N            | N            | N            | N            |
+| ASUS     | RC72LA                              |            | N            | N            | N            | N            |
 | ASUS     | ROG CROSSHAIR VI EXTREME            | IT8655E    | Y            | N            | M            | U            |
 | ASUS     | ROG CROSSHAIR VI HERO (WI-FI AC)    | IT8655E    | Y            | N            | M            | U            |
 | ASUS     | ROG CROSSHAIR VII HERO              | IT8665E    | Y            | N            | M            | U            |

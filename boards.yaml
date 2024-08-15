@@ -4531,27 +4531,44 @@ F2A78M-HD2:
   upstreamed_serie: false
   wmi_methods: []
 G15CE:
-  aliases: []
-  asus_dispatcher: []
+  aliases:
+  - G15CE-ASUS
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
-  asus_nct6775_region: ''
-  asus_port290: []
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
   asus_wmi_entrypoint: N
   board_producer: ASUSTeK COMPUTER INC.
   bridge: B560
   gigabyte_wmi: N
-  known_good: []
-  known_good_nct6775: []
+  hash:
+  - f8fd0eb2e36f6f8021a6aff523fd2442
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
   links: []
   superio: NCT6798D
-  system_name: ''
+  system_name: ROG Strix G15CE_G15CE
   upstreamed_serie: true
-  wmi_methods: []
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 G15CF:
   aliases:
   - G15CF-ASUS
@@ -4579,6 +4596,7 @@ G15CF:
   gigabyte_wmi: N
   hash:
   - 699184af0b46c9c9b0d7301b96016991
+  - 82b67649aea5d2f93bf761ae500fd937
   known_good:
   - AsusMbSwInterface
   known_good_nct6775:
@@ -28033,6 +28051,56 @@ RAMPAGE V EXTREME:
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+RC71L:
+  aliases:
+  - RC71L-ASUS
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: AMD 14e8
+  gigabyte_wmi: N
+  hash:
+  - d69ed192acd856cb94a4a10da4016bf2
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods: []
+RC72LA:
+  aliases:
+  - RC72LA-ASUS
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: AMD 14e8
+  gigabyte_wmi: N
+  hash:
+  - acedef1226e0972d41d258ed54afe373
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods: []
 ROG CROSSHAIR VI EXTREME:
   aliases:
   - ROG-CROSSHAIR-VI-EXTREME-ASUS-8601
