@@ -6406,6 +6406,39 @@ MAXIMUS VIII FORMULA:
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+MAXIMUS VIII GENE:
+  aliases:
+  - MAXIMUS-VIII-GENE-ASUS-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO3B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - 891b658e12969cf4c58b878ef6634223
+  known_good:
+  - ASUSWMI
+  known_good_nct6775: []
+  links: []
+  superio: NCT6793D
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 P5GC-MX:
   aliases:
   - P5GC-MX-ASUS-0000

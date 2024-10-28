@@ -178,6 +178,7 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | MAXIMUS IX HERO                     | NCT6793D   | N            | N            | P            | N            |
 | ASUS     | MAXIMUS VII HERO                    | NCT6791D   | N            | N            | P            | N            |
 | ASUS     | MAXIMUS VIII FORMULA                | NCT6793D   | N            | N            | P            | N            |
+| ASUS     | MAXIMUS VIII GENE                   | NCT6793D   | N            | N            | P            | N            |
 | ASUS     | P5GC-MX                             |            | N            | N            | P            | N            |
 | ASUS     | P5Q-EM                              |            | N            | N            | P            | N            |
 | ASUS     | P5QL PRO                            |            | N            | N            | P            | N            |
