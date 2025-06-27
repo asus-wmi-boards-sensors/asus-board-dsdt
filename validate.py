@@ -25,14 +25,17 @@ LINKS = []
 EC_BOARDS = [
     "PRIME X470-PRO",
     "PRIME X570-PRO",
+    "PRIME X670E-PRO WIFI",
     "Pro WS X570-ACE",
     "ProArt X570-CREATOR WIFI",
     "ProArt B550-CREATOR",
+    "ProArt X670E-CREATOR WIFI",
     "ROG CROSSHAIR VIII DARK HERO",
     "ROG CROSSHAIR VIII HERO (WI-FI)",
     "ROG CROSSHAIR VIII FORMULA",
     "ROG CROSSHAIR VIII HERO",
     "ROG CROSSHAIR VIII IMPACT",
+    "ROG CROSSHAIR X670E GENE",
     "ROG CROSSHAIR X670E HERO",
     "ROG MAXIMUS XI HERO",
     "ROG MAXIMUS XI HERO (WI-FI)",
@@ -46,6 +49,7 @@ EC_BOARDS = [
     "ROG STRIX Z690-A GAMING WIFI D4",
     "ROG ZENITH II EXTREME",
     "ROG ZENITH II EXTREME ALPHA",
+    "TUF GAMING X670E-PLUS",
 ]
 
 # Upstreamed wmi
@@ -244,7 +248,6 @@ NCT6775_BOARDS = [
     "WS Z390 PRO",
     "Z490-GUNDAM (WI-FI)",
     # B650 style
-    "G15CF",
     "B560M-P",
     "EX-B560M-V5",
     "EX-B660M-V5 D4",
@@ -252,6 +255,7 @@ NCT6775_BOARDS = [
     "EX-B760M-V5 D4",
     "EX-H510M-V3",
     "EX-H610M-V3 D4",
+    "G15CF",
     "PRIME A620M-A",
     "PRIME B560-PLUS",
     "PRIME B560-PLUS AC-HES",
@@ -332,6 +336,8 @@ NCT6775_BOARDS = [
     "Pro H610M-CT D4",
     "Pro H610T D4",
     "Pro Q670M-C",
+    "Pro WS 600M-CL",
+    "Pro WS 665-ACE",
     "Pro WS W680-ACE",
     "Pro WS W680-ACE IPMI",
     "Pro WS W790-ACE",
@@ -466,6 +472,7 @@ GIGABYTE_BOARDS = [
 
 # Upstreamed nct6775 series
 NCT6775_UPSTREAMED_CHIPSETS = [
+    "chipset-less",
     "A520",
     "A620",
     "B360",

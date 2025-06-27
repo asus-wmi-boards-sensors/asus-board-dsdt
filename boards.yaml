@@ -26271,6 +26271,88 @@ Pro Q670M-C:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+Pro WS 600M-CL:
+  aliases:
+  - Pro-WS-600M-CL-ASUS-0455
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: chipset-less
+  gigabyte_wmi: N
+  hash:
+  - 053a0f149384525629403401a3ced7b4
+  - 0be00ff9a55125b7b996de7c5c328652
+  - 12cb08f7643d8fb4b2a9d6ada94d3b23
+  - 195a9d726ed722be3399fddf7f3955e9
+  - 220cf4798b7854935b6cb72aa84e743e
+  - 2651d5f2066f7be2c9e371f227ca3740
+  - 274bd219dedf934ed6f7b5e3fa16762e
+  - 29260a18cae8e0626a06cb4fe72f1a87
+  - 2cc00a776eba7b43d4407bc29b75b469
+  - 2e901bc9fed6e01533f55a710ad98715
+  - 3086f0b38371917b007468abdc5bb4eb
+  - 31ac341139d587092714396e223129c6
+  - 3a47c2f079feaadb223f8b9a72ff68da
+  - 401691a825aa772226da5e6c1b47e7d1
+  - 436f47ea4ab0bce40bbfc98f836d87ab
+  - 44381caa7196c623cd5b1db00ff68d6e
+  - 4c944fb662da96d84216f24ef459e31b
+  - 5462b6952b964b8d2eeadf88d3f92be4
+  - 5eb8a742e465443bcff1649ae6e46aad
+  - 6e55009e8fad277632b49e929a0922a2
+  - 7131f5d73035cfde2b8458751013b4b4
+  - 7333cfaf259972ad1751e539597bd9af
+  - 746c38726d1b5c765f52a7fa3d587486
+  - 79e76125f5e9e53cc43989037695c123
+  - 8437cde6e7757a09922b61b7a9575bf2
+  - 897b03dcae59616c5852d041afe8a726
+  - 968f1b33a7d6eda4037246e14d074c2c
+  - 9b9665ba9da19cfd48e876180ff06521
+  - 9e4dd961f75f267c15da83a6ea63f081
+  - 9eb05fdea6775de1718d588fd2792c89
+  - 9ec95dbca5d3c399b17809293c8ffee8
+  - a3c8b2962ee150b6f4189155fd01f710
+  - a6e45bc9e7c68730a669485e467ba9ec
+  - ab93178fc3d07512612378b5ff31b630
+  - b041126af873c177c41c2bfb21bdd1c4
+  - b8750357f202e82833f5c783992d3b3a
+  - befdcb45e588bc59563f61e91537b9d1
+  - c13ff4f92ccf3479d8e6b916d87584dc
+  - d90ec42a478018b004fcab5ddb9bdfc9
+  - da655aadee07fb58456aba6f16b8d44a
+  - e1897cee18b7eefb6dd314ec9852e8a8
+  - e30ead791271c470001d1ee88316e9f9
+  - ed48b013683e167d10cdeac0b3d052b8
+  - eed07235e9ea16a3f531e685e0fecca2
+  - f7c694adfd344c19bc35cd97b800aede
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 Pro WS C422-ACE:
   aliases:
   - Pro-WS-C422-ACE-ASUS-1403
@@ -40322,6 +40404,39 @@ STRIX H270I GAMING:
   system_name: ''
   upstreamed_serie: false
   wmi_methods: []
+STRIX X99 GAMING:
+  aliases:
+  - STRIX-X99-GAMING-ASUS-0000
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: HWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X99
+  gigabyte_wmi: N
+  hash:
+  - 5362952ffb5029db4041d207f6c9f706
+  known_good:
+  - ASUSWMI
+  known_good_nct6775: []
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 STRIX Z270E GAMING:
   aliases:
   - STRIX-Z270E-GAMING-ASUS-0000
