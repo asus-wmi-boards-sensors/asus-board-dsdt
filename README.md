@@ -474,8 +474,8 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | RAMPAGE IV EXTREME                  |            | L            | N            | L            | N            |
 | ASUS     | RAMPAGE IV FORMULA                  |            | L            | N            | L            | N            |
 | ASUS     | RAMPAGE IV GENE                     |            | L            | N            | L            | N            |
-| ASUS     | RAMPAGE V EDITION 10                |            | F            | N            | F            | N            |
-| ASUS     | RAMPAGE V EXTREME                   |            | N            | N            | P            | N            |
+| ASUS     | RAMPAGE V EDITION 10                | NCT6791D   | F            | N            | F            | N            |
+| ASUS     | RAMPAGE V EXTREME                   | NCT6791D   | N            | N            | P            | N            |
 | ASUS     | RC71L                               |            | N            | N            | N            | N            |
 | ASUS     | RC72LA                              |            | N            | N            | N            | N            |
 | ASUS     | ROG CROSSHAIR VI EXTREME            | IT8655E    | Y            | N            | M            | U            |
@@ -639,7 +639,7 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | STRIX B250I GAMING                  | NCT6793D   | F            | N            | F            | N            |
 | ASUS     | STRIX H270F GAMING                  | NCT6793D   | F            | N            | F            | N            |
 | ASUS     | STRIX H270I GAMING                  | NCT5539D   | F            | N            | F            | N            |
-| ASUS     | STRIX X99 GAMING                    |            | N            | N            | P            | N            |
+| ASUS     | STRIX X99 GAMING                    | NCT6791D   | N            | N            | P            | N            |
 | ASUS     | STRIX Z270E GAMING                  | NCT6793D   | N            | N            | P            | N            |
 | ASUS     | STRIX Z270F GAMING                  | NCT6793D   | N            | N            | P            | N            |
 | ASUS     | STRIX Z270G GAMING                  | NCT6793D   | N            | N            | P            | N            |

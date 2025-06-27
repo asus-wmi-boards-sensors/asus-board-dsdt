@@ -28163,7 +28163,7 @@ RAMPAGE V EDITION 10:
   known_good_nct6775: []
   links:
   - https://dlcdnets.asus.com/pub/ASUS/mb/LGA2011/RAMPAGE_V_EDITION_10/RAMPAGE-V-EDITION-10-ASUS-2101.zip
-  superio: ''
+  superio: NCT6791D
   system_name: ''
   upstreamed_serie: false
   wmi_methods: []
@@ -28194,7 +28194,7 @@ RAMPAGE V EXTREME:
   - ASUSWMI
   known_good_nct6775: []
   links: []
-  superio: ''
+  superio: NCT6791D
   system_name: ''
   upstreamed_serie: false
   wmi_methods:
@@ -40465,7 +40465,7 @@ STRIX X99 GAMING:
   - ASUSWMI
   known_good_nct6775: []
   links: []
-  superio: ''
+  superio: NCT6791D
   system_name: ''
   upstreamed_serie: false
   wmi_methods:
