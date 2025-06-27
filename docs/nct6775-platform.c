@@ -1362,6 +1362,7 @@ static const char * const asus_msi_boards[] = {
 	"Pro H610T D4",
 	"Pro Q670M-C",
 	"Pro WS 600M-CL",
+	"Pro WS 665-ACE",
 	"Pro WS TRX50-SAGE WIFI", // No feedback
 	"Pro WS W680-ACE",
 	"Pro WS W680-ACE IPMI",

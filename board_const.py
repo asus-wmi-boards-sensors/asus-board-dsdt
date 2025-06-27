@@ -28,6 +28,7 @@ NCT6775_CHIPS = [
 ASUS_BOARDS = {
     "chipset-less": [
         "Pro WS 600M-CL",
+        "Pro WS 665-ACE",
     ],
     "A320": [
         "A320M-C",
