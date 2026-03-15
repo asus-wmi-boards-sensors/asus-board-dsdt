@@ -30216,6 +30216,102 @@ ProArt X670E-CREATOR WIFI:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ProArt X870E-CREATOR WIFI:
+  aliases:
+  - ProArt-X870E-CREATOR-WIFI-ASUS-2102
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870E
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 10394cf052d6a04457bb86a7c0879726
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 32f1f36775039d215f8baa072d066727
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 35d534bdc41e7d70a4b6abf3cdafff57
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 75f7bffc93f3473e169b717d4a4cc5a2
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8d1bac573ebfe90190a3946e8f33a5f0
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 971dacff6950c066af29c55906f90cc4
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a03affd730df9fa7c41de2f0e8d0f89d
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c44f52a616b3ff9ac946d27517cfb84b
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e5fb4896b0719c87cb8ad36943c348d8
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: NCT6799D-R
+  system_name: ''
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 ProArt Z490-CREATOR 10G:
   aliases:
   - ProArt-Z490-CREATOR-10G-ASUS-2601

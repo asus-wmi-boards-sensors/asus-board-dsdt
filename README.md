@@ -490,7 +490,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ProArt B850-CREATOR WIFI NEO        |            | L            | N            | L            | N            |
 | ASUS     | ProArt X570-CREATOR WIFI            | NCT6798D-R | N            | N            | Y            | Y            |
 | ASUS     | ProArt X670E-CREATOR WIFI           | NCT6799D-R | N            | N            | Y            | N?           |
-| ASUS     | ProArt X870E-CREATOR WIFI           |            | L            | N            | L            | L            |
+| ASUS     | ProArt X870E-CREATOR WIFI           | NCT6799D-R | N            | N            | U            | N?           |
 | ASUS     | ProArt Z490-CREATOR 10G             | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ProArt Z690-CREATOR WIFI            | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ProArt Z790-CREATOR WIFI            | NCT6798D   | N            | N            | Y            | N            |
