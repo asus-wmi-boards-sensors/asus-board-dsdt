@@ -84,7 +84,14 @@ Port to use asl directly instead disassembling to dsl.
 | ASROCK   | B650E PG Riptide WiFi               |            | N            | N            | P            | N            |
 | GIGABYTE | B660 GAMING X DDR4                  |            | N            | Y            | N            | N            |
 | GIGABYTE | B660I AORUS PRO DDR4                |            | N            | Y            | N            | N            |
+| ASUS     | B840M AYW GAMING WIFI               |            | N            | N            | U            | N            |
+| ASUS     | B840M MAX GAMING AX                 |            | N            | N            | U            | N            |
 | ASUS     | B85-PRO GAMER                       | NCT6791D   | N            | N            | N            | N            |
+| ASUS     | B850 MAX GAMING WIFI                |            | N            | N            | U            | N            |
+| ASUS     | B850 MAX GAMING WIFI W              |            | N            | N            | U            | N            |
+| ASUS     | B850M AYW GAMING OC WIFI7 W         |            | N            | N            | U            | N            |
+| ASUS     | B850M AYW GAMING WIFI               |            | N            | N            | U            | N            |
+| ASUS     | B850M MAX GAMING WIFI               |            | N            | N            | U            | N            |
 | ASUS     | B85M-GAMER                          | NCT6791D   | N            | N            | N            | N            |
 | ASUS     | CM6870                              |            | N            | N            | P            | N            |
 | ASUS     | CROSSHAIR VI HERO                   | IT8655E    | Y            | N            | M            | U            |
@@ -99,6 +106,8 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | EX-B660M-V5 D4                      | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | EX-B660M-V5 PRO D4                  | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | EX-B760M-V5 D4                      | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | EX-B850M-V7                         |            | N            | N            | U            | N            |
+| ASUS     | EX-B850M-V9                         |            | N            | N            | U            | N            |
 | ASUS     | EX-H310M-V3 R2.0                    | NCT5582D   | N            | N            | P            | N            |
 | ASUS     | EX-H410M-V3                         | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | EX-H510M-V3                         | NCT6798D   | N            | N            | Y            | N            |
@@ -301,6 +310,15 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | PRIME B760M-A WIFI D4               | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME B760M-AJ D4                   | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME B760M-K D4                    | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | PRIME B840-PLUS WIFI                |            | N            | N            | U            | N            |
+| ASUS     | PRIME B840M-A                       |            | N            | N            | U            | N            |
+| ASUS     | PRIME B840M-A WIFI                  |            | N            | N            | U            | N            |
+| ASUS     | PRIME B840M-K                       |            | N            | N            | U            | N            |
+| ASUS     | PRIME B850-PLUS                     |            | N            | N            | U            | N            |
+| ASUS     | PRIME B850-PLUS WIFI                |            | N            | N            | U            | N            |
+| ASUS     | PRIME B850M-A                       |            | N            | N            | U            | N            |
+| ASUS     | PRIME B850M-A WIFI                  |            | N            | N            | U            | N            |
+| ASUS     | PRIME B850M-K                       |            | N            | N            | U            | N            |
 | ASUS     | PRIME H110M-P                       | NCT5539D   | L            | N            | L            | N            |
 | ASUS     | PRIME H110M2                        | NCT6793D   | L            | N            | L            | N            |
 | ASUS     | PRIME H270-PLUS                     | NCT5539D   | N            | N            | P            | N            |
@@ -384,6 +402,8 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | PRIME X670-P                        | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | PRIME X670-P WIFI                   | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | PRIME X670E-PRO WIFI                | NCT6799D-R | N            | N            | Y            | N?           |
+| ASUS     | PRIME X870-P                        |            | N            | N            | U            | N            |
+| ASUS     | PRIME X870-P WIFI                   |            | N            | N            | U            | N            |
 | ASUS     | PRIME Z270-A                        | NCT6793D   | N            | N            | P            | N            |
 | ASUS     | PRIME Z270-K                        | NCT5539D   | F            | N            | F            | N            |
 | ASUS     | PRIME Z270-P                        | NCT5539D   | F            | N            | F            | N            |
@@ -444,10 +464,11 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | Pro Q670M-C                         | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | Pro WS 600M-CL                      |            | N            | N            | Y            | N            |
 | ASUS     | Pro WS 665-ACE                      |            | L            | N            | L            | N            |
+| ASUS     | Pro WS B850M-ACE SE                 |            | N            | N            | U            | N            |
 | ASUS     | Pro WS C246-ACE                     |            | L            | N            | L            | N            |
 | ASUS     | Pro WS C422-ACE                     |            | N            | N            | P            | N            |
 | ASUS     | Pro WS TRX50-SAGE WIFI              |            | N            | N            | U            | N            |
-| ASUS     | Pro WS W480-ACE                     |            | L            | N            | L            | N            |
+| ASUS     | Pro WS W480-ACE                     | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | Pro WS W680-ACE                     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | Pro WS W680-ACE IPMI                | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | Pro WS W790-ACE                     | NCT6798D   | N            | N            | Y            | N            |
@@ -462,6 +483,7 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | ProArt B660-CREATOR D4              | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ProArt B760-CREATOR                 | NCT6798D   | L            | N            | L            | N            |
 | ASUS     | ProArt B760-CREATOR D4              | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | ProArt B850-CREATOR WIFI NEO        |            | L            | N            | L            | N            |
 | ASUS     | ProArt X570-CREATOR WIFI            | NCT6798D-R | N            | N            | Y            | Y            |
 | ASUS     | ProArt X670E-CREATOR WIFI           | NCT6799D-R | N            | N            | Y            | N?           |
 | ASUS     | ProArt Z490-CREATOR 10G             | NCT6798D   | N            | N            | Y            | N            |
@@ -491,12 +513,12 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | ROG CROSSHAIR X670E EXTREME         | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | ROG CROSSHAIR X670E GENE            | NCT6799D-R | N            | N            | Y            | N?           |
 | ASUS     | ROG CROSSHAIR X670E HERO            | NCT6799D-R | N            | N            | Y            | N?           |
-| ASUS     | ROG CROSSHAIR X870E APEX            |            | L            | N            | L            | N            |
-| ASUS     | ROG CROSSHAIR X870E DARK HERO       |            | L            | N            | L            | N            |
-| ASUS     | ROG CROSSHAIR X870E EXTREME         |            | L            | N            | L            | N            |
-| ASUS     | ROG CROSSHAIR X870E GLACIAL         |            | L            | N            | L            | N            |
-| ASUS     | ROG CROSSHAIR X870E HERO            |            | L            | N            | L            | N            |
-| ASUS     | ROG CROSSHAIR X870E HERO BTF        |            | L            | N            | L            | N            |
+| ASUS     | ROG CROSSHAIR X870E APEX            |            | N            | N            | U            | N            |
+| ASUS     | ROG CROSSHAIR X870E DARK HERO       |            | N            | N            | U            | N            |
+| ASUS     | ROG CROSSHAIR X870E EXTREME         |            | N            | N            | U            | N            |
+| ASUS     | ROG CROSSHAIR X870E GLACIAL         |            | N            | N            | U            | N            |
+| ASUS     | ROG CROSSHAIR X870E HERO            |            | N            | N            | U            | N            |
+| ASUS     | ROG CROSSHAIR X870E HERO BTF        |            | N            | N            | U            | N            |
 | ASUS     | ROG DOMINUS EXTREME                 |            | N            | N            | P            | N            |
 | ASUS     | ROG MAXIMUS X APEX                  | NCT6793D   | L            | N            | L            | N            |
 | ASUS     | ROG MAXIMUS X CODE                  | NCT6793D   | L            | N            | L            | N            |
@@ -574,12 +596,14 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | ROG STRIX B760-G GAMING WIFI        | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX B760-G GAMING WIFI D4     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX B760-I GAMING WIFI        | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX B850-A GAMING WIFI        |            | L            | N            | L            | N            |
-| ASUS     | ROG STRIX B850-E GAMING WIFI        |            | L            | N            | L            | N            |
-| ASUS     | ROG STRIX B850-F GAMING WIFI        |            | L            | N            | L            | N            |
-| ASUS     | ROG STRIX B850-F GAMING WIFI7 NEO   |            | L            | N            | L            | N            |
-| ASUS     | ROG STRIX B850-G GAMING WIFI        |            | L            | N            | L            | N            |
-| ASUS     | ROG STRIX B850-I GAMING WIFI        |            | L            | N            | L            | N            |
+| ASUS     | ROG STRIX B850-A GAMING WIFI        |            | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B850-A GAMING WIFI7 NEO   |            | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B850-E GAMING WIFI        |            | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B850-F GAMING WIFI        |            | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B850-F GAMING WIFI7 NEO   |            | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B850-G GAMING WIFI        |            | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B850-I GAMING WIFI        |            | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B850-I GAMING WIFI7 W     |            | N            | N            | U            | N            |
 | ASUS     | ROG STRIX H370-F GAMING             | NCT6796D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX H370-I GAMING             | NCT6796D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX H470-I GAMING             | NCT6798D   | N            | N            | Y            | N            |
@@ -601,12 +625,13 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | ROG STRIX X670E-E GAMING WIFI       | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX X670E-F GAMING WIFI       | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX X670E-I GAMING WIFI       | NCT6799D-R | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX X870-A GAMING WIFI        |            | L            | N            | L            | N            |
-| ASUS     | ROG STRIX X870-F GAMING WIFI        |            | L            | N            | L            | N            |
-| ASUS     | ROG STRIX X870-I GAMING WIFI        |            | L            | N            | L            | N            |
+| ASUS     | ROG STRIX X870-A GAMING WIFI        |            | N            | N            | U            | N            |
+| ASUS     | ROG STRIX X870-F GAMING WIFI        |            | N            | N            | U            | N            |
+| ASUS     | ROG STRIX X870-I GAMING WIFI        |            | N            | N            | U            | N            |
 | ASUS     | ROG STRIX X870E-E GAMING WIFI       |            | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX X870E-E GAMING WIFI7 R2/USBC CARD|            | L            | N            | L            | N            |
-| ASUS     | ROG STRIX X870E-H GAMING WIFI7      |            | L            | N            | L            | N            |
+| ASUS     | ROG STRIX X870E-E GAMING WIFI7 NEO  |            | L            | N            | L            | N            |
+| ASUS     | ROG STRIX X870E-E GAMING WIFI7 R2   |            | N            | N            | U            | N            |
+| ASUS     | ROG STRIX X870E-H GAMING WIFI7      |            | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z270-I GAMING             | NCT6793D   | L            | N            | L            | N            |
 | ASUS     | ROG STRIX Z270E GAMING              | NCT6793D   | L            | N            | L            | N            |
 | ASUS     | ROG STRIX Z270F GAMING              | NCT6793D   | L            | N            | L            | N            |
@@ -723,6 +748,16 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | TUF GAMING B760M-PLUS D4            | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING B760M-PLUS WIFI          | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING B760M-PLUS WIFI D4       | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | TUF GAMING B850-BTF WIFI W          |            | N            | N            | U            | N            |
+| ASUS     | TUF GAMING B850-E WIFI              |            | N            | N            | U            | N            |
+| ASUS     | TUF GAMING B850-PLUS WIFI           |            | N            | N            | U            | N            |
+| ASUS     | TUF GAMING B850-PRO WIFI7 W NEO     |            | N            | N            | U            | N            |
+| ASUS     | TUF GAMING B850M-E WIFI             |            | N            | N            | U            | N            |
+| ASUS     | TUF GAMING B850M-PLUS               |            | N            | N            | U            | N            |
+| ASUS     | TUF GAMING B850M-PLUS II            |            | N            | N            | U            | N            |
+| ASUS     | TUF GAMING B850M-PLUS WIFI          |            | N            | N            | U            | N            |
+| ASUS     | TUF GAMING B850M-PLUS WIFI7         |            | N            | N            | U            | N            |
+| ASUS     | TUF GAMING B850M-PLUS WIFI7 W       |            | N            | N            | U            | N            |
 | ASUS     | TUF GAMING H470-PRO                 | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING H470-PRO (WI-FI)         | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING H570-PRO                 | NCT6798D   | N            | N            | Y            | N            |
@@ -736,6 +771,9 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | TUF GAMING X570-PRO WIFI II         | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING X670E-PLUS               | NCT6799D-R | N            | N            | Y            | N?           |
 | ASUS     | TUF GAMING X670E-PLUS WIFI          | NCT6799D-R | N            | N            | Y            | N            |
+| ASUS     | TUF GAMING X870-PLUS WIFI           |            | N            | N            | U            | N            |
+| ASUS     | TUF GAMING X870-PRO WIFI7 W NEO     |            | N            | N            | U            | N            |
+| ASUS     | TUF GAMING X870E-PLUS WIFI7         |            | N            | N            | U            | N            |
 | ASUS     | TUF GAMING Z490-PLUS                | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING Z490-PLUS (WI-FI)        | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING Z590-PLUS                | NCT6798D   | N            | N            | Y            | N            |
@@ -794,6 +832,9 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | X570UD                              |            | L            | N            | L            | N            |
 | ASUS     | X570ZD                              |            | L            | N            | L            | N            |
 | GIGABYTE | X79-UP4                             |            | N            | N            | N            | N            |
+| ASUS     | X870 AYW GAMING WIFI W              |            | N            | N            | U            | N            |
+| ASUS     | X870 MAX GAMING WIFI7               |            | N            | N            | U            | N            |
+| ASUS     | X870 MAX GAMING WIFI7 W             |            | N            | N            | U            | N            |
 | ASUS     | X99-E WS                            |            | N            | N            | P            | N            |
 | ASUS     | X99-E WS/USB 3.1                    | NCT6791D   | N            | N            | P            | N            |
 | ASUS     | X99-E-10G WS                        |            | F            | N            | F            | N            |

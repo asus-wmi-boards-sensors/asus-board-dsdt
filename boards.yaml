@@ -2564,6 +2564,188 @@ B660I AORUS PRO DDR4:
   - QWDG:DEADBEEF-1000-0000-00A0-C90629100000:4141:0101
   - QWDG:DEADBEEF-2001-0000-00A0-C90629100000:4242:0102
   - QWDG:DEADBEEF-4002-0000-00A0-C90629100000:E200:0108
+B840M AYW GAMING WIFI:
+  aliases:
+  - B840M-AYW-GAMING-WIFI-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B840M
+  gigabyte_wmi: N
+  hash:
+  - 0a3ed2dd466fc13c526e03506688aa51
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 294b702e2c03aad0c97c112b2ef371ca
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 314cb6d9d6e2508ecf2cad743aa82ef9
+  - 32db7bd7c13ec916067f74ae2635a3ae
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 784a73383184eb27bff08e9ab470ac86
+  - 7939b0448f14200df2c2d6098d4da9b4
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b074559f1e9e8e848ed7a5c4a2bcdc26
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bd55215971910c265da6bcabeecafe75
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - f028bc45f5c2e4b05512868ccc9f0d44
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+B840M MAX GAMING AX:
+  aliases:
+  - B840M-MAX-GAMING-AX-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B840M
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 1f4f3424fb637603b9761bff95286e0b
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 31058c52b20623af8859d1a315a47df3
+  - 32db7bd7c13ec916067f74ae2635a3ae
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6f19260ab78b9add7e59e9900641e93b
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 738f287ea1ae7561ecf386fa7ef70027
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 85198387beb6f29ba96d75c29b7a65cf
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bd55215971910c265da6bcabeecafe75
+  - bf232202e324deeb129bf10fecff052e
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ee887ff4a593a06d9f947c6550893710
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 B85-PRO GAMER:
   aliases:
   - B85-PRO-GAMER-ASUS-2203
@@ -2625,6 +2807,478 @@ B85-PRO GAMER:
   system_name: ''
   upstreamed_serie: false
   wmi_methods: []
+B850 MAX GAMING WIFI:
+  aliases:
+  - B850-MAX-GAMING-WIFI-ASUS-1627
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 54e12efd232f5fa1499b8e3e76bb10bb
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 748299054fec678ea38f157a61f8785f
+  - 77c92ce48ea2e4f8d6b45f47c4c5fc88
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8319c7334b3dc2c03a83a63907b1904c
+  - 8c72cb52bba28655537ecff413206ecc
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - a66089caebb89f566af0155daa0e7c06
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e6a7138f7116dc27fec4d484d2ba568b
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - fddf884dfb05e8363994efbad09c8384
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+B850 MAX GAMING WIFI W:
+  aliases:
+  - B850-MAX-GAMING-WIFI-W-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 54e12efd232f5fa1499b8e3e76bb10bb
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 748299054fec678ea38f157a61f8785f
+  - 77c92ce48ea2e4f8d6b45f47c4c5fc88
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8c72cb52bba28655537ecff413206ecc
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - a66089caebb89f566af0155daa0e7c06
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bc30af98d89d3cbd2b601aa1ea62ee07
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e6a7138f7116dc27fec4d484d2ba568b
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - fddf884dfb05e8363994efbad09c8384
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+B850M AYW GAMING OC WIFI7 W:
+  aliases:
+  - B850M-AYW-GAMING-OC-WIFI7-W-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 08ddb5d024af742b883e81082c243191
+  - 0dffd8c0ff6d54029fd58acd133c163e
+  - 0e50a554731989c9b554408423f42bc2
+  - 1861ed8e2a525fdb7ec65428dbc8b8a0
+  - 1d0fb64e45efdc134d8beedf8540e97a
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3850f3025829099c7e20d6cfd1140a8d
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 741f2be5d23e5372a3edc1f8648fcf26
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8e8ec0b0e3add8248afcc104f0f0015c
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bffc0ba336649cf15aa80854216e0da4
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+B850M AYW GAMING WIFI:
+  aliases:
+  - B850M-AYW-GAMING-WIFI-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 32db7bd7c13ec916067f74ae2635a3ae
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 69944c318e956d027a519593afecbf5b
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9adfb8885af3268d9375d8076de96404
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - 9f0efcb221268f4b93ee46e39fd32335
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b323d201ae5e08dff20021bc468ef8ec
+  - b52db2f52b26fcfac09d412125277d63
+  - b64cc6e8c08edbb4a65f3d72b81dd791
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - dbff854f9322edc4e98b2e62426ef6f6
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+B850M MAX GAMING WIFI:
+  aliases:
+  - B850M-MAX-GAMING-WIFI-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 112c4f1077a6caebfad8d7809800672d
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 2145cce84acd14bb8793cc1570cfa630
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 32db7bd7c13ec916067f74ae2635a3ae
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3ae1524f01cc83b038cc87fdb9390ffb
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b09f94dbae2840ea91e41032229f47f
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6a7144c7231bab067d6f9837c790e56c
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7aff15431ec33662cb59c05f309d9607
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a102e43f62f3c015a083a1ee15c3327c
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 B85M-GAMER:
   aliases:
   - B85M-GAMER-ASUS-0605
@@ -4121,6 +4775,190 @@ EX-B760M-V5 D4:
   superio: NCT6798D
   system_name: ''
   upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+EX-B850M-V7:
+  aliases:
+  - EX-B850M-V7-SI-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e04f88ecd434b0a1cc342a6f1490174
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 25ecb0ba514b656bbd8235c4051f2b40
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3758f7f2ad98bedcc2419e86f815d2ed
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 54841b68771884fc238389f0a2324489
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6e97229c7fb2d8763b596603a68a4fd6
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - adff87d7fd8766496256a6973b1891b2
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bee779ebd1a15605cb0a598e519a9cd3
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+EX-B850M-V9:
+  aliases:
+  - EX-B850M-V9-SI-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e04f88ecd434b0a1cc342a6f1490174
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 25ecb0ba514b656bbd8235c4051f2b40
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3758f7f2ad98bedcc2419e86f815d2ed
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 54841b68771884fc238389f0a2324489
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6e97229c7fb2d8763b596603a68a4fd6
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - adff87d7fd8766496256a6973b1891b2
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bee779ebd1a15605cb0a598e519a9cd3
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -14794,6 +15632,842 @@ PRIME B760M-K D4:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME B840-PLUS WIFI:
+  aliases:
+  - PRIME-B840-PLUS-WIFI-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B840M
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 32db7bd7c13ec916067f74ae2635a3ae
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4a6010f71569b60a359c67986ba831e7
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 58498e5c7d1160084070cc495e263ae1
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 748299054fec678ea38f157a61f8785f
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 95f76b5bc19a640d9a081a7b34b8b2f4
+  - 969e8a45a34e60e7e8cf54e5c149c763
+  - 981271021d7d29f25a6b30057d275241
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bd55215971910c265da6bcabeecafe75
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e055ae8b93427810f26ed14185228efd
+  - e91c017ee4dc29b47632236c785f4b69
+  - ef4acfaec04904c0c5eac5dd2a667c6f
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME B840M-A:
+  aliases:
+  - PRIME-B840M-A-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B840M
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 31058c52b20623af8859d1a315a47df3
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 4170b97d1727856fe15e41ed6020b96a
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6f19260ab78b9add7e59e9900641e93b
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 738f287ea1ae7561ecf386fa7ef70027
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 81b29801e02f51cd4a3774d17a5b23fc
+  - 8a87c86ac36fe5136cebdb86d5e14667
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bd55215971910c265da6bcabeecafe75
+  - bf232202e324deeb129bf10fecff052e
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME B840M-A WIFI:
+  aliases:
+  - PRIME-B840M-A-WIFI-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B840M
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 1f4f3424fb637603b9761bff95286e0b
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 31058c52b20623af8859d1a315a47df3
+  - 32db7bd7c13ec916067f74ae2635a3ae
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6f19260ab78b9add7e59e9900641e93b
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 738f287ea1ae7561ecf386fa7ef70027
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 85198387beb6f29ba96d75c29b7a65cf
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bd55215971910c265da6bcabeecafe75
+  - bf232202e324deeb129bf10fecff052e
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ee887ff4a593a06d9f947c6550893710
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME B840M-K:
+  aliases:
+  - PRIME-B840M-K-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B840M
+  gigabyte_wmi: N
+  hash:
+  - 0a3ed2dd466fc13c526e03506688aa51
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 22e25c2a4260aa6dedd78ee47d0158dd
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 314cb6d9d6e2508ecf2cad743aa82ef9
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51b0c2881f31ef10470471f8ca334f9d
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 7939b0448f14200df2c2d6098d4da9b4
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91bd79ad5664ebd512f4c6195d7a1c90
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b074559f1e9e8e848ed7a5c4a2bcdc26
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bd55215971910c265da6bcabeecafe75
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME B850-PLUS:
+  aliases:
+  - PRIME-B850-PLUS-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 134cff2e36cfce2d9662305138f32a79
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 21fc32ff1952abd9e512790a8a703ef1
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 33119ddcf50d7569fa990f637a07eb74
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 748299054fec678ea38f157a61f8785f
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 853a2c157b2921bed660c5e45dad3181
+  - 87db9f6ebea0c30e258216667e840860
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c457a0875fb01d2b75bac3f70e9ca465
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - f4ab515b3a83a5a2f6065c3a25a006af
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME B850-PLUS WIFI:
+  aliases:
+  - PRIME-B850-PLUS-WIFI-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 54e12efd232f5fa1499b8e3e76bb10bb
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 748299054fec678ea38f157a61f8785f
+  - 77c92ce48ea2e4f8d6b45f47c4c5fc88
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8c72cb52bba28655537ecff413206ecc
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - a66089caebb89f566af0155daa0e7c06
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bc30af98d89d3cbd2b601aa1ea62ee07
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e6a7138f7116dc27fec4d484d2ba568b
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - fddf884dfb05e8363994efbad09c8384
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME B850M-A:
+  aliases:
+  - PRIME-B850M-A-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 16dc659940871215250c3c8ac4c85ada
+  - 1a5b90eb64260fbc6f6a6f76c08cfb9c
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 21e5708e5f05406314d6f835c9daf0bb
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 2fa01cc8d80753ab76dfe35f01f30296
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 906b7da747168366fa3191d21d1b9e64
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a3ea51970a9e940d98c2f45904cdab94
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - af3e703a53e7a1b7c535a18b23191be3
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME B850M-A WIFI:
+  aliases:
+  - PRIME-B850M-A-WIFI-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 19e5a38a6c74b55005138e80afb54112
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 32db7bd7c13ec916067f74ae2635a3ae
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 351ed43c17c843b67e419fd7bf288496
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4840529937d65e44ea1931edc311ec54
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 881b13d946f8cec293d126cefc7e0949
+  - 8c228a3f2fc5791c0abd63fa6b604e1d
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d21185b23c3385f47122a7ec4360d972
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - f551f7992058a5ed9af3aa32d25fc124
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME B850M-K:
+  aliases:
+  - PRIME-B850M-K-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0240beffa963a0daaecb70a33ce10bf5
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3718fbc22ee6af1fd87ac332593cad2a
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4cebf4e4728422577dc79cf32c7e44fc
+  - 4dc2e5b77d5ab1c8b4a02d0a7833cc15
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5b603d35c597af8184b1bf2bfedfa2aa
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - be0a241c4b8676b18db3b70a0849fb43
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d458b3e7cfc0d5da16a054bfbcb1b0c0
+  - d7f47cbabaad584be06e4c911f61db01
+  - db4a5efc98826fb5c41cda898ce39dfc
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 PRIME H110M-P:
   aliases: []
   asus_dispatcher: []
@@ -21126,6 +22800,197 @@ PRIME X670E-PRO WIFI:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME X870-P:
+  aliases:
+  - PRIME-X870-P-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 25ecb0ba514b656bbd8235c4051f2b40
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 54841b68771884fc238389f0a2324489
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - adff87d7fd8766496256a6973b1891b2
+  - ae255dfba079a72ccfa8cab87a01d280
+  - aeeb32b5bde3962b186ee57a9f4f3286
+  - b0b3eddf97f4743cd7d30a4643b15cdf
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bee779ebd1a15605cb0a598e519a9cd3
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - dfccdfb612da483a7724595f1d5b1d36
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+PRIME X870-P WIFI:
+  aliases:
+  - PRIME-X870-P-WIFI-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 25ecb0ba514b656bbd8235c4051f2b40
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 54841b68771884fc238389f0a2324489
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5bf5982c972f073d2072ef8bed60256c
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7eaf68078d76102685fb44b7a2ca608b
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - 9ea29b1b7042b2d6d79f5dbf0bf6b3ed
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - adff87d7fd8766496256a6973b1891b2
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bee779ebd1a15605cb0a598e519a9cd3
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 PRIME Z270-A:
   aliases:
   - PRIME-Z270-A-ASUS-1302
@@ -26389,6 +28254,102 @@ Pro WS 665-ACE:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+Pro WS B850M-ACE SE:
+  aliases:
+  - Pro-WS-B850M-ACE-SE-ASUS-2102
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 17bf23f748adad5e1a70800172f07ff7
+  - 1a7bc739b8a4d84c12f3affc80ed7bda
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 25cc3ed8ea37940ac2aa56f836fe9377
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3c1124b7a2f42b4dcfdb94bf6e084740
+  - 3eac885db4b8cf06dfe86d203e10c305
+  - 40f1938535022aee65a862bc788f80a8
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5cec9b0f1507ddac1380db00f2837ce6
+  - 5e6aa478be7caee4c85106166555c3f8
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 748299054fec678ea38f157a61f8785f
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 86806933e75b5a7ecebfbb4ed26ef906
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bb002c9db22f588d66191ace1b1a4c95
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - eac7b6b65f7d68261ab15fb10d47c74d
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 Pro WS C422-ACE:
   aliases:
   - Pro-WS-C422-ACE-ASUS-1403
@@ -26541,10 +28502,114 @@ Pro WS TRX50-SAGE WIFI:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+Pro WS W480-ACE:
+  aliases:
+  - Pro-WS-W480-ACE-ASUS-3201
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: W480
+  gigabyte_wmi: N
+  hash:
+  - 0258e28370392f41ad0e6e4ee385d81d
+  - 074a3b4a4f86b14c843ef56760ce496e
+  - 09c60b1793d338b2b3ae4b7e4a26f6b7
+  - 0f46fd299d0925cb57e5050c1b69f925
+  - 108d6a574c07e87ce81e940701cac7fc
+  - 1efec312fd1306d53c8ad6cbfe3815e0
+  - 20e09bd4d8ed08b018c91277a467974c
+  - 26c08dc65cea16c6f94657edcbfa6f14
+  - 28ad979c0edd2bd6a16d7af224c86ad3
+  - 2cf73285ec3abf42a4e4251e9de92827
+  - 33417d3285142a105fbee5570aff76a9
+  - 3636f05bd1373c10706bf705251b3388
+  - 37bf28ffd27f32e43f0b77fededcd48f
+  - 3ac74b4f23b1ac9d83c34c31672d72a5
+  - 40d74b27b41a39a6b3ddaa067fff775d
+  - 4186bb564d89a87c3bd4336a0c7f622c
+  - 516cc5ddd7017f8086940f5fad14b5b3
+  - 53261dbbecd985976103822a2b9e0bfb
+  - 640c1693a6d958c487076407c3c150ec
+  - 6b197a83a1195a1c221f53609ac4cdf3
+  - 7419ba36f02da23a1cd51d399aa9e5eb
+  - 77ad72edd1af67209e9e32bc3b78c45e
+  - 77b98d92f35e04e7b94b800a9fb41d29
+  - 8458e04afdf36afc5c45dfef4cb80be6
+  - 8b0479e49ff9e9fd82e3e993171be0fe
+  - 8d39756c621f0a9889b501f0ec6378e3
+  - 8d3e7ed93df993c474731db2764f3393
+  - 8f26a78d79d8dd8d7c5513f29284a392
+  - 8fda7f137b9891c550b50313b1e5bf16
+  - 91934913f73029e94644fa300de04a25
+  - 9216692da963b903a30193805823dd5b
+  - 9259139cbfede875358ac72377fe4bab
+  - 93a9783e73fac2ae0eba9b02ed1f59fd
+  - 958ad48f8505def3d7d562764cb2863a
+  - 9caf35e62f2c83248784da8a71012b4e
+  - 9cfde4ecaf9ea1881c3212b163789599
+  - a171a5fcf39c5e62cbc66d2b96cfe3ed
+  - a324a8150cc2dfe777a728d6fe10c974
+  - a531b56dae5d76c3eadd0f08163dd380
+  - a836cb962df6656635d5d9dd03b7b6d8
+  - a88565c6f9ceca4c6d12206dc1b7b62c
+  - a9735d6996b193fa568fca52dae3aa64
+  - ab574b371205b0668bd5c018115e038c
+  - b30c001024b92bf529740884ad95c3e4
+  - b3e86bf75fe56087ba059ce6f55eb3c9
+  - b4282b88bd26d0161fdb4a684300bf33
+  - b6bfb06af33309ad974508d0b68ee3dd
+  - c3bc632a1891e5dfc8483e6035f17755
+  - c4b5f7bceb7857c6d8362cf5fb2ad32e
+  - d0633b141adf20ced6161968b97cff64
+  - d155860a811c897ea0e4108dc711c662
+  - d50edccd9691692eec692725f58b8b09
+  - d723035709b71bffe58bb98213343fdd
+  - db10bc9adbcd9e3571c2a964b5c6967d
+  - dcb275d002b69839b054c7d3482d9411
+  - e9fc421d99ea9f5862d70b45c18ef026
+  - eda4eb93cee432bf295f765cea8051f6
+  - eea7bd2486e26ed4844bf1072e05044a
+  - ef0ffb52eee78e522383f1054e9bd27c
+  - f030629117e64df0b5a37f21e11ef3cb
+  - f3989d08ab05a1ca42f7c1a48609ffb1
+  - f771db39e89257cc25657c518b8176d2
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links: []
+  superio: NCT6798D
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 Pro WS W680-ACE:
   aliases:
   - Pro-WS-W680-ACE-ASUS-0203
+  - Pro-WS-W680-ACE-ASUS-4505
   asus_dispatcher:
+  - BRHM
+  - BWHM
   - RHWM
   - RSIO
   - WHWM
@@ -26569,15 +28634,27 @@ Pro WS W680-ACE:
   - 041f2b79c4300f14119542b849e9369a
   - 04942d5c83d33dc5d3ade85e5ed1b250
   - 051d26cceadb136db6f4dd82cb345cbb
+  - 069ed3c8e51f31c62bcb6fd6b6526bb9
   - 081481ba72b01cc1265350e7692eebea
+  - 09ef3a5394926407b60886f4f49b2be8
+  - 0bb1598165d6ad5c0499830b11d6f210
+  - 0d4cba456d937cdcc5309c916359db61
+  - 0d85c4de7d48cacbee7dda9851e8d928
+  - 0e3578623c6cd9337876e446df64b547
+  - 10b369594d3eeaa157e3eabe45ff5472
   - 13be93730fba1a81233b5833546b5724
   - 13fcdbd5d2376f43448cac4ced31c88f
   - 144fe5836fc6ec425c566e6d370dfcd9
+  - 1576692c4379de562b0e44cfbd1ef4f1
   - 15c710acf84d14d0d23b52491a6e65a4
   - 197a7c8dfa2e30ee5a759d09910425dd
   - 1a307ba5a11e8b4b07f858f70af0f0fe
+  - 1bcecb71a36e18e5984e03204b26d4d0
   - 1d08f99c54bfc6226eb01f927ea77172
   - 1f1288218ab17bd23b2b9d1ffc58d671
+  - 1ff1cdb944f5bfb7fbec19318c7d0d42
+  - 22b4c62fe2b4194443ed686611935bbb
+  - 240c167e53e816db4c8d12feb905e6ea
   - 2487a5ba0b8bcef6fa15e47940876d5c
   - 26cd679dddc2d6503275bb4ee95dceed
   - 27543ec8077ac7f9508754251508eb27
@@ -26586,7 +28663,12 @@ Pro WS W680-ACE:
   - 2d661223fc66caa54089dce0c561cab9
   - 31623712fdc62d28e265bd46e61af4a8
   - 33359bfc5f0d23f44ed41874650e1685
+  - 3450e9bafe63704ffd7825dfcdea50ec
+  - 34b769b32966ae3f04ae6c6b536fcb3b
+  - 37639a50917cd4134b976c52fdeb20c5
+  - 3835db2a7dd883a1a96ae60b3939fbb1
   - 388dffe7e047ab47672429c4359d1df4
+  - 38b5c622f94b2b84fa051e0a88a617eb
   - 3cd9c6f0a47c20bd48b25d7d06084cb5
   - 3d41c253e5b30b76dec201368950cfc7
   - 3d7a058d164612c20045fa52fc45b066
@@ -26599,81 +28681,143 @@ Pro WS W680-ACE:
   - 47cc29970a23632b64491e5177544aec
   - 47d5bc0d810e2c090a8a4c73d5fc5a7c
   - 492d8d2f1f246b1f93a2060f18faeadb
+  - 4971ab642145c8361028597be28c9be4
+  - 4d899f5563394938e0591f04e6ce99d1
   - 4e8d22709e4efeda4177a989f7eb20d1
   - 52561c8793ac30d5defba223014a24e6
+  - 53cabf02a521f2e534bdb37415f22d54
   - 53f0bdbdd13b6c85df49786f54071e5a
+  - 5516afe2a77e31f892dd6c28580ed030
   - 559bd968fc979f19d76e1ce975555065
+  - 56622c690a9a2cea429a5e64294ecccf
+  - 58eb75ca428be0cff981a95bdd63b836
   - 5968cbbd0f4ab11649f36e7985254ae6
   - 5b3849ec4b83d4e8d23e3cf533979a6d
+  - 5c1b5f67e20ff5160f4139f106c95f4b
   - 5cd2dd0791155d69c2efe707ad01ea97
   - 5d385085d6cd4f50dc719656c044cdce
+  - 5db7e3152458083115e41625277254e2
+  - 629af8252e8154ff06e7b95097627e62
+  - 636ad6adbf0101ab53da310150fdac03
   - 6427506b3b9796a5039c901bad06b881
   - 661f42e810d8d8ef41b2e484059dee6d
+  - 663462847391b8eccd8ca6e71e17f6ea
   - 66f148b7718865107352362f7970b86c
   - 67137dccb48508df7626075bcbb3947e
   - 677b8b8af64b106ece96f768d2f601ff
+  - 6af90d4071828531d003feceab6e03fd
   - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 6da3430748cae78a3ef7b9741ba09801
   - 716fcc9b07fb0e90677813108c5e119f
   - 7228bfe97f9b9e71e3c1c6fd8c66e80d
+  - 745b21936568d68464440d7803478d82
+  - 74ccb32c1fd13f58bf938228e5c93daf
+  - 7567696d4c95868b224eb776249063af
   - 7810e64a9ece956ba773ce7b25de2cad
   - 78d7f8821506bdbe5480bbf9abd6f737
   - 7a515beb49339cae3403edf65f16d6cc
+  - 7d1d13d8ada5e0e258b6d168da1f6727
   - 819d436267cdd7aae91cf86c326aa55c
   - 829a5f6824602c15df8588c607c5844b
+  - 82b12e8bc58bbc73ede5072b0ab5b7c2
   - 83dac1c23aac564e4b72f6018311eb17
   - 849018c5a6633c70fbcfb0756f061b30
   - 84add4e33c9d99ba3f7003ea5b12933e
+  - 86c194787ca512741618fe7e1e6676e2
   - 87cf34d82ce4910039f421701043386f
   - 87fb02d27dcce40268fad33cdc16ab38
+  - 885087a875c48b0e9fdca59ea7930be5
+  - 8bb8dcc4b0387396592c57c0c77aa2c7
+  - 8c22775afed05875670bbbe60bdc0d22
+  - 8ce22edbf8861d720476ccaf16b93e4c
   - 8ce80946bf8f4987cc877c82dd4f9110
   - 8d9e951941c062773b603bced78ed2af
+  - 906b7fbbe8db07ce6d60a7169c921150
   - 93907b649b3fe34401f8560d71b2e106
+  - 96223696df8d5b07e567fb0dcab66063
+  - 981c51b56eed741a9d64f3878b0b0dfd
   - 9852bc03d8bd5b3a53d7b271f869a3c5
   - 98616344f36a150c4e4614926fe45a95
   - 986cf7586083133c8d8ae706fe922c2a
   - 99629d52bcf7c7a2e8206a3fa0c68631
   - 9a3977ed4378da474177bb0e01061cf3
   - 9abf81ec77a99d8894d75eebb63cf993
+  - 9b254ff52643962e116909aec7c1c240
+  - 9b74369301629e01d83e553607e6fb01
+  - 9bd78b5ff7c775043689e2619569843e
   - 9c2e16db95efe75ac02f784049489a3d
   - 9d0a8a130c88ecd91319950eccd768b5
   - a081d3f4d6dbbc2c2b45ac6751c56ac1
+  - a3b8b50f125b87e132641a8292fa4676
   - a3c29c66f1fcd1975a7dd2c28e1a8a94
+  - a7a276a39d204c63ff236e36696a02e0
+  - a83b55181f9b08ba88e3d36048ac5ecc
+  - a84a5329baa88d650c80c033b3af1227
   - a8d27095a3c0af54b5a109968cf3839b
   - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a96d33298335056e073b0245018ff6bd
+  - a9d9a4678f1382444f18a47dec3089c7
+  - aa68f0a14695b471cce87f04301ef267
+  - aa98f2effa04a4ab30455134b4aa59a8
+  - aaa601f2bbe00d9025c60f4147dc35b1
+  - abb36fbe48e113dc0a9e4823c0e994c6
   - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - acb904b2c7d57e758bd3591ff06d6209
+  - accb6bef8b2c21e7a2a8163eb671e518
+  - ae3b4249d5299d38972fe9e9ed353b22
+  - b1b9c929198b837779624d1ed3a6ff3c
   - b2e8a72c6f98bacbe4473c33214ee301
   - b408d7dd05a5deda5f283638c4e608b7
   - b5c2bf32ff56a19ee512a35138130c82
+  - b65ded9920f1299257c6ad6585e3641d
   - b6b1db9495760c835288c91ca7ea44c8
   - b6f3636396b26fe37f24c35e1ad035fa
   - b785ebb63a086e7d4990dccc13bb66d8
+  - b83edd1d6ccd6eb14b4d13d14ae2c0dd
   - b9b8400561cfc28ba43c7bd5f532e121
   - ba11645904ad35e4c9e0b95319884dd9
+  - bb17c3a3e147ff74b10cdd273c181291
   - bd67b46dfd1cb4cbf29b97083ab67549
   - be5c17b376ec623a0502705ccb469a26
+  - c00159480d95b7972be761c3a983a233
   - c0886d9d31aff9b1d207d8c0e56ef242
+  - c111f858da93118712ad16a4821802c4
   - c2a14cc85e2e1f7f61f64d5aae51fd71
   - c3cd562e963da839a06993817e1317b3
+  - c41e09628acff932600fa7cfa8f580c7
   - c425244a582b775d6798b92bb5d43d5c
+  - c4f9ec05f8034bb93cb6e664df45d1a2
+  - c5b840d454a2008c6bc636a5b8237f63
   - c6c6872f8a07f0aaed523a58a8ddfc83
   - c71ecc98085192da9559768f8d7591f6
   - c8bc8bd6f5a131ab3785a992965c4db0
+  - cb1517c2d3fe738fddf0fe2f07155a0d
   - cdd14195cf55ab9a248e9125a838d03b
   - ce1f47a049a5d4d75d32f54c66fba0ec
   - ce2f88e7b693b201068d609f8bd1a424
   - cfef32d8fdda4ede1fc42e6b20dc3edd
   - d28da94f40087cef8ae001c449b92608
+  - d633649d91b1813549d55631b2623657
   - d68dafb92ec1270d36f98239a7465885
   - d89b47851bb20d67d47e990c7b5bef08
   - dd29160f9c9594595035b3ca39abc163
   - e3b365ad7a66a8f0cc8ffd50d9c6da1c
+  - e40026e68986744ad862330fafa9b2eb
+  - e545a35c94c5eda1f964cbecf648af4b
+  - e83202e6aee411f1c1a3b92e0839d2ec
   - ebe010ead7e938bf17e1437641bff905
+  - ebe9d1876ace7712f0160cca1c93c048
   - ed3cbe25c23dc4083d32a24a478df0cc
+  - ef4142134148c3b013d10f090b23546c
   - f06e72acdf21b644347fd64f2c51b61d
+  - f08871ec6ddcfac5e7fa85f81ff99c0f
   - f1fcd77eb7b71abe2a20a7f413a93127
   - f2f0b4b1da5a1ca55ae37c5d5c078726
   - f46b6c1d788b6b8a16a13aa73ade0bc1
   - f57a36a0003a5283bb70020dd26d01e1
+  - f63364b599526076b537945d327a2a55
+  - f9a0f6d47d57986a2f60128edc3ad600
+  - fbbc634f0459a85b1e5becba5c7102d8
   - fbc87f1858cfd8335a105e8fab561681
   - fee7c0230fbb319e93fda844cfb82b8f
   - ff7cc43ecff40fe07d3c523c6f0fabe2
@@ -26694,7 +28838,10 @@ Pro WS W680-ACE:
 Pro WS W680-ACE IPMI:
   aliases:
   - Pro-WS-W680-ACE-IPMI-ASUS-0203
+  - Pro-WS-W680-ACE-IPMI-ASUS-4505
   asus_dispatcher:
+  - BRHM
+  - BWHM
   - RHWM
   - RSIO
   - WHWM
@@ -26719,47 +28866,80 @@ Pro WS W680-ACE IPMI:
   - 041f2b79c4300f14119542b849e9369a
   - 04942d5c83d33dc5d3ade85e5ed1b250
   - 051d26cceadb136db6f4dd82cb345cbb
+  - 069ed3c8e51f31c62bcb6fd6b6526bb9
+  - 09ef3a5394926407b60886f4f49b2be8
+  - 0bb1598165d6ad5c0499830b11d6f210
   - 0cc19b5e8000f68f1da2ea2960c0460a
+  - 0d4cba456d937cdcc5309c916359db61
+  - 0d85c4de7d48cacbee7dda9851e8d928
+  - 0e3578623c6cd9337876e446df64b547
+  - 10b369594d3eeaa157e3eabe45ff5472
   - 12ffd026c15850e7b1d646c854b0bee4
   - 14120d733ef7b75f919112b3111f03b5
   - 144fe5836fc6ec425c566e6d370dfcd9
+  - 1576692c4379de562b0e44cfbd1ef4f1
   - 197a7c8dfa2e30ee5a759d09910425dd
+  - 1bcecb71a36e18e5984e03204b26d4d0
   - 1f1288218ab17bd23b2b9d1ffc58d671
   - 1fc9c9b96066002dd8105e4414532d3a
+  - 1ff1cdb944f5bfb7fbec19318c7d0d42
+  - 22b4c62fe2b4194443ed686611935bbb
+  - 240c167e53e816db4c8d12feb905e6ea
   - 27543ec8077ac7f9508754251508eb27
   - 28abaf0f142e57812f5d4668b0d3f625
   - 2d661223fc66caa54089dce0c561cab9
   - 33359bfc5f0d23f44ed41874650e1685
   - 33c816ac977cdadc2a3f9ad3233de668
+  - 3450e9bafe63704ffd7825dfcdea50ec
+  - 34b769b32966ae3f04ae6c6b536fcb3b
+  - 37639a50917cd4134b976c52fdeb20c5
+  - 3835db2a7dd883a1a96ae60b3939fbb1
   - 388dffe7e047ab47672429c4359d1df4
+  - 38b5c622f94b2b84fa051e0a88a617eb
   - 3d41c253e5b30b76dec201368950cfc7
   - 3eda53e4928d4464982c457bdaf0980e
   - 42c2bd314b1ed662dfde3d4b03436c4f
   - 47cc29970a23632b64491e5177544aec
   - 493693e8fff02bd42ddee6b33497d588
+  - 4971ab642145c8361028597be28c9be4
   - 4a344f2b3aaa68bfe29f7c4cc17ba363
   - 4b6b7bae92910aa711ce81f4a5900187
   - 4c1443e0294dd055831366f9128122b8
   - 4c711567bf9731cf26e1a85a5136fd9b
   - 4d7f23295710bba2ad100b8d8030a3de
+  - 4d899f5563394938e0591f04e6ce99d1
   - 4e8d22709e4efeda4177a989f7eb20d1
   - 52561c8793ac30d5defba223014a24e6
   - 52ebf1bc535a83e8905095918a3334d3
+  - 53cabf02a521f2e534bdb37415f22d54
   - 53dd75b6b1ab61c9a03b6c90fb27044d
+  - 5516afe2a77e31f892dd6c28580ed030
   - 559bd968fc979f19d76e1ce975555065
   - 55ddab632b4d223d0952617028542649
+  - 56622c690a9a2cea429a5e64294ecccf
+  - 58eb75ca428be0cff981a95bdd63b836
   - 5b3849ec4b83d4e8d23e3cf533979a6d
+  - 5c1b5f67e20ff5160f4139f106c95f4b
+  - 5db7e3152458083115e41625277254e2
   - 60b07b99f6d54266aa130ca5e47a6697
+  - 629af8252e8154ff06e7b95097627e62
+  - 636ad6adbf0101ab53da310150fdac03
   - 6427506b3b9796a5039c901bad06b881
   - 64ebd2cbb78ee7a58dd82404e5f622a1
   - 661f42e810d8d8ef41b2e484059dee6d
+  - 663462847391b8eccd8ca6e71e17f6ea
   - 67137dccb48508df7626075bcbb3947e
   - 6a03389f107434ed06b664f70946428a
+  - 6af90d4071828531d003feceab6e03fd
   - 6b09c06ab3021865d3867765310557dc
   - 6cb93b8c13d05a3be00c72ff3bc4b1e4
+  - 6da3430748cae78a3ef7b9741ba09801
   - 6e4ceb94d5dead649ee62458c31c8f11
   - 7228bfe97f9b9e71e3c1c6fd8c66e80d
   - 74037dcc21d0dbd72dbe1237376ba01f
+  - 745b21936568d68464440d7803478d82
+  - 74ccb32c1fd13f58bf938228e5c93daf
+  - 7567696d4c95868b224eb776249063af
   - 75f8596e78caea6268f05dd8ec14c6e7
   - 7810e64a9ece956ba773ce7b25de2cad
   - 78b318e754c1f7628f8d18e24e6c0827
@@ -26767,49 +28947,85 @@ Pro WS W680-ACE IPMI:
   - 78d7f8821506bdbe5480bbf9abd6f737
   - 79a0143999e2e1edd43bbc5a6fa6781b
   - 7a515beb49339cae3403edf65f16d6cc
+  - 7d1d13d8ada5e0e258b6d168da1f6727
   - 829a5f6824602c15df8588c607c5844b
+  - 82b12e8bc58bbc73ede5072b0ab5b7c2
+  - 86c194787ca512741618fe7e1e6676e2
   - 87cf34d82ce4910039f421701043386f
   - 87fb02d27dcce40268fad33cdc16ab38
+  - 885087a875c48b0e9fdca59ea7930be5
   - 896ac176a7b30d3ad96c8a9730db55da
   - 89bc7fe8693bbbfdc050f82114a14eba
+  - 8bb8dcc4b0387396592c57c0c77aa2c7
+  - 8c22775afed05875670bbbe60bdc0d22
   - 8c4e9e77bdf34cc4e6bcac15dd87e8d1
+  - 8ce22edbf8861d720476ccaf16b93e4c
   - 8ce80946bf8f4987cc877c82dd4f9110
   - 8d9e951941c062773b603bced78ed2af
+  - 906b7fbbe8db07ce6d60a7169c921150
   - 9128c981805b230a873d9e48d0639912
   - 93907b649b3fe34401f8560d71b2e106
+  - 96223696df8d5b07e567fb0dcab66063
   - 981a1aea9cbdd14870f50e1aaef38af6
+  - 981c51b56eed741a9d64f3878b0b0dfd
   - 984fb21243498787d6bba68a716d2dad
   - 9852bc03d8bd5b3a53d7b271f869a3c5
   - 98df68e901dbe655d810803903c10533
   - 99629d52bcf7c7a2e8206a3fa0c68631
   - 9a3977ed4378da474177bb0e01061cf3
+  - 9b254ff52643962e116909aec7c1c240
+  - 9b74369301629e01d83e553607e6fb01
+  - 9bd78b5ff7c775043689e2619569843e
   - 9d0a8a130c88ecd91319950eccd768b5
   - 9d0fb85e868d892c51cab4431c3c0a2a
   - a1c0266f33701b9021674843b4e644ca
   - a1e203001cb91cbc86b2735614d98a11
   - a1e4a6bf5951b07d7d998d6f720ce3da
+  - a3b8b50f125b87e132641a8292fa4676
   - a3c29c66f1fcd1975a7dd2c28e1a8a94
   - a71f35d4581de56a49b8857942979589
+  - a7a276a39d204c63ff236e36696a02e0
   - a7fb1b123f40b890f221009ad7286d07
+  - a83b55181f9b08ba88e3d36048ac5ecc
+  - a84a5329baa88d650c80c033b3af1227
   - a8d27095a3c0af54b5a109968cf3839b
   - a93fb6816eeb0908a0ae4cea61fa2e29
+  - a96d33298335056e073b0245018ff6bd
+  - a9d9a4678f1382444f18a47dec3089c7
+  - aa68f0a14695b471cce87f04301ef267
+  - aa98f2effa04a4ab30455134b4aa59a8
+  - aaa601f2bbe00d9025c60f4147dc35b1
+  - abb36fbe48e113dc0a9e4823c0e994c6
   - ac86db6e0da6bc7e6418cd4eb6bd2af7
+  - acb904b2c7d57e758bd3591ff06d6209
+  - accb6bef8b2c21e7a2a8163eb671e518
+  - ae3b4249d5299d38972fe9e9ed353b22
   - aeabacc3750c078bb9c666e88f659ae4
+  - b1b9c929198b837779624d1ed3a6ff3c
   - b408d7dd05a5deda5f283638c4e608b7
   - b5c2bf32ff56a19ee512a35138130c82
+  - b65ded9920f1299257c6ad6585e3641d
   - b6b1db9495760c835288c91ca7ea44c8
+  - b83edd1d6ccd6eb14b4d13d14ae2c0dd
   - b9b8400561cfc28ba43c7bd5f532e121
+  - bb17c3a3e147ff74b10cdd273c181291
   - bbbdb07bb678e552d0018af0b2173e08
   - bd67b46dfd1cb4cbf29b97083ab67549
   - be5c17b376ec623a0502705ccb469a26
+  - c00159480d95b7972be761c3a983a233
   - c05d014d4dcd1ddca93e46b2a98e9af6
   - c0700623b54c3e788026c5685a0beeff
+  - c111f858da93118712ad16a4821802c4
+  - c41e09628acff932600fa7cfa8f580c7
   - c425244a582b775d6798b92bb5d43d5c
   - c4bf515630c27b711eb64a196633cc95
+  - c4f9ec05f8034bb93cb6e664df45d1a2
   - c51cdf403d93293f58f3402b8b19c8d7
+  - c5b840d454a2008c6bc636a5b8237f63
   - c71ecc98085192da9559768f8d7591f6
   - c8bc8bd6f5a131ab3785a992965c4db0
   - c91d1ba28f3fc4d58c2d745247db2dc7
+  - cb1517c2d3fe738fddf0fe2f07155a0d
   - cb1e34674994f2dc2b3aa97d718e728d
   - cc70a961e3c98fe3fce7f8e96cf8c090
   - cdd14195cf55ab9a248e9125a838d03b
@@ -26817,16 +29033,26 @@ Pro WS W680-ACE IPMI:
   - d28da94f40087cef8ae001c449b92608
   - d38bb4eaa44c78627b1fde6b9201e04c
   - d518bf5dbdcf06ba954de837f5552677
+  - d633649d91b1813549d55631b2623657
   - d68dafb92ec1270d36f98239a7465885
   - e0fc9721c6f68d891a53e8395e3673a0
+  - e40026e68986744ad862330fafa9b2eb
+  - e545a35c94c5eda1f964cbecf648af4b
   - e662d75106d21dad77f186b6ca11141f
+  - e83202e6aee411f1c1a3b92e0839d2ec
   - ea040291bae549ad860f1d328a01e23e
+  - ebe9d1876ace7712f0160cca1c93c048
+  - ef4142134148c3b013d10f090b23546c
   - f06e72acdf21b644347fd64f2c51b61d
+  - f08871ec6ddcfac5e7fa85f81ff99c0f
   - f119b55ef659ea226437f5625676ad57
   - f1fcd77eb7b71abe2a20a7f413a93127
   - f3ee7b8b73598aa87d0b84b9847ba917
   - f5cffba2f8879466a6be0b0d25da0d5d
+  - f63364b599526076b537945d327a2a55
   - f71641dace102fb0926de3a0c33a74b2
+  - f9a0f6d47d57986a2f60128edc3ad600
+  - fbbc634f0459a85b1e5becba5c7102d8
   known_good:
   - AsusMbSwInterface
   known_good_nct6775:
@@ -26844,6 +29070,7 @@ Pro WS W680-ACE IPMI:
 Pro WS W790-ACE:
   aliases:
   - Pro-WS-W790-ACE-ASUS-0403
+  - Pro-WS-W790-ACE-ASUS-1904
   asus_dispatcher:
   - BRHM
   - BWHM
@@ -26866,14 +29093,24 @@ Pro WS W790-ACE:
   bridge: W790
   gigabyte_wmi: N
   hash:
+  - 012269083edc456717d404caa64efbc9
   - 01a9bb2be7ce1b279770e00039aa1195
+  - 27e11949da3a367fabd0c508af493a0a
   - 2d2976127040f7a2605ae61b3304c783
+  - 3aad078bba03a9b4befb13f626d0f9e1
   - 7b2ca88b66f3f895d4dcc6c88f888a62
   - 7b792361def441d82585ff2e222f031a
+  - 7bb1690ddb81cd83668db77da41bc77d
   - 7bf89e2fe649e7620fadc871babcf957
+  - 7f9a85d361a2bd14a401a4664d50f78d
+  - 9ebd889f96928d205117efc17883beb2
   - b06df6f42b16dfb26058a721d4757645
   - b650186e8dd937b35c25218b9333e256
+  - be4685952047ffe94be0e3ae9b1d62b3
+  - c0ac165975cf3da41b53a2d13fb95d82
   - c17dd8f2f66481b29f152277ca7b401f
+  - cd8945bfdf65f2d68b276a51f6b4c3a6
+  - fbe327aaab3e47467657b586e7181d80
   - ff0facb475cb1954deca36f36686f43c
   known_good:
   - AsusMbSwInterface
@@ -26892,6 +29129,7 @@ Pro WS W790-ACE:
 Pro WS W790E-SAGE SE:
   aliases:
   - Pro-WS-W790E-SAGE-SE-ASUS-0215
+  - Pro-WS-W790E-SAGE-SE-ASUS-1904
   asus_dispatcher:
   - BRHM
   - BWHM
@@ -26915,12 +29153,20 @@ Pro WS W790E-SAGE SE:
   gigabyte_wmi: N
   hash:
   - 01a9bb2be7ce1b279770e00039aa1195
+  - 27e11949da3a367fabd0c508af493a0a
+  - 3aad078bba03a9b4befb13f626d0f9e1
   - 46e82fe2d30338715135391dbc5b9ff1
   - 5fe6359a611f00f6c1d062ee6a0253d3
   - 7b2ca88b66f3f895d4dcc6c88f888a62
   - 7b792361def441d82585ff2e222f031a
   - 7bf89e2fe649e7620fadc871babcf957
+  - 7f9a85d361a2bd14a401a4664d50f78d
+  - bd6780bf1025a1d7aaa7cb4cf03aa916
+  - be4685952047ffe94be0e3ae9b1d62b3
+  - c0ac165975cf3da41b53a2d13fb95d82
   - c17dd8f2f66481b29f152277ca7b401f
+  - fbe327aaab3e47467657b586e7181d80
+  - fd215d1803cd75a76bb62b12e07caa7d
   known_good:
   - AsusMbSwInterface
   known_good_nct6775:
@@ -29085,6 +31331,582 @@ ROG CROSSHAIR X670E HERO:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG CROSSHAIR X870E APEX:
+  aliases:
+  - ROG-CROSSHAIR-X870E-APEX-ASUS-2102
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870E
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 18ced7d53c962ed689b20183a58cc3d1
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 315b21a5c4952025ad8bdb650c40706d
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 35d6d72b8b582b3465eae5425748172c
+  - 36b552cc543254c983e9bdd325ab59af
+  - 37ab5f9a21cbeab19546e6f86582d6c6
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 435285a4b94047c1d14f50aaef615184
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5b603d35c597af8184b1bf2bfedfa2aa
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 892abcf2e970dae63c6b859cc15b43ce
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 971dacff6950c066af29c55906f90cc4
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a03affd730df9fa7c41de2f0e8d0f89d
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b1b5a10fe0ad9fe11e569c43c5e26053
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - f6f7732b31e3944808ce57c4d5837c23
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ROG CROSSHAIR X870E DARK HERO:
+  aliases:
+  - ROG-CROSSHAIR-X870E-DARK-HERO-ASUS-0702
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870E
+  gigabyte_wmi: N
+  hash:
+  - 0b7d7179e49505a7d719d57f409a1b79
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d0fb64e45efdc134d8beedf8540e97a
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 2497f1aa1a79920b64ce4bef36dd4a9d
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 307e8d66f76d9410839b5b861778e3a2
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3cd42de8421106363020d0373f1c8e34
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5a89693dcbd05aa5e8ed8c1d403ebedb
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7e163e966ac388224fa71326322fccd7
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 95e12525b348f4bf23b36bd94ba3335f
+  - 971dacff6950c066af29c55906f90cc4
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a03affd730df9fa7c41de2f0e8d0f89d
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b1b5a10fe0ad9fe11e569c43c5e26053
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ROG CROSSHAIR X870E EXTREME:
+  aliases:
+  - ROG-CROSSHAIR-X870E-EXTREME-ASUS-2102
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870E
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 2dd3e4e56d8d97fb27d770ca7bab9476
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 3242b4bc109b568f59cd5e6ee8a16aee
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50673abd770e9f0c2f299fbd84f25cf4
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5a1309bc68507ed2da33066852d56551
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 971dacff6950c066af29c55906f90cc4
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a03affd730df9fa7c41de2f0e8d0f89d
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b0c97c8f271a4dded083fac198e991c2
+  - b1b5a10fe0ad9fe11e569c43c5e26053
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - eda890ca39e618fd20d8dbdeef65f6a4
+  - ef5d2e844a32b3e665b65434036c873a
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ROG CROSSHAIR X870E GLACIAL:
+  aliases:
+  - ROG-CROSSHAIR-X870E-GLACIAL-ASUS-0702
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870E
+  gigabyte_wmi: N
+  hash:
+  - 0b7d7179e49505a7d719d57f409a1b79
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d0fb64e45efdc134d8beedf8540e97a
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 307e8d66f76d9410839b5b861778e3a2
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3cd42de8421106363020d0373f1c8e34
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7b678bd98f454f052eef68ae5e8873af
+  - 7e163e966ac388224fa71326322fccd7
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 7fe1444290ef9e0ec48ee514112ff6e8
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 971dacff6950c066af29c55906f90cc4
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a03affd730df9fa7c41de2f0e8d0f89d
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - afdbd4af192ef1a7f6766def4fd584a9
+  - b1b5a10fe0ad9fe11e569c43c5e26053
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ROG CROSSHAIR X870E HERO:
+  aliases:
+  - ROG-CROSSHAIR-X870E-HERO-ASUS-2102
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870E
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 0e9375386648313dba48d0f349449f8e
+  - 1643664a99e521781db26475d428a47d
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4463b840df949643c9b79006d8c5d479
+  - 4a134fd05033c9eaf2e1ee910e1df486
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 769898cec63581009d45fe63098815a4
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 863ab3637edd050036b79749dcd2f148
+  - 8c365fb121755056c18a83bcaab42e89
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 971dacff6950c066af29c55906f90cc4
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a03affd730df9fa7c41de2f0e8d0f89d
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b1b5a10fe0ad9fe11e569c43c5e26053
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ROG CROSSHAIR X870E HERO BTF:
+  aliases:
+  - ROG-CROSSHAIR-X870E-HERO-BTF-ASUS-2102
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870E
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 0e9375386648313dba48d0f349449f8e
+  - 1643664a99e521781db26475d428a47d
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4a134fd05033c9eaf2e1ee910e1df486
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 4b819a19f13185a4739cc6a14780605f
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7bc1c2671e8742fab4af29cb0378af04
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8c365fb121755056c18a83bcaab42e89
+  - 8eebd3550cff314f8c9e808ca9fc21bb
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 971dacff6950c066af29c55906f90cc4
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a03affd730df9fa7c41de2f0e8d0f89d
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b1b5a10fe0ad9fe11e569c43c5e26053
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 ROG DOMINUS EXTREME:
   aliases:
   - ROG-DOMINUS-EXTREME-ASUS-0801
@@ -36269,6 +39091,769 @@ ROG STRIX B760-I GAMING WIFI:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX B850-A GAMING WIFI:
+  aliases:
+  - ROG-STRIX-B850-A-GAMING-WIFI-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 26ae264aac93d21ca445c7425b7f42b3
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 557d23b1ac73bf1da3f49f295b6845aa
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 59a5b717f6e30edb6d6cec19c519d40e
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 6f4145e182854f08623513f942cd046c
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 7310bff170fa4dff59c4c5af199f5d45
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 748299054fec678ea38f157a61f8785f
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b1f04e826f33b3cc6d8e18134cbdc478
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bc6098ae20e92ab480f3650d46d30a04
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ROG STRIX B850-A GAMING WIFI7 NEO:
+  aliases:
+  - ROG-STRIX-B850-A-GAMING-WIFI7-NEO-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d0fb64e45efdc134d8beedf8540e97a
+  - 1d8536b345607958893b257e1460dec0
+  - 1e08df6047b1c2a99a4a25fc17688b97
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 5638b73e235713337bbfef24d0a893f1
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 66e61c2331f8bf1f5642c857e2bc033f
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 748299054fec678ea38f157a61f8785f
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - 9e2a1ff8a52b8b2c4aae51539564ef46
+  - 9ec7d84e2ae9a62d4ae19fdb6c1cb8c6
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - a5bfd487e7a0de4a82ab6700404ed9d7
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - ced724c1fb819c8683276e97cc84c289
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ROG STRIX B850-E GAMING WIFI:
+  aliases:
+  - ROG-STRIX-B850-E-GAMING-WIFI-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1891bbe7de0752c58645f12095d95142
+  - 1d8536b345607958893b257e1460dec0
+  - 1ec841129cc1ed9d05544bb082f1247c
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 415a49c9063116994ac49ea6cbc230f7
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 734e22aa0923d5728ea5355dcfe3f8cb
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 914c1a9bd52d32f0724acc5bd73c4eae
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 971dacff6950c066af29c55906f90cc4
+  - 99cdd7fc5bba57f6aa7b348c7496759c
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a1791582dbe1f27ce3b9b05fc0dc4e3e
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b46115842ed16c17473bc9a11c628d7e
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - c8bb8893a552dddfa3bd9f950f39e356
+  - cd48277ab8c08c3d7e1b7807fa36e9fa
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ROG STRIX B850-F GAMING WIFI:
+  aliases:
+  - ROG-STRIX-B850-F-GAMING-WIFI-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 23de5f643ac7faf467c67e6f126f2400
+  - 26ae264aac93d21ca445c7425b7f42b3
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 508008a3867509594109cc7a1ec2506a
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 557d23b1ac73bf1da3f49f295b6845aa
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 7310bff170fa4dff59c4c5af199f5d45
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 748299054fec678ea38f157a61f8785f
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ac24611d68c85a34f45f89f81f2c51cc
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b1f04e826f33b3cc6d8e18134cbdc478
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ROG STRIX B850-F GAMING WIFI7 NEO:
+  aliases:
+  - ROG-STRIX-B850-F-GAMING-WIFI7-NEO-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d0fb64e45efdc134d8beedf8540e97a
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 28593ad65a733f27dda309b31594041c
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 748299054fec678ea38f157a61f8785f
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 854a3e5e89579044d277e41d02b68d13
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - 9e2a1ff8a52b8b2c4aae51539564ef46
+  - 9ec7d84e2ae9a62d4ae19fdb6c1cb8c6
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - a5bfd487e7a0de4a82ab6700404ed9d7
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bb1519b892cf27e9b7b4d89eeac13304
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - ced724c1fb819c8683276e97cc84c289
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ROG STRIX B850-G GAMING WIFI:
+  aliases:
+  - ROG-STRIX-B850-G-GAMING-WIFI-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 097a0d2e6d03bca363ca95b9dfd109f3
+  - 0e50a554731989c9b554408423f42bc2
+  - 104206de6661ce1256aab5a695f5ab1c
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4b7e89adec8042ba23210a7d40b98c8f
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 57ae23089ad548aa89b365033dfaa3ec
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 88e9febe1682935afaa7dde1f1a944cf
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cc265279f475cfd9c34729bbac291d20
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - f6b3189317e7cef9cc7ebd255ab5502c
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ROG STRIX B850-I GAMING WIFI:
+  aliases:
+  - ROG-STRIX-B850-I-GAMING-WIFI-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 455d943fac5095072b4e64c8f9466206
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5a3d7f3b27fda962850c7478a1d616ea
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 834622c44249f10fdefb1d32345cf4cc
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 971dacff6950c066af29c55906f90cc4
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b1b5a10fe0ad9fe11e569c43c5e26053
+  - b38ce3e2fe6b9e769a06906a336ced32
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - ccc54b58fbb67338e96b24c4a80507d0
+  - cdb60588c909f44c0e65eef3c058295d
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - f097a5591b0f23161b6b993ea6660083
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ROG STRIX B850-I GAMING WIFI7 W:
+  aliases:
+  - ROG-STRIX-B850-I-GAMING-WIFI7-W-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d0fb64e45efdc134d8beedf8540e97a
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 5011664881e59d2cf18071373160632f
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5a3d7f3b27fda962850c7478a1d616ea
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 863b2ae301fbdf5be4b26b629b7b8b4b
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 971dacff6950c066af29c55906f90cc4
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b1b5a10fe0ad9fe11e569c43c5e26053
+  - b3cc4a063a4c440e461d2f80ff254814
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c0d0e2e1d02b2992616958a98fcf51dc
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cdb60588c909f44c0e65eef3c058295d
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - f097a5591b0f23161b6b993ea6660083
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 ROG STRIX H370-F GAMING:
   aliases:
   - ROG-STRIX-H370-F-GAMING-ASUS-3101
@@ -37606,9 +41191,298 @@ ROG STRIX X670E-I GAMING WIFI:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX X870-A GAMING WIFI:
+  aliases:
+  - ROG-STRIX-X870-A-GAMING-WIFI-ASUS-2102
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870
+  gigabyte_wmi: N
+  hash:
+  - 0c5c07355e2b45f693ac1513155dbbe8
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 316dd2d71316cc30df7bd116ccf19c8b
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 493c9807a6c2aeb259c5f95a0e054328
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7c028066c61c606032a72ed5cb662f92
+  - 7c609c75aa7c510ecc6a0533178e2345
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 971dacff6950c066af29c55906f90cc4
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2415fd366e7cd85008cf5e44a4537f5
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - dd438fce86394b57ffba22fd94d4f36c
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ROG STRIX X870-F GAMING WIFI:
+  aliases:
+  - ROG-STRIX-X870-F-GAMING-WIFI-ASUS-2102
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870
+  gigabyte_wmi: N
+  hash:
+  - 0c5c07355e2b45f693ac1513155dbbe8
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 316dd2d71316cc30df7bd116ccf19c8b
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 493c9807a6c2aeb259c5f95a0e054328
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7c028066c61c606032a72ed5cb662f92
+  - 7c609c75aa7c510ecc6a0533178e2345
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 971dacff6950c066af29c55906f90cc4
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2415fd366e7cd85008cf5e44a4537f5
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - dd438fce86394b57ffba22fd94d4f36c
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ROG STRIX X870-I GAMING WIFI:
+  aliases:
+  - ROG-STRIX-X870-I-GAMING-WIFI-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870
+  gigabyte_wmi: N
+  hash:
+  - 01b7c9b75fca4fcf1834cf620a7d14ab
+  - 03c9ccd3a9c2e93cb2d5f539d63b5a20
+  - 0e50a554731989c9b554408423f42bc2
+  - 12abe46d8e828298ce6635894978f489
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7e90f686814c7db0e07c5f4a132e56f4
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 971dacff6950c066af29c55906f90cc4
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - aa8dcc132f0bce196fb89f799bcae8c7
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b1b5a10fe0ad9fe11e569c43c5e26053
+  - b4cf0e17eca35b82b0da788a5898c950
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ea264fbc02c38140ea66e50f985a3c8a
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 ROG STRIX X870E-E GAMING WIFI:
   aliases:
   - ROG-STRIX-X870E-E-GAMING-WIFI-ASUS-0000
+  - ROG-STRIX-X870E-E-GAMING-WIFI-ASUS-2102
   asus_dispatcher:
   - BRHM
   - BWHM
@@ -37631,7 +41505,257 @@ ROG STRIX X870E-E GAMING WIFI:
   bridge: X870E
   gigabyte_wmi: N
   hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 0e9375386648313dba48d0f349449f8e
+  - 1643664a99e521781db26475d428a47d
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4323b3d7a320ba9e5468b448b42f5018
+  - 4393028506280adf9405702857163784
+  - 4a134fd05033c9eaf2e1ee910e1df486
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8c365fb121755056c18a83bcaab42e89
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 971dacff6950c066af29c55906f90cc4
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a03affd730df9fa7c41de2f0e8d0f89d
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b1b5a10fe0ad9fe11e569c43c5e26053
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c01b62a9d8fe3b048bb3f0c5773359d7
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
   - cd82ad62e2bf62cc213adeb99c83b0c9
+  - d6ba65cc67027bd4409e6e217cd71c28
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ROG STRIX X870E-E GAMING WIFI7 R2:
+  aliases:
+  - ROG-STRIX-X870E-E-GAMING-WIFI7-R2-ASUS-2102
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870E
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 0e9375386648313dba48d0f349449f8e
+  - 1643664a99e521781db26475d428a47d
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4323b3d7a320ba9e5468b448b42f5018
+  - 4393028506280adf9405702857163784
+  - 4a134fd05033c9eaf2e1ee910e1df486
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 7fe1b28bbb5c82a9a18eba31d9866526
+  - 8c365fb121755056c18a83bcaab42e89
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 971dacff6950c066af29c55906f90cc4
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a03affd730df9fa7c41de2f0e8d0f89d
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b1b5a10fe0ad9fe11e569c43c5e26053
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - f00f8f2e3875b347b0bc6086359094f8
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ROG STRIX X870E-H GAMING WIFI7:
+  aliases:
+  - ROG-STRIX-X870E-H-GAMING-WIFI7-ASUS-2102
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870E
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 355f2e73597fb1954732abe731a2bb45
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 5f9757c708f85de1c6f382794538baf1
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8342807c47ea0e648f10f9c4e9ee05a1
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 971dacff6950c066af29c55906f90cc4
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a03affd730df9fa7c41de2f0e8d0f89d
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - aa9167d15e5497771b3456eae8223736
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bc136059ec9cceb7f7c0ec90ba0294de
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e31c739710ea3329b038799fd898fd1a
+  - e91c017ee4dc29b47632236c785f4b69
+  - e993e3f5692df5a6d91348fc5df065c3
+  - ed5a4d94eb477c69d33d9b866f056bf0
   known_good:
   - AsusMbSwInterface
   known_good_nct6775:
@@ -46251,6 +50375,946 @@ TUF GAMING B760M-PLUS WIFI D4:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+TUF GAMING B850-BTF WIFI W:
+  aliases:
+  - TUF-GAMING-B850-BTF-WIFI-W-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 045a78a87e95880811af5617e0eb884c
+  - 0d243d611abafcf4960d35c463dbed99
+  - 0e50a554731989c9b554408423f42bc2
+  - 1249c74637616495550ecdca0be571d9
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 2ad8d67eec0b865484c98f9c0f512b17
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5c3e275d10035fad91b1724aee5ea625
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 748299054fec678ea38f157a61f8785f
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8b12207d2f563052fdeb5070cba03feb
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - c96c207b4a1161efba072f60c7753f4a
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+TUF GAMING B850-E WIFI:
+  aliases:
+  - TUF-GAMING-B850-E-WIFI-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 17599c823133f399629e386d0a523177
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 2239dc7561ca22e530f73ad46222eb56
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 56db35a53b84fbb3cdcdf6b523d95381
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8a97557656b81690fa85e4a93b39f23e
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 905ebdc7632b661b24aefac4fd0e32d9
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a235386db132063dbd9156df8efcdc6e
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b220fdbf782c170147ec7f2b5ed2bc92
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+TUF GAMING B850-PLUS WIFI:
+  aliases:
+  - TUF-GAMING-B850-PLUS-WIFI-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 045a78a87e95880811af5617e0eb884c
+  - 0d243d611abafcf4960d35c463dbed99
+  - 0e50a554731989c9b554408423f42bc2
+  - 1249c74637616495550ecdca0be571d9
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 2ad8d67eec0b865484c98f9c0f512b17
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5c3e275d10035fad91b1724aee5ea625
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 748299054fec678ea38f157a61f8785f
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8b12207d2f563052fdeb5070cba03feb
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - c96c207b4a1161efba072f60c7753f4a
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+TUF GAMING B850-PRO WIFI7 W NEO:
+  aliases:
+  - TUF-GAMING-B850-PRO-WIFI7-W-NEO-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 001bd61625e2c9af9f58747990ace920
+  - 0e50a554731989c9b554408423f42bc2
+  - 1563b3ca8001ee6f3e31e16829f037c0
+  - 1d0fb64e45efdc134d8beedf8540e97a
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 37380da9d1caa53db65c5e705e195e78
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 62ea128a44bf34eed6eb3f5119d5e188
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 748299054fec678ea38f157a61f8785f
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8ebbaf55839c6c0d8e73442aa3e92d83
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - c876373cc98fa87920111a9d1ead24a2
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d30e3cf91d2c5ed46ec8de2637546589
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+TUF GAMING B850M-E WIFI:
+  aliases:
+  - TUF-GAMING-B850M-E-WIFI-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 3171f9c8829e96aa2ea4e0ea8014e277
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4d6c19ef1ccf39654a5e86b65cf849af
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 56dee352803747a1caeacc78b20eeed4
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5b603d35c597af8184b1bf2bfedfa2aa
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 857c314c274aaa652a5213d9666f2597
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c2d6f9ff2f5939bc9753d9064756a7ec
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cc1ca7ee8125e1e0d86fc0e63ad0a39a
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - f66a7642f7c482246262673bdd23ba22
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+TUF GAMING B850M-PLUS:
+  aliases:
+  - TUF-GAMING-B850M-PLUS-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 95082b6afbd91cd91c8c6bfc31540bdf
+  - 95b3c80a34e3510639d4f8a8b0a86dbc
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a13a787cd0868c568988ff5e58d517b1
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - be837a1eb726e69569a4d387b72b1e5d
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - ed8022e0869274d86c0c2e23d118b159
+  - ef5e9719ddd9b02e373b0e3d2c6f75f2
+  - fe06c2b8b748eaf5f3fc5a37426d87b5
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+TUF GAMING B850M-PLUS II:
+  aliases:
+  - TUF-GAMING-B850M-PLUS-II-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 95082b6afbd91cd91c8c6bfc31540bdf
+  - 95b3c80a34e3510639d4f8a8b0a86dbc
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a13a787cd0868c568988ff5e58d517b1
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - be837a1eb726e69569a4d387b72b1e5d
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - ed8022e0869274d86c0c2e23d118b159
+  - ef5e9719ddd9b02e373b0e3d2c6f75f2
+  - fe06c2b8b748eaf5f3fc5a37426d87b5
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+TUF GAMING B850M-PLUS WIFI:
+  aliases:
+  - TUF-GAMING-B850M-PLUS-WIFI-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 17599c823133f399629e386d0a523177
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 2239dc7561ca22e530f73ad46222eb56
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 56db35a53b84fbb3cdcdf6b523d95381
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8a97557656b81690fa85e4a93b39f23e
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d6fcb6f928867a81e9c33cdc4b7f9704
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - d9033fbc4ae9ed83a25ee55835532570
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - e9c4cdf73679bc745af2b8c575587c3b
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+TUF GAMING B850M-PLUS WIFI7:
+  aliases:
+  - TUF-GAMING-B850M-PLUS-WIFI7-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7a81d8a908624dcea7056fa760d88975
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 95b3c80a34e3510639d4f8a8b0a86dbc
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a13a787cd0868c568988ff5e58d517b1
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bc453c52863074dc564af32d76678f1d
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c1a143092d555b05b4a563d03c05b67b
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - ef5e9719ddd9b02e373b0e3d2c6f75f2
+  - fe06c2b8b748eaf5f3fc5a37426d87b5
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+TUF GAMING B850M-PLUS WIFI7 W:
+  aliases:
+  - TUF-GAMING-B850M-PLUS-WIFI7-W-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: B850
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7a81d8a908624dcea7056fa760d88975
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 95b3c80a34e3510639d4f8a8b0a86dbc
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a13a787cd0868c568988ff5e58d517b1
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bc453c52863074dc564af32d76678f1d
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c1a143092d555b05b4a563d03c05b67b
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - ef5e9719ddd9b02e373b0e3d2c6f75f2
+  - fe06c2b8b748eaf5f3fc5a37426d87b5
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 TUF GAMING H470-PRO:
   aliases:
   - TUF-GAMING-H470-PRO-ASUS-2601
@@ -47348,6 +52412,294 @@ TUF GAMING X670E-PLUS WIFI:
   superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+TUF GAMING X870-PLUS WIFI:
+  aliases:
+  - TUF-GAMING-X870-PLUS-WIFI-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1248f38839ba91223d87a793b8ecd372
+  - 12dce77b99a45fdba9fba0081eb10022
+  - 1d8536b345607958893b257e1460dec0
+  - 1e4402615acb623c1c6aead5887c7838
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 48d28b8804495cb2b2db4959b9bc02bb
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 971dacff6950c066af29c55906f90cc4
+  - 9896ae3144a8b165045fb7db749571d6
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b507ea11c034cc0289cbec3b272404bf
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - fc7daa44c73c3243e48ae99c029262c4
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+TUF GAMING X870-PRO WIFI7 W NEO:
+  aliases:
+  - TUF-GAMING-X870-PRO-WIFI7-W-NEO-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 179c230881f32ab5deadad8e6f2de5d3
+  - 1d0fb64e45efdc134d8beedf8540e97a
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 235b1b832fbaa3e8e787cb0e14e16686
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 36dd4117284575c97d589399aa407f22
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 802ec92c313e64a6b56d9307ee0dc98a
+  - 8ef8db1c217cd2314913871d15b4346f
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 94a7663e6a08124e73c3ca54a742f45d
+  - 971dacff6950c066af29c55906f90cc4
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - fabc7ef2dfed5bd75d01d7208f346a88
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+TUF GAMING X870E-PLUS WIFI7:
+  aliases:
+  - TUF-GAMING-X870E-PLUS-WIFI7-ASUS-2102
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870E
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1bd7b64f53265664deb25395a36c7313
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 715691715f5ff12d826a8cc2a460770f
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 971dacff6950c066af29c55906f90cc4
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - 9c548eb04aa514afd03fc90c337bb57e
+  - 9e661cf3cdfea620817b234fe3b410b4
+  - a03affd730df9fa7c41de2f0e8d0f89d
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a2e6d7004e448b8b7290d7250829a47d
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - d7f47cbabaad584be06e4c911f61db01
+  - d92db698703bc059e3983f7193e52421
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ea40d6974cb8af058e868534c6a0377f
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -50569,6 +55921,294 @@ X79-UP4:
   system_name: ''
   upstreamed_serie: false
   wmi_methods: []
+X870 AYW GAMING WIFI W:
+  aliases:
+  - X870-AYW-GAMING-WIFI-W-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 25ecb0ba514b656bbd8235c4051f2b40
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 54841b68771884fc238389f0a2324489
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 74e298481997157edfed6cf0ab98e8ec
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - adff87d7fd8766496256a6973b1891b2
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bd9484287fe29bb32965e9cbf82d795d
+  - bee779ebd1a15605cb0a598e519a9cd3
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e606418d769a51b00028c3529291c907
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+X870 MAX GAMING WIFI7:
+  aliases:
+  - X870-MAX-GAMING-WIFI7-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 25ecb0ba514b656bbd8235c4051f2b40
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 54841b68771884fc238389f0a2324489
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - adff87d7fd8766496256a6973b1891b2
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bee779ebd1a15605cb0a598e519a9cd3
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6947aa6e98cd521c49fbcc1ce9d4e2e
+  - c6abb2fb012af94724f95dbc47ab7e40
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - f9fadc45501d1410a057580ba1f064e3
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+X870 MAX GAMING WIFI7 W:
+  aliases:
+  - X870-MAX-GAMING-WIFI7-W-ASUS-1642
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870
+  gigabyte_wmi: N
+  hash:
+  - 0e50a554731989c9b554408423f42bc2
+  - 1d8536b345607958893b257e1460dec0
+  - 208e9ab1c470d27e5120fe3c7f370223
+  - 21cac4eb08b74c2d326f88d0133aa011
+  - 25ecb0ba514b656bbd8235c4051f2b40
+  - 271790d6c4607dfac0d09c2b82c36e19
+  - 2a11fc451e63cec441178347b6f5c6e6
+  - 30df84863a01d1d095ceae9be1f6cf5c
+  - 332c036f02494f2f2edc576e10a04577
+  - 33f108f7aa09b404bf7523e3d56eeb64
+  - 36b552cc543254c983e9bdd325ab59af
+  - 3d9b7ddf822642d8e74123e9786ece75
+  - 430fa177175dfd2573aa472a249ce89d
+  - 4393028506280adf9405702857163784
+  - 4ae76c877446562bb3c608b08bf5c0a7
+  - 50cd3ccbcc667a37af4c316eb3d78784
+  - 51ca5bf8dfbf3ef8cdd31c6b77150cef
+  - 54841b68771884fc238389f0a2324489
+  - 559576e11798feb179388bbbc0adb881
+  - 56c74086a9bbb1c956fd18da8e4004fd
+  - 5b3ef4a0b8f876d13bdffc6fd9120562
+  - 5ebb8988c2aa222b2ff1d6dcec3c37f2
+  - 60b2fdaed6d05f200cb5b4b9a4ab127f
+  - 6298260c7a64589aac1a00e62062e981
+  - 635e29453f9295fa08be10390c7c56c8
+  - 64e858ffbb1d7a9fbfe34256ff252ec9
+  - 6bba9e1410097ab2a3e76aea9037cfce
+  - 728df910ddab0f1fb45c3494a14dd15e
+  - 73f784321d25c66cedb7c3d5b9bf8802
+  - 7b6271e1f8a0199b0cc404e3ee2903ac
+  - 7f84605e698e54fa273806ae3288f2d9
+  - 8fa8de127fdd63a1e2808ff74c7f4241
+  - 91cfc4cb3710af2b7c9036062410e029
+  - 9bad6b9eec7ba24556991bd9715fdb50
+  - a2df86265dd0cb97b79ff114a4f647a3
+  - a34b1be4f755fdb7787f3d7e3fd9fe6f
+  - a3ab39f5de1420bde94ef48caebc9954
+  - a3bf7c44a1c76fd21f083eb28d6ff825
+  - a58ce88266f006263b38b94d42d86860
+  - ab1ce8e62de8e3066edd8bff18fc8b8a
+  - ad0757d6a6ec763704d3f5ffcc88b1d4
+  - adff87d7fd8766496256a6973b1891b2
+  - ae255dfba079a72ccfa8cab87a01d280
+  - b68f6db4ae0c6d2c675e0eb02cda4324
+  - bee779ebd1a15605cb0a598e519a9cd3
+  - c0563ac6fad8589be7be0e4a7dab5aea
+  - c43b9069ec8cb4faf8a44615d31c27af
+  - c6947aa6e98cd521c49fbcc1ce9d4e2e
+  - c6abb2fb012af94724f95dbc47ab7e40
+  - c6d5baae077128b62c891f1cf7a251b0
+  - c84cb6d40aa26b2c4f2ca421d03df31f
+  - cf0cd8fd67abed19f00d25e4554064f4
+  - d79894c42117f082a29b7fcdd9a89aaa
+  - d7f47cbabaad584be06e4c911f61db01
+  - db567cad5f18ea9ffcb6395ea2d83379
+  - e91c017ee4dc29b47632236c785f4b69
+  - ed5a4d94eb477c69d33d9b866f056bf0
+  - f9fadc45501d1410a057580ba1f064e3
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 X99-E WS:
   aliases:
   - X99-E-WS-ASUS-4001

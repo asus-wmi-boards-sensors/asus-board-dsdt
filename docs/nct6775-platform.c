@@ -1169,6 +1169,7 @@ static const char * const asus_wmi_boards[] = {
 	"Pro A520M-C",
 	"Pro A520M-C II",
 	"Pro B550M-C",
+	"Pro WS W480-ACE", // No feedback
 	"Pro WS X570-ACE",
 	"ProArt B550-CREATOR",
 	"ProArt X570-CREATOR WIFI",
@@ -1275,10 +1276,19 @@ static const char * const asus_wmi_boards[] = {
 
 static const char * const asus_msi_boards[] = {
 	"B560M-P",
+	"B840M AYW GAMING WIFI", // No feedback
+	"B840M MAX GAMING AX", // No feedback
+	"B850 MAX GAMING WIFI", // No feedback
+	"B850 MAX GAMING WIFI W", // No feedback
+	"B850M AYW GAMING OC WIFI7 W", // No feedback
+	"B850M AYW GAMING WIFI", // No feedback
+	"B850M MAX GAMING WIFI", // No feedback
 	"EX-B560M-V5",
 	"EX-B660M-V5 D4",
 	"EX-B660M-V5 PRO D4",
 	"EX-B760M-V5 D4",
+	"EX-B850M-V7", // No feedback
+	"EX-B850M-V9", // No feedback
 	"EX-H510M-V3",
 	"EX-H610M-V3 D4",
 	"G15CE",
@@ -1309,6 +1319,15 @@ static const char * const asus_msi_boards[] = {
 	"PRIME B760M-A WIFI D4",
 	"PRIME B760M-AJ D4",
 	"PRIME B760M-K D4",
+	"PRIME B840-PLUS WIFI", // No feedback
+	"PRIME B840M-A", // No feedback
+	"PRIME B840M-A WIFI", // No feedback
+	"PRIME B840M-K", // No feedback
+	"PRIME B850-PLUS", // No feedback
+	"PRIME B850-PLUS WIFI", // No feedback
+	"PRIME B850M-A", // No feedback
+	"PRIME B850M-A WIFI", // No feedback
+	"PRIME B850M-K", // No feedback
 	"PRIME H510M-A",
 	"PRIME H510M-A WIFI",
 	"PRIME H510M-D",
@@ -1332,6 +1351,8 @@ static const char * const asus_msi_boards[] = {
 	"PRIME X670-P",
 	"PRIME X670-P WIFI",
 	"PRIME X670E-PRO WIFI",
+	"PRIME X870-P", // No feedback
+	"PRIME X870-P WIFI", // No feedback
 	"PRIME Z590-A",
 	"PRIME Z590-P",
 	"PRIME Z590-P WIFI",
@@ -1365,6 +1386,7 @@ static const char * const asus_msi_boards[] = {
 	"Pro Q670M-C",
 	"Pro WS 600M-CL",
 	"Pro WS 665-ACE",
+	"Pro WS B850M-ACE SE", // No feedback
 	"Pro WS TRX50-SAGE WIFI", // No feedback
 	"Pro WS W680-ACE",
 	"Pro WS W680-ACE IPMI",
@@ -1380,6 +1402,12 @@ static const char * const asus_msi_boards[] = {
 	"ROG CROSSHAIR X670E EXTREME",
 	"ROG CROSSHAIR X670E GENE",
 	"ROG CROSSHAIR X670E HERO",
+	"ROG CROSSHAIR X870E APEX", // No feedback
+	"ROG CROSSHAIR X870E DARK HERO", // No feedback
+	"ROG CROSSHAIR X870E EXTREME", // No feedback
+	"ROG CROSSHAIR X870E GLACIAL", // No feedback
+	"ROG CROSSHAIR X870E HERO", // No feedback
+	"ROG CROSSHAIR X870E HERO BTF", // No feedback
 	"ROG MAXIMUS XIII APEX",
 	"ROG MAXIMUS XIII EXTREME",
 	"ROG MAXIMUS XIII EXTREME GLACIAL",
@@ -1413,11 +1441,24 @@ static const char * const asus_msi_boards[] = {
 	"ROG STRIX B760-G GAMING WIFI",
 	"ROG STRIX B760-G GAMING WIFI D4",
 	"ROG STRIX B760-I GAMING WIFI",
+	"ROG STRIX B850-A GAMING WIFI", // No feedback
+	"ROG STRIX B850-A GAMING WIFI7 NEO", // No feedback
+	"ROG STRIX B850-E GAMING WIFI", // No feedback
+	"ROG STRIX B850-F GAMING WIFI", // No feedback
+	"ROG STRIX B850-F GAMING WIFI7 NEO", // No feedback
+	"ROG STRIX B850-G GAMING WIFI", // No feedback
+	"ROG STRIX B850-I GAMING WIFI", // No feedback
+	"ROG STRIX B850-I GAMING WIFI7 W", // No feedback
 	"ROG STRIX X670E-A GAMING WIFI",
 	"ROG STRIX X670E-E GAMING WIFI",
 	"ROG STRIX X670E-F GAMING WIFI",
 	"ROG STRIX X670E-I GAMING WIFI",
+	"ROG STRIX X870-A GAMING WIFI", // No feedback
+	"ROG STRIX X870-F GAMING WIFI", // No feedback
+	"ROG STRIX X870-I GAMING WIFI", // No feedback
 	"ROG STRIX X870E-E GAMING WIFI", // No feedback
+	"ROG STRIX X870E-E GAMING WIFI7 R2", // No feedback
+	"ROG STRIX X870E-H GAMING WIFI7", // No feedback
 	"ROG STRIX Z590-A GAMING WIFI",
 	"ROG STRIX Z590-A GAMING WIFI II",
 	"ROG STRIX Z590-E GAMING WIFI",
@@ -1458,12 +1499,25 @@ static const char * const asus_msi_boards[] = {
 	"TUF GAMING B760M-PLUS D4",
 	"TUF GAMING B760M-PLUS WIFI",
 	"TUF GAMING B760M-PLUS WIFI D4",
+	"TUF GAMING B850-BTF WIFI W", // No feedback
+	"TUF GAMING B850-E WIFI", // No feedback
+	"TUF GAMING B850-PLUS WIFI", // No feedback
+	"TUF GAMING B850-PRO WIFI7 W NEO", // No feedback
+	"TUF GAMING B850M-E WIFI", // No feedback
+	"TUF GAMING B850M-PLUS", // No feedback
+	"TUF GAMING B850M-PLUS II", // No feedback
+	"TUF GAMING B850M-PLUS WIFI", // No feedback
+	"TUF GAMING B850M-PLUS WIFI7", // No feedback
+	"TUF GAMING B850M-PLUS WIFI7 W", // No feedback
 	"TUF GAMING H570-PRO",
 	"TUF GAMING H570-PRO WIFI",
 	"TUF GAMING H670-PRO WIFI D4",
 	"TUF GAMING H770-PRO WIFI",
 	"TUF GAMING X670E-PLUS",
 	"TUF GAMING X670E-PLUS WIFI",
+	"TUF GAMING X870-PLUS WIFI", // No feedback
+	"TUF GAMING X870-PRO WIFI7 W NEO", // No feedback
+	"TUF GAMING X870E-PLUS WIFI7", // No feedback
 	"TUF GAMING Z590-PLUS",
 	"TUF GAMING Z590-PLUS WIFI",
 	"TUF GAMING Z690-PLUS",
@@ -1473,6 +1527,9 @@ static const char * const asus_msi_boards[] = {
 	"TUF GAMING Z790-PLUS D4",
 	"TUF GAMING Z790-PLUS WIFI",
 	"TUF GAMING Z790-PLUS WIFI D4",
+	"X870 AYW GAMING WIFI W", // No feedback
+	"X870 MAX GAMING WIFI7", // No feedback
+	"X870 MAX GAMING WIFI7 W", // No feedback
 	"Z590 WIFI GUNDAM EDITION",
 };
 
