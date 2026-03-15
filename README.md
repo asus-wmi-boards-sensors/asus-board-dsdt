@@ -35,7 +35,9 @@ Datasheets for sensors are placed to [docs directory](docs).
 
 # TODO
 
-Port to use asl directly instead disassembling to dsl.
+* Port to use asl directly instead disassembling to dsl.
+use hash of asl instead dsl
+* validate used sensors for all upstreamed boards
 
 # Supported boards
 
@@ -880,9 +882,6 @@ Port to use asl directly instead disassembling to dsl.
 * P - return zero, no valid sensors results or requires custom lock.
 
 Notes:
-* Some boards are used nct6799 sensor and
-  [additional patch](https://patchwork.kernel.org/project/linux-hwmon/patch/20221228135744.281752-1-linux@roeck-us.net/)
-  apply is requited.
 * IT8665E like sensors required custom it87 module and WMI proxy implementation,
   that is not implemeted for now.
 
