@@ -22889,7 +22889,7 @@ PRIME X870-P:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -22985,7 +22985,7 @@ PRIME X870-P WIFI:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -28597,7 +28597,7 @@ Pro WS W480-ACE:
   links: []
   superio: NCT6798D
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
@@ -29176,6 +29176,152 @@ Pro WS W790E-SAGE SE:
   superio: NCT6798D
   system_name: ''
   upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+Pro WS W880-ACE SE:
+  aliases:
+  - Pro-WS-W880-ACE-SE-ASUS-3002
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: U
+  asus_nct6775_mutex: \_SB.PC00.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: ''
+  gigabyte_wmi: N
+  hash:
+  - 0255c75450252f17496def12c1b4df9a
+  - 02ed6fdd4558eba4855288f1fd7d0045
+  - 0b26db4f25468d333203300a7542846f
+  - 0b2f056e4aac67dcc7d99c6ab10a3627
+  - 0cd9a83027e124731c68e6018285a851
+  - 10b98363703f1f8940c6550867eca461
+  - 11a45909aaa2286b8183496e0a988df4
+  - 12df92becaa8b126e70c0cbeb92c9068
+  - 15027a885cb4ada092c7db66b5ea4ede
+  - 1593a7e92e6065cc24e3d423f3f2120a
+  - 1ab0f8122432d75b35cdea1cc49526ce
+  - 1bafa9d112a26687cbea7b6de75f921e
+  - 1e71f4d7f4b5b264f5295e2d87cb17f5
+  - 1f247818fa00fea85e6cc80f0a272396
+  - 2042668f82941f528ae50b06a7309a49
+  - 22381097e7cc39ac59bf16b3abd25e3e
+  - 22d4a1af9795c6503d6d0dde0971d2d1
+  - 23963f1643dcabe046c6396155c284f9
+  - 24c8b32e39c73b40c29c55789af51dfb
+  - 25c024e3cf7d55da128e3b97c696e08d
+  - 2e10cf807ec038df9e81936da09f9559
+  - 2eb9e2c8925627107cf4c919df3c74c4
+  - 34925840efbd1257bda8ddc06c86b333
+  - 3b0f09e7a772cf01f468fb18c37c0133
+  - 3ba927b50a8e36a9953be06d9e56eef0
+  - 3f7a240f1480216df64038b445f55d45
+  - 4565648b7539551df9f407dd093f1180
+  - 4727ec059ff55577debcb1882b127b83
+  - 4810e822bb4230fe4b3318c7d941dfab
+  - 4bfa3a4e1213869291990974cbf63a68
+  - 50120ce6432bd88f993f93c9d55d56ca
+  - 557b2f93eac398ee8abdea4141e4893a
+  - 5750a2002bfc35c0f786c4c2be9af116
+  - 578cf33cc775c0acc05e51f208740971
+  - 5afa433f94f431b94f472cb71042bc35
+  - 5d39bd0078aefd43a633a4d20a446c69
+  - 648939f81eb003f86d767562f2d04ad3
+  - 659efd5f8098d4e2c77f8a9f7bd079ca
+  - 67b0c74fb6be3b104c78c2259baaa8f6
+  - 694cd9496e6178c233228b9007a6f9b1
+  - 6964c49c86fcf53fe345488aa3932b13
+  - 6aa24266311b059c1750d7dd11dd3f93
+  - 6abc0a583afdf2644f3c8fa411b47e46
+  - 6b29d5284d806a3fd552bac14e09ac3f
+  - 6c641362221a2c332c67731e6d827307
+  - 6fc0a6fecb021d7b36da13c91f79016b
+  - 7266f3d60e97fcb75838db8e097540bb
+  - 7343da9f0c9930d2c365b53e30559cf5
+  - 7a42a13062bafb643d6916645bedb28f
+  - 7c7098a771746205ab3ae873f1dd79df
+  - 7cae0a97f8bc386c6d36a09e0d194d9f
+  - 7ecb7e90046a361475dcd4398d9d5291
+  - 8118a02c44bd04994c43c2eb12c0a824
+  - 8154c75d9f0aa996911c679f580c7fea
+  - 8922124ad43d23269875089331d5a651
+  - 8937fd46044683d18f7ce1211b707bc5
+  - 8b34f0c93cff906d5956b41290fa4f35
+  - 8f7cf2fcfbb37172339b5b9ed7e34dd1
+  - 91b9e2d92ff5f1a2348b312cce47c84c
+  - 9361ac8e8d5ba89842b187417c7a68d9
+  - 9383065cedb1ea3116ae71b98fb10dc1
+  - 943e10e73aa285f2b02cb740a00af064
+  - 964b340749bbc24abf81f692ffea60cd
+  - 97387692cc169fbcec0fe1dfd2fc94ef
+  - 9aa5b0abf8051b39e194b05fe0272baf
+  - 9d1ca94d31086890cecff11306b3d0b1
+  - 9db6443ae65c725869ad20b699660e3c
+  - 9f0cf2a4d2dcf315f4ef10e432853eba
+  - 9fab1b2dafc26e5130d809d2906c8ea5
+  - a50cd19172d4e4241439741035449393
+  - a78fc67b1d6a64a4c5e924d8c823f236
+  - a7ec336fcb382660d6c2703de5714917
+  - a96eb6faa0460c8c52927518587dedab
+  - a9e0ceb8c7914204127bf4069e2874a9
+  - af04f5586da12394a63c12d0a88bb82e
+  - af3773f0dd879a8559bb93bdae854734
+  - b11013979ef64b5b28391b96ef8180e9
+  - b12033d508ab5d49df258f036683fb85
+  - b56ba84e9b31905cccac0cd91b7737f8
+  - b604823560160ee2d273585b321d7d0e
+  - b94e2b64e2123d53ffb2d77d8dea1ed0
+  - b987c5ba533666d955ebfa3a13dcc22b
+  - bade0d788d7511964d30d86a15fd4fb9
+  - bb0c2b0b2819736553de7be20af5814a
+  - bb5b43f7c4e3ecfe8a5d77e34efe36e9
+  - bd087ed524423bc3c42ae00d6138bc5d
+  - bd89491eabf5a70daec5be64aa1b2127
+  - cc84c47ac0bafceab48a9ed5530be6e0
+  - cf3038ca6144ef7d507e6e812f0425f8
+  - d11a3f503c717e72c62e6586495f210d
+  - d1d1ada08c828dcd9675cfb39b7f72c2
+  - d1f1dcb5745f49f7f66dcf7836768847
+  - d27a540d89570d4c3fd9288d5ed2757e
+  - d4f50afb1cd943617329977f50ad76dd
+  - d97b97ee535f21693f77887ad19d391a
+  - db13f13a8581197dff4bdde952aec057
+  - dfef133e0696b138d847c68ccf155afb
+  - e01d7b7708d9b52f9a6c0afe3d7bdfa3
+  - e2f56a2d9c1f07e062587351f03007d5
+  - e365eef691a8c67caf443cd0598339f2
+  - e52d41f231852979c92e3f710c4327e1
+  - e610bbc7098e567f6aa657fd16f25251
+  - f0534618acd1f2987d7f4fb82d6cdeda
+  - f6f24d263e2d26ec716feb5ae199c006
+  - f9b5a3a964c2df6f804053d1ea43036b
+  - fb42d52f49c829d010957afb4cb6fd1e
+  - fc82e091c26bdceb79f13736f7954a57
+  - ff2d2022ad6797c95901067ab32f7f89
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -31421,7 +31567,7 @@ ROG CROSSHAIR X870E APEX:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -31517,7 +31663,7 @@ ROG CROSSHAIR X870E DARK HERO:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -31613,7 +31759,7 @@ ROG CROSSHAIR X870E EXTREME:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -31709,7 +31855,7 @@ ROG CROSSHAIR X870E GLACIAL:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -31805,7 +31951,7 @@ ROG CROSSHAIR X870E HERO:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -31901,7 +32047,7 @@ ROG CROSSHAIR X870E HERO BTF:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -41281,7 +41427,7 @@ ROG STRIX X870-A GAMING WIFI:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -41377,7 +41523,7 @@ ROG STRIX X870-F GAMING WIFI:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -41473,7 +41619,7 @@ ROG STRIX X870-I GAMING WIFI:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -41571,7 +41717,7 @@ ROG STRIX X870E-E GAMING WIFI:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -41667,7 +41813,7 @@ ROG STRIX X870E-E GAMING WIFI7 R2:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -41763,7 +41909,7 @@ ROG STRIX X870E-H GAMING WIFI7:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -52507,7 +52653,7 @@ TUF GAMING X870-PLUS WIFI:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -52603,7 +52749,7 @@ TUF GAMING X870-PRO WIFI7 W NEO:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -52699,7 +52845,7 @@ TUF GAMING X870E-PLUS WIFI7:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -55068,7 +55214,7 @@ W480/SYS:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
@@ -56011,7 +56157,7 @@ X870 AYW GAMING WIFI W:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -56107,7 +56253,7 @@ X870 MAX GAMING WIFI7:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
@@ -56203,7 +56349,7 @@ X870 MAX GAMING WIFI7 W:
   links: []
   superio: ''
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102

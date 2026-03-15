@@ -473,6 +473,7 @@ Port to use asl directly instead disassembling to dsl.
 | ASUS     | Pro WS W680-ACE IPMI                | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | Pro WS W790-ACE                     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | Pro WS W790E-SAGE SE                | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | Pro WS W880-ACE SE                  |            | N            | N            | U            | N            |
 | ASUS     | Pro WS WRX80E-SAGE SE WIFI          | NCT6798D-R | N            | N            | P            | N            |
 | ASUS     | Pro WS WRX80E-SAGE SE WIFI II       | NCT6798D-R | N            | N            | P            | N            |
 | ASUS     | Pro WS WRX90E-SAGE SE               |            | N            | N            | Y            | N            |
