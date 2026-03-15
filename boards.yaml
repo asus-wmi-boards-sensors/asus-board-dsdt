@@ -40591,7 +40591,7 @@ ROG STRIX X470-F GAMING:
   - UPSB
   - WHWM
   - WSIO
-  asus_ec: U
+  asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: \AMW0._GL
   asus_nct6775: M
@@ -40642,7 +40642,7 @@ ROG STRIX X470-I GAMING:
   - UPSB
   - WHWM
   - WSIO
-  asus_ec: U
+  asus_ec: Y
   asus_ec_mutex: \AMW0.ASMX
   asus_ite87_mutex: \AMW0._GL
   asus_nct6775: M

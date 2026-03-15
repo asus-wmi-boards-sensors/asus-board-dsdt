@@ -186,6 +186,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | MAXIMUS IX EXTREME                  | NCT6793D   | N            | N            | P            | N            |
 | ASUS     | MAXIMUS IX FORMULA                  | NCT6793D   | N            | N            | P            | N            |
 | ASUS     | MAXIMUS IX HERO                     | NCT6793D   | N            | N            | P            | N            |
+| ASUS     | MAXIMUS VI HERO                     |            | L            | N            | L            | L            |
 | ASUS     | MAXIMUS VII HERO                    | NCT6791D   | N            | N            | P            | N            |
 | ASUS     | MAXIMUS VIII FORMULA                | NCT6793D   | N            | N            | P            | N            |
 | ASUS     | MAXIMUS VIII GENE                   | NCT6793D   | N            | N            | P            | N            |
@@ -405,7 +406,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | PRIME X670E-PRO WIFI                | NCT6799D-R | N            | N            | Y            | N?           |
 | ASUS     | PRIME X870-P                        | NCT6799D-R | N            | N            | U            | N            |
 | ASUS     | PRIME X870-P WIFI                   | NCT6799D-R | N            | N            | U            | N            |
-| ASUS     | PRIME Z270-A                        | NCT6793D   | N            | N            | P            | N            |
+| ASUS     | PRIME Z270-A                        | NCT6793D   | N            | N            | P            | N?           |
 | ASUS     | PRIME Z270-K                        | NCT5539D   | F            | N            | F            | N            |
 | ASUS     | PRIME Z270-P                        | NCT5539D   | F            | N            | F            | N            |
 | ASUS     | PRIME Z270M-PLUS                    | NCT5539D   | F            | N            | F            | N            |
@@ -468,7 +469,8 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | Pro WS B850M-ACE SE                 |            | N            | N            | U            | N            |
 | ASUS     | Pro WS C246-ACE                     |            | L            | N            | L            | N            |
 | ASUS     | Pro WS C422-ACE                     |            | N            | N            | P            | N            |
-| ASUS     | Pro WS TRX50-SAGE WIFI              |            | N            | N            | U            | N            |
+| ASUS     | Pro WS TRX50-SAGE WIFI              |            | N            | N            | U            | N?           |
+| ASUS     | Pro WS TRX50-SAGE WIFI A            |            | L            | N            | L            | L            |
 | ASUS     | Pro WS W480-ACE                     | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | Pro WS W680-ACE                     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | Pro WS W680-ACE IPMI                | NCT6798D   | N            | N            | Y            | N            |
@@ -477,7 +479,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | Pro WS W880-ACE SE                  |            | N            | N            | U            | N            |
 | ASUS     | Pro WS WRX80E-SAGE SE WIFI          | NCT6798D-R | N            | N            | P            | N            |
 | ASUS     | Pro WS WRX80E-SAGE SE WIFI II       | NCT6798D-R | N            | N            | P            | N            |
-| ASUS     | Pro WS WRX90E-SAGE SE               | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | Pro WS WRX90E-SAGE SE               | NCT6798D   | N            | N            | Y            | N?           |
 | ASUS     | Pro WS X299 SAGE II                 | NCT6798D   | L            | N            | L            | N            |
 | ASUS     | Pro WS X570-ACE                     | NCT6798D-R | N            | N            | Y            | Y            |
 | ASUS     | ProArt B550-CREATOR                 | NCT6798D-R | N            | N            | Y            | Y            |
@@ -488,6 +490,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ProArt B850-CREATOR WIFI NEO        |            | L            | N            | L            | N            |
 | ASUS     | ProArt X570-CREATOR WIFI            | NCT6798D-R | N            | N            | Y            | Y            |
 | ASUS     | ProArt X670E-CREATOR WIFI           | NCT6799D-R | N            | N            | Y            | N?           |
+| ASUS     | ProArt X870E-CREATOR WIFI           |            | L            | N            | L            | L            |
 | ASUS     | ProArt Z490-CREATOR 10G             | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ProArt Z690-CREATOR WIFI            | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ProArt Z790-CREATOR WIFI            | NCT6798D   | N            | N            | Y            | N            |
@@ -512,7 +515,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ROG CROSSHAIR VIII HERO             | NCT6798D-R | N            | N            | Y            | Y            |
 | ASUS     | ROG CROSSHAIR VIII HERO (WI-FI)     | NCT6798D-R | N            | N            | Y            | Y            |
 | ASUS     | ROG CROSSHAIR VIII IMPACT           | NCT6798D-R | N            | N            | Y            | Y            |
-| ASUS     | ROG CROSSHAIR X670E EXTREME         | NCT6799D-R | N            | N            | Y            | N            |
+| ASUS     | ROG CROSSHAIR X670E EXTREME         | NCT6799D-R | N            | N            | Y            | N?           |
 | ASUS     | ROG CROSSHAIR X670E GENE            | NCT6799D-R | N            | N            | Y            | N?           |
 | ASUS     | ROG CROSSHAIR X670E HERO            | NCT6799D-R | N            | N            | Y            | N?           |
 | ASUS     | ROG CROSSHAIR X870E APEX            | NCT6799D-R | N            | N            | U            | N            |
@@ -525,7 +528,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ROG MAXIMUS X APEX                  | NCT6793D   | L            | N            | L            | N            |
 | ASUS     | ROG MAXIMUS X CODE                  | NCT6793D   | L            | N            | L            | N            |
 | ASUS     | ROG MAXIMUS X FORMULA               | NCT6793D   | L            | N            | L            | N            |
-| ASUS     | ROG MAXIMUS X HERO                  | NCT6793D   | N            | N            | P            | N            |
+| ASUS     | ROG MAXIMUS X HERO                  | NCT6793D   | N            | N            | P            | N?           |
 | ASUS     | ROG MAXIMUS X HERO (WI-FI AC)       | NCT6793D   | L            | N            | L            | N            |
 | ASUS     | ROG MAXIMUS XI APEX                 | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG MAXIMUS XI CODE                 | NCT6798D   | N            | N            | Y            | N            |
@@ -545,7 +548,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ROG MAXIMUS Z690 APEX               | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG MAXIMUS Z690 EXTREME            | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG MAXIMUS Z690 EXTREME GLACIAL    | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | ROG MAXIMUS Z690 FORMULA            | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | ROG MAXIMUS Z690 FORMULA            | NCT6798D   | N            | N            | Y            | N?           |
 | ASUS     | ROG MAXIMUS Z690 HERO               | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG MAXIMUS Z690 HERO EVA           | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG MAXIMUS Z790 APEX               | NCT6798D   | N            | N            | Y            | N            |
@@ -586,7 +589,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ROG STRIX B650-A GAMING WIFI        | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX B650E-E GAMING WIFI       | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX B650E-F GAMING WIFI       | NCT6799D-R | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX B650E-I GAMING WIFI       | NCT6799D-R | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX B650E-I GAMING WIFI       | NCT6799D-R | N            | N            | Y            | N?           |
 | ASUS     | ROG STRIX B660-A GAMING WIFI        | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX B660-A GAMING WIFI D4     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX B660-F GAMING WIFI        | NCT6798D   | N            | N            | Y            | N            |
@@ -604,7 +607,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ROG STRIX B850-F GAMING WIFI        |            | N            | N            | U            | N            |
 | ASUS     | ROG STRIX B850-F GAMING WIFI7 NEO   |            | N            | N            | U            | N            |
 | ASUS     | ROG STRIX B850-G GAMING WIFI        |            | N            | N            | U            | N            |
-| ASUS     | ROG STRIX B850-I GAMING WIFI        |            | N            | N            | U            | N            |
+| ASUS     | ROG STRIX B850-I GAMING WIFI        |            | N            | N            | U            | N?           |
 | ASUS     | ROG STRIX B850-I GAMING WIFI7 W     |            | N            | N            | U            | N            |
 | ASUS     | ROG STRIX H370-F GAMING             | NCT6796D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX H370-I GAMING             | NCT6796D   | N            | N            | Y            | N            |
@@ -617,23 +620,23 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ROG STRIX X370-F GAMING             | IT8665E    | N            | N            | M            | N            |
 | ASUS     | ROG STRIX X370-I GAMING             | IT8665E    | N            | N            | M            | N            |
 | ASUS     | ROG STRIX X399-E GAMING             |            | F            | N            | F            | N            |
-| ASUS     | ROG STRIX X470-F GAMING             | IT8665E    | Y            | N            | M            | U            |
-| ASUS     | ROG STRIX X470-I GAMING             | IT8665E    | Y            | N            | M            | U            |
+| ASUS     | ROG STRIX X470-F GAMING             | IT8665E    | Y            | N            | M            | Y            |
+| ASUS     | ROG STRIX X470-I GAMING             | IT8665E    | Y            | N            | M            | Y            |
 | ASUS     | ROG STRIX X570-E GAMING             | NCT6798D-R | N            | N            | Y            | Y            |
 | ASUS     | ROG STRIX X570-E GAMING WIFI II     | NCT6798D-R | N            | N            | Y            | Y            |
 | ASUS     | ROG STRIX X570-F GAMING             | NCT6798D-R | N            | N            | Y            | Y            |
 | ASUS     | ROG STRIX X570-I GAMING             | NCT6798D-R | N            | N            | Y            | Y            |
 | ASUS     | ROG STRIX X670E-A GAMING WIFI       | NCT6799D-R | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX X670E-E GAMING WIFI       | NCT6799D-R | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX X670E-E GAMING WIFI       | NCT6799D-R | N            | N            | Y            | N?           |
 | ASUS     | ROG STRIX X670E-F GAMING WIFI       | NCT6799D-R | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX X670E-I GAMING WIFI       | NCT6799D-R | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX X670E-I GAMING WIFI       | NCT6799D-R | N            | N            | Y            | N?           |
 | ASUS     | ROG STRIX X870-A GAMING WIFI        | NCT6799D-R | N            | N            | U            | N            |
-| ASUS     | ROG STRIX X870-F GAMING WIFI        | NCT6799D-R | N            | N            | U            | N            |
-| ASUS     | ROG STRIX X870-I GAMING WIFI        | NCT6799D-R | N            | N            | U            | N            |
-| ASUS     | ROG STRIX X870E-E GAMING WIFI       | NCT6799D-R | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX X870-F GAMING WIFI        | NCT6799D-R | N            | N            | U            | N?           |
+| ASUS     | ROG STRIX X870-I GAMING WIFI        | NCT6799D-R | N            | N            | U            | N?           |
+| ASUS     | ROG STRIX X870E-E GAMING WIFI       | NCT6799D-R | N            | N            | Y            | N?           |
 | ASUS     | ROG STRIX X870E-E GAMING WIFI7 NEO  | NCT6799D-R | L            | N            | L            | N            |
 | ASUS     | ROG STRIX X870E-E GAMING WIFI7 R2   | NCT6799D-R | N            | N            | U            | N            |
-| ASUS     | ROG STRIX X870E-H GAMING WIFI7      | NCT6799D-R | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX X870E-H GAMING WIFI7      | NCT6799D-R | N            | N            | Y            | N?           |
 | ASUS     | ROG STRIX Z270-I GAMING             | NCT6793D   | L            | N            | L            | N            |
 | ASUS     | ROG STRIX Z270E GAMING              | NCT6793D   | L            | N            | L            | N            |
 | ASUS     | ROG STRIX Z270F GAMING              | NCT6793D   | L            | N            | L            | N            |
@@ -651,7 +654,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ROG STRIX Z390-I GAMING             | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z490-A GAMING             | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z490-E GAMING             | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX Z490-F GAMING             | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX Z490-F GAMING             | NCT6798D   | N            | N            | Y            | N?           |
 | ASUS     | ROG STRIX Z490-G GAMING             | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z490-G GAMING (WI-FI)     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z490-H GAMING             | NCT6798D   | N            | N            | Y            | N            |
@@ -663,16 +666,17 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | ROG STRIX Z590-I GAMING WIFI        | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z690-A GAMING WIFI        | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z690-A GAMING WIFI D4     | NCT6798D   | N            | N            | Y            | N?           |
-| ASUS     | ROG STRIX Z690-E GAMING WIFI        | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX Z690-E GAMING WIFI        | NCT6798D   | N            | N            | Y            | N?           |
 | ASUS     | ROG STRIX Z690-F GAMING WIFI        | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z690-G GAMING WIFI        | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z690-I GAMING WIFI        | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z790-A GAMING WIFI        | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z790-A GAMING WIFI D4     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z790-E GAMING WIFI        | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX Z790-E GAMING WIFI II     |            | L            | N            | L            | L            |
 | ASUS     | ROG STRIX Z790-F GAMING WIFI        | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX Z790-H GAMING WIFI        | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX Z790-I GAMING WIFI        | NCT6798D   | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX Z790-H GAMING WIFI        | NCT6798D   | N            | N            | Y            | N?           |
+| ASUS     | ROG STRIX Z790-I GAMING WIFI        | NCT6798D   | N            | N            | Y            | N?           |
 | ASUS     | ROG ZENITH EXTREME                  |            | F            | N            | F            | N            |
 | ASUS     | ROG ZENITH EXTREME ALPHA            |            | F            | N            | F            | N            |
 | ASUS     | ROG ZENITH II EXTREME               | NCT6798D   | N            | N            | P            | N?           |
@@ -772,7 +776,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | TUF GAMING X570-PRO (WI-FI)         | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING X570-PRO WIFI II         | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING X670E-PLUS               | NCT6799D-R | N            | N            | Y            | N?           |
-| ASUS     | TUF GAMING X670E-PLUS WIFI          | NCT6799D-R | N            | N            | Y            | N            |
+| ASUS     | TUF GAMING X670E-PLUS WIFI          | NCT6799D-R | N            | N            | Y            | N?           |
 | ASUS     | TUF GAMING X870-PLUS WIFI           | NCT6799D-R | N            | N            | U            | N            |
 | ASUS     | TUF GAMING X870-PRO WIFI7 W NEO     | NCT6799D-R | N            | N            | U            | N            |
 | ASUS     | TUF GAMING X870E-PLUS WIFI7         | NCT6799D-R | N            | N            | U            | N            |
