@@ -15,7 +15,12 @@ from asl_parser import (
     asl_get_operator_with_params,
     decode_buffer_uuid_by_name,
 )
-from board_const import NCT6775_CHIPS, ASUS_BOARDS, BRIDGE_CHIPSETS
+from board_const import (
+    NCT6775_CHIPS,
+    ASUS_BOARDS,
+    BRIDGE_CHIPSETS,
+    ASUS_CHIPSETS_NCT6775,
+)
 from utils import load_linuxhw_DMI, file_write_with_changes, load_board_flags
 
 LINKS = []
@@ -654,7 +659,7 @@ BOARDNAME_CONVERT = {
     "X870-MAX-GAMING-WIFI7-W": "X870 MAX GAMING WIFI7 W",
     "X870-MAX-GAMING-WIFI7": "X870 MAX GAMING WIFI7",
     "X870-AYW-GAMING-WIFI-W": "X870 AYW GAMING WIFI W",
-    "PRO WS W880-ACE-SE": "Pro WS W880-ACE SE"
+    "PRO WS W880-ACE-SE": "Pro WS W880-ACE SE",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -1233,6 +1238,12 @@ def set_default_flags(board_flags, board_name):
         if board_flags.get("hash"):
             board_flags["asus_ec"] = "Y"
 
+    if (
+        "ASUS" in board_flags.get("board_producer")
+        and not board_flags.get("superio")
+        and board_flags.get("bridge") in ASUS_CHIPSETS_NCT6775
+    ):
+        board_flags["superio"] = ASUS_CHIPSETS_NCT6775[board_flags["bridge"]]
     # set upstream ready
     if not board_flags["upstreamed_serie"]:
         if (

@@ -36,8 +36,7 @@ Datasheets for sensors are placed to [docs directory](docs).
 # TODO
 
 * Port to use asl directly instead disassembling to dsl.
-use hash of asl instead dsl
-* validate used sensors for all upstreamed boards
+* use hash of asl instead dsl
 
 # Supported boards
 
@@ -404,8 +403,8 @@ use hash of asl instead dsl
 | ASUS     | PRIME X670-P                        | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | PRIME X670-P WIFI                   | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | PRIME X670E-PRO WIFI                | NCT6799D-R | N            | N            | Y            | N?           |
-| ASUS     | PRIME X870-P                        |            | N            | N            | U            | N            |
-| ASUS     | PRIME X870-P WIFI                   |            | N            | N            | U            | N            |
+| ASUS     | PRIME X870-P                        | NCT6799D-R | N            | N            | U            | N            |
+| ASUS     | PRIME X870-P WIFI                   | NCT6799D-R | N            | N            | U            | N            |
 | ASUS     | PRIME Z270-A                        | NCT6793D   | N            | N            | P            | N            |
 | ASUS     | PRIME Z270-K                        | NCT5539D   | F            | N            | F            | N            |
 | ASUS     | PRIME Z270-P                        | NCT5539D   | F            | N            | F            | N            |
@@ -478,7 +477,7 @@ use hash of asl instead dsl
 | ASUS     | Pro WS W880-ACE SE                  |            | N            | N            | U            | N            |
 | ASUS     | Pro WS WRX80E-SAGE SE WIFI          | NCT6798D-R | N            | N            | P            | N            |
 | ASUS     | Pro WS WRX80E-SAGE SE WIFI II       | NCT6798D-R | N            | N            | P            | N            |
-| ASUS     | Pro WS WRX90E-SAGE SE               |            | N            | N            | Y            | N            |
+| ASUS     | Pro WS WRX90E-SAGE SE               | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | Pro WS X299 SAGE II                 | NCT6798D   | L            | N            | L            | N            |
 | ASUS     | Pro WS X570-ACE                     | NCT6798D-R | N            | N            | Y            | Y            |
 | ASUS     | ProArt B550-CREATOR                 | NCT6798D-R | N            | N            | Y            | Y            |
@@ -516,12 +515,12 @@ use hash of asl instead dsl
 | ASUS     | ROG CROSSHAIR X670E EXTREME         | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | ROG CROSSHAIR X670E GENE            | NCT6799D-R | N            | N            | Y            | N?           |
 | ASUS     | ROG CROSSHAIR X670E HERO            | NCT6799D-R | N            | N            | Y            | N?           |
-| ASUS     | ROG CROSSHAIR X870E APEX            |            | N            | N            | U            | N            |
-| ASUS     | ROG CROSSHAIR X870E DARK HERO       |            | N            | N            | U            | N            |
-| ASUS     | ROG CROSSHAIR X870E EXTREME         |            | N            | N            | U            | N            |
-| ASUS     | ROG CROSSHAIR X870E GLACIAL         |            | N            | N            | U            | N            |
-| ASUS     | ROG CROSSHAIR X870E HERO            |            | N            | N            | U            | N            |
-| ASUS     | ROG CROSSHAIR X870E HERO BTF        |            | N            | N            | U            | N            |
+| ASUS     | ROG CROSSHAIR X870E APEX            | NCT6799D-R | N            | N            | U            | N            |
+| ASUS     | ROG CROSSHAIR X870E DARK HERO       | NCT6799D-R | N            | N            | U            | N            |
+| ASUS     | ROG CROSSHAIR X870E EXTREME         | NCT6799D-R | N            | N            | U            | N            |
+| ASUS     | ROG CROSSHAIR X870E GLACIAL         | NCT6799D-R | N            | N            | U            | N            |
+| ASUS     | ROG CROSSHAIR X870E HERO            | NCT6799D-R | N            | N            | U            | N            |
+| ASUS     | ROG CROSSHAIR X870E HERO BTF        | NCT6799D-R | N            | N            | U            | N            |
 | ASUS     | ROG DOMINUS EXTREME                 |            | N            | N            | P            | N            |
 | ASUS     | ROG MAXIMUS X APEX                  | NCT6793D   | L            | N            | L            | N            |
 | ASUS     | ROG MAXIMUS X CODE                  | NCT6793D   | L            | N            | L            | N            |
@@ -628,13 +627,13 @@ use hash of asl instead dsl
 | ASUS     | ROG STRIX X670E-E GAMING WIFI       | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX X670E-F GAMING WIFI       | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX X670E-I GAMING WIFI       | NCT6799D-R | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX X870-A GAMING WIFI        |            | N            | N            | U            | N            |
-| ASUS     | ROG STRIX X870-F GAMING WIFI        |            | N            | N            | U            | N            |
-| ASUS     | ROG STRIX X870-I GAMING WIFI        |            | N            | N            | U            | N            |
-| ASUS     | ROG STRIX X870E-E GAMING WIFI       |            | N            | N            | Y            | N            |
-| ASUS     | ROG STRIX X870E-E GAMING WIFI7 NEO  |            | L            | N            | L            | N            |
-| ASUS     | ROG STRIX X870E-E GAMING WIFI7 R2   |            | N            | N            | U            | N            |
-| ASUS     | ROG STRIX X870E-H GAMING WIFI7      |            | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX X870-A GAMING WIFI        | NCT6799D-R | N            | N            | U            | N            |
+| ASUS     | ROG STRIX X870-F GAMING WIFI        | NCT6799D-R | N            | N            | U            | N            |
+| ASUS     | ROG STRIX X870-I GAMING WIFI        | NCT6799D-R | N            | N            | U            | N            |
+| ASUS     | ROG STRIX X870E-E GAMING WIFI       | NCT6799D-R | N            | N            | Y            | N            |
+| ASUS     | ROG STRIX X870E-E GAMING WIFI7 NEO  | NCT6799D-R | L            | N            | L            | N            |
+| ASUS     | ROG STRIX X870E-E GAMING WIFI7 R2   | NCT6799D-R | N            | N            | U            | N            |
+| ASUS     | ROG STRIX X870E-H GAMING WIFI7      | NCT6799D-R | N            | N            | Y            | N            |
 | ASUS     | ROG STRIX Z270-I GAMING             | NCT6793D   | L            | N            | L            | N            |
 | ASUS     | ROG STRIX Z270E GAMING              | NCT6793D   | L            | N            | L            | N            |
 | ASUS     | ROG STRIX Z270F GAMING              | NCT6793D   | L            | N            | L            | N            |
@@ -774,9 +773,9 @@ use hash of asl instead dsl
 | ASUS     | TUF GAMING X570-PRO WIFI II         | NCT6798D-R | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING X670E-PLUS               | NCT6799D-R | N            | N            | Y            | N?           |
 | ASUS     | TUF GAMING X670E-PLUS WIFI          | NCT6799D-R | N            | N            | Y            | N            |
-| ASUS     | TUF GAMING X870-PLUS WIFI           |            | N            | N            | U            | N            |
-| ASUS     | TUF GAMING X870-PRO WIFI7 W NEO     |            | N            | N            | U            | N            |
-| ASUS     | TUF GAMING X870E-PLUS WIFI7         |            | N            | N            | U            | N            |
+| ASUS     | TUF GAMING X870-PLUS WIFI           | NCT6799D-R | N            | N            | U            | N            |
+| ASUS     | TUF GAMING X870-PRO WIFI7 W NEO     | NCT6799D-R | N            | N            | U            | N            |
+| ASUS     | TUF GAMING X870E-PLUS WIFI7         | NCT6799D-R | N            | N            | U            | N            |
 | ASUS     | TUF GAMING Z490-PLUS                | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING Z490-PLUS (WI-FI)        | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF GAMING Z590-PLUS                | NCT6798D   | N            | N            | Y            | N            |
@@ -807,7 +806,7 @@ use hash of asl instead dsl
 | ASUS     | TUF Z390-PRO GAMING                 | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF Z390M-PRO GAMING                | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | TUF Z390M-PRO GAMING (WI-FI)        | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | W480/SYS                            |            | N            | N            | Y            | N            |
+| ASUS     | W480/SYS                            | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | WS C246 PRO                         |            | L            | N            | L            | N            |
 | ASUS     | WS C246M PRO                        |            | L            | N            | L            | N            |
 | ASUS     | WS C422 DC                          |            | L            | N            | L            | N            |
@@ -835,9 +834,9 @@ use hash of asl instead dsl
 | ASUS     | X570UD                              |            | L            | N            | L            | N            |
 | ASUS     | X570ZD                              |            | L            | N            | L            | N            |
 | GIGABYTE | X79-UP4                             |            | N            | N            | N            | N            |
-| ASUS     | X870 AYW GAMING WIFI W              |            | N            | N            | U            | N            |
-| ASUS     | X870 MAX GAMING WIFI7               |            | N            | N            | U            | N            |
-| ASUS     | X870 MAX GAMING WIFI7 W             |            | N            | N            | U            | N            |
+| ASUS     | X870 AYW GAMING WIFI W              | NCT6799D-R | N            | N            | U            | N            |
+| ASUS     | X870 MAX GAMING WIFI7               | NCT6799D-R | N            | N            | U            | N            |
+| ASUS     | X870 MAX GAMING WIFI7 W             | NCT6799D-R | N            | N            | U            | N            |
 | ASUS     | X99-E WS                            |            | N            | N            | P            | N            |
 | ASUS     | X99-E WS/USB 3.1                    | NCT6791D   | N            | N            | P            | N            |
 | ASUS     | X99-E-10G WS                        |            | F            | N            | F            | N            |

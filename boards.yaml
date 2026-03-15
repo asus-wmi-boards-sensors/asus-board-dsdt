@@ -7261,7 +7261,7 @@ MAXIMUS VIII GENE:
   asus_wmi: N
   asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
-  bridge: ''
+  bridge: Z170
   gigabyte_wmi: N
   hash:
   - 891b658e12969cf4c58b878ef6634223
@@ -22887,7 +22887,7 @@ PRIME X870-P:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -22983,7 +22983,7 @@ PRIME X870-P WIFI:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -29469,7 +29469,7 @@ Pro WS WRX90E-SAGE SE:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6798D
   system_name: ''
   upstreamed_serie: false
   wmi_methods:
@@ -31565,7 +31565,7 @@ ROG CROSSHAIR X870E APEX:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -31661,7 +31661,7 @@ ROG CROSSHAIR X870E DARK HERO:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -31757,7 +31757,7 @@ ROG CROSSHAIR X870E EXTREME:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -31853,7 +31853,7 @@ ROG CROSSHAIR X870E GLACIAL:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -31949,7 +31949,7 @@ ROG CROSSHAIR X870E HERO:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -32045,7 +32045,7 @@ ROG CROSSHAIR X870E HERO BTF:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -41425,7 +41425,7 @@ ROG STRIX X870-A GAMING WIFI:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -41521,7 +41521,7 @@ ROG STRIX X870-F GAMING WIFI:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -41617,7 +41617,7 @@ ROG STRIX X870-I GAMING WIFI:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -41715,7 +41715,7 @@ ROG STRIX X870E-E GAMING WIFI:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -41723,6 +41723,28 @@ ROG STRIX X870E-E GAMING WIFI:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
   - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+ROG STRIX X870E-E GAMING WIFI7 NEO:
+  aliases: []
+  asus_dispatcher: []
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: N
+  asus_nct6775_mutex: ''
+  asus_nct6775_region: ''
+  asus_port290: []
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870E
+  gigabyte_wmi: N
+  known_good: []
+  known_good_nct6775: []
+  links: []
+  superio: NCT6799D-R
+  system_name: ''
+  upstreamed_serie: true
+  wmi_methods: []
 ROG STRIX X870E-E GAMING WIFI7 R2:
   aliases:
   - ROG-STRIX-X870E-E-GAMING-WIFI7-R2-ASUS-2102
@@ -41811,7 +41833,7 @@ ROG STRIX X870E-E GAMING WIFI7 R2:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -41907,7 +41929,7 @@ ROG STRIX X870E-H GAMING WIFI7:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -52651,7 +52673,7 @@ TUF GAMING X870-PLUS WIFI:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -52747,7 +52769,7 @@ TUF GAMING X870-PRO WIFI7 W NEO:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -52843,7 +52865,7 @@ TUF GAMING X870E-PLUS WIFI7:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -55212,7 +55234,7 @@ W480/SYS:
   known_good_nct6775:
   - ASUSWMI
   links: []
-  superio: ''
+  superio: NCT6798D
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -56155,7 +56177,7 @@ X870 AYW GAMING WIFI W:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -56251,7 +56273,7 @@ X870 MAX GAMING WIFI7:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:
@@ -56347,7 +56369,7 @@ X870 MAX GAMING WIFI7 W:
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6799D-R
   system_name: ''
   upstreamed_serie: true
   wmi_methods:

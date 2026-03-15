@@ -645,6 +645,7 @@ ASUS_BOARDS = {
         "TUF GAMING X870E-PLUS WIFI7",
     ],
     "X99": ["RAMPAGE V EDITION 10", "RAMPAGE V EXTREME", "STRIX X99 GAMING"],
+    "Z170": ["MAXIMUS VIII GENE"],
     "Z270": [
         "MAXIMUS IX APEX",
         "MAXIMUS IX CODE",
@@ -929,3 +930,14 @@ BRIDGE_CHIPSETS = [
     # AMD Ryzen Z1 Extreme
     "AMD 14e8",
 ]
+
+ASUS_CHIPSETS_NCT6775 = {
+    "B560": "NCT6798D",
+    "B560M": "NCT6798D",
+    "W480": "NCT6798D",
+    "WRX90": "NCT6798D",
+    "X870": "NCT6799D-R",
+    "X870E": "NCT6799D-R",
+    "X99": "NCT6791D",
+    "Z170": "NCT6793D",
+}
