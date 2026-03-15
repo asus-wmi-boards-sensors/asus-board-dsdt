@@ -5,7 +5,6 @@ import yaml
 import hashlib
 from utils import load_linuxhw_DMI, file_write_with_changes, load_board_flags
 
-
 if __name__ == "__main__":
     boards_flags = load_board_flags()
     board_desc = load_linuxhw_DMI()

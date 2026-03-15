@@ -27028,7 +27028,7 @@ Pro WS WRX90E-SAGE SE:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -37606,6 +37606,45 @@ ROG STRIX X670E-I GAMING WIFI:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+ROG STRIX X870E-E GAMING WIFI:
+  aliases:
+  - ROG-STRIX-X870E-E-GAMING-WIFI-ASUS-0000
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: X870E
+  gigabyte_wmi: N
+  hash:
+  - cd82ad62e2bf62cc213adeb99c83b0c9
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
 ROG STRIX Z270-I GAMING:
   aliases: []
   asus_dispatcher: []
@@ -49638,6 +49677,46 @@ TUF Z390M-PRO GAMING (WI-FI):
   superio: NCT6798D
   system_name: ''
   upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+W480/SYS:
+  aliases:
+  - W480-SYS-ASUS-0000
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.LPCB.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: Y
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: W480
+  gigabyte_wmi: N
+  hash:
+  - a3a56e945bf09d1c4bd02e6fd659252c
+  known_good:
+  - ASUSWMI
+  known_good_nct6775:
+  - ASUSWMI
+  links: []
+  superio: ''
+  system_name: ''
+  upstreamed_serie: false
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102

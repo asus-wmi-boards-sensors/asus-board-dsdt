@@ -168,7 +168,8 @@ static inline int nct6775_asuswmi_write(u8 bank, u8 reg, u8 val)
 
 static inline int nct6775_asuswmi_read(u8 bank, u8 reg, u8 *val)
 {
-	u32 ret, tmp = 0;
+	u32 tmp = 0;
+	int ret;
 
 	ret = nct6775_asuswmi_evaluate_method(ASUSWMI_METHODID_RHWM, bank,
 					      reg, 0, &tmp);
@@ -1267,6 +1268,7 @@ static const char * const asus_wmi_boards[] = {
 	"TUF Z390-PRO GAMING",
 	"TUF Z390M-PRO GAMING",
 	"TUF Z390M-PRO GAMING (WI-FI)",
+	"W480/SYS", // No feedback
 	"WS Z390 PRO",
 	"Z490-GUNDAM (WI-FI)",
 };
@@ -1415,6 +1417,7 @@ static const char * const asus_msi_boards[] = {
 	"ROG STRIX X670E-E GAMING WIFI",
 	"ROG STRIX X670E-F GAMING WIFI",
 	"ROG STRIX X670E-I GAMING WIFI",
+	"ROG STRIX X870E-E GAMING WIFI", // No feedback
 	"ROG STRIX Z590-A GAMING WIFI",
 	"ROG STRIX Z590-A GAMING WIFI II",
 	"ROG STRIX Z590-E GAMING WIFI",

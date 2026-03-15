@@ -18,7 +18,6 @@ from asl_parser import (
 from board_const import NCT6775_CHIPS, ASUS_BOARDS, BRIDGE_CHIPSETS
 from utils import load_linuxhw_DMI, file_write_with_changes, load_board_flags
 
-
 LINKS = []
 
 # Upstreamed ec
@@ -246,6 +245,7 @@ NCT6775_BOARDS = [
     "TUF Z390M-PRO GAMING",
     "TUF Z390M-PRO GAMING (WI-FI)",
     "WS Z390 PRO",
+    "W480/SYS",
     "Z490-GUNDAM (WI-FI)",
     # B650 style
     "B560M-P",
@@ -342,6 +342,7 @@ NCT6775_BOARDS = [
     "Pro WS W680-ACE IPMI",
     "Pro WS W790-ACE",
     "Pro WS W790E-SAGE SE",
+    "Pro WS WRX90E-SAGE SE",
     "ProArt B650-CREATOR",
     "ProArt B660-CREATOR D4",
     "ProArt B760-CREATOR D4",
@@ -388,6 +389,8 @@ NCT6775_BOARDS = [
     "ROG STRIX X670E-E GAMING WIFI",
     "ROG STRIX X670E-F GAMING WIFI",
     "ROG STRIX X670E-I GAMING WIFI",
+    "ROG STRIX X870E-E GAMING WIFI",
+    "ROG STRIX X870E-H GAMING WIFI7",
     "ROG STRIX Z590-A GAMING WIFI",
     "ROG STRIX Z590-A GAMING WIFI II",
     "ROG STRIX Z590-E GAMING WIFI",
@@ -635,6 +638,7 @@ BOARDNAME_CONVERT = {
     "PRIME H310-PLUS R2": "PRIME H310-PLUS R2.0",
     "PRO WS TRX50-SAGE-WIFI": "Pro WS TRX50-SAGE WIFI",
     "PRO WS WRX90E-SAGE-SE": "Pro WS WRX90E-SAGE SE",
+    "W480-SYS": "W480/SYS",
 }
 
 ASUS_DISPATCHER = "WMBD"
@@ -735,11 +739,13 @@ ASUS_WIFI_NO_CONVERT = [
     "B650",
     "B660",
     "B760",
+    "B850",
     "H510",
     "H570",
     "H670",
     "H770",
     "X670",
+    "X870E",
     "Z590",
     "Z690",
     "Z790",

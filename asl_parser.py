@@ -1,6 +1,5 @@
 import string
 
-
 # Valid variable or function name
 ASL_VALID_NAME = string.ascii_letters + string.digits + "_"
 # operation with parameter
