@@ -29471,7 +29471,7 @@ Pro WS WRX90E-SAGE SE:
   links: []
   superio: NCT6798D
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102

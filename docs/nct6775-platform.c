@@ -1393,7 +1393,7 @@ static const char * const asus_msi_boards[] = {
 	"Pro WS W790-ACE",
 	"Pro WS W790E-SAGE SE",
 	"Pro WS W880-ACE SE", // No feedback
-	"Pro WS WRX90E-SAGE SE", // No feedback
+	"Pro WS WRX90E-SAGE SE",
 	"ProArt B650-CREATOR",
 	"ProArt B660-CREATOR D4",
 	"ProArt B760-CREATOR D4",

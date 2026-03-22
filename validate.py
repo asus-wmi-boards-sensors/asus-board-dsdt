@@ -528,6 +528,7 @@ NCT6775_UPSTREAMED_CHIPSETS = [
     "W480",
     "W680",
     "W790",
+    "WRX90",
     "Q370",
     "Q470",
     "Q670",
