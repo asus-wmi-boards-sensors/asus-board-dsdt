@@ -1387,7 +1387,8 @@ static const char * const asus_msi_boards[] = {
 	"Pro WS 600M-CL",
 	"Pro WS 665-ACE",
 	"Pro WS B850M-ACE SE", // No feedback
-	"Pro WS TRX50-SAGE WIFI", // No feedback
+	"Pro WS TRX50-SAGE WIFI",
+	"Pro WS TRX50-SAGE WIFI A",
 	"Pro WS W680-ACE",
 	"Pro WS W680-ACE IPMI",
 	"Pro WS W790-ACE",
@@ -1651,6 +1652,8 @@ static const struct dmi_system_id asus_wmi_info_table[] = {
 	DMI_MATCH_ASUS_WMI_BOARD("PRIME H310M-F R2.0", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("PRIME H310M-K R2.0", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("PRIME H310M-R R2.0", &acpi_board_ILPC_MUTEX),
+	DMI_MATCH_ASUS_WMI_BOARD("PRIME TRX40-PRO", &acpi_board_SBRG_MUTEX),
+	DMI_MATCH_ASUS_WMI_BOARD("PRIME TRX40-PRO S", &acpi_board_SBRG_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("PRIME X399-A", &acpi_board_SBRG_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("PRIME Z270-A", &acpi_board_ILPC_MUTEX),
 	DMI_MATCH_ASUS_WMI_BOARD("PRO H310M-R R2.0 WI-FI", &acpi_board_ILPC_MUTEX),

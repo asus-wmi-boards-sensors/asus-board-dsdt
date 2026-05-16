@@ -388,8 +388,8 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | PRIME H770-PLUS D4                  | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | PRIME Q270M-C                       | NCT6793D   | F            | N            | F            | N            |
 | ASUS     | PRIME Q370M-C                       | NCT6798D   | N            | N            | Y            | N            |
-| ASUS     | PRIME TRX40-PRO                     | NCT6798D   | L            | N            | L            | N            |
-| ASUS     | PRIME TRX40-PRO S                   | NCT6798D   | L            | N            | L            | N            |
+| ASUS     | PRIME TRX40-PRO                     | NCT6798D   | N            | N            | P            | N            |
+| ASUS     | PRIME TRX40-PRO S                   | NCT6798D   | N            | N            | P            | N            |
 | ASUS     | PRIME X299 EDITION 30               | NCT6798D   | L            | N            | L            | N            |
 | ASUS     | PRIME X299-A                        | NCT6796D   | L            | N            | L            | N            |
 | ASUS     | PRIME X299-A II                     | NCT6798D   | L            | N            | L            | N            |
@@ -469,8 +469,8 @@ Datasheets for sensors are placed to [docs directory](docs).
 | ASUS     | Pro WS B850M-ACE SE                 |            | N            | N            | U            | N            |
 | ASUS     | Pro WS C246-ACE                     |            | L            | N            | L            | N            |
 | ASUS     | Pro WS C422-ACE                     |            | N            | N            | P            | N            |
-| ASUS     | Pro WS TRX50-SAGE WIFI              |            | N            | N            | U            | N?           |
-| ASUS     | Pro WS TRX50-SAGE WIFI A            |            | L            | N            | L            | L            |
+| ASUS     | Pro WS TRX50-SAGE WIFI              | NCT6798D   | N            | N            | Y            | N?           |
+| ASUS     | Pro WS TRX50-SAGE WIFI A            | NCT6798D   | N            | N            | Y            | N?           |
 | ASUS     | Pro WS W480-ACE                     | NCT6798D   | N            | N            | U            | N            |
 | ASUS     | Pro WS W680-ACE                     | NCT6798D   | N            | N            | Y            | N            |
 | ASUS     | Pro WS W680-ACE IPMI                | NCT6798D   | N            | N            | Y            | N            |

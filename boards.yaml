@@ -22054,49 +22054,85 @@ PRIME Q370M-C:
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME TRX40-PRO:
-  aliases: []
+  aliases:
+  - PRIME-TRX40-PRO-ASUS-2502
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: TRX40
   gigabyte_wmi: N
-  known_good: []
+  hash:
+  - 1fe519efcb7baa5541cbccc7785adbf5
+  - 20013dba693b4dcebbac3baf2d13d1e5
+  - 5b129379ea10f480c65d1a209f992d23
+  - 78e9ff49e1e49f8fad27b8e112bff358
+  - 8dfbf66970ac01f858c64705a0df1484
+  - 90dd8d983816506f76f126bfa4be3b37
+  - dfe1a7a21a5ffebc54e456c89a2915ce
+  - fdf0ab8bd8ea0d4fb3be5a4f34c061d6
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
   links: []
   superio: NCT6798D
   system_name: ''
   upstreamed_serie: false
-  wmi_methods: []
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME TRX40-PRO S:
-  aliases: []
+  aliases:
+  - PRIME-TRX40-PRO-S-ASUS-2502
   asus_dispatcher: []
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: N
-  asus_nct6775_mutex: ''
+  asus_nct6775: P
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: ''
-  asus_port290: []
+  asus_port290:
+  - IO2B
+  - IOHB
+  - IOHW
   asus_wmi: N
-  asus_wmi_entrypoint: N
+  asus_wmi_entrypoint: Y
   board_producer: ASUSTeK COMPUTER INC.
   bridge: TRX40
   gigabyte_wmi: N
-  known_good: []
+  hash:
+  - 1fe519efcb7baa5541cbccc7785adbf5
+  - 20013dba693b4dcebbac3baf2d13d1e5
+  - 5b129379ea10f480c65d1a209f992d23
+  - 78e9ff49e1e49f8fad27b8e112bff358
+  - 8dfbf66970ac01f858c64705a0df1484
+  - 90dd8d983816506f76f126bfa4be3b37
+  - dfe1a7a21a5ffebc54e456c89a2915ce
+  - fdf0ab8bd8ea0d4fb3be5a4f34c061d6
+  known_good:
+  - ASUSWMI
   known_good_nct6775: []
   links: []
   superio: NCT6798D
   system_name: ''
   upstreamed_serie: false
-  wmi_methods: []
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:466747A0-70EC-11DE-8A39-0800200C9A66:4244:0102
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 PRIME X299 EDITION 30:
   aliases: []
   asus_dispatcher: []
@@ -28433,7 +28469,9 @@ Pro WS C422-ACE:
   - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
 Pro WS TRX50-SAGE WIFI:
   aliases:
+  - Pro-WS-TRX50-SAGE-WIFI-ASUS-0701
   - Pro-WS-TRX50-SAGE-WIFI-ASUS-0702
+  - Pro-WS-TRX50-SAGE-WIFI-ASUS-1317
   asus_dispatcher:
   - BRHM
   - BWHM
@@ -28444,7 +28482,7 @@ Pro WS TRX50-SAGE WIFI:
   asus_ec: N
   asus_ec_mutex: ''
   asus_ite87_mutex: ''
-  asus_nct6775: U
+  asus_nct6775: Y
   asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
   asus_nct6775_region: SHWM
   asus_port290:
@@ -28458,45 +28496,181 @@ Pro WS TRX50-SAGE WIFI:
   hash:
   - 00b16fc57ac48e9662e626f47eb02b20
   - 050d40a4da45924f7300ef8631e6f394
+  - 0d9d29277d7f2496814de73b9cc828d2
   - 0eab5662b304f694fc1189173afb3472
+  - 1505b8666fa5298fb35eaef99aca6c58
   - 153331a317e671aae7abcbc409596d61
   - 17e8a32f21066b472d3661699212f9a7
+  - 1b5ca13315b3f93b864e5659582f818a
+  - 1f46e24eeafc384f8c7307911b335029
+  - 206a5f75fb4fca920ab126d75c187702
+  - 214ca58661b73a6868429ebd6d944e27
+  - 247adb4f3484ec605965e62b80addb20
   - 2bdc8b846546dbb3bed9cdad9ee25502
   - 2cc7ce514d2a3873079d5d0003bc10cc
+  - 2e7dd19de515f293e91929117fb8b4d0
+  - 30d1989e268949e62f524e741467d1e1
   - 3b25c586e51ed2a3a5ddf7e2327a7608
+  - 3cd7bff4ff6965d7dd09d4db81d15ce1
+  - 3f10669b98643eba92a44ed87a724373
+  - 3fe6ab54737348a1628b377d8cc97b56
+  - 43b65021ec367837b4348b20c5e3e609
+  - 447d0c1733a4dae512f069793ada551c
+  - 487017b5326544ed839fc08eff7dc25f
   - 49f0c6025a9b266e93b2466e086cd19c
+  - 4c613fe36f40022f863bb93b80cdb415
+  - 4dd8475a51d614e3e6d8e9c90e030acd
   - 4f570c17a23c89e61624b25b08f3dcf2
   - 5027eaa9db337e19e635f91e5dff0633
+  - 512c8cee7ce4da608e1ffbf09fde8611
   - 5376432609f9c450d16c8a341a8e651e
+  - 5626f4df80156e0aab34e4de33853f93
+  - 5918eb1a50dc60b5cda3bced6d85702a
+  - 5a23c2a3791157736b8a4cfb294dc385
   - 5bd15814e5e1cb97448ff8051a3d0024
   - 61da65acaf883b2beeb4c417df9e0ae5
+  - 61ef82b4a0c77fc3bffd6a39ec2ab7e4
   - 6606c4fc47abfdd3e92d4413e48e9c4a
+  - 668c20b741cd1e2f9efcd348ee97557e
+  - 6af0fcb2aded594dfeea8901376e60e3
+  - 72f9e21cf873e2f48487de57f5b20770
+  - 7685ecf765f7be82c60faf1060536470
   - 77e3c107a3365d94bb506c158a8cc8e8
+  - 78076e762c6174a2a041d48b3d10d707
   - 7c1bfb5597602bc59dae60cf806023de
+  - 8287b63159a039f3a5743c385aac34ee
   - 845996e858458f69e75d95e1eeb3b7dd
   - 86652374aa9af042f5d6916886d9f449
   - 868204f63ae6ca4917f572329ba4d535
+  - 901615179628b3058e599e884cd2ccf6
+  - 90ec99a268e2d11bf381530a798383a8
+  - 95bb6939857bf89a3183c40c92707d0e
+  - 97fc42f8de1db4a2956f9aa92b28cb3a
+  - 99aa5d246188ee7d9b6c42757b08e585
+  - 9d2a8fbfc1b5f1e712111870ea56e861
+  - 9dc98b7835f68fa7cd4fa47de62da32c
   - 9e419d0c8c4808a9fb04050b1ef7307d
   - a013c2b2a60f89f550bd271d66bd1cb8
+  - a07d2cbfcbf2ee2e9af44eb659262f02
   - a8e740602d878df8d483d05a2d3e5279
   - a92bc9abcc1f30c00439ef03bb7ec31a
+  - ac60773683176c2db1c67189233dda8e
+  - b5617b923b9c17137008bb2b29d31d87
+  - b79924a5d9b879005b73f63bc289ac0e
+  - bbb5208bc8333da2d309aa56f80743f3
   - c17e1df28128e4a292fec494509f163e
   - c22916e3c90f3ce55265ab88dcb39e84
+  - c3c43a2840ff6f32e4058be31bd28086
   - c65b1cedca9de5f3c4ec7809538e95b5
+  - ca74040055aca460e7b132348c1e0aa1
+  - cb74787fd74804b4fd5d4e7229a48f73
+  - cb9f1adff34ee8f222c58b0c3d9203f7
+  - cd964f41e85b1d21843b62ff959a1edd
   - ce2d11aaef80ee4aa04a8ddad785d198
   - cf278b323d9e384326361cff0029ee84
+  - cf3e9f9a754388fff68385f8d59be68e
+  - d34380670bf3ac18bfd7418df3b56f12
+  - d6a83429946e72e539de4687522fa7bc
+  - d8f167012fca2cbf505f1401e5b985fe
+  - db2fc38d3f3ebf296ffcfffc49bf3cbc
   - dddb431954ee9afa9ff1ccd0a9324e1d
+  - e5f277c48bf34d6cc34f4ae7f87b24c8
   - e750edc5c66414b9a45e191c8dea29c7
   - ec84da954b8d7d8f395be81aa0e7971a
+  - f02e4695cbce2abe246275bbf8df5cbe
+  - f31648edef93f312e79fb9c599696901
+  - f39912a17520e6f09cd4317b639e37e0
+  - fc2dbf88a7239b27a9641e98a0501590
+  - fc408d576e6644624e8241ef583a7aee
   - fd1327f63376edf4d704d00a303ee1dd
   known_good:
   - AsusMbSwInterface
   known_good_nct6775:
   - AsusMbSwInterface
   links: []
-  superio: ''
+  superio: NCT6798D
   system_name: ''
-  upstreamed_serie: false
+  upstreamed_serie: true
+  wmi_methods:
+  - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
+  - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
+  - _WDG:ABBC0F72-8EA1-11D1-00A0-C90629100000:D200:0108
+  - _WDG:B82BB115-43AE-4B35-B79D-BD6416ABC381:4243:0102
+Pro WS TRX50-SAGE WIFI A:
+  aliases:
+  - Pro-WS-TRX50-SAGE-WIFI-A-ASUS-0617
+  asus_dispatcher:
+  - BRHM
+  - BWHM
+  - RHWM
+  - RSIO
+  - WHWM
+  - WSIO
+  asus_ec: N
+  asus_ec_mutex: ''
+  asus_ite87_mutex: ''
+  asus_nct6775: Y
+  asus_nct6775_mutex: \_SB.PCI0.SBRG.SIO1.MUT0
+  asus_nct6775_region: SHWM
+  asus_port290:
+  - IO2B
+  - IOHW
+  asus_wmi: N
+  asus_wmi_entrypoint: N
+  board_producer: ASUSTeK COMPUTER INC.
+  bridge: TRX50
+  gigabyte_wmi: N
+  hash:
+  - 1505b8666fa5298fb35eaef99aca6c58
+  - 1f46e24eeafc384f8c7307911b335029
+  - 206a5f75fb4fca920ab126d75c187702
+  - 214ca58661b73a6868429ebd6d944e27
+  - 247adb4f3484ec605965e62b80addb20
+  - 2e7dd19de515f293e91929117fb8b4d0
+  - 30d1989e268949e62f524e741467d1e1
+  - 3cd7bff4ff6965d7dd09d4db81d15ce1
+  - 3fe6ab54737348a1628b377d8cc97b56
+  - 43b65021ec367837b4348b20c5e3e609
+  - 447d0c1733a4dae512f069793ada551c
+  - 487017b5326544ed839fc08eff7dc25f
+  - 5626f4df80156e0aab34e4de33853f93
+  - 5918eb1a50dc60b5cda3bced6d85702a
+  - 5a23c2a3791157736b8a4cfb294dc385
+  - 61ef82b4a0c77fc3bffd6a39ec2ab7e4
+  - 668c20b741cd1e2f9efcd348ee97557e
+  - 6af0fcb2aded594dfeea8901376e60e3
+  - 72f9e21cf873e2f48487de57f5b20770
+  - 78076e762c6174a2a041d48b3d10d707
+  - 8287b63159a039f3a5743c385aac34ee
+  - 87130f16a73933a88e98abfd5b60e141
+  - 901615179628b3058e599e884cd2ccf6
+  - 90ec99a268e2d11bf381530a798383a8
+  - 95bb6939857bf89a3183c40c92707d0e
+  - 99aa5d246188ee7d9b6c42757b08e585
+  - 9d2a8fbfc1b5f1e712111870ea56e861
+  - b5617b923b9c17137008bb2b29d31d87
+  - b79924a5d9b879005b73f63bc289ac0e
+  - c109f9c577c2224b11eada5e8765dbed
+  - c3c43a2840ff6f32e4058be31bd28086
+  - ca74040055aca460e7b132348c1e0aa1
+  - cb74787fd74804b4fd5d4e7229a48f73
+  - cb9f1adff34ee8f222c58b0c3d9203f7
+  - cd964f41e85b1d21843b62ff959a1edd
+  - cf3e9f9a754388fff68385f8d59be68e
+  - d34380670bf3ac18bfd7418df3b56f12
+  - d8f167012fca2cbf505f1401e5b985fe
+  - db2fc38d3f3ebf296ffcfffc49bf3cbc
+  - f39912a17520e6f09cd4317b639e37e0
+  - fc2dbf88a7239b27a9641e98a0501590
+  - fc408d576e6644624e8241ef583a7aee
+  known_good:
+  - AsusMbSwInterface
+  known_good_nct6775:
+  - AsusMbSwInterface
+  links: []
+  superio: NCT6798D
+  system_name: ''
+  upstreamed_serie: true
   wmi_methods:
   - _WDG:05901221-D566-11D1-B2F0-00A0C9062910:4D4F:0100
   - _WDG:97845ED0-4E6D-11DE-8A39-0800200C9A66:4243:0102
